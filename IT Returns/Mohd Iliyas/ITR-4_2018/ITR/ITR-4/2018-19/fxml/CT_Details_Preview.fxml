@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0"
+			spacing="0.0">
+			<children>
+             <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>
+					<Label focusTraversable="true" style="-fx-padding:0 0 0 300;" prefHeight="20" prefWidth="1060" styleClass="h1" alignment="center" text="Schedule CT Details of Cash Transactions during the year" wrapText="true">
+						<font>
+							<Font name="Arial Bold" size="16.0" />
+						</font>
+					</Label>
+					<Label text="&#10;" />
+				</children>
+      		</HBox>
+			<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+					<children>
+						<Label focusTraversable="true" layoutX="78.0" prefHeight="20"
+							prefWidth="960" styleClass="h2"
+							text="A. Loan or deposit or any specified sum taken or accepted exceeding the limit specified in section 269SS"
+							wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="16.0" />
+							</font>
+						</Label>
+						<!-- <Label focusTraversable="true" fx:id="immovableAssetFlag" prefHeight="32"
+							prefWidth="100" text="" visible="false"/> -->
+					</children>
+			</HBox>
+
+				<HBox GridPane.columnIndex="0" GridPane.rowIndex="1"
+					style="-fx-padding: 0 0 40 0;">
+					<children>
+						<fx:include id="Content" source="CT_Loan_Preview(1).fxml" />
+					</children>
+				</HBox>
+
+				<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+					<children>
+						<Label focusTraversable="true" layoutX="78.0" prefHeight="20"
+							prefWidth="960" styleClass="h2"
+							text="B. Receipt of an amount exceeding the limit specified in section 269ST"
+							wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="16.0" />
+							</font>
+						</Label>
+						<!-- <Label focusTraversable="true" fx:id="immovableAssetFlag" prefHeight="32"
+							prefWidth="100" text="" visible="false"/> -->
+					</children>
+				</HBox>
+
+				<HBox GridPane.columnIndex="0" GridPane.rowIndex="1"
+					style="-fx-padding: 0 0 40 0;">
+					<children>
+						<fx:include id="Content" source="CT_Receipt_Preview(2).fxml" />
+					</children>
+				</HBox>
+
+				<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+					<children>
+						<Label focusTraversable="true" layoutX="78.0" prefHeight="20" styleClass="h2"
+							prefWidth="960"
+							text="C. Repayment of loan or deposit or any specified advance exceeding the limit specified in section 269T"
+							wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="16.0" />
+							</font>
+						</Label>
+						<!-- <Label focusTraversable="true" fx:id="immovableAssetFlag" prefHeight="32"
+							prefWidth="100" text="" visible="false"/> -->
+					</children>
+				</HBox>
+
+				<HBox GridPane.columnIndex="0" GridPane.rowIndex="1"
+					style="-fx-padding: 0 0 40 0;">
+					<children>
+						<fx:include id="Content" source="CT_Repayment_Preview(3).fxml" />
+					</children>
+				</HBox>
+
+				<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+					<children>
+						<Label focusTraversable="true" layoutX="78.0" prefHeight="20" styleClass="h2"
+							prefWidth="960"
+							text="D. Repayment of loan or deposit or any specified advance exceeding the limit specified in section 269T, made during the year"
+							wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="16.0" />
+							</font>
+						</Label>
+						<!-- <Label focusTraversable="true" fx:id="immovableAssetFlag" prefHeight="32"
+							prefWidth="100" text="" visible="false"/> -->
+					</children>
+				</HBox>
+
+				<HBox GridPane.columnIndex="0" GridPane.rowIndex="1"
+					style="-fx-padding: 0 0 40 0;">
+					<children>
+						<fx:include id="Content" source="CT_Made_ThisYear_Preview(4).fxml" />
+					</children>
+				</HBox>
+
+				<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+					<children>
+						<Label focusTraversable="true" layoutX="78.0" prefHeight="40"
+							prefWidth="1060" styleClass="h2"
+							text="E. Repayment of loan or deposit or any specified advance exceeding the limit specified in section 269T, received during the year"
+							wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="16.0" />
+							</font>
+						</Label>
+						<!-- <Label focusTraversable="true" fx:id="immovableAssetFlag" prefHeight="32"
+							prefWidth="100" text="" visible="false"/> -->
+					</children>
+				</HBox>
+
+				<HBox GridPane.columnIndex="0" GridPane.rowIndex="1"
+					style="-fx-padding: 0 0 100 0;">
+					<children>
+						<fx:include id="Content" source="CT_Received_ThisYear_Preview(5).fxml" />
+					</children>
+				</HBox>
+			</children>
+		</VBox>
+	</children>
+</AnchorPane>

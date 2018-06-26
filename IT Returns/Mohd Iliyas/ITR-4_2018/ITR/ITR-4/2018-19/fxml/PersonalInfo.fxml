@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane  fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.itr4.ctrl.personalInfoSize">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="80.0" layoutY="0.0" spacing="0.0">
+    <children>
+     	
+   <TextFlow >
+  		<padding>
+         <Insets bottom="0.0" left="924.0" right="0.0" top="0.0"/>
+     </padding>
+	 					<Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			           				 <font>
+										<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+									</font>
+									
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="backColor" alignment="TOP_RIGHT" onKeyTyped="#backColor"  onAction="#backColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="reduceButton" alignment="TOP_RIGHT" onKeyTyped="#reduceSize" onMouseClicked="#increaseSize" onAction="#reduceSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetFontSize" alignment="TOP_RIGHT" onKeyTyped="#resetFontSize" onMouseClicked="#resetFontSize"  onAction="#resetFontSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	
+	 </TextFlow>
+   
+     <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="850">
+         			<children>
+						
+						<Label fx:id="label6"	labelFor="$firstTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="1" text="First Name"  wrapText="true"/>
+						<ValTextField  fx:id="firstTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="1" maxLength="25" target="itr.itr4.personalInfo.assesseeName.firstName"/>
+						
+						<Label fx:id="label2" prefHeight="17" minWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="2" text="Middle Name" labelFor="$midTextField"  />
+						<ValTextField  fx:id="midTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="2" maxLength="25" target="itr.itr4.personalInfo.assesseeName.middleName"/>
+						
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0 ;-fx-background-insets:  4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="1" prefHeight="40" style="-fx-color: ;"/>	          
+						
+						<TextFlow  GridPane.columnIndex="3" GridPane.rowIndex="2">
+								 	<Label fx:id="label7" text="Last Name" labelFor="$lastTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<ValTextField  fx:id="lastTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="2" maxLength="75" target="itr.itr4.personalInfo.assesseeName.surNameOrOrgName"/>
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="1">
+								 	<Label fx:id="label1" text="PAN" labelFor="$panTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<ValTextField  fx:id="panTextField" maxLength="10" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="1" target="itr.itr4.personalInfo.pan" autoCaps="true"/>
+						
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="3" prefHeight="40" style="-fx-color: ;"/>	          
+						
+						
+						<Label fx:id="label3" 	minHeight="54" minWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="3" text="Aadhaar Number (Please enter the Aadhaar Number which is linked for your PAN in e-Filing portal)" labelFor="$adhTextField"  wrapText="true"/>
+						<ValTextField  fx:id="adhTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="3" maxLength="12" target="itr.itr4.personalInfo.aadhaarCardNo" allowedChars="[0-9]" />						
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Label fx:id="label4" text="Date of Birth (DD/MM/YYYY)" labelFor="$DOBTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<ValDatePicker fx:id="DOBTextField" promptText="DD/MM/YYYY" prefWidth="600.0" GridPane.columnIndex="1" GridPane.rowIndex="4" target="itr.itr4.personalInfo.dob"/>
+												
+					
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="5">
+								 	<Label fx:id="label5" text="Email Address" labelFor="$emailTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<ValTextField  fx:id="emailTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="5" maxLength="125" target="itr.itr4.personalInfo.address.emailAddress"/>
+						
+						
+						
+					   
+						
+						<Label fx:id="label8"	minHeight="120" maxWidth="720" GridPane.columnIndex="3" GridPane.rowIndex="3" text="Aadhaar Enrolment Id [Note: All the digits in enrolment ID and Date and time of enrolment to be entered continuously. For example Enrolment ID: 1234/12345/12345 and Date/Time of enrollment: 01/12/2016 11:50:22 to be entered as 1234123451234501122016115022]" labelFor="$adhEnrollTextField"  wrapText="true"/>
+						<ValTextField  fx:id="adhEnrollTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="3" maxLength="28" target="itr.itr4.personalInfo.aadhaarEnrolmentId" allowedChars="[0-9]" />	
+						
+						 <Region GridPane.columnIndex="0" GridPane.rowIndex="6"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="5" prefHeight="40" style="-fx-color: ;"/>	          
+		
+													
+						<TextFlow  GridPane.columnIndex="3" GridPane.rowIndex="4">
+								 	<Label fx:id="label9" text="Mobile Number" labelFor="$mobTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>							
+						<ValTextField  fx:id="mobTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="4" maxLength="10" target="itr.itr4.personalInfo.address.mobileNo" allowedChars="[0-9]"/>
+					
+					    <Region GridPane.columnIndex="0" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="7" prefHeight="40" style="-fx-color: ;"/>	          
+						
+					</children>		
+		</GridPane>
+		
+		<VBox id="VBox" spacing="0.0">
+	                   <children>
+                        <Label fx:id="label10" prefHeight="17" prefWidth="500.0"  text="Address" styleClass="h3"/>
+                       </children>
+					</VBox>	
+						<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600">
+        			
+    				<children>
+    				
+    					<ValTextField fx:id="FlatTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="0" maxLength="50" target="itr.itr4.personalInfo.address.residenceNo"/>
+    					<ValTextField fx:id="Building" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="0" maxLength="50" target="itr.itr4.personalInfo.address.residenceName" />						
+						<ValTextField  fx:id="RoadTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="1" maxLength="50" target="itr.itr4.personalInfo.address.roadOrStreet"/>
+						<ValTextField fx:id="Area" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="1" maxLength="50" target="itr.itr4.personalInfo.address.localityOrArea"/>
+						<ValTextField  fx:id="TownTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="2" maxLength="50" target="itr.itr4.personalInfo.address.cityOrTownOrDistrict"/>						
+						<ValComboBox  fx:id="State" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="2" target="itr.itr4.personalInfo.address.stateCode"/>
+						<ValComboBox   fx:id="CountryTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="3" target="itr.itr4.personalInfo.address.countryCode"/>
+						<ValTextField  fx:id="Pincode" prefHeight="17" prefWidth="600" GridPane.columnIndex="4" GridPane.rowIndex="3" maxLength="6" target="itr.itr4.personalInfo.address.pincodee" allowedChars="[0-9]"/>	
+						<ValTextField  fx:id="zipcode" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="4" maxLength="8" target="itr.itr4.personalInfo.address.zipcode" disable="true" />
+						<ValCheckBox  fx:id="zipcode1"  GridPane.columnIndex="4" GridPane.rowIndex="4" target="itr.itr4.personalInfo.address.zipcodeCheck" disable="true" />	
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="0"  >
+								 	<Label fx:id="label11" text="Flat / Door / Block No" labelFor="$FlatTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<Label fx:id="label12" 	labelFor="$RoadTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="0" GridPane.rowIndex="1" text="Road / Street / Post Office"  />
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="2"  >
+								 	<Label fx:id="label13" text="Town / City / District" labelFor="$TownTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>						
+						
+						<TextFlow  GridPane.columnIndex="3" GridPane.rowIndex="2">
+								 	<Label fx:id="label14" text="State" labelFor="$State" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<Label fx:id="label33"	 labelFor="$Building" prefHeight="54" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="0" text="Name Of Premises / Building / Village"  wrapText="true"/>
+						
+						<TextFlow  GridPane.columnIndex="3" GridPane.rowIndex="1">
+								 	<Label fx:id="label15" text="Area / Locality" labelFor="$Area" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<Label fx:id="label16" text="Country" labelFor="$CountryTextField" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						<TextFlow  GridPane.columnIndex="3" GridPane.rowIndex="3">
+								 	<Label fx:id="label17" text="Pincode" labelFor="$Pincode" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Label fx:id="label18" text="Zipcode" labelFor="$zipcode" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						
+						<Label fx:id="label19"	  labelFor="$zipcode1" prefHeight="17" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="4" text="No Zip Code"  />
+					</children>		
+		</GridPane>
+		
+					
+        		<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600">	
+    				<children>
+    					
+						<ValComboBox fx:id="employerCatogary"  prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="0" target="itr.itr4.personalInfo.employerCategory"/>
+						<ValComboBox  fx:id="ResidStat" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="1" target="itr.itr4.filingStatus.residentialStatus"/>
+						<ValComboBox  fx:id="ReturnFiled" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="2" target="itr.itr4.filingStatus.returnFileSec"/>
+						<ValComboBox  fx:id="origOrRev" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="3" target="itr.itr4.filingStatus.returnType"/>											
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="0">
+								 	<Label fx:id="label20" text="Employer Category" labelFor="$employerCatogary" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="1">
+								 	<Label fx:id="label21" text="Residential Status" labelFor="$ResidStat" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="2">
+								 	<Label fx:id="label22" text="Return filed" labelFor="$ReturnFiled" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>					
+						
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<Label fx:id="label23" text="Whether original or revised return?" labelFor="$origOrRev" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>	
+						
+					</children>
+    				
+    				<children>
+    				<Label fx:id="label35" prefHeight="17" prefWidth="500.0" styleClass="h2" GridPane.columnIndex="0" GridPane.rowIndex="4" text="If under section: 139(5) - revised return:" />
+    				
+    					<ValTextField fx:id="OrigAckNo" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="5" maxLength="15" target="itr.itr4.filingStatus.receiptNo" disable="true"  allowedChars="[0-9]"/>						
+						<ValDatePicker fx:id="Date_orig" promptText="DD/MM/YYYY" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="6"  target="itr.itr4.filingStatus.origRetFiledDate" disable="true"/>
+						
+						<Label fx:id="label24"	labelFor="$OrigAckNo"      prefHeight="17" prefWidth="600" GridPane.columnIndex="0" GridPane.rowIndex="5" text="Original Acknowledgement Number"  />
+						<Label fx:id="label25"	labelFor="$Date_orig"	  prefHeight="17" prefWidth="600" GridPane.columnIndex="0" GridPane.rowIndex="6" text="Date of filing of Original Return(DD/MM/YYYY)"  />
+						
+						
+					</children>
+					<children>
+						<ValTextField fx:id="OrigAckNO2" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="8" maxLength="15" target="itr.itr4.filingStatus.ackNoOriginalReturn" allowedChars="[0-9]" disable="true"/>						
+						<ValDatePicker fx:id="Date_Orig2" promptText="DD/MM/YYYY" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="9"  target="itr.itr4.filingStatus.defRetOrigRetFiledDate" disable="true"/>
+						<ValTextField fx:id="NoticeNo" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="10" maxLength="23" target="itr.itr4.filingStatus.noticeNo" disable="true"/>						
+					<Label fx:id="label28"	focusTraversable="true"  prefHeight="17" prefWidth="1000" GridPane.columnIndex="0" GridPane.rowIndex="9" text="Date of filing of Original Return (DD/MM/YYYY)"  />
+						<ValDatePicker fx:id="Date_notice" promptText="DD/MM/YYYY" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="11" target="itr.itr4.filingStatus.noticeDateUnderSec" disable="true"/>
+						<ValComboBox  fx:id="porcivil" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="12" target="itr.itr4.filingStatus.portugeseCC5A"/>
+						<ValTextField fx:id="PanOfSpouse" prefHeight="17" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="13" maxLength="10" target="itr.itr4.filingStatus.panOfSpouse" disable="true"  autoCaps="true"/>	
+						
+    					<Label fx:id="label26" labelFor="$FirstTextField" prefHeight="17" prefWidth="800.0" styleClass="h2" GridPane.columnIndex="0" GridPane.rowIndex="7" text="If under section: 139(9) - return in response to defective return notice:" wrapText="true" />
+						<Label fx:id="label27" 	labelFor="$OrigAckNO2"	  prefHeight="17" prefWidth="1000" GridPane.columnIndex="0" GridPane.rowIndex="8" text="Original Acknowledgement Number" />						
+						
+						<Label fx:id="label29"	labelFor="$NoticeNo"	  prefHeight="17" prefWidth="1000" GridPane.columnIndex="0" GridPane.rowIndex="10" text="Notice Number" />						
+						<Label fx:id="label30"	 labelFor="$Date_notice"     prefHeight="17" prefWidth="1000" GridPane.columnIndex="0" GridPane.rowIndex="11" text="If filed in response to notice u/s 139(9)/142(1)/148/153A/153C,	enter the date of such notice"   wrapText="true"/>
+						
+							<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="12">
+								 	<Label fx:id="label31" text="Are you governed by Portuguese Civil Code as per section 5A ?" labelFor="$porcivil" />
+								  	<Label text="*" style="-fx-text-fill: red"/>
+						</TextFlow>						
+						<Label fx:id="label32"	 labelFor="$PanOfSpouse"     prefHeight="17" prefWidth="1000" GridPane.columnIndex="0" GridPane.rowIndex="13" text="If Yes, Fill PAN of the Spouse"  />
+															
+					</children>		
+		</GridPane>
+    </children>
+     </VBox>
+    </children>
+</AnchorPane>

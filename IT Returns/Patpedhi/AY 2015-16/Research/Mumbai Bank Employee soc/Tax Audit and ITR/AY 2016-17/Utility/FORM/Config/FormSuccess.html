@@ -1,0 +1,124 @@
+<html>
+    <head>
+	<style type="text/css">
+	#itrvPath{
+		background-color:#D3D3D3;
+		text-align:center;
+		width:100%;
+		padding:6px;
+	}
+	#fileSave{	
+		width:100%;
+		bottom:0;
+		position:fixed;
+	}
+	</style>
+	</head>
+    <body>
+        
+        <div id="form15CAId" style="display:none;"> 
+            Form <span id="form"></span> has been successfully uploaded and the Transaction ID is: <b><span id="trnasactionId"></span></b>. 
+            <br/>Acknowledgment Number is: <b><span id="ackNumber"></span></b><br/>
+            To view status/print, please login to e-Filng portal and go to the menu 'My Account->View Form 15CA'.
+        </div>
+        
+          <div id="formIndSub" style="display:none;"> 
+            Form <span id="formInd"></span> has been successfully uploaded and the Transaction ID is: <b><span id="trnasactionIdInd"></span></b>. 
+            <br/>An e-mail confirming the successful submission of your Form alongwith the Acknowledgment number has been sent to <b>
+                <span id="emailIdSpan"></span></b><br/>
+          
+        </div>
+        
+        <div id="result" style="display:none;">
+<h3 align="center">Form submitted successfully</h3>
+
+
+		<div class="mart10" id="asToCAUploadFormId" style="display:none;">
+				<p>
+					Your Form <b><span class="res_vals" id="res_formName_span_ToCA"></span></b>
+					has been uploaded and the Transaction ID is: <b><span class="res_vals" id="res_transactionId_span_ToCA"></span></b>
+					 
+				</p>
+				<p>
+					An email notification has been sent to <b><span class="res_vals" id="res_emailId_span_ToCA"></span></b>
+				and to <b><span class="res_vals" id="res_caEmailId_span_ToCA"></span></b>
+				</p>
+					<p>
+						The CA should Login to e-Filing portal, verify/approve the Form and submit. Only on submission by the CA, the e-Filing of the form will be complete
+					</p>
+					<p style="color:red;">
+				Note: If the CA does not verify/approve, the form will be considered as pending.
+				
+				</p>
+
+		</div>
+		
+		<div class="mart10" id="caUploadFormId" style="display:none;">
+				<p>
+					Your Form <b><span class="res_vals" id="res_formName_span"></span></b>
+					has been uploaded and the Transaction ID is: <b><span class="res_vals" id="res_transactionId_span"></span></b>
+					 
+				</p>
+				<p>
+					An email notification has been sent to <b><span class="res_vals" id="res_emailId_span"></span></b>
+				and to <b><span class="res_vals" id="res_caEmailId_span"></span></b>
+				</p>
+                                <p>
+				<br />The assessee should Login to e-Filing portal and accept/approve the Form. Only on acceptance/approval by the assessee, the e-filing of the form will be complete. 
+
+ 
+			</p>
+			<p style="color: red">Note: If the assessee does not accept/approve, the form will be considered as pending.</p>
+		</div>
+		
+		
+	
+
+</div>
+<br/>
+<div style="text-align:center;">
+<input type="button" value="Ok" name="backToSubmit" onclick="main.ok()" />
+</div>
+        
+        <script type="text/javascript">
+            function enableSuccessMsg(tranId,email,caEmailId,formName){
+               document.getElementById('form15CAId').style.display="none";
+               document.getElementById('formIndSub').style.display="none";
+               document.getElementById('result').style.display="block";
+                if(formName=="64" || formName=="64A" || formName=="64D"){
+                    document.getElementById('asToCAUploadFormId').style.display="block";
+                    document.getElementById('res_transactionId_span_ToCA').innerHTML=tranId;
+                    document.getElementById('res_emailId_span_ToCA').innerHTML=email;
+                    document.getElementById('res_formName_span_ToCA').innerHTML=formName;
+                    document.getElementById('res_caEmailId_span_ToCA').innerHTML=caEmailId;
+                }else{
+                    
+                    document.getElementById('caUploadFormId').style.display="block";
+                    document.getElementById('res_transactionId_span').innerHTML=tranId;
+                    document.getElementById('res_emailId_span').innerHTML=email;
+                    document.getElementById('res_formName_span').innerHTML=formName;
+                    document.getElementById('res_caEmailId_span').innerHTML=caEmailId;
+                }
+            }
+			
+			
+		function setValues(transactionId,formName,ackNo,emailID){
+                    if(formName=="15CA"){
+                        document.getElementById('form15CAId').style.display="block";
+                        document.getElementById('formIndSub').style.display="none";
+                        document.getElementById('ackNumber').innerHTML=ackNo;
+                        document.getElementById('trnasactionId').innerHTML=transactionId;
+                        document.getElementById('form').innerHTML=formName;
+                    }else{
+                        document.getElementById('form15CAId').style.display="none";
+                        document.getElementById('formIndSub').style.display="block";
+                        document.getElementById('emailIdSpan').innerHTML=emailID;
+                        document.getElementById('trnasactionIdInd').innerHTML=transactionId;
+                        document.getElementById('formInd').innerHTML=formName.substring(4);
+                    }
+                }	
+                      
+        </script>
+    </body>
+    
+</html>

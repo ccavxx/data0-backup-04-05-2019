@@ -1,0 +1,3789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<validators>
+
+
+<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DHealthInsurancePremiumUsr">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.healthInsurancePremium</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80D_Usr_error" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DMedicalExpenditureUsr">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.medicalExpenditure</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DMedicalExpenditureUsr.error" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DPreventiveHealthCheckUpUsr">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.preventiveHealthCheckUp</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DPreventiveHealthCheckUpUsr.error" />
+		</field-validator>
+</field>
+
+<!-- TDS2 VALIDATIONS Starts" -->
+
+		<field name="taxDeductedFrmIncomeController.type.tdsCreditName">
+				<field-validator short-circuit="true" type="dropdown">
+					<param name="required">Y</param>
+					<param name="dropDownKey">taxDeductedFrmIncomeController.type.tdsCreditName</param>
+					<message key="taxDeductedFrmIncomeController.type.tdsCreditName.error.required" />
+				</field-validator>
+		</field>
+		
+		<field name="taxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.tan">
+				<field-validator type="required" short-circuit="true">
+					<message
+						key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan.required.invalid" />
+				</field-validator>
+				<field-validator type="regex">
+					<param name="expression">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+					<message
+						key="TaxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.tan.invalid" />
+				</field-validator>
+		</field>
+			
+		<field name="taxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		        <field-validator type="required" short-circuit="true">
+					<message
+						key="taxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.req" />
+				</field-validator>
+				<field-validator short-circuit="true" type="stringlength">
+					<param name="maxLength">125</param>
+					<param name="minLength">0</param>
+					<message
+						key="TaxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.error.length" />
+				</field-validator>
+		</field>
+		
+		<field name="taxDeductedFrmIncomeController.type.uniqueTDSCerNo">
+				<field-validator short-circuit="true" type="stringlength">
+					<param name="maxLength">8</param>
+					<param name="minLength">0</param>
+					<message key="error.uniqueTDSCerNo.length" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">^[0-9A-Za-z]{8}$|^.{0,0}$</param>
+					<message key="error.uniqueTDSCerNo.invalid" />
+				</field-validator>
+		</field>
+		
+		<field name="taxDeductedFrmIncomeController.type.deductedYr">
+				<field-validator type="required" short-circuit="true">
+					<message key="taxDeductedFrmIncomeController.type.deductedYr.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.tan
+					</param>
+					<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+					<message key="taxDeductedFrmIncomeController.type.deductedYr.required" />
+				</field-validator>
+		</field>	
+		
+		<field name="taxDeductedFrmIncomeController.type.rcptDtls26AS">
+		       <field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="taxDeductedFrmIncomeController.type.rcptDtls26AS.required" />
+				</field-validator>
+		</field>
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedOwnHands">
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedOwnHands.required" />
+				</field-validator>		
+		</field>
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+		</field> 
+		
+		 <field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+			</field> 
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="itr.itr4.personalInfo.pan.error.length" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+		</field>
+		
+		<!-- <field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands">
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands.required" />
+				</field-validator>		
+		</field> -->
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedIncome">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+		</field> 
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedTDS">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+			</field> 
+		
+		<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="itr.itr4.personalInfo.pan.error.length" />
+				</field-validator>
+		</field>
+
+<!-- TDS2 VALIDATIONS ENDS" -->
+<!-- TDS3 VALIDATIONS Starts" -->
+       <field name="tdsDetails26QCIncomeController.type.tdsCreditName">
+				<field-validator short-circuit="true" type="dropdown">
+					<param name="required">Y</param>
+					<param name="dropDownKey">tdsDetails26QCIncomeController.type.tdsCreditName</param>
+					<message key="taxDeductedFrmIncomeController.type.tdsCreditName.error.required" />
+				</field-validator>
+		</field>
+		<field name="tdsDetails26QCIncomeController.type.paNofTenant">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="tdsDetails26QCIncomeController.type.paNofTenant.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>		
+		</field>
+		
+	<field name="tdsDetails26QCIncomeController.type.nameOfTenant">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="tdsDetails26QCIncomeController.type.nameOfTenant.required" />
+		</field-validator>		
+	</field>
+	
+	<field name="tdsDetails26QCIncomeController.type.uniqueTDSCerNo">
+				<field-validator short-circuit="true" type="stringlength">
+					<param name="maxLength">8</param>
+					<param name="minLength">0</param>
+					<message key="error.uniqueTDSCerNo.length" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">^[0-9A-Za-z]{8}$|^.{0,0}$</param>
+					<message key="error.uniqueTDSCerNo.invalid" />
+				</field-validator>
+	</field>
+		
+	<field name="tdsDetails26QCIncomeController.type.deductedYr">
+				<field-validator type="required" short-circuit="true">
+					<message key="tdsDetails26QCIncomeController.type.deductedYr.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.paNofTenant
+					</param>
+					<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+					<message key="tdsDetails26QCIncomeController.type.deductedYr.required" />
+				</field-validator>
+	</field>	
+		
+	<field name="tdsDetails26QCIncomeController.type.rcptDtls26AS">
+		       <field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="tdsDetails26QCIncomeController.type.rcptDtls26AS.required" />
+				</field-validator>
+	</field>
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedOwnHands">
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedOwnHands.required" />
+				</field-validator>		
+		</field>
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>	
+		</field> 
+		
+		 <field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+			</field> 
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN">
+				<!-- <field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="itr.itr4.personalInfo.pan.error.length" />
+				</field-validator> -->
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">O</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="itr.itr4.personalInfo.pan.error.length" />
+				</field-validator>
+		</field>
+		
+	<!-- 	<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands">
+				<field-validator short-circuit="true" type="conditionalReqString">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.tdsCreditName
+					</param>
+					<param name="conAttributeValue">S</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands.required" />
+				</field-validator>		
+		</field> -->
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedIncome">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+		</field> 
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedTDS">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN</param>
+					<param name="conAttributeValue">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome.required" />
+				</field-validator>
+			</field> 
+		
+		<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN">
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedIncome</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="conditionalRegex">
+					<param name="conAttributeName">tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedTDS</param>
+					<param name="conAttributeValue">^[0-9]{1,14}$</param>
+					<message key="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpousePAN.required" />
+				</field-validator>
+				<field-validator short-circuit="true" type="regex">
+					<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+					<message key="itr.itr4.personalInfo.pan.error.length" />
+				</field-validator>
+		</field>
+<!-- TDS3 VALIDATIONS ENDS" -->
+<!-- TAXPAIDANDVERIFICATION VALIDATIONS STARTS" -->
+
+		
+<field name="natureIncomeController.type.othAmount">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.othAmount.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message key="natureIncomeController.type.othAmount.length" />
+		</field-validator>
+	</field>
+
+	<field name="natureIncomeController.type.natureDesc">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.natureDesc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">natureIncomeController.type.natureDesc</param>
+			<message key="natureIncomeController.type.natureDesc.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="natureIncomeController.type.othNatOfInc">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">natureIncomeController.type.natureDesc</param>
+			<param name="conAttributeValue">OTH</param>
+			<message key="natureIncomeController.type.othNatOfInc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="natureIncomeController.type.othNatOfInc.error.length" />
+		</field-validator>
+	</field>
+     
+<!-- TAXPAIDANDVERIFICATION VALIDATIONS ENDS" -->
+<field name="itr.itr4.scheduleIT.totalTaxPayments">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleTCS.totalSchTCS">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.tdsDtls26QC.totalTDSDetails26QC">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.tdsDtls26QC.totalTDSDetails26QBQCPartB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.tdSonOthThanSals.totalTDSonOthThanSals">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.tdSonOthThanSals.totalTDSOthThanSalPartB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan.ree" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="TaxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl.tan.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.noBooksOfAccBS.totSrcOfFunds">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.tdSonSalaries.totalTDSonSalaries">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.noBooksOfAccBS.totApplnOfFunds">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.totalHeavyVehcl">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalHeavyVehcl.length" />
+		</field-validator>
+</field>
+
+
+
+	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80U">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80U.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80UUsrType</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80U.section80D_Usr_error" />
+		</field-validator>
+	</field>
+
+ 	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DD">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DD.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDUsrType</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DD.section80D_Usr_error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDUsrType</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">H</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DD.section80D_Usr_error" />
+		</field-validator>
+	</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDB">
+	<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DDB.length" />
+	 </field-validator>
+	  <field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDBUsrType</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDB.section80D_Usr_error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDBUsrType</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">H</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDB.section80D_Usr_error" />
+		</field-validator>
+</field> 
+
+
+ <field name="itr.itr4.filingStatus.residentialStatusfirm">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.personalInfo.status
+			</param>
+			<param name="conAttributeValue">F</param>
+			<message key="itr.itr4.filingStatus.residentialStatus.required" />
+		</field-validator>
+</field> 
+
+<field name="us44AeHeavyController.type.incomePerVehicle">
+		<field-validator type="required">
+			 <message key="us44AeHeavyController.type.incomePerVehicle.required" /> 
+		 </field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="minValue">7500</param>
+			<message key="us44AeHeavyController.type.incomePerVehicle.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.taxExmpIntIncDtls.agricultureIncome">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">5000</param>
+			<message key="itr.itr4.taxExmpIntIncDtls.agricultureIncome.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.turnoverGrsRcptForGST.gstrNo">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeMultipleNames">#itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank#itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode#itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt</param>
+		    <param name="minValue">2000000</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.gstrNo.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{2}[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}[A-Za-z0-9]{3}$</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.gstrNo.error" />
+		</field-validator>		
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleBP.turnoverGrsRcptForGST.amtTurnGrossRcptGST</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleBP.noBooksOfAccBS.gstrNo.required" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.scheduleBP.turnoverGrsRcptForGST.amtTurnGrossRcptGST">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleBP.turnoverGrsRcptForGST.gstrNo</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleBP.noBooksOfAccBS.amtTurnGrossRcptGST.required" />
+		</field-validator>
+</field>
+
+<field name="us44AeHeavyController.type.holdingPeriod">
+		<field-validator type="required">
+		 <message key="schedule_GC.type.holdingPeriod.required" /> 
+		 </field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="minValue">1</param>
+			<param name="maxValue">12</param>
+			<message key="us44AeHeavyController.type.holdingPeriod.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.donationAmt">
+		<field-validator type="required">
+			<message key="itr4_80GController1.type.donationAmt.required" />
+		</field-validator>		
+</field>
+
+<field name="itr4_80GController2.type.donationAmt">
+		<field-validator type="required">
+			<message key="itr4_80GController2.type.donationAmt.required" />
+		</field-validator>		
+</field>
+
+<field name="itr4_80GController3.type.donationAmt">
+		<field-validator type="required">
+			<message key="itr4_80GController3.type.donationAmt.required" />
+		</field-validator>		
+</field>
+
+<field name="itr4_80GController4.type.donationAmt">
+		<field-validator type="required">
+			<message key="itr4_80GController4.type.donationAmt.required" />
+		</field-validator>		
+</field>
+
+
+<field name="itr.itr4.itr1IncomeDeductions.incomeOthSrc">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator> 
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.interestPayable">
+		<field-validator short-circuit="true" type="longValidator">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.typeOfHP</param>
+			<param name="conAttributeValue">S</param>
+			<param name="maxValue">200000</param>
+			<message key="itr1.2014.loss.invalid" />
+		</field-validator>
+      	<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator> 
+</field>
+
+<field name="itr.itr4.verification.capacity">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="itr.itr4.verification.capacity.error.required" />
+		</field-validator>
+</field>
+
+<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOthPrsnPAN">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="itr.itr4.personalInfo.pan.pan.invalid" />
+		</field-validator>
+</field>
+
+<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxDeductedOthPrsnPAN">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+</field>
+
+
+<field name="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands.required" />
+		</field-validator>		
+</field>
+
+<field name="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDeductedFrmIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands.required" />
+		</field-validator>		
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.deductionUs16">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">7500</param>
+			<param name="minValue">0</param>
+			<message key="itr.itr4.itr1IncomeDeductions.deductionUs16.invalid" />
+		</field-validator>
+</field>
+
+<field name="natureOfBusinessController.type.code">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">natureOfBusinessController.type.code
+			</param>
+			<message key="natureOfBusinessController.type.code.error.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.schedule80G.totalDonationsUs80G">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.grossTotIncome">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="NegativeValue">
+			<param name="minValue">0</param>
+			<message key="itr.itr4.itr1IncomeDeductions.grossTotIncome.invalid" />
+		</field-validator>      
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.totalIncome">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator>
+ </field>
+
+<field name="itr.itr4.itr1IncomeDeductions.totalIncomeOfHP">
+		<field-validator short-circuit="true" type="longValidator">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.typeOfHP</param>
+			<param name="conAttributeValue">S</param>
+			<param name="minValue">-200000</param>
+			<message key="itr1.2014.loss.invalid" />
+		</field-validator>
+       <field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.typeOfHP</param>
+			<param name="conAttributeValue">^$</param>
+			<param name="regex">^(0).*$</param>
+			<message key="itr.itr1.itr1IncomeDeductions.typeOfHP.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator> 
+</field>
+
+<field name="itr.itr4.taxReturnPreparer.nameOfTRP">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.taxReturnPreparer.identificationNoOfTRP</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.taxReturnPreparer.nameOfTRP.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.taxReturnPreparer.reImbFrmGov</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message key="itr.itr4.taxReturnPreparer.nameOfTRP.error.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.taxReturnPreparer.identificationNoOfTRP">
+	<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[T][0-9]{9}|[0-9]{6}$</param>
+			<message key="error.identificationNoOfTRP.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.taxReturnPreparer.nameOfTRP</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.taxReturnPreparer.identificationNoOfTRP.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.taxReturnPreparer.reImbFrmGov</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message key="itr.itr4.taxReturnPreparer.identificationNoOfTRP.error.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.typeOfHP">
+       <field-validator type="multipleCondtionValidator"
+			short-circuit="true">
+			<param name="conAttributeNames">#itr.itr4.itr1IncomeDeductions.totalIncomeOfHP
+			</param>
+			<message
+				key="itr.itr4.itr1IncomeDeductions.totalIncomeOfHP.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncomeOfHP
+			</param>
+			<param name="conAttributeValue">^((-[2]{1}[0-9]{4}[1-9]{1}|^-[2]{1}[1-9]{1}[0-9]{4}|^-[3-9]{1}[0-9]{5}|^-[1-9]{1}[0-9]{6,12})$).*
+			</param>
+			<param name="regex">^L$</param>
+			<message key="itr.itr4.itr1IncomeDeductions.totalIncomeOfHP.error" />
+		</field-validator>
+</field>
+
+
+	
+<field name="incomeDetailsController.type.ifscCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^^[A-Za-z]{4}0[a-zA-Z0-9]{6}$</param>
+			<message key="incomeDetailsController.type.ifscCode.invalid" />
+		</field-validator>
+		<field-validator type="required">
+			<message key="incomeDetailsController.type.ifscCode.required" />
+		</field-validator>
+		 <!-- <field-validator short-circuit="true" type="ifscValidator">
+			<message key="error.iFSCCode.invalid" />
+		</field-validator>  -->
+	</field>
+
+	<field name="incomeDetailsController.type.bankAccountNo">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.{1,20}$|^$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z0-9]{1}[a-zA-Z0-9/-/--]{0,19}$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[0-9]$|^$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[1-9].*$|^$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator> -->
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![-]0{1,}[-]).)*$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]0{1,}[/]).)*$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator> -->
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![a-zA-Z]0{1,}[a-zA-Z]).)*$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="incomeDetailsController.type.bankAccountNo.invalid" />
+		</field-validator>
+		<field-validator type="required">
+			<message key="incomeDetailsController.type.bankAccountNo.required" />
+		</field-validator>
+	</field>
+
+	<field name="incomeDetailsController.type.bankName">
+		<field-validator type="required">
+			<message key="incomeDetailsController.type.bankName.required" />
+		</field-validator>
+	</field>
+
+	<field name="incomeDetailsController.type.cashDeposited">
+		<!-- <field-validator type="required"> <message key="incomeDetailsController.type.cashDeposited.required" 
+			/> </field-validator> -->
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message key="incomeDetailsController.type.cashDeposited.error.length" />
+		</field-validator>
+	</field>
+
+
+
+
+<field name="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per">
+		<field-validator short-circuit="true" type="conditionalPercentBigInteger">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank</param>
+		    <param name="minValue">6</param>
+			<message key="itr4.persumptiveInc44ADA.grsReceipt.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalValue">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank</param>
+		    <message key="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr4.persumptiveInc44ADA.grsReceipt.error" />
+		</field-validator>	
+</field>
+
+<field name="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per">
+		<field-validator short-circuit="true" type="conditionalPercentBigInteger">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode</param>
+		    <param name="minValue">8</param>
+			<message key="itr4s.persumptiveInc44ADA.totPersumptiveInc44ADA.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalValue">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode</param>
+		    <message key="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr4s.persumptiveInc44ADA.totPersumptiveInc44ADA.error" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA">
+		<field-validator short-circuit="true" type="conditionalPercentBigInteger">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt</param>
+		    <param name="minValue">50</param>
+			<message key="itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalValue">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt</param>
+		    <message key="itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.refund.bankAccountDtls.priBankDetails.ifscCode">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="error.refund.depositToBankAccount.iFSCCode.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Za-z]{4}0[a-zA-Z0-9]{6}$</param>
+			<message key="incomeDetailsController.type.ifscCode.invalid" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="ifscValidator">
+			<message key="error.iFSCCode.invalid" />
+		</field-validator>  -->
+</field>
+
+
+
+	<field name="itr.itr4.refund.bankAccountDtls.priBankDetails.bankName">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="itr1.scheduleBA.bankName.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="error.bankName.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.refund.bankAccountDtls.priBankDetails.bankAccountNo">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="itr1.scheduleBA.bankAccnum.required" />
+		</field-validator>
+		<field-validator type="regex" short-circuit="true">
+			<param name="expression">^.{1,20}$|^$</param>
+			<message key="error.bankAccountNumber.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z0-9]{1}[a-zA-Z0-9/-/--]{0,19}$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[0-9]$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[1-9].*$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> -->
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![-]0{1,}[-]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> -->
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]0{1,}[/]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> -->
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![a-zA-Z]0{1,}[a-zA-Z]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		 <!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> -->
+	</field>
+
+	
+<field name="itr.itr4.verification.place">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">150</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr1.verification.place.length" />
+		</field-validator>
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr1.verification.place.required" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.verification.date">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr1.verification.date.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr1.verification.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">01/04/2018</param>
+			<message key="itr.itr4.personalInfo.dob.error.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.verification.declaration.assesseeVerName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">127</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr1.verification.declaration.assesseeVerName.length" />
+		</field-validator>
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr1.verification.declaration.assesseeVerName.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.verification.declaration.fatherName">
+	<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr1.verification.declaration.fatherName.length" />
+		</field-validator>
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr1.verification.declaration.fatherName.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.verification.declaration.assesseeVerPAN">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr1.verification.declaration.assesseeVerPAN.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message
+				key="itr.itr1.verification.declaration.assesseeVerPAN.error.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="itr.itr1.verification.declaration.assesseeVerPAN.invalid" />
+		</field-validator>
+</field>
+	
+
+
+<field name="itr.itr4.filingStatus.ackNoOriginalReturn">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<message key="itr.itr4.filingStatus.ackNoOriginalReturn.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<param name="regex">^[0-9]{15}$</param>
+			<message key="itr.itr4.filingStatus.receiptNo.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">15</param>
+			<param name="minLength">15</param>
+			<message key="itr.itr4.filingStatus.receiptNo.length" />
+		</field-validator>	
+</field>
+
+<field name="itr.itr4.filingStatus.defRetOrigRetFiledDate">
+<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<message key="itr.itr4.filingStatus.defRetOrigRetFiledDate.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr1.filingStatus.origRetFiledDate.2014.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr4.filingStatus.defRetOrigRetFiledDate.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.filingStatus.noticeNo">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<param name="regex">^[a-zA-Z0-9/]{0,23}$</param>
+			<message key="itr.itr4.filingStatus.noticeNo.required" />
+		</field-validator>
+</field>
+
+
+
+<field name="itr.itr4.filingStatus.noticeDateUnderSec">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">^13|14|15|16|18$</param>
+			<message key="itr.itr4.filingStatus.noticeDateUnderSec.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr4.filingStatus.noticeDateUnderSec.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr4.filingStatus.defRetOrigRetFiledDate.required" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.filingStatus.origRetFiledDate">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<message key="itr.itr4.filingStatus.origRetFiledDate.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr4.filingStatus.origRetFiledDate.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2018</param>
+			<message key="itr.itr4.filingStatus.origRetFiledDate.invalid" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.filingStatus.receiptNo">
+	<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<message key="itr.itr4.filingStatus.receiptNo.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<param name="regex">^[0-9]{15}$</param>
+			<message key="itr.itr4.filingStatus.receiptNo.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">15</param>
+			<param name="minLength">15</param>
+			<message key="itr.itr4.filingStatus.receiptNo.length" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.filingStatus.taxStatus">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.filingStatus.taxStatus.error.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.filingStatus.residentialStatus">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.filingStatus.residentialStatus.required" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.filingStatus.returnFileSec">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.filingStatus.returnFileSec.required" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.filingStatus.portugeseCC5A">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<!-- <param name="regex">^[0-9A-Z]{10}$</param> -->
+			<message key="itr.itr4.filingStatus.portugeseCC5A.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.filingStatus.panOfSpouse">
+		<!-- <field-validator type="required" short-circuit="true"> <message key="itr.itr1.filingStatus.panOfSpouse.required" 
+			/> </field-validator> -->
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.portugeseCC5A</param>
+			<param name="conAttributeValue">Y</param>
+			<!-- <param name="regex">^[0-9A-Z]{10}$</param> -->
+			<message key="itr.itr4.filingStatus.panOfSpouse.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.filingStatus.panOfSpouse.error.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="itr.itr4.filingStatus.panOfSpouse.invalid" />
+		</field-validator>
+</field>
+<field name="itr.itr4.filingStatus.returnType">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.filingStatus.returnType.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">^17$</param>
+			<param name="regex">^R$</param>
+			<message key="itr.itr4.filingStatus.returnType.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">^11|12|13|14|15|16|18|20$</param>
+			<param name="regex">^O$</param>
+			<message key="itr.itr4.filingStatus.returnType.error.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.status">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr.itr4.personalInfo.status</param>
+			<message key="itr4.personalInfo.status.error.required" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.scheduleAL.liabilityInRelatAssets">
+       <field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.liabilityInRelatAssets.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+</field>
+
+<field name="itr.itr4.scheduleAL.immovableFlag">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.immovableFlag.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.immovableFlag.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+</field>
+
+<field name="itr.itr4.scheduleAL.interstAOPFlag">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.interstAOPFlag.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>	
+</field>
+
+<field name="itr.itr4.scheduleAL.interestHeldInaAsset">
+		<field-validator short-circuit="true" type="list">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">Y</param>
+		    <param name="condMandatoryList">itr.itr4.scheduleAL.interestHeldInaAsset</param>
+			<message key="itr.itr4.scheduleAL.interestHeldInaAsset.error" />
+		</field-validator>
+</field>
+<field name="itr.itr4.personalInfo.address.pinCode">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.personalInfo.address.countryCode</param>
+			<param name="conAttributeValue">^91$</param>
+			<message key="itr.itr4.personalInfo.address.pinCode.reqq" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr.itr4.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.zipCode">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr.itr4.personalInfo.address.countryCode</param>
+			<param name="conAttributeValue">^(?!91$).*</param>
+			<message key="itr.itr4.personalInfo.address.zipcode.required" />
+		</field-validator>
+
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">8</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr4.personalInfo.address.zipcode.error.length" />
+		</field-validator>
+</field>
+
+<field name="immovableDetailsController.type.description">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.description.error.required" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.personalInfo.address.countryCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr.itr4.personalInfo.address.countryCode</param>
+			<message key="itr.itr4.personalInfo.address.countryCode.invalid" />
+		</field-validator>
+</field>
+
+
+
+<field name="itr.itr4.personalInfo.assesseeName.firstName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">25</param>
+			<param name="minLength">0</param>
+			<message key="itr.itr1.personalInfo.assesseeName.firstName.error.length" />
+		</field-validator>
+</field>
+<field name="itr.itr4.personalInfo.assesseeName.middleName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">25</param>
+			<param name="minLength">0</param>
+			<message key="itr.itr1.personalInfo.assesseeName.middleName.error.length" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.personalInfo.gender">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="itr.itr4.personalInfo.gender.error.required" />
+		</field-validator>
+</field>
+	
+	
+<field name="itr.itr4.personalInfo.aadhaarCardNo">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{12}$</param>
+			<message key="itr.itr4.personalInfo.aadhaarCardNo.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.aadhaarEnrolmentId">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{28}$</param>
+			<message key="itr.itr4.personalInfo.aadhaarEnrolmentId.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.roadOrStreet">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr.itr4.personalInfo.address.roadOrStreet.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.phone.phoneNo">
+		<field-validator short-circuit="true" type="phoneNumber">
+			<param name="stdCode">itr.itr4.personalInfo.address.phone.stDcode</param>
+			<param name="type">landLine</param>
+			<message key="itr.itr4.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{1,9}$</param>
+			<message key="itr.itr4.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+</field>
+	<field name="itr.itr4.personalInfo.address.phone.stDcode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{1,4}$</param>
+			<message key="itr.itr4.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>		
+</field>
+
+
+
+<field name="itr.itr4.personalInfo.address.emailAddress">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.address.emailAddress.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr4.personalInfo.address.emailAddress.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="email">
+			<message key="itr.itr4.personalInfo.address.emailAddress.error.regex" />
+		</field-validator>
+</field>
+	
+	
+<field name="itr.itr4.personalInfo.address.mobileNoSec">
+		<field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.address.secMobileNo.error.invalid" />
+		</field-validator>
+		<field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.address.secMobileNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{9}$</param>
+			<message key="mobileNo2.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="phoneNumber">
+			<param name="stdCode">itr.itr4.personalInfo.address.countryCodeMobileNoSec</param>
+			<param name="type">mobileNumber</param>
+			<message key="itr.itr4.personalInfo.address.mobileNo" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{1,9}$</param>
+			<message key="itr.itr4.personalInfo.address.mobileNo" />
+		</field-validator>		
+</field>
+
+<field name="itr4_80GController1.type.addressDetail.pinCode">
+		<field-validator type="required">
+			<message key="itr1_80G.pinCode.error.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr1_80G.pinCode.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.stateCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr.itr4.personalInfo.address.stateCode</param>
+			<message key="itr.itr4.personalInfo.address.stateCode.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.countryCodeMobile">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr.itr4.personalInfo.address.countryCodeMobile.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.countryCodeMobileNoSec">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.personalInfo.address.mobileNoSec</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.personalInfo.address.countryCodeMobileNoSec.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.mobileNo">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr.itr4.personalInfo.address.mobileNo.error.required" />
+		</field-validator>
+		<field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.address.mobileNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{9}$</param>
+			<message key="mobileNo1.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="phoneNumber">
+			<param name="stdCode">itr.itr4.personalInfo.address.countryCodeMobile</param>
+			<param name="type">mobileNumber</param>
+			<message key="itr.itr4.personalInfo.address.mobileNo" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{1,9}$</param>
+			<message key="itr.itr4.personalInfo.address.mobileNo" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.personalInfo.address.cityOrTownOrDistrict">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.address.cityOrTownOrDistrict.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message
+				key="itr.itr4.personalInfo.address.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.address.localityOrArea">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.address.localityOrArea.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr4.personalInfo.address.localityOrArea.error.length" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.personalInfo.address.residenceNo">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.address.residenceNo.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr.itr4.personalInfo.address.residenceNo.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.personalInfo.dob">
+		 <field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.dob.required" />
+		</field-validator>
+		 <field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="maxDate">01/04/2018</param>
+			<message key="itr.itr4.personalInfo.dob.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="maxDate">01/04/2018</param>
+			<message key="itr.itr4.personalInfo.dob.error.invalid" />
+		</field-validator>  
+</field>
+
+
+<field name="itr.itr4.personalInfo.pan">
+		<field-validator type="required" short-circuit="true">
+			<message key="itr.itr4.personalInfo.pan.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[A-Za-z]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="itr.itr4.personalInfo.pan.pan.invalid" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.personalInfo.assesseeName.surNameOrOrgName">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="itr.itr1.personalInfo.assesseeName.surNameOrOrgName.required" />
+		</field-validator>
+</field>
+
+<field name="advancedTax.type.bsrCode">
+		<field-validator type="required" short-circuit="true">
+			<message key="advancedTax.type.bsrCode.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[0-9]{7}$|^.{0,0}$</param>
+			<message key="AdvancedTax.type.bsrCode.invalid" />
+		</field-validator>
+</field>
+
+<field name="advancedTax.type.dateDep">
+		<field-validator type="required" short-circuit="true">
+			<message key="advancedTax.type.dateDep.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="minDate">31/03/2017</param>
+			<message key="AdvancedTax.type.dateDep.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="dateFormat">dd/MM/yyyy</param>
+			<param name="maxDate">31/03/2017</param>
+			<message key="itr.itr4.personalInfo.dob.error.invalid" />
+		</field-validator> 
+</field>
+
+
+<field name="advancedTax.type.srlNoOfChaln">
+		<field-validator type="required" short-circuit="true">
+			<message key="advancedTax.type.srlNoOfChaln.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message key="AdvancedTax.type.srlNoOfChaln.error.length" />
+		</field-validator>
+		
+</field>
+
+<field name="advancedTax.type.amt">
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message key="AdvancedTax.type.amt.error.length" />
+		</field-validator>
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="advancedTax.type.amt.req" />
+		</field-validator>
+</field>
+
+<field name="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.reqiored" />
+		</field-validator>
+</field>
+<field name="taxDetailsTabController.type.incChrgSal">
+		<field-validator type="required" short-circuit="true">
+			<message key="taxDetailsTabController.type.incChrgSal.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="taxDetailsTabController.type.incChrgSal.required" />
+		</field-validator>
+</field>
+<field name="taxDetailsTabController.type.totalTDSSal">
+		<field-validator type="required" short-circuit="true">
+			<message key="taxDetailsTabController.type.totalTDSSal.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="taxDetailsTabController.type.totalTDSSal.required" />
+		</field-validator>
+</field>
+
+
+
+<field name="itr4_80GController1.type.eligibleDonationAmt">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.eligibleDonationAmt.required" />
+		</field-validator>
+</field>
+
+	
+<field name="itr4_80GController2.type.eligibleDonationAmt">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.eligibleDonationAmt.required" />
+		</field-validator>
+</field>
+
+<field name="taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan">
+    	<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan.invalid" />
+		</field-validator>
+</field>
+
+
+<field name="taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDeductedFrmIncomeController.type.employerOrDeductorOrCollectDetl" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.error.length" />
+		</field-validator>
+</field> 
+
+	
+<field name="taxCollectedAtSourceController.type.amtfrom26AS">
+		<field-validator type="required" short-circuit="true">
+			<message key="taxCollectedAtSourceController.type.amtTaxCollected.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtTaxCollected.reqiored" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="conditionalPercentBigInteger">
+			<param name="conAttributeName">taxCollectedAtSourceController.type.totalTCS</param>
+		    <param name="minValue">200</param>
+			<message key="taxCollectedAtSourceController.type.amtTaxCollected.error" />
+		</field-validator> -->
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtTaxCollected.error.length" />
+		</field-validator>
+</field>
+
+<field name="taxCollectedAtSourceController.type.collectedYr">
+		<field-validator type="regex">
+			<param name="expression">^(20((0[1-9])|(1[0-6])))$</param>
+			<message key="taxCollectedAtSourceController.type.collectedYr.invalid" />
+		</field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">2016</param>
+			<param name="minValue">2001</param>
+			<message key="taxCollectedAtSourceController.type.collectedYr.invalid" />
+		</field-validator>
+</field>
+
+<field name="taxCollectedAtSourceController.type.collectedYr">
+		<field-validator type="required" short-circuit="true">
+			<message key="taxCollectedAtSourceController.type.collectedYr.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="taxCollectedAtSourceController.type.collectedYr.required" />
+		</field-validator>
+</field>
+
+<field name="taxCollectedAtSourceController.type.totalTCS">
+		<field-validator type="required" short-circuit="true">
+			<message key="taxCollectedAtSourceController.type.totalTCS.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="taxCollectedAtSourceController.type.totalTCS.required" />
+		</field-validator>
+</field> 
+	
+<field name="taxCollectedAtSourceController.type.amtTCSClaimedThisYear">
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtTCSClaimedThisYear.error.length" />
+		</field-validator>
+</field>
+
+<field name="taxCollectedAtSourceController.type.amtTCSClaimedThisYear">
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxCollectedAtSourceController.type.amtTCSClaimedThisYear.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtTCSClaimedThisYear.required" />
+		</field-validator>
+</field>
+<field name="taxCollectedAtSourceController.type.amtClaimedBySpouse">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.portugeseCC5A</param>
+			<param name="conAttributeValue">Y</param>
+			<param name="regex">^[0-9]{1,14}$</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtClaimedBySpouse.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtClaimedBySpouse.error.length" />
+		</field-validator>
+</field>
+	
+<field name="taxCollectedAtSourceController.type.amtClaimedBySpouse">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.filingStatus.portugeseCC5A</param>
+			<param name="conAttributeValue">Y</param>
+			<param name="regex">^[0-9]{1,14}$</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtClaimedBySpouse.required" />
+       </field-validator>
+		<field-validator type="validateBigInteger"
+			short-circuit="true">
+			<param name="maxValue">99999999999999</param>
+			<message
+				key="taxCollectedAtSourceController.type.amtClaimedBySpouse.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.refund.bankAccountDtls.foreignBankDetails.bankName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="error.bankName.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="foreignBankDetailsController.type.bankName.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="foreignBankDetailsController.type.bankName.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.countryCode</param>
+			<param name="conAttributeValue">^(?!-1).*$</param>
+			<message key="foreignBankDetailsController.type.ifscCode.required" />
+		</field-validator>				
+</field>
+
+
+<field name="itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">30</param>
+			<message key="error.ibanSwiftCode.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.bankName</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,125}$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.countryCode</param>
+			<param name="conAttributeValue">^(?!-1).*$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode.required" />
+		</field-validator>
+	</field>
+
+<field name="itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">30</param>
+			<message key="error.ibanSwiftCode.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.bankName</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,125}$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.countryCode</param>
+			<param name="conAttributeValue">^(?!-1).*$</param>
+			<message key="itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban.required" />
+		</field-validator>	
+	</field>
+	
+	<field name="itr.itr4.refund.bankAccountDtls.foreignBankDetails.countryCode">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.swiftCode</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="itr1.refund.scheduleBA.foreignBankDtls.countryCode.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.bankName</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,125}$</param>
+			<message key="itr1.refund.scheduleBA.foreignBankDtls.countryCode.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.refund.bankAccountDtls.foreignBankDetails.iban</param>
+			<param name="conAttributeValue">^[a-zA-Z0-9]{1,30}$</param>
+			<message key="itr1.refund.scheduleBA.foreignBankDtls.countryCode.required" />
+		</field-validator>
+</field> 
+
+<field name="taxDeductedFrmIncomeController.type.uniqueTDSCerNo">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">8</param>
+			<param name="minLength">0</param>
+			<message key="error.uniqueTDSCerNo.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9A-Za-z]{8}$|^.{0,0}$</param>
+			<message key="error.uniqueTDSCerNo.invalid" />
+		</field-validator>
+</field>
+
+<field name="aopController.type.nameOfFirm">
+		<field-validator type="required">
+			<message key="aopController.type.nameOfFirm.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.residenceNo">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.residenceNo.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.localityOrArea">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.localityOrArea.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.cityOrTownOrDistrict">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.stateCode">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.stateCode.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.countryCode">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.countryCode.error.required" />
+		</field-validator>
+</field>
+<field name="aopController.type.addressAL.pinCode">
+		<field-validator type="required">
+			<message key="aopController.type.addressAL.pinCode.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr.itr4.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+</field>
+<field name="aopController.type.panOfFirm">
+		<field-validator type="required">
+			<message key="aopController.type.panOfFirm.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="itr.itr4.personalInfo.pan.error.length" />
+		</field-validator>
+</field>
+<field name="aopController.type.assesseInvestment">
+		<field-validator type="required">
+			<message key="aopController.type.assesseInvestment.error.required" />
+		</field-validator>
+</field>
+
+<field name="immovableDetailsController.type.addressAL.residenceNo">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.residenceNo.error.required" />
+		</field-validator>
+</field>
+	
+<field name="immovableDetailsController.type.addressAL.localityOrArea">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.localityOrArea.error.required" />
+		</field-validator>
+</field>
+	
+<field name="immovableDetailsController.type.addressAL.cityOrTownOrDistrict">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+</field>
+	
+<field name="immovableDetailsController.type.addressAL.stateCode">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.stateCode.error.required" />
+		</field-validator>
+</field>
+	
+<field name="immovableDetailsController.type.addressAL.countryCode">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.countryCode.error.required" />
+		</field-validator>
+</field>
+	
+	<field name="immovableDetailsController.type.addressAL.pinCode">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.addressAL.pinCode.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr.itr4.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+</field>
+	
+<field name="immovableDetailsController.type.amount">
+		<field-validator type="required">
+			<message key="immovableDetailsController.type.amount.error.required" />
+		</field-validator>
+</field>
+	
+<field name="itr.itr4.scheduleAL.immovableDetails">
+		<field-validator short-circuit="true" type="list">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">Y</param>
+		    <param name="condMandatoryList">itr.itr4.scheduleAL.immovableDetails</param>
+			<message key="itr.itr1.itr1IncomeDeductions.totalIncomeOfHP.error" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>			
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+<field name="itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+<field name="itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.depositsInBank">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.depositsInBank.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.sharesAndSecurities">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.sharesAndSecurities.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.insurancePolicies">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.insurancePolicies.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.cashInHand</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleAL.movableAsset.cashInHand">
+		<field-validator short-circuit="true" type="conditionalBigInteger">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.totalIncome</param>
+			<param name="conAttributeName1">itr.itr4.personalInfo.status</param>
+			<param name="conAttributeValue">F</param>
+		    <param name="minValue">5000000</param>
+			<message key="itr.itr4.scheduleAL.movableAsset.cashInHand.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">N</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.depositsInBank</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.sharesAndSecurities</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.insurancePolicies</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>	
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.liabilityInRelatAssets</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">^null|$</param>
+			<param name="regex">^null|$</param>
+			<message
+				key="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">5000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsReceipt.error" />
+		</field-validator>	
+</field>
+
+
+<field name="itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">20000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.invalid" />
+		</field-validator>		
+</field>
+
+ <field name="itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">20000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.invalid" />
+		</field-validator>			
+</field>
+	
+<field name="itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">20000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController.type.addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.addressDetail.addrDetail.required" />
+		</field-validator>
+	</field>
+	<field name="itr4_80GController.type.eligibleDonationAmt">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.eligibleDonationAmt.required" />
+		</field-validator>		
+</field>
+
+
+<field name="itr4_80GController.type.doneeWithPanName">
+		<field-validator type="required">
+			<message key="remitterDtlsTabController.type.remitterName.error.required" />
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="remitterDtlsTabController.type.remitterName.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController.type.addressDetail.pinCode">
+		<field-validator type="required">
+			<message key="itr1_80G.pinCode.error.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr1_80G.pinCode.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController.type.doneePAN">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.doneePAN.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Z]{5}[0-9]{4}[A-Z]{1}$</param>
+			<message key="itr1_80G.type.remitterPAN.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController.type.addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController.type.addressDetail.stateCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr4_80GController.type.addressDetail.stateCode
+			</param>
+			<message key="itr1_80G.type.stateCode.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController3.type.addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.addressDetail.addrDetail.required" />
+		</field-validator>
+	</field>
+	<field name="itr4_80GController3.type.eligibleDonationAmt">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.eligibleDonationAmt.required" />
+		</field-validator>		
+</field>
+
+<field name="itr4_80GController3.type.doneeWithPanName">
+		<field-validator type="required">
+			<message key="remitterDtlsTabController.type.remitterName.error.required" />
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="remitterDtlsTabController.type.remitterName.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController3.type.addressDetail.pinCode">
+		<field-validator type="required">
+			<message key="itr1_80G.pinCode.error.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr1_80G.pinCode.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController3.type.doneePAN">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.doneePAN.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Z]{5}[0-9]{4}[A-Z]{1}$</param>
+			<message key="itr1_80G.type.remitterPAN.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController3.type.addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController3.type.addressDetail.stateCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr4_80GController3.type.addressDetail.stateCode
+			</param>
+			<message key="itr1_80G.type.stateCode.invalid" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController2.type.doneePAN">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.doneePAN.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Z]{5}[0-9]{4}[A-Z]{1}$</param>
+			<message key="itr1_80G.type.remitterPAN.error.regex" />
+		</field-validator>
+</field>
+
+
+<field name="itr4_80GController2.type.addressDetail.pinCode">
+		<field-validator type="required">
+			<message key="itr1_80G.pinCode.error.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[1-9]{1}[0-9]{5}$</param>
+			<message key="itr1_80G.pinCode.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController2.type.addressDetail.stateCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr4_80GController2.type.addressDetail.stateCode
+			</param>
+			<message key="itr1_80G.type.stateCode.invalid" />
+		</field-validator>
+</field>
+	
+<field name="itr4_80GController2.type.addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController2.type.addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.addressDetail.addrDetail.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<param name="minLength">0</param>
+			<message key="addressDetail.addrDetail.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController2.type.doneeWithPanName">
+		<field-validator type="required">
+			<message key="remitterDtlsTabController.type.remitterName.error.required" />
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="remitterDtlsTabController.type.remitterName.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.doneePAN">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.doneePAN.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Z]{5}[0-9]{4}[A-Z]{1}$</param>
+			<message key="itr1_80G.type.remitterPAN.error.regex" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.doneeWithPanName">
+		<field-validator type="required">
+			<message key="remitterDtlsTabController.type.remitterName.error.required" />
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="remitterDtlsTabController.type.remitterName.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80GController1.type.addressDetail.addrDetail.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<param name="minLength">0</param>
+			<message key="addressDetail.addrDetail.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1_80G.type.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+</field>
+
+<field name="itr4_80GController1.type.addressDetail.stateCode">
+		<field-validator short-circuit="true" type="dropdown">
+			<param name="required">Y</param>
+			<param name="dropDownKey">itr4_80GController1.type.addressDetail.stateCode
+			</param>
+			<message key="itr1_80G.type.stateCode.invalid" />
+		</field-validator>
+</field>
+
+
+	
+<!-- <field name="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">wewe
+		<field-validator type="required" short-circuit="true">
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.req" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan
+			</param>
+			<param name="conAttributeValue">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message
+				key="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName.reqiored" />
+		</field-validator>
+</field> -->
+
+<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80C">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80C.length" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80CCC">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCC.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80CCDEmployeeOrSE">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCD.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80CCDEmployer">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCDEmployer.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80D">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80D.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80DD">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DD.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80DDB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DDB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80E">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80E.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80EE">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80EE.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80G">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80G.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80GG">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GG.length" />
+		</field-validator>
+	</field>
+
+	<!-- <field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GGA">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80GGC.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field> -->
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80GGC">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80U">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80U.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCG">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCG.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80RRB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80RRB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80QQB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80QQB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.section80TTA">
+	    <field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80TTA.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.deductUndChapVIAType.totalChapVIADeductions">
+		
+		<field-validator short-circuit="true" type="validateBigDecimal">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalChapVIADeductions.length" />
+		</field-validator>
+	</field>
+	<!-- Deduction validation ends -->
+
+	<!-- User deduction validation :: Starts -->
+	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80C">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80C.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCC">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCC.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCD1B">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCD.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCDEmployeeOrSE">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCDEmployer.length" />
+		</field-validator>
+	</field>
+
+
+	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80E">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80E.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80EE">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80EE.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80G">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80G.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80GG">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GG.length" />
+		</field-validator>
+	</field>
+	
+<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80GGC">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+</field>
+
+	
+
+<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCG">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCG.length" />
+		</field-validator>
+</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80RRB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80RRB.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80QQB">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80QQB.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.section80TTA">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80TTA.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr.itr4.itr1IncomeDeductions.usrDeductUndChapVIA.totalChapVIADeductions">
+		<field-validator short-circuit="true" type="validateBigDecimal">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalChapVIADeductions.length" />
+		</field-validator>
+	</field>	
+
+<field name="itr.itr4.taxComputation.totalTaxPayable">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalTaxPayable.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.educationCess">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.educationCess.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.grossTaxLiability">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.grossTaxLiability.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.section89">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section89.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.netTaxLiability">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.netTaxLiability.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.intrstPay.intrstPayUs234A">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234A.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.intrstPay.intrstPayUs234B">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234B.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.intrstPay.intrstPayUs234C">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234C.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.totalIntrstPay">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalIntrstPay.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr.itr4.taxComputation.totTaxPlusIntrstPay">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totTaxPlusIntrstPay.length" />
+		</field-validator>
+	</field>
+	
+
+
+  <field name="itr.itr4.natOfBus.natureOfBusiness">
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA</param>
+			<param name="type">table</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.natOfBus.natureOfBusiness.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per</param>
+			<param name="type">table</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.natOfBus.natureOfBusiness.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per</param>
+			<param name="type">table</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.natOfBus.natureOfBusiness.error" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE</param>
+			<param name="type">table</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.natOfBus.natureOfBusiness.error" />
+		</field-validator>
+	</field>
+
+
+	<field name="itr.itr4.itr1IncomeDeductions.incomeFromSal">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.incomeFromSal.length" />
+		</field-validator>
+	</field>
+	
+	<!-- <field name="itr.itr1.taxPaid.taxesPaid.othersInc.othersIncDtls">
+		<field-validator type="requiredlist" short-circuit="true">
+			<message key="itr.itr1.taxPaid.taxesPaid.othersInc.othersIncDtls.required" />
+		</field-validator>
+	</field> -->
+	
+		<field name="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors">
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors.required" />
+		</field-validator>
+	</field>
+	
+	<field name="itr.itr4.scheduleBP.noBooksOfAccBS.inventories">
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.inventories.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.inventories.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.inventories.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.inventories.required" />
+		</field-validator>
+</field>
+
+<field name="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors">
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors.required" />
+		</field-validator>
+</field>
+
+
+<field name="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand">
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="ConditionalList">
+			<param name="conAttributeName">itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE</param>
+			<param name="type">BigIntegerField</param>
+			<param name="regex">^(0).*$</param>
+		    <param name="condMandatoryList">itr.itr4.natOfBus.natureOfBusiness</param>
+			<message key="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand.required" />
+		</field-validator>
+</field>
+
+	<field name="itr.itr4.taxExmpIntIncDtls.othersInc.othersIncDtls">
+		<field-validator type="requiredlist" short-circuit="true">
+			<message key="itr.itr4.taxExmpIntIncDtls.othersInc.othersIncTotal.required" />
+		</field-validator>
+	</field>
+	
+	<field name="itr.itr4.itr1IncomeDeductions.grossRentReceived">
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.tdsDtls26QC.totalTDSDetails26QC</param>
+			<param name="conAttributeValue">^[1-9][0-9]{1,13}$</param>
+			<param name="regex">^[1-9][0-9]{0,13}$</param>
+			<message key="itr.itr1.grossRentReceived.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr.itr4.itr1IncomeDeductions.typeOfHP</param>
+			<param name="conAttributeValue">L</param>
+			<param name="regex">^[0-9]{0,14}$</param>
+			<message key="itr.itr1.grossRentReceived.required1" />
+		</field-validator>
+	</field>
+</validators>

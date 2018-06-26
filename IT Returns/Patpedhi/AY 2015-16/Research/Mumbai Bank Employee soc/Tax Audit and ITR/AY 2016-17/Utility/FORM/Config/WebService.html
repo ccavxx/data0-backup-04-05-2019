@@ -1,0 +1,156 @@
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="../Common/css/style.css"/>
+<link type="text/css" rel="stylesheet" href="../Common/css/jquery.ui.datepicker.css"/>
+<link type="text/css" rel="stylesheet" href="../Common/css/jquery.ui.theme.css"/>
+<link type="text/css" rel="stylesheet" href="../Common/css/jquery.ui.core.css"/>
+<script src="../Common/scripts/validationSimpleJS.js" type="text/javascript">  </script>
+<script type="text/javascript" src="../Common/scripts/FORM_common_functions.js">  </script>
+<script src="../Common/scripts/Restrictions.js" type="text/javascript">  </script>
+<script src="../Common/scripts/jquery-1.8.0.js"></script>
+	<script src="../Common/scripts/jquery.ui.core.js"></script>
+	<script src="../Common/scripts/jquery.ui.widget.js"></script>
+	<script src="../Common/scripts/jquery.ui.datepicker.js"></script>
+<link type="text/css" rel="stylesheet" href="../Common/css/homepagecss.css">
+
+<link rel="stylesheet" href="../Common/dialog/jquery-ui.css">
+<script src="../Common/dialog/jquery-1.9.1.js"></script>
+<script src="../Common/dialog/jquery-ui.js"></script>
+
+<style>
+.grid td{
+text-align: left;
+padding: 3px;
+}
+#validationErrorMsg { position:fixed;
+		top: 10px; border : 2px solid #F40C42; 
+		text-align: center;
+		background : none repeat scroll 0 0 #F484A0;
+		color: black;
+		font: status-bar; line-height: 35px; width: 50%;
+		font-size: 12px;
+		height: auto;
+		border-radius: 5px 5px 5px 5px;
+		z-index: 2;
+		box-shadow: 10px 10px 5px #888888;
+		}
+</style>
+</head>
+<body>
+<form>
+
+<div id="container">
+<div class="fl-l grayBack">
+<img src="efilinglogo.gif" alt="efiling Logo">
+<div class="headerText">
+
+</div>
+</div>
+
+
+<div class="logorow">
+	<div id="browseButtons" style="text-align:center;padding:5px;">
+	<h3 class="hd">Upload XMLs</h3>
+	
+<input type="button" name="itrFileButton" onclick="j.browse()" value="Browse File" class="step1" id="browseFile">
+<input type="button" name="itrFileButton1" onclick="j.addMoreFiles()" value="Add More XMLs" class="step1" id="addMoreFiles"  disabled="disabled">
+<input type="button" name="itrFileButton" onclick="j.deleteFiles()" value="Delete XMLs" class="step1" id="deleteFiles" disabled="disabled">
+
+	</div>
+	
+	<br/>
+	
+	<div id="showXmls">
+	<h3 class="hd">Form processing status</h3>
+	<div style="overflow: auto;">
+	
+	
+	<table  class="grid" align="center" width="100%" id="xmlTable">
+	 <tr><th>S. No.</th><th><input type="checkbox" id="all" name="all" onclick="j.selectAllFiles()"/></th><th>Xml File</th><th>PAN And Name</th><th>Schema Check</th><th>Status</th><th>Transaction ID</th><th>Acknowledgment No.</th></tr>
+	</table>
+	</div>
+	</div>
+	
+	<br/>
+	
+		<div style="text-align:center;padding:5px;">
+		<input type="button" class="step2" name="validate" onclick="validateXml();" value="Validate Xmls" >
+<input type="button" class="step2" name="submit" onclick="submitXmlDialog(this);" value="Submit Form" disabled="disabled">
+
+</div>
+<div id="note" class="mandatory" style="text-align:left;display:none;" >Note:The XML(s) which has passed the SCHEMA CHECK will be submitted</div>
+	<div id="dialog" style="display:none;">
+	
+<h3 class="hd">Enter e-Filing Portal Credentials</h3>
+<div style="display : none" id="validationErrorMsg">  </div>
+	<table class="grid"  align="center" width="100%">
+	<tr><td width="45%">User ID<span class="mandatory">*</span></td><td><input type="text" name="userId" onchange="hideDobForTan(this.value);toUpper(this);j.setUserId(this.value);" maxlength="10" onblur="validateField_userName(this)" onkeypress="return onlyNumbersChars(event)"/></td></tr>
+	<tr><td>Password<span class="mandatory">*</span></td><td><input type="password" name="password" onchange="j.setPassword(this.value)" onblur="validateField_password(this)" maxlength="14"/></td></tr>
+	<tr><td>Date Of Birth/Incorporation<span class="mandatory">*</span><br/>(DD/MM/YYYY)</td><td><input type="text" name="dob" maxlength="10"  onchange="validateField_dob(this);j.setDob(this.value)"  id="dateField" 
+	class="date_dummy_black"  onkeypress="return onlyDate(event)" ></td></tr>
+	
+	<tr><td>Do you want to digitally sign? <span class="mandatory">*</span></td><td><input type="radio" name="dscFlag" value="Y" onclick="enableDscSign();j.setDscFlag(this.value);"  />Yes <input type="radio" value="N" name="dscFlag"  onclick="enableDscSign();j.setDscFlag(this.value);" />No</td></tr>
+	<tr><td><div class="typeDsc" style="display: block;">Select the type of Digital Signature Certificate <span class="mandatory">*</span></div></td><td><div class="typeDsc" style="display: block;">
+<input type="radio" onclick="enableDscType()" name="typeOfDsc">Register using .pfx file<input type="radio" onclick="enableDscType()" name="typeOfDsc">Register using USB token</div>
+<input type="hidden" name="certChain">
+<input type="hidden" name="signature">
+</td></tr>
+<tr><td><div class="typeDsc2" style="display: block;">Please select your certificate keystore file(.PFX/P12)<span class="mandatory">*</span></div></td><td>
+<div class="typeDsc2" style="float: left; display: block;"><input type="button" onclick="j.keyStoreFile()" value="Browse" name="keystoreFile">
+<span id="pfxVal"></span>
+<select name="usbToken" style="display:none" onchange="setUsbDetails(this)">
+<option value="-1">Select</option>
+</select>
+<span id="usbTokenVals">
+</span>
+</div></td>
+</tr>
+<tr><td><div class="typeDsc2" style="display: block;">Enter the password for your private key<span class="mandatory">*</span></div></td><td><input type="password" class="typeDsc2" name="keystoreKey" style="display: inline;"></td>
+</tr>
+	</table>
+	
+	<div style="text-align:center;padding:5px;">
+		
+<input type="button" class="step2" name="submit" onclick="submitXml(this);" value="Submit Form" >
+
+</div>
+	
+	</div>
+	
+
+
+</div>
+
+</div>
+
+
+<script src="../Common/scripts/webservice.js">  </script>
+</form>
+
+	
+	
+<script type="text/javascript">
+document.getElementById('showXmls').style.display='none';
+enableDscSign();
+
+	$(function() {
+		$("#dateField").datepicker({
+			showOn : "button",
+			buttonImage : "/itax/images/calendar.png",
+			buttonImageOnly : true,
+			changeMonth : true,
+			changeYear : true,
+			yearRange : "-100:",
+			dateFormat : "dd/mm/yy",
+			buttonText : "Choose",
+			showOtherMonths : true,
+			selectOtherMonths : true
+		});
+	});
+</script>
+	
+
+
+</body>
+</html>

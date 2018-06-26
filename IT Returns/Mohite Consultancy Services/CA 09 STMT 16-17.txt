@@ -1,0 +1,89 @@
+                                    MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0009-CHEMBUR                                    
+              SHOP NO  1,2,3,4 RUNWALA SHOPPING CENTRE, 15TH ROAD  R C CHEMBURKAR MARG  Chembur, Mumbai,400 071              
+
+Current Date  :09-Feb-2018                                                                                  UserId : REPORT09
+Time : 12:33:30 PM                                                                                                Page :1 / 1
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2016  to  31-MAR-2017                                             
+
+   Accountno :00091101000554
+   Name: MOHITE CONSULTANCY SERVICES
+   Address :SHIVSHAKTI SANGH NEAR KARNATAK SCHOOL
+   GHATLA CHEMBUR,MUMBAI
+   MUMBAI,400071
+   Limit:0                                 INR
+   Joint Holder: MOHITE TUSHAR GULABRAO , MOHITE JAYRAN BABAN ,
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                         0.00 |
+ 08-Sep-2016 | BY CASH                                       |        |                 |         3000.00 |         3000.00 |
+ 09-Sep-2016 | By NEFT :PAYU PAYMENTS PVT LT                 |        |                 |            1.67 |         3001.67 |
+ 21-Sep-2016 | TO CHQ BOOK ISSUE CHARGE AMT                  |        |          104.00 |                 |         2897.67 |
+ 22-Sep-2016 | TO CHQ BOOK ISSUE CHARGE AMT                  |        |          104.00 |                 |         2793.67 |
+ 30-Sep-2016 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |         2563.67 |
+ 18-Nov-2016 | By NEFT :GULABRAO Y MOHITE                    |        |                 |        24000.00 |        26563.67 |
+ 18-Nov-2016 | TO CASH SELF                                  | 469141 |        24000.00 |                 |         2563.67 |
+ 23-Nov-2016 | By NEFT :TUSHAR GULABRAO MOHI                 |        |                 |        38500.00 |        41063.67 |
+ 24-Nov-2016 | TO CASH SELF                                  | 469144 |        20000.00 |                 |        21063.67 |
+ 29-Nov-2016 | BY CASH/0016                                  |        |                 |         1500.00 |        22563.67 |
+ 03-Dec-2016 | TO CASH VISHAL MOHITE                         | 469142 |        18000.00 |                 |         4563.67 |
+ 09-Dec-2016 | By NEFT :TUSHAR GULABRAO MOHI                 |        |                 |        24000.00 |        28563.67 |
+ 09-Dec-2016 | TO CASH SELF                                  | 469146 |        24000.00 |                 |         4563.67 |
+ 14-Dec-2016 | By NEFT :TUSHAR GULABRAO MOHI                 |        |                 |        24000.00 |        28563.67 |
+ 15-Dec-2016 | TO CASH SELF                                  | 469147 |        24000.00 |                 |         4563.67 |
+ 21-Dec-2016 | By NEFT :TUSHAR GULABRAO MOHI                 |        |                 |        24000.00 |        28563.67 |
+ 23-Dec-2016 | TO CASH JAY RAM MOHITE                        | 469149 |        24000.00 |                 |         4563.67 |
+ 29-Dec-2016 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |         5063.67 |
+ 11-Jan-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |         5563.67 |
+ 27-Jan-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |         6063.67 |
+ 04-Feb-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |         6563.67 |
+ 13-Feb-2017 | TO CASH  TUSHAR MOHITE                        | 469148 |         5000.00 |                 |         1563.67 |
+ 13-Feb-2017 | BY CASH                                       |        |                 |          500.00 |         2063.67 |
+ 15-Feb-2017 | BY CLG BY CLG/31415/99900978/611/032          |  31415 |                 |         5000.00 |         7063.67 |
+ 17-Feb-2017 | BY CLG BY CLG/410537/99900980/806/032         | 410537 |                 |         3000.00 |        10063.67 |
+ 18-Feb-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1700.00 |        11763.67 |
+ 18-Feb-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         2000.00 |        13763.67 |
+ 28-Feb-2017 | BY CLG BY CLG/381253/99900987/736/032         | 381253 |                 |         1500.00 |        15263.67 |
+ 28-Feb-2017 | ToBouncing99900987/736/11 01 000554-381253    |        |         1500.00 |                 |        13763.67 |
+ 28-Feb-2017 | ToCONTACT DR99900987/736/1101-381253          |        |          288.00 |                 |        13475.67 |
+ 01-Mar-2017 | BY:BOUNCING CHGS REVERSE - MAR-17             |        |                 |          288.00 |        13763.67 |
+ 03-Mar-2017 | BY CLG BY CLG/381253/99900990/351/032         | 381253 |                 |         1500.00 |        15263.67 |
+ 04-Mar-2017 | TO CASH  TUSHAR MOHITE                        | 469150 |         2000.00 |                 |        13263.67 |
+ 07-Mar-2017 | BY CLG BY CLG/100056/99900993/447/032         | 100056 |                 |         4000.00 |        17263.67 |
+ 09-Mar-2017 | TO CASH TUSHAR MOHITE/0021                    | 469152 |         5000.00 |                 |        12263.67 |
+ 10-Mar-2017 | BY CLG BY CLG/388365/99900996/2238/032        | 388365 |                 |         2000.00 |        14263.67 |
+ 10-Mar-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         3000.00 |        17263.67 |
+ 16-Mar-2017 | TO - JETKING INFOTRAIN LIMIT - ING INFOTRAIN  | 469151 |         4727.00 |                 |        12536.67 |
+ 31-Mar-2017 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |        12306.67 |
+ Closing Bal |                                                                                                     12306.67 |
+=============================================================================================================================
+     Total : |                                               |        |       153183.00 |       165489.67 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |       153183.00 |       165489.67 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

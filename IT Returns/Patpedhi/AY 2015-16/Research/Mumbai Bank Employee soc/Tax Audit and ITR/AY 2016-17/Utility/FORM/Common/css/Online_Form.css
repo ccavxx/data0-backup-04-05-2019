@@ -1,0 +1,232 @@
+.formName {
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ruleNo {
+	font-size: 13px;
+	text-align: center;
+}
+
+.notice {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.formMainBody {
+	line-height: 1.5em;
+}
+
+input[type="text"] {
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	padding-left: 2px;
+	height: 16px;
+	width:105px;
+}
+
+
+input[type="text"],select {
+	border: 1px solid #a1a1a1;
+	background: url(../images/bg_textField.png) repeat-x;
+	height: 22px;
+}
+
+input[readonly] {
+	background: none repeat scroll 0 0 #EBEBEB;
+}
+
+input[disabled] {
+	background: none repeat scroll 0 0 #EBEBEB;
+}
+textarea[readonly]{
+ background: none repeat scroll 0 0 #EBEBEB;
+}
+textarea[disabled] {
+    background: none repeat scroll 0 0 #EBEBEB;
+}
+textarea {
+    resize: none;
+}
+.declaration {
+  line-height: 2em;
+    padding: 7px;
+    word-spacing: 2px;
+}
+
+.select_i_we {
+	width: 70px;
+}
+.paraTable td{
+vertical-align: top;
+}
+.width150TB{
+width:600px;
+
+}
+
+.width35TB{
+width:200px;
+
+}
+
+.width20TB{
+width:130px;
+
+}
+
+.width125TB{
+width:650px;
+}
+
+.width125WithSelTB{
+width:600px;
+}
+
+.width50TB{
+width:320px;
+}
+
+.width100TA{
+
+}
+.width15TAT{
+height: 60px;
+    width: 115px;
+}
+
+.width29TAT{
+height: 90px;
+    width: 230px;
+}
+.width27TAT{
+ height: 70px;
+    width: 225px;
+}
+
+.width150TA{
+  height: 30px;
+    width: 625px;
+}
+
+.width300TA{
+width: 625px;
+ height: 60px;
+}
+.width125TBT{
+ height: 50px;
+    width: 350px;
+}
+
+.width150TAT{
+ width: 380px;
+ height: 60px;
+}
+.width300TAT{
+ width: 385px;
+ height: 110px;
+}
+.width600TAT{
+ width: 380px;
+ height: 90px;
+}
+
+.attachNotes{
+color:red;
+font-weight: bold;
+}
+
+.boldFont{
+font-weight: bold;
+}
+
+.textareaCuston{
+	margin: 0;
+    	padding: 0;
+    	resize : none;
+}
+
+.declr10ccbcAdrs{
+height: 50px;width: 640px;vertical-align: text-top;
+}
+
+.width2ColTAT{
+height: 60px;
+ width: 300px;
+}
+.spanIWe{
+text-decoration: underline;
+ display: inline-block;
+ width:30px;
+}
+.rightAlign{
+ text-align: right;
+ padding-right:2px;
+}
+
+.divWrap1{
+	width: 350px;
+    word-wrap: break-word;
+}
+
+.divWrapTable62_1{
+	width: 120px;
+    word-wrap: break-word;
+}
+
+.underLineSpan1{
+	 display: inline-block;
+    text-decoration: underline;
+    width: 200px;
+}
+.underLine{
+text-decoration: underline;
+}
+.divWrap2Col{
+    width: 100px;
+    word-wrap: break-word;
+}
+.divDeclrName{
+text-decoration: underline;
+width: 680px;
+word-wrap: break-word;
+}
+.amntSpan{
+text-align:right;
+width:125px;
+}
+.errorMessage {
+     color: red;
+}
+
+.width150Table{
+height:120px;
+width:150px;
+}
+
+.width3ph27TAT{
+	 height: 70px;
+    width: 225px;
+}
+.width3ph35TB{
+	width:200px;
+}
+.width3ph125TBT{
+	 height: 50px;
+    width: 350px;
+}
+.width3ph150TBT{
+	height: 60px;
+    width: 350px;
+}
+
+.numericRightAlign{
+text-align: right;
+}
+
+.centerAlign{
+ text-align: center;
+ padding-right:2px;
+}

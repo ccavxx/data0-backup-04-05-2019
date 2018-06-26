@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+          <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="true" prefHeight="500.0" prefWidth="500.0" 
+					AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+					<content>
+							<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" prefHeight="850" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+    				           
+							   	  <Label text="&#10;"  GridPane.columnIndex="0" GridPane.rowIndex="1">\
+							   	  </Label>
+								  <Label focusTraversable="true" text="&#10;Use the accessibility options provided by e-Filing Website to control the screen display. These options allow changing the text size and colour scheme for clear visibility and better readability." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="2">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								  </Label>
+								  
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<Text focusTraversable="true" text="&#10;Changing the Text Size" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Changing the size of the text refers to making the text appear smaller or bigger from its standard size.&#10; There are three options provided to set the size of the text that affects readability. These are:" style="-fx-font: 14.0px Arial"/>
+									<Text focusTraversable="true" text="The website allows you to change the text size in two different ways by clicking on the text size icons &#10; present at the top of each page. Text size Icons Following different options are provided in the form of &#10; icons  which are available on the top of each page:" style="-fx-font: 14.0px Arial"/>
+							
+								 </VBox>
+								   
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Text focusTraversable="true" text="&#10;Text size Icons" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Following different options are provided in the form of icons which are available on the top of each &#10;page: " style="-fx-font: 14.0px Arial"/>
+									<Text focusTraversable="true" text="&#10;1.[ A- ] Decrease text size: Allows to decrease the text size up to two levels" style="-fx-font: 14.0px Arial;"/>
+								    <Text focusTraversable="true" text="&#10;2.[ A+ ] Increase text size: Allows to increase the text size up to two levels​" style="-fx-font: 14.0px Arial;"/>
+								    
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="5">
+								 	<Text focusTraversable="true" text="&#10;Changing the Colour Scheme" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Changing the contrast scheme refers to applying a suitable background and text colour that ensures &#10; clear readability. There are two options provided to change the contrast scheme. These are:" style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								   
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="6">
+								 	<Text focusTraversable="true" text="&#10;1.High contrast:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Applies black colour as the background and suitable colours to the foreground text on the screen to &#10; improve readability." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="7">
+								 	<Text focusTraversable="true" text="&#10;2.Normal contrast: " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" applies white colour as the background and black colour to the foreground text to set the default &#10; contrast." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="8">
+								 
+								  	<Text focusTraversable="true" text=":The website allows you to change the contrast schemes in two different ways, by clicking on the &#10; contrast scheme icons present at the top of each page and through the Accessibility Options page." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="9">
+								 	<Text focusTraversable="true" text="&#10;Contrast Scheme Icons" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Two contrast scheme options are provided in the form of icons which are available on the top of each &#10; page: " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="10">
+								 	<Text focusTraversable="true" text="&#10;1.[A] High Contrast view:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Consistent means of navigation and style of presentation throughout the Website have been  &#10;incorporated. • Keyboard Support: The website can be browsed using a keyboard by pressing the Tab and Shift + Tab keys. " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="11">
+								 	<Text focusTraversable="true" text="&#10;2.[A] Normal contrast view:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Applies white colour to the background and black colour to the foreground." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								
+								   
+					</children>		
+		               </GridPane>
+		               </content>
+		               </ScrollPane>
+    </children>
+</AnchorPane>

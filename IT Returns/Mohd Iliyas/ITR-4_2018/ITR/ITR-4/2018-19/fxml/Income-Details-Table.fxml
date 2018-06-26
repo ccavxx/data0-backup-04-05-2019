@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="1100"
+ snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.Income_Details_Table">
+	
+	
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="33.0" prefHeight="180.0" prefWidth="1054.0" target="itr.itr4.refund.bankAccountDtls.addtnlBankDetails" >
+		                        <columns>
+							    <ValTableColumn resizable="false" maxWidth="350.0" minWidth="50.0" prefWidth="100.0" text="S.No" target="slNo" />
+										
+									<ValTableColumn resizable="false" maxWidth="300.0" minWidth="95.0" prefWidth="350.0" text=" IFS Code of the bank" target="ifscCode"/>
+									<ValTableColumn resizable="false" maxWidth="360.0" minWidth="125.0" prefWidth="340.0" text="Name of the bank" target="bankName" />
+									<ValTableColumn resizable="false" maxWidth="370.0" minWidth="125.0" prefWidth="330.0" text="Account Number" target="bankAccountNo" />
+							   </columns>
+	</ValTableView>
+
+	<Button layoutX="0.0" fx:id="addRowBtn"  layoutY="215" onKeyTyped="#addRow"   onAction="#addRow" 	mnemonicParsing="false" text="Add Row" />
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="30.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="160.0" prefWidth="550.0" text="Other Bank account details" visible="false"
+	target="incomeDetailsController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							
+							<Label focusTraversable="true" labelFor="$IfscCode" prefWidth="307.0" text=" IFS Code of the bank" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+							<ValTextField fx:id="IfscCode" maxLength="11"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" target="incomeDetailsController.type.ifscCode" allowedChars="[a-zA-Z0-9]" autoCaps="true"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	<Label focusTraversable="true" labelFor="$NameBank" text="Name of the bank" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+							<ValTextField fx:id="NameBank" maxLength="125"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" target="incomeDetailsController.type.bankName"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Label focusTraversable="true" labelFor="$AcntNum" text="Account Number" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							<ValTextField fx:id="AcntNum" maxLength="20"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" target="incomeDetailsController.type.bankAccountNo" allowedChars="[a-zA-Z0-9/-/--]" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="6">
+								<children>
+									<Button mnemonicParsing="false" layoutX="4.0" fx:id="saveBtn" layoutY="250.0" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" layoutX="4.0" fx:id="cancelBtn" layoutY="250.0" onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+								
+								</children>
+							</HBox>
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	
+    <Button layoutX="65.0" fx:id="deleteRowBtn" layoutY="215.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+    <Button layoutX="145.0" fx:id="copyRowBtn" layoutY="215.0" onKeyTyped="#copyRow" onAction="#copyRow"  	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="220.0" fx:id="editRowBtn" layoutY="215.0" onKeyTyped="#editRow"  onAction="#editRow" 	mnemonicParsing="false" text="Edit Row" />
+	
+</AnchorPane>

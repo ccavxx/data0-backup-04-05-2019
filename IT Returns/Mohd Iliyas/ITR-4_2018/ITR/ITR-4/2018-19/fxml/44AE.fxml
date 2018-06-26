@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+	<children>	
+		<VBox id="VBox" alignment="TOP_CENTER" layoutX="38.0" layoutY="0.0" spacing="0.0">
+            <children>
+               <TextFlow >
+  		          <padding>
+                      <Insets bottom="20.0" left="924.0" right ="0.0" top="0.0"/>
+                  </padding>
+	              <Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	            </TextFlow>
+                <GridPane styleClass="grid" prefHeight="1475.0" minWidth="548.0">
+		     		<children>
+                		 <VBox GridPane.columnIndex="0" GridPane.rowIndex="0"  maxWidth="1000" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+      	                    <children>
+		                        <Label fx:id="label1" style="-fx-font-weight: bold;-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;" minHeight="35.0" wrapText="true" minWidth="800" text="Instructions for correct calculation of Profits and gains of Business of plying,hiring or leasing good carriages u/s 44AE " styleClass="h1"/>
+						    </children>
+						 </VBox>
+						 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="1" style="-fx-padding:-45 0 0 0">
+						    <children>
+						       <fx:include source="44AE_Table.fxml"   />	
+		                    </children>
+		                </VBox>
+		               
+                	  	</children>
+                	</GridPane> 		        	
+             </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane fx:id="Content" minHeight="400.0" minWidth="0.0"  prefWidth="1300.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+	<children>
+
+		 <HBox fx:id="HBox1" alignment="CENTER" prefHeight="90.000099999997474" prefWidth="1300.0" spacing="0.0">
+		       <children>
+					 
+			    <TextFlow >
+			            <padding>
+		                    <Insets bottom="0.0" left="830.0" right ="0.0" top="0.0"/>
+		                </padding>
+		 	
+			            <Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		           </TextFlow>
+			 
+		     </children>
+		  </HBox>
+						
+						
+						
+						
+		<VBox fx:id="VBox1" layoutX="91.0" layoutY="70.0" prefHeight="400" prefWidth="980.0" spacing="0.0">
+			<children>
+			<VBox fx:id="VBox" alignment="CENTER" spacing="0.0">
+					<padding>
+        				 <Insets bottom="0.0" left="0.0" right ="0.0" top="110.0"/>
+    				 </padding>
+							<children>
+		
+						<HBox fx:id="HBx" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefHeight="80.000099999997474" prefWidth="866.0" spacing="0.0" style="-fx-background-color:#d0d0ff">
+			               <children>
+		                      <Label fx:id="instructions" prefHeight="400" styleClass="h2" focusTraversable="true" text="INDIAN INCOME TAX RETURN FOR PRESUMPTIVE INCOME FROM BUSINESS &amp; PROFESSION" wrapText="true">
+									<font>
+										<Font name="Arial Bold" size="12.0" fx:id="x9" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						
+							<GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+    				              <Label fx:id="label2" focusTraversable="true" text="1. All amounts are in Indian Rupees." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" >
+									<font>
+										
+									</font>
+							   	  </Label>
+								  <Label fx:id="label3" focusTraversable="true" text="2. A calendar is provided for selecting the date field (format DD/MM/YYYY)." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="1">
+									<font>
+										<Font name="Arial" size="16.0"/>
+									</font>
+								  </Label>
+    				           	 <Label fx:id="label4" focusTraversable="true"  text="3. All greyed out fields are either auto-filled or non-editable." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="2">
+									<font>
+										<Font name="Arial" size="16.0"/>
+									</font>
+								  </Label>
+					        	 <Label fx:id="label5" focusTraversable="true"  text="4. In ITR wherever information is captured in tables.&#10;&#9;a) Adding new Row : Click on ADD button to insert a new row and then enter values in the field provided. Make sure you provide information in all&#10;&#9;  mandatory columns (*) marked.&#10;&#9;b) Deleting Row : Select the row to delete from the list and click DELETE button.&#10;&#9;c)Remove unnecessary blank rows from the table by selecting the row and clicking on DELETE button." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="3">
+									<font>
+										<Font name="Arial" size="12.0"/>
+									</font>
+								  </Label>
+								   <Label fx:id="label6" focusTraversable="true"  text="5.Please enter only the value wherever the information is needed in percentage." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="4">
+									<font>
+										<Font name="Arial" size="12.0"/>
+									</font>
+								  </Label>
+								   <Label fx:id="label7" focusTraversable="true"  text="6.Please verify the Return before submitting or saving the final XML." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="5">
+									<font>
+										<Font name="Arial" size="12.0"/>
+									</font>
+								  </Label>
+					</children>		
+		               </GridPane>
+				</children>
+				</VBox>
+			</children>
+		</VBox>
+	</children>
+</AnchorPane>
+    

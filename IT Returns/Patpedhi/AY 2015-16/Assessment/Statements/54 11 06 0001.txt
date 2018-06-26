@@ -1,0 +1,672 @@
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :1 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                      4307.94 |
+ 05-Apr-2014 | BY CLG /407933/99900169/1703/032              | 407933 |                 |       382300.00 |       386607.94 |
+ 11-Apr-2014 | BY CLG /408031/99900174/2366/032              | 408031 |                 |       135400.00 |       522007.94 |
+ 16-Apr-2014 | TO TRANSFER-SHREE OMSAI COOP CR STY 18/06/1   |   1875 |       520000.00 |                 |         2007.94 |
+ 06-May-2014 | BY CLG /614898/99900191/31/032                | 614898 |                 |        13000.00 |        15007.94 |
+ 09-May-2014 | BY ECS MUN.CORPORATION                        |        |                 |         1990.00 |        16997.94 |
+ 12-May-2014 | TO CTSIW CLG : 8000219/RELIANCE INFRASTRUCTU  |   1876 |         5900.00 |                 |        11097.94 |
+ 21-May-2014 | BY ECS MUN.CORPORATION                        |        |                 |        21193.00 |        32290.94 |
+ 21-May-2014 | BY ECS MUN.CORPORATION                        |        |                 |         1990.00 |        34280.94 |
+ 22-May-2014 | TO TRF-SHREE OMSAI COOP CR STY 18/6/1         |   1878 |         7500.00 |                 |        26780.94 |
+ 22-May-2014 | BY CLG /413157/99900204/1526/032              | 413157 |                 |       538200.00 |       564980.94 |
+ 26-May-2014 | TO CTSIW CLG : 8000230/MTNL/8000230\1877      |   1877 |         2957.00 |                 |       562023.94 |
+ 26-May-2014 | TO TRANSFER-SHRI OMSAI COOP CR STY 18/06/1    |   1880 |       555000.00 |                 |         7023.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |       151140.00 |       158163.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |       373423.00 |       531586.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |        10248.00 |       541834.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |        12437.00 |       554271.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |         1990.00 |       556261.94 |
+ 13-Jun-2014 | BY ECS MUN.CORPORATION                        |        |                 |        12437.00 |       568698.94 |
+ 13-Jun-2014 | TO TRF-18/06/1 SHRI OMSAI COOP CR STY LTD     |   1881 |       566000.00 |                 |         2698.94 |
+ 17-Jun-2014 | BY CASH                                       |        |                 |         2000.00 |         4698.94 |
+ 19-Jun-2014 | BY TRANSFER-18/06/1 SHRI OMSAI COOP CR STY    |        |                 |         7000.00 |        11698.94 |
+ 19-Jun-2014 | TO CTSIW CLG : 8000251/MTNL/8000251\1883      |   1883 |         1704.00 |                 |         9994.94 |
+ 19-Jun-2014 | TO CTSIW CLG : 8000251/RELIANCE INFRASTRUCTU  |   1882 |         7530.00 |                 |         2464.94 |
+ 30-Jun-2014 | BY:60/11/000001:TD INT CREDIT                 |        |                 |          116.00 |         2580.94 |
+ 30-Jun-2014 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          950.00 |         3530.94 |
+ 30-Jun-2014 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          475.00 |         4005.94 |
+ 30-Jun-2014 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1188.00 |         5193.94 |
+ 30-Jun-2014 | BY:60/12/000097:TD INT CREDIT                 |        |                 |          699.00 |         5892.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         6000.00 |        11892.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         6000.00 |        17892.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       367851.00 |       385743.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        20696.00 |       406439.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |       418876.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         1990.00 |       420866.94 |
+ 11-Jul-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       157608.00 |       578474.94 |
+ 12-Jul-2014 | TO TRF-SHREE OMSAI COOP CR STY 18/6/1         |   1885 |       575000.00 |                 |         3474.94 |
+ 14-Jul-2014 | BY CASH                                       |        |                 |         7000.00 |        10474.94 |
+ 14-Jul-2014 | TO CTSIW CLG : 8000272/RELIANCE INFRASTRUCTU  |   1884 |         6870.00 |                 |         3604.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         1990.00 |         5594.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        14549.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       161588.00 |       176137.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |       185092.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       371334.00 |       556426.94 |
+ 11-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         1990.00 |       558416.94 |
+ 12-Aug-2014 | TO TRANSFER-SHREE OM SAI COOP CR STY 18/06/1  |   1886 |       555000.00 |                 |         3416.94 |
+ 14-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        22188.00 |        25604.94 |
+ 14-Aug-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         1990.00 |        27594.94 |
+ 22-Aug-2014 | MDCC BK DIVIDEND 13-14                        |        |                 |       139816.00 |       167410.94 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :2 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    167410.94 |
+ 23-Aug-2014 | TO TRANSFER18/06/1                            |   1887 |       165000.00 |                 |         2410.94 |
+ 12-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        11365.94 |
+ 12-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         1990.00 |        13355.94 |
+ 12-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        22310.94 |
+ 12-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       148653.00 |       170963.94 |
+ 12-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       363871.00 |       534834.94 |
+ 13-Sep-2014 | TO TRANSFER-SHRI OMSAI COOP CR STY 18/06/1~18 |   1888 |       532000.00 |                 |         2834.94 |
+ 15-Sep-2014 | BY CASH                                       |        |                 |       130000.00 |       132834.94 |
+ 15-Sep-2014 | TO TRANSFER~18/06/000001/0054                 |        |       130000.00 |                 |         2834.94 |
+ 19-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |          995.00 |         3829.94 |
+ 19-Sep-2014 | TO CTSIW CLG : 8000327/MTNL/8000327\1889      |   1889 |         1789.00 |                 |         2040.94 |
+ 24-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        10995.94 |
+ 24-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        19950.94 |
+ 24-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        16915.00 |        36865.94 |
+ 24-Sep-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         3980.00 |        40845.94 |
+ 30-Sep-2014 | BY:60/11/000001:TD INT CREDIT                 |        |                 |          111.00 |        40956.94 |
+ 30-Sep-2014 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          950.00 |        41906.94 |
+ 30-Sep-2014 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          475.00 |        42381.94 |
+ 30-Sep-2014 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1188.00 |        43569.94 |
+ 30-Sep-2014 | TO TRANSFER-SHRI OMSAI COOP CR STY 18/06/1~18 |   1890 |        40000.00 |                 |         3569.94 |
+ 10-Oct-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       340190.00 |       343759.94 |
+ 13-Oct-2014 | TO TRANSFER-SHRI OMSAI COOP CR STY 18/06/1~18 |   1891 |       340000.00 |                 |         3759.94 |
+ 16-Oct-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       148653.00 |       152412.94 |
+ 18-Oct-2014 | TO TRANSFER 18/06/01 SHREE OM SAI~18/06/00000 |   1892 |       150000.00 |                 |         2412.94 |
+ 28-Oct-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         3980.00 |         6392.94 |
+ 01-Nov-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |        18829.94 |
+ 03-Nov-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        23880.00 |        42709.94 |
+ 14-Nov-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       340489.00 |       383198.94 |
+ 15-Nov-2014 | TO TRF-SHRI OMSAI COOP CR STY 18/6/1~18/06/00 |   1893 |       380000.00 |                 |         3198.94 |
+ 18-Nov-2014 | BY ECS 010 MUN.CORPORATION                    |        |                 |        16915.00 |        20113.94 |
+ 19-Nov-2014 | BY ECS 010 MUN.CORPORATION                    |        |                 |       145668.00 |       165781.94 |
+ 20-Nov-2014 | NEFT FRM MUN .CORPORATION~99/01/001706/0001   |        |                 |        16417.00 |       182198.94 |
+ 20-Nov-2014 | NEFT FRM MUN .CORPORATION~99/01/001706/0001   |        |                 |         3980.00 |       186178.94 |
+ 20-Nov-2014 | TO TRF-SHRI OMSAI COOP CR STY LTD 18/6/1~18/0 |   1894 |       180000.00 |                 |         6178.94 |
+ 20-Nov-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        15133.94 |
+ 24-Nov-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |        27570.94 |
+ 01-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       352230.00 |       379800.94 |
+ 02-Dec-2014 | TO TRANSFER18/06/01~18/06/000001/0054         |   1896 |       370000.00 |                 |         9800.94 |
+ 04-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         5970.00 |        15770.94 |
+ 04-Dec-2014 | TO CTSIW CLG : 8000385/RELIANCE INFRASTRUCTU  |   1895 |         6470.00 |                 |         9300.94 |
+ 06-Dec-2014 | NEFT FRM MUN .CORPORATION~99/01/001706/0001   |        |                 |         3980.00 |        13280.94 |
+ 12-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        22235.94 |
+ 12-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |        34672.94 |
+ 12-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |       149648.00 |       184320.94 |
+ 15-Dec-2014 | TO TRANSFER 18/06/01~18/06/000001/0054        |   1898 |       180000.00 |                 |         4320.94 |
+ 23-Dec-2014 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        13275.94 |
+ 31-Dec-2014 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          950.00 |        14225.94 |
+ 31-Dec-2014 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          475.00 |        14700.94 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :3 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     14700.94 |
+ 31-Dec-2014 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1188.00 |        15888.94 |
+ 31-Dec-2014 | TO CTSIW CLG : 8000407/MTNL MUMBAI LANDLINE/  |   1900 |         2016.00 |                 |        13872.94 |
+ 02-Jan-2015 | NEFT FR MUN CORPORATION~99/01/001706/0001     |        |                 |        16915.00 |        30787.94 |
+ 06-Jan-2015 | TO CTSIW CLG : 8000412/RELIANCE INFRASTRUCTU  |  16851 |         4450.00 |                 |        26337.94 |
+ 06-Jan-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       162583.00 |       188920.94 |
+ 07-Jan-2015 | TO TRANSFER 18/06/01 SHRI OM SAI STY /OD A/C  |  16852 |       185000.00 |                 |         3920.94 |
+ 09-Jan-2015 | NEFT FR MUN CORPORATION~99/01/001706/0001     |        |                 |         3980.00 |         7900.94 |
+ 14-Jan-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       336807.00 |       344707.94 |
+ 14-Jan-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |       357144.94 |
+ 15-Jan-2015 | NEFT FR MUN CORPORATION~99/01/001706/0001     |        |                 |        16915.00 |       374059.94 |
+ 15-Jan-2015 | TO TRAN 18/06/01 SHRI OM SAI STY~18/06/000001 |  16853 |       355000.00 |                 |        19059.94 |
+ 16-Jan-2015 | TO TRAN 18/06/01/SHREE OM SAI STY~18/06/00000 |  16854 |        17000.00 |                 |         2059.94 |
+ 23-Jan-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        11014.94 |
+ 02-Feb-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       154822.00 |       165836.94 |
+ 02-Feb-2015 | TO TRAN54/18/06/01/SHRI OM SAI STY~18/06/0000 |  16858 |       160000.00 |                 |         5836.94 |
+ 05-Feb-2015 | NEFT FR MUN CORPORATION~99/01/001706/0001     |        |                 |         3980.00 |         9816.94 |
+ 05-Feb-2015 | TO CTSIW CLG : 8000437/RELIANCE INFRASTRUCTU  |  16857 |         2770.00 |                 |         7046.94 |
+ 05-Feb-2015 | TO CTSIW CLG : 8000437/MTNL MUMBAI LANDLINE/  |  16856 |         1891.00 |                 |         5155.94 |
+ 09-Feb-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       323275.00 |       328430.94 |
+ 09-Feb-2015 | TO TRANSFER 18/06/01 SHREE OM SAI CR SOC LTD~ |  16859 |       325000.00 |                 |         3430.94 |
+ 16-Feb-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |        15867.94 |
+ 23-Feb-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        18852.94 |
+ 27-Feb-2015 | TO CTSIW CLG : 8000454/MTNL MUMBAI LANDLINE/  |  16861 |         1878.00 |                 |        16974.94 |
+ 03-Mar-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        25929.94 |
+ 09-Mar-2015 | BY ECS MUN.CORPORATION                        |        |                 |       154822.00 |       180751.94 |
+ 09-Mar-2015 | BY ECS MUN.CORPORATION                        |        |                 |       331235.00 |       511986.94 |
+ 11-Mar-2015 | SHREE OM SAI 54/18/06/01~18/06/000001/0054    |  16863 |       508000.00 |                 |         3986.94 |
+ 18-Mar-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        12437.00 |        16423.94 |
+ 18-Mar-2015 | NEFT FRM MUN. CORPORATION~99/01/001706/0001   |        |                 |         3980.00 |        20403.94 |
+ 20-Mar-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        29358.94 |
+ 20-Mar-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  16862 |         3400.00 |                 |        25958.94 |
+ 23-Mar-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        28943.94 |
+ 26-Mar-2015 | NEFT FRM MUN CRPN~99/01/001706/0001           |        |                 |        19402.00 |        48345.94 |
+ 31-Mar-2015 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          950.00 |        49295.94 |
+ 31-Mar-2015 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          475.00 |        49770.94 |
+ 31-Mar-2015 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1188.00 |        50958.94 |
+ 31-Mar-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       135917.00 |       186875.94 |
+ 31-Mar-2015 | TO INCIDENTAL CHARGES                         |        |          224.72 |                 |       186651.22 |
+ 06-Apr-2015 | TO TRAN 54/18/06/01/SHRI OM SAI STY~18/06/000 |  16866 |       175000.00 |                 |        11651.22 |
+ 08-Apr-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       310539.00 |       322190.22 |
+ 09-Apr-2015 | TO TRANSFER SHREE OM SAI CER STY~18/06/000001 |  16867 |       312190.00 |                 |        10000.22 |
+ 09-Apr-2015 | NEFT FR MUN CORPORATION~99/01/001706/0001     |        |                 |         3980.00 |        13980.22 |
+ 11-Apr-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  16864 |         5140.00 |                 |         8840.22 |
+ 24-Apr-2015 | TO - MTNL MUMBAI LANDLINE - INE/8000498\1686  |  16865 |         1884.00 |                 |         6956.22 |
+ 27-Apr-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        15911.22 |
+ 27-Apr-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        18896.22 |
+ 27-Apr-2015 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   |  16870 |          862.00 |                 |        18034.22 |
+ 28-Apr-2015 | BY CASH                                       |        |                 |        36630.00 |        54664.22 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :4 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     54664.22 |
+ 28-Apr-2015 | TO TRANSFER WRONGALY CER ADJAST18/06/1~18/06/ |        |        36630.00 |                 |        18034.22 |
+ 02-May-2015 | By NEFT :MUN.CORPORATION                      |        |                 |         9054.00 |        27088.22 |
+ 06-May-2015 | By NEFT:SBIN115126820388:                     |        |                 |         3980.00 |        31068.22 |
+ 09-May-2015 | TO TRAN 18/06/01/SHRI OM SAI STY              |  16872 |        30000.00 |                 |         1068.22 |
+ 09-May-2015 | By NEFT:SBIN415129816277:                     |        |                 |        21492.00 |        22560.22 |
+ 13-May-2015 | BY TRANSFER WRONGLY 18/06/1~18/06/000001/0054 |        |                 |         2000.00 |        24560.22 |
+ 16-May-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  16873 |         5880.00 |                 |        18680.22 |
+ 16-May-2015 | TO - MTNL MUMBAI LANDLINE - INE/8000517\1687  |  16871 |         4018.00 |                 |        14662.22 |
+ 18-May-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       327554.00 |       342216.22 |
+ 18-May-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       143678.00 |       485894.22 |
+ 19-May-2015 | TO TRAN 18/06/01/SHRI OM SAI STY~18/06/000001 |  16874 |       480000.00 |                 |         5894.22 |
+ 20-May-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        14849.22 |
+ 22-May-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        17834.22 |
+ 26-May-2015 | By NEFT :MUN.CORPORATION 00                   |        |                 |        21492.00 |        39326.22 |
+ 30-May-2015 | TO TRANS 18/06/01 SHRI OM SAI CO-CR SOC LTD.~ |  16876 |        30000.00 |                 |         9326.22 |
+ 01-Jun-2015 | TO - MTNL MUMBAI LANDLINE - INE/8000530\1687  |  16875 |         4387.00 |                 |         4939.22 |
+ 04-Jun-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       153926.00 |       158865.22 |
+ 04-Jun-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       327255.00 |       486120.22 |
+ 04-Jun-2015 | TO TRANS 54/18/06/01 SHRI OM SAI CO-OP CR~18/ |  16877 |       480000.00 |                 |         6120.22 |
+ 10-Jun-2015 | By NEFT :MUN.CORPORATION 00                   |        |                 |         3980.00 |        10100.22 |
+ 10-Jun-2015 | BY CASH                                       |        |                 |        10000.00 |        20100.22 |
+ 13-Jun-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  16879 |         7300.00 |                 |        12800.22 |
+ 18-Jun-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        15785.22 |
+ 18-Jun-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        24740.22 |
+ 29-Jun-2015 | TO - MTNL MUMBAI LANDLINE - INE/8000553\1688  |  16880 |         2000.00 |                 |        22740.22 |
+ 30-Jun-2015 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          950.00 |        23690.22 |
+ 30-Jun-2015 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          475.00 |        24165.22 |
+ 30-Jun-2015 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1188.00 |        25353.22 |
+ 30-Jun-2015 | TO TRANS 18/06/01/SHRI OM SAI STY~18/06/00000 |  16881 |        20000.00 |                 |         5353.22 |
+ 04-Jul-2015 | By NEFT :MUN.CORPORATION 0000001099668086     |        |                 |         1990.00 |         7343.22 |
+ 10-Jul-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       140991.00 |       148334.22 |
+ 11-Jul-2015 | By NEFT :MUN.CORPORATION 0000001099668086     |        |                 |        21492.00 |       169826.22 |
+ 13-Jul-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       278202.00 |       448028.22 |
+ 13-Jul-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |       451013.22 |
+ 13-Jul-2015 | TO TRANS 54/18/06/01SHRI OM SAI CO OP CR~18/0 |  16884 |       445000.00 |                 |         6013.22 |
+ 16-Jul-2015 | By NEFT :MUN.CORPORATION 0000001099668086     |        |                 |        21492.00 |        27505.22 |
+ 17-Jul-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  16882 |         4540.00 |                 |        22965.22 |
+ 17-Jul-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        31920.22 |
+ 03-Aug-2015 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   |  16878 |         1875.00 |                 |        30045.22 |
+ 12-Aug-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        39000.22 |
+ 12-Aug-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |        41985.22 |
+ 13-Aug-2015 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |        43975.22 |
+ 20-Aug-2015 | TO TRA 99/02/7505/AUD/REP/JUN/2015~99/02/0075 |        |          168.54 |                 |        43806.68 |
+ 24-Aug-2015 | TO TRANS 54/18/06/01 SHRI OM SAI CO-OP CR~18/ |  23751 |        40000.00 |                 |         3806.68 |
+ 25-Aug-2015 | By NEFT :MUN.CORPORATION                      |        |                 |        21492.00 |        25298.68 |
+ 27-Aug-2015 | TO - MTNL - TO CTSIW CLG : 8000602/MTNL/8000  |  23752 |         2016.00 |                 |        23282.68 |
+ 04-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        23880.00 |        47162.68 |
+ 04-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        17910.00 |        65072.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :5 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     65072.68 |
+ 07-Sep-2015 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |        67062.68 |
+ 09-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       266958.00 |       334020.68 |
+ 09-Sep-2015 | TO TRANS 54/18/06/01 SHRI OM SAI CO-OP CR~18/ |  23753 |       330000.00 |                 |         4020.68 |
+ 11-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       136016.00 |       140036.68 |
+ 14-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |       143021.68 |
+ 14-Sep-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |       151976.68 |
+ 17-Sep-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  23754 |         5230.00 |                 |       146746.68 |
+ 28-Sep-2015 | BY ECS 034 MUN.CORPORATION                    |        |                 |        11940.00 |       158686.68 |
+ 29-Sep-2015 | BY:60/12/000074:TD INT CREDIT                 |        |                 |          919.00 |       159605.68 |
+ 29-Sep-2015 | BY:60/12/000075:TD INT CREDIT                 |        |                 |          459.00 |       160064.68 |
+ 29-Sep-2015 | BY:60/12/000076:TD INT CREDIT                 |        |                 |         1146.00 |       161210.68 |
+ 30-Sep-2015 | TO INCIDENTAL CHARGES                         |        |          228.00 |                 |       160982.68 |
+ 01-Oct-2015 | TO TRAN 18/06/01/SHRI OM SAI STY~18/06/000001 |  23755 |       158000.00 |                 |         2982.68 |
+ 03-Oct-2015 | By NEFT :MUN.CORPORATION                      |        |                 |        23482.00 |        26464.68 |
+ 05-Oct-2015 | BY CASH                                       |        |                 |         3000.00 |        29464.68 |
+ 05-Oct-2015 | TO TRANS 54/18/06/01 SHRI OM SAI CO-OP CR~18/ |  23756 |        26000.00 |                 |         3464.68 |
+ 09-Oct-2015 | BY CLG BY CLG/1354/99900605/1481/032          |   1354 |                 |        22382.00 |        25846.68 |
+ 09-Oct-2015 | MDCC BK DIVI 14-15                            |        |                 |       142127.00 |       167973.68 |
+ 14-Oct-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       117609.00 |       285582.68 |
+ 14-Oct-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  23757 |         4610.00 |                 |       280972.68 |
+ 15-Oct-2015 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |       282962.68 |
+ 16-Oct-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         2985.00 |       285947.68 |
+ 16-Oct-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |       217258.00 |       503205.68 |
+ 19-Oct-2015 | TO TRAN18 06 01 SHREE OM SAI COOP~18/06/00000 |  23762 |       495000.00 |                 |         8205.68 |
+ 21-Oct-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        11940.00 |        20145.68 |
+ 21-Oct-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        29100.68 |
+ 02-Nov-2015 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   |  23760 |         1055.00 |                 |        28045.68 |
+ 04-Nov-2015 | TO - MTNL - TO CTSIW CLG : 8000654/MTNL/8000  |  23761 |         2770.00 |                 |        25275.68 |
+ 07-Nov-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        35521.00 |        60796.68 |
+ 09-Nov-2015 | BY CLG BY CLG/772/99900628/1804/032           |    772 |                 |        15755.00 |        76551.68 |
+ 23-Nov-2015 | TO TRANS 54/18/06/01 SHRI OM SAI CO-OP CR~18/ |  23763 |        70000.00 |                 |         6551.68 |
+ 26-Nov-2015 | BY CASH                                       |        |                 |        24000.00 |        30551.68 |
+ 01-Dec-2015 | TO - MTNL - TO CTSIW CLG : 8000674/MTNL/8000  |  23765 |         2562.00 |                 |        27989.68 |
+ 04-Dec-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        36944.68 |
+ 07-Dec-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        45899.68 |
+ 07-Dec-2015 | By NEFT :MUN.CORPORATION                      |        |                 |        23482.00 |        69381.68 |
+ 09-Dec-2015 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  23768 |         6570.00 |                 |        62811.68 |
+ 14-Dec-2015 | BY ECS 030 MUN.CORPORATION                    |        |                 |        27760.00 |        90571.68 |
+ 31-Dec-2015 | TO TRANSFER 18/06/01 SHREE OM SAI~18/06/00000 |  23770 |        80000.00 |                 |        10571.68 |
+ 04-Jan-2016 | TO - MTNL - TO CTSIW CLG : 8000701/MTNL/8000  |  23769 |         2404.00 |                 |         8167.68 |
+ 11-Jan-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        85968.00 |        94135.68 |
+ 11-Jan-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         9054.00 |       103189.68 |
+ 12-Jan-2016 | TO TRANSFEROM SAI CO OP 54/18/06/01~18/06/000 |  23773 |        90000.00 |                 |        13189.68 |
+ 15-Jan-2016 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  23771 |         5270.00 |                 |         7919.68 |
+ 18-Jan-2016 | BY ECS 030 MUN.CORPORATION                    |        |                 |         8955.00 |        16874.68 |
+ 19-Jan-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         9054.00 |        25928.68 |
+ 21-Jan-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |        27918.68 |
+ 02-Feb-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        84077.00 |       111995.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :6 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    111995.68 |
+ 03-Feb-2016 | TO TR 18/06/1 SHREE OM SAI COPP  CR STY~18/06 |  23774 |       108000.00 |                 |         3995.68 |
+ 08-Feb-2016 | By NEFT :MR. SUBHASHCHANDRA S                 |        |                 |       100000.00 |       103995.68 |
+ 08-Feb-2016 | SUBASH S PAL                                  |  23776 |       100000.00 |                 |         3995.68 |
+ 10-Feb-2016 | BY CASH                                       |        |                 |         2500.00 |         6495.68 |
+ 10-Feb-2016 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  23775 |         4040.00 |                 |         2455.68 |
+ 18-Feb-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        12437.00 |        14892.68 |
+ 18-Feb-2016 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  23777 |        11000.00 |                 |         3892.68 |
+ 20-Feb-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         6169.00 |        10061.68 |
+ 26-Feb-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        21392.00 |        31453.68 |
+ 01-Mar-2016 | TO TR 16/11/06/36~11/06/000036/0016           |  23778 |         2100.00 |                 |        29353.68 |
+ 02-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |       136414.00 |       165767.68 |
+ 02-Mar-2016 | TO TR 18/06/01 SHREE OM SAI COOP CR STY~18/06 |  23779 |       155000.00 |                 |        10767.68 |
+ 05-Mar-2016 | BY ECS 030 MUN.CORPORATION                    |        |                 |        17910.00 |        28677.68 |
+ 05-Mar-2016 | TO TRA30/11/06/12 SHREE OM SAI CO OP CR STY~1 |  23780 |        20000.00 |                 |         8677.68 |
+ 10-Mar-2016 | BY CASH                                       |        |                 |        79333.00 |        88010.68 |
+ 11-Mar-2016 | TO TRANSFER WRONG CREDITED  ENTRY REAVERS~10/ |        |        79333.00 |                 |         8677.68 |
+ 14-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         3980.00 |        12657.68 |
+ 16-Mar-2016 | By NEFT :DHARMENDRA KUMAR GUP                 |        |                 |         3810.00 |        16467.68 |
+ 16-Mar-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       303475.00 |       319942.68 |
+ 16-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ |  23782 |       315000.00 |                 |         4942.68 |
+ 19-Mar-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       330738.00 |       335680.68 |
+ 19-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ |  23783 |       330000.00 |                 |         5680.68 |
+ 21-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        66366.00 |        72046.68 |
+ 21-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |        74036.68 |
+ 21-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        25770.00 |        99806.68 |
+ 21-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ |  23784 |        95000.00 |                 |         4806.68 |
+ 22-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        54028.00 |        58834.68 |
+ 22-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |       139300.00 |       198134.68 |
+ 22-Mar-2016 | TO TR DUPLICATE STATMENT CHARG 01/08/2015 TO~ |        |           69.00 |                 |       198065.68 |
+ 22-Mar-2016 | TO TRANSFER 18/06/01 SHRI OM SAI~18/06/000001 |  23785 |       195000.00 |                 |         3065.68 |
+ 23-Mar-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       316410.00 |       319475.68 |
+ 23-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ |  23786 |       316000.00 |                 |         3475.68 |
+ 28-Mar-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         1990.00 |         5465.68 |
+ 31-Mar-2016 | TO INCIDENTAL CHARGES                         |        |          228.00 |                 |         5237.68 |
+ 31-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ |  23787 |         2500.00 |                 |         2737.68 |
+ 02-Apr-2016 | By NEFT :DHARMENDRA KUMAR GUP                 |        |                 |         3810.00 |         6547.68 |
+ 18-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        52735.00 |        59282.68 |
+ 18-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         8557.00 |        67839.68 |
+ 18-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         8457.00 |        76296.68 |
+ 20-Apr-2016 | TO TR 18/06/01 SHREE OM SAI~18/06/000001/0054 |  23789 |        73000.00 |                 |         3296.68 |
+ 20-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         3980.00 |         7276.68 |
+ 21-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         8557.00 |        15833.68 |
+ 21-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        18407.00 |        34240.68 |
+ 21-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        91142.00 |       125382.68 |
+ 21-Apr-2016 | TO TRANS 54/18/06/01 SHREE OM SAI~18/06/00000 |  23790 |       121000.00 |                 |         4382.68 |
+ 26-Apr-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        54327.00 |        58709.68 |
+ 26-Apr-2016 | TO TRANS 54/18/06/01 SHREE OM SAI~18/06/00000 |  23791 |        50000.00 |                 |         8709.68 |
+ 11-May-2016 | By NEFT :MUN.CORPORATION                      |        |                 |       104873.00 |       113582.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :7 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    113582.68 |
+ 11-May-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        11550.00 |       125132.68 |
+ 11-May-2016 | TO TRANSFER18/06/01 SHRI OM SAI~18/06/000001/ |  23792 |       120000.00 |                 |         5132.68 |
+ 20-May-2016 | BY CASH                                       |        |                 |        50000.00 |        55132.68 |
+ 20-May-2016 | TO TRA WRONGLY 18/06/01~18/06/000001/0054     |        |        50000.00 |                 |         5132.68 |
+ 24-May-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       301585.00 |       306717.68 |
+ 24-May-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        13930.00 |       320647.68 |
+ 24-May-2016 | TO TRANS 54/18/06/01 SHREE OM SAI~18/06/00000 |  23793 |       302000.00 |                 |        18647.68 |
+ 25-May-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         3482.00 |        22129.68 |
+ 30-May-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        13134.00 |        35263.68 |
+ 01-Jun-2016 | TO - MASTER ADVERTISING - ING/8000815\23794   |  23794 |         2500.00 |                 |        32763.68 |
+ 10-Jun-2016 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  23796 |        25000.00 |                 |         7763.68 |
+ 15-Jun-2016 | TO - MTNL - TO CTSIW CLG : 8000826/MTNL/8000  |  23795 |         5087.00 |                 |         2676.68 |
+ 20-Jun-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       290242.00 |       292918.68 |
+ 20-Jun-2016 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  23797 |       290000.00 |                 |         2918.68 |
+ 07-Jul-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         1492.00 |         4410.68 |
+ 14-Jul-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         8955.00 |        13365.68 |
+ 20-Jul-2016 | TO: ACCT MAINT CHGS LESS DED 31MAR16 - JUL-16 |        |            1.00 |                 |        13364.68 |
+ 22-Jul-2016 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   |  23798 |         2876.00 |                 |        10488.68 |
+ 28-Jul-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       256610.00 |       267098.68 |
+ 28-Jul-2016 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  23799 |       260000.00 |                 |         7098.68 |
+ 30-Jul-2016 | TO CASH MUKESH V GHUMARE                      |  23800 |         3000.00 |                 |         4098.68 |
+ 01-Aug-2016 | By NEFT :MUN.CORPORATION                      |        |                 |        40795.00 |        44893.68 |
+ 18-Aug-2016 | TO TRANSFER DD MAHA RAJYA SAH SANGH PUNE~99/0 |  30151 |         1308.00 |                 |        43585.68 |
+ 19-Aug-2016 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 |  30152 |        40000.00 |                 |         3585.68 |
+ 20-Aug-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       279495.00 |       283080.68 |
+ 22-Aug-2016 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 |  30153 |       275000.00 |                 |         8080.68 |
+ 01-Sep-2016 | TO - MTNL - TO CTSIW CLG : 8000887/MTNL/8000  |  30154 |         2855.00 |                 |         5225.68 |
+ 12-Sep-2016 | By NEFT :MUN.CORPORATION                      |        |                 |         2985.00 |         8210.68 |
+ 22-Sep-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       283575.00 |       291785.68 |
+ 23-Sep-2016 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  30157 |       285000.00 |                 |         6785.68 |
+ 30-Sep-2016 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |         6555.68 |
+ 03-Oct-2016 | TO - MTNL - TO CTSIW CLG : 8000911/MTNL/8000  |  30156 |         2748.00 |                 |         3807.68 |
+ 06-Oct-2016 | BY ACH MUN.CORP1700044068                     |        |                 |        35820.00 |        39627.68 |
+ 10-Oct-2016 | BY LOAN DISB/0054/50/09/000008                |        |                 |       700000.00 |       739627.68 |
+ 10-Oct-2016 | TO TRANSFER WRONG ENT~11/04/000001/0054       |        |       700000.00 |                 |        39627.68 |
+ 19-Oct-2016 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 |  30158 |        35000.00 |                 |         4627.68 |
+ 20-Oct-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       277306.00 |       281933.68 |
+ 21-Oct-2016 | TO TRANSFER18/06/01 SHRI OM SAI~18/06/000001/ |  30160 |       278000.00 |                 |         3933.68 |
+ 18-Nov-2016 | BY ACH MUN.CORP1700053614                     |        |                 |         5970.00 |         9903.68 |
+ 18-Nov-2016 | MDCC BK DIVI 15-16                            |        |                 |       139816.00 |       149719.68 |
+ 19-Nov-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       250939.00 |       400658.68 |
+ 21-Nov-2016 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30161 |       395000.00 |                 |         5658.68 |
+ 29-Nov-2016 | BY TR 18/06/1 SHREE OMSAI~18/06/000001/0054   |        |                 |        45000.00 |        50658.68 |
+ 29-Nov-2016 | TO CASH YOGESH VISHNU GHUMRE                  |  30164 |        45000.00 |                 |         5658.68 |
+ 02-Dec-2016 | By NEFT :MR. SURYAKANT MALHAR                 |        |                 |       162000.00 |       167658.68 |
+ 02-Dec-2016 | By NEFT :MR. HARESH DILIP MOH                 |        |                 |       214000.00 |       381658.68 |
+ 03-Dec-2016 | BY ACH MUN.CORP1700057239                     |        |                 |         5970.00 |       387628.68 |
+ 03-Dec-2016 | TO TR 18/06/1 SHREE OM SAI COPP  CR STY~18/06 |  30166 |       310000.00 |                 |        77628.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :8 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     77628.68 |
+ 05-Dec-2016 | TO - THE NEW INDIA ASSURANCE - INDIA ASSURAN  |  30163 |          552.00 |                 |        77076.68 |
+ 06-Dec-2016 | TO CASH J B BEDMUTHA                          |  30167 |        34296.00 |                 |        42780.68 |
+ 13-Dec-2016 | By NEFT :SHANTABAI  M  MARU                   |        |                 |       200700.00 |       243480.68 |
+ 14-Dec-2016 | TO CASH  H D MOHITE                           |  30168 |        45000.00 |                 |       198480.68 |
+ 15-Dec-2016 | TO TRA27/11/06/90 SHRI OM SAI CO OP CR STY~11 |  30170 |        25000.00 |                 |       173480.68 |
+ 19-Dec-2016 | TO CASH SHANTABAIMARU                         |  30171 |        48000.00 |                 |       125480.68 |
+ 19-Dec-2016 | TO - MTNL - TO CTSIW CLG : 8000972/MTNL/8000  |  30169 |         2347.00 |                 |       123133.68 |
+ 21-Dec-2016 | By RTGS : HARUJ KHAN YAKUB KH                 |        |                 |       640000.00 |       763133.68 |
+ 21-Dec-2016 | By NEFT :MR. KAMLESH PRAKASH                  |        |                 |        50000.00 |       813133.68 |
+ 22-Dec-2016 | BY ACH MUN.CORP1700064024                     |        |                 |         5970.00 |       819103.68 |
+ 22-Dec-2016 | By RTGS :MUN.CORPORATION                      |        |                 |       259894.00 |      1078997.68 |
+ 23-Dec-2016 | By NEFT :PANDURANG BANDU WAGH                 |        |                 |        50000.00 |      1128997.68 |
+ 23-Dec-2016 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30172 |      1000000.00 |                 |       128997.68 |
+ 29-Dec-2016 | TO CASH ASHARAM MAGDOM RATHOR                 |  30182 |        48000.00 |                 |        80997.68 |
+ 29-Dec-2016 | TO ECS PROCESING CHARGES OCT TO DEC2016~99/01 |        |           22.00 |                 |        80975.68 |
+ 30-Dec-2016 | By RTGS :Mrs. SUPRIYA SURESH                  |        |                 |       517000.00 |       597975.68 |
+ 31-Dec-2016 | By NEFT :MUN CORPORATION                      |        |                 |         8557.00 |       606532.68 |
+ 03-Jan-2017 | TO CASH HARUJ KHAN YAKUB KHAN                 |  30183 |        48000.00 |                 |       558532.68 |
+ 04-Jan-2017 | TO TRA 18/06/01 SHRI OM SAI CO OP~18/06/00000 |  30185 |       505000.00 |                 |        53532.68 |
+ 04-Jan-2017 | By NEFT :MR. SANTOSH BABAN TH                 |        |                 |        20000.00 |        73532.68 |
+ 09-Jan-2017 | TO CASH KAMLESH P SAWANT                      |  30188 |        50000.00 |                 |        23532.68 |
+ 10-Jan-2017 | By RTGS : NANDA BAJRANG JADHA                 |        |                 |       260000.00 |       283532.68 |
+ 10-Jan-2017 | By NEFT :MR. KAMLESH PRAKASH                  |        |                 |        74700.00 |       358232.68 |
+ 12-Jan-2017 | TO TR 18/06/1 OM SAI COOP CR STY~18/06/000001 |  30192 |       275000.00 |                 |        83232.68 |
+ 12-Jan-2017 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  |  30186 |         4420.00 |                 |        78812.68 |
+ 13-Jan-2017 | TO - SANJAY BHAURAO DHANKE - TO CTSIW CLG :   |  30191 |        32000.00 |                 |        46812.68 |
+ 13-Jan-2017 | TO - RAJESH SANJAY DHANKE - TO CTSIW CLG : 8  |  30190 |        40000.00 |                 |         6812.68 |
+ 13-Jan-2017 | By NEFT :DINKAR BHIMRAO NIKAL                 |        |                 |       965000.00 |       971812.68 |
+ 16-Jan-2017 | TO TRA 54/18/06/01 OM SAI CO OPP CR~18/06/000 |  30194 |       900000.00 |                 |        71812.68 |
+ 16-Jan-2017 | TO TRA 27/11/06/90 SHRI OMSAI CO OPP CR~11/06 |  30195 |        40000.00 |                 |        31812.68 |
+ 21-Jan-2017 | TO - MTNL - TO CTSIW CLG : 8000999/MTNL/8000  |  30193 |         2358.00 |                 |        29454.68 |
+ 24-Jan-2017 | By NEFT :MR. SURESH GANPAT MO                 |        |                 |       184800.00 |       214254.68 |
+ 24-Jan-2017 | By NEFT :MR. ANIL VINAYAK RAN                 |        |                 |       160000.00 |       374254.68 |
+ 24-Jan-2017 | By NEFT :DATTU RAMDAS KADAR                   |        |                 |        53000.00 |       427254.68 |
+ 24-Jan-2017 | By NEFT :SUNIL SOPAN BHOSALE                  |        |                 |       415800.00 |       843054.68 |
+ 25-Jan-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30196 |       800000.00 |                 |        43054.68 |
+ 25-Jan-2017 | TO CASH PUSHPA I BIND                         |  30197 |        22750.00 |                 |        20304.68 |
+ 31-Jan-2017 | By RTGS :MUN CORPORATION                      |        |                 |       250342.00 |       270646.68 |
+ 01-Feb-2017 | TO CASH DINKAR B NIKALJE                      |  30200 |        50000.00 |                 |       220646.68 |
+ 01-Feb-2017 | TO CASH KAMLESH P SAWAT                       |  30201 |        50000.00 |                 |       170646.68 |
+ 02-Feb-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30203 |       160000.00 |                 |        10646.68 |
+ 06-Feb-2017 | BY TRA18/06/01SHRI OM SAICO OP STY~18/06/0000 |        |                 |       156000.00 |       166646.68 |
+ 06-Feb-2017 | TO CASH VINAYAK S KAMBLE                      |  30204 |       156099.00 |                 |        10547.68 |
+ 08-Feb-2017 | TO - MASTER ADVERTISING - ING/8001012\30202   |  30202 |         3500.00 |                 |         7047.68 |
+ 08-Feb-2017 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   |  30199 |         1099.00 |                 |         5948.68 |
+ 08-Feb-2017 | By NEFT :DHARMENDRA KUMAR GUP                 |        |                 |         3810.00 |         9758.68 |
+ 14-Feb-2017 | BY CASH                                       |        |                 |         9000.00 |        18758.68 |
+ 17-Feb-2017 | By RTGS :UMESH SALVE                          |        |                 |       515000.00 |       533758.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                                Page :9 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    533758.68 |
+ 18-Feb-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30205 |       250000.00 |                 |       283758.68 |
+ 20-Feb-2017 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 |  30206 |       280000.00 |                 |         3758.68 |
+ 22-Feb-2017 | By RTGS :Mr. SANTOSH BABU KAM                 |        |                 |       426000.00 |       429758.68 |
+ 23-Feb-2017 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 |  30207 |       420000.00 |                 |         9758.68 |
+ 03-Mar-2017 | By RTGS :MUN CORPORATION                      |        |                 |       235914.00 |       245672.68 |
+ 04-Mar-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  30208 |       235000.00 |                 |        10672.68 |
+ 10-Mar-2017 | By RTGS :Mr. MAHENDRA RAMESH                  |        |                 |       614000.00 |       624672.68 |
+ 10-Mar-2017 | By NEFT :MRS. SUSHMA GAUTAM W                 |        |                 |       194000.00 |       818672.68 |
+ 10-Mar-2017 | TO TRA 18/06/01 SHRI OM SAI CO OPP~18/06/0000 |  30209 |       815000.00 |                 |         3672.68 |
+ 14-Mar-2017 | By RTGS :Mr. MANGESH BHIKAJI                  |        |                 |       282500.00 |       286172.68 |
+ 14-Mar-2017 | TO TRA 18/06/01 SHRI OM SAI CO OPP~18/06/0000 |  30210 |       282000.00 |                 |         4172.68 |
+ 15-Mar-2017 | By NEFT :KANTA RAMESH PARMAR                  |        |                 |       161000.00 |       165172.68 |
+ 16-Mar-2017 | TO TRA 18/06/01 SHRI OM SAI CO OPP~18/06/0000 |        |       163000.00 |                 |         2172.68 |
+ 21-Mar-2017 | By NEFT :AMOL UTTAM KAMBALE                   |        |                 |       408000.00 |       410172.68 |
+ 21-Mar-2017 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  36271 |       408000.00 |                 |         2172.68 |
+ 21-Mar-2017 | By RTGS :MUN CORPORATION                      |        |                 |       239596.00 |       241768.68 |
+ 22-Mar-2017 | TO TRA 18/06/01 SHRI OM SAI CO OPP~18/06/0000 |  36272 |       239596.00 |                 |         2172.68 |
+ 31-Mar-2017 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |         1942.68 |
+ 03-Apr-2017 | By NEFT :DHARMENDRA KUMAR GUP                 |        |                 |         3810.00 |         5752.68 |
+ 13-Apr-2017 | By NEFT :NAMDEOS DHUMALE .                    |        |                 |       500000.00 |       505752.68 |
+ 17-Apr-2017 | TO TRANSFER 18/06/1 SHREE OM SAI COOP CR STY~ |  36274 |       500000.00 |                 |         5752.68 |
+ 26-Apr-2017 | By RTGS :MUN CORPORATION                      |        |                 |       232929.00 |       238681.68 |
+ 27-Apr-2017 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  36275 |       235000.00 |                 |         3681.68 |
+ 29-Apr-2017 | TO MINIMUM BALANCE CHARGES                    |        |          173.00 |                 |         3508.68 |
+ 06-May-2017 | TO - MAHARASHTRA RAJYA SAHAK - TO CTSIW CLG   |  36273 |         1150.00 |                 |         2358.68 |
+ 16-May-2017 | By NEFT :MR. MUKESH VASANT GH                 |        |                 |       100000.00 |       102358.68 |
+ 17-May-2017 | By RTGS :MUN CORPORATION                      |        |                 |       201487.00 |       303845.68 |
+ 18-May-2017 | TO TRANSFER 18/06/01 SHRI OM SAI~18/06/000001 |  36276 |       300000.00 |                 |         3845.68 |
+ 16-Jun-2017 | By NEFT :MUN CORPORATION                      |        |                 |       187259.00 |       191104.68 |
+ 19-Jun-2017 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  36277 |       110000.00 |                 |        81104.68 |
+ 20-Jun-2017 | TO TR 18/06/01 SHREE OM SAI COOP CR STY~18/06 |  36278 |        78000.00 |                 |         3104.68 |
+ 19-Jul-2017 | BY TRANSFER 50/09/05 SHRI OM SAI~50/09/000005 |        |                 |         5800.00 |         8904.68 |
+ 19-Jul-2017 | TO CL:-50/09/000005                           |        |         1021.00 |                 |         7883.68 |
+ 08-Aug-2017 | By NEFT :MUN CORPORATION                      |        |                 |       180294.00 |       188177.68 |
+ 09-Aug-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  36331 |       185000.00 |                 |         3177.68 |
+ 21-Aug-2017 | By NEFT :MUN CORPORATION                      |        |                 |       185269.00 |       188446.68 |
+ 22-Aug-2017 | TO TR54/18/06/01 SHREE OM SAI CO OP~18/06/000 |  36332 |       185000.00 |                 |         3446.68 |
+ 19-Sep-2017 | MDCC BK DIVI 16-17                            |        |                 |       142886.00 |       146332.68 |
+ 20-Sep-2017 | By NEFT :MUN CORPORATION                      |        |                 |       174324.00 |       320656.68 |
+ 20-Sep-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  36333 |       175000.00 |                 |       145656.68 |
+ 22-Sep-2017 | By RTGS : RAMRAJI SHRIPAT PAL                 |        |                 |       500000.00 |       645656.68 |
+ 22-Sep-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  36334 |       500000.00 |                 |       145656.68 |
+ 25-Sep-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ |  36335 |       140000.00 |                 |         5656.68 |
+ 29-Sep-2017 | TO INCIDENTAL CHARGES                         |        |          236.00 |                 |         5420.68 |
+ 04-Oct-2017 | BY ACH MUN.CORP1700051482                     |        |                 |        53730.00 |        59150.68 |
+ 06-Oct-2017 | TO TRA18/06/01 SHEE OM SAI CO OP CR STY~18/06 |  36336 |        56000.00 |                 |         3150.68 |
+ 13-Oct-2017 | By NEFT :MUN CORPORATION                      |        |                 |       171737.00 |       174887.68 |
+ 13-Oct-2017 | TO TRANSFER 1SHRI OM SAI 18/06/01~18/06/00000 |  36337 |       171000.00 |                 |         3887.68 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT54
+Time : 16:35:08 PM                                                                                               Page :10 / 10
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00541106000001
+   Name: SHRI OM SAI COOP CREDIT STY LTD
+   Address :
+   
+   
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                      3887.68 |
+ 09-Nov-2017 | BY ACH MUN.CORP1700060534                     |        |                 |         5970.00 |         9857.68 |
+ Closing Bal |                                                                                                      9857.68 |
+=============================================================================================================================
+     Total : |                                               |        |     25695663.26 |     25701213.00 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |     25695663.26 |     25701213.00 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

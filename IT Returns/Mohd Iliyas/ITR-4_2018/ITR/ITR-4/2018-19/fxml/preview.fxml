@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.colorPane">
+    <children>
+         <ScrollPane id="formContainer" fx:id="scrollPane" fitToHeight="false" fitToWidth="false" prefHeight="524.0" prefWidth="494.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+              <content>
+                  <VBox alignment="CENTER" spacing="0.0">
+                     <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                	 </GridPane>
+                	  <HBox>
+                        <children>
+                               <fx:include id="Content" source="Instructions_preview.fxml"   />
+						</children>
+                     </HBox>
+                     <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    	<VBox.margin>
+                        	<Insets top="130.0"/>
+                   		</VBox.margin>
+                     </GridPane>
+                     <HBox>
+                        <children>
+	 						<fx:include id="Content" source="PersonalInfoPrev.fxml"   />
+	 					</children>
+                     </HBox>
+                     <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    	<VBox.margin>
+                        	<Insets top="50.0"/>
+                    	</VBox.margin>
+                     </GridPane>
+               		 <HBox>
+                   		 <children>
+	 						<fx:include id="Content" source="Income-Details_Preview.fxml"   />
+	 					 </children>
+                     </HBox>
+               		 <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    	 <VBox.margin>
+                         	<Insets top="50.0"/>
+                    	 </VBox.margin>
+               		 </GridPane>
+               		 <HBox>
+                       <children>
+	 						<fx:include id="Content" source="44_Preview.fxml"   />
+	 				   </children>
+                    </HBox>
+                    <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    <VBox.margin>
+                        <Insets top="50.0"/>
+                    </VBox.margin>
+               		</GridPane>
+               		<HBox>
+                   		 <children>
+	 						<fx:include id="Content" source="NON_BP_Preview.fxml"   />
+	 					 </children>
+                	 </HBox>
+                	  <HBox>
+                   		 <children>
+	 						<fx:include id="Content" source="NON_BP_Preview2.fxml"   />
+	 					 </children>
+                	 </HBox>
+                     <HBox>
+                          <children>
+	 							<fx:include id="Content" source="TaxDetails_Preview.fxml"   />
+	 					  </children>
+                     </HBox>
+                     
+                     <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                  		  <VBox.margin>
+                       		 <Insets top="50.0"/>
+                   		 </VBox.margin>
+                     </GridPane>
+                     <HBox>
+                       <children>
+	 						<fx:include id="Content" source="TaxDeductedFrmIncome_prev.fxml"   />
+	 				   </children>
+                    </HBox>
+                      <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                   		 <VBox.margin>
+                        	<Insets top="50.0"/>
+                  		  </VBox.margin>
+                     </GridPane>
+                    
+               		
+                    <HBox>
+                       <children>
+	 						<fx:include id="Content" source="TaxDeductedFrmSource_prev.fxml"   />
+	 				   </children>
+                    </HBox>
+                      <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                   		 <VBox.margin>
+                        	<Insets top="50.0"/>
+                  		  </VBox.margin>
+                     </GridPane>
+                   
+                     <HBox>
+                         <children>
+	 							<fx:include id="Content" source="TaxCollectedatSource_prev.fxml"   />
+	 					 </children>
+                      </HBox>
+                      <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                		    <VBox.margin>
+                      		  <Insets top="50.0"/>
+                  		    </VBox.margin>
+                      </GridPane>
+                      <HBox>
+                         <children>
+	 							<fx:include id="Content" source="TaxPayment_prev.fxml"   />
+	 					 </children>
+                      </HBox>
+                      <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    		<VBox.margin>
+                       			 <Insets top="50.0"/>
+                   		    </VBox.margin>
+                	</GridPane>
+                	<HBox>
+                        <children>
+	 							<fx:include id="Content" source="TaxPaidandVerification_Preview.fxml"   />
+	 					</children>
+                    </HBox>
+                    <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    <VBox.margin>
+                        <Insets top="50.0"/>
+                    </VBox.margin>
+               		</GridPane>
+               		<HBox>
+                       <children>
+	 						<fx:include id="Content" source="Sch_AL_Preview.fxml"   />
+	 				   </children>
+                    </HBox>
+                    <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    <VBox.margin>
+                        <Insets top="50.0"/>
+                    </VBox.margin>
+               		</GridPane>
+               		 <HBox>
+                       <children>
+	 						<fx:include id="Content" source="80GTables_prev.fxml"   />
+	 				   </children>
+                    </HBox>
+					 <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    <VBox.margin>
+                        <Insets top="50.0"/>
+                    </VBox.margin>
+               		</GridPane>
+               		
+                     
+               </VBox>
+               </content>
+               </ScrollPane>
+    </children>
+</AnchorPane>

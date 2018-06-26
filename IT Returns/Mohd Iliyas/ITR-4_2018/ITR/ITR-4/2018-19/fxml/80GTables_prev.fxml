@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.itd.efiling.offline.ITR4.ctrl.Tables80GController_prev">
+   <children>
+      <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0" spacing="0.0">
+       <children>
+         <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>
+          			<Label focusTraversable="true" styleClass="h2"  prefHeight="20" prefWidth="1000.0" text="Instructions for correct calculation of 80G" wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	</HBox>
+		<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>
+          			<Label focusTraversable="true" styleClass="h2" prefHeight="20" prefWidth="1000.0" text="A.Donations entitled for 100% deduction without qualifying limit"  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	  </HBox>
+	     <GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml" prefWidth="1500" gridLinesVisible="true">
+    		   <children>
+    				<Label focusTraversable="true" prefWidth="80" prefHeight="40" GridPane.columnIndex="0" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="S.No " >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    				<Label focusTraversable="true" fx:id="sno1" prefWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1" text = " "/>
+    						
+    				<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="Name of the Donee *" wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+					</Label>
+    				<Label focusTraversable="true" fx:id="panname1" prefWidth="118.75" GridPane.columnIndex="1" GridPane.rowIndex="1" text = " "/>
+    						
+    				<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="2" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Address * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+					</Label>
+					<Label focusTraversable="true" fx:id="addressdetail1" prefWidth="118.75" GridPane.columnIndex="2" GridPane.rowIndex="1" text = " "/>
+							
+					<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="City or Town or District * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+					</Label>
+					<Label focusTraversable="true" fx:id="cityortown1" prefWidth="118.75" GridPane.columnIndex="3" GridPane.rowIndex="1" text = " " />
+							
+					<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="4" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="State Code * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" fx:id="statecode1" prefWidth="165" GridPane.columnIndex="4" GridPane.rowIndex="1" text = " " />	
+							
+							<Label focusTraversable="true" prefWidth="180" GridPane.columnIndex="5" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Pincode * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" fx:id="pincode1"  prefWidth="118.75" GridPane.columnIndex="5" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="6" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="PAN of the Donee * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" fx:id="doneepan1"  prefWidth="118.75" GridPane.columnIndex="6" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="7" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="Amount of donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" fx:id="donationamount1" prefWidth="118.75" GridPane.columnIndex="7" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="220" GridPane.columnIndex="8" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="Eligible amount of Donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" fx:id="eligibledonation1" prefWidth="118.75" GridPane.columnIndex="8" GridPane.rowIndex="1" text = " "/>
+									
+						</children>
+		        </GridPane>
+		         
+		         <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    				<children>
+    					<Label focusTraversable="true" prefWidth="1112" GridPane.columnIndex="0" GridPane.rowIndex="0" text=" Total A " wrapText="true">
+								 	<font>
+											<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="totalAmnt" alignment="CENTER_RIGHT" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>	
+						<Label focusTraversable="true" fx:id="totalEligbleAmnt" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>			
+    				</children>
+		        </GridPane> 
+		      <HBox >
+				<children>     
+          			<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text=""  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	 	  </HBox>  
+		        
+		  <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>     
+          			<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text="B.Donations entitled for 50% deduction without qualifying limit"  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	 </HBox>
+	                <GridPane fx:id="grid1" xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true">
+    				<children>
+    				<Label focusTraversable="true" prefWidth="80" GridPane.columnIndex="0" prefHeight="40" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="S.No " >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1" text = ""/>
+    						
+    						<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="1" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Name of the Donee * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="1" GridPane.rowIndex="1" text = " " />
+    						
+    						<Label focusTraversable="true" prefWidth="150" GridPane.columnIndex="2" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Address * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="2" GridPane.rowIndex="1" text = " "/>
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="3" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="City or Town or District * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="3" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="4" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="State Code * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="4" GridPane.rowIndex="1" text = " " />	
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="5" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Pincode * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="5" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="6" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="PAN of the Donee * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="6" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="7" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Amount of donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="7" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="8" GridPane.rowIndex="0" text="Eligible amount of Donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="8" GridPane.rowIndex="1" text = " "/>
+									
+									
+									
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+    				</children>
+		        </GridPane> 
+		         <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    				<children>
+    					<Label focusTraversable="true" prefWidth="1135" GridPane.columnIndex="0" GridPane.rowIndex="0" text=" Total B " wrapText="true">
+								 	<font>
+											<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="totalAmnt_B" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>	
+						<Label focusTraversable="true" fx:id="totalEligbleAmnt_B" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>			
+    				</children>
+		        </GridPane> 
+		        <HBox >
+					<children>     
+          				<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text=""  wrapText="true">
+          					<font>
+								<Font name="Arial Bold" size="16.0"/>
+			 				</font>
+		  				</Label>
+		  			</children>
+      	 	  </HBox>
+		  
+		  <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>          
+          			<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text="C.Donations entitled for 100% deduction subject to qualifying limit"  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	  </HBox>
+	        
+	      <GridPane fx:id="grid2" xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true">
+    		  <children>
+    						<Label focusTraversable="true" prefWidth="80" GridPane.columnIndex="0" style="-fx-padding:0 0 0 10;" prefHeight="40" GridPane.rowIndex="0" text="S.No " >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1" text = ""/>
+    						
+    						<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="1" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Name of the Donee * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="1" GridPane.rowIndex="1" text = " " />
+    						
+    						<Label focusTraversable="true" prefWidth="150" GridPane.columnIndex="2" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Address * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="2" GridPane.rowIndex="1" text = " "/>
+							
+							
+								 	<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="3" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="City or Town or District * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="3" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="4" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="State Code * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="4" GridPane.rowIndex="1" text = " " />	
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="5" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Pincode * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="5" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="6" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="PAN of the Donee * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="6" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="7" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Amount of donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="7" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="8" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Eligible amount of Donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="8" GridPane.rowIndex="1" text = " "/>
+									
+									
+					</children>
+		        </GridPane> 
+		         <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    				<children>
+    					<Label focusTraversable="true" prefWidth="1134" GridPane.columnIndex="0" GridPane.rowIndex="0" text=" Total C " wrapText="true">
+								 	<font>
+											<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="totalAmnt_C" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>	
+						<Label focusTraversable="true" fx:id="totalEligbleAmnt_C" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>			
+    				</children>
+		        </GridPane>
+		        <HBox >
+				<children>     
+          			<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text=""  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  		</children>
+      	 	  </HBox> 
+		       <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				  <children> 
+		        	<Label focusTraversable="true"  prefHeight="20" styleClass="h2" prefWidth="1000.0" text="D.Donations entitled for 50% deduction subject to qualifying limit"  wrapText="true">
+          				<font>
+							<Font name="Arial Bold" size="16.0"/>
+			 			</font>
+		  			</Label>
+		  	      </children>
+      		   </HBox>
+	                <GridPane fx:id="grid3" xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true">
+    				<children>
+    				
+    				<Label focusTraversable="true" prefWidth="80" GridPane.columnIndex="0" prefHeight="40" GridPane.rowIndex="0" text="S.No " >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1" text = ""/>
+    						
+    						<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="1" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Name of the Donee * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+    						<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="1" GridPane.rowIndex="1" text = " " />
+    						
+    						<Label focusTraversable="true" prefWidth="150" GridPane.columnIndex="2"  style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Address * " wrapText="true" >
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="2" GridPane.rowIndex="1" text = " "/>
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="3" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="City or Town or District * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="3" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="4" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="State Code * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="4" GridPane.rowIndex="1" text = " " />	
+							
+							<Label focusTraversable="true" prefWidth="165" GridPane.columnIndex="5" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Pincode * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="5" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="6" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="PAN of the Donee * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="6" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="7" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Amount of donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="7" GridPane.rowIndex="1" text = " " />
+							
+							<Label focusTraversable="true" prefWidth="200" GridPane.columnIndex="8" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="Eligible amount of Donation * " wrapText="true">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+									</Label>
+							<Label focusTraversable="true" prefWidth="118.75" GridPane.columnIndex="8" GridPane.rowIndex="1" text = " "/>
+									
+									
+									
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+								 	
+    				</children>
+		        </GridPane> 
+		         <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    				<children>
+    					<Label focusTraversable="true" prefWidth="1134" GridPane.columnIndex="0" GridPane.rowIndex="0" text=" Total D " wrapText="true">
+								 	<font>
+											<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="totalAmnt_D" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>	
+						<Label focusTraversable="true" fx:id="totalEligbleAmnt_D" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>			
+    				</children>
+		        </GridPane>
+		        
+		        <Label  text="&#10;"/>
+		        
+		        	
+					<Label  text="&#10;"/>
+		        <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    				<children>
+    					
+					 <Label style="-fx-padding:0 0 0 10;" focusTraversable="true" prefWidth="1140.0" GridPane.columnIndex="0" GridPane.rowIndex="0" text="E. Donations (A + B + C+ D)" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+					</Label>
+						
+						<Label focusTraversable="true" fx:id="totalAmnt_E" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>	
+						<Label focusTraversable="true" fx:id="totalEligbleAmnt_E" alignment="CENTER_RIGHT" prefWidth="215" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								 		<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+						</Label>			
+    				</children>
+		        </GridPane>
+		        <Label  text="&#10;"/>
+		        <Label  text="&#10;"/>
+		            <Label focusTraversable="true" text="Note:In case of Donee Funds setup by Goverment as described in section 80G (2),please use PAN as 'GGGGG0000G'." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+	 			</children>
+                </VBox> 
+        </children>
+</AnchorPane>
+    

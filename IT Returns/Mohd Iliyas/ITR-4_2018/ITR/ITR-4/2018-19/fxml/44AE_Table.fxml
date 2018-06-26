@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="2670" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.Us44AeHeavyTable">
+	<VBox.margin>
+		<Insets bottom="105.0" />
+	</VBox.margin>
+	
+	<Button layoutX="0.0"  fx:id="addRowBtn" layoutY="295.0" onKeyTyped="#addRow"  onAction="#addRow" 	mnemonicParsing="false" text="Add Row" />
+	<Button layoutX="62.0" fx:id="copyRowBtn" layoutY="295.0" onKeyTyped="#copyRow" onAction="#copyRow"   	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="131.0" fx:id="editRowBtn" layoutY="295.0" onKeyTyped="#editRow"  onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" />
+	<Button layoutX="193.0" fx:id="deleteRowBtn" layoutY="295.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="45.0" prefHeight="220.0" prefWidth="-1.0" target="itr.itr4.us44AeHeavy" >
+		<columns>
+			<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80.0" text="Sl.No" target="slNo" />	
+			<ValTableColumn resizable="false" maxWidth="400.0" minWidth="150.0" prefWidth="300.0" text="Period of holding &#10; (in months)" target="holdingPeriod"    />
+			<ValTableColumn resizable="false" maxWidth="400.0" minWidth="150.0" prefWidth="300.0" text="Income per vehicle &#10;(Must be >= 7500 p.m. per vehicle)" target="incomePerVehicle"    />
+			<ValTableColumn resizable="false" maxWidth="400.0" minWidth="150.0" prefWidth="320.0" text="Deemed Income" target="deemedInc" />
+		</columns>
+	</ValTableView>
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="45.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="180.0" prefWidth="500.0" text="Vehicles" visible="false" wrapText="true"
+	target="us44AeHeavyController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							
+							<Label labelFor="$Tan" focusTraversable="true" prefWidth="300"  text="Period of holding &#10; (in months)" GridPane.columnIndex="0" GridPane.rowIndex="1" style="fx-padding:0 0 0 20;"/>
+							<ValBigIntegerField fx:id="Tan" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" target="us44AeHeavyController.type.holdingPeriod" autoCaps="true"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							<Region GridPane.columnIndex="1" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							
+							<Label labelFor="$Name" focusTraversable="true" text="Income per vehicle &#10;(Must be >= 7500 p.m. per vehicle)" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+							<ValBigIntegerField fx:id="Name" maxLength="14"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" target="us44AeHeavyController.type.incomePerVehicle"/>
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							<Region GridPane.columnIndex="1" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							
+							<Label labelFor="$TaxDeductAmnt" focusTraversable="true" text="Deemed Income" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+							<ValBigIntegerField fx:id="TaxDeductAmnt" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" target="us44AeHeavyController.type.deemedInc" disable="true" />							
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							<Region GridPane.columnIndex="1" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 0 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							
+							
+							<HBox id="HBox" alignment="CENTER" spacing="5.0" GridPane.columnIndex="0" style="-fx-padding:0 0 0 120;" GridPane.rowIndex="9">
+							
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn" onKeyTyped="#cancel" onAction="#cancel" text="Cancel" GridPane.columnIndex="0" GridPane.rowIndex="9" >
+								<GridPane.margin>
+                            		<Insets right="15"/>
+                       			</GridPane.margin>
+							</Button>
+								</children>
+							</HBox>
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	
+	<HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="265.0" >
+	  <children>
+	  <HBox>
+	      <children>
+	   			<Label fx:id="label2" focusTraversable="true" labelFor="$TotalTds" prefWidth="100"  layoutX="0.0" layoutY="266.0"  style="-fx-padding:3 0 0 25" text="Total"  />		
+		  </children>
+	  </HBox>		
+			<Separator orientation="vertical"  prefHeight="25" style="-fx-color: ;"  />	          
+		<HBox>
+	      <children>
+				<ValBigIntegerField fx:id="TotalTdsInc" prefWidth="150"   target="itr.itr4.totalHeavyVehcl" disable="true" >
+    		<HBox.margin>
+                <Insets left="745" right="0"  />
+         	</HBox.margin>
+			</ValBigIntegerField>
+		</children>
+	  </HBox>
+     </children>
+     </HBox>
+	          
+	
+</AnchorPane>

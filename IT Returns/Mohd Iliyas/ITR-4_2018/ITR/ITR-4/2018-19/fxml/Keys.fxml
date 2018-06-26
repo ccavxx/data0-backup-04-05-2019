@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+
+<AnchorPane minHeight="0.0" minWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" >
+	<children>
+						 <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="true" prefHeight="500.0" prefWidth="500.0" 
+					AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+					<content>
+							<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" prefHeight="850"  gridLinesVisible="true" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+        			           
+							   	  
+    				              <Label focusTraversable="true"  text=" S.NO" prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-font: 16.0px Arial;-fx-font-weight: bold">
+							   	  </Label>
+							   	  <Label focusTraversable="true" text=" Action" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="0" style="-fx-font: 16.0px Arial;-fx-font-weight: bold">
+							   	  </Label>
+							   	  <Label focusTraversable="true" text=" Short Key" prefHeight="27" prefWidth="350" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="0" style="-fx-font: 16.0px Arial;-fx-font-weight: bold">
+							   	  </Label>
+							   	  
+							   	  <Label focusTraversable="true"  text=" 1." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="1" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	   <Label focusTraversable="true" text=" Alt + N" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="1" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  <Label focusTraversable="true" text=" Opens a new ITR" wrapText="true" prefHeight="27" prefWidth="350" GridPane.columnIndex="2" GridPane.rowIndex="1" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  
+							   	  
+							   	    <Label focusTraversable="true"  text=" 2." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  <Label focusTraversable="true"  text=" Alt + S" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="2" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  <Label focusTraversable="true" prefHeight="27" prefWidth="350" text=" Saves the ITR in the user desired path" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="2" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  
+							   	  
+							   	   <Label focusTraversable="true" text=" 3." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="3" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	    <Label focusTraversable="true" text=" Alt + X" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="3" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  <Label focusTraversable="true" prefHeight="27" prefWidth="350" text=" Closes the utility" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="3" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  
+							   	   
+							   	   <Label focusTraversable="true" text=" 4." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-font: 16.0px Arial">
+							   	  </Label> 
+							   	    <Label focusTraversable="true" text=" Alt + I" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="4" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	    <Label focusTraversable="true" prefHeight="27" prefWidth="350" text=" Imports the XML file" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="4" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  
+							   	  
+							   	   <Label focusTraversable="true"  text=" 5." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="5" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  <Label focusTraversable="true" text=" Alt + F" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="5" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	   <Label focusTraversable="true"  prefHeight="27" prefWidth="350" text=" Pre-fills the ITR" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="5" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	  
+							   	  
+							   	 
+							   	 
+							   	   <Label focusTraversable="true" text=" 6." prefHeight="27" prefWidth="70" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="6" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	   <Label focusTraversable="true" text=" Alt + R" prefHeight="27" prefWidth="80" wrapText="true"  GridPane.columnIndex="1" GridPane.rowIndex="6" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+							   	 
+							   	  <Label focusTraversable="true" prefHeight="27" prefWidth="350" text=" Re-calculates the tax details as per the Utility" wrapText="true"  GridPane.columnIndex="2" GridPane.rowIndex="6" style="-fx-font: 16.0px Arial">
+							   	  </Label>
+						   	   
+					</children>		
+		               </GridPane>
+		               </content>
+		               </ScrollPane>
+	</children>
+</AnchorPane>
+    

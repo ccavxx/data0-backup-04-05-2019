@@ -1,0 +1,163 @@
+body {
+    border: 0 none;
+    color: #333333;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 0;
+    vertical-align: top;
+	 background-image:url("efilinglogo.gif") repeat-x scroll left -432px transparent;
+}
+.headerText{
+ color: #01578A;
+    float: right;
+    font-size: 2.6em;
+    padding-right: 105px;
+    padding-top: 25px;
+   font-family: icon;
+}
+html, body {
+    height: 100%;
+}
+
+.grid{ 
+background: none repeat scroll 0 0 #DBDCDE;
+border: 1px solid #CCCCCC;
+}
+.grid tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #F0F0F0;
+}
+h3, table caption, table th {
+    background: url("bg.png") repeat-x scroll left -377px #DBDCDE;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+
+    font-weight: 80;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.grid tr:nth-child(2n) td, .grid tr:nth-child(2n+1) td {
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #FFFFFF;
+}
+.grid td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+	 border: 1px solid #CCCCCC;
+}
+#container{
+width: 90%;
+padding-top:10px;
+}
+.mart15 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.logorow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border: 5px solid #01578A;
+    border-image: none;
+    float: left;
+    padding: 0 10px;
+    width: 90%;
+ margin: 0 auto -100px;
+    height:auto;
+}
+#container {
+    background: none repeat scroll 0 0 #FFFFFF transparent;
+	height: auto !important;
+    min-height: 100%;
+	margin:0 auto;
+
+}
+.grayBack{
+ background: url("bg.png") repeat-x scroll left -432px transparent;
+    width: 91.7%;
+    border: 5px solid #01578A;
+}
+
+.fl-l{
+   float: left;
+}
+.borderSolid{
+	border: 2px solid;
+	margin: 10px;
+	 border-color: #5E85AC #5E85AC;
+}
+
+
+.autoHeight{
+	min-height:200px;
+	float:right;
+	width:98%;
+}
+#firstPage li{
+	line-height:17px;
+}
+#noXml{
+padding:10px;
+}
+
+ .logoBack{
+    background-image: url(../images/Aayakar-Seva-Kendra.png);
+     background-repeat: no-repeat;
+	 background-position:center;
+ }
+ 
+ .hd {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/form_hd.png") repeat scroll 0 0 #949494;
+    border-color: #9DB0BC -moz-use-text-color;
+    border-style: solid none;
+    border-width: 1px medium;
+    clear: both;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    padding-left: 5px;
+}
+.leftFloat{
+	float:left;
+	width:46%;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    background: url("../images/bg.png") repeat-x scroll left -28px #FFFFFF;
+    border: 1px solid #222222;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.gridPlain{ 
+background: none repeat scroll 0 0 #DBDCDE;
+border: 1px solid #CCCCCC;
+}
+.gridPlain tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 white;
+}
+h3, table caption, table th {
+    background: url("bg.png") repeat-x scroll left -377px #DBDCDE;
+    color: #333333;
+
+    font-weight: 80;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.gridPlain td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+}

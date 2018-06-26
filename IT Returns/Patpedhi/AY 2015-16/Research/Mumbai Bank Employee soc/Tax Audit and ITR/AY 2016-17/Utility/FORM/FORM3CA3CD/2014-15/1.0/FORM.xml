@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:FORM3CA xmlns="http://incometaxindiaefiling.gov.in/common" 
+xmlns:ns1="http://incometaxindiaefiling.gov.in/F3CA" xmlns:ns3="http://incometaxindiaefiling.gov.in/F3CD">
+    <ns1:F3CA>
+        <CreationInfo>
+            <SWVersionNo name="form.form3cb.creationInfo.swVersionNo">1.0</SWVersionNo>
+            <SWCreatedBy name="form.form3cb.creationInfo.swCreatedBy">DIT-JAVA</SWCreatedBy>
+            <XMLCreatedBy name="form.form3cb.creationInfo.xmlCreatedBy">DIT-JAVA</XMLCreatedBy>
+            <XMLCreationDate name="form.form3cb.creationInfo.xmlCreationDate">2014-04-24</XMLCreationDate>
+            <IntermediaryCity name="form.form3cb.creationInfo.intermediaryCity">Delhi</IntermediaryCity>
+        </CreationInfo>
+        <Form_Details>
+            <FormName name="form.form3cb.formDetails.formName">FORM3CA</FormName>
+            <Description name="form.form3cb.formDetails.">Audit report under section 44AB of the Income-tax Act,1961,In a case where the accounts of the business or profession of a person have been audited under any other law</Description>
+            <AssessmentYear name="form3cb.f3CB.partA.assessmentYearHidden"></AssessmentYear>
+            <SchemaVer name="form.form3cb.formDetails.schemaVer">Ver2.0</SchemaVer>
+            <FormVer name="form.form3cb.formDetails.formVer">1.1</FormVer>
+        </Form_Details>
+        <ns1:Declaration>
+            <ns1:Point1>
+                <ns1:I_We1 name="form3ca.f3CA.declaration.point1.iWe"></ns1:I_We1>
+               <ns1:AssesseeName>
+					<ns1:FirstName name="form3ca.f3CA.declaration.point1.firstName"></ns1:FirstName>
+					<ns1:MiddleName name="form3ca.f3CA.declaration.point1.middleName"></ns1:MiddleName>
+					<ns1:LastName name="form3ca.f3CA.declaration.point1.lastName"></ns1:LastName>
+				</ns1:AssesseeName>
+				<ns1:AddressDetail>
+						<ns1:AddrDetail1 name="form3ca.f3CA.declaration.point1.addressLine1"></ns1:AddrDetail1>
+						<ns1:AddrDetail2 name="form3ca.f3CA.declaration.point1.addressLine2"></ns1:AddrDetail2>
+						<ns1:CityOrTownOrDistrict name="form3ca.f3CA.declaration.point1.city"></ns1:CityOrTownOrDistrict>
+						<ns1:StateCode name="form3ca.f3CA.declaration.point1.stateCode"></ns1:StateCode>
+						<ns1:PinCode name="form3ca.f3CA.declaration.point1.pincode"></ns1:PinCode>
+				</ns1:AddressDetail>
+                <ns1:PAN name="form3ca.f3CA.declaration.point1.pan"></ns1:PAN>
+                <ns1:Me_Us_Ms name="form3ca.f3CA.declaration.point1.meUs"></ns1:Me_Us_Ms>
+                <ns1:CA_FirmName name="form3ca.f3CA.declaration.point1.iWeName"></ns1:CA_FirmName>
+                <ns1:Act name="form3ca.f3CA.declaration.point1.act"></ns1:Act>
+                <ns1:I_We2 name="form3ca.f3CA.declaration.point1A.iWe"></ns1:I_We2>
+                <ns1:My_Our_Their name="form3ca.f3CA.declaration.point1.myOur"></ns1:My_Our_Their>
+                <ns1:AuditDated name="form3ca.f3CA.declaration.point1.auditDate"></ns1:AuditDated>
+                <ns1:PointA>
+                    <ns1:TypeOfAccount name="form3ca.f3CA.declaration.point1.typeOfAccount"></ns1:TypeOfAccount>
+                    <ns1:AuditStartDate name="form3ca.f3CA.declaration.point1.auditStartDate"></ns1:AuditStartDate>
+                    <ns1:AuditEndDate name="form3ca.f3CA.declaration.point1.auditEndDate"></ns1:AuditEndDate>
+                </ns1:PointA>
+                <ns1:AuditYearDate name="form3ca.f3CA.declaration.point1.year"></ns1:AuditYearDate>
+                <ns1:PointC name="form3ca.f3CA.declaration.point1A.typeOfAccount"></ns1:PointC>
+            </ns1:Point1>
+            <ns1:Point3>
+                <ns1:My_Our1 name="form3ca.f3CA.declaration.point3A.myMeHidden"></ns1:My_Our1>
+                <ns1:My_Our2 name="form3ca.f3CA.declaration.point3B.myMeHidden"></ns1:My_Our2>
+                <ns1:Me_Us name="form3ca.f3CA.declaration.point3C.myMeHidden"></ns1:Me_Us>
+                <ns1:Observations>
+                	<ns1:ObservationsCode name="form3cb.f3CB.declaration.point5[0].observationsType"></ns1:ObservationsCode>
+					<ns1:ObservationsVal name="form3cb.f3CB.declaration.point5[0].observations"></ns1:ObservationsVal>
+				</ns1:Observations>
+            </ns1:Point3>
+        </ns1:Declaration>
+		<ns3:PartA>
+			<ns3:AssesseeName>
+				<ns3:FirstName name="form3cb.f3CB.partA.firstName"></ns3:FirstName>
+				<ns3:MiddleName name="form3cb.f3CB.partA.middleName"></ns3:MiddleName>
+				<ns3:LastName name="form3cb.f3CB.partA.lastName"></ns3:LastName>
+				</ns3:AssesseeName>
+				<ns3:AddressDetail>
+						<ns3:AddrDetail1 name="form3cb.f3CB.partA.addressLine1"></ns3:AddrDetail1>
+						<ns3:AddrDetail2 name="form3cb.f3CB.partA.addressLine2"></ns3:AddrDetail2>
+						<ns3:CityOrTownOrDistrict name="form3cb.f3CB.partA.city"></ns3:CityOrTownOrDistrict>
+						<ns3:StateCode name="form3cb.f3CB.partA.stateCode"></ns3:StateCode>
+						<ns3:PinCode name="form3cb.f3CB.partA.pincode"></ns3:PinCode>
+				</ns3:AddressDetail>
+			<ns3:PAN name="form3cb.f3CB.partA.pan"></ns3:PAN>
+			<ns3:IndirectTaxFlag name="form3cb.f3CB.partA.indirectTaxFlag"></ns3:IndirectTaxFlag>
+			<ns3:Form3cdIndirectTax>
+				<ns3:IndirectTaxType name="form3cb.f3CB.partA[0].type"></ns3:IndirectTaxType>
+				<ns3:StateCode name="form3cb.f3CB.partA[0].typeState"></ns3:StateCode>
+				<ns3:OtherIndirectTaxType name="form3cb.f3CB.partA[0].typeOthers"></ns3:OtherIndirectTaxType>
+				<ns3:RegNo name="form3cb.f3CB.partA[0].regNo"></ns3:RegNo>
+			</ns3:Form3cdIndirectTax>
+			<ns3:Status name="form3cb.f3CB.partA.status"></ns3:Status>
+			<ns3:PartAStartDate name="form3cb.f3CB.partA.from.date"></ns3:PartAStartDate>
+			<ns3:PartAEndDate name="form3cb.f3CB.partA.to.date"></ns3:PartAEndDate>
+			<ns3:AssessmentYear name="form3cb.f3CB.partA.assessmentYear"></ns3:AssessmentYear>
+			<ns3:Clause>
+				<ns3:ClauseNo name="form3CdFirmAopDetailPK.3cb8[0].clause"></ns3:ClauseNo>
+			</ns3:Clause>
+		</ns3:PartA>
+		<ns3:Form3cdChangeInPartners>
+			<ns3:DateOfChange name="form3CdFirmAopDetailPK.3cb9b[0].date"></ns3:DateOfChange>
+			<ns3:NameOfPartner name="form3CdFirmAopDetailPK.3cb9b[0].nameOfPartner"></ns3:NameOfPartner>
+			<ns3:TypeOfChange name="form3CdFirmAopDetailPK.3cb9b[0].typeFlag"></ns3:TypeOfChange>
+			<ns3:OldProfShareRatio name="form3CdFirmAopDetailPK.3cb9b[0].oldProfitRatio"></ns3:OldProfShareRatio>
+			<ns3:NewProfShareRatio name="form3CdFirmAopDetailPK.3cb9b[0].newProfitRatio"></ns3:NewProfShareRatio>
+			<ns3:Remarks name="form3CdFirmAopDetailPK.3cb9b[0].remarks"></ns3:Remarks>
+		</ns3:Form3cdChangeInPartners>
+		<ns3:Form3cdFirmAopDetail1>
+			<ns3:Form3cdFirmAopDetail>
+				<ns3:Form3cdFirmAopDetailPK>
+					<ns3:ChangeType name="form3CdFirmAopDetailPK.3cb9a[0].currProfShare">CURR_PROF_SHARE</ns3:ChangeType>
+					<ns3:FirmAopDesc name="form3CdFirmAopDetailPK.3cb9a[0].firmAopDesc"></ns3:FirmAopDesc>
+					<ns3:FirmAopPerc name="form3CdFirmAopDetailPK.3cb9a[0].firmAopPerc"></ns3:FirmAopPerc>
+				</ns3:Form3cdFirmAopDetailPK>
+			</ns3:Form3cdFirmAopDetail>
+		</ns3:Form3cdFirmAopDetail1>
+		<ns3:Form3cdFirmAopDetail2>
+			<ns3:Form3cdFirmAopDetail>
+				<ns3:Form3cdFirmAopDetailPK>
+					<ns3:ChangeType name="form3CdFirmAopDetailPK.3cb10a[0].currNatureBus">CURR_NATURE_BUSNS</ns3:ChangeType>
+					<ns3:FirmAopDesc name="form3CdFirmAopDetailPK.3cb10a[0].sectorCode"></ns3:FirmAopDesc>
+				</ns3:Form3cdFirmAopDetailPK>
+			</ns3:Form3cdFirmAopDetail>
+		</ns3:Form3cdFirmAopDetail2>
+		<ns3:Form3cdFirmAopDetail3>
+			<ns3:Form3cdFirmAopDetail>
+				<ns3:Form3cdFirmAopDetailPK>
+					<ns3:ChangeType name="form3CdFirmAopDetailPK.3cb10b[0].chngNatureBus">CHNG_NATURE_BUSNS</ns3:ChangeType>
+					<ns3:FirmAopBuss name="form3CdFirmAopDetailPK.3cb10b[0].firmAopBuss"></ns3:FirmAopBuss>
+					<ns3:FirmAopDesc name="form3CdFirmAopDetailPK.3cb10b[0].sectorCode"></ns3:FirmAopDesc>
+				</ns3:Form3cdFirmAopDetailPK>
+			</ns3:Form3cdFirmAopDetail>
+		</ns3:Form3cdFirmAopDetail3>
+		<ns3:Form3cdBooksOfAccLst1>
+			<ns3:Form3cdBooksOfAccLst>
+				<ns3:Form3cdBooksOfAccLstPK>
+					<ns3:BooksOfAccType
+						name="form3CdFirmAopDetailPK.3cb11a[0].booksPk.booksAccType">SEC44AA</ns3:BooksOfAccType>
+					<ns3:BooksDetail name="form3CdFirmAopDetailPK.3cb11a[0].booksPk.booksDetails"></ns3:BooksDetail>
+				</ns3:Form3cdBooksOfAccLstPK>
+			</ns3:Form3cdBooksOfAccLst>
+		</ns3:Form3cdBooksOfAccLst1>
+		<ns3:Form3cdBooksOfAccLst3>
+			<ns3:Form3cdBooksOfAccLst>
+				<ns3:Form3cdBooksOfAccLstPK>
+					<ns3:BooksOfAccType
+						name="form3CdFirmAopDetailPK.3cb11c[0].booksPk.booksAccType">LBEX</ns3:BooksOfAccType>
+					<ns3:BooksDetail name="form3CdFirmAopDetailPK.3cb11c[0].booksPk.booksDetails"></ns3:BooksDetail>
+				</ns3:Form3cdBooksOfAccLstPK>
+			</ns3:Form3cdBooksOfAccLst>
+		</ns3:Form3cdBooksOfAccLst3>
+		<ns3:Form3cdBooksOfAccLstAddress>
+				<ns3:Form3cdBooksOfAccLstPK>
+					<ns3:BooksOfAccType name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.booksAccType">BOAM</ns3:BooksOfAccType>
+					<ns3:BooksDetail name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.booksDetails"></ns3:BooksDetail>
+					<ns3:AddressDetail>
+						<ns3:AddrDetail1 name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.addressDetail.addrDetail1"></ns3:AddrDetail1>
+						<ns3:AddrDetail2 name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.addressDetail.addrDetail2"></ns3:AddrDetail2>
+						<ns3:CityOrTownOrDistrict name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.addressDetail.cityOrTownOrDistrict"></ns3:CityOrTownOrDistrict>
+						<ns3:StateCode name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.addressDetail.stateCode"></ns3:StateCode>
+						<ns3:PinCode name="form3CdFirmAopDetailPK.3cb11b[0].booksPk.addressDetail.pinCode"></ns3:PinCode>
+					</ns3:AddressDetail>
+				</ns3:Form3cdBooksOfAccLstPK>
+		</ns3:Form3cdBooksOfAccLstAddress>
+		<ns3:Form3cdProfGainsPresum>
+			<ns3:SectionNo name="form3cdProfGainsPresum.3cb12[0].section"></ns3:SectionNo>
+			<ns3:OtherSection name="form3cdProfGainsPresum.3cb12[0].otherSection"></ns3:OtherSection>
+			<ns3:Amount name="form3cdProfGainsPresum.3cb12[0].amount"></ns3:Amount>
+		</ns3:Form3cdProfGainsPresum>
+		<ns3:Form3cdChngMethAccVal1>
+			<ns3:Form3cdChngMethAccVal>
+				<ns3:Form3cdChngMethAccValPK>
+					<ns3:AccType name="form3CdChngMethAccValPK.3cb13a.deviationAcc">DEVIATION_ACC</ns3:AccType>
+					<ns3:Detail name="form3CdChngMethAccValPK.3cb13a.othervoluntryContribn"></ns3:Detail>
+					<ns3:IncreaseProfits>0</ns3:IncreaseProfits>
+					<ns3:DecreaseProfits>0</ns3:DecreaseProfits>
+				</ns3:Form3cdChngMethAccValPK>
+			</ns3:Form3cdChngMethAccVal>
+		</ns3:Form3cdChngMethAccVal1>
+		<ns3:Form3cdChngMethAccVal2>
+			<ns3:Form3cdChngMethAccVal>
+				<ns3:Form3cdChngMethAccValPK>
+					<ns3:AccType name="form3CdChngMethAccValPK.3cb13c[0].changeAcc">CHANGE_ACC</ns3:AccType>
+					<ns3:Detail name="form3CdChngMethAccValPK.3cb13c[0].particulars"></ns3:Detail>
+					<ns3:IncreaseProfits name="form3CdChngMethAccValPK.3cb13c[0].increaseProfits">0</ns3:IncreaseProfits>
+					<ns3:DecreaseProfits name="form3CdChngMethAccValPK.3cb13c[0].decreaseProfits">0</ns3:DecreaseProfits>
+				</ns3:Form3cdChngMethAccValPK>
+			</ns3:Form3cdChngMethAccVal>
+		</ns3:Form3cdChngMethAccVal2>
+		<ns3:Form3cdChngMethAccVal3>
+			<ns3:Form3cdChngMethAccVal>
+				<ns3:Form3cdChngMethAccValPK>
+					<ns3:AccType name="deviationDesc.3cb13d[0].deviationVal">DEVIATION_VAL</ns3:AccType>
+					<ns3:Detail name="deviationDesc.3cb13d[0].particulars"></ns3:Detail>
+					<ns3:IncreaseProfits  name="deviationDesc.3cb13d[0].increaseProfits">0</ns3:IncreaseProfits>
+					<ns3:DecreaseProfits  name="deviationDesc.3cb13d[0].decreaseProfits">0</ns3:DecreaseProfits>
+				</ns3:Form3cdChngMethAccValPK>
+			</ns3:Form3cdChngMethAccVal>
+		</ns3:Form3cdChngMethAccVal3>
+		<ns3:Form3cdChngMethAccVal4>
+			<ns3:Form3cdChngMethAccVal>
+				<ns3:Form3cdChngMethAccValPK>
+					<ns3:AccType name="deviationDesc.3cb14b[0].deviationVal">DEVIATION_SEC145A</ns3:AccType>
+					<ns3:Detail name="deviationDesc.3cb14b[0].particulars"></ns3:Detail>
+					<ns3:IncreaseProfits  name="deviationDesc.3cb14b[0].increaseProfits">0</ns3:IncreaseProfits>
+					<ns3:DecreaseProfits  name="deviationDesc.3cb14b[0].decreaseProfits">0</ns3:DecreaseProfits>
+				</ns3:Form3cdChngMethAccValPK>
+			</ns3:Form3cdChngMethAccVal>
+		</ns3:Form3cdChngMethAccVal4>
+		<ns3:MethodValCS>
+            <ns3:ChangeType name="form3cb.f3CB.methodValCS.changeType"></ns3:ChangeType>
+            <ns3:DeviationDesc name=""></ns3:DeviationDesc>
+        </ns3:MethodValCS>
+		<ns3:Form3cdCapAsstSit>
+			<ns3:DescCapAsst name="form3CdCapAsstSit.3cb15[0].descCapAsst"></ns3:DescCapAsst>
+			<ns3:DateOfAcq name="form3CdCapAsstSit.3cb15[0].dateOfAcq"></ns3:DateOfAcq>
+			<ns3:CostOfAcq name="form3CdCapAsstSit.3cb15[0].costOfAcq"></ns3:CostOfAcq>
+			<ns3:AmtConvSit name="form3CdCapAsstSit.3cb15[0].amtConvSit"></ns3:AmtConvSit>
+		</ns3:Form3cdCapAsstSit>
+		<ns3:Form3cdAmtNotCredit1>
+			<ns3:Form3cdAmtNotCredit>
+				<ns3:Form3cdAmtNotCreditPk>
+					<ns3:TableType name="form3CdAmtNotCredit.3cb16a[0].itemsSec28">ITEMS_SEC28</ns3:TableType>
+					<ns3:TypeOfAmt name="form3CdAmtNotCredit.3cb16a[0].typeOfAmt"></ns3:TypeOfAmt>
+					<ns3:Description name="form3CdAmtNotCredit.3cb16a[0].description"></ns3:Description>
+				</ns3:Form3cdAmtNotCreditPk>
+			</ns3:Form3cdAmtNotCredit>
+		</ns3:Form3cdAmtNotCredit1>
+		<ns3:Form3cdAmtNotCredit3>
+			<ns3:Form3cdAmtNotCredit>
+				<ns3:Form3cdAmtNotCreditPk>
+					<ns3:TableType name="form3CdAmtNotCredit.3cb16c[0].esclClmsPy">ESCL_CLMS_PY</ns3:TableType>
+					<ns3:TypeOfAmt name="form3CdAmtNotCredit.3cb16c[0].typeOfAmt"></ns3:TypeOfAmt>
+					<ns3:Description name="form3CdAmtNotCredit.3cb16c[0].description"></ns3:Description>
+				</ns3:Form3cdAmtNotCreditPk>
+			</ns3:Form3cdAmtNotCredit>
+		</ns3:Form3cdAmtNotCredit3>
+		<ns3:Form3cdAmtNotCredit4>
+			<ns3:Form3cdAmtNotCredit>
+				<ns3:Form3cdAmtNotCreditPk>
+					<ns3:TableType name="form3CdAmtNotCredit.3cb16d[0].anyOthIncm">ANY_OTH_INCM</ns3:TableType>
+					<ns3:TypeOfAmt name="form3CdAmtNotCredit.3cb16d[0].typeOfAmt"></ns3:TypeOfAmt>
+					<ns3:Description name="form3CdAmtNotCredit.3cb16d[0].description"></ns3:Description>
+				</ns3:Form3cdAmtNotCreditPk>
+			</ns3:Form3cdAmtNotCredit>
+		</ns3:Form3cdAmtNotCredit4>
+		<ns3:Form3cdAmtNotCredit5>
+			<ns3:Form3cdAmtNotCredit>
+				<ns3:Form3cdAmtNotCreditPk>
+					<ns3:TableType name="form3CdAmtNotCredit.3cb16e[0].capReceipt">CAP_RECEIPT</ns3:TableType>
+					<ns3:TypeOfAmt name="form3CdAmtNotCredit.3cb16e[0].typeOfAmt"></ns3:TypeOfAmt>
+					<ns3:Description name="form3CdAmtNotCredit.3cb16e[0].description"></ns3:Description>
+				</ns3:Form3cdAmtNotCreditPk>
+			</ns3:Form3cdAmtNotCredit>
+		</ns3:Form3cdAmtNotCredit5>
+		<ns3:Form3cdDrawbackRefundetc>
+					<ns3:Description name="form3CdAmtNotCredit.3cb16b[0].description"></ns3:Description>
+					<ns3:DescriptionOthers name="form3CdAmtNotCredit.3cb16b[0].descriptionothers"></ns3:DescriptionOthers>
+					<ns3:Amount name="form3CdAmtNotCredit.3cb16b[0].typeOfAmt"></ns3:Amount>
+		</ns3:Form3cdDrawbackRefundetc>
+		<ns3:Form3cdLandBuildProperty>
+			<ns3:Details name="form3cdLandBuildProperty.3cb17[0].propDetails"></ns3:Details>
+			<ns3:AddressDetail>
+				<ns3:AddrDetail1 name="form3cdLandBuildProperty.3cb17[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="form3cdLandBuildProperty.3cb17[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="form3cdLandBuildProperty.3cb17[0].city"></ns3:CityOrTownOrDistrict>
+				<ns3:StateCode name="form3cdLandBuildProperty.3cb17[0].stateCode"></ns3:StateCode>
+				<ns3:PinCode name="form3cdLandBuildProperty.3cb17[0].pincode"></ns3:PinCode>
+			</ns3:AddressDetail>
+			<ns3:ConsiderAmt name="form3cdLandBuildProperty.3cb17[0].considerAmt"></ns3:ConsiderAmt>
+			<ns3:AssessedAmt name="form3cdLandBuildProperty.3cb17[0].assessedAmt"></ns3:AssessedAmt>
+		</ns3:Form3cdLandBuildProperty>
+		<ns3:Form3cdDeprAllw>
+			<ns3:DescBlockAssets name="form3CdDeprAllw.3cb18[0].descBlockAssets"></ns3:DescBlockAssets>
+			<ns3:RateOfDep name="form3CdDeprAllw.3cb18[0].rateOfDep"></ns3:RateOfDep>
+			<ns3:OpeningWDV name="form3CdDeprAllw.3cb18[0].openingWDV"></ns3:OpeningWDV>
+			<ns3:Additions>
+                <ns3:PurchaseOrSaleDate name="form3CdDeprAllw.3cb18[0].addcsv[0].purchaseOrSaleDate"></ns3:PurchaseOrSaleDate>
+                <ns3:DatePutToUse name="form3CdDeprAllw.3cb18[0].addcsv[0].datePutToUse"></ns3:DatePutToUse>
+                <ns3:PurchaseOrSaleValue name="form3CdDeprAllw.3cb18[0].addcsv[0].purchaseOrSaleValue"></ns3:PurchaseOrSaleValue>
+                <ns3:Modvat name="form3CdDeprAllw.3cb18[0].addcsv[0].modvat"></ns3:Modvat>
+                <ns3:ExchangeRateChange name="form3CdDeprAllw.3cb18[0].addcsv[0].exchangeRateChange"></ns3:ExchangeRateChange>
+                <ns3:subsidyGrant name="form3CdDeprAllw.3cb18[0].addcsv[0].subsidyGrant"></ns3:subsidyGrant>
+                <ns3:TotalPurchaseValue name="form3CdDeprAllw.3cb18[0].addcsv[0].additionsTotalPurchaseValue"></ns3:TotalPurchaseValue>
+			</ns3:Additions>
+			<ns3:TotalPurchase name="form3CdDeprAllw.3cb18[0].totalPurchase">0</ns3:TotalPurchase>
+			<ns3:TotalModvat name="form3CdDeprAllw.3cb18[0].totalModvat">0</ns3:TotalModvat>
+			<ns3:TotalChangeExchangeRate name="form3CdDeprAllw.3cb18[0].totalChangeExchangeRate">0</ns3:TotalChangeExchangeRate>
+			<ns3:TotalSubsidyGrant name="form3CdDeprAllw.3cb18[0].totalSubsidyGrant">0</ns3:TotalSubsidyGrant>
+			<ns3:TotalPurchaseValue name="form3CdDeprAllw.3cb18[0].totalPurchaseValue">0</ns3:TotalPurchaseValue>
+			<ns3:Deductions>
+				<ns3:PurchaseOrSaleDate name="form3CdDeprAllw.3cb18[0].dedcsv[0].purchaseOrSaleDate"></ns3:PurchaseOrSaleDate>
+                <ns3:PurchaseOrSaleValue name="form3CdDeprAllw.3cb18[0].dedcsv[0].purchaseOrSaleValue"></ns3:PurchaseOrSaleValue>
+			</ns3:Deductions>
+			<ns3:TotalDeduction name="form3CdDeprAllw.3cb18[0].totalDeduction">0</ns3:TotalDeduction>
+			<ns3:DepAllowable name="form3CdDeprAllw.3cb18[0].depAllowable"></ns3:DepAllowable>
+			<ns3:WrittenDownVal name="form3CdDeprAllw.3cb18[0].writtenDownVal"></ns3:WrittenDownVal>
+		</ns3:Form3cdDeprAllw>
+          <ns3:Form3cdDebitPlTotAllw>
+            <ns3:Section name="form3CdDebitPlTotAllw.3cb19[0].section"></ns3:Section>
+            <ns3:Total name="form3CdDebitPlTotAllw.3cb19[0].total"></ns3:Total>
+            <ns3:Allowable name="form3CdDebitPlTotAllw.3cb19[0].allowable"></ns3:Allowable>
+            <ns3:Admissible name="">0</ns3:Admissible>
+          </ns3:Form3cdDebitPlTotAllw>
+		  <ns3:Form3cdEmpBonusComm>
+            <ns3:DetailsUs36 name="form3CdEmpBonusComm.3cb20a[0].detailsUs36"></ns3:DetailsUs36>
+            <ns3:Amount name="form3CdEmpBonusComm.3cb20a[0].amount"></ns3:Amount>
+          </ns3:Form3cdEmpBonusComm>
+		<ns3:Form3cdEmpPfSuperann>
+			<ns3:NatureOfFund name="form3CdEmpBonusComm.3cb20b[0].nature"></ns3:NatureOfFund>
+			<ns3:Amount name="form3CdEmpBonusComm.3cb20b[0].sumReceived"></ns3:Amount>
+			<ns3:DueDate name="form3CdEmpBonusComm.3cb20b[0].dueDate"></ns3:DueDate>
+			<ns3:ActualAmount name="form3CdEmpBonusComm.3cb20b[0].actualAmt"></ns3:ActualAmount>
+			<ns3:ActualDate name="form3CdEmpBonusComm.3cb20b[0].actualDate"></ns3:ActualDate>
+		</ns3:Form3cdEmpPfSuperann>
+		<!-- Point21A onwards -->
+		<ns3:Form3cdDebPLExpnditure1>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>CAPITAL</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21ai[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21ai[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure1>
+		<ns3:Form3cdDebPLExpnditure2>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>PERSONAL</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21aii[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21aii[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure2>
+		<ns3:Form3cdDebPLExpnditure3>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>ADVERTISMNT</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21aiii[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21aiii[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure3>
+		<ns3:Form3cdDebPLExpnditure4>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>CLUBFEE</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21aiv[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21aiv[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure4>
+		<ns3:Form3cdDebPLExpnditure5>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>CLUBSERVICE</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21av[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21av[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure5>
+		<ns3:Form3cdDebPLExpnditure6>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>PENALTY</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21avi[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21avi[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure6>
+		<ns3:Form3cdDebPLExpnditure7>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>OTHERPENALTY</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21avii[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21avii[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure7>
+		<ns3:Form3cdDebPLExpnditure8>
+		<ns3:Form3cdDebPLExpnditure>
+			 <ns3:ParticularType>OFFENCE</ns3:ParticularType>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21aviii[0].nameOfFund"></ns3:Particulars>
+			<ns3:Amount name="form3CdEmpPfSuperann.3cb21aviii[0].amount"></ns3:Amount>
+		</ns3:Form3cdDebPLExpnditure>
+		</ns3:Form3cdDebPLExpnditure8>
+		<ns3:Form3cdAmtInadm40A1>
+			<ns3:Form3cdAmtInadm40A>
+				<ns3:ParticularType>SUBCLAUSEi</ns3:ParticularType>
+				<ns3:DateOfPayment name="taxdeductedlate.3cb21bia[0].dateOfPayment"></ns3:DateOfPayment>
+				<ns3:AmtOfPayment name="taxdeductedlate.3cb21bia[0].amtOfPayment"></ns3:AmtOfPayment>
+				<ns3:NatureOfPayment name="taxdeductedlate.3cb21bia[0].natureOfPayment"></ns3:NatureOfPayment>
+				<ns3:NameOfPayee name="taxdeductedlate.3cb21bia[0].nameOfPayee"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="taxdeductedlate.3cb21bia[0].panOfPayee"></ns3:PANOfPayee>
+				<ns3:AddressDetails>
+				<ns3:AddrDetail1 name="taxdeductedlate.3cb21bia[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="taxdeductedlate.3cb21bia[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="taxdeductedlate.3cb21bia[0].cityTownDis"></ns3:CityOrTownOrDistrict>
+				<ns3:PinCode name="taxdeductedlate.3cb21bia[0].pincode"></ns3:PinCode>
+				</ns3:AddressDetails>
+				</ns3:Form3cdAmtInadm40A>
+		</ns3:Form3cdAmtInadm40A1>
+		<ns3:Form3cdAmtInadm40A2>
+			<ns3:Form3cdAmtInadm40A>
+				<ns3:ParticularType>SEC200(1)</ns3:ParticularType>
+				<ns3:DateOfPayment name="taxdeductedlate.3cb21bib[0].dateOfPayment"></ns3:DateOfPayment>
+				<ns3:AmtOfPayment name="taxdeductedlate.3cb21bib[0].amtOfPayment"></ns3:AmtOfPayment>
+				<ns3:NatureOfPayment name="taxdeductedlate.3cb21bib[0].natureOfPayment"></ns3:NatureOfPayment>
+				<ns3:NameOfPayee name="taxdeductedlate.3cb21bib[0].nameOfPayee"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="taxdeductedlate.3cb21bib[0].panOfPayee"></ns3:PANOfPayee>
+				<ns3:AddressDetails>
+				<ns3:AddrDetail1 name="taxdeductedlate.3cb21bib[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="taxdeductedlate.3cb21bib[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="taxdeductedlate.3cb21bib[0].city"></ns3:CityOrTownOrDistrict>
+				<ns3:PinCode name="taxdeductedlate.3cb21bib[0].pincode"></ns3:PinCode>
+				</ns3:AddressDetails>
+				<ns3:AmtTaxDeducted name="taxdeductedlate.3cb21bib[0].taxDeducted"></ns3:AmtTaxDeducted>
+			</ns3:Form3cdAmtInadm40A>
+		</ns3:Form3cdAmtInadm40A2>
+		<ns3:Form3cdAmtInadm40A3>
+			<ns3:Form3cdAmtInadm40A>
+				<ns3:ParticularType>SUBCLAUSEia</ns3:ParticularType>
+				<ns3:DateOfPayment name="taxdeductedlate.3cb21biia[0].dateOfPayment"></ns3:DateOfPayment>
+				<ns3:AmtOfPayment name="taxdeductedlate.3cb21biia[0].amtOfPayment"></ns3:AmtOfPayment>
+				<ns3:NatureOfPayment name="taxdeductedlate.3cb21biia[0].natureOfPayment"></ns3:NatureOfPayment>
+				<ns3:NameOfPayee name="taxdeductedlate.3cb21biia[0].nameOfPayment"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="taxdeductedlate.3cb21biia[0].panOfPayee"></ns3:PANOfPayee>
+				<ns3:AddressDetails>
+				<ns3:AddrDetail1 name="taxdeductedlate.3cb21biia[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="taxdeductedlate.3cb21biia[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="taxdeductedlate.3cb21biia[0].city"></ns3:CityOrTownOrDistrict>
+				<ns3:PinCode name="taxdeductedlate.3cb21biia[0].pincode"></ns3:PinCode>
+				</ns3:AddressDetails>
+				</ns3:Form3cdAmtInadm40A>
+		</ns3:Form3cdAmtInadm40A3>
+		<ns3:Form3cdAmtInadm40A4>
+			<ns3:Form3cdAmtInadm40A>
+				<ns3:ParticularType>SEC139</ns3:ParticularType>
+				<ns3:DateOfPayment name="taxdeductednotpaid.3cb21biib[0].dateOfPayment"></ns3:DateOfPayment>
+				<ns3:AmtOfPayment name="taxdeductednotpaid.3cb21biib[0].amtOfPayment"></ns3:AmtOfPayment>
+				<ns3:NatureOfPayment name="taxdeductednotpaid.3cb21biib[0].natureOfPayment"></ns3:NatureOfPayment>
+				<ns3:NameOfPayee name="taxdeductednotpaid.3cb21biib[0].nameOfPayee"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="taxdeductednotpaid.3cb21biib[0].panOfPayee"></ns3:PANOfPayee>
+				<ns3:AddressDetails>
+				<ns3:AddrDetail1 name="taxdeductednotpaid.3cb21biib[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="taxdeductednotpaid.3cb21biib[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="taxdeductednotpaid.3cb21biib[0].city"></ns3:CityOrTownOrDistrict>
+				<ns3:PinCode name="taxdeductednotpaid.3cb21biib[0].pincode"></ns3:PinCode>
+				</ns3:AddressDetails>
+				<ns3:AmtTaxDeducted name="taxdeductednotpaid.3cb21biib[0].taxDeducted"></ns3:AmtTaxDeducted>
+				<ns3:AmtTaxDeposited name="taxdeductednotpaid.3cb21biib[0].amtDeposited"></ns3:AmtTaxDeposited>
+			</ns3:Form3cdAmtInadm40A>
+		</ns3:Form3cdAmtInadm40A4>
+		<ns3:Form3cdAmtInadm40ASubClauseiC name="taxdeductedlate.3cb21biii.subclauseic"></ns3:Form3cdAmtInadm40ASubClauseiC>
+		<ns3:Form3cdAmtInadm40ASubClauseiia name="taxdeductedlate.3cb21biv.subclauseiia"></ns3:Form3cdAmtInadm40ASubClauseiia>
+		<ns3:Form3cdAmtInadm40ASubClauseiib name="taxdeductedlate.3cb21bv.subclauseiib"></ns3:Form3cdAmtInadm40ASubClauseiib>
+		<ns3:Form3cdAmtInadm40ASubClauseiii>
+				<ns3:ParticularType>SUBCLAUSEiii</ns3:ParticularType>
+				<ns3:DateOfPayment name="taxdeductedlate.3cb21bvi[0].dateOfPayment"></ns3:DateOfPayment>
+				<ns3:AmtOfPayment name="taxdeductedlate.3cb21bvi[0].amtOfPayment"></ns3:AmtOfPayment>
+				<ns3:NameOfPayee name="taxdeductedlate.3cb21bvi[0].nameOfPayee"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="taxdeductedlate.3cb21bvi[0].panOfPayee"></ns3:PANOfPayee>
+				<ns3:AddressDetails>
+				<ns3:AddrDetail1 name="taxdeductedlate.3cb21bvi[0].addressLine1"></ns3:AddrDetail1>
+				<ns3:AddrDetail2 name="taxdeductedlate.3cb21bvi[0].addressLine2"></ns3:AddrDetail2>
+				<ns3:CityOrTownOrDistrict name="taxdeductedlate.3cb21bvi[0].city"></ns3:CityOrTownOrDistrict>
+				<ns3:PinCode name="taxdeductedlate.3cb21bvi[0].pincode"></ns3:PinCode>
+				</ns3:AddressDetails>
+		</ns3:Form3cdAmtInadm40ASubClauseiii>
+		<ns3:Form3cdAmtInadm40ASubClauseiv name="taxdeductedlate.3cb21bvii.subclauseiv"></ns3:Form3cdAmtInadm40ASubClauseiv>
+		<ns3:Form3cdAmtInadm40ASubClausev name="taxdeductedlate.3cb21bviii.subclausev"></ns3:Form3cdAmtInadm40ASubClausev>
+		<ns3:Form3cdAmtInadm40AAmtDebit>
+			<ns3:Particulars name="form3CdEmpPfSuperann.3cb21c[0].particulars"></ns3:Particulars>
+			<ns3:Section name="form3CdEmpPfSuperann.3cb21c[0].section"></ns3:Section>
+			<ns3:AmountDebitPl name="form3CdEmpPfSuperann.3cb21c[0].amountPL"></ns3:AmountDebitPl>
+			<ns3:AmountAdmisible name="form3CdEmpPfSuperann.3cb21c[0].amountAdmiss"></ns3:AmountAdmisible>
+			<ns3:AmountInAdmisible name="form3CdEmpPfSuperann.3cb21c[0].amountInAdmiss"></ns3:AmountInAdmisible>
+			<ns3:Remarks name="form3CdEmpPfSuperann.3cb21c[0].remarks"></ns3:Remarks>
+		</ns3:Form3cdAmtInadm40AAmtDebit>
+		<ns3:Form3cdIncomeUnderSec40A_3>
+			<ns3:PaymntSec40A_3A>
+				<ns3:DateOfPayment name="form3CdEmpPfSuperann.3cb21dB[0].date"></ns3:DateOfPayment>
+				<ns3:NatureOfPayment name="form3CdEmpPfSuperann.3cb21dB[0].natureOfFund"></ns3:NatureOfPayment>
+				<ns3:AmtOfPayment name="form3CdEmpPfSuperann.3cb21dB[0].amount"></ns3:AmtOfPayment>
+				<ns3:NameOfPayee name="form3CdEmpPfSuperann.3cb21dB[0].name"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="form3CdEmpPfSuperann.3cb21dB[0].permanentAccountNumber"></ns3:PANOfPayee>
+			</ns3:PaymntSec40A_3A>
+		</ns3:Form3cdIncomeUnderSec40A_3>
+		<ns3:ExpendSec40A_3>
+				<ns3:DateOfPayment name="form3CdEmpPfSuperann.3cb21dA[0].date"></ns3:DateOfPayment>
+				<ns3:NatureOfPayment name="form3CdEmpPfSuperann.3cb21dA[0].natureOfFund"></ns3:NatureOfPayment>
+				<ns3:AmtOfPayment name="form3CdEmpPfSuperann.3cb21dA[0].amount"></ns3:AmtOfPayment>
+				<ns3:NameOfPayee name="form3CdEmpPfSuperann.3cb21dA[0].name"></ns3:NameOfPayee>
+				<ns3:PANOfPayee name="form3CdEmpPfSuperann.3cb21dA[0].permanentAccountNumber"></ns3:PANOfPayee>
+		</ns3:ExpendSec40A_3>
+		<ns3:Form3cdExpOth1>
+			<ns3:Form3cdExpOth>
+				<ns3:Form3cdExpOthPK>
+					<ns3:ExpenditureType name="form3Cd.gratSec40a7">GRATSEC40A7</ns3:ExpenditureType>
+					<ns3:Details name="form3Cd.provForPayment"></ns3:Details>
+				</ns3:Form3cdExpOthPK>
+			</ns3:Form3cdExpOth>
+		</ns3:Form3cdExpOth1>
+		<ns3:Form3cdExpOth2>
+			<ns3:Form3cdExpOth>
+				<ns3:Form3cdExpOthPK>
+					<ns3:ExpenditureType name="form3Cd.sumSec409">SUMSEC409</ns3:ExpenditureType>
+					<ns3:Details name="form3Cd.sumPaidByAssessee"></ns3:Details>
+				</ns3:Form3cdExpOthPK>
+			</ns3:Form3cdExpOth>
+		</ns3:Form3cdExpOth2>
+		<ns3:Form3cdExpOth3>
+		  <ns3:Form3cdExpOth>
+            <ns3:Form3cdExpOthPK>
+                <ns3:ExpenditureType name="form3CdExpOth.3cb21g[0].contgntNat">CONTGNTNAT</ns3:ExpenditureType>
+                <ns3:Amount name="form3CdExpOth.3cb21g[0].amount"></ns3:Amount>
+                <ns3:Details name="form3CdExpOth.3cb21g[0].natureOfLiability"></ns3:Details>
+            </ns3:Form3cdExpOthPK>
+          </ns3:Form3cdExpOth>
+        </ns3:Form3cdExpOth3>
+		<ns3:Form3cdExpOth4>
+		  <ns3:Form3cdExpOth>
+            <ns3:Form3cdExpOthPK>
+                <ns3:ExpenditureType name="form3CdExpOth.3cb21h[0].sec23">DEDUCSEC14A</ns3:ExpenditureType>
+                <ns3:Amount name="form3CdExpOth.3cb21h[0].amount"></ns3:Amount>
+                <ns3:Details name="form3CdExpOth.3cb21h[0].particulars"></ns3:Details>
+            </ns3:Form3cdExpOthPK>
+          </ns3:Form3cdExpOth>
+        </ns3:Form3cdExpOth4>
+		<ns3:Form3cdExpOth5>
+		  <ns3:Form3cdExpOth>
+            <ns3:Form3cdExpOthPK>
+                <ns3:ExpenditureType name="form3Cd.amount.amtinadadmSec36I">AMTINADMSEC36I</ns3:ExpenditureType>
+                <ns3:Details name="form3Cd.amount.underSec36"></ns3:Details>
+            </ns3:Form3cdExpOthPK>
+          </ns3:Form3cdExpOth>
+        </ns3:Form3cdExpOth5>
+		<ns3:Form3cdInadm1>
+          <ns3:Form3cdInadm>
+            <ns3:ParticularType name="form3Cd.amount.sec23">SEC23</ns3:ParticularType>
+            <ns3:Particulars>NA</ns3:Particulars>
+            <ns3:Amount name="form3Cd.amount.underSec23"></ns3:Amount>
+          </ns3:Form3cdInadm>
+		</ns3:Form3cdInadm1>
+		<ns3:Form3cdPymtSec40a2bDetail>
+			<ns3:RelatedParyName name="form3CdPymtSec40A2BDetail.3cb23[0].relatedPartyName"></ns3:RelatedParyName>
+			<ns3:RelatedParyType name="form3CdPymtSec40A2BDetail.3cb23[0].relatedPartyType"></ns3:RelatedParyType>
+			<ns3:Amount name="form3CdPymtSec40A2BDetail.3cb23[0].amount"></ns3:Amount>
+			<ns3:RelatedPAN name="form3CdPymtSec40A2BDetail.3cb23[0].relatedPAN"></ns3:RelatedPAN>
+			<ns3:NatureOfTrnsc name="form3CdPymtSec40A2BDetail.3cb23[0].natureOfTrnsc"></ns3:NatureOfTrnsc>
+		</ns3:Form3cdPymtSec40a2bDetail>
+		<ns3:Form3cdProfGainsTax1>
+          <ns3:Form3cdProfGainsTax>
+            <ns3:SectionNo name="form3CdProfGainsTax.3cb24[0].sectionNo"></ns3:SectionNo>
+            <ns3:NameOfParty></ns3:NameOfParty>
+            <ns3:Description name="form3CdProfGainsTax.3cb24[0].description"></ns3:Description>
+            <ns3:Amount name="form3CdProfGainsTax.3cb24[0].amount"></ns3:Amount>
+            <ns3:Computation name="form3CdProfGainsTax.3cb24[0].computation">NA</ns3:Computation>
+          </ns3:Form3cdProfGainsTax>
+        </ns3:Form3cdProfGainsTax1>
+		 <ns3:Form3cdProfGainsTaxSec41>
+		 	<ns3:NameOfParty name="form3CdProfGainsTax.3cb25[0].nameOfParty"></ns3:NameOfParty>
+		 	<ns3:Amount name="form3CdProfGainsTax.3cb25[0].amount"></ns3:Amount>
+            <ns3:SectionNo name="form3CdProfGainsTax.3cb25[0].sectionNo"></ns3:SectionNo>
+            <ns3:Description name="form3CdProfGainsTax.3cb25[0].description"></ns3:Description>
+            <ns3:Computation name="form3CdProfGainsTax.3cb25[0].computation"></ns3:Computation>
+          </ns3:Form3cdProfGainsTaxSec41>
+		<ns3:Form3cdUnpaidStrySec43b1>
+			<ns3:Form3cdUnpaidStrySec43b>
+				<ns3:LiabilityType>PDPY</ns3:LiabilityType>
+				<ns3:Section name="form3CdUnpaidStrySec43B.3cb26iAa[0].section"></ns3:Section>
+				<ns3:Description name="form3CdUnpaidStrySec43B.3cb26iAa[0].nature"></ns3:Description>
+				<ns3:Amount name="form3CdUnpaidStrySec43B.3cb26iAa[0].amount"></ns3:Amount>
+			</ns3:Form3cdUnpaidStrySec43b>
+		</ns3:Form3cdUnpaidStrySec43b1>
+		
+		<ns3:Form3cdUnpaidStrySec43b2>
+			<ns3:Form3cdUnpaidStrySec43b>
+				<ns3:LiabilityType>NPDPY</ns3:LiabilityType>
+				<ns3:Section name="form3CdUnpaidStrySec43B.3cb26iAb[0].section"></ns3:Section>
+				<ns3:Description name="form3CdUnpaidStrySec43B.3cb26iAb[0].nature"></ns3:Description>
+				<ns3:Amount name="form3CdUnpaidStrySec43B.3cb26iAb[0].amount"></ns3:Amount>
+			</ns3:Form3cdUnpaidStrySec43b>
+		</ns3:Form3cdUnpaidStrySec43b2>
+		<ns3:Form3cdUnpaidStrySec43b3>
+			<ns3:Form3cdUnpaidStrySec43b>
+				<ns3:LiabilityType>PBDD</ns3:LiabilityType>
+				<ns3:Section name="form3CdUnpaidStrySec43B.3cb26iBa[0].section"></ns3:Section>
+				<ns3:Description name="form3CdUnpaidStrySec43B.3cb26iBa[0].nature"></ns3:Description>
+				<ns3:Amount name="form3CdUnpaidStrySec43B.3cb26iBa[0].amount"></ns3:Amount>
+			</ns3:Form3cdUnpaidStrySec43b>
+		</ns3:Form3cdUnpaidStrySec43b3>
+		<ns3:Form3cdUnpaidStrySec43b4>
+			<ns3:Form3cdUnpaidStrySec43b>
+				<ns3:LiabilityType>NPBDD</ns3:LiabilityType>
+				<ns3:Section name="form3CdUnpaidStrySec43B.3cb26iBb[0].section"></ns3:Section>
+				<ns3:Description name="form3CdUnpaidStrySec43B.3cb26iBb[0].nature"></ns3:Description>
+				<ns3:Amount name="form3CdUnpaidStrySec43B.3cb26iBb[0].amount"></ns3:Amount>
+			</ns3:Form3cdUnpaidStrySec43b>
+		</ns3:Form3cdUnpaidStrySec43b4>
+		<ns3:Form3cdTaxPassedThrPl name="form3cb.form3CdFlags.26iia.salesTax"/>
+		
+		<ns3:Form3cdPl>
+            <ns3:OpeningBalAmount name="form3CdPl.3cb27a1[0].openBal"></ns3:OpeningBalAmount>
+            <ns3:OpeningBalTreatmentPl name="form3CdPl.3cb27a1[0].openBalTreatment"></ns3:OpeningBalTreatmentPl>
+            <ns3:CenvatAvailAmount name="form3CdPl.3cb27a1[0].cenvatAvailed"></ns3:CenvatAvailAmount>
+            <ns3:CenvatAvailTreatmentPl name="form3CdPl.3cb27a1[0].cenvatAvailedTreatment"></ns3:CenvatAvailTreatmentPl>
+            <ns3:CenvatUtilizedAmount name="form3CdPl.3cb27a1[0].cenvatUtilized"></ns3:CenvatUtilizedAmount>
+            <ns3:CenvatUtilizedTreatmentPl name="form3CdPl.3cb27a1[0].cenvatUtilizedTreatment"></ns3:CenvatUtilizedTreatmentPl>
+            <ns3:BalanceAmount name="form3CdPl.3cb27a1[0].outstandingBal"></ns3:BalanceAmount>
+            <ns3:BalanceTreatmentPl name="form3CdPl.3cb27a1[0].outstandingBalTreatment"></ns3:BalanceTreatmentPl>
+        </ns3:Form3cdPl>
+        <ns3:Form3cdModvat>
+            <ns3:Amount name="form3CdCenvat.3cb27a2[0].amount"></ns3:Amount>
+            <ns3:TreatmentOsModVat name="form3CdCenvat.3cb27a2[0].treatmentOsCenVat"></ns3:TreatmentOsModVat>
+        </ns3:Form3cdModvat>
+        <ns3:Form3cdIncExpPriorPlAcc>
+            <ns3:Type name="form3CdIncExpPriorPlAcc.3cb27b[0].type"></ns3:Type>
+            <ns3:Particulars name="form3CdIncExpPriorPlAcc.3cb27b[0].particulars"></ns3:Particulars>
+            <ns3:Amount name="form3CdIncExpPriorPlAcc.3cb27b[0].amount"></ns3:Amount>
+            <ns3:PriorYear name="form3CdIncExpPriorPlAcc.3cb27b[0].priorYear"></ns3:PriorYear>
+        </ns3:Form3cdIncExpPriorPlAcc>
+        
+        <ns3:Form3cdSec562viia>
+        <ns3:NameOfPerson name="form3CdIncExpPriorPlAcc.3cb28[0].name"></ns3:NameOfPerson>
+        <ns3:PANOfPerson name="form3CdIncExpPriorPlAcc.3cb28[0].pan"></ns3:PANOfPerson>
+        <ns3:NameOfCompany name="form3CdIncExpPriorPlAcc.3cb28[0].nameOfCompany"></ns3:NameOfCompany>
+        <ns3:CINissuedByMCA name="form3CdIncExpPriorPlAcc.3cb28[0].cin"></ns3:CINissuedByMCA>
+        <ns3:NoOfShares name="form3CdIncExpPriorPlAcc.3cb28[0].shares"></ns3:NoOfShares>
+        <ns3:AmountConsideration name="form3CdIncExpPriorPlAcc.3cb28[0].amountConsidered"></ns3:AmountConsideration>
+        <ns3:FairMarketShares name="form3CdIncExpPriorPlAcc.3cb28[0].fairMarketValue"></ns3:FairMarketShares>
+        </ns3:Form3cdSec562viia>
+        
+        <ns3:Form3cdSec562viib>
+        	<ns3:NameOfPerson name="form3CdIncExpPriorPlAcc.3cb29[0].name"></ns3:NameOfPerson>
+        	<ns3:PANOfPerson name="form3CdIncExpPriorPlAcc.3cb29[0].pan"></ns3:PANOfPerson>
+        	<ns3:NoOfShares name="form3CdIncExpPriorPlAcc.3cb29[0].noOfShares"></ns3:NoOfShares>
+        	<ns3:AmountConsideration name="form3CdIncExpPriorPlAcc.3cb29[0].amountReceived"></ns3:AmountConsideration>
+			<ns3:FairMarketShares name="form3CdIncExpPriorPlAcc.3cb29[0].marketValue"></ns3:FairMarketShares>
+       </ns3:Form3cdSec562viib>
+		<ns3:Form3cdSec69d>
+		     	 <ns3:NameOfPerson name="form3CdInadm.3cb30[0].name"></ns3:NameOfPerson>
+		     	 <ns3:PANOfPerson name="form3CdInadm.3cb30[0].pan"></ns3:PANOfPerson>
+		     	 <ns3:AddressDetail>
+						<ns3:AddrDetail1 name="form3CdInadm.3cb30[0].addressLine1"></ns3:AddrDetail1>
+						<ns3:AddrDetail2 name="form3CdInadm.3cb30[0].addressLine2"></ns3:AddrDetail2>
+						<ns3:CityOrTownOrDistrict name="form3CdInadm.3cb30[0].cityTownDis"></ns3:CityOrTownOrDistrict>
+						<ns3:StateCode name="form3CdInadm.3cb30[0].state"></ns3:StateCode>
+						<ns3:PinCode name="form3CdInadm.3cb30[0].pincode"></ns3:PinCode>
+					</ns3:AddressDetail>
+		    	 <ns3:AmountBarrowed name="form3CdInadm.3cb30[0].amountBorrowed"></ns3:AmountBarrowed>
+		    	 <ns3:DateOfBarrow name="form3CdInadm.3cb30[0].dueBorrow"></ns3:DateOfBarrow>
+		    	 <ns3:AmountDueIntrst name="form3CdInadm.3cb30[0].amountIncInterest"></ns3:AmountDueIntrst>
+		    	  <ns3:AmountRepaid name="form3CdInadm.3cb30[0].amountRepaid"></ns3:AmountRepaid>
+		    	   <ns3:DateOfRepayment name="form3CdInadm.3cb30[0].dueRepay"></ns3:DateOfRepayment>
+		</ns3:Form3cdSec69d>
+		<ns3:Form3cdAmtSec269ssDetail>
+			<ns3:PanNoLender name="form3CdAmtSec269SsDetail.3cb31a[0].panNoLender"></ns3:PanNoLender>
+			<ns3:LenderName name="form3CdAmtSec269SsDetail.3cb31a[0].lenderName"></ns3:LenderName>
+			<ns3:LenderAddress name="form3CdAmtSec269SsDetail.3cb31a[0].lenderAddress"></ns3:LenderAddress>
+			<ns3:AmtLoanDeposit name="form3CdAmtSec269SsDetail.3cb31a[0].amtLoanDeposit"></ns3:AmtLoanDeposit>
+			<ns3:LoanDepChqDrftFlag name="form3CdAmtSec269SsDetail.3cb31a[0].loanDepChqDrftFlag"></ns3:LoanDepChqDrftFlag>
+			<ns3:LoanDepSqrdPyFlag name="form3CdAmtSec269SsDetail.3cb31a[0].loanDepSqrdPyFlag"></ns3:LoanDepSqrdPyFlag>
+			<ns3:MaxAmtOsAccPy name="form3CdAmtSec269SsDetail.3cb31a[0].maxAmtOsAccPy"></ns3:MaxAmtOsAccPy>
+		</ns3:Form3cdAmtSec269ssDetail>
+		<ns3:Form3cdAmtSec269tDetail>
+			<ns3:PayeePanNo name="form3CdAmtSec269TDetail.3cb31b[0].payeePanNo"></ns3:PayeePanNo>
+			<ns3:PayeeName name="form3CdAmtSec269TDetail.3cb31b[0].payeeName"></ns3:PayeeName>
+			<ns3:PayeeAddress name="form3CdAmtSec269TDetail.3cb31b[0].payeeAddress"></ns3:PayeeAddress>
+			<ns3:AmtRepayment name="form3CdAmtSec269TDetail.3cb31b[0].amtRepayment"></ns3:AmtRepayment>
+			<ns3:MaxAmtOsAccPy name="form3CdAmtSec269TDetail.3cb31b[0].maxAmtOsAccPy"></ns3:MaxAmtOsAccPy>
+			<ns3:RepaymentChqDraftFlag name="form3CdAmtSec269TDetail.3cb31b[0].repaymentChqDraftFlag"></ns3:RepaymentChqDraftFlag>
+		</ns3:Form3cdAmtSec269tDetail>
+		<ns3:Form3cdBflDa>
+				<ns3:AmtAssessed name="form3CdBflDa.3cb32a[0].amtAssessed"></ns3:AmtAssessed>
+				<ns3:AmtReturned name="form3CdBflDa.3cb32a[0].amtReturned"></ns3:AmtReturned>
+				<ns3:AssessmentYear name="form3CdBflDa.3cb32a[0].assessmentYear"></ns3:AssessmentYear>
+				<ns3:NatureOfLossAllw name="form3CdBflDa.3cb32a[0].natureOfLossAllw"></ns3:NatureOfLossAllw>
+				<ns3:OrderNo name="form3CdBflDa.3cb32a[0].orderNo"></ns3:OrderNo>
+				<ns3:Remarks name="form3CdBflDa.3cb32a[0].remarks"></ns3:Remarks>
+		</ns3:Form3cdBflDa>
+	<ns3:Form3cdSpecloss73>
+	<ns3:Form3cdSpec73Flag name="form3cb.f3CB.form3CdFlags.chngShareSec73"></ns3:Form3cdSpec73Flag>
+	<ns3:Form3cdSpec73Detail name="form3CdInadm.3cb32c.amount"></ns3:Form3cdSpec73Detail>
+	</ns3:Form3cdSpecloss73>
+	<ns3:Form3cdSpec73A>
+	<ns3:Form3cdSpec73AFlag name="form3cb.f3CB.form3CdFlags.chngShareSec73A"></ns3:Form3cdSpec73AFlag>
+	<ns3:Form3cdSpec73ADetail name="form3CdInadm.3cb32d.amount"></ns3:Form3cdSpec73ADetail>
+	</ns3:Form3cdSpec73A>
+	<ns3:Form3cdSpecdeemdBus73>
+	<ns3:Form3cdSpecdeemdBusFlag name="form3cb.f3CB.form3CdFlags.chngShareSec73e"></ns3:Form3cdSpecdeemdBusFlag>
+	<ns3:Form3cdSpecdeemdBusDetail name="form3CdInadm.3cb32e.amount"></ns3:Form3cdSpecdeemdBusDetail>
+	</ns3:Form3cdSpecdeemdBus73>
+	<ns3:Form3cdChapVIaChapIII>
+		<ns3:Section name="form3CdSectionWiseDeduction.3cb33[0].section"></ns3:Section>
+		<ns3:Amt name="form3CdSectionWiseDeduction.3cb33[0].amount"></ns3:Amt>
+	</ns3:Form3cdChapVIaChapIII>
+	<ns3:Form3cdChapXVII>
+	<ns3:TAN name="form3cb.f3CB.complyXVIIB[0].tan"></ns3:TAN>
+	<ns3:Sec name="form3cb.f3CB.complyXVIIB[0].section"></ns3:Sec>
+	<ns3:NatureOfPaymnt name="form3cb.f3CB.complyXVIIB[0].natureOfPayment"></ns3:NatureOfPaymnt>
+	<ns3:AmtOfNatureSpec name="form3cb.f3CB.complyXVIIB[0].amountOfPayment"></ns3:AmtOfNatureSpec>
+	<ns3:TotTaxDedCollectd name="form3cb.f3CB.complyXVIIB[0].taxRequiredToBeDeducted"></ns3:TotTaxDedCollectd>
+	<ns3:TotTaxSpecRate name="form3cb.f3CB.complyXVIIB[0].taxDeductedAtSpecificRate"></ns3:TotTaxSpecRate>
+	<ns3:AmtTaxSpecRate name="form3cb.f3CB.complyXVIIB[0].taxDeductedon(6)"></ns3:AmtTaxSpecRate>
+	<ns3:TotLessThanSpecRate name="form3cb.f3CB.complyXVIIB[0].taxDeductedLessThanSpecificRate"></ns3:TotLessThanSpecRate>
+	<ns3:AmtTaxDedOrCollect name="form3cb.f3CB.complyXVIIB[0].taxDeductedon(8)"></ns3:AmtTaxDedOrCollect>
+	<ns3:AmtNotDepToGovt name="form3cb.f3CB.complyXVIIB[0].taxDeductedToGovt"></ns3:AmtNotDepToGovt>
+	</ns3:Form3cdChapXVII>
+	<ns3:Form3cdTaxDedCollect>
+		<ns3:TAN name="form3cb.f3CB.TaxCollectedPrescribedTime[0].tan"></ns3:TAN>
+		<ns3:TypeOfForm name="form3cb.f3CB.TaxCollectedPrescribedTime[0].typeOfForm"></ns3:TypeOfForm>
+		<ns3:DueDateOfFurnish name="form3cb.f3CB.TaxCollectedPrescribedTime[0].dueDate"></ns3:DueDateOfFurnish>
+		<ns3:DateOfFurnish name="form3cb.f3CB.TaxCollectedPrescribedTime[0].date"></ns3:DateOfFurnish>
+		<ns3:TransactionsFlag name="form3cb.f3CB.TaxCollectedPrescribedTime[0].reportFlag"></ns3:TransactionsFlag>
+	</ns3:Form3cdTaxDedCollect>
+	<ns3:Form3cdSec2011A206C7>
+			<ns3:TAN name="form3cb.f3CB.form3Cd.section201(1A)[0].tan"></ns3:TAN>
+			<ns3:AmtOfIntrest name="form3cb.f3CB.form3Cd.section201(1A)[0].amountOfInterest"></ns3:AmtOfIntrest>
+			<ns3:AmtPaid name="form3cb.f3CB.form3Cd.section201(1A)[0].amountPaid"></ns3:AmtPaid>
+			<ns3:DueDate name="form3cb.f3CB.form3Cd.section201(1A)[0].date"></ns3:DueDate>
+		</ns3:Form3cdSec2011A206C7>
+	<ns3:Form3cdTradeRawProdDet1>
+			<ns3:Form3cdTradeRawProdDet>
+				<ns3:Form3cdTradeRawProdDetPK>
+					<ns3:ConcernType name="form3CdTradeRawProdDet.3cb35a.itemType">TRADE</ns3:ConcernType>
+				</ns3:Form3cdTradeRawProdDetPK>
+				<ns3:ItemName name="form3CdTradeRawProdDet.3cb35a[0].itemName"></ns3:ItemName>
+				<ns3:Unit name="form3CdTradeRawProdDet.3cb35a[0].unit"></ns3:Unit>
+				<ns3:OpeningStock name="form3CdTradeRawProdDet.3cb35a[0].openingStock"></ns3:OpeningStock>
+				<ns3:PurchasePy name="form3CdTradeRawProdDet.3cb35a[0].purchasePy"></ns3:PurchasePy>
+				<ns3:SalesDurPy name="form3CdTradeRawProdDet.3cb35a[0].salesDurPy"></ns3:SalesDurPy>
+				<ns3:ClosingStock name="form3CdTradeRawProdDet.3cb35a[0].closingStock"></ns3:ClosingStock>
+				<ns3:ShortageExcess name="form3CdTradeRawProdDet.3cb35a[0].shortageExcess"></ns3:ShortageExcess>
+		</ns3:Form3cdTradeRawProdDet>
+		</ns3:Form3cdTradeRawProdDet1>
+		<ns3:Form3cdTradeRawProdDet2>
+			<ns3:Form3cdTradeRawProdDet>
+				<ns3:Form3cdTradeRawProdDetPK>
+					<ns3:ConcernType name="form3CdTradeRawProdDet.3cb35bA.itemType">RAWMAT</ns3:ConcernType>
+				</ns3:Form3cdTradeRawProdDetPK>
+				<ns3:ItemName name="form3CdTradeRawProdDet.3cb35bA[0].itemName"></ns3:ItemName>
+				<ns3:Unit name="form3CdTradeRawProdDet.3cb35bA[0].unit"></ns3:Unit>
+				<ns3:OpeningStock name="form3CdTradeRawProdDet.3cb35bA[0].openingStock"></ns3:OpeningStock>
+				<ns3:PurchasePy name="form3CdTradeRawProdDet.3cb35bA[0].purchasePy"></ns3:PurchasePy>
+				<ns3:SalesDurPy name="form3CdTradeRawProdDet.3cb35bA[0].salesDurPy"></ns3:SalesDurPy>
+				<ns3:ClosingStock name="form3CdTradeRawProdDet.3cb35bA[0].closingStock"></ns3:ClosingStock>
+				<ns3:ShortageExcess name="form3CdTradeRawProdDet.3cb35bA[0].shortageExcess"></ns3:ShortageExcess>
+				<ns3:ConsumptionManufacPy name="form3CdTradeRawProdDet.3cb35bA[0].consumptionManufacPy"></ns3:ConsumptionManufacPy>
+				<ns3:FinishedProdYield name="form3CdTradeRawProdDet.3cb35bA[0].finishedProdYield"></ns3:FinishedProdYield>
+				<ns3:PercentageYield name="form3CdTradeRawProdDet.3cb35bA[0].percentageYield"></ns3:PercentageYield>
+			</ns3:Form3cdTradeRawProdDet>
+		</ns3:Form3cdTradeRawProdDet2>
+		<ns3:Form3cdTradeRawProdDet3>
+			<ns3:Form3cdTradeRawProdDet>
+				<ns3:Form3cdTradeRawProdDetPK>
+					<ns3:ConcernType name="form3CdTradeRawProdDet.3cb35bB.itemType">PRODNAME</ns3:ConcernType>
+				</ns3:Form3cdTradeRawProdDetPK>
+				<ns3:ItemName name="form3CdTradeRawProdDet.3cb35bB[0].itemName"></ns3:ItemName>
+				<ns3:Unit name="form3CdTradeRawProdDet.3cb35bB[0].unit"></ns3:Unit>
+				<ns3:OpeningStock name="form3CdTradeRawProdDet.3cb35bB[0].openingStock"></ns3:OpeningStock>
+				<ns3:PurchasePy name="form3CdTradeRawProdDet.3cb35bB[0].purchasePy"></ns3:PurchasePy>
+				<ns3:SalesDurPy name="form3CdTradeRawProdDet.3cb35bB[0].salesDurPy"></ns3:SalesDurPy>
+				<ns3:ClosingStock name="form3CdTradeRawProdDet.3cb35bB[0].closingStock"></ns3:ClosingStock>
+				<ns3:ShortageExcess name="form3CdTradeRawProdDet.3cb35bB[0].shortageExcess"></ns3:ShortageExcess>
+				<ns3:ConsumptionManufacPy name="form3CdTradeRawProdDet.3cb35bB[0].consumptionManufacPy"></ns3:ConsumptionManufacPy>
+		</ns3:Form3cdTradeRawProdDet>
+		</ns3:Form3cdTradeRawProdDet3>
+		<ns3:Form3cdTradeRawProdDet4>
+			<ns3:Form3cdTradeRawProdDet>
+				<ns3:Form3cdTradeRawProdDetPK>
+					<ns3:ConcernType name="form3CdTradeRawProdDet.3cb35bC.itemType">BYPRODNAME</ns3:ConcernType>
+				</ns3:Form3cdTradeRawProdDetPK>
+				<ns3:ItemName name="form3CdTradeRawProdDet.3cb35bC[0].itemName"></ns3:ItemName>
+				<ns3:Unit name="form3CdTradeRawProdDet.3cb35bC[0].unit"></ns3:Unit>
+				<ns3:OpeningStock name="form3CdTradeRawProdDet.3cb35bC[0].openingStock"></ns3:OpeningStock>
+				<ns3:PurchasePy name="form3CdTradeRawProdDet.3cb35bC[0].purchasePy"></ns3:PurchasePy>
+				<ns3:SalesDurPy name="form3CdTradeRawProdDet.3cb35bC[0].salesDurPy"></ns3:SalesDurPy>
+				<ns3:ClosingStock name="form3CdTradeRawProdDet.3cb35bC[0].closingStock"></ns3:ClosingStock>
+				<ns3:ShortageExcess name="form3CdTradeRawProdDet.3cb35bC[0].shortageExcess"></ns3:ShortageExcess>
+				<ns3:ConsumptionManufacPy name="form3CdTradeRawProdDet.3cb35bC[0].consumptionManufacPy"></ns3:ConsumptionManufacPy>
+				<ns3:FinishedProdYield />
+				<ns3:PercentageYield />
+			</ns3:Form3cdTradeRawProdDet>
+		</ns3:Form3cdTradeRawProdDet4>
+		<ns3:Form3cdDistribtedProf115O>
+			<ns3:TotAmtsDistProf name="form3CdDistribtedProf115O.3cb36[0].totAmtsDistProf"></ns3:TotAmtsDistProf>
+			<ns3:AmountRed115O1Ai name="form3CdDistribtedProf115O.3cb36[0].amountReduction115-O(1A)(i)"></ns3:AmountRed115O1Ai>
+			<ns3:AmountRed115O1Aii name="form3CdDistribtedProf115O.3cb36[0].amountReduction115-O(1A)(ii)"></ns3:AmountRed115O1Aii>
+			<ns3:TotalTaxPaid name="form3CdDistribtedProf115O.3cb36[0].totalTaxPaid"></ns3:TotalTaxPaid>
+			<ns3:DateOfPayment name="form3CdDistribtedProf115O.3cb36[0].dateOfPayment"></ns3:DateOfPayment>
+			<ns3:Amount name="form3CdDistribtedProf115O.3cb36[0].amount"></ns3:Amount>
+		</ns3:Form3cdDistribtedProf115O>
+		<ns3:CostAudit>
+			<ns3:CostAuditFlag name="form3cb.f3CB.form3CdFlags.costAudit"></ns3:CostAuditFlag>
+			<ns3:CostAuditDetail name="form3cb.f3CB.form3CdFlags.costAudit.details"></ns3:CostAuditDetail>
+		</ns3:CostAudit>
+		<ns3:AuditExcise>
+			<ns3:AuditExciseFlag name="form3cb.f3CB.form3CdFlags.centralExciseAct"></ns3:AuditExciseFlag>
+			<ns3:AuditExciseDetail name="form3cb.f3CB.form3CdFlags.centralExciseAct.details"></ns3:AuditExciseDetail>
+		</ns3:AuditExcise>
+		<ns3:AuditSec72>
+			<ns3:AuditSec72Flag name="form3cb.f3CB.form3CdFlags.AuditunderSection72A"></ns3:AuditSec72Flag>
+			<ns3:AuditSec72Detail name="form3cb.f3CB.form3CdFlags.AuditunderSection72A.details"></ns3:AuditSec72Detail>
+		</ns3:AuditSec72>
+		<ns3:Form3cdRefundDmdPrevYr>
+			<ns3:FinYear name="form3cb.wealthTaxAct[0].year"></ns3:FinYear>
+			<ns3:NameOfTaxLaw name="form3cb.wealthTaxAct[0].nameTaxLaw"></ns3:NameOfTaxLaw>
+			<ns3:TypeOfAmount name="form3cb.wealthTaxAct[0].type"></ns3:TypeOfAmount>
+			<ns3:DateOfDemand name="form3cb.wealthTaxAct[0].dateOfDemand"></ns3:DateOfDemand>
+			<ns3:Amount name="form3cb.wealthTaxAct[0].amount"></ns3:Amount>
+			<ns3:Remarks name="form3cb.wealthTaxAct[0].remarks"></ns3:Remarks>
+			<ns3:StateCode name="form3cb.wealthTaxAct[0].typeState"></ns3:StateCode>
+			<ns3:OtherTaxLaw name="form3cb.wealthTaxAct[0].typeOthers"></ns3:OtherTaxLaw>
+		</ns3:Form3cdRefundDmdPrevYr>
+		<ns3:Form3cdAccountingRatioCalculations>
+			<ns3:PrevYrProfTurnOvr>
+				<ns3:TotalTurnover name="form3cb.py.TurnOver"></ns3:TotalTurnover>
+				<ns3:GrossprofitTurnover name="form3cb.py.pt40Gross"></ns3:GrossprofitTurnover>
+				<ns3:NetprofitTurnover1 name="form3cb.py.pt40Net"></ns3:NetprofitTurnover1>
+				<ns3:StockInTrade name="form3cb.py.pt40Stock"></ns3:StockInTrade>
+				<ns3:MaterialconsumedFinishedgoods name="form3cb.py.pt40Mat"></ns3:MaterialconsumedFinishedgoods>
+				<ns3:GrosProfNumertr name="form3cb.py.grossProfit"></ns3:GrosProfNumertr>
+				<ns3:GrosProfDmntr name="form3cb.py.grossTurnover"></ns3:GrosProfDmntr>
+				<ns3:NetProfNumertr name="form3cb.py.netProfit"></ns3:NetProfNumertr>
+				<ns3:NetProfDmntr name="form3cb.py.netTurnover"></ns3:NetProfDmntr>
+				<ns3:StockTradeNmrtr name="form3cb.py.stockInTrade"></ns3:StockTradeNmrtr>
+				<ns3:StockTradeDmntr name="form3cb.py.stockInTradeTurnover"></ns3:StockTradeDmntr>
+				<ns3:MaterialNumrtr name="form3cb.py.materialConsumed"></ns3:MaterialNumrtr>
+				<ns3:MaterialDmntr name="form3cb.py.finishedGoodsProduced"></ns3:MaterialDmntr>
+			</ns3:PrevYrProfTurnOvr>
+			<ns3:PrecPrevYrProfTurnOvr>
+			    <ns3:TotalTurnover name="form3cb.ppy.TurnOver"></ns3:TotalTurnover>
+				<ns3:GrossprofitTurnover name="form3cb.ppy.pt40Gross"></ns3:GrossprofitTurnover>
+				<ns3:NetprofitTurnover1 name="form3cb.ppy.pt40Net"></ns3:NetprofitTurnover1>
+				<ns3:StockInTrade name="form3cb.ppy.pt40Stock"></ns3:StockInTrade>
+				<ns3:MaterialconsumedFinishedgoods name="form3cb.ppy.pt40Mat"></ns3:MaterialconsumedFinishedgoods>
+				<ns3:GrosProfNumertr name="form3cb.ppy.grossProfit"></ns3:GrosProfNumertr>
+				<ns3:GrosProfDmntr name="form3cb.ppy.grossTurnover"></ns3:GrosProfDmntr>
+				<ns3:NetProfNumertr name="form3cb.ppy.netProfit"></ns3:NetProfNumertr>
+				<ns3:NetProfDmntr name="form3cb.ppy.netTurnover"></ns3:NetProfDmntr>
+				<ns3:StockTradeNmrtr name="form3cb.ppy.stockInTrade"></ns3:StockTradeNmrtr>
+				<ns3:StockTradeDmntr name="form3cb.ppy.stockInTradeTurnover"></ns3:StockTradeDmntr>
+				<ns3:MaterialNumrtr name="form3cb.ppy.materialConsumed"></ns3:MaterialNumrtr>
+				<ns3:MaterialDmntr name="form3cb.ppy.finishedGoodsProduced"></ns3:MaterialDmntr>
+			</ns3:PrecPrevYrProfTurnOvr>
+		</ns3:Form3cdAccountingRatioCalculations>
+		<ns3:Form3cdFlags>
+			<ns3:ChngMethodOfAcc name="form3cb.f3CB.form3CdFlags.chngMethodOfAcc"></ns3:ChngMethodOfAcc>
+			<ns3:LoanPaymentCert name="form3cb.f3CB.form3CdFlags.loanPaymentCert"></ns3:LoanPaymentCert>
+			<ns3:ChngShareSec79 name="form3cb.f3CB.form3CdFlags.chngShareSec79"></ns3:ChngShareSec79>
+			<ns3:ComplyXVIIB name="form3cb.f3CB.form3CdFlags.complyXVIIB"></ns3:ComplyXVIIB>
+			<ns3:ChangeInPartner name="form3cb.f3CB.form3CdFlags.changeInPartner"></ns3:ChangeInPartner>
+			<ns3:ChangeNaturBuisnes	name="form3cb.f3CB.form3CdFlags.changeNaturBuisnes"></ns3:ChangeNaturBuisnes>
+			<ns3:BookOfAcnt name="form3cb.f3CB.form3CdFlags.bookOfAcnt"></ns3:BookOfAcnt>
+			<ns3:PrftLoassAcnt name="form3cb.f3CB.form3CdFlags.prftLoassAcnt"></ns3:PrftLoassAcnt>
+			<ns3:Sec145 name="form3cb.f3CB.form3CdFlags.sec145"></ns3:Sec145>
+			<ns3:Sec145A name="form3cb.f3CB.form3CdFlags.sec145A"></ns3:Sec145A>
+			<ns3:Sec40A3 name="form3cb.f3CB.form3CdFlags.sec40A3"></ns3:Sec40A3>
+			<ns3:Sec40A3A name="form3cb.f3CB.form3CdFlags.sec40A3A"></ns3:Sec40A3A>
+			<ns3:SalesTax name="form3cb.f3CB.form3CdFlags.salesTax"></ns3:SalesTax>
+			<ns3:VATPY name="form3cb.f3CB.form3CdFlags.valueTaxPYa"></ns3:VATPY>
+			<ns3:Section69D name="form3cb.f3CB.form3CdFlags.section69D"></ns3:Section69D>
+			<ns3:SectionDed name="form3cb.f3CB.form3CdFlags.sectionDed"></ns3:SectionDed>
+			<ns3:TaxPrescTime name="form3cb.f3CB.form3CdFlags.TaxDeducted/Collected"></ns3:TaxPrescTime>
+			<ns3:Sec201_1A_206_C7 name="form3cb.f3CB.form3CdFlags.section201(1A)"></ns3:Sec201_1A_206_C7>
+			<ns3:SharesOfMem name="form3cb.f3CB.form3CdFlags.shareOfMembers"></ns3:SharesOfMem>
+			<ns3:Form3cdSec562viiaFlag name="form3cb.f3CB.form3CdFlags.Section56(2)(viia)"></ns3:Form3cdSec562viiaFlag>
+			<ns3:Form3cdSec562viibFlag name="form3cb.f3CB.form3CdFlags.Section56(2)(viib)"></ns3:Form3cdSec562viibFlag>
+		</ns3:Form3cdFlags>
+		<OtherInformation1>
+			<FirstName name="form3cb.f3CB.otherInformation1.firstName"></FirstName>
+			<MiddleName name="form3cb.f3CB.otherInformation1.middleName"></MiddleName>
+			<LastName name="form3cb.f3CB.otherInformation1.lastName"></LastName>
+			<AddrDetail1 name="form3cb.f3CB.otherInformation1.addressLine1"></AddrDetail1>
+			<AddrDetail2 name="form3cb.f3CB.otherInformation1.addressLine2"></AddrDetail2>
+			<CityOrTownOrDistrict name="form3cb.f3CB.otherInformation1.city"></CityOrTownOrDistrict>
+			<StateCode name="form3cb.f3CB.otherInformation1.stateCode"></StateCode>
+			<PinCode name="form3cb.f3CB.otherInformation1.pincode"></PinCode>
+			<Place name="form3cb.f3CB.otherInformation1.place"></Place>
+			<Date name="form3cb.f3CB.otherInformation1.date"></Date>
+			<MembershipNo name="form3cb.f3CB.otherInformation1.membershipNo"></MembershipNo>
+			<FirmRegNum name="form3cb.f3CB.otherInformation1.frn"></FirmRegNum>
+		</OtherInformation1>
+		
+    </ns1:F3CA>
+</ns1:FORM3CA>

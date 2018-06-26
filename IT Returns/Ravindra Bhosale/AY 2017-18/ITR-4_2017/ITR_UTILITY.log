@@ -1,0 +1,61 @@
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.b.a.d a]::[INFO]::[encryptedKey: hms79mHsJuysWwrI7PfBoJnyn0qBAx3mvVs5Rfo6DV3uSgG7Clp7cWIqsLwnk4HCjL0STkB3PEa1M73gHIKCVFBOPbYi6w1J4CxH4657h1+vzmJygDxyrC0WRkKAzrdvBjkDzEnOQmmYvWmcqmYdTlu9nyTjK58JhhVDb+FfLIrILe2fiOvX9m0LCTGWTYsMplyDLR7X88WTFt4q3E6VYDNOi1tXeqOz/GcdgEPwyO+48nCMSi4CwiyK87Q9qqueiosdV96wVjKvCCD8X0ns1VpqbBmVG/KokkcTx1cJSGh8E4WyU3Vc8Z8XiejP2MuMGt3Xu8Gd5ZX74xv8fxrzaw==]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.b.a.d a]::[INFO]::[signature generated :: C:\Users\Tushar\AppData\Local\Temp\ALXPB6162G_ITR-4_2017_-1067365410.signature]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.b.a.c a]::[INFO]::[signature generated :: C:\Users\Tushar\AppData\Local\Temp\ALXPB6162G_ITR-4_2017_-1067365410.signature]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.a.a.n d]::[INFO]::[signedXmlOutputFile : C:\Users\Tushar\AppData\Local\Temp\ALXPB6162G_ITR-4_2017_-1067365410.signature]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.a.a.n d]::[INFO]::[generateSignatureFile ends]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.webservice.a.f b]::[INFO]::[Thread call starts]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.webservice.a.f a]::[INFO]::[sendRequest starts]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.common.util.e getSecuredRequest]::[INFO]::[Before getting secured request]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.common.util.e getSecuredRequest]::[INFO]::[After getting secured request]
+[28-Mar-2018]::[12:13:25 AM]::[com.itd.efiling.itr.common.util.c d]::[INFO]::[file : .\ITR-4_AY201718_PR2.jar]
+[28-Mar-2018]::[12:13:26 AM]::[com.sun.xml.internal.messaging.saaj.soap.MessageImpl identifyContentType]::[SEVERE]::[SAAJ0537: Invalid Content-Type. Could be an error message instead of a SOAP message]
+[28-Mar-2018]::[12:13:26 AM]::[com.itd.efiling.itr.webservice.a.f a]::[SEVERE]::[Error in sendRequest: ]
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Invalid Content-Type:text/html. Is this an error message instead of a SOAP response?
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.a(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.b(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.call(Unknown Source)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Invalid Content-Type:text/html. Is this an error message instead of a SOAP response?
+	at com.sun.xml.internal.messaging.saaj.soap.MessageImpl.identifyContentType(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.soap.MessageFactoryImpl.createMessage(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 7 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Invalid Content-Type:text/html. Is this an error message instead of a SOAP response?
+	at com.sun.xml.internal.messaging.saaj.soap.MessageImpl.identifyContentType(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.soap.MessageFactoryImpl.createMessage(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.a(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.b(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.call(Unknown Source)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[28-Mar-2018]::[12:13:26 AM]::[com.itd.efiling.itr.webservice.a.f b]::[INFO]::[Thread call ends : time taken: 925]
+[28-Mar-2018]::[12:13:30 AM]::[com.itd.efiling.itr.a.a.n cancel]::[INFO]::[cancel caled]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.toolbar.b validateAndSaveFile]::[INFO]::[validateAndSaveFile ]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.main.ctrl.a c]::[INFO]::[show validation]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.validation.helpers.Validator validateAll]::[INFO]::[Time taken in validateAll(): 0]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() starts : ]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() ends time taken: 22  error count :0]
+[28-Mar-2018]::[12:13:33 AM]::[com.itd.efiling.itr.a.a.e a]::[INFO]::[extension : .xml title : null type : true]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[Before setDocument]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[After setDocument[#document: null]]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr4S.tdSonOthThanSals.tdSonOthThanSal[1].employerOrDeductorOrCollectDetl.tan xpath: /ITRETURN:ITR/ITR4FORM:ITR4/ITRForm:TDSonOthThanSals/ITRForm:TDSonOthThanSal[2]/ITRForm:EmployerOrDeductorOrCollectDetl/ITRForm:TAN nodelist: 1]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr4S.tdSonOthThanSals.tdSonOthThanSal[2].employerOrDeductorOrCollectDetl.tan xpath: /ITRETURN:ITR/ITR4FORM:ITR4/ITRForm:TDSonOthThanSals/ITRForm:TDSonOthThanSal[3]/ITRForm:EmployerOrDeductorOrCollectDetl/ITRForm:TAN nodelist: 2]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[flagtrue]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[doc[#document: null]]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[Inside deleteNodeGenerateXml]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[FIELD_VALUE 289]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[done with schema error; 0]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[hash {} doQT3CeqBS6nsNfGpVCJw4oVhVzPZfhW/Zoni/A2tYc=]
+[28-Mar-2018]::[12:13:38 AM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[Time taken to generate: 413 ms ]
+[28-Mar-2018]::[12:13:41 AM]::[com.itd.efiling.itr.common.dialog.o a]::[INFO]::[Inside  closeUtility]
+[28-Mar-2018]::[12:13:43 AM]::[com.itd.efiling.itr.main.ctrl.h a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@ec9e05, target = javafx.stage.Stage@ec9e05, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]

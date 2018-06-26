@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR1FORM="http://incometaxindiaefiling.gov.in/ITR1" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ITR1FORM:ITR1>
+    <ITRForm:CreationInfo>
+			<ITRForm:SWVersionNo>1.0</ITRForm:SWVersionNo>
+			<ITRForm:SWCreatedBy>SW91201617</ITRForm:SWCreatedBy>
+			<ITRForm:XMLCreatedBy>SW91201617</ITRForm:XMLCreatedBy>
+			<ITRForm:XMLCreationDate>2016-08-10</ITRForm:XMLCreationDate>
+			<ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+			<ITRForm:Digest>fxQP+CZEkdX1bTcCKY84vkG6UAOeB23IuOk19bHTxFg=</ITRForm:Digest>
+		</ITRForm:CreationInfo>
+		<ITRForm:Form_ITR1>
+			<ITRForm:FormName>ITR-1</ITRForm:FormName>
+			<ITRForm:Description>For Indls having Income from Salary, Pension, family pension and Interest</ITRForm:Description>
+			<ITRForm:AssessmentYear>2016</ITRForm:AssessmentYear>
+			<ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+			<ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+		</ITRForm:Form_ITR1>
+    <ITRForm:PersonalInfo>
+    
+      <ITRForm:AssesseeName>
+        <ITRForm:FirstName>DINESHBHAI</ITRForm:FirstName>
+        <ITRForm:MiddleName>PREMJIBHAI</ITRForm:MiddleName>
+        <ITRForm:SurNameOrOrgName>SOSA</ITRForm:SurNameOrOrgName>
+       </ITRForm:AssesseeName>
+      <ITRForm:PAN>BXNPS4451E</ITRForm:PAN>
+      <ITRForm:Address>
+        <ITRForm:ResidenceNo>ROOM NO 2</ITRForm:ResidenceNo>
+        <ITRForm:ResidenceName>MUNICIPAL BUILDING NO 1</ITRForm:ResidenceName>
+        <ITRForm:RoadOrStreet>P L LOKHANDE MARG</ITRForm:RoadOrStreet>
+        <ITRForm:LocalityOrArea>CHEMBUR LABOUR CAMP</ITRForm:LocalityOrArea>
+        <ITRForm:CityOrTownOrDistrict>MUMBAI</ITRForm:CityOrTownOrDistrict>
+        <ITRForm:StateCode>19</ITRForm:StateCode>
+        <ITRForm:CountryCode>91</ITRForm:CountryCode>
+        <ITRForm:PinCode>400098</ITRForm:PinCode>
+        
+        <ITRForm:MobileNo>9619156719</ITRForm:MobileNo>
+        
+        <ITRForm:EmailAddress>TUSHARMOHITE0@GMAIL.COM</ITRForm:EmailAddress>
+       </ITRForm:Address>
+      <ITRForm:DOB>1976-11-04</ITRForm:DOB>
+      <ITRForm:EmployerCategory>GOV</ITRForm:EmployerCategory>
+      <ITRForm:Gender>M</ITRForm:Gender>
+      <ITRForm:Status>I</ITRForm:Status>
+      <ITRForm:AadhaarCardFlg>N</ITRForm:AadhaarCardFlg>
+	  
+    </ITRForm:PersonalInfo>
+    <ITRForm:FilingStatus>
+      
+      <ITRForm:ReturnFileSec>12</ITRForm:ReturnFileSec>
+      
+      
+      
+      <ITRForm:ReturnType>O</ITRForm:ReturnType>
+      
+      
+      <ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+      <ITRForm:TaxStatus>NT</ITRForm:TaxStatus>
+      <ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+	   
+	   
+    </ITRForm:FilingStatus>
+    <ITRForm:ITR1_IncomeDeductions>
+      <ITRForm:IncomeFromSal>345910</ITRForm:IncomeFromSal>
+      <ITRForm:TypeOfHP>S</ITRForm:TypeOfHP>
+      <ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+      <ITRForm:IncomeOthSrc>0</ITRForm:IncomeOthSrc>
+      <ITRForm:GrossTotIncome>345910</ITRForm:GrossTotIncome>
+      <ITRForm:UsrDeductUndChapVIA>
+        <ITRForm:Section80C>42403</ITRForm:Section80C>
+        <ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+        <ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+        <ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+        <ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+        
+        <ITRForm:Section80D>0</ITRForm:Section80D>
+        <ITRForm:Section80DD>0</ITRForm:Section80DD>
+        <ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+        <ITRForm:Section80E>0</ITRForm:Section80E>
+        <ITRForm:Section80G>0</ITRForm:Section80G>
+        <ITRForm:Section80GG>0</ITRForm:Section80GG>
+        <ITRForm:Section80GGA>0</ITRForm:Section80GGA>
+        <ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+        <ITRForm:Section80U>0</ITRForm:Section80U>
+        <ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+        <ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+        <ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+        <ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+        <ITRForm:TotalChapVIADeductions>42403</ITRForm:TotalChapVIADeductions>
+      </ITRForm:UsrDeductUndChapVIA>
+      <ITRForm:DeductUndChapVIA>
+        <ITRForm:Section80C>42403</ITRForm:Section80C>
+        <ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+        <ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+        <ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+        <ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+        
+        <ITRForm:Section80D>0</ITRForm:Section80D>
+        <ITRForm:Section80DD>0</ITRForm:Section80DD>
+        <ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+        <ITRForm:Section80E>0</ITRForm:Section80E>
+        <ITRForm:Section80G>0</ITRForm:Section80G>
+        <ITRForm:Section80GG>0</ITRForm:Section80GG>
+        <ITRForm:Section80GGA>0</ITRForm:Section80GGA>
+        <ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+        <ITRForm:Section80U>0</ITRForm:Section80U>
+        <ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+        <ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+        <ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+        <ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+        <ITRForm:TotalChapVIADeductions>42403</ITRForm:TotalChapVIADeductions>
+      </ITRForm:DeductUndChapVIA>
+      <ITRForm:TotalIncome>303510</ITRForm:TotalIncome>
+    </ITRForm:ITR1_IncomeDeductions>
+    <ITRForm:ITR1_TaxComputation>
+      <ITRForm:TotalTaxPayable>5351</ITRForm:TotalTaxPayable>
+	  <ITRForm:Rebate87A>2000</ITRForm:Rebate87A>
+	  <ITRForm:TaxPayableOnRebate>3351</ITRForm:TaxPayableOnRebate>
+      <ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+      <ITRForm:EducationCess>101</ITRForm:EducationCess>
+      <ITRForm:GrossTaxLiability>3452</ITRForm:GrossTaxLiability>
+      <ITRForm:Section89>0</ITRForm:Section89>
+      <ITRForm:NetTaxLiability>3452</ITRForm:NetTaxLiability>
+      <ITRForm:TotalIntrstPay>0</ITRForm:TotalIntrstPay>
+      <ITRForm:IntrstPay>
+        <ITRForm:IntrstPayUs234A>0</ITRForm:IntrstPayUs234A>
+        <ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+        <ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+       </ITRForm:IntrstPay>
+      <ITRForm:TotTaxPlusIntrstPay>3452</ITRForm:TotTaxPlusIntrstPay>
+    </ITRForm:ITR1_TaxComputation>
+    <ITRForm:TaxPaid>
+      <ITRForm:TaxesPaid>
+        <ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+        <ITRForm:TDS>3452</ITRForm:TDS>
+        <ITRForm:TCS>0</ITRForm:TCS>
+        <ITRForm:SelfAssessmentTax>0</ITRForm:SelfAssessmentTax>
+        <ITRForm:TotalTaxesPaid>3452</ITRForm:TotalTaxesPaid>
+      </ITRForm:TaxesPaid>
+      <ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+    </ITRForm:TaxPaid>
+    <ITRForm:Refund>
+      <ITRForm:RefundDue>0</ITRForm:RefundDue>
+      <ITRForm:BankAccountDtls>
+         <ITRForm:PriBankDetails>
+        	<ITRForm:IFSCCode>BKID0000042</ITRForm:IFSCCode>
+			<ITRForm:BankName>Bank of India</ITRForm:BankName>
+			<ITRForm:BankAccountNo>00421011000058</ITRForm:BankAccountNo>
+			<ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+         </ITRForm:PriBankDetails>
+         
+         <ITRForm:BankAccounts>1</ITRForm:BankAccounts>
+      </ITRForm:BankAccountDtls>
+    </ITRForm:Refund>
+    
+    <ITRForm:TDSonSalaries>
+      <ITRForm:TDSonSalary>
+        <ITRForm:EmployerOrDeductorOrCollectDetl>
+          <ITRForm:TAN>MUMM01325C</ITRForm:TAN>
+          <ITRForm:EmployerOrDeductorOrCollecterName>MUNICIPAL CORPORATION OF GREATER MUMBAI</ITRForm:EmployerOrDeductorOrCollecterName>
+        </ITRForm:EmployerOrDeductorOrCollectDetl>
+        <ITRForm:IncChrgSal>361834</ITRForm:IncChrgSal>
+        <ITRForm:TotalTDSSal>3452</ITRForm:TotalTDSSal>
+      </ITRForm:TDSonSalary>
+      <ITRForm:TotalTDSonSalaries>3452</ITRForm:TotalTDSonSalaries>
+    </ITRForm:TDSonSalaries>
+    
+     
+    
+    
+    
+    
+    <ITRForm:Verification>
+      <ITRForm:Declaration>
+        <ITRForm:AssesseeVerName>SOSA DINESHBHAI</ITRForm:AssesseeVerName>
+        <ITRForm:FatherName>PREMJIBHAI SOSA</ITRForm:FatherName>
+        <ITRForm:AssesseeVerPAN>BXNPS4451E</ITRForm:AssesseeVerPAN>
+      </ITRForm:Declaration>
+      <ITRForm:Place>MUMBAI</ITRForm:Place>
+      <ITRForm:Date>2016-08-10</ITRForm:Date>
+    </ITRForm:Verification>
+    
+    
+   
+  </ITR1FORM:ITR1>
+</ITRETURN:ITR>

@@ -1,0 +1,96 @@
+                                    MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0009-CHEMBUR                                    
+              SHOP NO  1,2,3,4 RUNWALA SHOPPING CENTRE, 15TH ROAD  R C CHEMBURKAR MARG  Chembur, Mumbai,400 071              
+
+Current Date  :09-Feb-2018                                                                                  UserId : REPORT09
+Time : 12:34:10 PM                                                                                                Page :1 / 1
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2017  to  09-Feb-2018                                             
+
+   Accountno :00091101000554
+   Name: MOHITE CONSULTANCY SERVICES
+   Address :SHIVSHAKTI SANGH NEAR KARNATAK SCHOOL
+   GHATLA CHEMBUR,MUMBAI
+   MUMBAI,400071
+   Limit:0                                 INR
+   Joint Holder: MOHITE TUSHAR GULABRAO , MOHITE JAYRAN BABAN ,
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     12306.67 |
+ 13-Apr-2017 | TO - JETKING INFOTRAIN LIMIT - ING INFOTRAIN  | 469153 |         4727.00 |                 |         7579.67 |
+ 18-Apr-2017 | BY CLG BY CLG/6/99901021/648/032              |      6 |                 |         8000.00 |        15579.67 |
+ 19-Apr-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        16579.67 |
+ 21-Apr-2017 | BY CASH/0021                                  |        |                 |         9000.00 |        25579.67 |
+ 25-Apr-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        26579.67 |
+ 27-Apr-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0021        |        |            6.00 |                 |        26573.67 |
+ 27-Apr-2017 | TO TR. NEFT HO-RTGS/99/01/001703/0021         | 469154 |        15000.00 |                 |        11573.67 |
+ 02-May-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |        12073.67 |
+ 08-May-2017 | By NEFT :RATHOD SACHEEN MAHAD                 |        |                 |         1000.00 |        13073.67 |
+ 12-May-2017 | TO CASH VISHAL                                | 469155 |         4000.00 |                 |         9073.67 |
+ 17-May-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         3000.00 |        12073.67 |
+ 31-May-2017 | By NEFT :RATHOD SACHEEN MAHAD                 |        |                 |         2000.00 |        14073.67 |
+ 02-Jun-2017 | BY CLG BY CLG/82645/99901055/157/032          |  82645 |                 |         6000.00 |        20073.67 |
+ 05-Jun-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        21073.67 |
+ 06-Jun-2017 | TO CASH VISHAL MOHITE                         | 469156 |         5000.00 |                 |        16073.67 |
+ 14-Jun-2017 | BY CASH/0054                                  |        |                 |         1000.00 |        17073.67 |
+ 20-Jun-2017 | TO CASH VVISHAL MOHITE                        | 469158 |         5000.00 |                 |        12073.67 |
+ 13-Jul-2017 | TO - JETKING INFOTRAIN LIMIT - ING INFOTRAIN  | 469159 |         4727.00 |                 |         7346.67 |
+ 15-Jul-2017 | TO CASH VISHAL MOHITE                         | 469160 |         5000.00 |                 |         2346.67 |
+ 21-Jul-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |          590.00 |         2936.67 |
+ 27-Jul-2017 | BY CLG BY CLG/100092/99901097/438/032         | 100092 |                 |         7000.00 |         9936.67 |
+ 05-Aug-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        11436.67 |
+ 05-Aug-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        12936.67 |
+ 08-Aug-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        14436.67 |
+ 09-Aug-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        15936.67 |
+ 06-Sep-2017 | BY CLG BY CLG/162432/99901126/1295/032        | 162432 |                 |         1080.00 |        17016.67 |
+ 18-Sep-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1180.00 |        18196.67 |
+ 18-Sep-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1180.00 |        19376.67 |
+ 29-Sep-2017 | TO INCIDENTAL CHARGES                         |        |          236.00 |                 |        19140.67 |
+ 13-Oct-2017 | TO - JETKING INFOTRAIN LIMIT - ING INFOTRAIN  | 469161 |         4732.00 |                 |        14408.67 |
+ 27-Oct-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        15908.67 |
+ 27-Oct-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        17408.67 |
+ 03-Nov-2017 | TO CASH JAYRAM MOHITE                         | 469163 |         3000.00 |                 |        14408.67 |
+ 10-Nov-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        15408.67 |
+ 16-Nov-2017 | BY CLG BY CLG/162658/99901177/461/032         | 162658 |                 |         1080.00 |        16488.67 |
+ 16-Nov-2017 | By NEFT :PRASAR BHARATI NON S                 |        |                 |         2320.00 |        18808.67 |
+ 13-Dec-2017 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1500.00 |        20308.67 |
+ 20-Dec-2017 | TO TRANSFER~10/01/009456/0002                 | 469162 |         3000.00 |                 |        17308.67 |
+ 06-Jan-2018 | TO TRANSFER~10/01/009456/0002                 | 469164 |         2500.00 |                 |        14808.67 |
+ 06-Jan-2018 | TO TRANSFER/NEFT/TUSHAR GULABRAO MOHITE-RTGS/ | 469165 |         2500.00 |                 |        12308.67 |
+ 06-Jan-2018 | TO NEFT CHARGES-RTGS/99/01/001703/0009        |        |            3.00 |                 |        12305.67 |
+ 12-Jan-2018 | By NEFT :SL - OL -PARKING GL                  |        |                 |          750.00 |        13055.67 |
+ 17-Jan-2018 | By NEFT :PRASAR BHARATI (BROA                 |        |                 |         2360.00 |        15415.67 |
+ 31-Jan-2018 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        16415.67 |
+ 05-Feb-2018 | By NEFT :SL - OL -PARKING GL                  |        |                 |          500.00 |        16915.67 |
+ 07-Feb-2018 | By NEFT :SL - OL -PARKING GL                  |        |                 |         1000.00 |        17915.67 |
+ Closing Bal |                                                                                                     17915.67 |
+=============================================================================================================================
+     Total : |                                               |        |        59431.00 |        65040.00 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |        59431.00 |        65040.00 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DIT Forms Schema definition -->
+<!-- (c) 2011, Income Tax department. Property of Income Tax department, 
+	Govt. of India -->
+<!-- Version 1.0 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://incometaxindiaefiling.gov.in/"
+	xmlns:Form="http://incometaxindiaefiling.gov.in/common"
+	targetNamespace="http://incometaxindiaefiling.gov.in/F3CA" 
+	xmlns:f3ca="http://incometaxindiaefiling.gov.in/F3CA"
+	xmlns:f3cd="http://incometaxindiaefiling.gov.in/F3CD"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/common" schemaLocation="Common.xsd" />
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/F3CD" schemaLocation="Form3CD.xsd"/>
+	
+	<xs:element name="FORM3CA">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="F3CA">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="Form:CreationInfo" minOccurs="1" maxOccurs="1" />
+							<xs:element ref="Form:Form_Details" minOccurs="1" maxOccurs="1" />
+							
+							<xs:element type="f3ca:Declaration" name="Declaration" minOccurs="1" maxOccurs="1" />
+							
+							<xs:element ref="f3cd:PartA" minOccurs="1" maxOccurs="1"/><!-- PartA -->
+							<xs:element ref="f3cd:Form3cdChangeInPartners" maxOccurs="unbounded" minOccurs="0" /><!-- point9b -->
+							<xs:element ref="f3cd:Form3cdFirmAopDetail" maxOccurs="unbounded" minOccurs="0" /><!-- point9a -->
+							<xs:element ref="f3cd:Form3cdBooksOfAccLst" maxOccurs="unbounded" minOccurs="0" /><!-- point11a C -->
+							<xs:element ref="f3cd:Form3cdBooksOfAccLstAddress" maxOccurs="unbounded" minOccurs="0" /><!-- point11B -->
+							<xs:element ref="f3cd:Form3cdProfGainsPresum" maxOccurs="unbounded" minOccurs="0" /><!-- point 12 -->
+							<xs:element ref="f3cd:Form3cdChngMethAccVal" maxOccurs="unbounded" minOccurs="1" /><!-- point 13c d and point 14b -->
+							<xs:element ref="f3cd:MethodValCS" maxOccurs="1" minOccurs="0" />
+							<xs:element ref="f3cd:Form3cdCapAsstSit" maxOccurs="unbounded" minOccurs="0" /><!-- point15 -->
+							<xs:element ref="f3cd:Form3cdAmtNotCredit" maxOccurs="unbounded" minOccurs="0" /><!-- point16 -->
+							<xs:element ref="f3cd:Form3cdDrawbackRefundetc" maxOccurs="unbounded" minOccurs="0"></xs:element><!-- point16b -->
+							<xs:element ref="f3cd:Form3cdLandBuildProperty" maxOccurs="unbounded" minOccurs="0" /><!-- point17 -->
+							<xs:element ref="f3cd:Form3cdDeprAllw" maxOccurs="unbounded" minOccurs="0" /><!-- Point18 -->
+							<xs:element ref="f3cd:Form3cdDebitPlTotAllw" maxOccurs="unbounded" minOccurs="0" /><!-- point19 -->
+							<xs:element ref="f3cd:Form3cdEmpBonusComm" maxOccurs="unbounded" minOccurs="0" /><!-- point20a -->
+							<xs:element ref="f3cd:Form3cdEmpPfSuperann" maxOccurs="unbounded" minOccurs="0" /><!-- pooint20b -->
+							<xs:element ref="f3cd:Form3cdDebPLExpnditure" maxOccurs="unbounded" minOccurs="0" /><!-- Point21A -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40A" maxOccurs="unbounded" minOccurs="0" /><!-- Point21B -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClauseiC" maxOccurs="unbounded" minOccurs="0" /><!-- Amt -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClauseiia" maxOccurs="unbounded" minOccurs="0" /><!-- AMt -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClauseiib" maxOccurs="unbounded" minOccurs="0" /><!-- AMt -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClauseiii" maxOccurs="unbounded" minOccurs="0" />
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClauseiv" maxOccurs="unbounded" minOccurs="0" /><!-- Amt -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40ASubClausev" maxOccurs="unbounded" minOccurs="0" /><!-- Amt -->
+							<xs:element ref="f3cd:Form3cdAmtInadm40AAmtDebit" maxOccurs="unbounded" minOccurs="0" /><!-- Amt 21C table modified-->
+							<xs:element ref="f3cd:Form3cdIncomeUnderSec40A_3" maxOccurs="unbounded" minOccurs="0" /><!-- Point 21d A B Tables -->
+							<xs:element ref="f3cd:ExpendSec40A_3" maxOccurs="unbounded" minOccurs="0" />
+							<xs:element ref="f3cd:Form3cdExpOth" maxOccurs="unbounded" minOccurs="0" /><!-- point 21e f g h prev17i j k l m -->
+							<xs:element ref="f3cd:Form3cdInadm" maxOccurs="unbounded" minOccurs="0" /><!-- Point 22 ParticularType='SEC23' prev17A -->
+							<xs:element ref="f3cd:Form3cdPymtSec40a2bDetail" maxOccurs="unbounded" minOccurs="0" /><!-- point 23 prev18-->
+							<xs:element ref="f3cd:Form3cdProfGainsTax" minOccurs="0" maxOccurs="unbounded"/><!-- point 24 prev 19 point25 prev20-->
+							<xs:element ref="f3cd:Form3cdProfGainsTaxSec41" minOccurs="0" maxOccurs="unbounded"></xs:element><!--Added point25 new tags for section -->
+							<xs:element ref="f3cd:Form3cdUnpaidStrySec43b" minOccurs="0" maxOccurs="unbounded"/><!-- Point 26 previous Point21 -->
+							<xs:element ref="f3cd:Form3cdTaxPassedThrPl" minOccurs="0"/><!-- Added Point 26 last textarea previous Point21 -->
+							<xs:element ref="f3cd:Form3cdPl" maxOccurs="unbounded" minOccurs="0" /><!--Point 27a prev point 22a  -->
+							<xs:element ref="f3cd:Form3cdModvat" maxOccurs="unbounded" minOccurs="0" /><!-- Point 27b prev point 22b -->
+							<xs:element ref="f3cd:Form3cdIncExpPriorPlAcc" maxOccurs="unbounded" minOccurs="0" /><!-- point27c prev 22c -->
+							<xs:element ref="f3cd:Form3cdSec562viia" minOccurs="0" maxOccurs="unbounded"/><!-- Point 28 new-->
+							<xs:element ref="f3cd:Form3cdSec562viib" minOccurs="0" maxOccurs="unbounded"/><!-- Point 29 new -->
+							<xs:element ref="f3cd:Form3cdSec69d" maxOccurs="unbounded" minOccurs="0" /><!-- Point 30 similar to prev23 -->
+							<xs:element ref="f3cd:Form3cdAmtSec269ssDetail" maxOccurs="unbounded" minOccurs="0" /><!-- point31a prev24a -->
+							<xs:element ref="f3cd:Form3cdAmtSec269tDetail" maxOccurs="unbounded" minOccurs="0" /><!-- point31b prev24b -->
+							<xs:element ref="f3cd:Form3cdBflDa" maxOccurs="unbounded" minOccurs="0" /><!-- point32 prev25 -->
+							<xs:element ref="f3cd:Form3cdSpecloss73" minOccurs="0" /><!-- point 32 c new -->
+							<xs:element ref="f3cd:Form3cdSpec73A" minOccurs="0" /><!-- point 32 d new -->
+							<xs:element ref="f3cd:Form3cdSpecdeemdBus73" minOccurs="0" /><!-- point 32 e new -->
+							<xs:element ref="f3cd:Form3cdChapVIaChapIII" maxOccurs="unbounded" minOccurs="0" /><!-- point 33 new-->
+							<xs:element ref="f3cd:Form3cdChapXVII" maxOccurs="unbounded" minOccurs="0" /><!-- point 34 new-->
+							<xs:element ref="f3cd:Form3cdTaxDedCollect" maxOccurs="unbounded" minOccurs="0" /><!-- point 34B -->
+							<xs:element ref="f3cd:Form3cdSec2011A206C7" maxOccurs="unbounded" minOccurs="0" /><!-- point 34C -->
+							<xs:element ref="f3cd:Form3cdTradeRawProdDet" maxOccurs="unbounded" minOccurs="0" /><!-- point 35 prev28 -->
+							<xs:element ref="f3cd:Form3cdDistribtedProf115O" maxOccurs="unbounded" minOccurs="0" /><!-- Point36 prev29-->
+							<xs:element ref="f3cd:CostAudit" minOccurs="0"/><!-- point37 -->
+							<xs:element ref="f3cd:AuditExcise" minOccurs="0"/><!-- point38 -->
+							<xs:element ref="f3cd:AuditSec72" minOccurs="0"/><!-- point 39 -->
+							
+							<xs:element ref="f3cd:Form3cdRefundDmdPrevYr" minOccurs="0" maxOccurs="unbounded" /><!-- Point41 new -->
+							
+							<xs:element ref="f3cd:Form3cdAccountingRatioCalculations" minOccurs="0" maxOccurs="1" /><!-- Ratios-->
+							<xs:element ref="f3cd:Form3cdFlags"/><!-- all flags -->
+							<xs:element ref="Form:OtherInformation1" />
+						
+						</xs:sequence>
+					</xs:complexType>					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	
+	
+	<xs:complexType name="Declaration">
+		<xs:sequence>
+			<xs:element name="Point1" type="f3ca:point1" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Point3" type="f3ca:point3" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="point1">
+		<xs:sequence>
+			<xs:element name="I_We1">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="I|We" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element ref="f3ca:AssesseeName"  />
+			<xs:element ref="f3ca:AddressDetail"/>
+			<xs:element name="PAN">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="[A-Za-z]{5}[0-9]{4}[A-Za-z]" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Me_Us_Ms">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="Me|Us|(M/s)" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CA_FirmName">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:minLength value="1" />
+						<xs:maxLength value="75" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Act">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="[a-zA-Z\s0-9'.,#-/ &amp;]{3,100}" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="I_We2">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="I|We" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="My_Our_Their">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="My|Our|Their" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="AuditDated" type="xs:date" />
+			<xs:element name="PointA" type="f3ca:pointA" />
+			<xs:element name="AuditYearDate" type="xs:date"/>
+			<xs:element name="PointC">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern
+							value="Profit and loss account|Income and expenditure account" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="pointA">
+		<xs:sequence>
+			<xs:element name="TypeOfAccount">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern
+							value="Profit and loss account|Income and expenditure account" />
+						
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<!-- <xs:element name="Year" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:pattern value="[0-9]{4}" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element> -->
+			<xs:element name="AuditStartDate" type="xs:date" />
+			<xs:element name="AuditEndDate" type="xs:date" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="point3">
+		<xs:sequence>
+			<xs:element name="My_Our1">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="My|Our" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="My_Our2">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="My|Our" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Me_Us">
+				<xs:simpleType>
+					<xs:restriction base="Form:nonEmptyString">
+						<xs:pattern value="Me|Us" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Observations" minOccurs="0" maxOccurs="unbounded">
+			<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ObservationsCode">
+							<xs:simpleType>
+								<xs:restriction base="f3cd:nonEmptyString">
+									<xs:maxLength value="20" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ObservationsVal">
+							<xs:simpleType>
+								<xs:restriction base="Form:nonEmptyString">
+									<xs:minLength value="1" />
+									<xs:maxLength value="1000" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>				
+			</xs:element>		
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AddressDetail">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddrDetail1">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="100" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AddrDetail2" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:minLength value="0" />
+							<xs:maxLength value="100" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CityOrTownOrDistrict" id="AdrSec5a">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="StateCode" id="AdrSec6a">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:maxLength value="2" />
+							<xs:minLength value="1" />
+							<xs:pattern value="0[1-9]{1}|1[0-9]{1}|2[0-9]{1}|3[0-6]{1}|99" />							
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PinCode" id="AdrSec7a">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="6" />
+							<xs:pattern value="[1-9]{1}[0-9]{5}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AssesseeName">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FirstName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:maxLength value="25" />
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="MiddleName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:maxLength value="25" />
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="LastName" >
+					<xs:simpleType>
+						<xs:restriction base="Form:nonEmptyString">
+							<xs:maxLength value="75" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>		
+</xs:schema>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DIT Forms Schema definition -->
+<!-- (c) 2011, Income Tax department. Property of Income Tax department, 
+	Govt. of India -->
+<!-- Created on: 27-Dec-2011 -->
+<!-- Updated on: 24-Sep-2013 -->
+<!-- Version 1.0 -->
+<xs:schema xmlns="http://incometaxindiaefiling.gov.in/common"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://incometaxindiaefiling.gov.in/common"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xml:lang="EN-US">
+	<xs:element name="CreationInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SWVersionNo">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="10" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SWCreatedBy">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="XMLCreatedBy">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="XMLCreationDate" type="xs:date" />
+				<xs:element name="IntermediaryCity">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Form_Details">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FormName">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="FORM3CA"/>
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Description">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="0" />
+							<xs:maxLength value="1000" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AssessmentYear">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="2013|2014|2015|2016|2017|2018|2019|2020" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SchemaVer">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="Ver2.0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="FormVer">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="1.1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherInformation1">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FirstName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="MiddleName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="LastName" >
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="75" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>				
+				<xs:element name="AddrDetail1">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="100" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AddrDetail2" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="0" />
+							<xs:maxLength value="100" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CityOrTownOrDistrict" >
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="StateCode" id="AdrSec6a">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="2" />
+							<xs:minLength value="1" />
+							<xs:pattern value="0[1-9]{1}|1[0-9]{1}|2[0-9]{1}|3[0-6]{1}|99" />							
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PinCode" id="AdrSec7a">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="6" />
+							<xs:pattern value="[1-9]{1}[0-9]{5}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>								
+				<xs:element name="Place">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="35" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Date" type="xs:date" />
+				<xs:element name="MembershipNo">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[0-9]{6}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="FirmRegNum" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[a-zA-Z0-9]{0,8}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherInformation2">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Date" type="xs:date" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherInformation3">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="125" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Address">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="300" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="MembershipNo">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[0-9]{6}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Place">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="35" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Date" type="xs:date" />
+				<xs:element name="FirmRegNum" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[a-zA-Z0-9]{0,8}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherInformation4">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Date" type="xs:date" />
+				<xs:element name="Place">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="20" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="OwnerType">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="Proprietor|Partner|Director" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Name">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="125" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Address">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="300" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="nonEmptyString">
+		<xs:restriction base="xs:string">
+			<xs:pattern
+				value="|(\s*([\w\d_=!@#$%\^*\(\){}\[\]\|\\:;',\.\?/~`\-\+&lt;&gt;&amp;&quot;][\s\w\d_=!@#$%\^*\(\){}\[\]\|\\:;',\.\?/~`\-\+&lt;&gt;&amp;&quot;]*)\s*)"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

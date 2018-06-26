@@ -1,0 +1,513 @@
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate init]::[INFO]::[init starts]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.common.util.j setUtilityParams]::[INFO]::[url jar:file:/C:/Program%20Files%20(x86)/Java/jre1.8.0_161/lib/ext/jfxrt.jar!/META-INF/MANIFEST.MF]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.common.util.j setUtilityParams]::[INFO]::[url jar:file:/F:/Data0/IT%20Returns/Patpedhi/AY%202016-17/ITR-5_2016/ITR-5_AY201617_PR7.jar!/META-INF/MANIFEST.MF]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.common.util.j setUtilityParams]::[INFO]::[2016-17 :: ITR-5 :: ]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate init]::[INFO]::[init ends in 12 ms.]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[MainLoader start method starts]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize starts]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListCommonScript ]
+[20-Mar-2018]::[3:04:44 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListItrAy ]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListConfig ]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating verifySignature ]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.common.util.c a]::[INFO]::[verifies : true]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[Is utiltity valid ::true]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog starts]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog ends]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog ends]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.a b]::[INFO]::[hide validation]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.d a]::[INFO]::[importFile : null]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize ends: time taken: 365ms]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize ends: time taken: 0ms]
+[20-Mar-2018]::[3:04:45 PM]::[com.sun.javafx.css.parser.CSSParser declaration]::[WARNING]::[CSS Error parsing '*{-fx-background-color: linear-gradient(#3A5058, #6aa2b1);-fx-font-weight: bold;-fx-font: 22px;}: Expected '<font-family>' while parsing '-fx-font' at [1,90]]
+[20-Mar-2018]::[3:04:45 PM]::[com.sun.javafx.css.parser.CSSParser declaration]::[WARNING]::[CSS Error parsing '*{-fx-font-weight: bold;-fx-font: 22px;}: Expected '<font-family>' while parsing '-fx-font' at [1,34]]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[mainController.windowWidth new : 1304.0]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[1304.0 :: 1030.16 :: 221.68]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[MainLoader start method ends. Time taken: 886]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[20-Mar-2018]::[3:04:45 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[jsobj [object Window]]
+[20-Mar-2018]::[3:04:46 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[time taken in changed : 111]
+[20-Mar-2018]::[3:04:50 PM]::[com.itd.efiling.itr.toolbar.b importXml]::[INFO]::[importXmlDialog starts]
+[20-Mar-2018]::[3:04:50 PM]::[com.itd.efiling.itr.a.a.e a]::[INFO]::[extension : .open title : null type : false]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.toolbar.b a]::[INFO]::[Actual ITR ITR-5 Actual assesment year2016-17]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.toolbar.b a]::[INFO]::[Imported ITR ITR-5 Imported assesment year2016-17]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog starts]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog ends]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog ends]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.main.ctrl.a b]::[INFO]::[hide validation]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.main.ctrl.d a]::[INFO]::[importFile : F:\Data0\IT Returns\Patpedhi\AY 2016-17\ITR REVISED.xml]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : SUCCEEDED newState : READY]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : READY newState : SCHEDULED]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : SCHEDULED newState : RUNNING]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.toolbar.b importXml]::[INFO]::[importXmlDialog ends]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[jsobj [object Window]]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[Before setDocument]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[iterateNodeImportXml 0]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[cacheHtmlElements ]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l b]::[INFO]::[Before cacheHtmlElements 0]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l b]::[INFO]::[After cacheHtmlElements 1952]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[putValuesToHTML ]
+[20-Mar-2018]::[3:05:01 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[Before setValuesInForm]
+[20-Mar-2018]::[3:05:02 PM]::[com.itd.efiling.itr.common.util.l setValuesSingle]::[SEVERE]::[Error in setValuesSingle: scheduleAMTC.scheduleAMTCUtil[3].amtCreditSetOfEy val:0, index:0]
+[20-Mar-2018]::[3:05:02 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[End of putValuesToHTML]
+[20-Mar-2018]::[3:05:02 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[time taken in importxml function: 243]
+[20-Mar-2018]::[3:05:03 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[time taken in changed : 1227]
+[20-Mar-2018]::[3:05:03 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[20-Mar-2018]::[3:05:37 PM]::[com.itd.efiling.itr.validation.a.a a]::[INFO]::[FIELD_VALIDATORS_MAP 1712]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.toolbar.b submit]::[INFO]::[validateITR starts]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.main.ctrl.a c]::[INFO]::[show validation]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.validation.helpers.Validator validateAll]::[INFO]::[Time taken in validateAll(): 0]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() starts : ]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() ends time taken: 124  error count :0]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[Before setDocument]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[After setDocument[#document: null]]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].totIncFrmMemberOfAop xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo[2]/ITRCorForm:TotIncFrmMemberOfAop nodelist: 1]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].addressDetail.addrDetail xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo/ITRCorForm:AddressDetail[2]/ITRCorForm:AddrDetail nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].addressDetail.cityOrTownOrDistrict xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo/ITRCorForm:AddressDetail[2]/ITRCorForm:CityOrTownOrDistrict nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].addressDetail.stateCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo/ITRCorForm:AddressDetail[2]/ITRCorForm:StateCode nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].addressDetail.pinCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo/ITRCorForm:AddressDetail[2]/ITRCorForm:PinCode nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.creditsToPL.otherOperatingRevenueDtls[1].operatingRevenueName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:CreditsToPL/ITRCorForm:OtherOperatingRevenueDtls[2]/ITRCorForm:OperatingRevenueName nodelist: 1]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[1].ifscCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:PartB_TTI/ITRCorForm:AddtnlBankDetails[2]/ITRCorForm:IFSCCode nodelist: 0]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+java.lang.NullPointerException
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[1].bankName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartB_TTI/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:AddtnlBankDetails[2]/ITRCorForm:BankName nodelist: 1]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].hpSno xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails[2]/ITRCorForm:HPSNo nodelist: 1]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].addressDetail.addrDetail xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:AddressDetail[2]/ITRCorForm:AddrDetail nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].addressDetail.cityOrTownOrDistrict xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:AddressDetail[2]/ITRCorForm:CityOrTownOrDistrict nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].addressDetail.stateCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:AddressDetail[2]/ITRCorForm:StateCode nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].addressDetail.pinCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:AddressDetail[2]/ITRCorForm:PinCode nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.annualLetableValue xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:AnnualLetableValue nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.rentNotRealized xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:RentNotRealized nodelist: 2]
+[20-Mar-2018]::[3:05:58 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.localTaxes xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:LocalTaxes nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.totalUnrealizedAndTax xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:TotalUnrealizedAndTax nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.balanceALV xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:BalanceALV nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.incomeChargbleOwnHands xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:AnnualOfPropOwned nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.thirtyPercentOfBalance xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:ThirtyPercentOfBalance nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.intOnBorwCap xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:IntOnBorwCap nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.totalDeduct xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:TotalDeduct nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].rentdetails.incomeOfHP xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails/ITRCorForm:Rentdetails[2]/ITRCorForm:IncomeOfHP nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(Unknown Source)
+	at com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[1].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[2]/ITRCorForm:SourceDescription nodelist: 1]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[1].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[2]/ITRCorForm:AssYr nodelist: 1]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[2].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[3]/ITRCorForm:AssYr nodelist: 2]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[3].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[4]/ITRCorForm:AssYr nodelist: 3]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[8].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[9]/ITRCorForm:SecCode nodelist: 8]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[flagtrue]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[doc[#document: null]]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[Inside deleteNodeGenerateXml]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[FIELD_VALUE 1961]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[done with schema error; 0]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[hash {} c4mumvJSeiNR9B+CPnJlC28JIwP9cunNbywc0/yPrPE=]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[Time taken to generate: 988 ms ]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[initialize submit itr starts]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to get the document 15]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to set the parameters0]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to enableSec44AB 0]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to addKeyEvent 1]
+[20-Mar-2018]::[3:05:59 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to hideDscRelated 0]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.b.a.n getKeyStoreAliases]::[INFO]::[set : [AMOL ANANDA CHAVAN's SafeScrypt sub-CA for RCAI Class 2 2014 ID]]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.a.a.n o]::[INFO]::[Time taken to initialize usb tokens1158]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to initUsbTokens 1159]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog ends]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.a.a.n dscMandatory]::[INFO]::[dscMandatory starts::ITR-5]
+[20-Mar-2018]::[3:06:00 PM]::[com.itd.efiling.itr.a.a.n dscMandatory]::[INFO]::[dscMandatory ends]
+[20-Mar-2018]::[3:06:11 PM]::[com.itd.efiling.itr.a.a.n f]::[INFO]::[usb token selected]
+[20-Mar-2018]::[3:06:11 PM]::[com.itd.efiling.itr.b.a.m a]::[INFO]::[Signing the document]
+[20-Mar-2018]::[3:06:27 PM]::[com.itd.efiling.itr.a.a.n f]::[INFO]::[validateDSCKey ends with flag: true]
+[20-Mar-2018]::[3:06:27 PM]::[com.itd.efiling.itr.a.a.n d]::[INFO]::[GenerateSignatureFile starts]
+[20-Mar-2018]::[3:06:27 PM]::[com.itd.efiling.itr.b.a.i a]::[INFO]::[usbSignXml method]
+[20-Mar-2018]::[3:06:27 PM]::[com.itd.efiling.itr.b.a.p getXmlSignatureFileName]::[INFO]::[signatureFileName : AAEAS5258B_ITR-5_2016_-699758078.signature]
+[20-Mar-2018]::[3:06:27 PM]::[com.itd.efiling.itr.b.a.j a]::[INFO]::[localName: ITR]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.p getFormDetails]::[INFO]::[signatureDtls : SignatureDtls [uniqueId=b7967375-1be5-416b-a2cf-46bcc0f0d361, asstYear=2016, formName=ITR-5, pan=AAEAS5258B, signature=GM7JdD9jTQH3ZH3gk+bGgF+HaNFT0KtiQNv2KFVo+tOD8vamSfkeUbTMFhXsc7yZ/2ZIb1K91FaxJzTpCJxdj1iToYAvXOUGTq/VvOnyY3eSIlLKgKA/PjD6jfuehX7jMBUhWio3aSapQB++yoKYyXeraw8U4Edy9+kytVtwh/4dWAdRCmsS6ZNmmeXqaQk0bt0g5CEKqZmIscwPRmHDohGk9HQ4j5ZQUieB3uK9BPM6ZoSwgwNa78R47/KKustmPRvHGkRVGEfpc2S+n6zeBHTHXw0I5zTpY3ukvQVp9PfG9BrYnZ8oqyQm75iufeOpuW+fgEckNKkVPYfl5+2r0g==, createdOn=2018-03-20 15:06:28]]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.d getSignatureDtlsXmlStr]::[INFO]::[ExtractFormDetails.getFormDetails {}SignatureDtls [uniqueId=b7967375-1be5-416b-a2cf-46bcc0f0d361, asstYear=2016, formName=ITR-5, pan=AAEAS5258B, signature=GM7JdD9jTQH3ZH3gk+bGgF+HaNFT0KtiQNv2KFVo+tOD8vamSfkeUbTMFhXsc7yZ/2ZIb1K91FaxJzTpCJxdj1iToYAvXOUGTq/VvOnyY3eSIlLKgKA/PjD6jfuehX7jMBUhWio3aSapQB++yoKYyXeraw8U4Edy9+kytVtwh/4dWAdRCmsS6ZNmmeXqaQk0bt0g5CEKqZmIscwPRmHDohGk9HQ4j5ZQUieB3uK9BPM6ZoSwgwNa78R47/KKustmPRvHGkRVGEfpc2S+n6zeBHTHXw0I5zTpY3ukvQVp9PfG9BrYnZ8oqyQm75iufeOpuW+fgEckNKkVPYfl5+2r0g==, createdOn=2018-03-20 15:06:28]]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.d getSignatureDtlsXmlStr]::[INFO]::[ signatureDtlsXmlStr :: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:SignatureDtls xmlns:ns2="http://incometaxindiaefiling.gov.in/DigitalSignature/Signature">
+    <UniqueId>b7967375-1be5-416b-a2cf-46bcc0f0d361</UniqueId>
+    <AsstYear>2016</AsstYear>
+    <FormName>ITR-5</FormName>
+    <Pan>AAEAS5258B</Pan>
+    <Signature>GM7JdD9jTQH3ZH3gk+bGgF+HaNFT0KtiQNv2KFVo+tOD8vamSfkeUbTMFhXsc7yZ/2ZIb1K91FaxJzTpCJxdj1iToYAvXOUGTq/VvOnyY3eSIlLKgKA/PjD6jfuehX7jMBUhWio3aSapQB++yoKYyXeraw8U4Edy9+kytVtwh/4dWAdRCmsS6ZNmmeXqaQk0bt0g5CEKqZmIscwPRmHDohGk9HQ4j5ZQUieB3uK9BPM6ZoSwgwNa78R47/KKustmPRvHGkRVGEfpc2S+n6zeBHTHXw0I5zTpY3ukvQVp9PfG9BrYnZ8oqyQm75iufeOpuW+fgEckNKkVPYfl5+2r0g==</Signature>
+    <CreatedOn>2018-03-20 15:06:28</CreatedOn>
+</ns2:SignatureDtls>
+]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.d a]::[INFO]::[Encrypted Text After Encryption: 5at3PWQ1aXCn5BMKplMIcSFd2CEbIgr/PlLYa9izNcaVWdKvI0KzFkzP2giFfg7OTMow9z+oPxw17fMcZLOp3nPDbXYDdVyIbwySYwo95ZOGgHKWbzH3xTWAQ5FDKOhXisYdhWjBaeexNpGzGMxTAkJftZCUp5xMt9cbO0FuHl/GFzDfJSmQQuuyuE4Pt0uuuTEdWgGQbcj5rLkXUPlkkzxPmXXCyfuM70KavzUwmBsQWXHqSqMZVxwY+2rKtkB0SakkMaUgjDEF9te15KRQ/+zMAP279vROOrKU73d8WODMgCMJ6ipaS0+ifF81F+s9BL74IFupLxs8CpjOjP1rrRhmt10oWVI3OWmsuFDAEqaeb1K1QOUqGnTzvCPW+oIJDdqgu1YNxwIxE4HeWNjQzS1WkYmNszOFMEmH46jfkBnj+4JtdbGBtxBS6cGt1QwhjRK0HEWeJ7PUCfywOZ6lVU3kqD/QyFfoKw9adST6nf3H6vcuk7QGxKweL91wH/gywL5OUzk+5db6sQgo0p2PXNdzBbqXYZDbtwRso650QZPJl7lFfptEFHLDcNZwnWFz25GJnssokwor7D9I4+jTSHCFmdjYefd73n8HQ+emrjYmI5GMB/Fl4Sf8aDe3PINSPWN0zgaemyBiL5aGjSvZ9H/KNbxh6miyNlgFQT3mWDwkqmuGCPxmYWLpHYoaEXNRx7Lr++aUUfc2I5ZRxJ3LKRD+1q4L+b0O6S/uRBt1+Y63IDaLvzLeT7ggMF+ujjQ7EHbLleg7AF5NvdZGkI9xuWNtv721rVB25bOJQR17Z+w7Pic51AWZ1fBQd81v+vLeXavO1ry+uUxI2QIlNL0LdK7dFaQt5Wfel4OSeI0SvHPWBkjr0rHHznsHIYC0yZ2nyG1S0QrgpktTYkURsDaGT0mEL+YLjthArqkiSNZZkKy9Gm05iYtKMH//rn9pEEfQa3iJ1lkN1FTMql4DR4nV13uoV3Id7gAlIl7B2DHz0Ik=]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.d a]::[INFO]::[encryptedKey: cBuuKwjFp+sWFU1Tsg00nu1b2OdKwxEvxrTYrAbzO6aD5KoT8SOHZJ2RamT0sUl7lT4XwLadZSCz84gzFOor0qC1aEsD6TSy1tih3jY571l3UMk4wfd0Z+piww6cSeaxQVmN18aIR7OsUi1waZBmQeDSTL6QyNjbJTSftO0PCGSZNUcolLHc8aIRleRw/CCTTZITra/IC+BxqRidXJnRRXJOlwQD492spyyEjXRb0bQ8a7QwgyrvB80Tid5aw4WCz9tmPRZzPBMZ2CSIQSyDtOjwPvWJbP/avRL0aIGAGXQkvqc0N/rHOHIkY/CgM8jiTeOe1+wU3qFNHqUEl471XA==]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.d a]::[INFO]::[signature generated :: C:\Users\SHCOGST\AppData\Local\Temp\AAEAS5258B_ITR-5_2016_-699758078.signature]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.b.a.c a]::[INFO]::[signature generated :: C:\Users\SHCOGST\AppData\Local\Temp\AAEAS5258B_ITR-5_2016_-699758078.signature]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.a.a.n d]::[INFO]::[signedXmlOutputFile : C:\Users\SHCOGST\AppData\Local\Temp\AAEAS5258B_ITR-5_2016_-699758078.signature]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.a.a.n d]::[INFO]::[generateSignatureFile ends]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.webservice.a.f b]::[INFO]::[Thread call starts]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.webservice.a.f a]::[INFO]::[sendRequest starts]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.common.util.e getSecuredRequest]::[INFO]::[Before getting secured request]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.common.util.e getSecuredRequest]::[INFO]::[After getting secured request]
+[20-Mar-2018]::[3:06:28 PM]::[com.itd.efiling.itr.common.util.c d]::[INFO]::[file : .\ITR-5_AY201617_PR7.jar]
+[20-Mar-2018]::[3:06:29 PM]::[com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection post]::[SEVERE]::[SAAJ0008: Bad Response; Service Unavailable]
+[20-Mar-2018]::[3:06:29 PM]::[com.itd.efiling.itr.webservice.a.f a]::[SEVERE]::[Error in sendRequest: ]
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Bad response: (503Service Unavailable
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.a(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.b(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.call(Unknown Source)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Bad response: (503Service Unavailable
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 7 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Bad response: (503Service Unavailable
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.a(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.b(Unknown Source)
+	at com.itd.efiling.itr.webservice.a.f.call(Unknown Source)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[20-Mar-2018]::[3:06:29 PM]::[com.itd.efiling.itr.webservice.a.f b]::[INFO]::[Thread call ends : time taken: 583]
+[20-Mar-2018]::[3:07:07 PM]::[com.itd.efiling.itr.a.a.n cancel]::[INFO]::[cancel caled]
+[20-Mar-2018]::[3:07:09 PM]::[com.itd.efiling.itr.common.dialog.o a]::[INFO]::[Inside  closeUtility]
+[20-Mar-2018]::[3:07:09 PM]::[com.itd.efiling.itr.main.ctrl.h a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@18eba7e, target = javafx.stage.Stage@18eba7e, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]

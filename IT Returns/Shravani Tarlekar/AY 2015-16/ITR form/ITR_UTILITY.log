@@ -1,0 +1,50 @@
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[Call() ends time taken: 41  error count :0]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[submit itr starts]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[Time taken to start generateXml(): 5]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[outputfilePathC:\Users\SHILPA~1\AppData\Local\Temp\ITR14151749846273170138962256966.xml,generateXmlFlag: true]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[done with schema error; 0]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[Time taken to generate: 60]
+[25-Jun-2016]::[5:38:59 PM]::[INFO]::[initialize submit itr starts]
+[25-Jun-2016]::[5:38:59 PM]::[SEVERE]::[initUsbTokens error]
+java.lang.Exception: The KeyStore is empty
+	at com.tcs.efiling.itr.config.UsbTokenUtil.getUsbTokenData(UsbTokenUtil.java:56)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initUsbTokens(SubmitItrDialogController.java:149)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initialize(SubmitItrDialogController.java:140)
+	at javafx.fxml.FXMLLoader.loadImpl(Unknown Source)
+	at javafx.fxml.FXMLLoader.loadImpl(Unknown Source)
+	at javafx.fxml.FXMLLoader.load(Unknown Source)
+	at com.tcs.efiling.itr.main.NewITRDialog.<init>(NewITRDialog.java:36)
+	at com.tcs.efiling.itr.main.MainController.OpenSubmitDialog(MainController.java:1071)
+	at com.tcs.efiling.itr.main.ITRUtil$4.run(ITRUtil.java:905)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(Unknown Source)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[25-Jun-2016]::[5:39:00 PM]::[INFO]::[dscMandatory starts::ITR-4S]
+[25-Jun-2016]::[5:39:00 PM]::[INFO]::[dscMandatory ends]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[url: https://www.google.co.in timeout: 30000]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[validateDSCKey ends with flag: true]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[file : .\ITR]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[file : .\ITR-4S_AY201516_PR7.jar]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[hash : 50AB66C625BA1B159A485E8BC4446B1A3C097834F9A57DB1747342087A77CB94]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[submitHash : 49C6FAC67450D5EED7725BCEF5066F5407C3A66B876E1879DCC8BB5E62AF4344]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[webservie url: https://incometaxindiaefiling.gov.in/e-FilingWS/ditws]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[Thread call starts]
+[25-Jun-2016]::[5:39:21 PM]::[INFO]::[sendRequest starts]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[Soap fault: null]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[ackNo: 217327700250616 ,transactionId:3047305497,emailId:tusharmohite0@gmail.com]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[Thread call ends : time taken: 22907]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[cancel caled]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[Writing to file: C:\Users\SHILPA~1\AppData\Local\Temp\ITRvFile-3587993901323392926097754098.zip]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[initialize starts]
+[25-Jun-2016]::[5:39:44 PM]::[INFO]::[loadITRVPage stats with transaction id 3047305497 ,email tusharmohite0@gmail.com]

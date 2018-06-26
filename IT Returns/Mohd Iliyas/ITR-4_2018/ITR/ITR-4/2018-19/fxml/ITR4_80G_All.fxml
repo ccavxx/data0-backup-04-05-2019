@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+   <children>
+       <VBox id="VBox" alignment="TOP_CENTER" layoutX="20.0" layoutY="0.0" spacing="10.0">
+         <children>
+             <VBox id="VBox" spacing="5.0">
+	             <children>
+	                <TextFlow >
+  	                    <padding>
+                            <Insets bottom="30.0" left="984.0" right ="0.0" top="0.0"/>
+                        </padding>
+	                   <Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	             </TextFlow>
+	             
+	             
+	             <VBox  prefHeight="35" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);"> 
+	                  <children>
+                        <Label  fx:id="Heading" prefHeight="35" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" styleClass="h1" text="Instructions for correct calculation of 80G" wrapText="true"/>
+                      </children>
+				 </VBox>	
+	         
+	         </children>
+		</VBox>	
+   
+        <GridPane styleClass="grid" prefHeight="1475.0" minWidth="548.0">
+		     <children>
+                <VBox id="VBox" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="30" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+                        <padding>
+                             <Insets bottom="0.0" left="0.0" right ="0.0" top="0.0"/>
+                        </padding>
+                        <children>
+                              <Label focusTraversable="true" fx:id="Heading" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minHeight="-1.0" minWidth="600.0" styleClass="h1" text="A.Donations entitled for 100% deduction without qualifying limit"  wrapText="true" />
+                        </children>
+                  </VBox>
+		          <VBox  GridPane.columnIndex="0" GridPane.rowIndex="1">
+					 	<children>
+	                          	<fx:include source="ITR4_80G1.fxml"   />
+	                    </children>
+				  </VBox> 
+                  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		   <children>
+                           <Label focusTraversable="true" fx:id="Heading" minHeight="-1.0" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="460.0" styleClass="h1" text="B.Donations entitled for 50% deduction without qualifying limit"  wrapText="true" />
+			           </children>
+		          </VBox>
+		          <VBox  GridPane.columnIndex="0" GridPane.rowIndex="3">
+				    	<children>
+                    	<fx:include id="Content" source="ITR4_80G2.fxml" />
+    				    </children>
+				  </VBox> 
+                  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		    <children>
+	                    <Label focusTraversable="true" fx:id="Heading" minHeight="-1.0" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="930.0" styleClass="h1" text="C.Donations entitled for 100% deduction subject to qualifying limit"  wrapText="true" />
+			            </children>
+		          </VBox>
+		          <VBox GridPane.columnIndex="0" GridPane.rowIndex="5">
+                	   <padding>
+			                 <Insets top="-7" />
+			           </padding>
+					   <children>
+                    	<fx:include id="Content" source="ITR4_80G3.fxml" />
+    				   </children>
+				  </VBox> 
+                  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="6" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		   <children>
+	                     <Label focusTraversable="true" fx:id="Heading" minHeight="-1.0" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="1310.0" styleClass="h1" text="D.Donations entitled for 50% deduction subject to qualifying limit"  wrapText="true" />
+			           </children>
+		          </VBox>
+	              <VBox GridPane.columnIndex="0" GridPane.rowIndex="7">
+					 	<children>
+                    	<fx:include id="Content" source="ITR4_80G4.fxml" />
+    			    	</children>
+				  </VBox> 
+		          <HBox prefWidth="1240.0" GridPane.columnIndex="0" GridPane.rowIndex="8" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;">
+                        <children>
+                            <HBox>
+                                <children>
+                                	<Label  fx:id="label6" focusTraversable="true" style="-fx-padding:3 0 0 10;"  prefHeight="-1.0" prefWidth="30.0"  layoutX="4.0"  styleClass="h1" text="E"  wrapText="true" />
+                                 </children>
+		                    </HBox>
+                                <HBox>
+                                <children>	
+                                	<Separator orientation="vertical"  prefHeight="25" style="-fx-color: ;"/>	          
+                                	<Label  fx:id="label6" focusTraversable="true" style="-fx-padding:3 0 0 10;"  prefHeight="-1.0" prefWidth="765.0"  layoutX="4.0"  styleClass="h1" text="Donations(A+B+C+D)"  wrapText="true" />
+	                            </children>
+		                    </HBox>       
+	                        <HBox>
+                                <children> 
+	                                 <ValBigIntegerField prefHeight="27" prefWidth="150" GridPane.columnIndex="2" GridPane.rowIndex="1"  target="itr.itr4.schedule80G.totalDonationsUs80G" disable="true"  promptText="0"/>
+	                            </children>
+							</HBox>
+							 <HBox style="-fx-padding:0 0 0 5;">
+                                <children>
+	                                 <ValBigIntegerField prefHeight="27" prefWidth="150" GridPane.columnIndex="4" GridPane.rowIndex="1"  target="itr.itr4.schedule80G.totalEligibleDonationsUs80G" disable="true" promptText="0"/>
+				                </children>
+							</HBox>
+		         </children>
+			</HBox>
+	        <HBox prefWidth="1240.0" GridPane.columnIndex="0" GridPane.rowIndex="8">
+               <children>
+       	       </children>
+		    </HBox>
+		    <HBox GridPane.columnIndex="0" GridPane.rowIndex="9">
+    			<children>
+					<Label focusTraversable="true" fx:id="noteLabel"  prefHeight="-1.0" prefWidth="900.0"  layoutX="4.0"  styleClass="h3" text="Note:In case of Donee Funds setup by Goverment as described in section 80G (2),please use PAN as 'GGGGG0000G'." textFill="red"  wrapText="true" />
+			    </children>
+	        </HBox>  
+	 </children>
+     </GridPane>
+  </children>
+ </VBox>
+ </children>
+</AnchorPane>
+    

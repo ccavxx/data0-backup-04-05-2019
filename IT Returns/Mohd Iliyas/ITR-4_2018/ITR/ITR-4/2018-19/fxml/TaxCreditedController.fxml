@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.form61b.model.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane fx:id="titledPane" alignment="TOP_LEFT" animated="false"
+	collapsible="false" contentDisplay="CENTER" disable="false" expanded="true"
+	maxWidth="-Infinity" text="Apportionment details" visible="false"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxCreditedController">
+
+	<GridPane alignment="TOP_LEFT" hgap="10.0" vgap="10.0"
+		prefWidth="800.0" layoutY="-200.0">
+		<padding>
+			<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+		</padding>
+
+		<ScrollPane fx:id="sasd" fitToHeight="false" fitToWidth="true"
+			prefHeight="150.0" prefWidth="1200" layoutX="4.0" layoutY="-200.0">
+			<content>
+				<ValTableView fx:id="tableView" GridPane.columnIndex="0"
+					GridPane.rowIndex="0" prefWidth="1000.0" prefHeight="200"
+					target="tdsDetails26QCIncomeController.type.taxDeductDetails">
+					<columns>
+						<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80.0" text="Sl.No" target="slNo" />
+						
+						<ValTableColumn resizable="false" prefWidth="200.0" text="TDS out of (6) being apportioned &#10;in hands of other person&#10;[Col (11)]"
+							target="tdsAppOtherPerson"/>
+
+						<ValTableColumn resizable="false" prefWidth="200.0" text="PAN for the other person&#10; for TDS transferred in(11)&#10;[Col (12)] "
+							target="otherPersonPAN" />
+
+						<ValTableColumn resizable="false" prefWidth="200.0" text=' % of the share '
+							target="percentageShare" />
+					</columns>
+				</ValTableView>
+			</content>
+		</ScrollPane>
+
+		<HBox alignment="BOTTOM_LEFT" spacing="10.0"
+			GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="fieldsHbox">
+
+	<VBox style="-fx-border-style: solid inside;-fx-border-color: grey;">
+              <children>
+							<Label prefHeight="30" labelFor="$TaxClaimed" text="TDS out of (6) being apportioned in hands &#10; of other person[Col (11)]" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;"/>
+							<Region   style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+							
+							<ValBigIntegerField maxLength="14" prefWidth="200"
+							maxWidth="200" 
+							target="tdsDetails26QCIncomeController.paymentDtlsController.type.tdsAppOtherPerson" allowedChars="[0-9]" GridPane.columnIndex="0" GridPane.rowIndex="1" disable="true" />
+		        </children>
+		   </VBox>
+		        <VBox style="-fx-border-style: solid inside;-fx-border-color: grey;">
+              <children>
+		       			<Label labelFor="$TaxClaimed" text="PAN of the other person for TDS transferred in (11)&#10; [Col (12)]" GridPane.columnIndex="1" GridPane.rowIndex="0"  style="-fx-padding:0 0 0 10;"/>
+						 <Region   style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						
+						<ValTextField maxLength="10" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="1"
+						maxWidth="200" 
+						target="tdsDetails26QCIncomeController.paymentDtlsController.type.otherPersonPAN" autoCaps="true" disable="true" />
+				</children>
+		   </VBox>		
+ 			<VBox style="-fx-border-style: solid inside;-fx-border-color: grey;">
+              <children>
+						<Label prefHeight="30" labelFor="$TaxClaimed" GridPane.columnIndex="2" GridPane.rowIndex="0" text=' % of the share [Col (13)]'  style="-fx-padding:0 0 0 10;"/>
+						 <Region   style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						
+						<ValBigIntegerField maxLength="5" GridPane.columnIndex="2" GridPane.rowIndex="1" prefWidth="150" maxWidth="200"
+							
+							target="tdsDetails26QCIncomeController.paymentDtlsController.type.percentageShare" autoCaps="true" disable="true" />
+							
+		    </children>
+		   </VBox>	
+			
+		</HBox>
+
+		<HBox alignment="BOTTOM_LEFT" spacing="10.0"
+			GridPane.columnIndex="0" GridPane.rowIndex="4">
+			<Button onAction="#addDtl" focusTraversable="true" text="Add" />
+			<Button onAction="#saveDtl" focusTraversable="true" text="Save" />
+			<Button onAction="#deleteDtl" focusTraversable="true" text="Delete" />
+			<Button onAction="#cancelDtl" focusTraversable="true" text="Cancel" />
+		</HBox>
+
+	</GridPane>
+</TitledPane>

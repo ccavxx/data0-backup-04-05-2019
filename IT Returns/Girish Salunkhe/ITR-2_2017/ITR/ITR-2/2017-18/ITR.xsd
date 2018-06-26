@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:ITR2FORM="http://incometaxindiaefiling.gov.in/ITR2" 
+	xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" 
+	targetNamespace="http://incometaxindiaefiling.gov.in/main" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/ITR2" schemaLocation="ITR-2_2017.xsd"/>
+	<xs:element name="ITR">
+		<xs:annotation>
+			<xs:documentation>Schema for ITR-2, AY 2017-18 </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ITR2FORM:ITR2"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

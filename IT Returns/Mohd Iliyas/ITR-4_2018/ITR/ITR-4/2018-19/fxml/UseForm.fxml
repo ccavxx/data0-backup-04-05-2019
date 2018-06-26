@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+
+<AnchorPane minHeight="0.0" minWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" >
+	<children>
+						 <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="true" prefHeight="500.0" prefWidth="500.0" 
+					AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+					<content>
+							<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" prefHeight="950" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+    				              <Label focusTraversable="true" text="&#10;These Forms are developed using the latest in JAVA technology and effort has been made to make it user friendly, simpler and faster preparation of tax returns. This utility can be run on operating systems like Windows 7.0 or above and latest Linux, where Java Runtime Environment Version 8 (jre 1.8 is also known as jre version 8) or above is installed." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" >
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+							   	  </Label>
+							   	  <Label focusTraversable="true" text="&#10;"  GridPane.columnIndex="0" GridPane.rowIndex="1">\
+							   	  </Label>
+								  <Label focusTraversable="true"  text="&#10;The following are features available in the Form." wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="2">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								  </Label>
+								  
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<Text focusTraversable="true" text="&#10;1. New -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="On click of this button, a new copy of the form will be available. If you have already  opened the form, you will be prompted to save the earlier copy." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								   
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Text focusTraversable="true" text="&#10;2. Open - " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="This option is for importing the XML (successfully generated earlier) of a particular A.Y. Select the path and import the XML. You should check/validate the contents before finalizing upload/submission." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="5">
+								 	<Text focusTraversable="true" text="&#10;3. Save -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="The XML will be stored in the path you have selected." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								   
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="6">
+								 	<Text focusTraversable="true" text="&#10;4. Save Draft - " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="The unfinished work can be saved as '.draft ' extension in the path you have selected. Please note that you cannot submit this file without filling the complete details." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="7">
+								 	<Text focusTraversable="true" text="&#10;5. Prefill -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="This option is used  to auto-fill your Personal ,Address and Tax Details,  On click of this button, you will prompted  with a message ' Please login to e-Filing portal and go to My Account' Download Prefilled XML. The downloaded XML can be imported to prefill the data'. Download the XML from e-Filing Portal and Click the Prefill icon of utility and import the same downloaded XML file. Please check/validate the contents." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="8">
+								 	<Text focusTraversable="true" text="&#10;6. Re-Calculate -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="On clicking this button, the data in the utility will be re-calculated. This is to provide with the utility based calculation/validation." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="9">
+								 	<Text focusTraversable="true" text="&#10;7. Validate -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="This button is used to check the errors in utility. On clicking this button the data in the utility will be validated. This is to provide the utility based validation." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="10">
+								 	<Text focusTraversable="true" text="&#10;8. Submit -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Click this button to upload the XML in e-Filing portal. You'll be prompted to provide your e-Filing credentials, User ID, Password and DOB/DOI. Post submission, the success message and the acknowledgment number will be displayed. You will be able to download ITR-V or e-Verify your return. Please make sure you're connected to the internet to avail this feature." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="11">
+								 	<Text focusTraversable="true" text="&#10;9. Preview -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="This option is used to view/print the ITR in browser." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								 <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="12">
+								 	<Text focusTraversable="true" text="&#10;10. Help -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="This option will let you know the shortkeys, instructions, settings and how to use this form." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow>
+								 
+								  <TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="13">
+								 	<Text focusTraversable="true" text="&#10;11. Previous/Next -" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="These will help you to navigate to the various tabs of the ITR form." style="-fx-font: 14.0px Arial"/>
+								 </TextFlow> 
+								   
+					</children>		
+		               </GridPane>
+		               </content>
+		               </ScrollPane>
+	</children>
+</AnchorPane>
+    

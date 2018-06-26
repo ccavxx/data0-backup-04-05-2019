@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="2670" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxCollectedAtSource">
+	<VBox.margin>
+		<Insets bottom="150" />
+	</VBox.margin>
+	
+	<Button layoutX="0.0"  fx:id="addRowBtn" layoutY="304" onKeyTyped="#addRow" onAction="#addRow"  	mnemonicParsing="false" text="Add Row" />
+	<Button layoutX="62.0" fx:id="copyRowBtn" layoutY="304" onKeyTyped="#copyRow" onAction="#copyRow"  	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="131.0" fx:id="editRowBtn" layoutY="304" onKeyTyped="#editRow"  onAction="#editRow" 	mnemonicParsing="false" text="Edit Row" />
+	<Button layoutX="193.0" fx:id="deleteRowBtn" layoutY="304" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+	
+	
+	
+	
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="45.0" prefHeight="230.0" prefWidth="1080.0" target="itr.itr4.scheduleTCS.tcs" >
+		<columns>
+			<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80.0" text="Sl.No" target="slNo" />	
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150" prefWidth="84.0" text="Tax Collection&#10;Account Number&#10;of the Collector&#10;[Col (1)]" target="employerOrDeductorOrCollectDetl.tan"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150" prefWidth="80.0" text="Name of Collector&#10;[Col (2)]" target="employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="200" prefWidth="80.0" text="Details of amount &#10; paid as mentioned in Form 26AS &#10;[Col (3)]" target="amtfrom26AS" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150" prefWidth="80.0" text="Tax Collected&#10;[Col (4)]" target="totalTCS" />		
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="160" prefWidth="80.0" text="Amount out of (4)&#10;being claimed&#10;[(Col(5))]" target="amtTCSClaimedThisYear" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="190" prefWidth="76.0" text="Amount out of [Col (4)] being &#10; claimed in the hands spouse&#10;if section 5A is&#10;applicable&#10; [Col (6)]" target="amtClaimedBySpouse" />
+		</columns>
+	</ValTableView>
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="10.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="270.0" prefWidth="650.0" text="SH.TCS Details of Tax Collected at Source (TCS) [As per Form 27D issued by the Collector(s)]" visible="false" wrapText="true"
+	target="taxCollectedAtSourceController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							
+							
+							<Label focusTraversable="true" labelFor="$Tan" text="Tax Collection Account Number of the Collector [Col (1)]" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+							<ValTextField  fx:id="Tan" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="0" target="taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.tan" autoCaps="true"/>
+						
+						    <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 		
+							<Label focusTraversable="true" labelFor="$Name" text="Name of Collector[Col (2)]" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+							<ValTextField  fx:id="Name" maxLength="125"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" target="taxCollectedAtSourceController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"/>
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 		
+							<Label focusTraversable="true" labelFor="$TaxCollect" text="Details of amount paid as mentioned in Form 26AS [Col (3)]" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							<ValBigIntegerField  fx:id="TaxCollect" maxLength="14"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" target="taxCollectedAtSourceController.type.amtfrom26AS"/>	
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Label focusTraversable="true" labelFor="$TaxCollected" text="Tax Collected[Col (4)]" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+							<ValBigIntegerField  fx:id="TaxCollected" maxLength="14" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" target="taxCollectedAtSourceController.type.totalTCS" />
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 		
+							<Label focusTraversable="true" labelFor="$AmntClaimed" text="Amount out of [Col (4)] being claimed[Col (5)]" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+							<ValBigIntegerField  fx:id="AmntClaimed" maxLength="14" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8" target="taxCollectedAtSourceController.type.amtTCSClaimedThisYear" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Label focusTraversable="true" labelFor="$AmntClaimedSpouse" text="Amount out of [Col (4)] being claimed in the hands of spouse,if section 5A &#10; is applicable([Col (6)]" GridPane.columnIndex="0" GridPane.rowIndex="10" />
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" minHeight="30" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="10" target="taxCollectedAtSourceController.type.amtClaimedBySpouse" disable="true"  />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="12">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn" onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+								
+								</children>
+							</HBox>
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	
+	<HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="275.0" >
+	  <children>
+	     <HBox>
+	      	<children> 
+			<Label  fx:id="label8" labelFor="$TotalPayment" style="-fx-padding:5 50 0 10"  text="Total"  />		
+			</children>
+		  </HBox>
+			<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"  />	          
+			<HBox>
+	      	<children>
+			<ValBigIntegerField  fx:id="TotalTcs" prefWidth="150"  target="itr.itr4.scheduleTCS.totalSchTCS" disable="true"  >
+    		<HBox.margin>
+                <Insets left="835" right="0" />
+         	</HBox.margin>
+			</ValBigIntegerField>
+		</children>
+	</HBox>
+     </children>
+     </HBox>
+	
+	
+</AnchorPane>

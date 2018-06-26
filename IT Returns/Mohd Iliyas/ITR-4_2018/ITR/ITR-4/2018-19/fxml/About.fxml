@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.itd.efiling.offline.ITR4.ctrl.AboutController">
+  <children>
+    <VBox id="dialogVbox" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox alignment="CENTER" style="-fx-background-color: linear-gradient(#3A5058, #6aa2b1)" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Label focusTraversable="true" text="About ITR Utility" textFill="WHITE">
+              <font>
+                <Font name="System Bold" size="16.0" />
+              </font>
+            </Label>
+          </children>
+          <padding>
+            <Insets />
+          </padding>
+          <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+          </VBox.margin>
+        </HBox>
+        <HBox prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <ImageView fx:id="logoView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@logo.jpg" />
+              </image>
+            </ImageView>
+            <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+              <children>
+                <HBox prefHeight="-1.0" prefWidth="-1.0" spacing="20.0" />
+                <HBox prefHeight="-1.0" prefWidth="-1.0" spacing="20.0" />
+                <HBox prefHeight="-1.0" prefWidth="-1.0" spacing="20.0" />
+                <GridPane>
+                  <children>
+                    <Label text="Version :" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                      <font>
+                        <Font name="System Bold" size="12.0" fx:id="x1" />
+                      </font>
+                    </Label>
+                     <Label focusTraversable="true" font="$x1" text="ITR :" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                      <Label focusTraversable="true" id="version" fx:id="itr" text="ITR-4" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                      <Label focusTraversable="true" font="$x1" text="A.Y. :" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                    <Label focusTraversable="true" id="version" fx:id="asstYear" text="2018-19" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     
+                    <Label focusTraversable="true" fx:id="version" text="Ver1.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                   
+                  </children>
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                </GridPane>
+              </children>
+            </VBox>
+          </children>
+          <padding>
+            <Insets top="10.0" />
+          </padding>
+        </HBox>
+        <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="350.0">
+          <children>
+            <Label focusTraversable="true" text="Copyright ©  Income Tax Department, Ministry of Finance, Government of India. All Rights Reserved" wrapText="true" HBox.hgrow="ALWAYS" />
+          </children>
+          <padding>
+            <Insets bottom="5.0" />
+          </padding>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

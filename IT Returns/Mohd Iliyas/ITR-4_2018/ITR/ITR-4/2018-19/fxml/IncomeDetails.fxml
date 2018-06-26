@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns:fx="http://javafx.com/fxml" prefHeight="100" prefWidth="1100" >
+    <children>
+        <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <TabPane fx:id="tabPane" rotateGraphic="true" side="TOP" tabClosingPolicy="UNAVAILABLE" visible="true">
+                    <tabs>
+                        <Tab text="Instructions">
+                            <content>
+                                <fx:include source="Instructions-Tab.fxml" />
+                            </content>
+                        </Tab>                        
+						<Tab text="Personal Information">
+							<content>
+								<fx:include id="Content" source="PersonalInfo.fxml"   />
+							</content>
+						</Tab>
+						<Tab text="Income Details">
+							<content>
+								<fx:include id="Content" source="IncomeDetails.fxml"   />
+							</content>
+						</Tab>
+						<Tab text="Tax Details">
+							<content>
+								<fx:include id="Content" source="TaxDetails.fxml"   />
+							</content>
+						</Tab>
+						<Tab text="80G">
+							<content>
+								<fx:include id="Content" source="80G.fxml"   />
+							</content>
+						</Tab>					
+					</tabs>
+                </TabPane>
+                
+			</children>
+        </StackPane>
+    </children>
+</fx:root>

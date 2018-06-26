@@ -1,0 +1,1324 @@
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :1 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     74506.60 |
+ 02-Apr-2014 | TO CASH SELF/0004                             | 423038 |         5000.00 |                 |        69506.60 |
+ 16-Apr-2014 | BY TRF:02/13/07/05 MUMBAI BANK SEVAK SAH PAT  |        |                 |       200000.00 |       269506.60 |
+ 16-Apr-2014 | TO CASH SELF/0004                             | 423039 |       100000.00 |                 |       169506.60 |
+ 28-Apr-2014 | NET SAL-4-2014                                |        |                 |        25889.00 |       195395.60 |
+ 29-Apr-2014 | TO CTSIW CLG : 8000209/MAX LIFE INSURANCE/80  | 425341 |         6250.00 |                 |       189145.60 |
+ 29-Apr-2014 | TO CTSIW CLG : 8000209/MAX LIFE INSURANCE/80  | 425342 |         6250.00 |                 |       182895.60 |
+ 30-Apr-2014 | TO CTSIW CLG : 8000210/SBI CARD PAMAC SOC/80  | 425343 |         2856.00 |                 |       180039.60 |
+ 09-May-2014 | TO CTSIW CLG : 8000217/NMMC PROPERTY TAXNERU  | 425345 |         1461.00 |                 |       178578.60 |
+ 16-May-2014 | TO CTSIW CLG : 8000222/GIRIRAJ CO OP HSG SOC  | 425344 |        18315.00 |                 |       160263.60 |
+ 24-May-2014 | TO CASH SELF/0004                             | 425346 |        10000.00 |                 |       150263.60 |
+ 28-May-2014 | NET SAL-5-2014                                |        |                 |        25228.00 |       175491.60 |
+ 30-May-2014 | TO CTSIW CLG : 8000234/SBI CARD PAMAC-SOC-PA  | 425347 |         3191.00 |                 |       172300.60 |
+ 31-May-2014 | TO CASH SELF/0004                             | 423040 |         5001.00 |                 |       167299.60 |
+ 09-Jun-2014 | TO CTSIW CLG : 8000242/LIC OF INDIA/8000242\  | 425348 |         5000.00 |                 |       162299.60 |
+ 09-Jun-2014 | TO CASH SELF/0004                             | 426741 |        69000.00 |                 |        93299.60 |
+ 17-Jun-2014 | TO CASH SELF/0004                             | 426742 |         2000.00 |                 |        91299.60 |
+ 27-Jun-2014 | TO CTSIW CLG : 8000258/APNA SAHAKARI BANK LT  | 425350 |         5010.00 |                 |        86289.60 |
+ 28-Jun-2014 | NET SAL-6-2014                                |        |                 |        26891.00 |       113180.60 |
+ 28-Jun-2014 | TO CTSIW CLG : 8000259/SBI CARD PAMAC-SOC-PA  | 425349 |         3380.00 |                 |       109800.60 |
+ 30-Jun-2014 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1519.00 |       111319.60 |
+ 15-Jul-2014 | TO CASH SELF/0004                             | 426744 |         5000.00 |                 |       106319.60 |
+ 21-Jul-2014 | TO CASH SELF/0004                             | 426747 |         5000.00 |                 |       101319.60 |
+ 24-Jul-2014 | TO CTSIW CLG : 8000281/MAX LIFE INSURANCE CO  | 426745 |         6250.00 |                 |        95069.60 |
+ 24-Jul-2014 | TO CTSIW CLG : 8000281/MAX LIFE INSURANCE CO  | 426746 |         6250.00 |                 |        88819.60 |
+ 26-Jul-2014 | TO CASH SELF/0004                             | 426749 |         5000.00 |                 |        83819.60 |
+ 28-Jul-2014 | NET SAL-7-2014                                |        |                 |        25609.00 |       109428.60 |
+ 31-Jul-2014 | TO CTSIW CLG : 8000286/SBI CARD PAMAC-SOC-PA  | 426748 |         3370.00 |                 |       106058.60 |
+ 08-Aug-2014 | TO CASH SELF/0004                             | 428791 |         5000.00 |                 |       101058.60 |
+ 12-Aug-2014 | BY TRANSFER                                   |        |                 |         5546.00 |       106604.60 |
+ 16-Aug-2014 | TO CASH SELF/0004                             | 428792 |        10000.00 |                 |        96604.60 |
+ 19-Aug-2014 | TO CASH SELF/0004                             | 428793 |        10000.50 |                 |        86604.10 |
+ 21-Aug-2014 | TO CTSIW CLG : 8000303/GIRIRAJ CHS LTD/80003  | 426750 |         5506.00 |                 |        81098.10 |
+ 21-Aug-2014 | TO CTSIW CLG : 8000303/GIRIRAJ CO OP HSG SOC  | 428601 |        12315.00 |                 |        68783.10 |
+ 27-Aug-2014 | TO CASH SELF/0004                             | 428795 |        10000.00 |                 |        58783.10 |
+ 28-Aug-2014 | NET SAL-8-2014                                |        |                 |        27574.00 |        86357.10 |
+ 30-Aug-2014 | TO CASH SELF/0004                             | 428796 |         5000.00 |                 |        81357.10 |
+ 30-Aug-2014 | TO CTSIW CLG : 8000310/SBI CARD PAMAC-SOC-PA  | 428794 |         3600.00 |                 |        77757.10 |
+ 08-Sep-2014 | BY CLG BY CLG/250052/99900294/430/032         | 250052 |                 |         4008.00 |        81765.10 |
+ 09-Sep-2014 | TO CASH SELF/0004                             | 428797 |         5000.00 |                 |        76765.10 |
+ 20-Sep-2014 | TO CASH SELF/0004                             | 428798 |         5000.00 |                 |        71765.10 |
+ 27-Sep-2014 | TO CASH SELF/0004                             | 428800 |         7000.00 |                 |        64765.10 |
+ 29-Sep-2014 | NET SAL-9-2014                                |        |                 |        27580.00 |        92345.10 |
+ 30-Sep-2014 | TO CTSIW CLG : 8000336/SBI CARD PAMAC-SOC-PA  | 428799 |         4900.00 |                 |        87445.10 |
+ 30-Sep-2014 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1055.00 |        88500.10 |
+ 01-Oct-2014 | TO CASH SELF/0004                             | 428602 |        10000.00 |                 |        78500.10 |
+ 07-Oct-2014 | TO CASH SELF/0004                             | 428603 |         7000.00 |                 |        71500.10 |
+ 13-Oct-2014 | NET BONUS-10-2014                             |        |                 |        67897.00 |       139397.10 |
+ 13-Oct-2014 | TO CTSIW CLG : 8000344/MAX LIFE INSURENCE/80  | 428604 |        12500.00 |                 |       126897.10 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :2 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    126897.10 |
+ 13-Oct-2014 | TO CASH SELF/0004                             | 428605 |        10000.00 |                 |       116897.10 |
+ 25-Oct-2014 | TO CASH SELF/0004                             | 428607 |         5000.00 |                 |       111897.10 |
+ 28-Oct-2014 | NET SAL-10-2014                               |        |                 |        28249.00 |       140146.10 |
+ 28-Oct-2014 | TO CTSIW CLG : 8000355/THE NEW INDIA ASSURAN  | 428606 |        19103.00 |                 |       121043.10 |
+ 29-Oct-2014 | TO CTSIW CLG : 8000356/LIC OF INDIA/8000356\  | 428609 |         5000.00 |                 |       116043.10 |
+ 30-Oct-2014 | TO CTSIW CLG : 8000357/SBI CARD PAMAC-SOC-PA  | 428608 |         5000.00 |                 |       111043.10 |
+ 30-Oct-2014 | TO CASH SELF/0004                             | 428610 |         5000.00 |                 |       106043.10 |
+ 05-Nov-2014 | TO CTSIW CLG : 8000361/SNEHI SAH.PATSANTHA L  | 431021 |         5000.00 |                 |       101043.10 |
+ 05-Nov-2014 | TO CASH SELF/0004                             | 431022 |         7000.00 |                 |        94043.10 |
+ 14-Nov-2014 | TO CASH SELF/0004                             | 431023 |         8000.00 |                 |        86043.10 |
+ 24-Nov-2014 | TO CASH SELF/0004                             | 431025 |         5000.00 |                 |        81043.10 |
+ 28-Nov-2014 | NET SAL-11-2014                               |        |                 |        26707.00 |       107750.10 |
+ 29-Nov-2014 | TO CASH SELF/0004                             | 431027 |         5000.00 |                 |       102750.10 |
+ 03-Dec-2014 | TO CTSIW CLG : 8000384/SBI CARD PAMAC-SOC-PA  | 431026 |         5510.00 |                 |        97240.10 |
+ 04-Dec-2014 | TO CASH SELF/0004                             | 431028 |        15000.00 |                 |        82240.10 |
+ 05-Dec-2014 | TO CTSIW CLG : 8000386/NMMCPROPERTY TAXBELAP  | 431024 |         1461.00 |                 |        80779.10 |
+ 06-Dec-2014 | TO CASH SELF/0004                             | 431029 |         5000.00 |                 |        75779.10 |
+ 20-Dec-2014 | TO CASH SELF/0004                             | 431033 |         5000.00 |                 |        70779.10 |
+ 23-Dec-2014 | TO CASH SELF/0004                             | 431034 |        10000.00 |                 |        60779.10 |
+ 24-Dec-2014 | TO CTSIW CLG : 8000402/MAX LIFE INSURANCE CO  | 431031 |         6250.00 |                 |        54529.10 |
+ 24-Dec-2014 | TO CTSIW CLG : 8000402/MAX LIFE INSURANCE CO  | 431032 |         6250.00 |                 |        48279.10 |
+ 26-Dec-2014 | TO CTSIW CLG : 8000403/GIRIRAJ CHS LTD/80004  | 431030 |         4580.00 |                 |        43699.10 |
+ 27-Dec-2014 | TO:EXCESS SB INT RECOVERED (AUG:2014)         |        |           19.00 |                 |        43680.10 |
+ 30-Dec-2014 | NET SAL-12-2014                               |        |                 |        26774.00 |        70454.10 |
+ 31-Dec-2014 | TO CTSIW CLG : 8000407/SBI CARD PAMAC-SOC-PA  | 431035 |         6425.00 |                 |        64029.10 |
+ 31-Dec-2014 | BY INTEREST SB DAILY PRODUCT                  |        |                 |          994.00 |        65023.10 |
+ 03-Jan-2015 | TO CASH SELF/0004                             | 431036 |         5000.00 |                 |        60023.10 |
+ 10-Jan-2015 | TO CASH SELF/0004                             | 431038 |         5000.00 |                 |        55023.10 |
+ 15-Jan-2015 | NEFT FR HEALTH INDIA TPA SER PL~99/01/001706/ |        |                 |       100000.00 |       155023.10 |
+ 17-Jan-2015 | TO CASH SELF/0004                             | 431039 |         5000.00 |                 |       150023.10 |
+ 23-Jan-2015 | TO CASH SELF/0004                             | 431040 |        25000.00 |                 |       125023.10 |
+ 28-Jan-2015 | NET SAL-1-2015                                |        |                 |        26162.00 |       151185.10 |
+ 03-Feb-2015 | TO CASH SELF/0004                             | 432165 |       100000.00 |                 |        51185.10 |
+ 03-Feb-2015 | TO CTSIW CLG : 8000435/SBI CARD PAMAC-SOC-PA  | 432162 |         6748.00 |                 |        44437.10 |
+ 05-Feb-2015 | TO CTSIW CLG : 8000437/VASANT D YELMAR/80004  | 432163 |         8042.00 |                 |        36395.10 |
+ 11-Feb-2015 | TO CASH SELF/0004                             | 432161 |         5000.00 |                 |        31395.10 |
+ 16-Feb-2015 | TO CASH SELF/0004                             | 432166 |        10000.00 |                 |        21395.10 |
+ 23-Feb-2015 | TO CTSIW CLG : 8000450/GIRIRAJ CHS LTD/80004  | 432164 |         2358.00 |                 |        19037.10 |
+ 26-Feb-2015 | TO CASH SELF/0004                             | 432168 |         5000.00 |                 |        14037.10 |
+ 28-Feb-2015 | NET SAL-2-2015                                |        |                 |        26654.00 |        40691.10 |
+ 02-Mar-2015 | TO CTSIW CLG : 8000456/SBI CARD PAMAC-SOC-PA  | 432167 |         7400.00 |                 |        33291.10 |
+ 04-Mar-2015 | TO - MTNL - TO CTSIW CLG : 8000458/MTNL/8000  | 432169 |          229.00 |                 |        33062.10 |
+ 07-Mar-2015 | BY CASH/0004                                  |        |                 |         2600.00 |        35662.10 |
+ 09-Mar-2015 | TO CASH SELF-0016/0004                        | 432170 |         5000.00 |                 |        30662.10 |
+ 14-Mar-2015 | TO CASH SELF-0016/0004                        | 432171 |         5000.00 |                 |        25662.10 |
+ 20-Mar-2015 | TO CASH SELF-0016/0004                        | 432172 |        10000.00 |                 |        15662.10 |
+ 27-Mar-2015 | NET SAL-3-2015                                |        |                 |        38476.00 |        54138.10 |
+ 27-Mar-2015 | TO CASH SELF-0016/0004                        | 432174 |        30000.00 |                 |        24138.10 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :3 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     24138.10 |
+ 28-Mar-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 432173 |         7600.00 |                 |        16538.10 |
+ 31-Mar-2015 | BY INTEREST SB DAILY PRODUCT                  |        |                 |          628.00 |        17166.10 |
+ 04-Apr-2015 | TO IBR F0002/13/07/000005T001610/05/004693    |        |                 |       370868.00 |       388034.10 |
+ 08-Apr-2015 | INCOME TAX RECOVERY MAR 2015~99/01/001200/001 |        |            6.00 |                 |       388028.10 |
+ 10-Apr-2015 | TO - MAX LIFE INSURANCE COMP - INSURANCE COM  | 432175 |        12500.00 |                 |       375528.10 |
+ 11-Apr-2015 | TO CASH SELF-0016/0004                        | 432176 |        30000.00 |                 |       345528.10 |
+ 22-Apr-2015 | TO CASH SELF-0016/0004                        | 432177 |        10000.00 |                 |       335528.10 |
+ 25-Apr-2015 | TO CASH SELF-0016/0004                        | 432178 |        15000.00 |                 |       320528.10 |
+ 28-Apr-2015 | NET SAL-4-2015                                |        |                 |        22340.00 |       342868.10 |
+ 29-Apr-2015 | TO CASH SELF-0016/0004                        | 436551 |        10000.00 |                 |       332868.10 |
+ 01-May-2015 | TO - NITEO FURNITORES PVT LT - TO CTSIW CLG   | 432179 |         3600.00 |                 |       329268.10 |
+ 05-May-2015 | TO CASH SELF-0016/0004                        | 436554 |         5000.00 |                 |       324268.10 |
+ 06-May-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 432180 |         7700.00 |                 |       316568.10 |
+ 09-May-2015 | TO CASH SELF-0016/0004                        | 436555 |        10000.00 |                 |       306568.10 |
+ 09-May-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 436552 |         3000.00 |                 |       303568.10 |
+ 13-May-2015 | TO CASH SELF-0016/0004                        | 436557 |        15000.00 |                 |       288568.10 |
+ 14-May-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 436556 |         3350.00 |                 |       285218.10 |
+ 16-May-2015 | TO - GIRIRAJ CHS LTD - TO CTSIW CLG : 800051  | 436553 |         3568.00 |                 |       281650.10 |
+ 23-May-2015 | TO CASH SELF-0016/0004                        | 436558 |         5000.00 |                 |       276650.10 |
+ 29-May-2015 | NET SAL-5-2015                                |        |                 |       237332.00 |       513982.10 |
+ 29-May-2015 | TO CASH SELF-0016/0004                        | 436560 |        10000.00 |                 |       503982.10 |
+ 02-Jun-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 436559 |         8000.00 |                 |       495982.10 |
+ 02-Jun-2015 | To PREMIUM FOR PMJJY                          |        |          330.00 |                 |       495652.10 |
+ 08-Jun-2015 | TO CASH SELF-0016/0004                        | 437981 |        15000.00 |                 |       480652.10 |
+ 10-Jun-2015 | To PREMIUM FOR PMSBY                          |        |           12.00 |                 |       480640.10 |
+ 11-Jun-2015 | TO - LIC OF INDIA - INDIA/8000539\437982      | 437982 |         5000.00 |                 |       475640.10 |
+ 15-Jun-2015 | TO - MTNL - TO CTSIW CLG : 8000542/MTNL/8000  | 437983 |          525.00 |                 |       475115.10 |
+ 16-Jun-2015 | TO CASH SELF-0016/0004                        | 437985 |         5000.00 |                 |       470115.10 |
+ 18-Jun-2015 | TO - MAX LIFE INSURANCE COMP - INSURANCE COM  | 437984 |        12500.00 |                 |       457615.10 |
+ 24-Jun-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 437989 |        15030.00 |                 |       442585.10 |
+ 24-Jun-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 437988 |        15030.00 |                 |       427555.10 |
+ 24-Jun-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 437987 |         2600.00 |                 |       424955.10 |
+ 27-Jun-2015 | NET SAL-6-2015                                |        |                 |        42535.00 |       467490.10 |
+ 30-Jun-2015 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 437986 |          250.00 |                 |       467240.10 |
+ 30-Jun-2015 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         4126.00 |       471366.10 |
+ 03-Jul-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 437990 |         7700.00 |                 |       463666.10 |
+ 03-Jul-2015 | BY CASH                                       |        |                 |         1000.00 |       464666.10 |
+ 03-Jul-2015 | BY TRANSFER 10/05/4609~10/05/004609/0016      |        |                 |         1000.00 |       465666.10 |
+ 15-Jul-2015 | TO CASH SELF-0016/0004                        | 439341 |        30000.00 |                 |       435666.10 |
+ 29-Jul-2015 | NET SAL-7-2015                                |        |                 |        34836.00 |       470502.10 |
+ 03-Aug-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 439342 |         7900.00 |                 |       462602.10 |
+ 03-Aug-2015 | TO CASH SELF-0016/0004                        | 439343 |         6000.00 |                 |       456602.10 |
+ 12-Aug-2015 | TO CASH SELF-0016/0004                        | 439345 |        10000.00 |                 |       446602.10 |
+ 18-Aug-2015 | TO - GIRIRAJ CHS LTD - TO CTSIW CLG : 800059  | 439344 |         3568.00 |                 |       443034.10 |
+ 19-Aug-2015 | TO CASH SELF/0004                             | 439346 |        10000.00 |                 |       433034.10 |
+ 25-Aug-2015 | BY TRANSFER~99/01/001200/0004                 |        |                 |         6588.00 |       439622.10 |
+ 25-Aug-2015 | TO CASH SELF/0004                             | 439347 |        15000.00 |                 |       424622.10 |
+ 26-Aug-2015 | BY APB HP650854 102145 2508                   |        |                 |          142.14 |       424764.24 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :4 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    424764.24 |
+ 26-Aug-2015 | TO CASH SELF/0004                             | 439348 |         5700.00 |                 |       419064.24 |
+ 28-Aug-2015 | NET SAL-8-2015                                |        |                 |        50693.00 |       469757.24 |
+ 28-Aug-2015 | TO CASH SELF-0016/0004                        | 439349 |         4000.00 |                 |       465757.24 |
+ 04-Sep-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 439350 |         7900.00 |                 |       457857.24 |
+ 04-Sep-2015 | TO CASH SELF-0016/0004                        | 439351 |         5000.00 |                 |       452857.24 |
+ 05-Sep-2015 | TO CASH SELF-0016/0004                        | 439352 |        15000.00 |                 |       437857.24 |
+ 09-Sep-2015 | TO CASH SELF-0016/0004                        | 439353 |        10000.00 |                 |       427857.24 |
+ 14-Sep-2015 | TO CASH SELF-0016/0004                        | 439354 |        40000.00 |                 |       387857.24 |
+ 18-Sep-2015 | TO CASH SELF-0016/0004                        | 439357 |        30000.00 |                 |       357857.24 |
+ 23-Sep-2015 | TO CASH SELF-0016/0004                        | 439359 |        30000.00 |                 |       327857.24 |
+ 29-Sep-2015 | NET SAL-9-2015                                |        |                 |        27984.00 |       355841.24 |
+ 29-Sep-2015 | TO - JAGDISH GOKUL PATIL - TO CTSIW CLG : 80  | 439358 |         7500.00 |                 |       348341.24 |
+ 30-Sep-2015 | BY APB HP650854 128175 2509                   |        |                 |          116.54 |       348457.78 |
+ 30-Sep-2015 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         4893.00 |       353350.78 |
+ 05-Oct-2015 | TO CASH SELF-0016/0004                        | 442923 |        10000.00 |                 |       343350.78 |
+ 06-Oct-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 439360 |         7898.00 |                 |       335452.78 |
+ 12-Oct-2015 | TO - CMS   NON   UTI   POOL - TO CTSIW CLG :  | 442921 |         1461.00 |                 |       333991.78 |
+ 13-Oct-2015 | TO CASH SELF-0016/0004                        | 442924 |        10000.00 |                 |       323991.78 |
+ 19-Oct-2015 | TO - GIRIRAJ CHS LTD - TO CTSIW CLG : 800064  | 442922 |         2358.00 |                 |       321633.78 |
+ 21-Oct-2015 | TO CASH SELF-0016/0004                        | 442925 |        20000.00 |                 |       301633.78 |
+ 23-Oct-2015 | TO CASH SELF-0016/0004                        | 442926 |        10000.00 |                 |       291633.78 |
+ 28-Oct-2015 | NET SAL-10-2015                               |        |                 |        28780.00 |       320413.78 |
+ 31-Oct-2015 | TO - L I C OF INDIA - INDIA/8000651\442929    | 442929 |         5000.00 |                 |       315413.78 |
+ 02-Nov-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 442928 |         8000.00 |                 |       307413.78 |
+ 05-Nov-2015 | TO - MAX LIFE INSURANCE COMP - INSURANCE COM  | 439356 |         6250.00 |                 |       301163.78 |
+ 05-Nov-2015 | TO - MAX LIFE INSURANCE COMP - INSURANCE COM  | 439355 |         6250.00 |                 |       294913.78 |
+ 05-Nov-2015 | TO - THE NEW INDIA ASSURANCE - INDIA ASSURAN  | 442927 |        15534.00 |                 |       279379.78 |
+ 07-Nov-2015 | TO CASH SELF-0016/0004                        | 442930 |        20000.00 |                 |       259379.78 |
+ 09-Nov-2015 | NET BONUS-11-2015                             |        |                 |        32220.00 |       291599.78 |
+ 09-Nov-2015 | TO CASH SELF-0016/0004                        | 443191 |        32000.00 |                 |       259599.78 |
+ 10-Nov-2015 | TO CASH SELF-0016/0004                        | 443192 |        10000.00 |                 |       249599.78 |
+ 11-Nov-2015 | BY APB HP650854 162639 0711                   |        |                 |           99.64 |       249699.42 |
+ 17-Nov-2015 | TO CASH SELF/0004                             | 443193 |         8000.00 |                 |       241699.42 |
+ 27-Nov-2015 | TO - SEA QUEEN HOUSING INDIA - ING INDI/8000  | 443194 |       100000.00 |                 |       141699.42 |
+ 30-Nov-2015 | NET SAL-11-2015                               |        |                 |        25861.00 |       167560.42 |
+ 02-Dec-2015 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 443195 |         8000.00 |                 |       159560.42 |
+ 10-Dec-2015 | TO CASH SELF-0016/0004                        | 443197 |        10000.00 |                 |       149560.42 |
+ 16-Dec-2015 | TO ATM CARD HANDLING CHARGES \29-JAN-2014     |        |          172.00 |                 |       149388.42 |
+ 17-Dec-2015 | TO CASH SELF 074266                           |        |        10000.00 |                 |       139388.42 |
+ 21-Dec-2015 | TO CASH SELF074321                            |        |        10000.00 |                 |       129388.42 |
+ 28-Dec-2015 | TO CASH SELF-0016/0002                        | 443199 |        10000.00 |                 |       119388.42 |
+ 29-Dec-2015 | NET SAL-12-2015                               |        |                 |        24731.00 |       144119.42 |
+ 31-Dec-2015 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         2696.00 |       146815.42 |
+ 01-Jan-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 443198 |         8000.00 |                 |       138815.42 |
+ 02-Jan-2016 | TO TR 07/10/06/216~10/06/000216/0007          | 443200 |        51156.00 |                 |        87659.42 |
+ 07-Jan-2016 | TO CASH SELF-0016/0002                        | 445581 |        20000.00 |                 |        67659.42 |
+ 11-Jan-2016 | BY APB HP650854 109920 0601                   |        |                 |          210.22 |        67869.64 |
+ 19-Jan-2016 | TO TR NCR CORPORATION PVT LTD~99/01/001200/00 |        |        33970.00 |                 |        33899.64 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :5 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     33899.64 |
+ 22-Jan-2016 | TO CASH SELF-0016/0002                        | 445583 |        10000.00 |                 |        23899.64 |
+ 25-Jan-2016 | TO CASH SELF-0016/0002                        | 445584 |        10000.00 |                 |        13899.64 |
+ 28-Jan-2016 | NET SAL-1-2016                                |        |                 |        25364.00 |        39263.64 |
+ 02-Feb-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 445585 |         7884.00 |                 |        31379.64 |
+ 08-Feb-2016 | TO CASH SELF-0016/0002                        | 445586 |        10000.00 |                 |        21379.64 |
+ 12-Feb-2016 | TO CASH SELF-0016/0002                        | 445587 |        10000.00 |                 |        11379.64 |
+ 17-Feb-2016 | BY APB HP650854 148448 1502                   |        |                 |          127.75 |        11507.39 |
+ 26-Feb-2016 | TO - ASIAN PAINTS L COLOR CO - INTS L COLOR   | 445588 |         2500.00 |                 |         9007.39 |
+ 29-Feb-2016 | NET SAL-2-2016                                |        |                 |        23364.00 |        32371.39 |
+ 01-Mar-2016 | BY CLG BY CLG/5/99900711/1852/032             |      5 |                 |       100000.00 |       132371.39 |
+ 03-Mar-2016 | TO - SBI CARD PAMAC-NORMAL-P - TO CTSIW CLG   | 445589 |         7850.00 |                 |       124521.39 |
+ 04-Mar-2016 | TO CASH SELF-0016/0002                        | 445590 |         5000.00 |                 |       119521.39 |
+ 05-Mar-2016 | BY CLG BY CLG/8/99900715/1675/032             |      8 |                 |       900000.00 |      1019521.39 |
+ 08-Mar-2016 | TO TRANSFER H O 50/55/806~99/01/001200/0002   | 445591 |       625666.00 |                 |       393855.39 |
+ 08-Mar-2016 | TO CASH SELF-0016/0002                        | 445592 |         5000.00 |                 |       388855.39 |
+ 10-Mar-2016 | BY CLG BY CLG/10/99900718/1942/032            |     10 |                 |       425000.00 |       813855.39 |
+ 10-Mar-2016 | BY CLG BY CLG/11/99900718/1981/032            |     11 |                 |        12500.00 |       826355.39 |
+ 10-Mar-2016 | TO - GIRIRAJ CO OP HSG SOC L - TO CTSIW CLG   | 445594 |        25000.00 |                 |       801355.39 |
+ 10-Mar-2016 | TO - GIRIRAJ CO OP HSG SOC L - TO CTSIW CLG   | 445593 |         4090.00 |                 |       797265.39 |
+ 14-Mar-2016 | TO CASH SELF 077368                           |        |        15000.00 |                 |       782265.39 |
+ 15-Mar-2016 | TO - SEA QUEEN HOUSING INDIA - ING INDI/8000  | 445595 |       700000.00 |                 |        82265.39 |
+ 15-Mar-2016 | TO TR DUP ATM PIN CHARGES 99/01/1200~99/01/00 |        |          115.00 |                 |        82150.39 |
+ 19-Mar-2016 | TO CHQ BOOK ISSUE CHARGE AMT                  |        |           17.00 |                 |        82133.39 |
+ 19-Mar-2016 | TO CASH SELF-0016/0002                        | 445596 |         5000.00 |                 |        77133.39 |
+ 23-Mar-2016 | TO CASH SELF-0016/0002                        | 445597 |         3000.00 |                 |        74133.39 |
+ 29-Mar-2016 | NET SAL-3-2016                                |        |                 |        38933.00 |       113066.39 |
+ 30-Mar-2016 | HSG CR BAL TR~11/11/000108/0001               |        |                 |         6000.00 |       119066.39 |
+ 31-Mar-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 445598 |         7700.00 |                 |       111366.39 |
+ 31-Mar-2016 | TO CASH SELF-0016/0002                        | 445599 |         5000.00 |                 |       106366.39 |
+ 31-Mar-2016 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1483.00 |       107849.39 |
+ 02-Apr-2016 | TO CASH SELF-0016/0002                        | 445600 |        10000.00 |                 |        97849.39 |
+ 07-Apr-2016 | TO CASH SELF-0016/0002                        | 542567 |        10000.00 |                 |        87849.39 |
+ 11-Apr-2016 | AMT ITAX~11/11/000003/0001                    |        |                 |            2.00 |        87851.39 |
+ 13-Apr-2016 | TO CASH SELF-0016/0002                        | 542568 |        45000.00 |                 |        42851.39 |
+ 15-Apr-2016 | BY CLG BY CLG/663064/99900741/2145/032        | 663064 |                 |      6000000.00 |      6042851.39 |
+ 16-Apr-2016 | BY APB HP650854 192874 1104                   |        |                 |           62.16 |      6042913.55 |
+ 16-Apr-2016 | TO CASH SELF-0016/0002                        | 542570 |        60000.00 |                 |      5982913.55 |
+ 19-Apr-2016 | TO - GIRIRAJ CO OP HSG SOC L - TO CTSIW CLG   | 542569 |         1340.00 |                 |      5981573.55 |
+ 22-Apr-2016 | TO - SEA QUEEN HOUSING INDIA - ING INDI/8000  | 542571 |      5500000.00 |                 |       481573.55 |
+ 25-Apr-2016 | TO CASH SELF-0016/0002                        | 542572 |         5000.00 |                 |       476573.55 |
+ 28-Apr-2016 | NET SAL-4-2016                                |        |                 |        43167.00 |       519740.55 |
+ 28-Apr-2016 | BY CASH                                       |        |                 |         1500.00 |       521240.55 |
+ 28-Apr-2016 | TO CASH SELF-0016/0002                        | 542573 |        20000.00 |                 |       501240.55 |
+ 29-Apr-2016 | BY APB BLPGCM5377DT2804                       |        |                 |           78.99 |       501319.54 |
+ 03-May-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 542575 |         7640.00 |                 |       493679.54 |
+ 06-May-2016 | TO CASH SELF-0016/0002                        | 542576 |        25000.00 |                 |       468679.54 |
+ 06-May-2016 | TO TRAN/99/01/1200 RTGS~99/01/001200/0002     | 542577 |       300060.00 |                 |       168619.54 |
+ 10-May-2016 | TO CASH SELF-0016/0002                        | 542578 |         3000.00 |                 |       165619.54 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :6 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    165619.54 |
+ 12-May-2016 | TO TRAN/99/01/1200 NEFT~99/01/001200/0002     | 542579 |        50006.00 |                 |       115613.54 |
+ 25-May-2016 | To PREMIUM FOR PMJJY                          |        |          330.00 |                 |       115283.54 |
+ 25-May-2016 | To PREMIUM FOR PMSBY                          |        |           12.00 |                 |       115271.54 |
+ 26-May-2016 | TO - GIRIRAJ CO OP HSG SOC L - TO CTSIW CLG   | 542792 |         1387.00 |                 |       113884.54 |
+ 30-May-2016 | NET SAL-5-2016                                |        |                 |        43189.00 |       157073.54 |
+ 30-May-2016 | TOPOSTXN/615013001877/05004693/10439543       |        |         2790.00 |                 |       154283.54 |
+ 30-May-2016 | TO CASH SELF-0016/0002                        | 542794 |         8000.00 |                 |       146283.54 |
+ 31-May-2016 | TO TRANSFER~99/01/001585/0009                 | 542580 |        11450.00 |                 |       134833.54 |
+ 02-Jun-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 542793 |         7700.00 |                 |       127133.54 |
+ 04-Jun-2016 | TO CASH SELF-0016/0002                        | 542796 |         8000.00 |                 |       119133.54 |
+ 06-Jun-2016 | TOPOSTXN/615721030767/05004693/62595630       |        |         1600.00 |                 |       117533.54 |
+ 07-Jun-2016 | TOPOSTXN/615822320144/05004693/18960020       |        |         1000.00 |                 |       116533.54 |
+ 07-Jun-2016 | TO - MAX LIFE INSURANCE COMP - INSURANCE COM  | 542795 |        12500.00 |                 |       104033.54 |
+ 08-Jun-2016 | TO CASH SELF-0016/0002                        | 542797 |         6000.00 |                 |        98033.54 |
+ 09-Jun-2016 | TO CASH SELF-0016/0002                        | 542798 |        15000.00 |                 |        83033.54 |
+ 10-Jun-2016 | BY CLG BY CLG/90045/99900784/192/032          |  90045 |                 |       145000.00 |       228033.54 |
+ 13-Jun-2016 | BY APB HP650854 136311 1106                   |        |                 |          101.73 |       228135.27 |
+ 13-Jun-2016 | TO CASH SELF-0016/0002                        | 542799 |        30000.00 |                 |       198135.27 |
+ 13-Jun-2016 | TO - JIGNESH KISHANLAL MISTR - TO CTSIW CLG   | 542777 |         1461.00 |                 |       196674.27 |
+ 14-Jun-2016 | TO TRANSFER/NEFT /H O~99/01/001200/0002       | 542800 |       125017.00 |                 |        71657.27 |
+ 15-Jun-2016 | TO CASH SELF-0016/0002                        | 542801 |         5000.00 |                 |        66657.27 |
+ 16-Jun-2016 | NEFT TR HO~99/01/001200/0002                  | 542802 |         2006.00 |                 |        64651.27 |
+ 20-Jun-2016 | TOPOSTXN/617112025894/05004693/62595630       |        |         1000.00 |                 |        63651.27 |
+ 21-Jun-2016 | TOPOSTXN/617221603257/05004693/23453882       |        |          412.00 |                 |        63239.27 |
+ 22-Jun-2016 | TO - GIRIRAJ CO OP HSG SOC L - TO CTSIW CLG   | 542776 |         2703.00 |                 |        60536.27 |
+ 22-Jun-2016 | BY TR LEAVE ENCASHMENT GIRISH SALINKHE~99/01/ |        |                 |       203788.00 |       264324.27 |
+ 23-Jun-2016 | TOPOSTXN/617518601732/05004693/23455754       |        |          739.00 |                 |       263585.27 |
+ 24-Jun-2016 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 542778 |          330.00 |                 |       263255.27 |
+ 24-Jun-2016 | TO CASH SELF-0016/0002                        | 542803 |        25000.00 |                 |       238255.27 |
+ 28-Jun-2016 | NET SAL-6-2016                                |        |                 |        43008.00 |       281263.27 |
+ 28-Jun-2016 | TO CASH SELF-0016/0030                        | 543316 |       115000.00 |                 |       166263.27 |
+ 30-Jun-2016 | BY APB BLPGCM17129DT2906                      |        |                 |          119.23 |       166382.50 |
+ 30-Jun-2016 | TO - MUMBAI DISTRICT CENTRAL - TO CTSIW CLG   | 542805 |        68980.00 |                 |        97402.50 |
+ 30-Jun-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 542804 |         7600.00 |                 |        89802.50 |
+ 30-Jun-2016 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         7115.00 |        96917.50 |
+ 04-Jul-2016 | TO CASH SELF-0016/0030                        | 543317 |        15000.00 |                 |        81917.50 |
+ 04-Jul-2016 | TOPOSTXN/618614423228/05004693/18960020       |        |         1800.00 |                 |        80117.50 |
+ 07-Jul-2016 | TOPOSTXN/618821014417/05004693/41105697       |        |          748.29 |                 |        79369.21 |
+ 08-Jul-2016 | TOPOSTXN/618921004245/05004693/40071133       |        |          786.00 |                 |        78583.21 |
+ 08-Jul-2016 | TO CASH SELF-0016/0030                        | 543318 |        40000.00 |                 |        38583.21 |
+ 11-Jul-2016 | TOPOSTXN/619110002331/05004693/62595630       |        |         1700.00 |                 |        36883.21 |
+ 27-Jul-2016 | TOPOSTXN/620821601993/05004693/20207273       |        |          725.00 |                 |        36158.21 |
+ 27-Jul-2016 | TOPOSTXN/620821603441/05004693/23455754       |        |          274.00 |                 |        35884.21 |
+ 27-Jul-2016 | TO CASH SELF-0016/0002                        | 543320 |        30000.00 |                 |         5884.21 |
+ 28-Jul-2016 | NET SAL-7-2016                                |        |                 |        43289.00 |        49173.21 |
+ 28-Jul-2016 | BY APB HP650854 172870 2607                   |        |                 |           90.63 |        49263.84 |
+ 29-Jul-2016 | TO TR.30/50/13/42 INSTALMENT & INT.MANKHURD B | 542779 |        27901.00 |                 |        21362.84 |
+ 29-Jul-2016 | TO - SBI CARD PAMAC-SOC-PARK - TO CTSIW CLG   | 543319 |         7425.00 |                 |        13937.84 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :7 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     13937.84 |
+ 30-Jul-2016 | TOPOSTXN/621214534132/05004693/15301020       |        |          325.00 |                 |        13612.84 |
+ 30-Jul-2016 | TOPOSTXN/621214534144/05004693/15301020       |        |         1364.00 |                 |        12248.84 |
+ 30-Jul-2016 | TOPOSTXN/621214534150/05004693/15301020       |        |          495.00 |                 |        11753.84 |
+ 30-Jul-2016 | TOPOSTXN/621214534167/05004693/15301020       |        |          838.00 |                 |        10915.84 |
+ 01-Aug-2016 | BY TR SANCTION OF LTA-99/01/1200~99/01/001200 |        |                 |        42000.00 |        52915.84 |
+ 04-Aug-2016 | TO - HDFC STANDARD LIFE INSU - INS/8000866\5  | 543321 |         8650.00 |                 |        44265.84 |
+ 05-Aug-2016 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 543332 |         2890.00 |                 |        41375.84 |
+ 06-Aug-2016 | TOPOSTXN/621921022436/05004693/41113685       |        |         1568.40 |                 |        39807.44 |
+ 09-Aug-2016 | TO CASH SELF-0016/0002                        | 543323 |        25000.00 |                 |        14807.44 |
+ 12-Aug-2016 | TO CASH SELF-0016/0002                        | 543324 |        10000.00 |                 |         4807.44 |
+ 17-Aug-2016 | TO - EUREKA FORBES - TO CTSIW CLG : 8000875/  | 543322 |         1960.00 |                 |         2847.44 |
+ 20-Aug-2016 | BY TRANSFER FESTIVAL GANPATI~50/52/000251/    |        |                 |        15000.00 |        17847.44 |
+ 20-Aug-2016 | TO CASH SELF-0016/0002                        | 543325 |         5000.00 |                 |        12847.44 |
+ 24-Aug-2016 | TO CASH SELF-0016/0002                        | 543326 |        10000.00 |                 |         2847.44 |
+ 29-Aug-2016 | NET SAL-8-2016                                |        |                 |        44460.00 |        47307.44 |
+ 30-Aug-2016 | BY APB BLPGCM29810DT2808                      |        |                 |           55.74 |        47363.18 |
+ 30-Aug-2016 | BY APB HP650854 100643 2708                   |        |                 |           38.06 |        47401.24 |
+ 30-Aug-2016 | BY TR CRDIT STY DIVIDEND 2015-16~99/01/001200 |        |                 |         8365.00 |        55766.24 |
+ 30-Aug-2016 | TO CASH SELF-0016/0002                        | 543328 |         5000.00 |                 |        50766.24 |
+ 31-Aug-2016 | TO TR.30/50/13/42 MANKHURD BR.~50/13/000042/0 | 542780 |        20100.00 |                 |        30666.24 |
+ 31-Aug-2016 | TO CASH SELF-0016/0002                        | 543329 |         5000.00 |                 |        25666.24 |
+ 01-Sep-2016 | TO - SBI CARD PAMAC SOC PARK - TO CTSIW CLG   | 543327 |         7400.00 |                 |        18266.24 |
+ 03-Sep-2016 | TOPOSTXN/624710600333/05004693/23455754       |        |         3020.00 |                 |        15246.24 |
+ 03-Sep-2016 | TOPOSTXN/624710007715/05004693/62698622       |        |          884.65 |                 |        14361.59 |
+ 05-Sep-2016 | TOPOSTXN/624800011930/05004693/40072696       |        |         1663.00 |                 |        12698.59 |
+ 05-Sep-2016 | TOPOSTXN/624822601504/05004693/75319750       |        |          330.00 |                 |        12368.59 |
+ 07-Sep-2016 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 543333 |         3850.00 |                 |         8518.59 |
+ 09-Sep-2016 | TO CASH SELF-0016/0002                        | 543334 |         3000.00 |                 |         5518.59 |
+ 12-Sep-2016 | TOPOSTXN/625513001707/05004693/62595630       |        |         1000.00 |                 |         4518.59 |
+ 12-Sep-2016 | TO CASH SELF-0016/0002                        | 543335 |         2000.00 |                 |         2518.59 |
+ 17-Sep-2016 | BY TR.30/18/07/783~18/07/000783/0030          |        |                 |        98982.00 |       101500.59 |
+ 17-Sep-2016 | BY TR 2/13/07/5 STAFF STY~13/07/000005/000    |        |                 |        95200.00 |       196700.59 |
+ 17-Sep-2016 | TO CASH SELF-0016/0002                        | 543336 |        10000.00 |                 |       186700.59 |
+ 19-Sep-2016 | TOPOSTXN/626213015832/05004693/41113701       |        |         1607.66 |                 |       185092.93 |
+ 26-Sep-2016 | TO CASH SELF-0016/0002                        | 543227 |        30000.00 |                 |       155092.93 |
+ 28-Sep-2016 | NET SAL-9-2016                                |        |                 |        29383.00 |       184475.93 |
+ 28-Sep-2016 | TO TR.30/50/13/42                             | 542781 |        20100.00 |                 |       164375.93 |
+ 29-Sep-2016 | TO - SBI CARD PAMAC SOC PARK - TO CTSIW CLG   | 543226 |         7300.00 |                 |       157075.93 |
+ 30-Sep-2016 | TOPOSTXN/627414823866/05004693/15301020       |        |          354.00 |                 |       156721.93 |
+ 30-Sep-2016 | TOPOSTXN/627414823889/05004693/15301020       |        |          688.00 |                 |       156033.93 |
+ 30-Sep-2016 | TOPOSTXN/627414823908/05004693/15301020       |        |          940.00 |                 |       155093.93 |
+ 30-Sep-2016 | BY INTEREST SB DAILY PRODUCT                  |        |                 |          571.00 |       155664.93 |
+ 01-Oct-2016 | TOPOSTXN/627500533187/05004693/00161221       |        |         1667.00 |                 |       153997.93 |
+ 03-Oct-2016 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 543228 |         3000.00 |                 |       150997.93 |
+ 05-Oct-2016 | TO CASH SELF-0016/0002                        | 543229 |         5000.00 |                 |       145997.93 |
+ 06-Oct-2016 | TOPOSTXN/627920020792/05004693/41122061       |        |         1512.19 |                 |       144485.74 |
+ 06-Oct-2016 | BY APB HP650854 130385 0110                   |        |                 |           34.68 |       144520.42 |
+ 06-Oct-2016 | TOPOSTXN/628016022192/05004693/40027901       |        |         2790.00 |                 |       141730.42 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :8 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    141730.42 |
+ 10-Oct-2016 | TOPOSTXN/628314016509/05004693/17027114       |        |         1000.00 |                 |       140730.42 |
+ 10-Oct-2016 | TO CASH SELF-0016/0002                        | 543230 |         5000.00 |                 |       135730.42 |
+ 13-Oct-2016 | TOPOSTXN/628516008584/05004693/40077830       |        |         3714.00 |                 |       132016.42 |
+ 13-Oct-2016 | TOPOSTXN/628516604352/05004693/24013418       |        |         1630.00 |                 |       130386.42 |
+ 13-Oct-2016 | TOPOSTXN/628518000744/05004693/F1199003       |        |        12660.00 |                 |       117726.42 |
+ 13-Oct-2016 | TOPOSTXN/628612017292/05004693/41113687       |        |         1539.04 |                 |       116187.38 |
+ 13-Oct-2016 | TOPOSTXN/628618023703/05004693/62595630       |        |          500.00 |                 |       115687.38 |
+ 13-Oct-2016 | TO CASH SELF-0016/0002                        | 543231 |        10000.00 |                 |       105687.38 |
+ 17-Oct-2016 | TOPOSTXN/629012007091/05004693/41113699       |        |         3595.32 |                 |       102092.06 |
+ 17-Oct-2016 | TOPOSTXN/629015604613/05004693/74313622       |        |         4793.00 |                 |        97299.06 |
+ 17-Oct-2016 | TOPOSTXN/629019013059/05004693/40018534       |        |         4023.00 |                 |        93276.06 |
+ 17-Oct-2016 | TOPOSTXN/629020016351/05004693/40078174       |        |          700.00 |                 |        92576.06 |
+ 18-Oct-2016 | BY APB BLPGCM40547DT1610                      |        |                 |           52.34 |        92628.40 |
+ 19-Oct-2016 | TOPOSTXN/629312601647/05004693/22040971       |        |          630.00 |                 |        91998.40 |
+ 19-Oct-2016 | TOPOSTXN/629318002576/05004693/40068193       |        |         2155.00 |                 |        89843.40 |
+ 20-Oct-2016 | TO CASH SELF-0016/0002                        | 543232 |        10000.00 |                 |        79843.40 |
+ 20-Oct-2016 | TO - THE NEW INDIA ASSURANCE - INDIA ASSURAN  | 543338 |        14632.00 |                 |        65211.40 |
+ 20-Oct-2016 | TO TRANSFER 50/13/42~50/13/000042/0030        | 542782 |        20100.00 |                 |        45111.40 |
+ 20-Oct-2016 | TOPOSTXN/629419030582/05004693/40041039       |        |         4110.00 |                 |        41001.40 |
+ 20-Oct-2016 | TOPOSTXN/629419031220/05004693/40016476       |        |          570.00 |                 |        40431.40 |
+ 24-Oct-2016 | NET BONUS-10-2016                             |        |                 |        76082.00 |       116513.40 |
+ 24-Oct-2016 | TO CASH SELF-0016/0002                        | 543233 |        10000.00 |                 |       106513.40 |
+ 26-Oct-2016 | TOPOSTXN/630010022647/05004693/62595630       |        |         1400.00 |                 |       105113.40 |
+ 26-Oct-2016 | TOPOSTXN/630021602128/05004693/23450235       |        |          850.00 |                 |       104263.40 |
+ 27-Oct-2016 | BY APB BLPGCM43112DT2610                      |        |                 |           52.34 |       104315.74 |
+ 27-Oct-2016 | TO CASH SELF-0016/0002                        | 543236 |         5000.00 |                 |        99315.74 |
+ 28-Oct-2016 | NET SAL-10-2016                               |        |                 |        37113.00 |       136428.74 |
+ 28-Oct-2016 | TOPOSTXN/630216978536/05004693/15301020       |        |          353.00 |                 |       136075.74 |
+ 28-Oct-2016 | TOPOSTXN/630216978552/05004693/15301020       |        |          957.00 |                 |       135118.74 |
+ 28-Oct-2016 | TOPOSTXN/630216978573/05004693/15301020       |        |          613.00 |                 |       134505.74 |
+ 28-Oct-2016 | TOPOSTXN/630216978591/05004693/15301020       |        |          613.00 |                 |       133892.74 |
+ 28-Oct-2016 | BY-REV-POSTXN/630216978573/05004693/15301020  |        |                 |          613.00 |       134505.74 |
+ 28-Oct-2016 | TOPOSTXN/630216978627/05004693/15301020       |        |         2810.00 |                 |       131695.74 |
+ 29-Oct-2016 | TO CASH SELF-0016/0002                        | 543237 |         5000.00 |                 |       126695.74 |
+ 29-Oct-2016 | TOPOSTXN/630317606281/05004693/20108369       |        |         1340.00 |                 |       125355.74 |
+ 31-Oct-2016 | TO - SBI CARD PAMAC NORMAL P - TO CTSIW CLG   | 543235 |         7171.00 |                 |       118184.74 |
+ 03-Nov-2016 | TO CASH SELF-0016/0002                        | 543238 |        15000.00 |                 |       103184.74 |
+ 05-Nov-2016 | TOPOSTXN/630922601692/05004693/73310921       |        |         1840.00 |                 |       101344.74 |
+ 08-Nov-2016 | TO CASH SELF-0016/0002                        | 543239 |        10000.00 |                 |        91344.74 |
+ 10-Nov-2016 | TO CASH SELF-0016/0002                        | 543240 |        10000.00 |                 |        81344.74 |
+ 15-Nov-2016 | TOPOSTXN/631917028691/05004693/41113689       |        |         1989.42 |                 |        79355.32 |
+ 15-Nov-2016 | TOPOSTXN/631918136123/05004693/20013692       |        |          480.00 |                 |        78875.32 |
+ 15-Nov-2016 | TOPOSTXN/631920508367/05004693/20013688       |        |          390.00 |                 |        78485.32 |
+ 15-Nov-2016 | TOPOSTXN/631921032181/05004693/40075754       |        |          470.00 |                 |        78015.32 |
+ 19-Nov-2016 | BY CLG BY CLG/84655/99900911/1877/032         |  84655 |                 |         6250.00 |        84265.32 |
+ 19-Nov-2016 | BY CLG BY CLG/84654/99900911/1897/032         |  84654 |                 |         6250.00 |        90515.32 |
+ 23-Nov-2016 | TOPOSTXN/632815324741/05004693/15301020       |        |          349.00 |                 |        90166.32 |
+ 23-Nov-2016 | TOPOSTXN/632815324785/05004693/15301020       |        |          826.00 |                 |        89340.32 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                                Page :9 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     89340.32 |
+ 23-Nov-2016 | TOPOSTXN/632815324849/05004693/15301020       |        |          401.00 |                 |        88939.32 |
+ 23-Nov-2016 | TOPOSTXN/632815324879/05004693/15301020       |        |          553.00 |                 |        88386.32 |
+ 23-Nov-2016 | TOPOSTXN/632816610845/05004693/73732468       |        |          745.00 |                 |        87641.32 |
+ 24-Nov-2016 | TO CASH SELF-0016/0002                        | 543241 |        10000.00 |                 |        77641.32 |
+ 25-Nov-2016 | BY APB HP650854 168137 1711                   |        |                 |           70.37 |        77711.69 |
+ 28-Nov-2016 | NET SAL-11-2016                               |        |                 |        37847.00 |       115558.69 |
+ 30-Nov-2016 | TOPOSTXN/633421613354/05004693/26312651       |        |         1895.00 |                 |       113663.69 |
+ 30-Nov-2016 | TOPOSTXN/633421615510/05004693/26312651       |        |          349.00 |                 |       113314.69 |
+ 30-Nov-2016 | TO TR.30/50/13/42                             | 542783 |        20100.00 |                 |        93214.69 |
+ 02-Dec-2016 | TOPOSTXN/633716611262/05004693/73732468       |        |          500.00 |                 |        92714.69 |
+ 02-Dec-2016 | TO CHQ BOOK ISSUE CHARGE AMT                  |        |          104.00 |                 |        92610.69 |
+ 05-Dec-2016 | TOPOSTXN/633913619420/05004693/23455754       |        |          767.00 |                 |        91843.69 |
+ 05-Dec-2016 | By RTGS :089011100003878                      |        |                 |       229000.00 |       320843.69 |
+ 05-Dec-2016 | TO - SBI CARD PAMAC SOC PARK - TO CTSIW CLG   | 543244 |        30000.00 |                 |       290843.69 |
+ 06-Dec-2016 | TO/13/07/5/MDCC STAFF STY.~13/07/000005/0002  | 543246 |       100000.00 |                 |       190843.69 |
+ 08-Dec-2016 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 543245 |          100.00 |                 |       190743.69 |
+ 09-Dec-2016 | TO - SBI CARD PAMAC NORMAL P - TO CTSIW CLG   | 543247 |       100000.00 |                 |        90743.69 |
+ 09-Dec-2016 | TO CASH SELF-0016/0002                        | 543248 |        10000.00 |                 |        80743.69 |
+ 09-Dec-2016 | TOPOSTXN/634421011068/05004693/F1758118       |        |          360.00 |                 |        80383.69 |
+ 12-Dec-2016 | TOPOSTXN/634521021937/05004693/40065118       |        |          500.00 |                 |        79883.69 |
+ 12-Dec-2016 | TOPOSTXN/634621611823/05004693/73310921       |        |          860.00 |                 |        79023.69 |
+ 12-Dec-2016 | TOPOSTXN/634715606151/05004693/57014395       |        |         1415.00 |                 |        77608.69 |
+ 14-Dec-2016 | TOPOSTXN/634917029360/05004693/22000948       |        |         1318.00 |                 |        76290.69 |
+ 14-Dec-2016 | BY-REV-POSTXN/634917029360/05004693/22000948  |        |                 |         1318.00 |        77608.69 |
+ 14-Dec-2016 | TOPOSTXN/634917031035/05004693/22000948       |        |         1318.00 |                 |        76290.69 |
+ 16-Dec-2016 | TOPOSTXN/635120015619/05004693/40065081       |        |         1000.00 |                 |        75290.69 |
+ 16-Dec-2016 | TO ATM CARD HANDLING CHARGES \29-JAN-2014     |        |          173.00 |                 |        75117.69 |
+ 20-Dec-2016 | TOPOSTXN/635420026041/05004693/62604285       |        |         3210.61 |                 |        71907.08 |
+ 21-Dec-2016 | TO CASH SELF-0016/0002                        | 543249 |        10000.00 |                 |        61907.08 |
+ 21-Dec-2016 | TOPOSTXN/635622023574/05004693/40070983       |        |         2230.00 |                 |        59677.08 |
+ 23-Dec-2016 | TO CASH SELF-0016/0002                        | 543250 |        10000.00 |                 |        49677.08 |
+ 27-Dec-2016 | TOPOSTXN/636220005006/05004693/40065081       |        |         1000.00 |                 |        48677.08 |
+ 28-Dec-2016 | NET SAL-12-2016                               |        |                 |        41519.00 |        90196.08 |
+ 28-Dec-2016 | TOPOSTXN/636317622441/05004693/73732468       |        |          986.00 |                 |        89210.08 |
+ 30-Dec-2016 | TO CASH SELF-0016/0002                        | 543251 |         4000.00 |                 |        85210.08 |
+ 31-Dec-2016 | TO TRANSFER 30/50/13/42~50/13/000042/0030     | 542784 |        20100.00 |                 |        65110.08 |
+ 31-Dec-2016 | TOPOSTXN/636617939363/05004693/15301020       |        |          301.00 |                 |        64809.08 |
+ 31-Dec-2016 | TOPOSTXN/636617939443/05004693/15301020       |        |          802.00 |                 |        64007.08 |
+ 31-Dec-2016 | TOPOSTXN/636617939501/05004693/15301020       |        |          440.00 |                 |        63567.08 |
+ 31-Dec-2016 | TOPOSTXN/636617939686/05004693/15301020       |        |          516.00 |                 |        63051.08 |
+ 31-Dec-2016 | TOPOSTXN/636618016089/05004693/22000707       |        |          624.00 |                 |        62427.08 |
+ 31-Dec-2016 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1120.00 |        63547.08 |
+ 02-Jan-2017 | TOPOSTXN/636622009600/05004693/40078405       |        |         3040.00 |                 |        60507.08 |
+ 02-Jan-2017 | TOPOSTXN/700113010085/05004693/62698622       |        |          485.00 |                 |        60022.08 |
+ 06-Jan-2017 | BY APB HP650854 105627 0301                   |        |                 |          121.97 |        60144.05 |
+ 13-Jan-2017 | TOPOSTXN/701220000981/05004693/62604301       |        |         1394.76 |                 |        58749.29 |
+ 13-Jan-2017 | TOPOSTXN/701221619387/05004693/23456611       |        |          770.00 |                 |        57979.29 |
+ 13-Jan-2017 | TOPOSTXN/701314007936/05004693/88009989       |        |         1091.00 |                 |        56888.29 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :10 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     56888.29 |
+ 13-Jan-2017 | TOPOSTXN/701319643151/05004693/MS310752       |        |         1207.00 |                 |        55681.29 |
+ 16-Jan-2017 | TOPOSTXN/701320686713/05004693/MS443946       |        |          439.00 |                 |        55242.29 |
+ 18-Jan-2017 | TO TRANSFER~50/13/000042/0030                 | 542785 |        20100.00 |                 |        35142.29 |
+ 19-Jan-2017 | TOPOSTXN/701821016959/05004693/40065081       |        |         1700.00 |                 |        33442.29 |
+ 20-Jan-2017 | TOPOSTXN/702014721380/05004693/15301020       |        |          377.00 |                 |        33065.29 |
+ 20-Jan-2017 | TOPOSTXN/702014721422/05004693/15301020       |        |          943.00 |                 |        32122.29 |
+ 20-Jan-2017 | TOPOSTXN/702014721452/05004693/15301020       |        |          637.00 |                 |        31485.29 |
+ 20-Jan-2017 | TOPOSTXN/702014721483/05004693/15301020       |        |          448.00 |                 |        31037.29 |
+ 21-Jan-2017 | TO CASH SELF-0016/0002                        | 543252 |        15000.00 |                 |        16037.29 |
+ 24-Jan-2017 | TOPOSTXN/702321022971/05004693/40065081       |        |         2400.00 |                 |        13637.29 |
+ 24-Jan-2017 | BY APB BLPGCM62861DT2201                      |        |                 |          140.08 |        13777.37 |
+ 25-Jan-2017 | TO CASH SELF-0016/0002                        | 543253 |         4000.00 |                 |         9777.37 |
+ 25-Jan-2017 | TO TR 30/18/07/783~18/07/000783/0030          | 543254 |         1000.00 |                 |         8777.37 |
+ 27-Jan-2017 | NET SAL-1-2017                                |        |                 |        44159.00 |        52936.37 |
+ 30-Jan-2017 | TOPOSTXN/702812613063/05004693/77311781       |        |         1420.00 |                 |        51516.37 |
+ 30-Jan-2017 | TOPOSTXN/702819613452/05004693/00118182       |        |         7990.00 |                 |        43526.37 |
+ 08-Feb-2017 | BY TRANSFER 02/13/07/05~13/07/000005/0002     |        |                 |       250200.00 |       293726.37 |
+ 09-Feb-2017 | TO CASH SELF-0016/0002                        | 544817 |        10000.00 |                 |       283726.37 |
+ 13-Feb-2017 | TO CASH SELF-0016/0002                        | 544818 |        14000.00 |                 |       269726.37 |
+ 13-Feb-2017 | TOPOSTXN/704420611905/05004693/82319034       |        |         1500.00 |                 |       268226.37 |
+ 15-Feb-2017 | TO - SBI CARD PAMAC NORMAL P - TO CTSIW CLG   | 544816 |         6200.00 |                 |       262026.37 |
+ 16-Feb-2017 | TOPOSTXN/704711617132/05004693/77317563       |        |         3685.00 |                 |       258341.37 |
+ 16-Feb-2017 | TOPOSTXN/704715029629/05004693/48013171       |        |          700.00 |                 |       257641.37 |
+ 16-Feb-2017 | BY-REV-POSTXN/704715029629/05004693/48013171  |        |                 |          700.00 |       258341.37 |
+ 16-Feb-2017 | TOPOSTXN/704719608544/05004693/20206096       |        |          500.00 |                 |       257841.37 |
+ 17-Feb-2017 | TO TR.30/50/13/42 & 30/18/07/783              | 542786 |        21000.00 |                 |       236841.37 |
+ 17-Feb-2017 | TOPOSTXN/704813018202/05004693/48055025       |        |         2664.00 |                 |       234177.37 |
+ 20-Feb-2017 | TOPOSTXN/705012013695/05004693/62604302       |        |         1921.84 |                 |       232255.53 |
+ 20-Feb-2017 | TOPOSTXN/705012014881/05004693/88089552       |        |          415.00 |                 |       231840.53 |
+ 22-Feb-2017 | TOPOSTXN/705314695185/05004693/15301020       |        |          447.00 |                 |       231393.53 |
+ 22-Feb-2017 | TOPOSTXN/705314695222/05004693/15301020       |        |          799.00 |                 |       230594.53 |
+ 22-Feb-2017 | TOPOSTXN/705314695257/05004693/15301020       |        |          804.00 |                 |       229790.53 |
+ 22-Feb-2017 | TOPOSTXN/705314695282/05004693/15301020       |        |          920.00 |                 |       228870.53 |
+ 22-Feb-2017 | TOPOSTXN/705314695309/05004693/15301020       |        |          385.00 |                 |       228485.53 |
+ 23-Feb-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0002        |        |           17.00 |                 |       228468.53 |
+ 23-Feb-2017 | TO TR NEFT TR HO-RTGS/99/01/001703/0002       | 544819 |       150000.00 |                 |        78468.53 |
+ 28-Feb-2017 | NET SAL-2-2017                                |        |                 |        33951.00 |       112419.53 |
+ 28-Feb-2017 | TO CASH SELF-0016/0002                        | 544820 |         5000.00 |                 |       107419.53 |
+ 01-Mar-2017 | BY APB HP650854 150622 2502                   |        |                 |          187.56 |       107607.09 |
+ 04-Mar-2017 | TOPOSTXN/706221019676/05004693/40078404       |        |         3070.00 |                 |       104537.09 |
+ 04-Mar-2017 | TO - D A V PUBLIC SCHOOL - TO CTSIW CLG : 80  | 543255 |          800.00 |                 |       103737.09 |
+ 09-Mar-2017 | TO CASH SELF-0016/0002                        | 544821 |        10000.00 |                 |        93737.09 |
+ 10-Mar-2017 | TOPOSTXN/706919009439/05004693/22000707       |        |         1345.00 |                 |        92392.09 |
+ 13-Mar-2017 | TOPOSTXN/707023601108/05004693/77317609       |        |         1850.00 |                 |        90542.09 |
+ 13-Mar-2017 | TOPOSTXN/707112612402/05004693/78317233       |        |         1669.88 |                 |        88872.21 |
+ 20-Mar-2017 | TOPOSTXN/707821022917/05004693/41113695       |        |         3743.79 |                 |        85128.42 |
+ 22-Mar-2017 | TO CASH SELF-0016/0002                        | 544822 |         5000.00 |                 |        80128.42 |
+ 22-Mar-2017 | TO TRANSFER~18/07/000783 & 50/13/42           | 542787 |        20950.00 |                 |        59178.42 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :11 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     59178.42 |
+ 23-Mar-2017 | TOPOSTXN/708218438747/05004693/15301020       |        |          361.00 |                 |        58817.42 |
+ 23-Mar-2017 | TOPOSTXN/708218438770/05004693/15301020       |        |          733.00 |                 |        58084.42 |
+ 23-Mar-2017 | TOPOSTXN/708218438803/05004693/15301020       |        |          412.00 |                 |        57672.42 |
+ 23-Mar-2017 | TOPOSTXN/708218438845/05004693/15301020       |        |          517.00 |                 |        57155.42 |
+ 24-Mar-2017 | BY APB BLPGCM75836DT2303                      |        |                 |          292.28 |        57447.70 |
+ 24-Mar-2017 | TO CASH SELF-0016/0002                        | 544823 |        15000.00 |                 |        42447.70 |
+ 28-Mar-2017 | NET SAL-3-2017                                |        |                 |        44539.00 |        86986.70 |
+ 31-Mar-2017 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1079.00 |        88065.70 |
+ 03-Apr-2017 | TOPOSTXN/709214685299/05004693/13865020       |        |         1000.00 |                 |        87065.70 |
+ 03-Apr-2017 | TOPOSTXN/709218036751/05004693/42025120       |        |          405.00 |                 |        86660.70 |
+ 03-Apr-2017 | TOPOSTXN/709320010749/05004693/40084877       |        |          600.00 |                 |        86060.70 |
+ 05-Apr-2017 | BY ACH 201216 635514334783                    |        |                 |         1000.00 |        87060.70 |
+ 06-Apr-2017 | TO CASH SELF-0016/0002                        | 544824 |        10000.00 |                 |        77060.70 |
+ 10-Apr-2017 | TOPOSTXN/709810017216/05004693/62778100       |        |          600.00 |                 |        76460.70 |
+ 10-Apr-2017 | TOPOSTXN/709814032657/05004693/40086806       |        |         1000.00 |                 |        75460.70 |
+ 10-Apr-2017 | TOPOSTXN/709912015975/05004693/F1758130       |        |          555.00 |                 |        74905.70 |
+ 12-Apr-2017 | TO CASH SELF-0016/0002                        | 544825 |        20000.00 |                 |        54905.70 |
+ 13-Apr-2017 | TOPOSTXN/710318032672/05004693/40086664       |        |         1353.00 |                 |        53552.70 |
+ 15-Apr-2017 | TOPOSTXN/710412037508/05004693/42025120       |        |          530.00 |                 |        53022.70 |
+ 15-Apr-2017 | INC TAX REFUND 2016-2017~99/01/001770/0001    |        |                 |            1.00 |        53023.70 |
+ 17-Apr-2017 | TOPOSTXN/710612003400/05004693/62572913       |        |          990.00 |                 |        52033.70 |
+ 17-Apr-2017 | TOPOSTXN/710613004454/05004693/62572913       |        |          840.00 |                 |        51193.70 |
+ 17-Apr-2017 | TOPOSTXN/710615628691/05004693/20013692       |        |          990.00 |                 |        50203.70 |
+ 20-Apr-2017 | TO TR.30/50/13/42 & 30/18/07/783 MTH OF MAR17 | 542788 |        21230.00 |                 |        28973.70 |
+ 24-Apr-2017 | TOPOSTXN/711214347995/05004693/42M83633       |        |          890.00 |                 |        28083.70 |
+ 24-Apr-2017 | TOPOSTXN/711221006281/05004693/48057897       |        |         1900.00 |                 |        26183.70 |
+ 27-Apr-2017 | TOPOSTXN/711714019073/05004693/40071472       |        |          550.00 |                 |        25633.70 |
+ 27-Apr-2017 | TOPOSTXN/711717263306/05004693/15301020       |        |          401.00 |                 |        25232.70 |
+ 27-Apr-2017 | TOPOSTXN/711717263349/05004693/15301020       |        |         1319.00 |                 |        23913.70 |
+ 28-Apr-2017 | NET SAL-4-2017                                |        |                 |        42111.00 |        66024.70 |
+ 28-Apr-2017 | TO CASH SELF-0016/0002                        | 544827 |         4000.00 |                 |        62024.70 |
+ 28-Apr-2017 | TOPOSTXN/711817615633/05004693/73732468       |        |          374.00 |                 |        61650.70 |
+ 29-Apr-2017 | TOPOSTXN/711821024274/05004693/28001670       |        |         1730.00 |                 |        59920.70 |
+ 29-Apr-2017 | TOPOSTXN/711910009839/05004693/62698622       |        |         1015.13 |                 |        58905.57 |
+ 29-Apr-2017 | BY CLG BY CLG/127802/99901030/284/032         | 127802 |                 |       255833.00 |       314738.57 |
+ 29-Apr-2017 | BY APB HP650854 197039 2704                   |        |                 |          253.15 |       314991.72 |
+ 29-Apr-2017 | TO - LIC OF INDIA - INDIA/8001072\544826      | 544826 |        10000.00 |                 |       304991.72 |
+ 29-Apr-2017 | TOPOSTXN/711919321120/05004693/0263722M       |        |         3069.00 |                 |       301922.72 |
+ 01-May-2017 | TOPOSTXN/712018696340/05004693/0263722M       |        |         9206.00 |                 |       292716.72 |
+ 01-May-2017 | TOPOSTXN/712020004874/05004693/40071399       |        |         3000.00 |                 |       289716.72 |
+ 01-May-2017 | TOPOSTXN/712020012381/05004693/40032867       |        |          680.00 |                 |       289036.72 |
+ 01-May-2017 | TOPOSTXN/712111032125/05004693/62764218       |        |         1500.00 |                 |       287536.72 |
+ 01-May-2017 | TOPOSTXN/712113011084/05004693/62630319       |        |         4080.00 |                 |       283456.72 |
+ 01-May-2017 | TOPOSTXN/712114015485/05004693/62725190       |        |         6138.00 |                 |       277318.72 |
+ 05-May-2017 | TOPOSTXN/712514425725/05004693/15301020       |        |         2500.00 |                 |       274818.72 |
+ 06-May-2017 | TO CASH SELF-0016/0002                        | 544828 |        10000.00 |                 |       264818.72 |
+ 08-May-2017 | TOPOSTXN/712620020323/05004693/40932277       |        |        30000.00 |                 |       234818.72 |
+ 08-May-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0002        |        |            6.00 |                 |       234812.72 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :12 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    234812.72 |
+ 08-May-2017 | TO TR NEFT TR HO-RTGS/99/01/001703/0002       | 544829 |        31500.00 |                 |       203312.72 |
+ 15-May-2017 | TOPOSTXN/713318606793/05004693/78317225       |        |         3001.70 |                 |       200311.02 |
+ 15-May-2017 | TOPOSTXN/713420030327/05004693/17092695       |        |         1000.00 |                 |       199311.02 |
+ 15-May-2017 | TOPOSTXN/713420625706/05004693/23453882       |        |          447.00 |                 |       198864.02 |
+ 15-May-2017 | TOPOSTXN/713514639595/05004693/15301020       |        |          743.00 |                 |       198121.02 |
+ 15-May-2017 | TO CASH SELF-0016/0002                        | 542253 |        10000.00 |                 |       188121.02 |
+ 15-May-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0002        |        |            6.00 |                 |       188115.02 |
+ 15-May-2017 | TO TRANSFERNEFT VAIDEHEE G SALUNKHE-RTGS/99/0 | 542254 |        20000.00 |                 |       168115.02 |
+ 16-May-2017 | TO TRA 30/50/13/42~50/13/000042/0030          | 542789 |        21100.00 |                 |       147015.02 |
+ 17-May-2017 | TOPOSTXN/713620024343/05004693/62595630       |        |         1000.00 |                 |       146015.02 |
+ 17-May-2017 | TOPOSTXN/713622008344/05004693/40050861       |        |          320.00 |                 |       145695.02 |
+ 17-May-2017 | TOPOSTXN/713622012145/05004693/40077670       |        |         2057.00 |                 |       143638.02 |
+ 17-May-2017 | TOPOSTXN/713622605669/05004693/25450977       |        |          443.00 |                 |       143195.02 |
+ 18-May-2017 | TO CASH SELF-0016/0002                        | 542255 |        10600.00 |                 |       132595.02 |
+ 20-May-2017 | TOPOSTXN/714014750334/05004693/15301020       |        |          843.00 |                 |       131752.02 |
+ 20-May-2017 | TO CASH SELF-0016/0002                        | 542256 |        15000.00 |                 |       116752.02 |
+ 22-May-2017 | TOPOSTXN/714112001854/05004693/62595630       |        |         1800.00 |                 |       114952.02 |
+ 23-May-2017 | TO CASH SELF-0016/0002                        | 542257 |        20000.00 |                 |        94952.02 |
+ 24-May-2017 | TOPOSTXN/714323014468/05004693/62764218       |        |         2000.00 |                 |        92952.02 |
+ 25-May-2017 | TOPOSTXN/714421623566/05004693/77316088       |        |         1215.00 |                 |        91737.02 |
+ 25-May-2017 | TOPOSTXN/714512017437/05004693/48061383       |        |         1700.00 |                 |        90037.02 |
+ 25-May-2017 | TOPOSTXN/714512020804/05004693/48062868       |        |         1680.00 |                 |        88357.02 |
+ 25-May-2017 | TOPOSTXN/714515030472/05004693/48021903       |        |          437.00 |                 |        87920.02 |
+ 26-May-2017 | TOPOSTXN/714611000015/05004693/48049330       |        |          840.00 |                 |        87080.02 |
+ 26-May-2017 | TOPOSTXN/714613615164/05004693/77311781       |        |          665.00 |                 |        86415.02 |
+ 26-May-2017 | TOPOSTXN/714619610075/05004693/20108518       |        |         1900.00 |                 |        84515.02 |
+ 29-May-2017 | TOPOSTXN/714622609197/05004693/20407084       |        |         1420.00 |                 |        83095.02 |
+ 29-May-2017 | TOPOSTXN/714809010392/05004693/48025157       |        |         2105.00 |                 |        80990.02 |
+ 30-May-2017 | NET SAL-5-2017                                |        |                 |        43548.00 |       124538.02 |
+ 05-Jun-2017 | TOPOSTXN/715518012956/05004693/40079570       |        |        11599.00 |                 |       112939.02 |
+ 05-Jun-2017 | TOPOSTXN/715521615268/05004693/23453882       |        |          449.00 |                 |       112490.02 |
+ 09-Jun-2017 | TOPOSTXN/716018008534/05004693/40086664       |        |         1472.00 |                 |       111018.02 |
+ 12-Jun-2017 | TOPOSTXN/716117023878/05004693/62604297       |        |         3169.93 |                 |       107848.09 |
+ 12-Jun-2017 | TOPOSTXN/716221026601/05004693/88066942       |        |         1368.00 |                 |       106480.09 |
+ 12-Jun-2017 | TOPOSTXN/716221012620/05004693/88060959       |        |          304.00 |                 |       106176.09 |
+ 15-Jun-2017 | To PREMIUM FOR PMJJY                          |        |          330.00 |                 |       105846.09 |
+ 16-Jun-2017 | TO TRANSFER GOLD HSG INT 18/07/783 & 50/13/42 | 542790 |        21660.00 |                 |        84186.09 |
+ 16-Jun-2017 | To PREMIUM FOR PMSBY                          |        |           12.00 |                 |        84174.09 |
+ 17-Jun-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0002        |        |            6.00 |                 |        84168.09 |
+ 17-Jun-2017 | TO TRANSFER NEFT TR HO-RTGS/99/01/001703/0002 | 542260 |        30000.00 |                 |        54168.09 |
+ 17-Jun-2017 | TO CASH SELF-0016/0002                        | 542261 |        10000.00 |                 |        44168.09 |
+ 19-Jun-2017 | TOPOSTXN/716910026667/05004693/62595630       |        |         1000.00 |                 |        43168.09 |
+ 19-Jun-2017 | TO - DAY PUBLIC SCHOOL  NERU - TO CTSIW CLG   | 542258 |         9330.00 |                 |        33838.09 |
+ 19-Jun-2017 | TO - DAY PUBLIC SCHOOL  NERU - TO CTSIW CLG   | 542259 |         9330.00 |                 |        24508.09 |
+ 20-Jun-2017 | BY:REFUND/711221006281/22-APR-2017 - JUN-17   |        |                 |           14.25 |        24522.34 |
+ 20-Jun-2017 | BY:REFUND/709214685299/02-APR-2017 - JUN-17   |        |                 |            7.50 |        24529.84 |
+ 20-Jun-2017 | BY:REFUND/709814032657/08-APR-2017 - JUN-17   |        |                 |            7.50 |        24537.34 |
+ 21-Jun-2017 | BY CASH/0002                                  |        |                 |         4000.00 |        28537.34 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :13 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     28537.34 |
+ 21-Jun-2017 | TO - UNIVERSAL TUTORIALS PRI - TO CTSIW CLG   | 542262 |        28290.00 |                 |          247.34 |
+ 21-Jun-2017 | BY:REFUND/704813018202/17-FEB-2017 - JUN-17   |        |                 |           19.98 |          267.32 |
+ 21-Jun-2017 | BY:REFUND/712111032125/01-MAY-2017 - JUN-17   |        |                 |           11.25 |          278.57 |
+ 22-Jun-2017 | BY TR 02/13/07/05~13/07/000005/0002           |        |                 |       232800.00 |       233078.57 |
+ 22-Jun-2017 | TO CASH SELF-0016/0002                        | 542263 |        10000.00 |                 |       223078.57 |
+ 27-Jun-2017 | TOPOSTXN/717714006932/05004693/17000239       |        |         1020.00 |                 |       222058.57 |
+ 27-Jun-2017 | TOPOSTXN/717719001716/05004693/62604289       |        |         2877.20 |                 |       219181.37 |
+ 27-Jun-2017 | TOPOSTXN/717720900171/05004693/20038273       |        |          425.00 |                 |       218756.37 |
+ 28-Jun-2017 | NET SAL-6-2017                                |        |                 |        41167.00 |       259923.37 |
+ 28-Jun-2017 | BY APB HP650854 039171 2606                   |        |                 |           77.12 |       260000.49 |
+ 28-Jun-2017 | TOPOSTXN/717913006763/05004693/62713105       |        |          515.00 |                 |       259485.49 |
+ 28-Jun-2017 | TOPOSTXN/717918567371/05004693/15301020       |        |          271.00 |                 |       259214.49 |
+ 28-Jun-2017 | TOPOSTXN/717918567433/05004693/15301020       |        |          820.00 |                 |       258394.49 |
+ 28-Jun-2017 | TOPOSTXN/717918567486/05004693/15301020       |        |         1500.00 |                 |       256894.49 |
+ 29-Jun-2017 | TOPOSTXN/718012009204/05004693/F1285014       |        |          265.00 |                 |       256629.49 |
+ 29-Jun-2017 | TOPOSTXN/718013580070/05004693/15301020       |        |         2725.00 |                 |       253904.49 |
+ 30-Jun-2017 | TO CASH SELF-0016/0002                        | 542264 |        10000.00 |                 |       243904.49 |
+ 30-Jun-2017 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1415.00 |       245319.49 |
+ 03-Jul-2017 | TOPOSTXN/718322027778/05004693/62764218       |        |         1000.00 |                 |       244319.49 |
+ 03-Jul-2017 | TO - TATA CAPITAL TATA CAPIT - TO CTSIW CLG   | 542251 |         9362.00 |                 |       234957.49 |
+ 06-Jul-2017 | TO CASH SELF-0016/0002                        | 542265 |        15000.00 |                 |       219957.49 |
+ 10-Jul-2017 | TOPOSTXN/718919621667/05004693/22377156       |        |         3958.93 |                 |       215998.56 |
+ 10-Jul-2017 | TOPOSTXN/719020607119/05004693/79312127       |        |          669.00 |                 |       215329.56 |
+ 11-Jul-2017 | TOPOSTXN/719215840434/05004693/14991020       |        |          220.00 |                 |       215109.56 |
+ 14-Jul-2017 | TOPOSTXN/719517031183/05004693/41141549       |        |         2990.00 |                 |       212119.56 |
+ 18-Jul-2017 | TOPOSTXN/719918007585/05004693/15301020       |        |          582.00 |                 |       211537.56 |
+ 18-Jul-2017 | TOPOSTXN/719918007615/05004693/15301020       |        |         1408.00 |                 |       210129.56 |
+ 18-Jul-2017 | TOPOSTXN/719918007652/05004693/15301020       |        |          404.00 |                 |       209725.56 |
+ 18-Jul-2017 | TOPOSTXN/719918007671/05004693/15301020       |        |          325.00 |                 |       209400.56 |
+ 18-Jul-2017 | TOPOSTXN/719918007688/05004693/15301020       |        |         1097.00 |                 |       208303.56 |
+ 20-Jul-2017 | TOPOSTXN/720119022526/05004693/88009989       |        |          504.00 |                 |       207799.56 |
+ 21-Jul-2017 | TOPOSTXN/720215604658/05004693/57014395       |        |         1064.00 |                 |       206735.56 |
+ 21-Jul-2017 | TOPOSTXN/720219623174/05004693/20401283       |        |          540.00 |                 |       206195.56 |
+ 24-Jul-2017 | ToATM0016/720412009686                        |        |         6000.00 |                 |       200195.56 |
+ 28-Jul-2017 | NET SAL-7-2017                                |        |                 |        41435.00 |       241630.56 |
+ 28-Jul-2017 | BY APB HP650854 063315 2607                   |        |                 |           62.73 |       241693.29 |
+ 28-Jul-2017 | ToATM0016/720920000476                        |        |         6000.00 |                 |       235693.29 |
+ 28-Jul-2017 | TOPOSTXN/720921001314/05004693/62698622       |        |         1090.75 |                 |       234602.54 |
+ 29-Jul-2017 | TOPOSTXN/721014790687/05004693/4620905M       |        |          530.00 |                 |       234072.54 |
+ 29-Jul-2017 | TOPOSTXN/721014612570/05004693/20106515       |        |          575.00 |                 |       233497.54 |
+ 31-Jul-2017 | ToATM0016/721116002683                        |        |         5000.00 |                 |       228497.54 |
+ 02-Aug-2017 | TOPOSTXN/721420620962/05004693/23453882       |        |         1008.00 |                 |       227489.54 |
+ 03-Aug-2017 | TOPOSTXN/721421010377/05004693/62764218       |        |         1000.00 |                 |       226489.54 |
+ 03-Aug-2017 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |       222306.54 |
+ 03-Aug-2017 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |       218507.54 |
+ 03-Aug-2017 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |       217127.54 |
+ 03-Aug-2017 | TOPOSTXN/721518008340/05004693/40090765       |        |         2970.00 |                 |       214157.54 |
+ 05-Aug-2017 | ToATM0016/721621001459                        |        |         5000.00 |                 |       209157.54 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :14 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    209157.54 |
+ 05-Aug-2017 | TOPOSTXN/721717023029/05004693/22000707       |        |         1240.00 |                 |       207917.54 |
+ 08-Aug-2017 | ToATM0016/722013013224                        |        |         8000.00 |                 |       199917.54 |
+ 09-Aug-2017 | TOPOSTXN/722021603649/05004693/23455754       |        |          653.00 |                 |       199264.54 |
+ 09-Aug-2017 | TOPOSTXN/722118010535/05004693/62604306       |        |         1197.56 |                 |       198066.98 |
+ 11-Aug-2017 | BY:REFUND/718322027778/02-JUL-2017 - AUG-17   |        |                 |            7.50 |       198074.48 |
+ 11-Aug-2017 | BY:REFUND/716910026667/18-JUN-2017 - AUG-17   |        |                 |            7.50 |       198081.98 |
+ 11-Aug-2017 | BY:REFUND/714809010392/28-MAY-2017 - AUG-17   |        |                 |           15.79 |       198097.77 |
+ 11-Aug-2017 | BY:REFUND/714512017437/25-MAY-2017 - AUG-17   |        |                 |           12.75 |       198110.52 |
+ 11-Aug-2017 | BY:REFUND/714323014468/23-MAY-2017 - AUG-17   |        |                 |           15.00 |       198125.52 |
+ 11-Aug-2017 | BY:REFUND/713620024343/16-MAY-2017 - AUG-17   |        |                 |            7.50 |       198133.02 |
+ 11-Aug-2017 | BY:REFUND/714112001854/21-MAY-2017 - AUG-17   |        |                 |           13.50 |       198146.52 |
+ 11-Aug-2017 | BY:REFUND/704719608544/16-FEB-2017 - AUG-17   |        |                 |            3.75 |       198150.27 |
+ 11-Aug-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0002        |        |            6.00 |                 |       198144.27 |
+ 11-Aug-2017 | TO TRANSFER N E F T-RTGS/99/01/001703/0002    | 544830 |       100000.00 |                 |        98144.27 |
+ 11-Aug-2017 | TOPOSTXN/722320603683/05004693/20401284       |        |          320.00 |                 |        97824.27 |
+ 14-Aug-2017 | TOPOSTXN/722511615213/05004693/78317226       |        |         2434.52 |                 |        95389.75 |
+ 14-Aug-2017 | TOPOSTXN/722520012602/05004693/41106545       |        |         2248.00 |                 |        93141.75 |
+ 14-Aug-2017 | TOPOSTXN/722521613957/05004693/82319034       |        |         1550.00 |                 |        91591.75 |
+ 17-Aug-2017 | ToATM0016/722909003404                        |        |         6000.00 |                 |        85591.75 |
+ 17-Aug-2017 | TOPOSTXN/722910007244/05004693/62764218       |        |          500.00 |                 |        85091.75 |
+ 17-Aug-2017 | TOPOSTXN/722912015156/05004693/62819556       |        |          839.00 |                 |        84252.75 |
+ 17-Aug-2017 | TOPOSTXN/722914032177/05004693/40055011       |        |          956.00 |                 |        83296.75 |
+ 17-Aug-2017 | TOPOSTXN/722917616115/05004693/22315077       |        |         5400.00 |                 |        77896.75 |
+ 18-Aug-2017 | TO TR 30/50/13/42~50/13/000042/0030           | 547546 |        20100.00 |                 |        57796.75 |
+ 21-Aug-2017 | TOPOSTXN/723219003663/05004693/40075932       |        |          800.00 |                 |        56996.75 |
+ 21-Aug-2017 | TOPOSTXN/723221616400/05004693/23455754       |        |          715.00 |                 |        56281.75 |
+ 21-Aug-2017 | BY TRANSFER99/01/1200 STAFF STY DUVUDAND~99/0 |        |                 |        10367.00 |        66648.75 |
+ 23-Aug-2017 | TOPOSTXN/723521601063/05004693/20401283       |        |          300.00 |                 |        66348.75 |
+ 24-Aug-2017 | TOPOSTXN/723522248559/05004693/42025120       |        |          195.00 |                 |        66153.75 |
+ 24-Aug-2017 | ToATM0016/723522004374                        |        |         8000.00 |                 |        58153.75 |
+ 25-Aug-2017 | NET SAL-8-2017                                |        |                 |        42082.00 |       100235.75 |
+ 28-Aug-2017 | TOPOSTXN/723819004870/05004693/13552020       |        |          703.00 |                 |        99532.75 |
+ 28-Aug-2017 | TOPOSTXN/723819004956/05004693/13552020       |        |         2676.00 |                 |        96856.75 |
+ 28-Aug-2017 | TOPOSTXN/723820024890/05004693/40089227       |        |         6290.00 |                 |        90566.75 |
+ 28-Aug-2017 | ToATM0016/723908004811                        |        |         5000.00 |                 |        85566.75 |
+ 28-Aug-2017 | TOPOSTXN/723915605495/05004693/23453882       |        |         1024.00 |                 |        84542.75 |
+ 28-Aug-2017 | TO TRANSFER 30/50/13/42~50/13/000042/0030     | 548896 |        40200.00 |                 |        44342.75 |
+ 30-Aug-2017 | BY:REFUND/721421010377/02-AUG-2017 - AUG-17   |        |                 |            7.50 |        44350.25 |
+ 31-Aug-2017 | TOPOSTXN/724309006140/05004693/62595630       |        |         1000.00 |                 |        43350.25 |
+ 04-Sep-2017 | TOPOSTXN/724621140280/05004693/0317422M       |        |          441.00 |                 |        42909.25 |
+ 04-Sep-2017 | TOPOSTXN/724621144941/05004693/4502003M       |        |         1010.00 |                 |        41899.25 |
+ 04-Sep-2017 | ToATM0016/5883                                |        |         5000.00 |                 |        36899.25 |
+ 04-Sep-2017 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |        32716.25 |
+ 04-Sep-2017 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |        28917.25 |
+ 04-Sep-2017 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |        27537.25 |
+ 08-Sep-2017 | TOPOSTXN/725119821325/05004693/42025120       |        |          525.00 |                 |        27012.25 |
+ 11-Sep-2017 | TOPOSTXN/725218602277/05004693/22458379       |        |         1599.00 |                 |        25413.25 |
+ 11-Sep-2017 | ToATM0016/725218066324                        |        |         6000.00 |                 |        19413.25 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :15 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     19413.25 |
+ 11-Sep-2017 | TOPOSTXN/725218000133/05004693/62595630       |        |         1814.00 |                 |        17599.25 |
+ 11-Sep-2017 | TOPOSTXN/725220041743/05004693/F1758145       |        |         1635.00 |                 |        15964.25 |
+ 11-Sep-2017 | TOPOSTXN/725418031393/05004693/48051851       |        |          500.00 |                 |        15464.25 |
+ 11-Sep-2017 | TOPOSTXN/725419625588/05004693/20108676       |        |         2700.00 |                 |        12764.25 |
+ 18-Sep-2017 | TOPOSTXN/726020000120/05004693/62604284       |        |         1349.81 |                 |        11414.44 |
+ 28-Sep-2017 | NET SAL-9-2017                                |        |                 |        41153.00 |        52567.44 |
+ 28-Sep-2017 | TO TR 30/50/13/42~50/13/000042/0030           | 548897 |        20100.00 |                 |        32467.44 |
+ 29-Sep-2017 | TO CASH SELF/0002                             | 547548 |        10000.00 |                 |        22467.44 |
+ 29-Sep-2017 | TOPOSTXN/727218936674/05004693/15301020       |        |          500.00 |                 |        21967.44 |
+ 29-Sep-2017 | TOPOSTXN/727218936748/05004693/15301020       |        |         1237.00 |                 |        20730.44 |
+ 29-Sep-2017 | TOPOSTXN/727218936779/05004693/15301020       |        |         1018.00 |                 |        19712.44 |
+ 29-Sep-2017 | TOPOSTXN/727218936836/05004693/15301020       |        |          592.00 |                 |        19120.44 |
+ 29-Sep-2017 | TOPOSTXN/727218014302/05004693/22000707       |        |          776.00 |                 |        18344.44 |
+ 30-Sep-2017 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         1357.00 |        19701.44 |
+ 03-Oct-2017 | BY APB BLPGCM35793DT2909                      |        |                 |          103.65 |        19805.09 |
+ 03-Oct-2017 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |        15622.09 |
+ 03-Oct-2017 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |        14242.09 |
+ 03-Oct-2017 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |        10443.09 |
+ 05-Oct-2017 | BY APB BLPGCM36865DT0410                      |        |                 |          148.82 |        10591.91 |
+ 06-Oct-2017 | BY APB HP650854 019836 0410                   |        |                 |          131.19 |        10723.10 |
+ 11-Oct-2017 | NET BONUS-10-2017                             |        |                 |        85294.00 |        96017.10 |
+ 11-Oct-2017 | BY CASH R D KADAM                             |        |                 |         4000.00 |       100017.10 |
+ 13-Oct-2017 | TO CASH SELF-0016/0002                        | 547549 |        15000.00 |                 |        85017.10 |
+ 16-Oct-2017 | BY:REFUND/722910007244/17-AUG-2017 - OCT-17   |        |                 |            3.75 |        85020.85 |
+ 16-Oct-2017 | BY:REFUND/724309006140/31-AUG-2017 - OCT-17   |        |                 |            7.50 |        85028.35 |
+ 16-Oct-2017 | BY:REFUND/725419625588/11-SEP-2017 - OCT-17   |        |                 |           20.25 |        85048.60 |
+ 16-Oct-2017 | BY:REFUND/725418031393/11-SEP-2017 - OCT-17   |        |                 |            3.75 |        85052.35 |
+ 17-Oct-2017 | TO CASH SELF-0016/0002                        | 547550 |        15000.00 |                 |        70052.35 |
+ 18-Oct-2017 | TOPOSTXN/729021785658/05004693/20171827       |        |         3153.00 |                 |        66899.35 |
+ 18-Oct-2017 | TOPOSTXN/729022860663/05004693/20171823       |        |         5806.00 |                 |        61093.35 |
+ 19-Oct-2017 | TOPOSTXN/729208025821/05004693/48052482       |        |         1905.68 |                 |        59187.67 |
+ 20-Oct-2017 | TOPOSTXN/729317027080/05004693/48013509       |        |         3825.00 |                 |        55362.67 |
+ 23-Oct-2017 | TOPOSTXN/729514020991/05004693/48062741       |        |         1910.00 |                 |        53452.67 |
+ 25-Oct-2017 | TOPOSTXN/729813648525/05004693/15301020       |        |          584.00 |                 |        52868.67 |
+ 25-Oct-2017 | TOPOSTXN/729814648589/05004693/15301020       |        |         1035.00 |                 |        51833.67 |
+ 25-Oct-2017 | TOPOSTXN/729814648659/05004693/15301020       |        |          979.00 |                 |        50854.67 |
+ 25-Oct-2017 | TOPOSTXN/729814648786/05004693/15301020       |        |          655.00 |                 |        50199.67 |
+ 27-Oct-2017 | TOPOSTXN/730018014804/05004693/88009989       |        |          554.00 |                 |        49645.67 |
+ 30-Oct-2017 | NET SAL-10-2017                               |        |                 |        46343.00 |        95988.67 |
+ 30-Oct-2017 | TOPOSTXN/730020418119/05004693/42025120       |        |          270.00 |                 |        95718.67 |
+ 30-Oct-2017 | TOPOSTXN/730020607529/05004693/20401284       |        |          600.00 |                 |        95118.67 |
+ 30-Oct-2017 | TO TR 30/50/13/42~50/13/000042/0030           | 547553 |        20100.00 |                 |        75018.67 |
+ 30-Oct-2017 | TO - SEA QUEEN EXCELLENCY CO - TO CTSIW CLG   | 547552 |        28710.00 |                 |        46308.67 |
+ 01-Nov-2017 | TO - THE NEW INDIA ASSURANCE - INDIA ASSURAN  | 547551 |        14335.00 |                 |        31973.67 |
+ 02-Nov-2017 | TO TRANSFER 30/18/07/1042~18/07/001042/0030   | 547554 |         1000.00 |                 |        30973.67 |
+ 03-Nov-2017 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |        26790.67 |
+ 03-Nov-2017 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |        25410.67 |
+ 03-Nov-2017 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |        21611.67 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :16 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     21611.67 |
+ 03-Nov-2017 | TOPOSTXN/730717620747/05004693/20401284       |        |          600.00 |                 |        21011.67 |
+ 06-Nov-2017 | TOPOSTXN/730920615631/05004693/27377687       |        |         4100.00 |                 |        16911.67 |
+ 10-Nov-2017 | ToATM0016/731418569678                        |        |         3000.00 |                 |        13911.67 |
+ 10-Nov-2017 | TOPOSTXN/731418025838/05004693/40086664       |        |          581.00 |                 |        13330.67 |
+ 13-Nov-2017 | TOPOSTXN/731612603593/05004693/23455754       |        |          507.00 |                 |        12823.67 |
+ 13-Nov-2017 | ToATM0016/731619006998                        |        |         1500.00 |                 |        11323.67 |
+ 13-Nov-2017 | TOPOSTXN/731619627574/05004693/23455754       |        |          374.00 |                 |        10949.67 |
+ 14-Nov-2017 | BY APB HP650854 050834 1111                   |        |                 |          220.11 |        11169.78 |
+ 20-Nov-2017 | TOPOSTXN/732412006551/05004693/62604288       |        |          863.52 |                 |        10306.26 |
+ 20-Nov-2017 | ToATM0016/732419007994                        |        |         2000.00 |                 |         8306.26 |
+ 23-Nov-2017 | BY:POS/729021785658/18-OCT-17/CASHBK - NOV-17 |        |                 |           12.61 |         8318.87 |
+ 23-Nov-2017 | BY:POS/729022860663/18-OCT-17/CASHBK - NOV-17 |        |                 |           23.22 |         8342.09 |
+ 23-Nov-2017 | BY:POS/729317027080/20-OCT-17/CASHBK - NOV-17 |        |                 |           15.30 |         8357.39 |
+ 24-Nov-2017 | TOPOSTXN/732722282973/05004693/4394503M       |        |          703.00 |                 |         7654.39 |
+ 24-Nov-2017 | ToATM0016/732722008508                        |        |         2000.00 |                 |         5654.39 |
+ 27-Nov-2017 | TOPOSTXN/733012010708/05004693/62595630       |        |         1000.00 |                 |         4654.39 |
+ 28-Nov-2017 | NET SAL-11-2017                               |        |                 |        42578.00 |        47232.39 |
+ 28-Nov-2017 | BY APB BLPGCM47874DT2511                      |        |                 |          237.26 |        47469.65 |
+ 28-Nov-2017 | TO TR 30/50/13/42~50/13/000042/0030           | 547555 |        20100.00 |                 |        27369.65 |
+ 28-Nov-2017 | ToATM0016/733214939295/10/05/004693/MDCC0006  |        |         3000.00 |                 |        24369.65 |
+ 28-Nov-2017 | TOPOSTXN/733216027734/05004693/40074610       |        |          610.00 |                 |        23759.65 |
+ 28-Nov-2017 | BY:REFUND/729208025821/19-OCT-2017 - NOV-17   |        |                 |           14.29 |        23773.94 |
+ 28-Nov-2017 | BY:REFUND/729514020991/22-OCT-2017 - NOV-17   |        |                 |           14.33 |        23788.27 |
+ 30-Nov-2017 | TOPOSTXN/733320022660/05004693/40087617       |        |          700.00 |                 |        23088.27 |
+ 30-Nov-2017 | ToATM0016/733412978508/10/05/004693/MDCC0006  |        |         2000.00 |                 |        21088.27 |
+ 30-Nov-2017 | TOPOSTXN/733416031922/05004693/28018075       |        |          609.00 |                 |        20479.27 |
+ 01-Dec-2017 | TOPOSTXN/733512402225/05004693/4394503M       |        |          173.00 |                 |        20306.27 |
+ 01-Dec-2017 | TOPOSTXN/733512620277/05004693/20401283       |        |          600.00 |                 |        19706.27 |
+ 02-Dec-2017 | TOPOSTXN/733521610991/05004693/23453882       |        |          296.00 |                 |        19410.27 |
+ 02-Dec-2017 | ToATM0016/733521009683                        |        |         2500.00 |                 |        16910.27 |
+ 02-Dec-2017 | BY CASH                                       |        |                 |         8400.00 |        25310.27 |
+ 02-Dec-2017 | TOPOSTXN/733621027919/05004693/40087617       |        |          200.00 |                 |        25110.27 |
+ 04-Dec-2017 | ToATM0016/733716009897                        |        |         3000.00 |                 |        22110.27 |
+ 04-Dec-2017 | ByREV0016/733716009897                        |        |                 |         3000.00 |        25110.27 |
+ 04-Dec-2017 | ToATM0016/733716009898                        |        |         3000.00 |                 |        22110.27 |
+ 04-Dec-2017 | ByREV0016/733716009898                        |        |                 |         3000.00 |        25110.27 |
+ 04-Dec-2017 | ToATM0016/733716019613                        |        |         3000.00 |                 |        22110.27 |
+ 04-Dec-2017 | TOPOSTXN/733719029899/05004693/40075932       |        |          800.00 |                 |        21310.27 |
+ 04-Dec-2017 | TOPOSTXN/733721007142/05004693/62764218       |        |         1000.00 |                 |        20310.27 |
+ 04-Dec-2017 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |        18930.27 |
+ 04-Dec-2017 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |        14747.27 |
+ 04-Dec-2017 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |        10948.27 |
+ 04-Dec-2017 | BY:REFUND/733012010708/26-NOV-2017 - DEC-17   |        |                 |            7.50 |        10955.77 |
+ 07-Dec-2017 | TO - LIC 903000XXXXXX02317 - TO CTSIW CLG :   | 547556 |         5000.00 |                 |         5955.77 |
+ 11-Dec-2017 | ToATM0016/734317000603                        |        |         2000.00 |                 |         3955.77 |
+ 11-Dec-2017 | TOPOSTXN/734318003144/05004693/41113697       |        |          844.24 |                 |         3111.53 |
+ 16-Dec-2017 | ToATM0016/735011316290/10/05/004693/MDCC0006  |        |         1500.00 |                 |         1611.53 |
+ 18-Dec-2017 | BY TR SALUNKE GIRISH P LEV EN 60 DAYS~99/01/0 |        |                 |       145385.00 |       146996.53 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :17 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    146996.53 |
+ 18-Dec-2017 | ToATM0016/735214360284/10/05/004693/MDCC0006  |        |         6000.00 |                 |       140996.53 |
+ 19-Dec-2017 | TO TR 30/18/07/1042~18/07/001042/0030         | 542267 |         1200.00 |                 |       139796.53 |
+ 19-Dec-2017 | TOPOSTXN/735315378846/05004693/13919020       |        |          432.00 |                 |       139364.53 |
+ 19-Dec-2017 | TOPOSTXN/735315378896/05004693/13919020       |        |          594.00 |                 |       138770.53 |
+ 19-Dec-2017 | TOPOSTXN/735315378942/05004693/13919020       |        |          903.00 |                 |       137867.53 |
+ 19-Dec-2017 | TOPOSTXN/735315378980/05004693/13919020       |        |          484.00 |                 |       137383.53 |
+ 19-Dec-2017 | TOPOSTXN/735315378996/05004693/13919020       |        |          192.00 |                 |       137191.53 |
+ 20-Dec-2017 | By NEFT :EMPLOYEE PROVIDENT F                 |        |                 |      2100000.00 |      2237191.53 |
+ 21-Dec-2017 | TOPOSTXN/735517602475/05004693/27458006       |        |         2395.00 |                 |      2234796.53 |
+ 21-Dec-2017 | TOPOSTXN/735517028978/05004693/22000707       |        |          577.00 |                 |      2234219.53 |
+ 22-Dec-2017 | BY:REFUND/733721007142/03-DEC-2017 - DEC-17   |        |                 |            7.50 |      2234227.03 |
+ 26-Dec-2017 | TOPOSTXN/735720611074/05004693/23455754       |        |          950.00 |                 |      2233277.03 |
+ 26-Dec-2017 | ToATM0016/735720032431                        |        |         6000.00 |                 |      2227277.03 |
+ 26-Dec-2017 | TOPOSTXN/735911026077/05004693/17027114       |        |         1000.00 |                 |      2226277.03 |
+ 26-Dec-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0006        |        |           18.00 |                 |      2226259.03 |
+ 26-Dec-2017 | TO TR SARASWAT BANK-RTGS/99/01/001703/0006    |        |       200000.00 |                 |      2026259.03 |
+ 26-Dec-2017 | TO TR 30/50/13/42~50/13/000042/0030           | 543339 |        20100.00 |                 |      2006159.03 |
+ 26-Dec-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0006        |        |            6.00 |                 |      2006153.03 |
+ 26-Dec-2017 | TO TR HSBC AC NO 1165-RTGS/99/01/001703/0006  |        |        56249.00 |                 |      1949904.03 |
+ 26-Dec-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0006        |        |            6.00 |                 |      1949898.03 |
+ 26-Dec-2017 | TO TR HSBC AC NO 1165-RTGS/99/01/001703/0006  |        |        56249.00 |                 |      1893649.03 |
+ 26-Dec-2017 | By NEFT :766983449                            |        |                 |        56249.00 |      1949898.03 |
+ 26-Dec-2017 | By NEFT :757326335                            |        |                 |        56249.00 |      2006147.03 |
+ 26-Dec-2017 | TO CASH SELF-0016/0006                        | 543340 |        10000.00 |                 |      1996147.03 |
+ 27-Dec-2017 | TO RTGS CHARGES                               |        |           59.00 |                 |      1996088.03 |
+ 27-Dec-2017 | TO TR RTGS GIRISH PRATAPRAOSALUNKHE (ABHYUDAY |        |       520000.00 |                 |      1476088.03 |
+ 27-Dec-2017 | BY APB HP650854 085486 2312                   |        |                 |          225.62 |      1476313.65 |
+ 27-Dec-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0006        |        |            6.00 |                 |      1476307.65 |
+ 27-Dec-2017 | TO TR MAX LIFE INSURANCE (HSBC)-RTGS/99/01/00 |        |        56249.00 |                 |      1420058.65 |
+ 27-Dec-2017 | TO NEFT CHARGES-RTGS/99/01/001703/0006        |        |            6.00 |                 |      1420052.65 |
+ 27-Dec-2017 | TO TR NEFT MAX LIFE INSYRANCE (HSBC BANK )-RT |        |        56249.00 |                 |      1363803.65 |
+ 28-Dec-2017 | NET SAL-12-2017                               |        |                 |        32929.00 |      1396732.65 |
+ 28-Dec-2017 | ToATM0016/736120008829                        |        |         3000.00 |                 |      1393732.65 |
+ 28-Dec-2017 | TO ATMW TRANS. FEE: ATM8901/CHG736120008829   |        |           23.96 |                 |      1393708.69 |
+ 30-Dec-2017 | TOPOSTXN/736320003962/05004693/62698622       |        |          945.82 |                 |      1392762.87 |
+ 30-Dec-2017 | ToATM0016/736409603716/10/05/004693/MDCC0006  |        |        10000.00 |                 |      1382762.87 |
+ 30-Dec-2017 | TO CASH ASHOK/0006                            | 542269 |         5000.00 |                 |      1377762.87 |
+ 30-Dec-2017 | BY INTEREST SB DAILY PRODUCT                  |        |                 |         3038.00 |      1380800.87 |
+ 01-Jan-2018 | TOPOSTXN/736512008184/05004693/62764218       |        |         1000.00 |                 |      1379800.87 |
+ 03-Jan-2018 | ToATM0016/800311004133                        |        |         5000.00 |                 |      1374800.87 |
+ 03-Jan-2018 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |      1370617.87 |
+ 03-Jan-2018 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |      1369237.87 |
+ 03-Jan-2018 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |      1365438.87 |
+ 03-Jan-2018 | ToATM0016/800312143543                        |        |         5000.00 |                 |      1360438.87 |
+ 03-Jan-2018 | TOPOSTXN/800319615967/05004693/23453882       |        |         1335.00 |                 |      1359103.87 |
+ 08-Jan-2018 | TO - LIC 903000XXXXXX02317 - TO CTSIW CLG :   | 542270 |         5000.00 |                 |      1354103.87 |
+ 09-Jan-2018 | TO RTGS CHARGES                               |        |           30.00 |                 |      1354073.87 |
+ 09-Jan-2018 | TO TRANSFER RTGS                              |        |       500000.00 |                 |       854073.87 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :18 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    854073.87 |
+ 09-Jan-2018 | TO RTGS CHARGES                               |        |           30.00 |                 |       854043.87 |
+ 09-Jan-2018 | TO TRANSFER RTGS                              |        |       500000.00 |                 |       354043.87 |
+ 10-Jan-2018 | TO - TITAN COMPANY LTD - TO CTSIW CLG : 8001  | 543344 |       179359.00 |                 |       174684.87 |
+ 11-Jan-2018 | TOPOSTXN/801119000065/05004693/41185463       |        |         3899.00 |                 |       170785.87 |
+ 12-Jan-2018 | TOPOSTXN/801219636595/05004693/82319033       |        |         1395.00 |                 |       169390.87 |
+ 15-Jan-2018 | ToATM0016/801309005514                        |        |         5000.00 |                 |       164390.87 |
+ 15-Jan-2018 | TOPOSTXN/801311001265/05004693/17027114       |        |         1000.00 |                 |       163390.87 |
+ 15-Jan-2018 | TOPOSTXN/801519007115/05004693/41113697       |        |         1125.00 |                 |       162265.87 |
+ 17-Jan-2018 | TO - ZZZZZZZZZZZZZZZZZZZ - TO CTSIW CLG : 80  | 542272 |         4665.00 |                 |       157600.87 |
+ 17-Jan-2018 | TO - ZZZZZZZZZZZZZZZZZZZ - TO CTSIW CLG : 80  | 542271 |         4665.00 |                 |       152935.87 |
+ 19-Jan-2018 | ToATM0016/801910029056/10/05/004693/MDCC0006  |        |         8000.00 |                 |       144935.87 |
+ 22-Jan-2018 | TOPOSTXN/802121030699/05004693/41187478       |        |         1076.00 |                 |       143859.87 |
+ 22-Jan-2018 | BY:REFUND/735911026077/25-DEC-2017 - JAN-18   |        |                 |            7.50 |       143867.37 |
+ 22-Jan-2018 | BY:REFUND/736512008184/31-DEC-2017 - JAN-18   |        |                 |            7.50 |       143874.87 |
+ 22-Jan-2018 | BY:REFUND/801311001265/13-JAN-2018 - JAN-18   |        |                 |            7.50 |       143882.37 |
+ 22-Jan-2018 | TOPOSTXN/802217591283/05004693/13919020       |        |          192.00 |                 |       143690.37 |
+ 22-Jan-2018 | TOPOSTXN/802217591331/05004693/13919020       |        |          504.00 |                 |       143186.37 |
+ 22-Jan-2018 | TOPOSTXN/802217591386/05004693/13919020       |        |          506.00 |                 |       142680.37 |
+ 22-Jan-2018 | TOPOSTXN/802217591462/05004693/13919020       |        |          586.00 |                 |       142094.37 |
+ 22-Jan-2018 | TOPOSTXN/802217591521/05004693/13919020       |        |          508.00 |                 |       141586.37 |
+ 24-Jan-2018 | ToATM0016/802412135123/10/05/004693/MDCC0006  |        |         6000.00 |                 |       135586.37 |
+ 25-Jan-2018 | TOPOSTXN/802518621501/05004693/23454237       |        |         7000.00 |                 |       128586.37 |
+ 29-Jan-2018 | TOPOSTXN/802612029060/05004693/62698622       |        |          311.85 |                 |       128274.52 |
+ 29-Jan-2018 | TOPOSTXN/802711615387/05004693/23454237       |        |          900.00 |                 |       127374.52 |
+ 29-Jan-2018 | TOPOSTXN/802716000582/05004693/62604292       |        |         1821.39 |                 |       125553.13 |
+ 29-Jan-2018 | TOPOSTXN/802821031625/05004693/62901783       |        |         6600.00 |                 |       118953.13 |
+ 29-Jan-2018 | By NEFT :HEALTH INDIA TPA SER                 |        |                 |        59826.00 |       178779.13 |
+ 30-Jan-2018 | NET SAL-1-2018                                |        |                 |        38120.00 |       216899.13 |
+ 30-Jan-2018 | ToATM0016/803010257178/10/05/004693/MDCC0006  |        |         5000.00 |                 |       211899.13 |
+ 01-Feb-2018 | TO TRANSFER 30/50/13/42~50/13/000042/0030     | 542275 |        40200.00 |                 |       171699.13 |
+ 01-Feb-2018 | TO TRANSFER 30/18/07/42~18/07/001042/0030     | 542276 |         3000.00 |                 |       168699.13 |
+ 01-Feb-2018 | TOPOSTXN/803217003833/05004693/40090765       |        |         1360.00 |                 |       167339.13 |
+ 02-Feb-2018 | TOPOSTXN/803307029284/05004693/62764218       |        |         1000.00 |                 |       166339.13 |
+ 03-Feb-2018 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |       162156.13 |
+ 03-Feb-2018 | TO ACH TATACAPFINSERLTD                       |        |         1380.00 |                 |       160776.13 |
+ 03-Feb-2018 | TO ACH TATACAPFINSERLTD                       |        |         3799.00 |                 |       156977.13 |
+ 03-Feb-2018 | ToATM0016/803415347765/10/05/004693/MDCC0006  |        |         3000.00 |                 |       153977.13 |
+ 05-Feb-2018 | TOPOSTXN/803513022695/05004693/41310574       |        |          591.00 |                 |       153386.13 |
+ 05-Feb-2018 | ToATM0016/803609384048/10/05/004693/MDCC0006  |        |         5000.00 |                 |       148386.13 |
+ 06-Feb-2018 | TOPOSTXN/803718623197/05004693/22311417       |        |         9000.00 |                 |       139386.13 |
+ 07-Feb-2018 | ToATM0016/803817433364/10/05/004693/MDCC0006  |        |         3000.00 |                 |       136386.13 |
+ 09-Feb-2018 | TOPOSTXN/804019008983/05004693/62507951       |        |          690.00 |                 |       135696.13 |
+ 12-Feb-2018 | TOPOSTXN/804213017052/05004693/62604294       |        |         1995.86 |                 |       133700.27 |
+ 12-Feb-2018 | TOPOSTXN/804213605608/05004693/20401284       |        |          520.00 |                 |       133180.27 |
+ 12-Feb-2018 | ToATM0016/804314537284/10/05/004693/MDCC0006  |        |         3000.00 |                 |       130180.27 |
+ 13-Feb-2018 | TOPOSTXN/804419025654/05004693/88170675       |        |          799.00 |                 |       129381.27 |
+ 14-Feb-2018 | TOPOSTXN/804420029850/05004693/88010455       |        |         5000.00 |                 |       124381.27 |
+ 14-Feb-2018 | ToATM0016/804517582722/10/05/004693/MDCC0006  |        |         5000.00 |                 |       119381.27 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                     MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0016-FORT                                      
+                                The Mumbai Bank Bhavan,207,Dr. D.N.Road ,Fort ,Mumbai-400001                                 
+
+Current Date  :14-Mar-2018                                                                                  UserId : REPORT16
+Time : 14:43:19 PM                                                                                               Page :19 / 19
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Mar-2018                                             
+
+   Accountno :00161005004693
+   Name: SALUNKHE GIRISH PRATAPRAO
+   Address :SEA QUEEN EXCELLENCY FLAT NO.804
+   B-WING 8TH FLOOR SECTOR-44 A,NERUL SEAWOOD NERUL (W)
+   MUMBAI,400706
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                    119381.27 |
+ 17-Feb-2018 | BY TR RRN804420029850DT14/02/18AC01/99/1/2270 |        |                 |         5000.00 |       124381.27 |
+ 17-Feb-2018 | TO - GALAXY FURNISHING - ING/8001298\543345   | 543345 |         5000.00 |                 |       119381.27 |
+ 19-Feb-2018 | TOPOSTXN/804914028288/05004693/17027114       |        |         1000.00 |                 |       118381.27 |
+ 19-Feb-2018 | TOPOSTXN/804921603495/05004693/78317223       |        |         1250.00 |                 |       117131.27 |
+ 19-Feb-2018 | TOPOSTXN/804921609256/05004693/20401284       |        |          600.00 |                 |       116531.27 |
+ 19-Feb-2018 | BY APB HP650854 032334 1702                   |        |                 |          214.64 |       116745.91 |
+ 19-Feb-2018 | TOPOSTXN/805012005255/05004693/62778100       |        |          272.26 |                 |       116473.65 |
+ 19-Feb-2018 | TOPOSTXN/805017001040/05004693/41122060       |        |         1498.00 |                 |       114975.65 |
+ 20-Feb-2018 | ToATM0016/805111000723                        |        |         5000.00 |                 |       109975.65 |
+ 20-Feb-2018 | TOPOSTXN/805113671832/05004693/23556020       |        |          413.00 |                 |       109562.65 |
+ 20-Feb-2018 | TOPOSTXN/805113671882/05004693/23556020       |        |          506.00 |                 |       109056.65 |
+ 20-Feb-2018 | TOPOSTXN/805113671936/05004693/23556020       |        |          471.00 |                 |       108585.65 |
+ 20-Feb-2018 | TOPOSTXN/805113671956/05004693/23556020       |        |          846.00 |                 |       107739.65 |
+ 20-Feb-2018 | TOPOSTXN/805113672019/05004693/23556020       |        |          192.00 |                 |       107547.65 |
+ 20-Feb-2018 | TOPOSTXN/805113672716/05004693/23556020       |        |          200.00 |                 |       107347.65 |
+ 21-Feb-2018 | TOPOSTXN/805121600772/05004693/23455754       |        |         1106.00 |                 |       106241.65 |
+ 23-Feb-2018 | TOPOSTXN/805416010375/05004693/40079570       |        |         2685.00 |                 |       103556.65 |
+ 23-Feb-2018 | TOPOSTXN/805417031783/05004693/41105693       |        |         1618.23 |                 |       101938.42 |
+ 26-Feb-2018 | TOPOSTXN/805422605049/05004693/20401283       |        |          520.00 |                 |       101418.42 |
+ 26-Feb-2018 | TOPOSTXN/805619027128/05004693/40961211       |        |         3200.00 |                 |        98218.42 |
+ 26-Feb-2018 | TOPOSTXN/805712863819/05004693/4223515M       |        |          900.00 |                 |        97318.42 |
+ 27-Feb-2018 | TOPOSTXN/805722008722/05004693/41190919       |        |          841.00 |                 |        96477.42 |
+ 27-Feb-2018 | TOPOSTXN/805722603615/05004693/26375410       |        |          280.00 |                 |        96197.42 |
+ 27-Feb-2018 | TOPOSTXN/805722010528/05004693/41190919       |        |          357.00 |                 |        95840.42 |
+ 27-Feb-2018 | TO CASH SELF-0016/0006                        | 544831 |        25000.00 |                 |        70840.42 |
+ 27-Feb-2018 | TOPOSTXN/805821030819/05004693/62764218       |        |         2891.00 |                 |        67949.42 |
+ 28-Feb-2018 | NET SAL-2-2018                                |        |                 |        33109.00 |       101058.42 |
+ 28-Feb-2018 | BY:REFUND/803307029284/02-FEB-2018 - FEB-18   |        |                 |            7.50 |       101065.92 |
+ 03-Mar-2018 | TO ACH TATACAPFINSERLTD                       |        |         4183.00 |                 |        96882.92 |
+ 12-Mar-2018 | TOPOSTXN/806916621614/05004693/74733483       |        |         1975.00 |                 |        94907.92 |
+ 12-Mar-2018 | ToATM0016/807020003850                        |        |         5000.00 |                 |        89907.92 |
+ 12-Mar-2018 | TOPOSTXN/807020620062/05004693/23453882       |        |          348.00 |                 |        89559.92 |
+ Closing Bal |                                                                                                     89559.92 |
+=============================================================================================================================
+     Total : |                                               |        |     14312841.69 |     14327895.01 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |     14312841.69 |     14327895.01 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

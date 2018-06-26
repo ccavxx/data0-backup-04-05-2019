@@ -1,0 +1,193 @@
+<html>
+<head><title>FORM Home</title>
+
+<link type="text/css" rel="stylesheet" href="../../Common/css/jquery-ui.css">
+<script src="../../Common/scripts/jquery-1.8.0.js"></script>
+<script src="../../Common/scripts/jquery-ui.js"></script>
+<style type="text/css">
+body {
+    border: 0 none;
+    color: #333333;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 0;
+    vertical-align: top;
+}
+.headerText{
+ color: #01578A;
+    float: right;
+    font-size: 2.6em;
+    padding-right: 105px;
+    padding-top: 25px;
+   font-family: icon;
+}
+html, body {
+    height: 100%;
+}
+
+.grid{ 
+background: none repeat scroll 0 0 #DBDCDE;
+border: 1px solid #CCCCCC;
+}
+.grid tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #F0F0F0;
+}
+h3, table caption, table th {
+    background: url("bg.png") repeat-x scroll left -377px #DBDCDE;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+
+    font-weight: 80;
+    padding: 5px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.grid tr:nth-child(2n) td, .grid tr:nth-child(2n+1) td {
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #FFFFFF;
+}
+.grid td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: left;
+	 border: 1px solid #CCCCCC;
+}
+#container{
+width: 95%;
+padding-top:10px;
+}
+.mart15 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.logorow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border: 5px solid #01578A;
+    border-image: none;
+    float: left;
+    padding: 0 10px;
+    width: auto;
+ margin: 0 auto -100px;
+    height:700px;
+}
+#container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: auto !important;
+    margin: 0 auto -100px;
+    min-height: 100%;
+
+}
+.grayBack{
+ background: url("bg.png") repeat-x scroll left -432px transparent;
+    width: auto;
+    border: 5px solid #01578A;
+}
+
+.fl-l{
+   float: left;
+}
+.borderSolid{
+	border: 1px solid;
+	margin: 10px;
+}
+#firstPage li{
+	line-height:17px;
+}
+#noXml{
+padding:10px;
+}
+.ui-tabs .ui-tabs-nav li a{
+	padding:1.2em 1.2em;
+}
+.ui-tabs .ui-tabs-panel{
+	padding:10px;
+	line-height:20px;
+}
+.tabheading{
+	font-weight:bold;
+	font-size:14px;
+	
+}
+.ui-state-active, .ui-widget-content .ui-state-active{
+	border:1px solid #000000;
+}
+</style>
+
+</head>
+<body>
+
+
+<form autocomplete="off" >
+
+<div  id="container">
+
+
+<div id="tabs" style="font:inherit;">
+<ul>
+<li><a href="#tab1"><span class="tabheading">How to use this Form?</span></a></li>
+<li><a href="#tab2"><span class="tabheading">Short Keys</span></a></li>
+<li><a href="#tab3"><span class="tabheading">Settings</span></a></li>
+
+</ul>
+<div id="tab1">
+
+This utility can be run on operating systems like Windows 7.0 or above and latest Linux, where Java Runtime Environment Version 7 Update 6 (jre 1.7 is also known as jre version 7) or above is installed. 
+<br>
+
+Please make sure you're connected to the internet before and after preparing the form for submission.
+
+The following are features available in the Form. 
+<ol>
+
+<li><b>New</b> - Click on this button, to open a new Form.</li>
+<li><b>Open</b> - This option is for importing the XML (successfully generated earlier) from your hard disk.  Select the path and import the XML. This option will work irrespective of any version change. It will caution you to check the contents before finalizing upload/submission.</li>
+<li><b>Save</b> - You can save your completed XML in the desired path/location of your desktop.</li>
+<li><b>Save Draft</b> - This option can be used to save your XML. Please note you cannot upload an XML which was saved using the &quot;Save draft&quot; option. Only a complete XML generated using the &quot;Save&quot; option can be uploaded successfully.</li>
+<li><b>Submit</b> -This option is used to upload/submit a single Form. You'll have to provide your e-Filing credentials (User ID, Password and DOB/DOI). Please make sure you're connected to the internet to avail this feature. (If the return is submitted without a DSC) as well.</li>
+<li><b>Previous/Next</b>These will help you to navigate to the various tabs of the ITR form.</li>
+<li><b>Submit Bulk </b>This option is used to upload/submit multiple XMLs of the form. Click on the browse button to select the files and click &quot;Validate XMLs&quot; option to validate the files. On successful validation, click on the &quot;Submit Form&quot; option. Please provide your e-Filing credentials (User ID, Password and DOB/DOI) and make sure you're connected to the internet. </li>
+
+</ol>
+
+</div>
+
+
+<div id="tab2" >
+<table class="grid"  width="100%">
+<tr><th>S.No.</th><th>Action</th><th>Short Key</th></tr>
+<tr>	<td>1</td><td> Alt + N</td><td>Opens a new Form</td></tr>
+	<tr><td>2</td><td> Alt + S</td><td>Saves the Form in the user desired path</td></tr>
+	<tr><tr><td>3</td><td> Alt + F4</td><td>Closes the utility</td></tr>
+	<tr><td>4</td><td> Alt + I</td><td>Imports the XML file</td> </tr>
+	<tr><td>5</td><td> Alt + C</td><td>Clears the validation errors</td></tr>
+	<tr><td>6</td><td> Alt + D</td><td>Hides/Shows the validation window</td> </tr>
+	<tr><td>7</td><td> Alt + T</td><td>Opens the SUBMIT screen to submit the Form</td></tr>
+	<tr><td>8</td><td> Alt + F1</td><td>Opens the help page</td></tr>
+	<tr><td>9</td><td> ALT + A</td><td>Save Draft</td></tr>
+	<tr><td>10</td><td> ALT + B</td><td>Submit Bulk</td></tr>
+		
+	</table>	
+</div>
+
+<div id="tab3" >
+	
+</div>
+
+</div>
+
+
+</div>
+</form>
+<script type="text/javascript">
+$(function() {
+$( "#tabs" ).tabs();
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+package com.itd.efiling.offline.ITR4.ctrl;
+
+import javafx.event.ActionEvent;
+import javafx.event.Event;
+import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+
+import com.itd.efiling.offline.ITR4.model.ImmovableDetails;
+import com.itd.efiling.offline.ITR4.model.Us44AeHeavy;
+import com.itd.efiling.offline.common.player.ctrl.Form;
+import com.itd.efiling.offline.common.reference.holders.RefHolders;
+import com.itd.efiling.offline.javafx.ui.components.TableViewController;
+
+public class ImmovableDetails_Table extends TableViewController<ImmovableDetails> implements Initializable{
+
+	
+	
+	
+	@Override
+	public ImmovableDetails getNewBean() {
+		// TODO Auto-generated method stub
+		 RefHolders.limitRows=false;
+		return new ImmovableDetails();
+	}
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		
+		ITRView form = (ITRView) Form.getForm();
+		form.setImmovableDetailsController(this);
+		
+	}
+
+	
+
+	
+	
+
+
+
+}

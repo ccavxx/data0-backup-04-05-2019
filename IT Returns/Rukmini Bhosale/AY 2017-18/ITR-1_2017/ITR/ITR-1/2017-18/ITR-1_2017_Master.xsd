@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://incometaxindiaefiling.gov.in/master"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://incometaxindiaefiling.gov.in/master"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xml:lang="EN-US">
+	
+	<xs:simpleType name="nonEmptyString">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="|(\s*([\w\d_=!@#$%\^*\(\){}\[\]\|\\:;',\.\?/~`\-\+&lt;&gt;&amp;&quot;][\s\w\d_=!@#$%\^*\(\){}\[\]\|\\:;',\.\?/~`\-\+&lt;&gt;&amp;&quot;]*)\s*)"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="CreationInfo">
+		<xs:annotation>
+			<xs:documentation>This element will be used by third party vendors
+				and intermediaries to give details of their software or xml
+				creation.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SWVersionNo" default="1.0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="10" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SWCreatedBy">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[S][W][0-9]{8}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="XMLCreatedBy">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="[S][W][0-9]{8}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="XMLCreationDate">
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2017-04-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="IntermediaryCity" default="Delhi">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Digest">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="-|.{44}" />					
+						</xs:restriction>
+					</xs:simpleType>				
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="Form_ITR1">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FormName" fixed="ITR-1">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString" />
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Description"
+					fixed="For Indls having Income from Salary, Pension, family pension and Interest"
+					>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="75" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AssessmentYear" fixed="2017">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="4" />
+							<xs:minLength value="4" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SchemaVer" default="Ver1.0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="10" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="FormVer" fixed="Ver1.0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="10" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PersonalInfo">
+		<xs:annotation>
+			<xs:documentation>Enter personal information</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="AssesseeName">
+					<xs:annotation>
+						<xs:documentation>Assessee name with Sur Name or Org Name
+							mandatory.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="PAN">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="10" />
+							<xs:pattern value="[A-Z][A-Z][A-Z][P][A-Z]\d\d\d\d[A-Z]" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="Address">
+					<xs:annotation>
+						<xs:documentation> Address of assessee</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DOB">
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+
+							<xs:maxInclusive value="2017-03-31" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="EmployerCategory" default="OTH">
+					<xs:annotation>
+						<xs:documentation>
+						    "GOV":"Government",
+                            "PSU":"Public Sector Unit",
+                            "OTH":"Others",
+                            "NA":"Not Applicable"
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:token">
+							<xs:maxLength value="3" />
+							<xs:minLength value="2" />
+							<xs:enumeration value="GOV" />
+							<xs:enumeration value="PSU" />
+							<xs:enumeration value="OTH" />
+							<xs:enumeration value="NA" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AadhaarCardNo" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="|[1-9][0-9]{11}|[1-9][0-9]{27}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>			
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FilingStatus">
+		<xs:annotation>
+			<xs:documentation> Filing status of assesse</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ReturnFileSec" default="11">
+					<xs:annotation>
+				        <xs:documentation>
+                            "11":"11 - On or Before Due Date 139(1)",
+							"12":"12 - After Due Date 139(4)",
+							"13":"13 - u/s 142(1)",
+							"14":"14 - u/s 148",
+							"15":"15 - u/s 153A",
+							"16":"16 - u/s 153C r/w 153A",
+							"17":"17 - Revised Return - 139(5)",
+							"18":"18 - u/s 139(9)",
+							"20":"20 - u/s 119(2)(b)"
+				        </xs:documentation>
+				    </xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedInt">
+							<xs:totalDigits value="2" />
+							<xs:enumeration value="11" />
+							<xs:enumeration value="12" />
+							<xs:enumeration value="13" />
+							<xs:enumeration value="14" />
+							<xs:enumeration value="15" />
+							<xs:enumeration value="16" />
+							<xs:enumeration value="17" />
+							<xs:enumeration value="18" />
+							<xs:enumeration value="20" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AckNoOriginalReturn" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation> Enter the Acknowledgement number of the
+							original return.
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:token">
+							<xs:maxLength value="15" />
+							<xs:pattern value="[0-9]{15}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="NoticeNo" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="23" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DefRetOrigRetFiledDate" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Enter date when the notice was issued to the
+							assessee to file a fresh return Sec139(9))
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2017-04-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ReturnType">
+				<xs:annotation>
+						<xs:documentation>
+						    "O":"Original",
+                            "R":"Revised"
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="1" />
+							<xs:enumeration value="O" />
+							<xs:enumeration value="R" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ReceiptNo" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Enter efiling or other Ack No of Original return
+							here in case of revised return
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:token">
+							<xs:maxLength value="15" />
+							<xs:pattern value="[0-9]{15}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="OrigRetFiledDate" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Enter Date of filing of Original return
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2017-04-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ResidentialStatus">
+				<xs:annotation>
+				    <xs:documentation>
+				       "RES":"RES - Resident",
+				       "NRI":"NRI - Non Resident",
+				       "NOR":"NOR - Resident but not Ordinarily Resident"
+				   </xs:documentation>
+				</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="3" />
+							<xs:enumeration value="RES" />
+							<xs:enumeration value="NRI" />
+							<xs:enumeration value="NOR" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PortugeseCC5A" minOccurs="1" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="1" />
+							<xs:enumeration value="Y" />
+							<xs:enumeration value="N" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PANOfSpouse" minOccurs="0" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="10" />
+							<xs:pattern value="[A-Z][A-Z][A-Z][P][A-Z]\d\d\d\d[A-Z]" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="NoticeDateUnderSec" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2017-04-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>									
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+ 	<xs:element name="ITR1_IncomeDeductions">
+		<xs:annotation>
+			<xs:documentation> Income and deduction details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="IncomeFromSal" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TypeOfHP" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+						<xs:documentation>House Property income Type
+						"S":"Self Occupied",
+						"L":"Let Out"
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="1" />
+							<xs:pattern value="|S|L" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalIncomeOfHP" default="0">
+					<xs:annotation>
+						<xs:documentation>House Property income</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:long">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="IncomeOthSrc" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="GrossTotIncome" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:long">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>					
+				</xs:element>
+				<xs:element name="UsrDeductUndChapVIA" type="DeductUndChapVIAType" >
+					<xs:annotation>
+						<xs:documentation>Deductions from income</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DeductUndChapVIA" type="DeductUndChapVIAType">
+					<xs:annotation>
+						<xs:documentation>Deductions from income</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TotalIncome" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ITR1_TaxComputation">
+		<xs:annotation>
+			<xs:documentation>Tax computation details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TotalTaxPayable" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Rebate87A" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:maxInclusive value="5000" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TaxPayableOnRebate" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="EducationCess" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="GrossTaxLiability" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section89" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="NetTaxLiability" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalIntrstPay" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="IntrstPay" maxOccurs="1" minOccurs="1" />
+				<xs:element name="TotTaxPlusIntrstPay" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TaxPaid">
+		<xs:annotation>
+			<xs:documentation>Tax paid details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="TaxesPaid"/>
+				<xs:element name="BalTaxPayable" default="0" >
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>		
+	<xs:element name="Refund">
+		<xs:annotation>
+			<xs:documentation>Refund details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="RefundDue" default="0">
+					<xs:annotation>
+						<xs:documentation>Refund due if Total Taxes Paid is greater than AggregateTaxInterest</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="BankAccountDtls" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Schedule80G">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Don100Percent" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="DoneeWithPan" maxOccurs="unbounded" />
+							<xs:element name="TotEligibleDon100Percent" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="TotDon100Percent" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Don50PercentNoApprReqd" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="DoneeWithPan" maxOccurs="unbounded" />
+							<xs:element name="TotEligibleDon50Percent" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="TotDon50PercentNoApprReqd" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Don100PercentApprReqd" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="DoneeWithPan" maxOccurs="unbounded" />
+							<xs:element name="TotEligibleDon100PercentApprReqd"
+								default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="TotDon100PercentApprReqd" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Don50PercentApprReqd" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="DoneeWithPan" maxOccurs="unbounded" />
+							<xs:element name="TotEligibleDon50PercentApprReqd"
+								default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="TotDon50PercentApprReqd" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TotalEligibleDonationsUs80G" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalDonationsUs80G" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TDSonSalaries">
+		<xs:annotation>
+			<xs:documentation>Salary TDS details.  </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="TDSonSalary" maxOccurs="unbounded" />
+				<xs:element name="TotalTDSonSalaries" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>        
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TDSonOthThanSals">
+		<xs:annotation>
+			<xs:documentation>22. Details of Tax Deducted at Source on Interest
+				[As per Form 16 A issued by Deductor(s)]
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="TDSonOthThanSal" maxOccurs="unbounded" />
+				<xs:element name="TotalTDSonOthThanSals" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ScheduleTCS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TCS" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="EmployerOrDeductorOrCollectDetl">
+								<xs:annotation>
+									<xs:documentation>Deductor Details</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AmtTaxCollected" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="CollectedYr">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="2016" />
+										<xs:enumeration value="2015" />
+										<xs:enumeration value="2014" />
+										<xs:enumeration value="2013" />
+										<xs:enumeration value="2012" />
+										<xs:enumeration value="2011" />
+										<xs:enumeration value="2010" />
+										<xs:enumeration value="2009" />
+										<xs:enumeration value="2008" />
+										<xs:enumeration value="2007" />
+										<xs:enumeration value="2006" />
+										<xs:enumeration value="2005" />
+										<xs:enumeration value="2004" />
+										<xs:enumeration value="2003" />
+										<xs:enumeration value="2002" />
+										<xs:enumeration value="2001" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="TotalTCS" default="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="AmtTCSClaimedThisYear" default="0">
+								<xs:annotation>
+									<xs:documentation>Amount out of (6) claimed for this year
+									</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="AmtClaimedBySpouse" default="0" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:unsignedLong">
+										<xs:totalDigits value="14" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TotalSchTCS" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TaxPayments">
+		<xs:annotation>
+			<xs:documentation>Tax payment details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="TaxPayment" maxOccurs="unbounded" />
+				<xs:element name="TotalTaxPayments" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Verification">
+		<xs:annotation>
+			<xs:documentation>Verification declaration details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Declaration">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AssesseeVerName">
+								<xs:simpleType>
+									<xs:restriction base="nonEmptyString">
+										<xs:minLength value="1" />
+										<xs:maxLength value="127" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="FatherName">
+								<xs:simpleType>
+									<xs:restriction base="nonEmptyString">
+										<xs:minLength value="1" />
+										<xs:maxLength value="125" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="AssesseeVerPAN">
+								<xs:simpleType>
+									<xs:restriction base="nonEmptyString">
+										<xs:length value="10" />
+										<xs:pattern value="[A-Z][A-Z][A-Z][P][A-Z]\d\d\d\d[A-Z]" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Place">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Date">
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2017-01-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BankAccountDtls">
+		<xs:annotation>
+			<xs:documentation>Bank details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PriBankDetails" type="BankDetailType" minOccurs="1" />			
+				<xs:element name="AddtnlBankDetails" type="BankDetailType" minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="BankDetailType">
+		<xs:sequence>
+			<xs:element name="IFSCCode">
+				<xs:simpleType>
+					<xs:restriction base="nonEmptyString">
+						<xs:pattern value="[A-Z]{4}[0][A-Z0-9]{6}" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="BankName">
+				<xs:simpleType>
+					<xs:restriction base="nonEmptyString">
+						<xs:minLength value="1" />
+						<xs:maxLength value="125" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="BankAccountNo">
+				<xs:simpleType>
+					<xs:restriction base="nonZeroString">
+						<xs:pattern value="[a-zA-Z0-9]([/-]?(((\d*[1-9]\d*)*[a-zA-Z/-])|(\d*[1-9]\d*[a-zA-Z]*))+)*[0-9]*" />
+						<xs:minLength value="1" />
+						<xs:maxLength value="20" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CashDeposited">
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedLong">
+						<xs:totalDigits value="14" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AssesseeName">
+		<xs:annotation>
+			<xs:documentation>Assessee name with Surname mandatory.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FirstName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="MiddleName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="25" />
+
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SurNameOrOrgName">
+					<xs:annotation>
+						<xs:documentation>Enter Last or Sur name for Individual name here
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="75" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Address">
+		<xs:annotation>
+			<xs:documentation> Address of assessee</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ResidenceNo">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="50" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ResidenceName" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="0" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RoadOrStreet" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="50" />
+							<xs:minLength value="0" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="LocalityOrArea">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="50" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CityOrTownOrDistrict">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="StateCode">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="0[1-9]{1}|1[0-9]{1}|2[0-9]{1}|3[0-6]{1}|99" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="CountryCode" />
+				<xs:element name="PinCode">
+					<xs:annotation>
+						<xs:documentation>Fill 999999 in case of Foreign Address
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="6" />
+							<xs:pattern value="[1-9]{1}[0-9]{5}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="MobileNo" minOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="10" />
+							<xs:pattern value="[1-9]{1}[0-9]{9}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="EmailAddress">
+					<xs:annotation>
+						<xs:documentation>Email Id is required for receiving copy of ITR-V
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="125" />
+							<xs:pattern
+								value="([\.a-zA-Z0-9_\-])+@([a-zA-Z0-9_\-])+(([a-zA-Z0-9_\-])*\.([a-zA-Z0-9_\-])+)+" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DeductUndChapVIAType">
+		<xs:annotation>
+			<xs:documentation> Deductions from income</xs:documentation>
+		</xs:annotation>
+			<xs:sequence>
+				<xs:element name="Section80C">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80CCC">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80CCDEmployeeOrSE">
+					<xs:annotation>
+						<xs:documentation>For Employee/SelfEmployed</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80CCD1B">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80CCDEmployer" >
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80D">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80DD">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80DDB">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80E">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80EE">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80G">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80GG">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80GGA">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80GGC">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80U">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80RRB">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80QQB">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80CCG">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Section80TTA">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalChapVIADeductions">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IntrstPay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="IntrstPayUs234A" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="IntrstPayUs234B" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="IntrstPayUs234C" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TaxesPaid">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AdvanceTax">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TDS">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TCS">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>	
+				<xs:element name="SelfAssessmentTax">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalTaxesPaid">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ExcIncSec1038" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ExcIncSec1034" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="OthersInc" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="OthersIncDtls" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OthersIncDtls">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="OthNatOfInc">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="75"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="OthAmount">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DoneeWithPan">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DoneeWithPanName">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="125" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DoneePAN">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="10" />
+							<xs:pattern value="[A-Z][A-Z][A-Z][A-Z][A-Z]\d\d\d\d[A-Z]" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="AddressDetail" />
+				<xs:element name="DonationAmt" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="EligibleDonationAmt" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TDSonSalary">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EmployerOrDeductorOrCollectDetl" />
+				<xs:element name="IncChrgSal" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotalTDSSal" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TDSonOthThanSal">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EmployerOrDeductorOrCollectDetl">
+					<xs:annotation>
+						<xs:documentation>Deductor Details</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="AmtForTaxDeduct" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DeductedYr">
+				<xs:simpleType>
+					<xs:restriction base="nonEmptyString">
+										<xs:length value="4" />
+										<xs:enumeration value="2016" />										
+										<xs:enumeration value="2015" />
+										<xs:enumeration value="2014" />
+										<xs:enumeration value="2013" />
+										<xs:enumeration value="2012" />
+										<xs:enumeration value="2011" />
+										<xs:enumeration value="2010" />
+										<xs:enumeration value="2009" />
+										<xs:enumeration value="2008" />
+										<xs:enumeration value="2007" />
+										<xs:enumeration value="2006" />
+										<xs:enumeration value="2005" />
+										<xs:enumeration value="2004" />
+										<xs:enumeration value="2003" />
+										<xs:enumeration value="2002" />
+										<xs:enumeration value="2001" />
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TotTDSOnAmtPaid" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ClaimOutOfTotTDSOnAmtPaid" default="0"
+					>
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="AmtClaimedBySpouse" default="0" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TaxPayment">
+		<xs:annotation>
+			<xs:documentation>Tax payment detail #</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BSRCode">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="7" />
+							<xs:pattern value="\d\d\d\d\d\d\d" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DateDep">
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2016-04-01" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SrlNoOfChaln">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="5" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Amt" default="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="14" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CountryCode">
+			<xs:annotation>
+				 <xs:documentation>
+				    "93":"AFGHANISTAN",                                                      
+	                "1001":"ÅLAND ISLANDS",        
+					"355":"ALBANIA",                                                            
+					"213":"ALGERIA",  
+					"684":"AMERICAN SAMOA",
+					"376":"ANDORRA",  
+					"244":"ANGOLA",  
+					"1264":"ANGUILLA",  
+					"1010":"ANTARCTICA",  
+					"1268":"ANTIGUA AND BARBUDA",  
+					"54":"ARGENTINA",  
+					"374":"ARMENIA",  
+					"297":"ARUBA",  
+					"61":"AUSTRALIA",  
+					"43":"AUSTRIA",  
+					"994":"AZERBAIJAN",  
+					"1242":"BAHAMAS",  
+					"973":"BAHRAIN",  
+					"880":"BANGLADESH",  
+					"1246":"BARBADOS", 
+					"375":"BELARUS", 
+					"32":"BELGIUM", 
+					"501":"BELIZE", 
+					"229":"BENIN", 
+					"1441":"BERMUDA", 
+					"975":"BHUTAN", 
+					"591":"BOLIVIA (PLURINATIONAL STATE OF)", 
+					"1002":"BONAIRE, SINT EUSTATIUS AND SABA", 
+					"387":"BOSNIA AND HERZEGOVINA", 
+					"267":"BOTSWANA", 
+					"1003":"BOUVET ISLAND", 
+					"55":"BRAZIL", 
+					"1014":"BRITISH INDIAN OCEAN TERRITORY", 
+					"673":"BRUNEI DARUSSALAM", 
+					"359":"BULGARIA", 
+					"226":"	BURKINA FASO", 
+					"257":"BURUNDI", 
+					"238":"CABO VERDE", 
+					"855":"CAMBODIA", 
+					"237":"CAMEROON", 
+					"1":"CANADA", 
+					"1345":"CAYMAN ISLANDS", 
+					"236":"CENTRAL AFRICAN REPUBLIC", 
+					"235":"CHAD", 
+					"56":"CHILE", 
+					"86":"CHINA", 
+					"9":"CHRISTMAS ISLAND", 
+					"672":"COCOS (KEELING) ISLANDS", 
+					"57":"COLOMBIA", 
+					"270":"COMOROS", 
+					"242":"CONGO",
+					"243":"CONGO (DEMOCRATIC REPUBLIC OF THE)", 
+					"682":"COOK ISLANDS", 
+					"506":"COSTA RICA", 
+					"225":"CÔTE D'IVOIRE", 
+					"385":"CROATIA", 
+					"53":"CUBA", 	
+					"1015":"CURAÇAO",
+					"357":"CYPRUS", 
+					"420":"CZECHIA", 
+					"45":"DENMARK", 
+					"253":"DJIBOUTI", 
+					"1767":"DOMINICA", 
+					"1809":"DOMINICAN REPUBLIC", 	
+					"593":"ECUADOR", 		
+					"20":"EGYPT", 		
+					"503":"EL SALVADOR", 		
+					"240":"EQUATORIAL GUINEA", 		
+					"291":"ERITREA", 		
+					"372":"ESTONIA", 	
+					"251":"ETHIOPIA", 	
+					"500":"FALKLAND ISLANDS (MALVINAS)", 		
+					"298":"FAROE ISLANDS", 		
+					"679":"FIJI", 		
+					"358":"FINLAND", 		
+					"33":"FRANCE", 		
+					"594":"FRENCH GUIANA", 		
+					"689":"FRENCH POLYNESIA", 	
+					"1004":"FRENCH SOUTHERN TERRITORIES", 	
+					"241":"GABON", 	
+					"220":"GAMBIA", 	
+					"995":"GEORGIA", 	
+					"49":"GERMANY", 	
+					"233":"GHANA", 		
+					"350":"GIBRALTAR", 	
+					"30":"GREECE", 	
+					"299":"GREENLAND", 	
+					"1473":"GRENADA", 	
+					"590":"GUADELOUPE", 	
+					"1671":"GUAM", 	
+					"502":"GUATEMALA", 		
+					"1481":"GUERNSEY", 	
+					"224":"GUINEA", 	
+					"245":"GUINEA-BISSAU", 
+					"592":"GUYANA", 
+					"509":"HAITI", 
+					"1005":"HEARD ISLAND AND MCDONALD ISLANDS", 	
+					"6":"HOLY SEE", 
+					"504":"HONDURAS", 
+					"852":"HONG KONG", 
+					"36":"HUNGARY", 	
+					"354":"ICELAND", 
+					"91":"INDIA", 
+					"62":"INDONESIA", 
+					"98":"IRAN (ISLAMIC REPUBLIC OF)", 
+					"964":"IRAQ", 
+					"353":"IRELAND", 
+					"1624":"ISLE OF MAN", 
+					"972":"ISRAEL", 
+					"5":"ITALY", 
+					"1876":"JAMAICA", 
+					"81":"JAPAN", 
+					"1534":"JERSEY", 
+					"962":"JORDAN", 
+					"7":"KAZAKHSTAN", 
+					"254":"KENYA", 
+					"686":"KIRIBATI", 
+					"850":"KOREA(DEMOCRATIC PEOPLE'S REPUBLIC OF)", 
+					"82":"KOREA (REPUBLIC OF)", 
+					"965":"KUWAIT", 
+					"996":"KYRGYZSTAN", 
+					"856":"LAO PEOPLE'S DEMOCRATIC REPUBLIC", 
+					"371":"LATVIA", 
+					"961":"LEBANON",
+	                "266":"LESOTHO",
+					"231":"LIBERIA",
+					"218":"LIBYA",
+					"423":"LIECHTENSTEIN",
+					"370":"LITHUANIA",
+	                "352":"LUXEMBOURG",
+	                "853":"MACAO",
+					"389":"MACEDONIA(THE FORMER YUGOSLAV REPUBLIC OF)",
+					"261":"MADAGASCAR",
+					"256":"MALAWI",
+					"60":"MALAYSIA",
+					"960":"MALDIVES",
+	                "223":"MALI",
+					"356":"MALTA",
+					"692":"MARSHALL ISLANDS",
+					"596":"MARTINIQUE",
+					"222":"MAURITANIA",
+	                "230":"MAURITIUS",
+					"269":"MAYOTTE",
+					"52":"MEXICO",
+					"691":"MICRONESIA (FEDERATED STATES OF)",
+					"373":"MOLDOVA (REPUBLIC OF)",
+					"377":"MONACO",
+	                "976":"MONGOLIA",
+					"382":"MONTENEGRO",
+					"1664":"MONTSERRAT",
+					"212":"MOROCCO",
+					"258":"MOZAMBIQUE",
+					"95":"MYANMAR",
+	                "264":"NAMIBIA",
+					"674":"NAURU",
+					"977":"NEPAL",
+					"31":"NETHERLANDS",
+					"687":"NEW CALEDONIA",
+					"64":"NEW ZEALAND",
+	                "505":"NICARAGUA",
+					"227":"NIGER",
+					"234":"NIGERIA",
+					"683":"NIUE",
+					"15":"NORFOLK ISLAND",
+					"1670":"NORTHERN MARIANA ISLANDS",
+					"47":"NORWAY",
+	                "968":"OMAN",
+					"92":"PAKISTAN",
+					"680":"PALAU",
+					"970":"PALESTINE, STATE OF",
+					"507":"PANAMA",
+					"675":"PAPUA NEW GUINEA",
+	                "595":"PARAGUAY",
+					"51":"PERU",
+					"63":"PHILIPPINES",
+					"1011":"PITCAIRN",
+					"48":"POLAND",
+					"14":"PORTUGAL",
+					"1787":"PUERTO RICO",
+					"974":"QATAR",
+					"262":"RÉUNION",
+					"40":"ROMANIA",
+					"8":"RUSSIAN FEDERATION",
+					"250":"RWANDA",
+					"1006":"SAINT BARTHÉLEMY",
+					"290":"	SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+					"1869":"SAINT KITTS AND NEVIS",
+					"1758":"SAINT LUCIA",
+					"1007":"SAINT MARTIN (FRENCH PART)",
+					"508":"SAINT PIERRE AND MIQUELON",
+					"1784":"SAINT VINCENT AND THE GRENADINES",
+					"685":"SAMOA",
+					"378":"SAN MARINO",
+					"239":"SAO TOME AND PRINCIPE",
+					"966":"SAUDI ARABIA",
+					"221":"SENEGAL",
+					"381":"SERBIA",
+					"248":"SEYCHELLES",
+					"232":"SIERRA LEONE",
+					"65":"SINGAPORE",
+					"1721":"SINT MAARTEN (DUTCH PART)",
+					"421":"SLOVAKIA",
+					"386":"SLOVENIA",
+					"677":"SOLOMON ISLANDS",
+					"252":"SOMALIA",
+					"28":"SOUTH AFRICA",
+					"1008":"SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+					"211":"SOUTH SUDAN",
+					"35":"SPAIN",
+					"94":"SRI LANKA",
+					"249":"SUDAN",
+					"597":"SURINAME",
+					"1012":"SVALBARD AND JAN MAYEN",
+					"268":"SWAZILAND",
+					"46":"SWEDEN",
+					"41":"SWITZERLAND",
+					"963":"SYRIAN ARAB REPUBLIC",
+					"886":"TAIWAN, PROVINCE OF CHINA[A]",
+					"992":"TAJIKISTAN",
+					"255":"TANZANIA, UNITED REPUBLIC OF",
+					"66":"THAILAND",
+					"670":"TIMOR-LESTE (EAST TIMOR)",
+					"228":"TOGO",
+					"690":"TOKELAU",
+					"676":"TONGA",
+					"1868":"TRINIDAD AND TOBAGO",
+					"216":"TUNISIA",
+					"90":"TURKEY",
+					"993":"TURKMENISTAN",
+					"1649":"TURKS AND CAICOS ISLANDS",
+					"688":"TUVALU",
+					"256":"UGANDA",
+					"380":"UKRAINE",
+					"971":"UNITED ARAB EMIRATES",
+					"44":"UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+					"2":"UNITED STATES OF AMERICA",
+					"1009":"UNITED STATES MINOR OUTLYING ISLANDS",
+					"598":"URUGUAY",
+					"998":"UZBEKISTAN",
+					"678":"VANUATU",
+					"58":"VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+					"84":"VIET NAM",
+					"1284":"VIRGIN ISLANDS (BRITISH)",
+					"1340":"VIRGIN ISLANDS (U.S.)",
+					"681":"WALLIS AND FUTUNA",
+					"1013":"WESTERN SAHARA",
+					"967":"YEMEN",
+					"260":"ZAMBIA",
+					"263":"ZIMBABWE",
+					"9999":"OTHERS"
+				</xs:documentation>
+			</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="nonEmptyString">
+				<xs:maxLength value="4" />
+				<xs:minLength value="1" />
+				<xs:enumeration value="93" />
+				<xs:enumeration value="1001" />
+				<xs:enumeration value="355" />
+				<xs:enumeration value="213" />
+				<xs:enumeration value="684" />
+				<xs:enumeration value="376" />
+				<xs:enumeration value="244" />
+				<xs:enumeration value="1264" />
+				<xs:enumeration value="1010" />
+				<xs:enumeration value="1268" />
+				<xs:enumeration value="54" />
+				<xs:enumeration value="374" />
+				<xs:enumeration value="297" />
+				<xs:enumeration value="61" />
+				<xs:enumeration value="43" />
+				<xs:enumeration value="994" />
+				<xs:enumeration value="1242" />
+				<xs:enumeration value="973" />
+				<xs:enumeration value="880" />
+				<xs:enumeration value="1246" />
+				<xs:enumeration value="375" />
+				<xs:enumeration value="32" />
+				<xs:enumeration value="501" />
+				<xs:enumeration value="229" />
+				<xs:enumeration value="1441" />
+				<xs:enumeration value="975" />
+				<xs:enumeration value="591" />
+				<xs:enumeration value="1002" />
+				<xs:enumeration value="387" />
+				<xs:enumeration value="267" />
+				<xs:enumeration value="1003" />
+				<xs:enumeration value="55" />
+				<xs:enumeration value="1014" />
+				<xs:enumeration value="673" />
+				<xs:enumeration value="359" />
+				<xs:enumeration value="226" />
+				<xs:enumeration value="257" />
+				<xs:enumeration value="238" />
+				<xs:enumeration value="855" />
+				<xs:enumeration value="237" />
+				<xs:enumeration value="1" />
+				<xs:enumeration value="1345" />
+				<xs:enumeration value="236" />
+				<xs:enumeration value="235" />
+				<xs:enumeration value="56" />
+				<xs:enumeration value="86" />
+				<xs:enumeration value="9" />
+				<xs:enumeration value="672" />
+				<xs:enumeration value="57" />
+				<xs:enumeration value="270" />
+				<xs:enumeration value="242" />
+				<xs:enumeration value="243" />
+				<xs:enumeration value="682" />
+				<xs:enumeration value="506" />
+				<xs:enumeration value="225" />
+				<xs:enumeration value="385" />
+				<xs:enumeration value="53" />
+				<xs:enumeration value="1015" />
+				<xs:enumeration value="357" />
+				<xs:enumeration value="420" />
+				<xs:enumeration value="45" />
+				<xs:enumeration value="253" />
+				<xs:enumeration value="1767" />
+				<xs:enumeration value="1809" />
+				<xs:enumeration value="593" />
+				<xs:enumeration value="20" />
+				<xs:enumeration value="503" />
+				<xs:enumeration value="240" />
+				<xs:enumeration value="291" />
+				<xs:enumeration value="372" />
+				<xs:enumeration value="251" />
+				<xs:enumeration value="500" />
+				<xs:enumeration value="298" />
+				<xs:enumeration value="679" />
+				<xs:enumeration value="358" />
+				<xs:enumeration value="33" />
+				<xs:enumeration value="594" />
+				<xs:enumeration value="689" />
+				<xs:enumeration value="1004" />
+				<xs:enumeration value="241" />
+				<xs:enumeration value="220" />
+				<xs:enumeration value="995" />
+				<xs:enumeration value="49" />
+				<xs:enumeration value="233" />
+				<xs:enumeration value="350" />
+				<xs:enumeration value="30" />
+				<xs:enumeration value="299" />
+				<xs:enumeration value="1473" />
+				<xs:enumeration value="590" />
+				<xs:enumeration value="1671" />
+				<xs:enumeration value="502" />
+				<xs:enumeration value="1481" />
+				<xs:enumeration value="224" />
+				<xs:enumeration value="245" />
+				<xs:enumeration value="592" />
+				<xs:enumeration value="509" />
+				<xs:enumeration value="1005" />
+				<xs:enumeration value="6" />
+				<xs:enumeration value="504" />
+				<xs:enumeration value="852" />
+				<xs:enumeration value="36" />
+				<xs:enumeration value="354" />
+				<xs:enumeration value="91" />
+				<xs:enumeration value="62" />
+				<xs:enumeration value="98" />
+				<xs:enumeration value="964" />
+				<xs:enumeration value="353" />
+				<xs:enumeration value="1624" />
+				<xs:enumeration value="972" />
+				<xs:enumeration value="5" />
+				<xs:enumeration value="1876" />
+				<xs:enumeration value="81" />
+				<xs:enumeration value="1534" />
+				<xs:enumeration value="962" />
+				<xs:enumeration value="7" />
+				<xs:enumeration value="254" />
+				<xs:enumeration value="686" />
+				<xs:enumeration value="850" />
+				<xs:enumeration value="82" />
+				<xs:enumeration value="965" />
+				<xs:enumeration value="996" />
+				<xs:enumeration value="856" />
+				<xs:enumeration value="371" />
+				<xs:enumeration value="961" />
+				<xs:enumeration value="266" />
+				<xs:enumeration value="231" />
+				<xs:enumeration value="218" />
+				<xs:enumeration value="423" />
+				<xs:enumeration value="370" />
+				<xs:enumeration value="352" />
+				<xs:enumeration value="853" />
+				<xs:enumeration value="389" />
+				<xs:enumeration value="261" />
+				<xs:enumeration value="265" />
+				<xs:enumeration value="60" />
+				<xs:enumeration value="960" />
+				<xs:enumeration value="223" />
+				<xs:enumeration value="356" />
+				<xs:enumeration value="692" />
+				<xs:enumeration value="596" />
+				<xs:enumeration value="222" />
+				<xs:enumeration value="230" />
+				<xs:enumeration value="269" />
+				<xs:enumeration value="52" />
+				<xs:enumeration value="691" />
+				<xs:enumeration value="373" />
+				<xs:enumeration value="377" />
+				<xs:enumeration value="976" />
+				<xs:enumeration value="382" />
+				<xs:enumeration value="1664" />
+				<xs:enumeration value="212" />
+				<xs:enumeration value="258" />
+				<xs:enumeration value="95" />
+				<xs:enumeration value="264" />
+				<xs:enumeration value="674" />
+				<xs:enumeration value="977" />
+				<xs:enumeration value="31" />
+				<xs:enumeration value="687" />
+				<xs:enumeration value="64" />
+				<xs:enumeration value="505" />
+				<xs:enumeration value="227" />
+				<xs:enumeration value="234" />
+				<xs:enumeration value="683" />
+				<xs:enumeration value="15" />
+				<xs:enumeration value="1670" />
+				<xs:enumeration value="47" />
+				<xs:enumeration value="968" />
+				<xs:enumeration value="92" />
+				<xs:enumeration value="680" />
+				<xs:enumeration value="970" />
+				<xs:enumeration value="507" />
+				<xs:enumeration value="675" />
+				<xs:enumeration value="595" />
+				<xs:enumeration value="51" />
+				<xs:enumeration value="63" />
+				<xs:enumeration value="1011" />
+				<xs:enumeration value="48" />
+				<xs:enumeration value="14" />
+				<xs:enumeration value="1787" />
+				<xs:enumeration value="974" />
+				<xs:enumeration value="262" />
+				<xs:enumeration value="40" />
+				<xs:enumeration value="8" />
+				<xs:enumeration value="250" />
+				<xs:enumeration value="1006" />
+				<xs:enumeration value="290" />
+				<xs:enumeration value="1869" />
+				<xs:enumeration value="1758" />
+				<xs:enumeration value="1007" />
+				<xs:enumeration value="508" />
+				<xs:enumeration value="1784" />
+				<xs:enumeration value="685" />
+				<xs:enumeration value="378" />
+				<xs:enumeration value="239" />
+				<xs:enumeration value="966" />
+				<xs:enumeration value="221" />
+				<xs:enumeration value="381" />
+				<xs:enumeration value="248" />
+				<xs:enumeration value="232" />
+				<xs:enumeration value="65" />
+				<xs:enumeration value="1721" />
+				<xs:enumeration value="421" />
+				<xs:enumeration value="386" />
+				<xs:enumeration value="677" />
+				<xs:enumeration value="252" />
+				<xs:enumeration value="28" />
+				<xs:enumeration value="1008" />
+				<xs:enumeration value="211" />
+				<xs:enumeration value="35" />
+				<xs:enumeration value="94" />
+				<xs:enumeration value="249" />
+				<xs:enumeration value="597" />
+				<xs:enumeration value="1012" />
+				<xs:enumeration value="268" />
+				<xs:enumeration value="46" />
+				<xs:enumeration value="41" />
+				<xs:enumeration value="963" />
+				<xs:enumeration value="886" />
+				<xs:enumeration value="992" />
+				<xs:enumeration value="255" />
+				<xs:enumeration value="66" />
+				<xs:enumeration value="670" />
+				<xs:enumeration value="228" />
+				<xs:enumeration value="690" />
+				<xs:enumeration value="676" />
+				<xs:enumeration value="1868" />
+				<xs:enumeration value="216" />
+				<xs:enumeration value="90" />
+				<xs:enumeration value="993" />
+				<xs:enumeration value="1649" />
+				<xs:enumeration value="688" />
+				<xs:enumeration value="256" />
+				<xs:enumeration value="380" />
+				<xs:enumeration value="971" />
+				<xs:enumeration value="44" />
+				<xs:enumeration value="2" />
+				<xs:enumeration value="1009" />
+				<xs:enumeration value="598" />
+				<xs:enumeration value="998" />
+				<xs:enumeration value="678" />
+				<xs:enumeration value="58" />
+				<xs:enumeration value="84" />
+				<xs:enumeration value="1284" />
+				<xs:enumeration value="1340" />
+				<xs:enumeration value="681" />
+				<xs:enumeration value="1013" />
+				<xs:enumeration value="967" />
+				<xs:enumeration value="260" />
+				<xs:enumeration value="263" />
+				<xs:enumeration value="9999" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="AddressDetail">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddrDetail">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="200" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CityOrTownOrDistrict">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:minLength value="1" />
+							<xs:maxLength value="50" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="StateCode">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:pattern value="0[1-9]{1}|1[0-9]{1}|2[0-9]{1}|3[0-6]{1}|99" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PinCode">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedLong">
+							<xs:totalDigits value="6" />
+							<xs:pattern value="[1-9]{1}[0-9]{5}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EmployerOrDeductorOrCollectDetl">
+		<xs:annotation>
+			<xs:documentation>Dedcutor Details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TAN">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:length value="10" />
+							<xs:pattern value="[A-Z][A-Z][A-Z][A-Z]\d\d\d\d\d[A-Z]" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="EmployerOrDeductorOrCollecterName">
+					<xs:simpleType>
+						<xs:restriction base="nonEmptyString">
+							<xs:maxLength value="125" />
+							<xs:minLength value="1" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="nonZeroString">
+		<xs:restriction base="endWithDigit">
+			<xs:pattern value=".*[1-9].*"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="endWithDigit">
+		<xs:restriction base="xs:string">
+			<xs:pattern value=".*[0-9]"/>
+		</xs:restriction>
+	</xs:simpleType>	
+</xs:schema>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.AOPTablePre">
+    <children>
+      <GridPane fx:id="immovableAssetTablePre" xmlns:fx="http://javafx.com/fxml" prefWidth="1570" style="-fx-font: 13.0px Arial;-fx-font-weight: bold" >
+        			
+    				<children>	
+    					 <HBox style="-fx-padding:0 0 0 40;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2">
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="132" text="S1.No." wrapText="true" >
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                     </children>
+	                     </HBox>
+    				    
+
+						<HBox style="-fx-padding:0 0 0 40;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.rowSpan="2">
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="180" text="Name of the firm(s)/AOP(s)"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                     </children>
+	                      </HBox>
+	                      
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="2"   GridPane.rowIndex="0" GridPane.columnSpan="9" >
+    				     <children>
+    				  			<Label alignment="center"  prefHeight="20" prefWidth="1200"  text="Address" wrapText="true" >
+									 <padding><Insets left="20"/></padding>
+										<font>
+											<Font name="Arial Bold" size="14.0"/>
+										</font>
+				 				</Label>
+	                     </children>
+	                     </HBox>
+   						 
+    				    
+						<HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="2"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="132" text="Flat/Door/Block No." wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="3"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="200" text="Name of Premises/Building/Village"  wrapText="true">
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="4"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="155" text="Road/Street/Post Office"  wrapText="true">
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                      		 </Label>   
+	                     </children>
+	                     </HBox>
+	                     
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="5"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="155" text="Area/Locality" wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                             </Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="6"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="140" text="Town/city/District" wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                             </Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     
+	                     <HBox style="-fx-padding:0 0 0 40;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="7"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="140" text="State" wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								     </font>
+	                             </Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     
+	                     <HBox style="-fx-padding:0 0 0 40;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="8"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="140" text="Country" wrapText="true">
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								     </font>
+	                             </Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                     
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="9"   GridPane.rowIndex="1"  >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="140" text="Pin Code/Zip Code" wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								     </font>
+	                             </Label>
+	                     </children>
+	                     </HBox>
+	                     
+	                       
+	                     <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="10"   GridPane.rowIndex="0"  GridPane.rowSpan="2">
+    				     <children>
+    				  			 <Label fx:id="lender_pan" prefHeight="60" prefWidth="230"  text="PAN of the firm/AOP" wrapText="true">
+											<padding><Insets left="5"/></padding>
+												<font>
+													<Font name="Arial" size="14.0"/>
+												</font>
+								</Label>
+	                     </children>
+	                     </HBox>
+
+						<HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="11"   GridPane.rowIndex="0"  GridPane.rowSpan="2">
+    				     <children>
+    				  			 <Label fx:id="lender_pan" prefHeight="60" prefWidth="230"  text="Assessee's investment in the &#10; firm/ AOP on cost basis" wrapText="true">
+											<padding><Insets left="5"/></padding>
+												<font>
+													<Font name="Arial" size="14.0"/>
+												</font>
+								</Label>
+	                     </children>
+	                     </HBox>
+	   				
+			</children>		
+		</GridPane>		
+				
+    </children>
+</AnchorPane>
+    

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.NON_BP_Prev">
+    <children>
+        <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" spacing="0.0">
+            <children>
+            <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				<children>
+                 <Label focusTraversable="true"  styleClass="h1" prefHeight="30" prefWidth="1000" text="Nature of business or profession, if more than one business indicate the three main activities/ products"  wrapText="true">
+                        <font>
+							<Font name="Arial Bold" size="16.0"/>
+						</font>
+                        </Label>
+				  		<Label  text="&#10;"/>
+				  		</children>
+          </HBox>
+				   <GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml"  prefWidth="1000" gridLinesVisible="true">
+    				 <children>
+						<Label focusTraversable="true"  prefHeight="20" style="-fx-padding:0 0 0 3;" minWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="0"   text=" Sl.No" wrapText="true">
+                    		<font>
+								<Font name="Arial" size="14.0"/>
+							</font>
+                	   </Label>
+                       <Label focusTraversable="true" prefHeight="20" prefWidth="50" GridPane.columnIndex="0" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="1"   text="" wrapText="true">
+                            <font>
+						       <Font name="Arial Bold" size="14.0"/>
+					        </font>
+                       </Label>
+                       <Label focusTraversable="true"  prefHeight="60" prefWidth="270" GridPane.columnIndex="1" style="-fx-padding:0 0 0 40;" GridPane.rowIndex="0" text="Nature of Business" wrapText="true">
+                           <font>
+								<Font name="Arial" size="14.0"/>
+							</font>
+                 		</Label>
+                		 <Label focusTraversable="true"  prefHeight="20" prefWidth="135.7" GridPane.columnIndex="1" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="1" text="" wrapText="true">
+                         </Label>
+                        <Label focusTraversable="true"  prefHeight="60" prefWidth="230" GridPane.columnIndex="2" style="-fx-padding:0 0 0 60;" GridPane.rowIndex="0" text="Tradename" wrapText="true">
+                    		<font>
+								<Font name="Arial" size="14.0"/>
+							</font>
+                		 </Label>
+               			 <Label focusTraversable="true"  prefHeight="20" prefWidth="135.7" GridPane.columnIndex="2" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="1" text="" wrapText="true">
+                         </Label>
+                       <Label focusTraversable="true"  prefHeight="60" prefWidth="250" GridPane.columnIndex="3" style="-fx-padding:0 0 0 60;" GridPane.rowIndex="0" text="Tradename" wrapText="true">
+                 		   <font>
+									<Font name="Arial" size="14.0"/>
+							</font>
+                	   </Label>
+                  	   <Label focusTraversable="true"  prefHeight="20" prefWidth="135.7" GridPane.columnIndex="3" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="1" text="" wrapText="true">
+                       </Label>
+                       <Label focusTraversable="true" prefHeight="60" prefWidth="270" GridPane.columnIndex="4" style="-fx-padding:0 0 0 60;" GridPane.rowIndex="0" text="Tradename" wrapText="true">
+                   		 <font>
+							<Font name="Arial" size="14.0"/>
+						 </font>
+                       </Label>
+                       <Label focusTraversable="true" prefHeight="20" prefWidth="135.7" GridPane.columnIndex="4" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="1" text="" wrapText="true">
+                       </Label>
+                         </children>
+        </GridPane>		
+       
+					
+           			
+				
+	
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
+    

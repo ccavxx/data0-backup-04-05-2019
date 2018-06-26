@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane  fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="38.0" layoutY="0.0" spacing="0.0">
+    	<children>
+           <TextFlow >
+  				<padding>
+         			<Insets bottom="30.0" left="924.0" right="0.0" top="0.0"/>
+    			</padding>
+	 					<Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	           </TextFlow>
+     		<VBox id="VBox" spacing="0.0" prefHeight="35" style="-fx-font-weight: bold;-fx-border-style: solid;-fx-border-radius: 1;-fx-border-color: grey;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+                   	<children>
+                        <Label  fx:id="Heading" style="-fx-text-fill:white;-fx-padding:5 0 0 15;-fx-font-weight: bold;-fx-font-size: 16px;" prefHeight="35" prefWidth="800"  text="Personal Information" wrapText="true" />
+                    </children>
+     		</VBox>	
+    		<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="900" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+         			<children>
+         			
+         			    <Label focusTraversable="true"	labelFor="$firstTextField" prefHeight="17" minWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding: 10 0 0 10;" text="A1"  wrapText="true"/>
+         			    <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			      <children>
+         			    <Label focusTraversable="true"	labelFor="$firstTextField" fx:id="firstName" prefHeight="17" prefWidth="660"  style="-fx-padding: 10 0 0 10;" text="First Name"  wrapText="true"/>
+					      </children>
+					    </HBox>
+					    <ValTextField   maxLength="25" prefHeight="17" prefWidth="600" GridPane.columnIndex="2" GridPane.rowIndex="0" target="itr.itr4.personalInfo.assesseeName.firstName" autoCaps="false"/>
+					    
+					    <HBox GridPane.columnIndex="3" GridPane.rowIndex="0">
+         			      <children>
+         			         <Label fx:id="label2" focusTraversable="true" prefHeight="25" minWidth="40" GridPane.columnIndex="3" GridPane.rowIndex="0" style="-fx-padding: 10 0 0 10;" text="A2" labelFor="$midTextField"  />
+					   	  </children>
+					    </HBox>
+					    
+					    <HBox GridPane.columnIndex="4" GridPane.rowIndex="0">
+         			      <children>
+					    	<Label fx:id="label2" focusTraversable="true" prefHeight="25" minWidth="200"  style="-fx-padding: 10 0 0 10;" text="Middle Name" labelFor="$midTextField"  />
+						  </children>
+						</HBox>
+						<ValTextField  fx:id="firstTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="5" GridPane.rowIndex="0" maxLength="25" target="itr.itr4.personalInfo.assesseeName.middleName">
+						<GridPane.margin>
+                            <Insets right="5"/>
+                        </GridPane.margin>
+						</ValTextField>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			        	<Region GridPane.columnIndex="5" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;"/>	          
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+						<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+						<Label 	labelFor="$firstTextField" prefHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-padding: 10 0 0 10;" text="A3"  wrapText="true"/>
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+						      <children>
+						            <HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+						      			<children>
+								 			<Label fx:id="label7" focusTraversable="true" text="Last Name" style="-fx-padding: 10 0 0 10;" labelFor="$lastTextField" />
+								 		</children>
+					    			</HBox> 
+								 	<HBox style="-fx-padding: 10 0 0 5;">
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    			</HBox> 
+							</children>
+					    </HBox> 	
+					  
+						
+						<ValTextField  fx:id="midTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="2" GridPane.rowIndex="2" maxLength="75" target="itr.itr4.personalInfo.assesseeName.surNameOrOrgName"/>
+						
+						
+						<HBox GridPane.columnIndex="3" GridPane.rowIndex="2">
+         			     	 <children>
+								<Label 	labelFor="$firstTextField" focusTraversable="true" fx:id="A4" prefHeight="17" prefWidth="40"  style="-fx-padding: 10 0 0 10;" text="A4"  wrapText="true"/>
+							</children>
+						</HBox>
+						
+						<HBox GridPane.columnIndex="4" GridPane.rowIndex="2">
+						     <children>
+						      	<HBox>
+						      		<children>
+								 			<Label fx:id="label1" focusTraversable="true" text="PAN" style="-fx-padding: 10 0 0 10;" labelFor="$panTextField">
+								 	 			 <padding>
+                                       				 <Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                      			 </padding>
+								 			</Label>
+								 		</children>
+					    			</HBox> 
+								 	<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    			</HBox> 
+							</children>
+						</HBox>	  	
+						
+						<ValTextField  fx:id="lastTextField" prefHeight="17" prefWidth="600" GridPane.columnIndex="5" GridPane.rowIndex="2" maxLength="10" target="itr.itr4.personalInfo.pan" autoCaps="true">
+						<GridPane.margin>
+                            <Insets right="5"/>
+                        </GridPane.margin>
+						</ValTextField>
+						
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Region GridPane.columnIndex="5" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;"/>	          
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+						<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+						
+			           <Label focusTraversable="true"	labelFor="$firstTextField" prefHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-padding: 10 0 0 10;" text="A5"  wrapText="true"/>
+					
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+						     <children>
+						      	<HBox>
+						      		<children>
+								 		<Label fx:id="label4" focusTraversable="true" style="-fx-padding: 10 0 0 10;" text="Date of Birth/Formation &#10;(DD/MM/YYYY)" labelFor="$DOBTextField" wrapText="true"/>
+									</children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+							</children>
+						</HBox>
+					
+						<ValDatePicker fx:id="DOBTextField" promptText="DD/MM/YYYY" prefWidth="600.0" GridPane.columnIndex="2" GridPane.rowIndex="4" target="itr.itr4.personalInfo.dob"/>
+						
+						<HBox GridPane.columnIndex="3" GridPane.rowIndex="4">
+         			     	 <children>
+								<Label 	labelFor="$firstTextField" focusTraversable="true" fx:id="A6" prefHeight="17" prefWidth="40"  style="-fx-padding: 10 0 0 10;" text="A6"  wrapText="true"/>
+							 </children>
+						</HBox>
+						<HBox GridPane.columnIndex="4" GridPane.rowIndex="4">
+         			      <children>
+						<Label	labelFor="$firstTextField" fx:id="ward" focusTraversable="true" prefHeight="17" prefWidth="300"  style="-fx-padding: 10 0 5 10;" text="Income Tax Ward/Circle"  wrapText="true"/>
+						  </children>
+						 </HBox>
+						<ValTextField  fx:id="adhEnrollTextField" focusTraversable="true" prefHeight="17" prefWidth="600" GridPane.columnIndex="5" GridPane.rowIndex="4" maxLength="75" target="itr.itr4.filingStatus.desigOfficerWardorCircle" />	
+						
+						
+						
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="4" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	<Region GridPane.columnIndex="5" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;"/>	          
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+						<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+					</children>		
+		</GridPane>
+		
+		<VBox id="VBox" spacing="0.0" prefHeight="35" style="-fx-font-weight: bold;-fx-border-style: solid;-fx-border-radius: 1;-fx-border-color: grey;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+	         <children>
+	              <Label fx:id="Heading" prefHeight="35" style="-fx-font-weight: bold;-fx-text-fill:white;-fx-font-size:16px;-fx-padding:5 0 0 15;" prefWidth="500.0"  text="Address" styleClass="h1" />
+	          </children>
+		</VBox>	
+		<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="900" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+        	 <children>
+        	 
+        	 				<Label 	labelFor="$firstTextField" focusTraversable="true" prefHeight="17" minWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding: 10 0 0 10;" text="A7"  wrapText="true"/>
+        	 				
+        	 				<HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="0">
+						     <children>
+						      	<HBox>
+						      		<children>
+						      			<Label focusTraversable="true" style="-fx-padding: 25 0 0 10;" text="Flat/ Door/ Building" labelFor="$FlatTextField" />
+									</children>
+					    		</HBox> 
+								<HBox style="-fx-padding:25 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+        	 				
+        	 				
+        	 				
+        	 				
+							<ValTextField fx:id="FlatTextField" prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="0" maxLength="50" target="itr.itr4.personalInfo.address.residenceNo"/>
+							
+							
+							<HBox GridPane.columnIndex="3" GridPane.rowIndex="0">
+         			     	 <children>
+								<Label 	labelFor="$firstTextField" focusTraversable="true" prefHeight="17" fx:id="A8" minWidth="40" GridPane.columnIndex="3" GridPane.rowIndex="0" style="-fx-padding: 10 0 0 10;" text="A8"  wrapText="true"/>
+							</children>
+							</HBox>
+							<Label fx:id="label33" focusTraversable="true"	 labelFor="$Building"  prefHeight="54" prefWidth="270" style="-fx-padding: 0 0 0 15 ;" GridPane.columnIndex="4" GridPane.rowIndex="0" text="Name Of Premises / Building / Village"  wrapText="true"/>
+							<ValTextField fx:id="Building" focusTraversable="true" prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="0" maxLength="50" target="itr.itr4.personalInfo.address.residenceName" >	
+								<GridPane.margin>
+                            		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValTextField>					
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;"/>
+			           		 <Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;"/>
+			           		
+								
+							<Label focusTraversable="true"	labelFor="$firstTextField" prefHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-padding: 10 0 0 10;" text="A9"  wrapText="true"/>
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+         			      		<children>
+							<Label fx:id="label12" focusTraversable="true" style="-fx-padding: 10 0 0 10;"	labelFor="$RoadTextField" prefHeight="17" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="2" text="Road/ Street"  />
+							    </children>
+							</HBox>
+							<ValTextField focusTraversable="true" fx:id="RoadTextField" prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="2" maxLength="50" target="itr.itr4.personalInfo.address.roadOrStreet"/>
+							
+							<HBox GridPane.columnIndex="3" GridPane.rowIndex="2">
+         			     	 <children>
+								<Label 	labelFor="$firstTextField" prefHeight="17" prefWidth="40" fx:id="A10" style="-fx-padding: 10 0 0 10;" text="A10"  wrapText="true"/>
+								</children>
+							</HBox>
+							
+							<HBox prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="2">
+						     <children>
+						      	<HBox>
+						      		<children>
+						      			<Label focusTraversable="true" fx:id="label15" text="Area / Locality" style="-fx-padding: 8 0 0 10;" labelFor="$Area" >
+									 	   <padding>
+                                        		<Insets bottom="0.0" left="0.0" right ="0.0" top="6.0"/>
+                                     		 </padding>
+									 	</Label>
+									</children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							<ValTextField focusTraversable="true" fx:id="Area" prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="2" maxLength="50" target="itr.itr4.personalInfo.address.localityOrArea">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       		 	</GridPane.margin>
+							</ValTextField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;"/>
+			           		
+						  <Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-padding: 10 0 0 10;" text="A11"  wrapText="true"/>
+						  
+						  <HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="4">
+						     <children>
+						      	<HBox>
+						      		<children>
+						      			<Label fx:id="label13" focusTraversable="true" style="-fx-padding: 13 0 0 10;" text="Town / City / District" labelFor="$TownTextField" />
+									</children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+						  
+							<ValTextField focusTraversable="true" fx:id="TownTextField" prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="4" maxLength="50" target="itr.itr4.personalInfo.address.cityOrTownOrDistrict"/>						
+							
+							<HBox  GridPane.columnIndex="3" GridPane.rowIndex="4">
+         			     	 	<children>
+									<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" fx:id="A12"  style="-fx-padding: 10 0 0 10;" text="A12"  wrapText="true"/>
+								</children>
+							</HBox>
+							
+							<HBox prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="4">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" fx:id="label14" text="State" style="-fx-padding: 8 0 0 10 ;" labelFor="$State" >
+									 	        <padding>
+                                        			<Insets bottom="0.0" left="0.0" right ="0.0" top="14.0"/>
+                                      			</padding>
+									 		</Label>								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							
+							<ValComboBox  fx:id="State"  prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="4" target="itr.itr4.personalInfo.address.stateCode">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValComboBox>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;"/>
+			           		
+			
+			                <HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="6">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label fx:id="label16" focusTraversable="true" text="Country" labelFor="$CountryTextField" style="-fx-padding: 10 0 0 10;" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							<ValComboBox focusTraversable="true"  fx:id="CountryTextField" prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="6" target="itr.itr4.personalInfo.address.countryCode"/>
+							
+							
+							<HBox GridPane.columnIndex="3" GridPane.rowIndex="6">
+         			     	 	<children>
+									<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" fx:id="A13" style="-fx-padding: 10 0 0 10;" text="A13"  wrapText="true"/>
+								</children>
+							</HBox>
+							
+							
+							<HBox prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="6">
+						     <children>
+						      	<HBox>
+						      		<children>
+										<Label fx:id="label17" text="Pincode" focusTraversable="true" style="-fx-padding: 8 0 0 10 ;" labelFor="$Pincode" >
+									 	 	<padding>
+                                        		<Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                      		</padding>
+									 	</Label>								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							<ValTextField  fx:id="Pincode" prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="6" maxLength="6" target="itr.itr4.personalInfo.address.pinCode" allowedChars="[0-9]">	
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValTextField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;"/>
+			           		
+			
+			                <HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="8">
+						     <children>
+						      	<HBox>
+						      		<children>
+										<Label fx:id="label18" focusTraversable="true" text="Zipcode" labelFor="$zipcode" style="-fx-padding: 10 0 0 10;" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							<ValTextField  prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="8" maxLength="8" target="itr.itr4.personalInfo.address.zipCode" disable="true" />
+							
+							<HBox GridPane.columnIndex="4" GridPane.rowIndex="8">
+         			     	 	<children>
+									<Label fx:id="label19" focusTraversable="true"	  labelFor="$zipcode1" prefHeight="17" style="-fx-padding: 0 0 0 10;" prefWidth="250"  text="No Zip Code"  >
+										<padding>
+                                        <Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                     	 </padding>
+						   			 </Label>
+								</children>
+							</HBox>
+							
+						    
+						    <ValCheckBox   GridPane.columnIndex="5" GridPane.rowIndex="8" target="itr.itr4.personalInfo.address.zipcodeCheck" disable="true" />	
+						    
+						    
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;"/>
+			           		 
+							<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="10" style="-fx-padding: 10 0 0 10;" text="A14"  wrapText="true"/>
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="10">
+         			      		<children>
+									<Label focusTraversable="true" fx:id="label3" style="-fx-padding: 70 0 0 10;"	minHeight="54" maxWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="10" text="Aadhaar Number (Please enter the Aadhaar Number which is linked for your PAN in e-Filing portal.Applicable to Individual only)" labelFor="$adhTextField"  wrapText="true"/>
+						        </children>
+						    </HBox>
+							<ValTextField focusTraversable="true"  prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="10" maxLength="12" target="itr.itr4.personalInfo.aadhaarCardNo" allowedChars="[0-9]"/>
+							
+							<HBox GridPane.columnIndex="4" GridPane.rowIndex="10">
+         			      		<children>
+							<Label fx:id="label8" focusTraversable="true"	minHeight="120" style="-fx-padding: 0 0 0 10 ;" maxWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="10" text="Aadhaar Enrolment Id [Note: If Aadhaar Number is not yet allotted, then Aadhaar Enrolment Id is required. All the digits in enrolment ID and Date and time of enrolment to be entered continuously. For example Enrolment ID: 1234/12345/12345 and Date/Time of enrollment: 01/12/2016 11:50:22 to be entered as 1234123451234501122016115022]" labelFor="$adhEnrollTextField"  wrapText="true"/>
+								</children>
+						    </HBox>
+						    
+							<ValTextField focusTraversable="true"  prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="10" maxLength="28" target="itr.itr4.personalInfo.aadhaarEnrolmentId"  allowedChars="[0-9]">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValTextField>
+							
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;"/>
+			           		
+							<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="12" style="-fx-padding: 10 0 0 10;" text="A15"  wrapText="true"/>
+							
+							<HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="12">
+						     <children>
+						      	<HBox>
+						      		<children>
+										<Label focusTraversable="true" fx:id="label18" style="-fx-padding: 35 0 0 10;" text="Status"  />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:35 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							<ValComboBox focusTraversable="true" prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="12" target="itr.itr4.personalInfo.status" >
+							 <GridPane.margin>
+                           		 	<Insets top="35"/>
+                       			</GridPane.margin>
+							</ValComboBox>
+							
+							<HBox GridPane.columnIndex="3" GridPane.rowIndex="12">
+         			     	 	<children>
+						    		<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" fx:id="A16"  style="-fx-padding: 10 0 0 10;" text="A16"  wrapText="true"/>
+						   		</children>
+							</HBox>
+							
+							<HBox prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="12">
+						     <children>
+						      	<HBox>
+						      		<children>
+										<Label focusTraversable="true" fx:id="label18" style="-fx-padding: 9 0 0 10 ;" text="Mobile Number 1" >
+									 	   <padding>
+                                        		<Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                      		</padding>
+									 	</Label>								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:10 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+						    <ValBigIntegerField fx:id="zipcode" prefHeight="17" maxWidth="70" GridPane.columnIndex="5" GridPane.rowIndex="12" maxLength="5" target="itr.itr4.personalInfo.address.countryCodeMobile" allowedChars="[0-9]" >
+                              <GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValBigIntegerField>      
+							<ValTextField focusTraversable="true" fx:id="zipcode" prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="13" maxLength="10" target="itr.itr4.personalInfo.address.mobileNo" allowedChars="[0-9]" >
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValTextField>
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="14"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				         	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;"/>	          
+				         	<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;"/>	          
+				         	<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;"/>	          
+				           <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="13" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="13" prefHeight="40" style="-fx-color: ;"/>
+			           		 <Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="13" prefHeight="40" style="-fx-color: ;"/>
+			           		 
+							
+							<TextFlow prefWidth="340" GridPane.columnIndex="1" GridPane.rowIndex="15">
+									 	<Label fx:id="label18" focusTraversable="true" style="-fx-padding: 10 0 0 10;" text="Residential/Office Phone no. with STD/ISD code"  >
+									 	   <padding>
+                                        <Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                      </padding>
+									 	</Label>
+									  	<Label focusTraversable="true" text="(Donot Prefix STD/ISD code with '0')" style="-fx-padding: 0 0 0 10;-fx-text-fill: red;fx-padding: 10 0 0 10;"/>
+							</TextFlow>
+							<TextFlow prefWidth="318" GridPane.columnIndex="2" GridPane.rowIndex="15">
+									<ValTextField fx:id="zipcode" prefHeight="17" maxWidth="70" GridPane.columnIndex="2" GridPane.rowIndex="15" maxLength="5" target="itr.itr4.personalInfo.address.phone.stDcode" allowedChars="[0-9]" />
+                                    <Label fx:id="label18" focusTraversable="true" text="(STD/ISD)" GridPane.columnIndex="2" GridPane.rowIndex="17" />
+							</TextFlow>
+							<TextFlow prefWidth="318" GridPane.columnIndex="2" GridPane.rowIndex="16">
+									<ValTextField  fx:id="zipcode" prefHeight="17" prefWidth="150" GridPane.columnIndex="2" GridPane.rowIndex="16" maxLength="8" target="itr.itr4.personalInfo.address.phone.phoneNo" allowedChars="[0-9]" />
+                                    <Label fx:id="label18" focusTraversable="true" text="(Landline)"  />	
+							</TextFlow>
+							
+								 	 
+							
+							
+							
+							<HBox GridPane.columnIndex="3" GridPane.rowIndex="15">
+         			     	 <children>
+								<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" fx:id="A17"  style="-fx-padding: 10 0 0 10;" text="A17"  wrapText="true"/>
+							 </children>
+							</HBox>
+							<TextFlow prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="15">
+									 	<Label fx:id="label18" focusTraversable="true" style="-fx-padding: 0 0 0 10 ;" text="Mobile Number 2" >
+									 	   <padding>
+                                        <Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                      </padding>
+									 	</Label>
+									  	
+							</TextFlow>
+							<ValBigIntegerField fx:id="zipcode" prefHeight="17" maxWidth="70" GridPane.columnIndex="5" GridPane.rowIndex="15" maxLength="5" target="itr.itr4.personalInfo.address.countryCodeMobileNoSec" allowedChars="[0-9]" >
+                              <GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValBigIntegerField> 
+							 <ValTextField focusTraversable="true" fx:id="zipcode" prefHeight="17" prefWidth="300" GridPane.columnIndex="5" GridPane.rowIndex="16" maxLength="10" target="itr.itr4.personalInfo.address.mobileNoSec"  allowedChars="[0-9]" >
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+							</ValTextField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="17"  style="      -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="1" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="2" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="3" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				          	<Region GridPane.columnIndex="4" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				           	<Region GridPane.columnIndex="5" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+				            <Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="15" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="15" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="15" prefHeight="40" style="-fx-color: ;"/>
+			           		
+			           		
+							<Label focusTraversable="true"	labelFor="$firstTextField" minHeight="17" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="18" style="-fx-padding: 10 0 0 10;" text="A18"  wrapText="true"/>
+							
+							<HBox prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="18">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" style="-fx-padding: 14 0 0 10;" fx:id="label18"  text="Email Address" >
+									 	   		<padding>
+                                        			<Insets bottom="0.0" left="0.0" right ="0.0" top="12.0"/>
+                                     			 </padding>
+									 		</Label>								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:14 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							
+							<ValTextField   prefHeight="17" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="18" maxLength="125" target="itr.itr4.personalInfo.address.emailAddress"  />
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="18" prefHeight="40" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="18" prefHeight="40" style="-fx-color: ;"/>
+			           		<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="18" prefHeight="40" style="-fx-color: ;"/>
+							
+								
+					</children>		
+			   </GridPane>
+		       <VBox prefHeight="35"  style="-fx-font-weight: bold;-fx-border-style: solid;-fx-border-radius: 1;-fx-border-color: grey;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+					 <children>
+					 	<Label focusTraversable="true"  prefHeight="35" fx:id="Heading" style="-fx-font-weight: bold;-fx-text-fill:white;-fx-padding:5 0 0 15;-fx-font-size:16px;" prefWidth="700"  text="Filing Status" wrapText="true" styleClass="h1">
+                         	 <padding>
+                                  <Insets bottom="20.0" left="0.0" right ="0.0" top="30.0"/>
+                             </padding>
+                        </Label>
+					 </children>
+			  </VBox>
+        	  <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="400" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">	
+    				<children>
+    				
+	    				  <Label focusTraversable="true"  minHeight="17" minWidth="40" style="-fx-padding: 10 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="0" text="A19"/>
+						 
+						 <HBox  GridPane.columnIndex="1" GridPane.rowIndex="0">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" fx:id="label21" style="-fx-padding: 13 0 0 10;" text="Tax Status" labelFor="$ResidStat" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:13 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+						 
+						 
+						 
+						  <ValComboBox  fx:id="ResidStat" prefHeight="17" prefWidth="400" GridPane.columnIndex="3" GridPane.rowIndex="0" target="itr.itr4.filingStatus.taxStatus">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  </ValComboBox>	
+						     
+						  <Region GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  <Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  <Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			              <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="33" style="-fx-padding:0 266 0 0;-fx-color: ;"/>	          
+						
+						   
+							<Label focusTraversable="true"  minHeight="17" minWidth="40" style="-fx-padding: 10 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="2" text="A20" />
+							
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" fx:id="label21" style="-fx-padding: 13 0 0 10;" text="Residential Status" labelFor="$ResidStat" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:13 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							
+						  <ValComboBox  fx:id="comboBox" prefHeight="17" prefWidth="600" GridPane.columnIndex="3"  GridPane.rowIndex="2" target="itr.itr4.filingStatus.residentialStatus">
+						  <GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  </ValComboBox> 
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="3" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;"/>  
+						   
+							<Label  labelFor="$section80CCD" focusTraversable="true" minHeight="17" style="-fx-padding: 10 0 0 10;" minWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="4" text="A21" >
+							   <padding>
+                                        <Insets bottom="0.0" left="0.0" right ="0.0" top="11.0"/>
+                                      </padding>
+							</Label>
+							
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" fx:id="label22" style="-fx-padding: 13 0 0 10;" text="Return filed Under Section" labelFor="$ReturnFiled" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:13 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							
+							<ValComboBox  fx:id="ReturnFiled" prefHeight="17" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="4" target="itr.itr4.filingStatus.returnFileSec">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  	</ValComboBox>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="5" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;"/>	
+							
+							
+							<Label labelFor="$section80CCCD11B" focusTraversable="true" minHeight="17" style="-fx-padding: 10 0 0 10;" minWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="6" text="A22" />
+							
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="6">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label fx:id="label31" focusTraversable="true" style="-fx-padding: 13 0 0 10;" text="Whether person governed by Portuguese Civil Code under Sec 5A ?" labelFor="$porcivil" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:13 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+							
+							
+							<ValComboBox  fx:id="porcivil" prefHeight="17" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="6" target="itr.itr4.filingStatus.portugeseCC5A">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  	</ValComboBox>
+							
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="7" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;"/>
+								
+						<Label focusTraversable="true" labelFor="$section80CCD2" minHeight="17" minWidth="40" style="-fx-padding: 10 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="8" text="A23" >
+							 <padding>
+                                    <Insets bottom="0.0" left="0.0" right ="0.0" top="16.0"/>
+                             </padding>
+						</Label>
+						
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="8">
+         			      	<children>
+								<Label focusTraversable="true"  GridPane.columnIndex="1" fx:id="spouse" style="-fx-padding: 13 0 0 10;" GridPane.rowIndex="8" text="If A22 is applicable,PAN of Spouse" labelFor="$ResidStat" >
+										<padding>
+                                        <Insets  left="0.0" right ="0.0" top="9.0"/>
+                                      </padding>
+								</Label>
+							</children>
+						</HBox>
+						<ValTextField  fx:id="zipcode" prefHeight="17" prefWidth="400" GridPane.columnIndex="3" GridPane.rowIndex="8" maxLength="10" target="itr.itr4.filingStatus.panOfSpouse"  disable="true" autoCaps="true">
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  </ValTextField>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="9" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;"/>
+						
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="10">
+						     <children>
+						      	<HBox>
+						      		<children>
+											<Label focusTraversable="true" fx:id="label23" style="-fx-padding: 13 0 0 10;" text="Whether original or revised return?" labelFor="$origOrRev" />								
+									 </children>
+					    		</HBox> 
+								<HBox style="-fx-padding:13 0 0 5;" >
+						      			<children>
+								  				<Label text="*" style="-fx-text-fill: red"/>
+										</children>
+					    		</HBox> 
+								</children>
+							</HBox>
+						
+						 <ValComboBox  fx:id="origOrRev" prefHeight="17" prefWidth="600" GridPane.columnIndex="3" GridPane.rowIndex="10" target="itr.itr4.filingStatus.returnType">											
+						  <GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  </ValComboBox> 
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="11" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;"/>  
+						   	
+							<Label focusTraversable="true"  minHeight="17" minWidth="40" GridPane.columnIndex="0" style="-fx-padding: 10 0 0 10;" GridPane.rowIndex="12" text="A24" >
+							   <padding>
+                                        <Insets bottom="0.0" left="0.0" right ="0.0" top="6.0"/>
+                                      </padding>
+							</Label>
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="12">
+         			      		<children>
+									<Label focusTraversable="true" fx:id="label35" prefHeight="17" prefWidth="800.0" style="-fx-padding: 13 0 0 10;" styleClass="h2" GridPane.columnIndex="1" GridPane.rowIndex="12" text="If under section: 139(5) - revised return:" />
+						   		</children>
+						    </HBox> 
+							
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="13" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;"/>  
+							
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="14">
+         			      		<children>
+							<Label focusTraversable="true" fx:id="label24"	labelFor="$OrigAckNo"   style="-fx-padding: 13 0 0 10;"   prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="14" text="Original Acknowledgement Number"  />
+							    </children>
+							</HBox>
+							
+							<ValTextField fx:id="OrigAckNo" prefHeight="17" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="14" maxLength="15" target="itr.itr4.filingStatus.receiptNo" disable="true" copy="true" allowedChars="[0-9]">						
+							<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						  </ValTextField>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="15" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="14" prefHeight="40" style="-fx-color: ;"/>	
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="16">
+         			      		<children>
+         			      		  <Label fx:id="label25"	labelFor="$Date_orig" style="-fx-padding: 13 0 0 10;" prefHeight="17" prefWidth="600" GridPane.columnIndex="1" GridPane.rowIndex="16" text="Date of filing of Original Return(DD/MM/YYYY)"  />
+							    </children>
+							</HBox>
+							<ValDatePicker fx:id="Date_orig" promptText="DD/MM/YYYY" prefHeight="17" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="16"  target="itr.itr4.filingStatus.origRetFiledDate" disable="true" >
+								<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						 	 </ValDatePicker>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="17" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;"/>
+						
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="18">
+         			      		<children>
+						<Label fx:id="label26" focusTraversable="true" labelFor="$FirstTextField" prefHeight="17" style="-fx-padding: 0 0 0 10;" prefWidth="800.0" styleClass="h2" GridPane.columnIndex="1" GridPane.rowIndex="18" text="If under section: 139(9) - return in response to defective return notice:" wrapText="true" />
+						        </children>
+						</HBox>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="19" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="20">
+         			      		<children>
+					     			<Label focusTraversable="true" fx:id="label27" 	labelFor="$OrigAckNO2"	  prefHeight="17" style="-fx-padding: 13 0 0 10;" prefWidth="1000"  text="Original Acknowledgement Number" />						
+						    	</children>
+						</HBox>	
+						  	<ValTextField fx:id="OrigAckNO2" prefHeight="17" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="20" maxLength="15" target="itr.itr4.filingStatus.ackNoOriginalReturn" allowedChars="[0-9]" copy="true" disable="true" >						
+						  		<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						 	</ValTextField>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="21" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="20" prefHeight="40" style="-fx-color: ;"/>	    
+						    
+						    <HBox GridPane.columnIndex="1" GridPane.rowIndex="22">
+         			      		<children>
+						    		<Label fx:id="label28"	focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="17" prefWidth="1000" GridPane.columnIndex="1" GridPane.rowIndex="22" text="Date of filing of Original Return (DD/MM/YYYY)"  />
+								</children>
+						   </HBox>	
+						   
+							<ValDatePicker fx:id="Date_Orig2" promptText="DD/MM/YYYY" prefHeight="17" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="22"  target="itr.itr4.filingStatus.defRetOrigRetFiledDate" disable="true">
+							<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						 	</ValDatePicker>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="23" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="22" prefHeight="40" style="-fx-color: ;"/>
+						
+						<HBox GridPane.columnIndex="1" GridPane.rowIndex="24">
+         			      		<children>
+         			               <Label fx:id="label29"	labelFor="$NoticeNo" focusTraversable="true" style="-fx-padding: 13 0 0 10;"  prefHeight="17" prefWidth="1000" GridPane.columnIndex="1" GridPane.rowIndex="24" text="Notice Number" />						
+								</children>
+						</HBox>
+						<ValTextField fx:id="NoticeNo" prefHeight="17" prefWidth="200" GridPane.columnIndex="3" GridPane.rowIndex="24" maxLength="23" target="itr.itr4.filingStatus.noticeNo" copy="true" disable="true">						
+						<GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						 	</ValTextField>
+						<Region GridPane.columnIndex="0" GridPane.rowIndex="25" prefWidth="300" style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="1" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="2" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Region GridPane.columnIndex="3" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="24" prefHeight="40" style="-fx-color: ;"/>
+						
+							<Label focusTraversable="true" labelFor="$section80D" minHeight="17" minWidth="40" GridPane.columnIndex="0" style="-fx-padding: 10 0 5 10;" GridPane.rowIndex="26" text="A25" />
+							  
+							<HBox GridPane.columnIndex="1" GridPane.rowIndex="26">
+         			      		<children>
+						  			<Label fx:id="label30"	focusTraversable="true" labelFor="$Date_notice"     minHeight="17" prefWidth="1000" style="-fx-padding: 13 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="26" text="If filed in response to notice u/s 139(9)/142(1)/148/153A/153C,	enter the date of such notice"   wrapText="true"/>
+						  		</children>
+							</HBox>
+						  <ValDatePicker fx:id="Date_notice" promptText="DD/MM/YYYY" prefWidth="180.0" GridPane.columnIndex="3" GridPane.rowIndex="26" target="itr.itr4.filingStatus.noticeDateUnderSec" disable="true">
+						  <GridPane.margin>
+                           		 	<Insets right="5"/>
+                       			</GridPane.margin>
+						 	</ValDatePicker>
+    					
+    						<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="26" prefHeight="40" style="-fx-color: ;"/>
+						
+							
+						
+						
+									
+					</children>
+    					
+		</GridPane>
+    </children>
+     </VBox>
+    </children>
+</AnchorPane>

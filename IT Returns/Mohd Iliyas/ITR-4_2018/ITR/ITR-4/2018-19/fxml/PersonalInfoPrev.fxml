@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.PersonalinfoPreview">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0" spacing="0.0">
+    <children>
+    	<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>
+                <Label focusTraversable="true" alignment="CENTER"  prefHeight="20" prefWidth="1000" styleClass="h1" text="PART A GENERAL INFORMATION&#10;" wrapText="true">
+                        <font>
+							<Font name="Arial Bold" size="16.0"/>
+						</font>
+                        </Label>
+                <Label  text="&#10;"/>
+          	 </children>
+          </HBox>
+                <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+        			<children>
+        				<Label focusTraversable="true" minWidth="40" text="A1" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+        				<Label focusTraversable="true" text="First Name" prefWidth="294" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="firstTextField"  minHeight="20" maxWidth="150" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A2" minWidth="40" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" text="Middle Name" prefWidth="294" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="midTextField"  minHeight="20" maxWidth="200" GridPane.columnIndex="5" GridPane.rowIndex="1" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A3" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" text="Last Name *" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="lastTextField" minHeight="20" maxWidth="200" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A4" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+    					<TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="20" prefWidth="250">
+							    <Label focusTraversable="true" style="-fx-padding:0 0 0 7;" text=" PAN">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								</Label>
+								  	<Label focusTraversable="true" text="*" />
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="panPreview" prefHeight="20" prefWidth="200" GridPane.columnIndex="5" GridPane.rowIndex="2" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A5" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="20" prefWidth="280">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 8;" text=" Date of Birth/Formation (DD/MM/YYYY)" wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="DOBTextField" prefWidth="230.0" GridPane.columnIndex="2" GridPane.rowIndex="3" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A6" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text="Income Tax Ward / Circle" GridPane.columnIndex="4" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="wardTextField" prefWidth="228" GridPane.columnIndex="5" GridPane.rowIndex="3" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+
+		  			</children>
+				</GridPane>
+				<HBox prefHeight="30" style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+				 <children>
+				 	<Label focusTraversable="true"  prefHeight="20" prefWidth="1000"  styleClass="h2" text="Address" wrapText="true">
+                  		<font>
+					  		<Font name="Arial Bold" size="14.0"/>
+				 		 </font>
+         			 </Label>
+         	     </children>
+         	    </HBox>
+         <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+        			<children>
+        				<Label focusTraversable="true" text="A7" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="1" minWidth="40">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+    				    <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="20" prefWidth="320" >
+								 	<Label focusTraversable="true" style="-fx-padding:3 0 0 10;" text=" Flat / Door / Building"  wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+    					<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="FlatTextField" minHeight="20" maxWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+    					 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A8" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="1" minWidth="40">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <Label focusTraversable="true"	 prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="320" GridPane.columnIndex="4" GridPane.rowIndex="1" text=" Name Of Premises / Building / Village"  wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="Building"  minHeight="20" maxWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="1" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+
+						<Label focusTraversable="true" text="A9" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+
+						 <Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="2" text=" Road / Street">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="RoadTextField"  minHeight="20" maxWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A10" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="20" prefWidth="250">
+								 	<Label style="-fx-padding:0 0 0 10;" focusTraversable="true" text=" Area / Locality">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="Area"  minHeight="20" maxWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="2" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+
+						<Label focusTraversable="true" text="A11" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="20" prefWidth="250" >
+								 	<Label style="-fx-padding:0 0 0 10;" focusTraversable="true" text=" Town / City / District"  wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*" />
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;"  fx:id="TownTextField"  minHeight="20" maxWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="3" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A12" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="3" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" State">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*" />
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="State" prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="3" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Country" >
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="CountryTextField"  prefWidth="250.0" GridPane.columnIndex="2" GridPane.rowIndex="4" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A13" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="4" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Pincode">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="Pincode" prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="4" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="5" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Zipcode">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="zipcode" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="5" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                       
+                        <Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="250" GridPane.columnIndex="4" GridPane.rowIndex="5" text=" No Zip Code">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="zipcode1" prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="5" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A14" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="6">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label  focusTraversable="true"	prefHeight="54" style="-fx-padding:0 0 0 10;" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="6" text=" Aadhaar Number (Please enter the Aadhaar  Number which is linked for your PAN in  e-Filing portal)" wrapText="true">
+						 <font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="adhTextField" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="6" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						
+						<Label focusTraversable="true" 	minHeight="130" prefWidth="250" GridPane.columnIndex="4" style="-fx-padding:0 0 0 10;" GridPane.rowIndex="6" text=" Aadhaar Enrolment Id
+ 						[Note: All the digits in  enrolment ID and Date and time of enrolment to  be entered continuously. For example  Enrolment ID: 1234/12345/12345 and  Date/Time of enrollment: 01/12/2016 11:50:22  to be entered as &#10; 1234123451234501122016115022]" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;"  fx:id="adhEnrollTextField"  prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="6" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A15" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="7">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="7" prefHeight="20" prefWidth="250">
+							<Label  focusTraversable="true" style="-fx-padding:0 0 0 10;"	prefHeight="20" prefWidth="150"  text="Status  *" wrapText="true">
+						 <font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;"  fx:id="statusTextField"  prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="7" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A16" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="7" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Mobile Number 1 *">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="mobTextField" prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="7" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="20" prefWidth="300">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text="Residential/Office Phone no.with &#10; STD/ISD code ">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="phoneTextField" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="8" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A17" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="4" GridPane.rowIndex="8" prefHeight="20" prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Mobile Number 2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="mobSecTextField" prefHeight="20" prefWidth="250" GridPane.columnIndex="5" GridPane.rowIndex="8" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" text="A18" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="9">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="9" prefHeight="20"  prefWidth="250">
+								 	<Label focusTraversable="true" style="-fx-padding:7 0 0 10;" alignment="center" text=" Email Address"  wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="emailTextField"  minHeight="20" maxWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="9" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+						</font>
+						</Label>
+					</children>
+		   </GridPane>
+		   <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+		     <children>
+		     	<Label focusTraversable="true" styleClass="h2"  prefHeight="30" prefWidth="1000"  text="Filing Status" wrapText="true">
+                  <font>
+					  <Font name="Arial Bold" size="14.0"/>
+				  </font>
+          		</Label>
+          	   </children>
+          	</HBox>
+    	   <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+        	     <children>
+        	    		 <Label focusTraversable="true" text="A19" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="0" minWidth="40">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						 </Label>
+    					 <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="20" prefWidth="850">
+						   		<Label focusTraversable="true" style="-fx-padding:0 0 0 10;"  text="Tax Status "  wrapText="true">
+							  		<font>
+								 		<Font name="Arial" size="14.0"/>
+						      		</font>
+						   		</Label>
+						   		<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+    					<Label focusTraversable="true"  style="-fx-padding:0 0 0 10;" fx:id="taxStatusField" prefHeight="20" prefWidth="500" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+    					 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A20" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+    				    <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="20" prefWidth="750">
+								 <Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Residential Status">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								</Label>
+								<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="ResidStat" minHeight="20" prefWidth="300" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A21" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="20" prefWidth="750">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Return filed Under Section">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*" />
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="ReturnFiled" minHeight="20" maxWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A22" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="20" prefWidth="750" >
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text="Whether Person governed by Portuguese Civil Code under section 5A"  wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="porcivil" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="3" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                       <Label focusTraversable="true" text="A23" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="5">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+                        <Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="1075.0" GridPane.columnIndex="1" GridPane.rowIndex="5" text="If A23 is applicable, PAN of the Spouse">
+    					<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="applicableTextField" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="5" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        
+                        <TextFlow  GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="20" prefWidth="750">
+								 	<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" text=" Whether original or revised return?"  wrapText="true">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+								  	<Label focusTraversable="true" text="*"/>
+						</TextFlow>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="origOrRev" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="6" wrapText="true">
+						 <font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+				  </children>
+			</GridPane>
+			<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			   <children>
+					<Label focusTraversable="true" prefHeight="30" style="-fx-padding:0 0 0 40" prefWidth="1000.0" styleClass="h3" text="If under section: 139(5) - revised return:">
+    					<font>
+							<Font name="Arial" size="14.0"/>
+						</font>
+					</Label>
+			</children>
+			</HBox>
+    		<GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+        		<children>
+    					<Label focusTraversable="true" text="" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="30" GridPane.rowIndex="0">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+    					<Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="750" GridPane.columnIndex="1" GridPane.rowIndex="1" text=" Original Acknowledgement Number" wrapText="true">
+							<font>
+								<Font name="Arial" size="14.0"/>
+							</font>
+						</Label>
+   						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="OrigAckNo" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+   							<font>
+								<Font name="Arial Bold" size="12.0"/>
+							</font>
+                      	</Label>
+                      	<Label focusTraversable="true" text="" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="40" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" 	prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="820" GridPane.columnIndex="1" GridPane.rowIndex="2" text=" Date of filing of Original Return(DD/MM/YYYY)"  wrapText="true">
+							<font>
+								<Font name="Arial" size="14.0"/>
+							</font>
+						</Label>
+						<Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="Date_orig" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+							<font>
+								<Font name="Arial Bold" size="12.0"/>
+							</font>
+                        </Label>
+				</children>
+			</GridPane>
+			<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			   			<children>
+								<Label focusTraversable="true" prefHeight="20" styleClass="h3"  prefWidth="1000.0" style="-fx-padding:0 0 0 40;" text="If under section: 139(9) - return in response to defective return notice:" wrapText="true">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								</Label>
+						 </children>
+			</HBox>
+			<GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    			<children>
+						<Label focusTraversable="true" text="" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="30" GridPane.rowIndex="0">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"  prefHeight="20" prefWidth="750" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="0" text=" Original Acknowledgement Number"  wrapText="true">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"  fx:id="OrigAckNO2" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+								<font>
+									<Font name="Arial Bold" size="12.0"/>
+								</font>
+                        </Label>
+                        <Label focusTraversable="true" text="" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="30" GridPane.rowIndex="1">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"	 prefHeight="20" prefWidth="750" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="1" text=" Date of filing of Original Return (DD/MM/YYYY)"  wrapText="true">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label   focusTraversable="true" fx:id="Date_Orig2" style="-fx-padding:0 0 0 10;" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+									<font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="30" GridPane.rowIndex="2">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"  prefHeight="20" prefWidth="750" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="2" text=" Notice Number"  wrapText="true">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="NoticeNo"  prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+									<font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+                        <Label focusTraversable="true" text="A25" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" minWidth="40" GridPane.rowIndex="3">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"	 prefHeight="20" prefWidth="820" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="3" text=" If filed in response to notice u/s 139(9)/142(1)/148/153A/153C,	enter the date of such notice"   wrapText="true">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+						</Label>
+						<Label focusTraversable="true"  fx:id="Date_notice" style="-fx-padding:0 0 0 10;" prefHeight="20" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="3" wrapText="true">
+									<font>
+										<Font name="Arial Bold" size="12.0"/>
+									</font>
+                        </Label>
+					</children>
+		</GridPane>
+    </children>
+     </VBox>
+    </children>
+</AnchorPane>

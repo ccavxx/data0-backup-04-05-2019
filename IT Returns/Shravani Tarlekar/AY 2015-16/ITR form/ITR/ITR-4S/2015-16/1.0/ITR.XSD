@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" 
+	targetNamespace="http://incometaxindiaefiling.gov.in/main"
+	xmlns:ITR1FORM="http://incometaxindiaefiling.gov.in/ITR1" 
+	xmlns:ITR4SFORM="http://incometaxindiaefiling.gov.in/ITR4S"	 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/ITR4S" schemaLocation="ITR-4S_2015.xsd"/>
+	<xs:element name="ITR">
+		<xs:annotation>
+			<xs:documentation>This is root node.Irrespective of Individual or bulk IT returns filed, ITMain.xsd will form the starting point and base struture for ITR-1 return xml generation. </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ITR4SFORM:ITR4S" minOccurs="0" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

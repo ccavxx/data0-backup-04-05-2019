@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxDeductedFrmSourceWS2_prev">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0" spacing="0.0">
+    <children>
+    <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>
+  					<Label styleClass="h1"  focusTraversable="true" prefHeight="20" prefWidth="1250"  text="SCH TDS3(b) Details of Tax Deducted at Source from Income other than Salary (from OTHER Person PAN claimed by self)  [As per FORM 26QC issued by Deductor(s)]" wrapText="true">
+             			<font>
+							<Font name="Arial Bold" size="16.0"/>
+					  </font>
+        			</Label>
+        			<Label  text="&#10;"/>
+       		</children>
+      </HBox>
+        <GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml" prefWidth="1350"  >
+    		<children>
+    		
+    			<HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="0" GridPane.rowIndex="0">
+    				     <children>
+    				  			 <Label minHeight="60" style="-fx-padding:0 0 0 5;" minWidth="60" text="SL.No." wrapText="true" >
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                    </children>
+	             </HBox>
+	             <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="1" GridPane.rowIndex="0" >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="230" text="PAN of the Tenant[Col (1)]"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                   </children>
+	            </HBox>
+	             <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="2" GridPane.rowIndex="0" >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="230" text="Name of the Tenant  &#10;[Col (2)]"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                   </children>
+	            </HBox>
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="3" GridPane.rowIndex="0" >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="230" text="Unique TDS Certificate Number[Col (3)]"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                   </children>
+	            </HBox>
+	            
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="4" GridPane.rowIndex="0" >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="230" text="Year of tax deduction [Col (4)]"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                   </children>
+	            </HBox>
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="5" GridPane.rowIndex="0" >
+    				     <children>
+    				  			 <Label minHeight="60" prefWidth="250" text="Income ( Amount apportioned by other PAN and offered for tax in self for which TDS is claimed)[Col (5)]"  wrapText="true" >
+	                                 <font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                   </children>
+	            </HBox>
+	           <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="6"   GridPane.rowIndex="0"  >
+    				     <children>
+    				  			<Label alignment="center"  minHeight="20" prefWidth="200"  text="TDS ( apportioned by other PAN to be claimed by self) &#10;[Col (6)]" wrapText="true" >
+									 <padding><Insets left="0"/></padding>
+										<font>
+											<Font name="Arial" size="14.0"/>
+										</font>
+				 				</Label>
+	                   </children>
+	            </HBox>
+	            
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="7"   GridPane.rowIndex="0"  >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="PAN (on which TDS deducted) &#10;[Col (9)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	           
+	           <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="8"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Head of Income in which offered for tax (not applicable for TCS)[Col (8)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="9"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Reasons for claim in own hands[Col (9)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	           
+	           <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="10"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Out of (5),  Income offered this year[Col (10)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="11"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Out of (6),  TDS claimed this year[Col (11)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	           <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="12"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Out of (5),Income balance carry forward to future years[Col (12)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	            <HBox style="-fx-padding:0;-fx-border-style: solid inside;-fx-border-width:1 1 1 1;-fx-border-color: grey;"  GridPane.columnIndex="13"  GridPane.rowIndex="0" >
+    				     <children>
+    				  			<Label minHeight="60" prefWidth="230" text="Out of (6),TDS balance carry forward to future years[Col (13)]" wrapText="true">
+	                               		<font>
+									        	<Font name="Arial" size="14.0"/>
+								           </font>
+	                     		</Label>
+	                  </children>
+	           </HBox>
+	         </children>		
+		</GridPane>
+		
+		<GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    		<children>
+    		  <Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="950.0" GridPane.columnIndex="0" GridPane.rowIndex="0" text="Total" wrapText="true">
+                    <font>
+						<Font name="Arial" size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true" fx:id = "total" alignment="CENTER_RIGHT" prefHeight="20" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="0"  wrapText="true">
+                    <font>
+						<Font name="Arial Bold" size="14.0"/>
+					</font>
+                 </Label>
+			</children>		
+		</GridPane>
+		
+		<GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    		<children>
+    		  <Label focusTraversable="true" prefHeight="20" style="-fx-padding:0 0 0 10;" prefWidth="1235.0" GridPane.columnIndex="0" GridPane.rowIndex="0" text="Total TDS claimed this year" wrapText="true">
+                    <font>
+						<Font name="Arial" size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true" fx:id = "totalAB" alignment="CENTER_RIGHT" prefHeight="20" style="-fx-padding:0 5 0 0;" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="0"  wrapText="true">
+                    <font>
+						<Font name="Arial Bold" size="14.0"/>
+					</font>
+                 </Label>
+			</children>		
+		</GridPane>
+		
+    </children>
+    </VBox>
+    </children>
+</AnchorPane>

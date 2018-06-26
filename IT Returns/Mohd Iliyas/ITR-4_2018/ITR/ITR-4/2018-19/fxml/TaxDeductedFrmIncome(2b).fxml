@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="2670" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxDeductedFrmIncomePartB">
+	<VBox.margin>
+		<Insets bottom="150.0" />
+	</VBox.margin>
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="45.0" prefHeight="230.0" prefWidth="-1.0" target="itr.itr4.tdSonOthThanSals.tdSonOthThanSalB" >
+		<columns>
+			<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80.0" text="Sl.No" target="slNo" />	
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Tax Deduction&#10;Account Number (TAN)&#10;of the Deductor&#10;[Col (1)]" target="tan"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="110.0" text="Name of the Deductor&#10;[Col (2)]" target="deductorTenantName"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="110.0" prefWidth="80.0" text="Unique TDS  &#10; Certificate &#10;number&#10;[Col (3)]" target="uniqueTDSCerNo" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="110.0" prefWidth="80.0" text="Year of tax &#10; deduction&#10;[Col (4)]" target="deductedYr" />		
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="200.0" prefWidth="80.0" text="Income ( Amount apportioned by &#10;other PAN and offered for tax&#10; in self for which TDS is claimed)&#10;[Col (5)]" target="amtAppOthPANTDSClaimed" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="180.0" prefWidth="80.0" text="TDS ( apportioned by other&#10; PAN to be claimed by self)&#10;[Col (6)]" target="tdsAppoOthPANClaimedSelf" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="180.0" prefWidth="80.0" text="PAN (on which TDS deducted)&#10;[Col (7)]" target="taxDeductedPAN" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Head of income in &#10; which offered for tax&#10;(not applicable for tcs)&#10;[Col (8)]" target="dropDown-headofIncForTax" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="200.0" prefWidth="80.0" text="Reasons for claim in own hands&#10;[Col (9)]" target="dropDown-reasonClaimOwnHands" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="120.0" prefWidth="80.0" text="Out of (5),&#10;Income &#10; offered this year&#10;[Col (10)]" target="incOffered" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="120.0" prefWidth="80.0" text="Out of (6),&#10; TDS claimed &#10;this year&#10;[Col (11)]" target="tdsClaimed" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="140.0" prefWidth="80.0" text="Out of (5),Income &#10; Balance Carry &#10; forward to future years&#10;[Col (12)]" target="incBalCarryFrwd" />
+	        <ValTableColumn resizable="false" maxWidth="300.0" minWidth="140.0" prefWidth="80.0" text="Out of (6),TDS &#10;Balance Carry &#10; forward to future years&#10;[Col (13)]" target="tdsBalCarryFrwd" />
+	    </columns>
+	</ValTableView>
+	<Button layoutX="0.0" fx:id="addRowBtn"  layoutY="305" onKeyTyped="#addRow"  onAction="#addRow"	mnemonicParsing="false" text="Add Row" />
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="-77.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="350.0" prefWidth="1060.0" text="SCH TDS2(b).Details of Tax Deducted at Source from Income other than Salary (from OTHER Person PAN claimed by self)  [As per FORM 16A issued by Deductor(s)]" visible="false" wrapText="true"
+	target="taxDeductedFrmIncomePartB.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							<Label labelFor="$Tan"  prefWidth="300.0" text="Tax Deduction Account Number (TAN) of the Deductor&#10;[Col (1)]" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+							<ValTextField fx:id="Tan" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" target="taxDeductedFrmIncomePartB.type.tan" disable="true" autoCaps="true"/>
+							
+							
+							<Label labelFor="$Name" prefWidth="200.0" text="Name of the Deductor&#10;[Col(2)]" GridPane.columnIndex="2" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;"/>
+						    <ValTextField fx:id="Name" maxLength="125"  prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0" disable="true" target="taxDeductedFrmIncomePartB.type.deductorTenantName"/>
+						    
+						    <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+								
+						    
+						    <Label labelFor="$TaxDeductAmnt" text="Unique TDS Certificate No. &#10;[Col (3)]" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+							<ValTextField fx:id="TaxDeductAmnt" maxLength="8" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" target="taxDeductedFrmIncomePartB.type.uniqueTDSCerNo" disable="true" autoCaps="true" />							
+							
+							<Label labelFor="$DeductYear" text="Year of tax deduction &#10;[Col (4)]" GridPane.columnIndex="2" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;"/>
+							<ValComboBox fx:id="DeductYear" prefHeight="27" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" target="taxDeductedFrmIncomePartB.type.deductedYr" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	
+								
+							
+							<Label labelFor="$AmntClaimed" prefWidth="450.0" text="Income(Amount apportioned by other PAN and offered for tax in self for &#10;which TDS is claimed)[Col (5)]" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							<ValBigIntegerField fx:id="TaxClaimed"  maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" target="taxDeductedFrmIncomePartB.type.amtAppOthPANTDSClaimed" disable="true" />
+							
+							<Label labelFor="$TaxClaimed" text="TDS ( apportioned by other PAN to be claimed by self)&#10;[Col (6)]" GridPane.columnIndex="2" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;" />
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4" target="taxDeductedFrmIncomePartB.type.tdsAppoOthPANClaimedSelf" disable="true"  />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	
+							
+							<Label labelFor="$TaxClaimed" text="PAN (on which TDS deducted)&#10;[Col (7)]" GridPane.columnIndex="0" GridPane.rowIndex="6" style="-fx-padding:0 0 0 3;"/>
+							<ValTextField  fx:id="AmntClaimedSpouse" maxLength="10" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" target="taxDeductedFrmIncomePartB.type.taxDeductedPAN" disable="true" autoCaps="true" />
+							
+							<Label labelFor="$TaxClaimed" prefWidth="400.0" text="Head of Income in which offered for tax (not applicable for TCS)&#10;[Col (8)]" GridPane.columnIndex="2" GridPane.rowIndex="6" style="-fx-padding:0 0 0 10;"/>
+							<ValComboBox fx:id="statecode" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="6" target="taxDeductedFrmIncomePartB.type.headofIncForTax" disable="true" />	
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	
+			           	 	
+							<Label labelFor="$TaxClaimed" text="Reasons for claim in own hands&#10;[Col (9)]" GridPane.columnIndex="0" GridPane.rowIndex="8" style="-fx-padding:0 0 0 0;"/>
+							<ValComboBox fx:id="statecode" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8" target="taxDeductedFrmIncomePartB.type.reasonClaimOwnHands" disable="true" />	
+							
+							<Label labelFor="$TaxClaimed" text="Out of (5),Income offerd this year&#10;[Col (10)] " GridPane.columnIndex="2" GridPane.rowIndex="8" style="-fx-padding:0 0 0 10;"/>
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="8" target="taxDeductedFrmIncomePartB.type.incOffered" disable="true"  />
+							
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	
+							
+							
+							<Label labelFor="$TaxClaimed" text="Out of (6),TDS claimed this year&#10;[Col (11)] " GridPane.columnIndex="0" GridPane.rowIndex="10" style="-fx-padding:0 0 0 0;"/>
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10" target="taxDeductedFrmIncomePartB.type.tdsClaimed" disable="true" />
+							
+							<Label labelFor="$TaxClaimed" text="Out of (5),Income balance carry forward to future years&#10;[Col (12)] " GridPane.columnIndex="2" GridPane.rowIndex="10" style="-fx-padding:0 0 0 10;"/>
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="10" target="taxDeductedFrmIncomePartB.type.incBalCarryFrwd" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="10" prefHeight="25" style="-fx-color: ;"/>	
+						  
+						   
+							<Label labelFor="$TaxClaimed" text="Out of (6),TDS balance carry forward to future years&#10;[Col (13)] " GridPane.columnIndex="0" GridPane.rowIndex="12" style="-fx-padding:0 0 0 0;"/>
+							<ValBigIntegerField  fx:id="AmntClaimedSpouse" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="12" target="taxDeductedFrmIncomePartB.type.tdsBalCarryFrwd" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="12" prefHeight="14" style="-fx-color: ;"/>	
+								
+								
+						
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="14">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn" onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+									
+								</children>
+							</HBox>
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	
+	<Button layoutX="62.0"  fx:id="copyRowBtn" layoutY="305" onKeyTyped="#copyRow"  onAction="#copyRow" 	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="131.0" fx:id="editRowBtn" layoutY="305" onKeyTyped="#editRow" onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" />
+    <Button layoutX="193.0" fx:id="deleteRowBtn" layoutY="305" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+ 		
+ 	<HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="275.0" >
+	  <children>
+	       <HBox>
+	      	<children>
+				<Label  fx:id="label8" labelFor="$TotalPayment" style="-fx-padding:5 50 0 10"  text="Total"  />		
+		    </children>
+		  </HBox>		
+				<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"  />	          
+		  <HBox>
+	      	<children>	
+				<ValBigIntegerField fx:id="TotalTdsInc" prefWidth="150"   target="itr.itr4.tdSonOthThanSals.totalTDSOthThanSalPartB" editable="false" style="-fx-background-color: lightgrey;" >
+	    		<HBox.margin>
+	                <Insets left="835" right="0" />
+	         	</HBox.margin>
+			   </ValBigIntegerField>
+			</children>
+		  </HBox>
+     </children>
+     </HBox>
+</AnchorPane>

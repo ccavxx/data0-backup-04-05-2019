@@ -1,0 +1,162 @@
+                                 MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0027-SWASTIK PARK                                  
+                               Mangal Anand Hospital , Sion -Chembur Rd.Swastik Park. Chembur                                
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT27
+Time : 16:37:30 PM                                                                                                Page :1 / 2
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00271106000090
+   Name: SHRI OM SAI CO OPERATIVE CREDIT SOCIETY LTD
+   Address :ROOM NO 14 BEHIND RATION OFFICE,
+   S G BARVE MARG,,KURLA EAST
+   MUMBAI,400024
+   Limit:0                                 INR
+   Joint Holder: SHIKHARE SANTOSH RAJENDRA , DOIPHODE NILAM ASHOK ,
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     26534.37 |
+ 07-Apr-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        31534.37 |
+ 06-May-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        36534.37 |
+ 07-May-2014 | TO TRF/RTGS/0027/11/06/000090                 | 273169 |        29000.00 |                 |         7534.37 |
+ 30-May-2014 | TO TRF-IDBI DD NATIONAL FEDRATION OF URABAN   | 273168 |         6730.00 |                 |          804.37 |
+ 30-May-2014 | BY CASH/0054                                  |        |                 |         1500.00 |         2304.37 |
+ 31-May-2014 | BY CASH/0054                                  |        |                 |         5000.00 |         7304.37 |
+ 02-Jun-2014 | TO TRANSFER 99/02/7300                        |        |         2809.00 |                 |         4495.37 |
+ 06-Jun-2014 | BY SI:10\01\002723                            |        |                 |         6000.00 |        10495.37 |
+ 06-Jun-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        15495.37 |
+ 30-Jun-2014 | BY:60/10/000014:TD INT CREDIT                 |        |                 |         7125.00 |        22620.37 |
+ 30-Jun-2014 | BY:60/11/000184:TD INT CREDIT                 |        |                 |         1900.00 |        24520.37 |
+ 07-Jul-2014 | BY SI:10\01\002723                            |        |                 |         6000.00 |        30520.37 |
+ 07-Jul-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        35520.37 |
+ 06-Aug-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        40520.37 |
+ 14-Aug-2014 | TO TRANSFER18/06/10054/18/06/000001           | 273170 |        38000.00 |                 |         2520.37 |
+ 06-Sep-2014 | BY SI:10\01\002723                            |        |                 |         6000.00 |         8520.37 |
+ 06-Sep-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        13520.37 |
+ 08-Sep-2014 | BY:60/10/000014:TD INT CREDIT                 |        |                 |         5329.00 |        18849.37 |
+ 08-Sep-2014 | BY:60/11/000184:TD INT CREDIT                 |        |                 |         1421.00 |        20270.37 |
+ 30-Sep-2014 | TO TRANSFER-18/06/1 SHRI OMSAI STY~18/06/0000 | 273172 |        18270.00 |                 |         2000.37 |
+ 30-Sep-2014 | TO INCIDENTAL CHARGES                         |        |          224.72 |                 |         1775.65 |
+ 08-Oct-2014 | BY SI:10\01\002723                            |        |                 |         6000.00 |         7775.65 |
+ 08-Oct-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        12775.65 |
+ 31-Oct-2014 | TO MINIMUM BALANCE CHARGES                    |        |          168.54 |                 |        12607.11 |
+ 08-Nov-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        17607.11 |
+ 08-Dec-2014 | BY SI:10\01\003065                            |        |                 |         5000.00 |        22607.11 |
+ 26-Dec-2014 | TO TRANSFER 54/18/06/01~18/06/000001/0054     | 273173 |        20000.00 |                 |         2607.11 |
+ 06-Jan-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |         7607.11 |
+ 06-Feb-2015 | BY SI:10\01\002723                            |        |                 |         6000.00 |        13607.11 |
+ 06-Feb-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        18607.11 |
+ 07-Mar-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        23607.11 |
+ 31-Mar-2015 | TO INCIDENTAL CHARGES                         |        |          224.72 |                 |        23382.39 |
+ 06-Apr-2015 | TO TRAN 54/18/06/01/SHRI OM SAI STY~18/06/000 | 273175 |        20000.00 |                 |         3382.39 |
+ 07-Apr-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |         8382.39 |
+ 09-Apr-2015 | TO TRANSFER BR NO 54 18/06/1 SHREE OM SAI~18/ | 273177 |         5382.00 |                 |         3000.39 |
+ 06-May-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |         8000.39 |
+ 06-Jun-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        13000.39 |
+ 07-Jul-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        18000.39 |
+ 06-Aug-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        23000.39 |
+ 07-Sep-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        28000.39 |
+ 30-Sep-2015 | TO INCIDENTAL CHARGES                         |        |          228.00 |                 |        27772.39 |
+ 06-Oct-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        32772.39 |
+ 03-Nov-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        37772.39 |
+ 03-Dec-2015 | BY SI:10\01\003065                            |        |                 |         5000.00 |        42772.39 |
+ 09-Dec-2015 | TO TRA54/18/06/01 SHREE OM SAI CR STY~18/06/0 | 348421 |        30000.00 |                 |        12772.39 |
+ 02-Jan-2016 | BY SI:10\01\002723                            |        |                 |         6000.00 |        18772.39 |
+ 02-Jan-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        23772.39 |
+ 01-Feb-2016 | TO - MCGM   WATER AND SEWERA - TO CTSIW CLG   | 273179 |         2962.00 |                 |        20810.39 |
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                 MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0027-SWASTIK PARK                                  
+                               Mangal Anand Hospital , Sion -Chembur Rd.Swastik Park. Chembur                                
+
+Current Date  :14-Nov-2017                                                                                  UserId : REPORT27
+Time : 16:37:30 PM                                                                                                Page :2 / 2
+                                                    Statement Of Account                                                     
+                                              From  01-APR-2014  to  14-Nov-2017                                             
+
+   Accountno :00271106000090
+   Name: SHRI OM SAI CO OPERATIVE CREDIT SOCIETY LTD
+   Address :ROOM NO 14 BEHIND RATION OFFICE,
+   S G BARVE MARG,,KURLA EAST
+   MUMBAI,400024
+   Limit:0                                 INR
+   Joint Holder: SHIKHARE SANTOSH RAJENDRA , DOIPHODE NILAM ASHOK ,
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                     20810.39 |
+ 04-Feb-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        25810.39 |
+ 16-Feb-2016 | BY SI:10\01\002723                            |        |                 |         6000.00 |        31810.39 |
+ 22-Feb-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ | 273180 |        25000.00 |                 |         6810.39 |
+ 02-Mar-2016 | BY SI:10\01\002723                            |        |                 |         6000.00 |        12810.39 |
+ 02-Mar-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        17810.39 |
+ 31-Mar-2016 | TO INCIDENTAL CHARGES                         |        |          228.00 |                 |        17582.39 |
+ 31-Mar-2016 | TO TR 18/06/1 SHREE OM SAI COOP CR STY~18/06/ | 348422 |        14000.00 |                 |         3582.39 |
+ 02-Apr-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |         8582.39 |
+ 03-May-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        13582.39 |
+ 18-Jun-2016 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  | 348423 |         5610.00 |                 |         7972.39 |
+ 04-Jul-2016 | BY TR GAUTAM BHIMRAO JADHAV~10/01/003065/0027 |        |                 |        10000.00 |        17972.39 |
+ 05-Jul-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        22972.39 |
+ 20-Jul-2016 | TO: ACCT MAINT CHGS LESS DED 31MAR16 - JUL-16 |        |            1.00 |                 |        22971.39 |
+ 02-Aug-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        27971.39 |
+ 02-Sep-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        32971.39 |
+ 30-Sep-2016 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |        32741.39 |
+ 03-Oct-2016 | BY SI:10\01\003065                            |        |                 |         5000.00 |        37741.39 |
+ 13-Oct-2016 | TO TR 18/06/1 SHRI OM SAI COOP CR STY~18/06/0 | 348427 |        35000.00 |                 |         2741.39 |
+ 02-Nov-2016 | BY TR.10/01/2253~10/01/002253/0027            |        |                 |         7000.00 |         9741.39 |
+ 02-Nov-2016 | BY TR.10/06/2723~10/01/002723/0027            |        |                 |         8500.00 |        18241.39 |
+ 04-Nov-2016 | TO TR 54/18/06/1 SHREE OM SAI COOP CR STY~18/ | 348428 |        15000.00 |                 |         3241.39 |
+ 07-Nov-2016 | BY SI:10\01\002253                            |        |                 |         7000.00 |        10241.39 |
+ 07-Nov-2016 | TO TRANSFER 11/06/90 JADHAV PRAKASH~10/01/002 |        |         7000.00 |                 |         3241.39 |
+ 29-Nov-2016 | BY TRA 18/06/1~18/06/000001/0054              |        |                 |        45000.00 |        48241.39 |
+ 29-Nov-2016 | TO CASH SELF                                  | 348429 |        45000.00 |                 |         3241.39 |
+ 01-Dec-2016 | BY TR.10/01/3065~10/01/003065/0027            |        |                 |        62000.00 |        65241.39 |
+ 07-Dec-2016 | TO CASH SELF                                  | 348430 |        40000.00 |                 |        25241.39 |
+ 15-Dec-2016 | BY TRA 27/11/06/90 OM SAI CO OP CR STY~11/    |        |                 |        25000.00 |        50241.39 |
+ 15-Dec-2016 | TO CASH SELF                                  | 348432 |        48000.00 |                 |         2241.39 |
+ 15-Dec-2016 | BY TR.10/01/3065~10/01/003065/0027            |        |                 |         5000.00 |         7241.39 |
+ 30-Dec-2016 | BY TR SHINDE GAUTAM S~10/01/002723/0027       |        |                 |        12000.00 |        19241.39 |
+ 16-Jan-2017 | BY TRAN 54/11/06/01 OM SAI CO OPP CR~11/06    |        |                 |        40000.00 |        59241.39 |
+ 16-Jan-2017 | TO CASH RIYAJ NADAF                           | 348434 |        50000.00 |                 |         9241.39 |
+ 21-Jan-2017 | BY TR 10/01/3065~10/01/003065/0027            |        |                 |         5000.00 |        14241.39 |
+ 08-Feb-2017 | TO - RELIANCE INFRASTRUCTURE - INFRASTRUCTUR  | 348436 |         3880.00 |                 |        10361.39 |
+ 23-Feb-2017 | TO - MTNL - TO CTSIW CLG : 8001024/MTNL/8001  | 348437 |         1958.00 |                 |         8403.39 |
+ 03-Mar-2017 | BY TR 10/01/2723 SHINDE GAUTAM S~10/01/002723 |        |                 |        14500.00 |        22903.39 |
+ 08-Mar-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ | 348438 |        19000.00 |                 |         3903.39 |
+ 31-Mar-2017 | TO INCIDENTAL CHARGES                         |        |          230.00 |                 |         3673.39 |
+ 06-Jun-2017 | BY TR.10-01-2723~10/01/002723/0027            |        |                 |        10000.00 |        13673.39 |
+ 08-Jun-2017 | TO TRAN54/18/06/01 SHREE OM SAI CO OP CR SOC~ | 348439 |        11000.00 |                 |         2673.39 |
+ 06-Jul-2017 | BY TRANSFER~10/01/002723/0027                 |        |                 |         1000.00 |         3673.39 |
+ 29-Sep-2017 | TO INCIDENTAL CHARGES                         |        |          236.00 |                 |         3437.39 |
+ Closing Bal |                                                                                                      3437.39 |
+=============================================================================================================================
+     Total : |                                               |        |       495371.98 |       472275.00 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |       495371.98 |       472275.00 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

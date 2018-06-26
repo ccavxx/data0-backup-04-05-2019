@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane
+    xmlns:fx="http://javafx.com/fxml/1" fx:id="Content" minHeight="0.0" minWidth="0.0" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+    <children>
+        <VBox id="VBox" alignment="TOP_CENTER" layoutX="38.0" layoutY="0.0" spacing="0.0">
+            <children>
+              <TextFlow>
+            	 <padding>
+                      <Insets bottom="0.0" left="926.0" right ="0.0" top="0.0"/>
+                 </padding>
+	             		<Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	            </TextFlow>
+               <GridPane style="-fx-padding:50 0 0 0;">
+		     		<children>
+                 		<VBox GridPane.rowIndex="0" GridPane.columnIndex="0" prefHeight="35.0" maxWidth="1070" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" >
+                      	   <children>
+                           	 <Label fx:id="Heading" focusTraversable="true" style="-fx-text-fill:white;-fx-padding:0 0 0 10;-fx-font-size:16px;-fx-font-weight: bold;" prefHeight="35.0" minWidth="1070" wrapText="true"  text="Asset and Liability at the end of the year(Applicable in case of total income exceeds  Rs.50 lakh)" styleClass="h1"/>
+                     	   </children>
+                     	</VBox>
+                        <HBox GridPane.rowIndex="1" GridPane.columnIndex="0" maxWidth="1080" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                      		<children>
+                      		   <HBox>
+                      		     <children>
+	                              	<Label focusTraversable="true" fx:id="label1"  minHeight="30.0" wrapText="true" style="-fx-padding:10 0 0 10;" minWidth="48" text="A" styleClass="h2" />
+								 </children>
+							</HBox>
+									<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="20" style="-fx-color: ;" />
+	                      			<HBox >
+                      		     <children>
+	                      			<Label focusTraversable="true" fx:id="label1"  minHeight="30.0" wrapText="true" style="-fx-padding:10 565 8 10;" minWidth="400" text="Do you own any immovable asset?" styleClass="h2" />
+	                      		 </children>
+							</HBox>	
+	                      			<HBox>
+                      		     <children>
+	                      			<ValComboBox   prefWidth="200.0" target="itr.itr4.scheduleAL.immovableFlag" >
+	                      				<HBox.margin>
+	                                   		 <Insets top="5" right="7"/>
+	                                	</HBox.margin>
+	                                </ValComboBox>	
+                      		 </children>
+							</HBox>
+                      		</children>
+                     	</HBox>
+                       
+                  	</children>
+                </GridPane>   
+                
+                <VBox >
+                  <children>
+                	 <HBox GridPane.rowIndex="2" GridPane.columnIndex="0" prefWidth="1000" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                             <children> 
+                                <HBox minWidth="48">
+                                  <children>
+                              			<Label focusTraversable="true" fx:id="label1"  minHeight="30.0" wrapText="true" style="-fx-padding:10 0 0 10;" minWidth="48" text="" styleClass="h2" />
+                             	  </children>
+                             	 </HBox>
+                             	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="20" style="-fx-color: ;" />
+                               <HBox>
+                                  <children>
+                              			 <Label focusTraversable="true" style="-fx-padding:0 0 0 10;" fx:id="label1"  minHeight="30.0" wrapText="true" maxWidth="600" text="Details of immovable asset" styleClass="h2"/>
+                             		</children>
+                             	 </HBox>
+                             </children>
+                        </HBox>
+                        <VBox GridPane.rowIndex="3" GridPane.columnIndex="0" maxWidth="850">
+                      		 <children>
+                            	<fx:include id="Content"  source="Schedule_AL_Table.fxml" />
+                     	 	</children>
+                     	 </VBox>
+                   </children>
+                 </VBox>
+                 
+              <GridPane prefWidth="900" xmlns:fx="http://javafx.com/fxml" styleClass="grid"  style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                   <children>  
+                        	 <Label fx:id="label1" GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-padding: 0 0 0 10;"  minHeight="-1.0" wrapText="true" minWidth="50" text="B " styleClass="h1"/>
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			     	 	<children>
+                             		<Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="0" style="-fx-padding: 0 0 0 10;" GridPane.columnIndex="1"  minHeight="-1.0" wrapText="true" minWidth="810" text="Details of movable asset" styleClass="h1"/>
+                           		</children>
+                         	 </HBox>
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                           
+                             <Label fx:id="label1" GridPane.rowIndex="2" GridPane.columnIndex="0" minHeight="-1.0" style="-fx-padding: 0 0 0 5;" wrapText="true" prefWidth="50" text="SI.no" styleClass="h2"/>
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+         			     	 	 <children>
+                             			<Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="2" GridPane.columnIndex="1" minHeight="-1.0" style="-fx-padding: 10 0 0 10;" wrapText="true"  prefWidth="790" text="Description" styleClass="h2"/>
+                             	  </children>
+                         	  </HBox>
+                             <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="2" GridPane.columnIndex="2" minHeight="-1.0" wrapText="true" minWidth="200" text="Amount(cost) in Rs." styleClass="h2"/>
+                           
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                      
+                             <Label fx:id="label1"  GridPane.rowIndex="4" GridPane.columnIndex="0" minHeight="-1.0" style="-fx-padding: 0 0 0 5;" wrapText="true" prefWidth="50" text="(i)" />
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+         			     	 		<children>
+                              			<Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="4" GridPane.columnIndex="1" style="-fx-padding: 0 0 0 10;" minHeight="-1.0" wrapText="true" prefWidth="790" text="Jewellery, bullion etc." />
+                             		</children>
+                         	 </HBox> 
+                              
+                              <ValBigIntegerField fx:id="OrigAckNo" GridPane.rowIndex="4" GridPane.columnIndex="2" prefHeight="17" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.jewelleryBullionEtc" allowedChars="[0-9]"/>						
+                           
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                     
+                             <Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="6" GridPane.columnIndex="0" style="-fx-padding: 0 0 0 5;" wrapText="true" prefWidth="50" text="(ii)" />
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="6">
+         			     	 		<children>
+                              			<Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="6" style="-fx-padding: 0 0 0 10;" GridPane.columnIndex="1" wrapText="true" prefWidth="790" text="Archaeological collections, drawings, painting, sculpture or any work of art" />
+                              		</children>
+                             </HBox>
+                              <ValBigIntegerField fx:id="OrigAckNo" prefHeight="17" GridPane.rowIndex="6" GridPane.columnIndex="2" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt"   allowedChars="[0-9]"/>						
+                            
+                             <Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	       <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                     
+                             <Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="8" GridPane.columnIndex="0" style="-fx-padding: 0 0 0 5;" wrapText="true" prefWidth="50" text="(iii)" />
+                            <HBox GridPane.columnIndex="1" GridPane.rowIndex="8">
+         			     	 <children>
+                              		<Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="8" style="-fx-padding: 0 0 0 10;" GridPane.columnIndex="1" wrapText="true" prefWidth="790" text="Vehicles, yachts, boats and aircrafts" />
+                              </children>
+                         	</HBox>
+                              <ValBigIntegerField fx:id="OrigAckNo" prefHeight="17" GridPane.rowIndex="8" GridPane.columnIndex="2" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts"   allowedChars="[0-9]"/>						
+                             
+                              <Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                  <Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	      <Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	      <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                     
+                              <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="10" GridPane.columnIndex="0"  minHeight="-1.0" style="-fx-padding: 0 0 0 5;" wrapText="true" prefWidth="50" text="(iv)" />
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="10">
+         			     	 	<children>
+                              		<Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="10" GridPane.columnIndex="1" style="-fx-padding: 0 0 0 10;" minHeight="-1.0" wrapText="true" prefWidth="790" text="Financial asset" />
+                             	</children>
+                         	</HBox>
+                              <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="10" GridPane.columnIndex="2" minHeight="-1.0" wrapText="true" prefWidth="200" styleClass="h2" text="Amount(cost) in Rs." />
+                              
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>  
+                      
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="12">
+         			     	 	<children>
+                              		<Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="12" style="-fx-padding: 0 0 0 10;" GridPane.columnIndex="1" wrapText="true" prefWidth="790" text="(a)     Bank (including all deposits)" />
+                             	 </children>
+                         	</HBox>  
+                              <ValBigIntegerField fx:id="OrigAckNo" GridPane.rowIndex="12" GridPane.columnIndex="2" prefHeight="17" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.depositsInBank"   allowedChars="[0-9]"/>						
+                              
+                    
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                             
+                             <HBox GridPane.columnIndex="1" GridPane.rowIndex="14">
+         			     	 	<children>
+                             		 <Label focusTraversable="true" fx:id="label1"  minHeight="-1.0" GridPane.rowIndex="14" style="-fx-padding: 0 0 0 10;" GridPane.columnIndex="1" wrapText="true" prefWidth="790" text="(b)     Shares and securities" />
+                              	</children>
+                         </HBox>
+                              <ValBigIntegerField fx:id="OrigAckNo" prefHeight="17" GridPane.rowIndex="14" GridPane.columnIndex="2" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.sharesAndSecurities"   allowedChars="[0-9]"/>						
+                              
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="14" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                           
+                           <HBox GridPane.columnIndex="1" GridPane.rowIndex="16">
+         			     	 <children> 
+                              <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="16" GridPane.columnIndex="1" style="-fx-padding: 0 0 0 10;"  minHeight="-1.0" wrapText="true" prefWidth="790" text="(c)    Insurance policies" />
+                             </children>
+                         </HBox>
+                              <ValBigIntegerField fx:id="OrigAckNo" GridPane.rowIndex="16" GridPane.columnIndex="2" prefHeight="17" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.insurancePolicies"  allowedChars="[0-9]"/>						
+                              
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+                            
+                            <HBox GridPane.columnIndex="1" GridPane.rowIndex="18">
+         			     	 <children>
+                                 <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="18" GridPane.columnIndex="1" style="-fx-padding: 0 0 0 10;"  minHeight="-1.0" wrapText="true" prefWidth="790" text="(d)    Loans and advances given" />
+                             </children>
+                         </HBox>  
+                              <ValBigIntegerField fx:id="OrigAckNo" GridPane.rowIndex="18" GridPane.columnIndex="2" prefHeight="17" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.loansAndAdvancesGiven"   allowedChars="[0-9]"/>						
+                       
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	      <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="18" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>       
+                      
+                         <HBox GridPane.columnIndex="1" GridPane.rowIndex="20">
+         			     	 <children>
+                              <Label focusTraversable="true" fx:id="label1" GridPane.rowIndex="20" GridPane.columnIndex="1"  style="-fx-padding: 0 0 0 10;" minHeight="-1.0" wrapText="true" prefWidth="790" text="(e)   Cash in hand" />
+                             </children>
+                         </HBox> 
+                         
+                              <ValBigIntegerField fx:id="OrigAckNo" GridPane.rowIndex="20" GridPane.columnIndex="2" prefHeight="17" prefWidth="200"  maxLength="14" target="itr.itr4.scheduleAL.movableAsset.cashInHand"   allowedChars="[0-9]"/>						
+                             <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="20" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>   
+                     
+                            
+                      </children>
+                     </GridPane>
+                     
+              <GridPane prefWidth="900" xmlns:fx="http://javafx.com/fxml" styleClass="grid"  style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                   <children>
+                     	
+                      		    <Label focusTraversable="true" fx:id="label1" style="-fx-padding: 0 0 0 10;"  minHeight="35.0" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="50" text="C" styleClass="h2"/>
+                      			<Label focusTraversable="true" fx:id="label1" style="-fx-padding: 0 0 0 10;"  minHeight="35.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="810" text="Interest held in the assets of a firm or association of persons (AOP) as a partner or member thereof" styleClass="h2"/>
+								<ValComboBox   prefWidth="200.0" target="itr.itr4.scheduleAL.interstAOPFlag" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                                	<HBox.margin>
+                                   		 <Insets top="5" right="7"/>
+                                	</HBox.margin>
+                              	</ValComboBox>
+								<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							
+                        
+                </children>
+            </GridPane> 
+                 
+                     <VBox prefWidth="900" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                      <children>
+                            <fx:include id="Content"  source="AOP_Table.fxml" />
+                      </children>
+                     </VBox>
+            <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid"  style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+               <children>
+                      
+	                          <Label focusTraversable="true" fx:id="label1" GridPane.columnIndex="0" GridPane.rowIndex="0" minHeight="30.0" wrapText="true" prefWidth="50" style="-fx-padding: 0 0 0 10;"  text="D " styleClass="h2"/>
+	                          <Label focusTraversable="true" fx:id="label1" GridPane.columnIndex="1" GridPane.rowIndex="0" minHeight="30.0" wrapText="true" prefWidth="800" style="-fx-padding: 0 0 0 10;"  text=" Liability in relation to Assets at (A+B+C)" styleClass="h2"/>
+                             <ValBigIntegerField fx:id="OrigAckNo" GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="17" prefWidth="210"  maxLength="14" target="itr.itr4.scheduleAL.liabilityInRelatAssets" allowedChars="[0-9]" />
+               
+               				
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							
+                   </children>
+           </GridPane>
+            
+          </children>
+        </VBox>
+    </children>
+</AnchorPane>
+

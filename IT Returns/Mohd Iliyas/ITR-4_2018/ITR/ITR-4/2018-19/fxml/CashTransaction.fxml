@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+   <children>
+       <VBox id="VBox" alignment="TOP_CENTER" layoutX="20.0" layoutY="0.0" spacing="10.0">
+         <children>
+             <VBox id="VBox" spacing="5.0">
+	             <children>
+	                <TextFlow >
+  	                    <padding>
+                            <Insets bottom="30.0" left="984.0" right ="0.0" top="0.0"/>
+                        </padding>
+	                   <Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	             </TextFlow>
+	             
+	             
+	             <VBox  prefHeight="35" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);"> 
+	                  <children>
+                        <Label  fx:id="Heading" prefHeight="35" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" styleClass="h1" text="Schedule CT Details of Cash Transactions during the year" wrapText="true"/>
+                      </children>
+				 </VBox>	
+	         
+	         </children>
+		</VBox>	
+   
+        <GridPane styleClass="grid" prefHeight="1605.0" minWidth="548.0">
+		     <children>
+                 <VBox id="VBox" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="30" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+                        <padding>
+                             <Insets bottom="0.0" left="0.0" right ="0.0" top="0.0"/>
+                        </padding>
+                        <children>
+                              <Label fx:id="Heading" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minHeight="35.0" minWidth="600.0" styleClass="h1" text="A. Loan or deposit or any specified sum, exceeding the limit specified in section 269SS, taken or accepted"  wrapText="true" />
+                        </children>
+                  </VBox>
+		          <VBox  GridPane.columnIndex="0" GridPane.rowIndex="1">
+					 	<children>
+	                          	<fx:include source="CT_Details.fxml"   />
+	                    </children>
+				  </VBox> 
+                  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		   <children>
+                           <Label fx:id="Heading" minHeight="35.0" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="460.0" styleClass="h1" text="B. Receipt exceeding the limit specified in section 269ST, in aggregate from a person in a day, or in respect of a single transaction, or in respect of transactions relating to one event or occasion from a person"  wrapText="true" />
+			           </children>
+		          </VBox>
+		          <VBox  GridPane.columnIndex="0" GridPane.rowIndex="3">
+				    	<children>
+                    	<fx:include id="Content" source="Reciept.fxml" />
+    				    </children>
+				  </VBox> 
+                  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		    <children>
+	                    <Label fx:id="Heading" minHeight="35" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="930.0" styleClass="h1" text="C. Payment exceeding the limit specified in section 269ST, in aggregate to a person in a day, or in respect of a single transaction, or in respect of transactions relating to one event or occasion to a person"  wrapText="true" />
+			            </children>
+		          </VBox>
+		          <VBox GridPane.columnIndex="0" GridPane.rowIndex="5">
+                	   <padding>
+			                 <Insets top="0" />
+			           </padding>
+					   <children>
+                    	<fx:include id="Content" source="Repayment.fxml" />
+    				   </children>
+				  </VBox>
+				  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="6" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		    <children>
+	                    <Label fx:id="Heading" minHeight="35" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="930.0" styleClass="h1" text="D. Repayment of loan or deposit or any specified advance, exceeding the limit specified in section 269T, made during the year"  wrapText="true" />
+			            </children>
+		          </VBox>
+		          <VBox GridPane.columnIndex="0" GridPane.rowIndex="7">
+                	   <padding>
+			                 <Insets top="0" />
+			           </padding>
+					   <children>
+                    	<fx:include id="Content" source="CT_Table(4).fxml" />
+    				   </children>
+				  </VBox> 
+				  <VBox prefWidth="600.0" styleClass="grid"  layoutY="460.0" prefHeight="30" GridPane.columnIndex="0" GridPane.rowIndex="8" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+               		    <children>
+	                    <Label fx:id="Heading" minHeight="35" style="-fx-padding:0 0 0 10;-fx-text-fill:white;-fx-font-size:16px;-fx-font-weight: bold;" minWidth="600.0"  layoutX="4.0" layoutY="930.0" styleClass="h1" text="E. Repayment of loan or deposit or any specified advance, exceeding the limit specified in section 269T, received during the year"  wrapText="true" />
+			            </children>
+		          </VBox>
+		          <VBox GridPane.columnIndex="0" GridPane.rowIndex="9">
+                	   <padding>
+			                 <Insets top="-7" />
+			           </padding>
+					   <children>
+                    	<fx:include id="Content" source="CT_Table(5).fxml" />
+    				   </children>
+				  </VBox> 
+                 
+	 </children>
+     </GridPane>
+  </children>
+ </VBox>
+ </children>
+</AnchorPane>
+    

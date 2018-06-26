@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+
+<AnchorPane minHeight="0.0" minWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" >
+	<children>
+						 <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="true" prefHeight="500.0" prefWidth="500.0" 
+					AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+					<content>
+							<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" prefHeight="850" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+    				              <Label focusTraversable="true" text="&#10;Following are the recomended settings to use the ITR Utility :" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" >
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+							   	  </Label>
+							   	  <Label focusTraversable="true" text="&#10;"  GridPane.columnIndex="0" GridPane.rowIndex="1">\
+							   	  </Label>
+								  <Label focusTraversable="true" text="&#10;Softwares:" wrapText="true"  style="-fx-font: 14.0px Arial;-fx-font-weight: bold" GridPane.columnIndex="0" GridPane.rowIndex="2">
+									
+								  </Label>
+								  
+								  <Label focusTraversable="true" text="&#10;Java Runtime Environment Version 8 (jre 1.8 is also known as jre version 8) or above is installed." wrapText="true"  style="-fx-font: 14.0px Arial" GridPane.columnIndex="0" GridPane.rowIndex="3">
+									
+								  </Label>
+								  
+								  
+								  <Label focusTraversable="true" text="&#10;Any Zip Software to unzip the utility" wrapText="true"  style="-fx-font: 14.0px Arial" GridPane.columnIndex="0" GridPane.rowIndex="4">
+									
+								  </Label>
+								  
+								  <Label focusTraversable="true" text="&#10;Internet Connection:" wrapText="true"  style="-fx-font: 14.0px Arial;-fx-font-weight: bold" GridPane.columnIndex="0" GridPane.rowIndex="5">
+									
+								  </Label>
+								  
+								   <Label focusTraversable="true" text="&#10;Minimum bandwidth of 256 kbps and above" wrapText="true"  style="-fx-font: 14.0px Arial" GridPane.columnIndex="0" GridPane.rowIndex="6">
+									
+								  </Label>
+								  
+								
+					</children>		
+		               </GridPane>
+		               </content>
+		               </ScrollPane>
+	</children>
+</AnchorPane>
+    

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="1100"
+ snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.ITR4_80GTable2">
+ 
+  <VBox.margin>
+		<Insets bottom="170.0" />
+	</VBox.margin>
+	
+	<Button layoutX="10.0" fx:id="addRowBtn"  layoutY="180.0" onKeyTyped="#addRow"  onAction="#addRow"	mnemonicParsing="false" text="Add Row" />
+    <Button layoutX="80.0" fx:id="deleteRowBtn" layoutY="180.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+    <Button layoutX="165.0"  fx:id="copyRowBtn" layoutY="180.0" onKeyTyped="#copyRow"  onAction="#copyRow" 	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="240.0" fx:id="editRowBtn" layoutY="180.0" onKeyTyped="#editRow" onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" /> 	
+	
+	
+		
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="0.0" prefHeight="150.0" prefWidth="-1.0" target="itr.itr4.schedule80G.don50PercentNoApprReqd.doneeWithPan" >
+		   <columns>
+			<ValTableColumn resizable="false" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" text="S.No" target="slNo" />	
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="125.0" prefWidth="140.0" text="Name of the Donee" target="doneeWithPanName"/>
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="125.0" prefWidth="110.0" text="Address" target="addressDetail.addrDetail" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="125.0" prefWidth="190.0" text="City or Town or District" target="addressDetail.cityOrTownOrDistrict" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="80.0" prefWidth="110.0" text="State Code" target="dropDown-addressDetail.stateCode" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="80.0" prefWidth="110.0" text="PIN Code" target="addressDetail.pinCode" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="80.0" prefWidth="150.0" text="PAN of the Donee" target="doneePAN" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="80.0" prefWidth="190.0" text="Amount of donation" target="donationAmt" />
+			<ValTableColumn resizable="false" maxWidth="250.0" minWidth="80.0" prefWidth="220.0" text="Eligible Amount of Donation" target="eligibleDonationAmt" />
+		</columns>
+	</ValTableView>
+	
+	
+	<ValRowEditorPane layoutY="-37.0"	fx:id="rowEditorPane" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true"  layoutX="0.0"   maxWidth="-Infinity" prefHeight="190.0" prefWidth="800" text="Donations entitled for 50% deduction without qualifying limit" visible="false"
+	target="itr4_80GController2.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							
+							
+							
+							
+							<TextFlow  GridPane.columnIndex="0" prefWidth="200" GridPane.rowIndex="0">
+								 	<Label focusTraversable="true" text="Name of the Donee" labelFor="$panname" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValTextField fx:id="nameofdonee" maxLength="125"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" target="itr4_80GController2.type.doneeWithPanName" />
+						
+							
+							<TextFlow prefWidth="200" GridPane.columnIndex="2" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;">
+								 	<Label focusTraversable="true" text="Address" labelFor="$addressdetail" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValTextField fx:id="address" maxLength="200"  prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0" target="itr4_80GController2.type.addressDetail.addrDetail"/>
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="2">
+								 	<Label focusTraversable="true" text="City or Town or District" labelFor="$cityortown" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValTextField fx:id="cityortown" maxLength="50"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" target="itr4_80GController2.type.addressDetail.cityOrTownOrDistrict" />
+						
+							
+							<TextFlow  GridPane.columnIndex="2" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;">
+								 	<Label focusTraversable="true" text="State Code" labelFor="$statecode" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValComboBox fx:id="statecode" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" target="itr4_80GController2.type.addressDetail.stateCode" />	
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							
+							<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Label focusTraversable="true" text="Pincode" labelFor="$pincode" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValTextField fx:id="pincode" maxLength="6"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" target="itr4_80GController2.type.addressDetail.pinCode" allowedChars="[0-9]" />
+						
+							
+							<TextFlow  GridPane.columnIndex="2" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;">
+								 	<Label focusTraversable="true" text="PAN of the Donee" labelFor="$doneepan" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValTextField fx:id="panofdonee" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4" target="itr4_80GController2.type.doneePAN" autoCaps="true">
+								<tooltip>
+                					<Tooltip text="Enter the PAN of the person to whom the donation is made." style = "-fx-font-size : 12" />
+              					</tooltip>
+              				</ValTextField>
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							
+							<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="6">
+								 	<Label focusTraversable="true" text="Amount of donation" labelFor="$donationamount" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValBigIntegerField fx:id="amountofdonation" maxLength="14"  prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" target="itr4_80GController2.type.donationAmt" allowedChars="[0-9]" />
+							
+							
+							<TextFlow  GridPane.columnIndex="2" GridPane.rowIndex="6" style="-fx-padding:0 0 0 10;">
+								 	<Label focusTraversable="true" text="Eligible amount of Donation" labelFor="$eligibledonation" styleClass="h3"/>
+								  	<Label text="*" style="-fx-text-fill: red"/>
+							</TextFlow>
+							<ValBigIntegerField fx:id="eligibleamount" maxLength="14"  prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="6" target="itr4_80GController2.type.eligibleDonationAmt" allowedChars="[0-9]" disable="true"  promptText="0"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							
+							
+							
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn"  onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn"  onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+									
+								</children>
+							</HBox>
+							
+							
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	<HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="150.0">
+	  <children>
+	  <HBox>
+		   <children>
+				<Label layoutX="10.0"    layoutY="160.0"  fx:id="label8"   text="Total B" prefWidth="100" style="-fx-padding:5 0 0 20 ;" />
+		   </children>
+	  </HBox>
+		<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"  />	          
+		
+		<HBox>
+		   <children>
+				<ValBigIntegerField maxLength="14" prefWidth="150" layoutX="900.0"   layoutY="160.0"  target="itr.itr4.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd" editable="false" style="-fx-background-color: lightgrey;" promptText="0">
+			<HBox.margin>
+                <Insets left="695"/>
+         	</HBox.margin>
+		</ValBigIntegerField>
+			</children>
+		</HBox>
+			
+		<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+		<HBox>
+		    <children>
+				<ValBigIntegerField maxLength="14" prefWidth="150" layoutX="1080.0"   layoutY="160.0"  target="itr.itr4.schedule80G.don50PercentNoApprReqd.TotEligibleDon50Percent" editable="false" style="-fx-background-color: lightgrey;" promptText="0"/>
+     		</children>
+	    </HBox>
+     </children>
+    </HBox>
+</AnchorPane>

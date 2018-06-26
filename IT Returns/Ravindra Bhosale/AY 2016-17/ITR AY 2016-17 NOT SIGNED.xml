@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR4SFORM="http://incometaxindiaefiling.gov.in/ITR4S" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ITR4SFORM:ITR4S>
+		<ITRForm:CreationInfo>
+			<ITRForm:SWVersionNo>R1</ITRForm:SWVersionNo>
+			<ITRForm:SWCreatedBy>SW91201617</ITRForm:SWCreatedBy>
+			<ITRForm:XMLCreatedBy>SW91201617</ITRForm:XMLCreatedBy>
+			<ITRForm:XMLCreationDate>2016-06-30</ITRForm:XMLCreationDate>
+			<ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+			<ITRForm:Digest>B5ZLoR3kOIB7+t23oo8pwaFEt9EQeJgrkPHdl9UL1mk=</ITRForm:Digest>
+		</ITRForm:CreationInfo>
+		<ITRForm:Form_ITR4S>
+			<ITRForm:FormName>ITR-4S</ITRForm:FormName>
+			<ITRForm:Description>For Indl having Income From Presemptive Business</ITRForm:Description>
+			<ITRForm:AssessmentYear>2016</ITRForm:AssessmentYear>
+			<ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+			<ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+		</ITRForm:Form_ITR4S>
+		<ITRForm:PersonalInfo>
+			<ITRForm:AssesseeName>
+				<ITRForm:FirstName>RAVINDRA</ITRForm:FirstName>
+				<ITRForm:MiddleName>DHONDIRAM</ITRForm:MiddleName>
+				<ITRForm:SurNameOrOrgName>BHOSALE</ITRForm:SurNameOrOrgName>
+				
+			</ITRForm:AssesseeName>
+			<ITRForm:PAN>ALXPB6162G</ITRForm:PAN>
+			<ITRForm:Address>
+				<ITRForm:ResidenceNo>C O WHITE HOUSE</ITRForm:ResidenceNo>
+				<ITRForm:ResidenceName>A 603 PL 45 46 SECT 36</ITRForm:ResidenceName>
+				<ITRForm:RoadOrStreet>SILVER PARK</ITRForm:RoadOrStreet>
+				<ITRForm:LocalityOrArea>KAMOTHE</ITRForm:LocalityOrArea>
+				<ITRForm:CityOrTownOrDistrict>PANVEL RAIGAD</ITRForm:CityOrTownOrDistrict>
+				<ITRForm:StateCode>19</ITRForm:StateCode>
+				<ITRForm:CountryCode>91</ITRForm:CountryCode>
+				<ITRForm:PinCode>410209</ITRForm:PinCode>
+				
+				<ITRForm:MobileNo>9619156719</ITRForm:MobileNo>
+				
+				<ITRForm:EmailAddress>tusharmohite0@gmail.com</ITRForm:EmailAddress>
+				
+			</ITRForm:Address>
+			<ITRForm:DOB>1976-07-15</ITRForm:DOB>
+
+			<ITRForm:Gender>M</ITRForm:Gender>
+			<ITRForm:Status>I</ITRForm:Status>
+			<ITRForm:AadhaarCardFlg>Y</ITRForm:AadhaarCardFlg>
+			<ITRForm:AadhaarCardNo>592989647588</ITRForm:AadhaarCardNo>
+		</ITRForm:PersonalInfo>
+		<ITRForm:FilingStatus>
+			
+			<ITRForm:ReturnFileSec>11</ITRForm:ReturnFileSec>
+			
+			
+			
+			<ITRForm:ReturnType>O</ITRForm:ReturnType>
+			
+			
+			<ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+			<ITRForm:TaxStatus>TR</ITRForm:TaxStatus>
+			
+			
+			<ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+			
+			
+		</ITRForm:FilingStatus>
+		<ITRForm:ITR4S_IncomeDeductions>
+			<ITRForm:IncomeFromBusinessProf>39512</ITRForm:IncomeFromBusinessProf>
+			<ITRForm:IncomeFromSal>0</ITRForm:IncomeFromSal>
+			<ITRForm:TypeOfHP>S</ITRForm:TypeOfHP>
+			<ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+			<ITRForm:IncomeOthSrc>402142</ITRForm:IncomeOthSrc>
+			<ITRForm:GrossTotIncome>441654</ITRForm:GrossTotIncome>
+			<ITRForm:UsrDeductUndChapVIA>
+				<ITRForm:Section80C>0</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>0</ITRForm:TotalChapVIADeductions>
+			</ITRForm:UsrDeductUndChapVIA>
+			<ITRForm:DeductUndChapVIA>
+				<ITRForm:Section80C>0</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>0</ITRForm:TotalChapVIADeductions>
+			</ITRForm:DeductUndChapVIA>
+			<ITRForm:TotalIncome>441650</ITRForm:TotalIncome>
+		</ITRForm:ITR4S_IncomeDeductions>
+		<ITRForm:ITR4S_TaxComputation>
+			<ITRForm:TotalTaxPayable>19165</ITRForm:TotalTaxPayable>
+			<ITRForm:Rebate87A>2000</ITRForm:Rebate87A>
+			<ITRForm:TaxPayableOnRebate>17165</ITRForm:TaxPayableOnRebate>
+			<ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+			<ITRForm:EducationCess>515</ITRForm:EducationCess>
+			<ITRForm:GrossTaxLiability>17680</ITRForm:GrossTaxLiability>
+			<ITRForm:Section89>0</ITRForm:Section89>
+			<ITRForm:NetTaxLiability>17680</ITRForm:NetTaxLiability>
+			<ITRForm:TotalIntrstPay>0</ITRForm:TotalIntrstPay>
+			<ITRForm:IntrstPay>
+				<ITRForm:IntrstPayUs234A>0</ITRForm:IntrstPayUs234A>
+				<ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+				<ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+				
+			</ITRForm:IntrstPay>
+			<ITRForm:TotTaxPlusIntrstPay>17680</ITRForm:TotTaxPlusIntrstPay>
+		</ITRForm:ITR4S_TaxComputation>
+		<ITRForm:TaxPaid>
+			<ITRForm:TaxesPaid>
+				<ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+				<ITRForm:TDS>44564</ITRForm:TDS>
+				<ITRForm:TCS>0</ITRForm:TCS>
+				<ITRForm:SelfAssessmentTax>0</ITRForm:SelfAssessmentTax>
+				<ITRForm:TotalTaxesPaid>44564</ITRForm:TotalTaxesPaid>
+			</ITRForm:TaxesPaid>
+			<ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+		</ITRForm:TaxPaid>
+		<ITRForm:Refund>
+			<ITRForm:RefundDue>26880</ITRForm:RefundDue>
+		      <ITRForm:BankAccountDtls>
+		         <ITRForm:PriBankDetails>
+		        	<ITRForm:IFSCCode>ANDB0001650</ITRForm:IFSCCode>
+					<ITRForm:BankName>Andhra Bank</ITRForm:BankName>
+					<ITRForm:BankAccountNo>165010100002120</ITRForm:BankAccountNo>
+					<ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+		         </ITRForm:PriBankDetails>
+		         <ITRForm:AddtnlBankDetails>
+		            <ITRForm:IFSCCode>ANDB0001650</ITRForm:IFSCCode>
+					<ITRForm:BankName>Andhra Bank</ITRForm:BankName>
+					<ITRForm:BankAccountNo>165011100000247</ITRForm:BankAccountNo>
+					<ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+		         </ITRForm:AddtnlBankDetails>
+		         <ITRForm:BankAccounts>2</ITRForm:BankAccounts>
+		      </ITRForm:BankAccountDtls>
+		</ITRForm:Refund>
+		
+		
+		<ITRForm:Verification>
+			<ITRForm:Declaration>
+				<ITRForm:AssesseeVerName>RAVINDRA DHONDIRAM BHOSALE</ITRForm:AssesseeVerName>
+				<ITRForm:FatherName>DHONDIRAM JIJABA BHOSALE</ITRForm:FatherName>
+				<ITRForm:AssesseeVerPAN>ALXPB6162G</ITRForm:AssesseeVerPAN>
+			</ITRForm:Declaration>
+			<ITRForm:Place>MUMBAI</ITRForm:Place>
+			<ITRForm:Date>2016-06-30</ITRForm:Date>
+		</ITRForm:Verification>
+		
+		<ITRForm:NatOfBus>
+			<ITRForm:NatureOfBusiness>
+				<ITRForm:Code>0505</ITRForm:Code>
+				<ITRForm:TradeName1>Painting Contractors</ITRForm:TradeName1>
+				
+				
+			</ITRForm:NatureOfBusiness>
+		</ITRForm:NatOfBus>
+		<ITRForm:ScheduleBPForITR4S>
+			<ITRForm:PersumptiveInc44AD>
+				<ITRForm:GrsTrnOverOrReceipt>493900</ITRForm:GrsTrnOverOrReceipt>
+				<ITRForm:TotPersumptiveInc44AD>39512</ITRForm:TotPersumptiveInc44AD>
+			</ITRForm:PersumptiveInc44AD>
+			<ITRForm:PersumptiveInc44AE>
+				<ITRForm:TotPersumInc44AE>0</ITRForm:TotPersumInc44AE>
+				<ITRForm:SalInterestByFirm>0</ITRForm:SalInterestByFirm>
+				<ITRForm:TotalPersumptiveInc>39512</ITRForm:TotalPersumptiveInc>
+			</ITRForm:PersumptiveInc44AE>
+			<ITRForm:IncChargeableUnderBus>39512</ITRForm:IncChargeableUnderBus>
+			<ITRForm:NoBooksOfAccBS>
+				<ITRForm:TotSundryDbtAmt>12400</ITRForm:TotSundryDbtAmt>
+				<ITRForm:TotSundryCrdAmt>8700</ITRForm:TotSundryCrdAmt>
+				<ITRForm:TotStkInTradAmt>7600</ITRForm:TotStkInTradAmt>
+				<ITRForm:CashBalAmt>23800</ITRForm:CashBalAmt>
+			</ITRForm:NoBooksOfAccBS>
+		</ITRForm:ScheduleBPForITR4S>
+		
+		
+		
+		<ITRForm:TDSonOthThanSals>
+			<ITRForm:TDSonOthThanSal>
+				<ITRForm:EmployerOrDeductorOrCollectDetl>
+					<ITRForm:TAN>MUMT12002E</ITRForm:TAN>
+					<ITRForm:EmployerOrDeductorOrCollecterName>TECHONS CONSTRUCTIONAL ENGG COMPANY</ITRForm:EmployerOrDeductorOrCollecterName>
+				</ITRForm:EmployerOrDeductorOrCollectDetl>
+				
+				<ITRForm:DeductedYr>2015</ITRForm:DeductedYr>
+				<ITRForm:TotTDSOnAmtPaid>4939</ITRForm:TotTDSOnAmtPaid>
+				<ITRForm:ClaimOutOfTotTDSOnAmtPaid>4939</ITRForm:ClaimOutOfTotTDSOnAmtPaid>
+				
+			</ITRForm:TDSonOthThanSal>
+<ITRForm:TDSonOthThanSal>
+				<ITRForm:EmployerOrDeductorOrCollectDetl>
+					<ITRForm:TAN>MUMA35747F</ITRForm:TAN>
+					<ITRForm:EmployerOrDeductorOrCollecterName>ANDHRA BANK (KAMOTHE)</ITRForm:EmployerOrDeductorOrCollecterName>
+				</ITRForm:EmployerOrDeductorOrCollectDetl>
+				
+				<ITRForm:DeductedYr>2015</ITRForm:DeductedYr>
+				<ITRForm:TotTDSOnAmtPaid>39625</ITRForm:TotTDSOnAmtPaid>
+				<ITRForm:ClaimOutOfTotTDSOnAmtPaid>39625</ITRForm:ClaimOutOfTotTDSOnAmtPaid>
+				
+			</ITRForm:TDSonOthThanSal>
+			<ITRForm:TotalTDSonOthThanSals>44564</ITRForm:TotalTDSonOthThanSals>
+		</ITRForm:TDSonOthThanSals>
+		
+		<ITRForm:TotalHeavyVehcl>0</ITRForm:TotalHeavyVehcl>
+		
+		
+		
+	</ITR4SFORM:ITR4S>
+</ITRETURN:ITR>

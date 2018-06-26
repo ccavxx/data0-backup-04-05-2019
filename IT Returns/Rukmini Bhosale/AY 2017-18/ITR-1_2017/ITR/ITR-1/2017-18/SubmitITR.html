@@ -1,0 +1,2479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<meta http-equiv="Pragma" content="no-cache"></meta>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<title>ITR-1 Form</title>
+
+<link rel="stylesheet" href="../../Common/css/style.css" type="text/css"></link>
+<link rel="stylesheet" href="../../Common/css/jquery-ui.min.css"
+	type="text/css"></link>
+
+<script type="text/javascript" src="ITR1_Calculations_2017.js">
+	
+</script>
+<script type="text/javascript"
+	src="../../Common/scripts/ITR_common_functions.js">
+	
+</script>
+<script type="text/javascript"
+	src="../../Common/scripts/validationSimpleJS.js">
+	
+</script>
+<script type="text/javascript"
+	src="../../Common/scripts/Restrictions.js">
+	
+</script>
+<script type="text/javascript"
+	src="../../Common/scripts/jquery-1.8.0.js">
+	
+</script>
+<script type="text/javascript" src="../../Common/scripts/jquery-ui.js">
+	
+</script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="bodyContent">
+			<div class="regForm">
+				<table width="100%">
+					<tr>
+						<td>
+							<form action="">
+								<input type="hidden" value=""
+									name="itr1.creationInfo.xmlCreationDate" /> <input
+									type="hidden" value="6" id="totalPage" name="totalPage" /> <input
+									type="hidden" id="currentPage" value="1"
+									name="itr1.currentPage" /> <input type="hidden"
+									value="ITR-1_2017" name="customReturnType" /> <input
+									type="hidden" value="ITR-1" name="returnType" /> <input
+									type="hidden" id="submitDraft" value="" name="" />
+							<div class="disp-none" id="validationErrorMsg">  </div>
+
+
+								<div>
+									<ul class="tabs disp-none">
+										<li><a id="page0btn" onclick="slideBackward()" href="#"
+											onmouseover="showLeftMenu()" onmouseout="hideLeftMenu()">&lt;&lt;</a></li>
+									</ul>
+									<ul class="tabs">
+										<li><a href="#" title="page1"
+											onclick="showPageFor7('page1')" id="page1btn">Instructions</a></li>
+										<li><a href="#" title="page2"
+											onclick="showPageFor7('page2')" id="page2btn">Personal
+												Information</a></li>
+										<li><a href="#" title="page3"
+											onclick="showPageFor7('page3')" id="page3btn">Income
+												Details</a></li>
+										<li><a href="#" title="page4"
+											onclick="showPageFor7('page4')" id="page4btn">Tax
+												Details</a></li>
+									<li><a  href="#" title="page5"  onclick="showPageFor7('page5')" id="page5btn" >Taxes Paid And Verification</a></li>	
+										<li><a href="#" title="page6"
+											onclick="showPageFor7('page6')" id="page6btn">80G</a></li>
+									</ul>
+								</div>
+								<div class="content disp-none" id="page1">
+									<div class="hd al-c">
+										<h4>
+											SAHAJ INDIVIDUAL INCOME TAX RETURN<br /> [For individuals
+											having Income from Salaries, One house property, Other
+											sources (Interest etc.) and having taxable income upto Rs.50
+											lakh] <br />
+										</h4>
+									</div>
+									<ol class="declaration">
+										<li>All amounts are in Indian Rupees.</li>
+										<li>A calendar is provided for selecting the date field
+											(format DD/MM/YYYY).</li>
+										<li>All greyed out fields are either auto-filled or
+											non-editable.</li>
+										<li>In ITR wherever information is captured in tables
+											<ul class="w78p">
+												<li><strong>Adding new Row</strong> : Click ADD button
+													to insert a new row and then enter values in the field
+													provided. Make sure you provide information in all
+													mandatory columns ( <span class="mandatory">*</span> )
+													marked</li>
+												<li><strong>Deleting Row</strong> : Select the row to
+													delete from the list and click DELETE button</li>
+												<li>Remove unnecessary blank rows from the table by
+													selecting the row and clicking on DELETE button.</li>
+											</ul>
+										</li>
+										<li>Please enter only the value wherever the information
+											is needed in percentage.</li>
+										<li>Please verify the Return before you submit.</li>
+										<li>It is preferable to have JRE version 1.7 and above
+											installed on your machine.</li>
+										<li><a onclick="showIFSCSample()"
+											href="javascript:void(0)">Click here</a> to see the IFSC Code
+											sample <span class="disp-none" id="ifscTrID"> <img
+												src="../../Common/images/Cheque.png" alt="" />
+										</span></li>
+										<li>Please <a
+											onclick="main.openLink('http://www.incometaxindia.gov.in/Pages/downloads/income-tax-return.aspx')"
+											href="javascript:void(0)">refer here</a> for further
+											instructions .
+										</li>
+										<li>Preview option is browser based and it will help to
+											view/print the ITR. Set one of the below suggested browsers
+											as default browser for the same.
+											<ol type="i">
+												<li>Google Chrome</li>
+												<li>Mozilla Firefox</li>
+												<li>Internet Explorer 9.0 and above</li>
+											</ol>
+										</li>
+										<li>In case Internet Explorer 9.0, the standard to be set
+											as 'Internet Explorer 9.0 Standard' (Press F12 --&gt; Go to
+											Document mode --&gt; Choose Internet Explorer 9 Standards.)</li>
+									</ol>
+
+								</div>
+								<div class="content disp-block" id="page2">
+									<div class="hd">
+										<h4>Personal Information</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td colspan='2'>PAN <span class="mandatory">*</span></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" value=""
+													maxlength="10" name="itr1.personalInfo.pan" class="w200"
+													onchange="copySourceToDest('itr1.personalInfo.pan' ,'itr1.verification.declaration.assesseeVerPAN')" />
+												</td>
+												<td colspan='2'>First Name</td>
+												<td><input type="text"
+													onkeypress="return onlyName(event)" value="" maxlength="25"
+													name="itr1.personalInfo.assesseeName.firstName"
+													class="w200" onchange="populateVerName()" /></td>
+											</tr>
+											<tr>
+												<td colspan='2'>Middle Name</td>
+												<td><input type="text"
+													onkeypress="return onlyMidName(event)" value=""
+													maxlength="25"
+													name="itr1.personalInfo.assesseeName.middleName"
+													class="w200" onchange="populateVerName()" /></td>
+
+												<td colspan='2'>Last Name <span class="mandatory">*</span></td>
+												<td><input type="text"
+													onkeypress="return onlyName(event)" value="" maxlength="75"
+													name="itr1.personalInfo.assesseeName.surNameOrOrgName"
+													class="w200" onchange="populateVerName()" /></td>
+
+											</tr>
+											<tr>
+
+												<td colspan='2'>Aadhaar Number/Aadhaar Enrolment Id</td>
+												<td><input class="w200" type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="28"
+													name="itr1.filingStatus.adharNumber" /></td>
+
+												<td colspan='2'>Date of Birth (DD/MM/YYYY)<span
+													class="mandatory">*</span></td>
+												<td><input type="text" onchange="calcItr1()"
+													maxlength="10" name="itr1.personalInfo.dob"
+													class="date_dummy_black w200" /></td>
+											</tr>
+											<tr>
+												<td colspan='2'>Mobile Number <span class="mandatory">*</span></td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyNumbers(event)" maxlength="10"
+													name="itr1.personalInfo.address.mobileNo" /></td>
+												<td colspan='2'>Email Address <span class="mandatory">*</span></td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyEmailId(event)" maxlength="125"
+													name="itr1.personalInfo.address.emailAddress"
+													onblur="this.value=this.value.trim()" /></td>
+											</tr>
+											<!-- <tr>
+											<td colspan='5'>Status  <span class="mandatory">*</span></td>
+												<td>
+													<select class="w200" name="itr1.personalInfo.status" >
+		    											<option selected="selected" value="I">I - Individual</option>
+													</select>
+												</td>
+											
+											</tr> -->
+											<tr>
+												<td colspan="6"><strong>Address</strong></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Flat / Door / Block No <span
+													class="mandatory">*</span></td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.personalInfo.address.residenceNo" /></td>
+
+												<td colspan='2'>Name Of Premises / Building / Village</td>
+												<td><input
+													name="itr1.personalInfo.address.residenceName"
+													maxlength="50" onkeypress="return onlyAddress(event)"
+													class="w200" type="text" /></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Road / Street / Post Office</td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.personalInfo.address.roadOrStreet" /></td>
+
+												<td colspan='2'>Area / Locality <span class="mandatory">*</span>
+												</td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.personalInfo.address.localityOrArea" /></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Town / City / District <span
+													class="mandatory">*</span></td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.personalInfo.address.cityOrTownOrDistrict" /></td>
+
+												<td colspan='2'>State <span class="mandatory">*</span></td>
+												<td><select class="w200 state"
+													onchange="onStateChng();calcItr1()"
+													name="itr1.personalInfo.address.stateCode">
+														<option value="-1" selected="selected">Select</option>
+														<option value="01">ANDAMAN AND NICOBAR ISLANDS</option>
+														<option value="02">ANDHRA PRADESH</option>
+														<option value="03">ARUNACHAL PRADESH</option>
+														<option value="04">ASSAM</option>
+														<option value="05">BIHAR</option>
+														<option value="06">CHANDIGARH</option>
+														<option value="07">DADRA &amp; NAGAR HAVELI</option>
+														<option value="08">DAMAN &amp; DIU</option>
+														<option value="09">DELHI</option>
+														<option value="10">GOA</option>
+														<option value="11">GUJARAT</option>
+														<option value="12">HARYANA</option>
+														<option value="13">HIMACHAL PRADESH</option>
+														<option value="14">JAMMU &amp; KASHMIR</option>
+														<option value="15">KARNATAKA</option>
+														<option value="16">KERALA</option>
+														<option value="17">LAKSHADWEEP</option>
+														<option value="18">MADHYA PRADESH</option>
+														<option value="19">MAHARASHTRA</option>
+														<option value="20">MANIPUR</option>
+														<option value="21">MEGHALAYA</option>
+														<option value="22">MIZORAM</option>
+														<option value="23">NAGALAND</option>
+														<option value="24">ORISSA</option>
+														<option value="25">PONDICHERRY</option>
+														<option value="26">PUNJAB</option>
+														<option value="27">RAJASTHAN</option>
+														<option value="28">SIKKIM</option>
+														<option value="29">TAMILNADU</option>
+														<option value="30">TRIPURA</option>
+														<option value="31">UTTAR PRADESH</option>
+														<option value="32">WEST BENGAL</option>
+														<option value="33">CHHATISGARH</option>
+														<option value="34">UTTARANCHAL</option>
+														<option value="35">JHARKHAND</option>
+														<option value="36">TELANGANA</option>
+														<option value="99">State outside India</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td colspan='2'>Country <span class="mandatory">*</span></td>
+												<td><select class="country"
+													name="itr1.personalInfo.address.country">
+														<option value="-1" selected="selected">Select</option>
+														<option value="93">93-AFGHANISTAN</option>
+			<option value="1001">1001-ÅLAND ISLANDS</option>
+			<option value="355">355-ALBANIA</option>
+			<option value="213">213-ALGERIA</option>
+			<option value="684">684-AMERICAN SAMOA</option>
+			<option value="376">376-ANDORRA</option>
+			<option value="244">244-ANGOLA</option>
+			<option value="1264">1264-ANGUILLA</option>
+			<option value="1010">1010-ANTARCTICA</option>
+			<option value="1268">1268-ANTIGUA AND BARBUDA</option>
+			<option value="54">54-ARGENTINA</option>
+			<option value="374">374-ARMENIA</option>
+			<option value="297">297-ARUBA</option>
+			<option value="61">61-AUSTRALIA</option>
+			<option value="43">43-AUSTRIA</option>
+			<option value="994">994-AZERBAIJAN</option>
+			<option value="1242">1242-BAHAMAS</option>
+			<option value="973">973-BAHRAIN</option>
+			<option value="880">880-BANGLADESH</option>
+			<option value="1246">1246-BARBADOS</option>
+			<option value="375">375-BELARUS</option>
+			<option value="32">32-BELGIUM</option>
+			<option value="501">501-BELIZE</option>
+			<option value="229">229-BENIN</option>
+			<option value="1441">1441-BERMUDA</option>
+			<option value="975">975-BHUTAN</option>
+			<option value="591">591-BOLIVIA (PLURINATIONAL STATE OF)</option>
+			<option value="1002">1002-BONAIRE, SINT EUSTATIUS AND SABA</option>
+			<option value="387">387-BOSNIA AND HERZEGOVINA</option>
+			<option value="267">267-BOTSWANA</option>
+			<option value="1003">1003-BOUVET ISLAND</option>
+			<option value="55">55-BRAZIL</option>
+			<option value="1014">1014-BRITISH INDIAN OCEAN TERRITORY</option>
+			<option value="673">673-BRUNEI DARUSSALAM</option>
+			<option value="359">359-BULGARIA</option>
+			<option value="226">226-BURKINA FASO</option>
+			<option value="257">257-BURUNDI</option>
+			<option value="238">238-CABO VERDE</option>
+			<option value="855">855-CAMBODIA</option>
+			<option value="237">237-CAMEROON</option>
+			<option value="1">1-CANADA</option>
+			<option value="1345">1345-CAYMAN ISLANDS</option>
+			<option value="236">236-CENTRAL AFRICAN REPUBLIC</option>
+			<option value="235">235-CHAD</option>
+			<option value="56">56-CHILE</option>
+			<option value="86">86-CHINA</option>
+			<option value="9">9-CHRISTMAS ISLAND</option>
+			<option value="672">672-COCOS (KEELING) ISLANDS</option>
+			<option value="57">57-COLOMBIA</option>
+			<option value="270">270-COMOROS</option>
+			<option value="242">242-CONGO</option>
+			<option value="243">243-CONGO (DEMOCRATIC REPUBLIC OF THE)</option>
+			<option value="682">682-COOK ISLANDS</option>
+			<option value="506">506-COSTA RICA</option>
+			<option value="225">225-CÔTE D'IVOIRE</option>
+			<option value="385">385-CROATIA</option>
+			<option value="53">53-CUBA</option>
+			<option value="1015">1015-CURAÇAO</option>
+			<option value="357">357-CYPRUS</option>
+			<option value="420">420-CZECHIA</option>
+			<option value="45">45-DENMARK</option>
+			<option value="253">253-DJIBOUTI</option>
+			<option value="1767">1767-DOMINICA</option>
+			<option value="1809">1809-DOMINICAN REPUBLIC</option>
+			<option value="593">593-ECUADOR</option>
+			<option value="20">20-EGYPT</option>
+			<option value="503">503-EL SALVADOR</option>
+			<option value="240">240-EQUATORIAL GUINEA</option>
+			<option value="291">291-ERITREA</option>
+			<option value="372">372-ESTONIA</option>
+			<option value="251">251-ETHIOPIA</option>
+			<option value="500">500-FALKLAND ISLANDS (MALVINAS)</option>
+			<option value="298">298-FAROE ISLANDS</option>
+			<option value="679">679-FIJI</option>
+			<option value="358">358-FINLAND</option>
+			<option value="33">33-FRANCE</option>
+			<option value="594">594-FRENCH GUIANA</option>
+			<option value="689">689-FRENCH POLYNESIA</option>
+			<option value="1004">1004-FRENCH SOUTHERN TERRITORIES</option>
+			<option value="241">241-GABON</option>
+			<option value="220">220-GAMBIA</option>
+			<option value="995">995-GEORGIA</option>
+			<option value="49">49-GERMANY</option>
+			<option value="233">233-GHANA</option>
+			<option value="350">350-GIBRALTAR</option>
+			<option value="30">30-GREECE</option>
+			<option value="299">299-GREENLAND</option>
+			<option value="1473">1473-GRENADA</option>
+			<option value="590">590-GUADELOUPE</option>
+			<option value="1671">1671-GUAM</option>
+			<option value="502">502-GUATEMALA</option>
+			<option value="1481">1481-GUERNSEY</option>
+			<option value="224">224-GUINEA</option>
+			<option value="245">245-GUINEA-BISSAU</option>
+			<option value="592">592-GUYANA</option>
+			<option value="509">509-HAITI</option>
+			<option value="1005">1005-HEARD ISLAND AND MCDONALD ISLANDS</option>
+			<option value="6">6-HOLY SEE</option>
+			<option value="504">504-HONDURAS</option>
+			<option value="852">852-HONG KONG</option>
+			<option value="36">36-HUNGARY</option>
+			<option value="354">354-ICELAND</option>
+			<option value="91">91-INDIA</option>
+			<option value="62">62-INDONESIA</option>
+			<option value="98">98-IRAN (ISLAMIC REPUBLIC OF)</option>
+			<option value="964">964-IRAQ</option>
+			<option value="353">353-IRELAND</option>
+			<option value="1624">1624-ISLE OF MAN</option>
+			<option value="972">972-ISRAEL</option>
+			<option value="5">5-ITALY</option>
+			<option value="1876">1876-JAMAICA</option>
+			<option value="81">81-JAPAN</option>
+			<option value="1534">1534-JERSEY</option>
+			<option value="962">962-JORDAN</option>
+			<option value="7">7-KAZAKHSTAN</option>
+			<option value="254">254-KENYA</option>
+			<option value="686">686-KIRIBATI</option>
+			<option value="850">850-KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)</option>
+			<option value="82">82-KOREA (REPUBLIC OF)</option>
+			<option value="965">965-KUWAIT</option>
+			<option value="996">996-KYRGYZSTAN</option>
+			<option value="856">856-LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+			<option value="371">371-LATVIA</option>
+			<option value="961">961-LEBANON</option>
+			<option value="266">266-LESOTHO</option>
+			<option value="231">231-LIBERIA</option>
+			<option value="218">218-LIBYA</option>
+			<option value="423">423-LIECHTENSTEIN</option>
+			<option value="370">370-LITHUANIA</option>
+			<option value="352">352-LUXEMBOURG</option>
+			<option value="853">853-MACAO</option>
+			<option value="389">389-MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF)</option>
+			<option value="261">261-MADAGASCAR</option>
+			<option value="265">265-MALAWI</option>
+			<option value="60">60-MALAYSIA</option>
+			<option value="960">960-MALDIVES</option>
+			<option value="223">223-MALI</option>
+			<option value="356">356-MALTA</option>
+			<option value="692">692-MARSHALL ISLANDS</option>
+			<option value="596">596-MARTINIQUE</option>
+			<option value="222">222-MAURITANIA</option>
+			<option value="230">230-MAURITIUS</option>
+			<option value="269">269-MAYOTTE</option>
+			<option value="52">52-MEXICO</option>
+			<option value="691">691-MICRONESIA (FEDERATED STATES OF)</option>
+			<option value="373">373-MOLDOVA (REPUBLIC OF)</option>
+			<option value="377">377-MONACO</option>
+			<option value="976">976-MONGOLIA</option>
+			<option value="382">382-MONTENEGRO</option>
+			<option value="1664">1664-MONTSERRAT</option>
+			<option value="212">212-MOROCCO</option>
+			<option value="258">258-MOZAMBIQUE</option>
+			<option value="95">95-MYANMAR</option>
+			<option value="264">264-NAMIBIA</option>
+			<option value="674">674-NAURU</option>
+			<option value="977">977-NEPAL</option>
+			<option value="31">31-NETHERLANDS</option>
+			<option value="687">687-NEW CALEDONIA</option>
+			<option value="64">64-NEW ZEALAND</option>
+			<option value="505">505-NICARAGUA</option>
+			<option value="227">227-NIGER</option>
+			<option value="234">234-NIGERIA</option>
+			<option value="683">683-NIUE</option>
+			<option value="15">15-NORFOLK ISLAND</option>
+			<option value="1670">1670-NORTHERN MARIANA ISLANDS</option>
+			<option value="47">47-NORWAY</option>
+			<option value="968">968-OMAN</option>
+			<option value="92">92-PAKISTAN</option>
+			<option value="680">680-PALAU</option>
+			<option value="970">970-PALESTINE, STATE OF</option>
+			<option value="507">507-PANAMA</option>
+			<option value="675">675-PAPUA NEW GUINEA</option>
+			<option value="595">595-PARAGUAY</option>
+			<option value="51">51-PERU</option>
+			<option value="63">63-PHILIPPINES</option>
+			<option value="1011">1011-PITCAIRN</option>
+			<option value="48">48-POLAND</option>
+			<option value="14">14-PORTUGAL</option>
+			<option value="1787">1787-PUERTO RICO</option>
+			<option value="974">974-QATAR</option>
+			<option value="262">262-RÉUNION</option>
+			<option value="40">40-ROMANIA</option>
+			<option value="8">8-RUSSIAN FEDERATION</option>
+			<option value="250">250-RWANDA</option>
+			<option value="1006">1006-SAINT BARTHÉLEMY</option>
+			<option value="290">290-SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</option>
+			<option value="1869">1869-SAINT KITTS AND NEVIS</option>
+			<option value="1758">1758-SAINT LUCIA</option>
+			<option value="1007">1007-SAINT MARTIN (FRENCH PART)</option>
+			<option value="508">508-SAINT PIERRE AND MIQUELON</option>
+			<option value="1784">1784-SAINT VINCENT AND THE GRENADINES</option>
+			<option value="685">685-SAMOA</option>
+			<option value="378">378-SAN MARINO</option>
+			<option value="239">239-SAO TOME AND PRINCIPE</option>
+			<option value="966">966-SAUDI ARABIA</option>
+			<option value="221">221-SENEGAL</option>
+			<option value="381">381-SERBIA</option>
+			<option value="248">248-SEYCHELLES</option>
+			<option value="232">232-SIERRA LEONE</option>
+			<option value="65">65-SINGAPORE</option>
+			<option value="1721">1721-SINT MAARTEN (DUTCH PART)</option>
+			<option value="421">421-SLOVAKIA</option>
+			<option value="386">386-SLOVENIA</option>
+			<option value="677">677-SOLOMON ISLANDS</option>
+			<option value="252">252-SOMALIA</option>
+			<option value="28">28-SOUTH AFRICA</option>
+			<option value="1008">1008-SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option>
+			<option value="211">211-SOUTH SUDAN</option>
+			<option value="35">35-SPAIN</option>
+			<option value="94">94-SRI LANKA</option>
+			<option value="249">249-SUDAN</option>
+			<option value="597">597-SURINAME</option>
+			<option value="1012">1012-SVALBARD AND JAN MAYEN</option>
+			<option value="268">268-SWAZILAND</option>
+			<option value="46">46-SWEDEN</option>
+			<option value="41">41-SWITZERLAND</option>
+			<option value="963">963-SYRIAN ARAB REPUBLIC</option>
+			<option value="886">886-TAIWAN, PROVINCE OF CHINA[A]</option>
+			<option value="992">992-TAJIKISTAN</option>
+			<option value="255">255-TANZANIA, UNITED REPUBLIC OF</option>
+			<option value="66">66-THAILAND</option>
+			<option value="670">670-TIMOR-LESTE (EAST TIMOR)</option>
+			<option value="228">228-TOGO</option>
+			<option value="690">690-TOKELAU</option>
+			<option value="676">676-TONGA</option>
+			<option value="1868">1868-TRINIDAD AND TOBAGO</option>
+			<option value="216">216-TUNISIA</option>
+			<option value="90">90-TURKEY</option>
+			<option value="993">993-TURKMENISTAN</option>
+			<option value="1649">1649-TURKS AND CAICOS ISLANDS</option>
+			<option value="688">688-TUVALU</option>
+			<option value="256">256-UGANDA</option>
+			<option value="380">380-UKRAINE</option>
+			<option value="971">971-UNITED ARAB EMIRATES</option>
+			<option value="44">44-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND</option>
+			<option value="2">2-UNITED STATES OF AMERICA</option>
+			<option value="1009">1009-UNITED STATES MINOR OUTLYING ISLANDS</option>
+			<option value="598">598-URUGUAY</option>
+			<option value="998">998-UZBEKISTAN</option>
+			<option value="678">678-VANUATU</option>
+			<option value="58">58-VENEZUELA (BOLIVARIAN REPUBLIC OF)</option>
+			<option value="84">84-VIET NAM</option>
+			<option value="1284">1284-VIRGIN ISLANDS (BRITISH)</option>
+			<option value="1340">1340-VIRGIN ISLANDS (U.S.)</option>
+			<option value="681">681-WALLIS AND FUTUNA</option>
+			<option value="1013">1013-WESTERN SAHARA</option>
+			<option value="967">967-YEMEN</option>
+			<option value="260">260-ZAMBIA</option>
+			<option value="263">263-ZIMBABWE</option>
+			<option value="9999">9999-OTHERS</option>
+
+												</select></td>
+
+												<td colspan='2'>Pincode <span class="mandatory">*</span></td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyNumbers(event)" maxlength="6"
+													name="itr1.personalInfo.address.pinCode" /></td>
+													
+													
+													
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>Filing Status</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+
+												<td colspan='2'>Employer Category<span
+													class="mandatory">*</span></td>
+												<td><select class="w200" onchange="calcItr1()"
+													name="itr1.personalInfo.employerCategory">
+														<option value="-1" selected="selected">Select</option>
+														<option value="GOV">Government</option>
+														<option value="PSU">Public Sector Unit</option>
+														<option value="OTH">Others</option>
+														<option value="NA">Not Applicable</option>
+												</select></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Residential Status <span
+													class="mandatory">*</span></td>
+												<td><select class="w200" onchange="calcItr1()"
+													name="itr1.filingStatus.residentialStatus">
+														<option value="-1" selected="selected">Select</option>
+														<option value="RES">RES - Resident</option>
+														<option value="NRI">NRI - Non Resident</option>
+														<option value="NOR">NOR - Resident but not
+															Ordinarily Resident</option>
+												</select></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Return filed <span class="mandatory">*</span>
+												</td>
+												<td><select class="w200"
+													onchange="returnFile_UnderSec();calcItr1();changeNoticeDateUndSec(this.value)"
+													name="itr1.filingStatus.returnFileSec">
+														<option value="-1" selected="selected">Select</option>
+														<option value="11">11 - On or Before Due Date
+															139(1)</option>
+														<option value="12">12 - After Due Date 139(4)</option>
+														<option value="13">13 - u/s 142(1)</option>
+														<option value="14">14 - u/s 148</option>
+														<option value="15">15 - u/s 153A</option>
+														<option value="16">16 - u/s 153C r/w 153A</option>
+														<option value="17">17 - Revised Return - 139(5)</option>
+														<option value="18">18 - u/s 139(9)</option>
+														<option value="20">20 - u/s 119(2)(b)</option>
+												</select></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Whether original or revised return? <span
+													class="mandatory">*</span></td>
+												<td><select onchange="returnType_change();calcItr1()"
+													class="w200" name="itr1.filingStatus.returnType">
+														<option value="-1">Select</option>
+														<option value="O" selected="selected">Original</option>
+														<option value="R">Revised</option>
+												</select></td>
+											</tr>
+											<tr>
+
+												<td colspan="4">If under section: 139(5) - revised
+													return:</td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Original Acknowledgement Number</td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyNumbers(event)" readonly="readonly"
+													maxlength="15" name="itr1.filingStatus.receiptNo"
+													disabled="disabled" /></td>
+											</tr>
+											<tr>
+												<td colspan='2'>Date of filing of Original
+													Return(DD/MM/YYYY)</td>
+												<td><input class="date_dummy_black w200" type="text"
+													onkeypress="return onlyDate(event)"
+													id="PersistITR_itr1_filingStatus_origRetFiledDate"
+													readonly="readonly" maxlength="10"
+													name="itr1.filingStatus.origRetFiledDate"
+													disabled="disabled" onchange="calcItr1()" /></td>
+											</tr>
+											<tr>
+
+												<td colspan="4">If under section: 139(9) - return in
+													response to defective return notice:</td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Original Acknowledgement Number</td>
+												<td><input type="text" class="w200"
+													onkeypress="return onlyNumbers(event)" readonly="readonly"
+													maxlength="15" name="itr1.filingStatus.ackNoOriginalReturn"
+													disabled="disabled" /></td>
+											</tr>
+											<tr>
+												<td colspan='2'>Date of filing of Original Return
+													(DD/MM/YYYY)</td>
+												<td><input class="date_dummy_black w200" type="text"
+													onchange="calcInterestPayable()"
+													onkeypress="return onlyDate(event)"
+													id="PersistITR_itr1_filingStatus_noticeDate"
+													readonly="readonly" maxlength="10"
+													name="itr1.filingStatus.noticeDate" disabled="disabled" />
+												</td>
+											</tr>
+											<tr>
+												<td colspan='2'>Notice Number</td>
+												<td><input type="text" class="w200" readonly="readonly"
+													maxlength="23" name="itr1.filingStatus.noticeNo"
+													disabled="disabled" /></td>
+											</tr>
+											<tr>
+												<td colspan='2'>If filed in response to notice u/s
+													139(9)/142(1)/148/153A/153C, enter the date of such notice</td>
+												<td><input class="date_dummy_black w200" type="text"
+													onkeypress="return onlyDate(event)"
+													id="PersistITR_itr1_filingStatus_noticeDateUnderSec"
+													maxlength="10" name="itr1.filingStatus.noticeDateUnderSec"
+													disabled="disabled" /></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>Are you governed by Portuguese Civil
+													Code as per section 5A ?<span class="mandatory">*</span>
+												</td>
+												<td><select
+													onchange="onChngPCC5A();enableTCSspouseAmt(this.value);enableTDSspouseAmt(this.value)"
+													class="w200" name="itr1.filingStatus.portugeseCC5A">
+														<option value="-1" selected="selected">Select</option>
+														<option value="Y">Yes</option>
+														<option value="N">No</option>
+												</select></td>
+											</tr>
+											<tr>
+
+												<td colspan='2'>If Yes, Fill PAN of the Spouse</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" value=""
+													maxlength="10" name="itr1.filingStatus.panOfSpouse"
+													class="w200" /></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<div class="content disp-none" id="page3">
+									<div class="hd">
+										<h4>Gross Total Income And Deduction</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td class="w4p"><span class="labelITR">B1.</span></td>
+												<td colspan="6">Income from Salary / Pension <br />(Ensure to Fill “Sch TDS1”)
+												</td>
+												<td><input type="text" onchange="calcItr1();"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.incomeFromSal" /></td>
+											</tr>
+											<tr>
+												<td rowspan="2"><span class="labelITR">B2.</span></td>
+												<td colspan="6">Type of House Property</td>
+												<td><select name="itr1.itr1IncomeDeductions.typeOfHP">
+														<option value="" selected="selected">Select</option>
+														<option value="S">Self Occupied</option>
+														<option value="L">Let Out</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td colspan="6">Income from One House Property (If
+													loss, put the figure in negative)</td>
+												<!-- ********ADD ID ********* -->
+												<td><input type="text" onchange="calcItr1();"
+													onkeypress="return onlyNegativeNumbers(event)"
+													class="rightAlign" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.totalIncomeOfHP" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">B3.</span></td>
+												<td colspan="6">Income from Other Sources<br />(Ensure to Fill “Sch TDS2”)
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.incomeOthSrc" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">B4.</span></td>
+												<td colspan="6"><strong>Gross Total Income (B1
+														+ B2 + B3) (If loss, put the figure in negative) </strong></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.grossTotIncome" /></td>
+											</tr>
+											<tr>
+
+												<td colspan="8"><strong>Part C – Deductions and Taxable Total Income</strong></td>
+											</tr>
+											<tr>
+
+												<td><strong>S.No.</strong></td>
+												<td colspan="5"><strong>Section</strong></td>
+												<td class="col15_c"><strong>Amount </strong></td>
+												<td><strong>System Calculated </strong></td>
+											</tr>
+											<tr>
+												<td rowspan='19'></td>
+												<td colspan="5">80C</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80C_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80C" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80CCC</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCC_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80CCC" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80CCD(1)<br /></td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCD_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80CCD" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80CCD(1B)<br /></td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCD1B_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80CCD1B" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80CCD(2)<br /></td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCDEmployer_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80CCDEmployer" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80CCG</td>
+												<td><input
+													title="80CCG Deduction. Enter Deduction Amount, do not enter Investment Amount."
+													type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80CCG_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80CCG" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80D<br /></td>
+												<td><input type="text"
+													title="1. Individual = Maximum Rs. 25,000/- (Sr Citizen Rs. 30,000/-)
+							                                                                2. Individual + Parents = Maximum Rs. 50,000/-
+							                                                                3. Individual + Parents (Sr Citizen) = Maximum Rs. 55,000/-
+							                                                                4. Individual (Sr Citizen) + Parents (Sr Citizen) = Maximum Rs. 60,000/-"
+													onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80D_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80D" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80DD<br />(Maximum eligible amount is
+													75000. For Severe Disability, it is 125000)
+												</td>
+
+												<td><input type="text"
+													title="80DD Expenditure for medical treatment for dependent relative. Maximum eligible amount is Rs. 75000 (Rs. 125000 for severe   disability)."
+													onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80DD_Usr" />
+												</td>
+
+
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80DD" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80DDB<br />(Maximum eligible amount is
+													40000. For Senior Citizen, it is 80000)
+												</td>
+
+
+
+												<td><input type="text"
+													title="80DDB Medical Expenditure for specified diseases. Maximum eligible amount is Rs. 40000. (Rs. 60000 for senior citizen and Rs. 80000 for very senior citizen)"
+													onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80DDB_Usr" />
+												</td>
+
+
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80DDB" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80E</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80E_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80E" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80EE</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80EE_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80EE" />
+												</td>
+											</tr>
+
+											<tr>
+
+												<td colspan="5">80G</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80G_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80G" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80GG</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80GG_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80GG" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80GGA</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80GGA_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80GGA" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80GGC</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80GGC_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80GGC" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80RRB</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80RRB_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80RRB" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80QQB</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80QQB_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80QQB" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80TTA</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80TTA_Usr" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80TTA" />
+												</td>
+											</tr>
+											<tr>
+
+												<td colspan="5">80U<br />(Maximum eligible amount is
+													75000. For Severe Disability, it is 125000)
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.section80U_Usr" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.section80U" />
+												</td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">C1.</span></td>
+												<td colspan="5"><strong>Total Deductions</strong></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.usrDeductUndChapVIA.totalChapVIADeductions_Usr" />
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.deductUndChapVIA.totalChapVIADeductions" />
+												</td>
+											</tr>
+											<tr>
+												<td colspan="8"><div>
+														<span class="mandatory">Note:Total deductions under
+															chapter VI A cannot exceed GTI.</span>
+													</div></td>
+											</tr>
+											<tr>
+
+												<td><span class="labelITR">C2.</span></td>
+												<td colspan="6"><strong>Taxable Total Income (B4-C1)</strong></td>
+												<td><input type="text" 
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1IncomeDeductions.totalIncome" /></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>Part D – Computaion of  Tax Payable</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td class="w4p"><span class="labelITR">D1.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Tax Payable on Total Income (C2)</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.totalTaxPayable" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D2.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Rebate u/s 87A</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.rebate87A" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D3.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Tax after Rebate (D1-D2)</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.taxPayableOnRebate" />
+												</td>
+											</tr>
+											<!-- <tr>
+												<td><span class="labelITR">D4.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Surcharge, if C21 exceeds 1 crore</div>
+												</td>
+												<td>
+													<input type="text" onchange="calcItr1()" onkeypress="return onlyNumbers(event)" class="rightAlign" readonly="readonly" value="0" maxlength="14" name="itr1.itr1TaxComputationOnline.surchargeOnAboveCrore"/>
+												</td>
+											</tr> -->
+											<tr>
+												<td><span class="labelITR">D4.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Cess on (D3)</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.educationCess" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D5.</span> <input
+													type="hidden" value="0"
+													name="itr1.itr1TaxComputationOnline.surchargeOnTaxPayable" />
+												</td>
+												<td colspan="6">
+													<div class="fl-l">
+														<strong>Total Tax &amp; Cess (D3+D4)</strong>
+													</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.grossTaxLiability" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D6</span></td>
+												<td colspan="6">
+													<div class="fl-l">Relief u/s 89 (Please ensure to
+														submit Form 10E)</div>
+												</td>
+												<td><input title="Please ensure to submit Form 10E."
+													type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.section89" /></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td colspan="6">
+													<div class="fl-l">
+														<strong>Balance Tax After Relief (D5 - D6) </strong>
+													</div>
+												</td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.netTaxLiability" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D7</span></td>
+												<td colspan="6">
+													<div class="fl-l">Interest u/s 234A</div>
+												</td>
+												<td><input type="text"
+													onchange="j.enableCalculate();sum234A234B234C()"
+													onkeypress="return onlyNumbers(event)"
+													class="rightAlign grn_bg" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.intrstPay.intrstPayUs234A" />
+												</td>
+											</tr>
+
+
+											<tr>
+												<td><span class="labelITR">D8.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Interest u/s 234B</div>
+												</td>
+												<td><input type="text"
+													onchange="j.enableCalculate();sum234A234B234C()"
+													onkeypress="return onlyNumbers(event)"
+													class="rightAlign grn_bg" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.intrstPay.intrstPayUs234B" />
+												</td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D9.</span></td>
+												<td colspan="6">
+													<div class="fl-l">Interest u/s 234C</div>
+												</td>
+												<td><input type="text"
+													onchange="j.enableCalculate();sum234A234B234C()"
+													onkeypress="return onlyNumbers(event)"
+													class="rightAlign grn_bg" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.intrstPay.intrstPayUs234C" />
+												</td>
+											</tr>
+											<tr>
+												<td></td>
+												<td colspan="6">
+													<div class="fl-l">Total Interest Payable (D7 + D8 +
+														D9)</div>
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.totalIntrstPay" /></td>
+											</tr>
+											<tr>
+												<td><span class="labelITR">D10.</span></td>
+												<td colspan="6">
+													<div class="fl-l">
+														<strong>Total Tax and Interest (D5 + D7 + D8 + D9
+															- D6) </strong>
+													</div>
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													readonly="readonly" value="0" maxlength="14"
+													name="itr1.itr1TaxComputationOnline.totTaxPlusIntrstPay" />
+												</td>
+											</tr>
+									
+										</tbody>
+									</table>
+								</div>
+
+
+								<div class="content disp-none" id="page4">
+									<div class="hd">
+										<h4>SCH TDS1. Details of Tax Deducted at Source from
+											SALARY [As per Form16 issued by Employer(s)]</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="taxDedSourceSal" class="grid bor0">
+										<tbody>
+											<tr>
+												<td width="4%">S.No.</td>
+												<td width="2%"></td>
+												<td width="22%">Tax Deduction Account Number (TAN) of
+													the Deductor<br />
+												</td>
+												<td>Name of the Deductor<br /></td>
+												<td>Income chargeable under Salaries<br /></td>
+												<td>Total tax deducted<br /></td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onblur="this.value=this.value.toUpperCase()"
+													onkeypress="return onlyNumbersChars(event)" maxlength="10"
+													name="itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.tan" /></td>
+												<td><input type="text" value="" maxlength="125"
+													name="itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"
+													class="w150px" /></td>
+												<td><input type="text"
+													onchange="calcItr1();calculateTotalTax('taxDedSourceSal')"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="" maxlength="14"
+													name="itr1.tdSonSalaries.tdSonSalary[0].incChrgSal" /></td>
+												<td><input type="text"
+													onchange="calcItr1();calculateTotalTax('taxDedSourceSal')"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="" maxlength="14"
+													name="itr1.tdSonSalaries.tdSonSalary[0].totalTDSSal" /></td>
+											</tr>
+
+											<tr>
+												<td colspan="5">Total</td>
+												<td><input type="text" class="rightAlign"
+													id="PersistITR4S2014_itr4S_schedule80G_don100Percent_totDon100Percent"
+													readonly="readonly" value="0"
+													name="itr1.tdSonSalaries.tdSonSalary.totalTaxDeducted" /></td>
+											</tr>
+
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('taxDedSourceSal',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('taxDedSourceSal',1,2);calculateTotalTax('taxDedSourceSal')"
+															alt="del" /></a> <input type="hidden" name="Count_SCH_TDS1"
+														value="1" id="Count_SCH_TDS1" />
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>SCH TDS2. Details of Tax Deducted at Source from
+											Income other than Salary [As per Form16 A issued by
+											Deductor(s)]</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="taxDedSourceSrc" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>S.No.</td>
+												<td></td>
+												<td>Tax Deduction Account Number (TAN) of the Deductor<br />[Col
+													(1)]
+												</td>
+												<td>Name of the Deductor<br />[Col (2)]
+												</td>
+												<td>Amount which is subject to tax deduction<br />[Col
+													(3)]
+												</td>
+												<td>Deduction year <br />[Col (4)]
+												</td>
+												<td>Tax Deducted<br />[Col (5)]
+												</td>
+												<td>Amount out of (5) claimed for this year<br />[Col
+													(6)]
+												</td>
+												<td>Amount claimed in the hands of spouse if section 5A
+													is applicable <br />[Col (7)]
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onblur="this.value=this.value.toUpperCase()"
+													onkeypress="return onlyNumbersChars(event)" maxlength="10"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.tan" /></td>
+												<td><input type="text" maxlength="125"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"
+													class="w150px" /></td>
+												<td><input type="text" class="w70px"
+													onchange="calcTDSAmtTaxCheck()" maxlength="14"
+													required="true"  onkeypress="return onlyNumbers(event)"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].amtForTaxDeduct" /></td>
+												<td><select class="w100px"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].deductedYr">
+														<option selected="selected" value="">Select</option>
+														<option value="2016">2016</option>
+														<option value="2015">2015</option>
+														<option value="2014">2014</option>
+														<option value="2013">2013</option>
+														<option value="2012">2012</option>
+														<option value="2011">2011</option>
+														<option value="2010">2010</option>
+														<option value="2009">2009</option>
+														<option value="2008">2008</option>
+														<option value="2007">2007</option>
+														<option value="2006">2006</option>
+														<option value="2005">2005</option>
+														<option value="2004">2004</option>
+														<option value="2003">2003</option>
+														<option value="2002">2002</option>
+														<option value="2001">2001</option>
+												</select></td>
+
+												<td><input type="text"
+													onchange="calcTDSAmtTaxCheck();calcItr1();calculateTotalTaxTDS2('taxDedSourceSrc')"
+													onkeypress="return onlyNumbers(event)"
+													class="w90px rightAlign" maxlength="14"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].totTDSOnAmtPaid" /></td>
+												<td><input type="text"
+													onchange="calcItr1();calculateTotalTaxTDS2('taxDedSourceSrc')"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													id="itr1.tdSonOthThanSals.tdSonOthThanSal.claimOutOfTotTDSOnAmtPaid"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].claimOutOfTotTDSOnAmtPaid" /></td>
+												<td><input type="text" onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													id="itr1.tdSonOthThanSals.tdSonOthThanSal.amtClaimedBySpouse"
+													maxlength="14"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal[0].amtClaimedBySpouse"
+													readonly="readonly" /></td>
+											</tr>
+											<tr>
+												<td colspan="7">Total</td>
+												<td colspan="2"><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.tdSonOthThanSals.tdSonOthThanSal.claimOutOfTotTDSOnAmtPaid" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('taxDedSourceSrc',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('taxDedSourceSrc',1,2);calculateTotalTaxTDS2('taxDedSourceSrc')"
+															alt="del" /></a> <input type="hidden" name="Count_SCH_TDS1"
+														value="1" id="Count_SCH_TDS1" />
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+
+
+
+									<div class="hd">
+										<h4>SH.TCS Details of Tax Collected at Source (TCS) [As
+											per Form 27D issued by the Collector(s)]</h4>
+									</div>
+									<table class="grid bor0" cellspacing="1" cellpadding="4"
+										id="scheduleTCS" name="scheduleTCS" width="100%">
+										<tbody>
+											<tr>
+												<td width="20px;">Sl.No.<br />
+												</td>
+												<td class="w10px"></td>
+												<td width="90px;">Tax Collection Account Number of the
+													Collector <br />[Col (1)]<span class="mandatory">*</span>
+												</td>
+												<td width="150px;">Name of the Collector<br />[Col
+													(2)]<span class="mandatory">*</span></td>
+												<td>Amount which is subject to tax collection<br />[Col
+													(3)]
+												</td>
+												<td>Collection year <br />[Col (4)]
+												</td>
+												<td width="150px;">Tax Collected<br />[Col (5)]
+												</td>
+												<td width="150px;">Amount out of (5) being claimed [Col (6)]<br />(5)
+												</td>
+												<td width="150px;">Amount claimed in the hands of spouse if section 5A is applicable  [Col (7)]<br />(6)
+												</td>
+											</tr>
+
+											<tr>
+												<td width="20px;">1</td>
+												<td class="itr6_80g_sno w10px"><input type="checkbox"
+													name="scheduleTCS.tcSonOthThanSal[0].chosenCheckBox"
+													value="true" /> <input type="hidden"
+													name="__checkbox_scheduleTCS.tcSonOthThanSal[0].chosenCheckBox"
+													value="true" /></td>
+												<td width="90px;"><input type="text"
+													name="itr1.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.tan"
+													maxlength="10" value=""
+													onkeypress="return onlyNumbersChars(event)"
+													onchange="this.value=this.value.toUpperCase()" /></td>
+												<td width="150px;"><input type="text"
+													name="itr1.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"
+													maxlength="125" class="w150px" value=""
+													onkeypress="return onlyMidName(event)" /></td>
+												<td><input type="text" class="w70px" maxlength="14"
+													onchange="calcTCSAmtTaxCheck()" 
+													name="itr1.scheduleTCS.tcs[0].amtTaxCollected" /></td>
+												<td><select class="w100px"
+													name="itr1.scheduleTCS.tcs[0].collectedYr">
+														<option selected="selected" value="">Select</option>
+														<option value="2016">2016</option>
+														<option value="2015">2015</option>
+														<option value="2014">2014</option>
+														<option value="2013">2013</option>
+														<option value="2012">2012</option>
+														<option value="2011">2011</option>
+														<option value="2010">2010</option>
+														<option value="2009">2009</option>
+														<option value="2008">2008</option>
+														<option value="2007">2007</option>
+														<option value="2006">2006</option>
+														<option value="2005">2005</option>
+														<option value="2004">2004</option>
+														<option value="2003">2003</option>
+														<option value="2002">2002</option>
+														<option value="2001">2001</option>
+												</select></td>
+
+												<td width="150px;"><input type="text"
+													name="itr1.scheduleTCS.tcs[0].totalTCS" maxlength="14"
+													value="" class="rightAlign"
+													onkeypress="return onlyNumbers(event)"
+													onchange="calcTCSAmtTaxCheck();calcItr1()" /></td>
+												<td width="150px;"><input type="text"
+													name="itr1.scheduleTCS.tcs[0].amtTCSClaimedThisYear"
+													maxlength="14" value="" class="rightAlign"
+													onkeypress="return onlyNumbers(event)"
+													onchange="calcItr1();calculateTotalTaxTCS('scheduleTCS');" /></td>
+												<td width="150px;"><input type="text"
+													onchange="calcItr1()"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													name="itr1.scheduleTCS.tcs[0].amtClaimedBySpouse"
+													readonly="readonly" /></td>
+											</tr>
+											<tr>
+												<td colspan="7">Total</td>
+												<td colspan="2"><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.scheduleTCS.totalTcSSalary" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT2" id="Image_Add_SCH_TCSIT2"
+															alt="alt" onclick="addRowToTable('scheduleTCS',3,2)" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															id="removeButton" alt="del"
+															onclick="deleteRowTable('scheduleTCS',1,2);calculateTotalTaxTCS('scheduleTCS');calcItr1();" /></a>
+														<input type="hidden" name="Count_SCH_IT" value="1" />
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>SCH IT. Details of Advance Tax and Self Assessment
+											Tax Payments</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="taxDedSelf" class="grid bor0">
+										<tbody>
+											<tr>
+												<td width="4%">S.No.</td>
+												<td width="2%"></td>
+												<td width="22%">BSR Code<br />[Col (1)]
+												</td>
+												<td>Date of deposit<br />(DD/MM/YYYY)<br />[Col (2)]
+												</td>
+												<td>Serial Number of Challan<br />[Col (3)]
+												</td>
+												<td>Tax paid<br />[Col (4)]
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox"
+													onkeypress="return onlyNumbers(event)" value="true"
+													name="itr1.taxPayments.taxPayment[0].chosenCheckBox" /> <input
+													type="hidden" value="true"
+													name="__checkbox_itr1.taxPayments.taxPayment[0].chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="7"
+													name="itr1.taxPayments.taxPayment[0].bsrCode" /></td>
+												<td><input type="text" onchange="calcInterestPayable()"
+													class="date_dummy_black" maxlength="10"
+													name="itr1.taxPayments.taxPayment[0].dateDep" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="5"
+													name="itr1.taxPayments.taxPayment[0].srlNoOfChaln" /></td>
+												<td><input type="text"
+													onchange="calcItr1();calculateTotalTaxIT('taxDedSelf')"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14" name="itr1.taxPayments.taxPayment[0].amt" /></td>
+											</tr>
+											<tr>
+												<td colspan="5">Total</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.scheduleIT.taxPayment.amt" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('taxDedSelf',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('taxDedSelf',1,2);calculateTotalTaxIT('taxDedSelf')"
+															alt="del" /></a>
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								
+								<div class="content disp-none" id="page5">
+									<div class="hd">
+										<h4>Taxes Paid</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0" class="grid bor0">
+										<tbody>
+											<tr>
+												<td colspan="8">Please note that calculated fields (in grey) are picked from other schedules and are not to be entered. For Eg :  The taxes paid figures below will get filled up when the Schedules linked to them  are filled.</td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D11(i).</span></td>
+												<td colspan="6">
+													<div class="fl-l">Total Advance Tax Paid</div>
+												</td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="0" size="20"
+													name="itr1.taxPaid.taxesPaid.advanceTax" /></td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D11(ii).</span></td>
+												<td colspan="6">
+													<div class="fl-l">Total Self Assessment Tax Paid</div>
+												</td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="0" size="20"
+													name="itr1.taxPaid.taxesPaid.selfAssessmentTax" /></td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D11(iii).</span></td>
+												<td colspan="6">
+													<div class="fl-l">Total TDS Claimed</div>
+												</td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="" size="20"
+													name="itr1.taxPaid.taxesPaid.tds" /></td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D11(iv).</span></td>
+												<td colspan="6">
+													<div class="fl-l">Total TCS Claimed</div>
+												</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0" size="20"
+													name="itr1.taxPaid.taxesPaid.tcs" /></td>
+
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D11(v).</span></td>
+												<td colspan="6"><strong>Total Taxes
+														Paid(D11[(i) + (ii) + (iii) + (iv)])</strong></td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="0" size="20"
+													name="itr1.taxPaid.taxesPaid.totalTaxesPaid" /></td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D12.</span></td>
+												<td colspan="6"><strong>Amount payable</strong> (D10
+													–D11)(if D10 > D11)</td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="0" size="20"
+													name="itr1.taxPaid.balTaxPayable" /></td>
+											</tr>
+											<tr>
+												<td width="5%"><span class="labelITR">D13.</span></td>
+												<td colspan="6"><strong>Refund </strong>(D11 – D10) (if
+													D11 > D10)</td>
+												<td><input type="text" class="rightAlign w150px"
+													readonly="readonly" value="0" size="20"
+													name="itr1.refund.refundDue" /></td>
+											</tr>
+											<tr>
+												<td colspan="8"><strong>Exempt income (For
+														reporting Purposes)</strong></td>
+											</tr>
+											<tr>
+												<td>(i)</td>
+												<td colspan="6">Sec.10(38)</td>
+												<td><input type="text" class="rightAlign w150px"
+													value="" maxlength="14" onkeypress="return onlyNumbers(event)"
+													name="itr1.taxPaid.taxesPaid.excIncSec1038" /></td>
+											</tr>
+											<tr>
+												<td>(ii)</td>
+												<td colspan="6">Sec.10(34)</td>
+												<td><input type="text" class="rightAlign w150px"
+													value="" maxlength="14" onkeypress="return onlyNumbers(event)"
+													name="itr1.taxPaid.taxesPaid.excIncSec1034" /></td>
+											</tr>
+
+
+											<tr>
+												<td>(iii)</td>
+												<td colspan="6">Agriculture Income (≤ Rs.5000)</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)"
+													class="rightAlign w150px" maxlength="14"
+													name="itr1.taxExmpIntInc" /></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="scheduleTaxesPaid" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>(iv)</td>
+												<td colspan="6">Others</td>
+
+											</tr>
+											<tr>
+
+												<td width="4%">S.No.</td>
+												<td width="4%"></td>
+												<td>Nature of Income</td>
+												<td>Amount</td>
+
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr4S.us44aeHeavy[0].chosenCheckBox" /><input
+													type="hidden" value="true"
+													name="__checkbox_itr4S.us44aeHeavy[0].chosenCheckBox" /></td>
+												<td><input type="text" class="w150px" maxlength="75"
+													name="itr1.taxPaid.taxesPaid[0].othNatOfInc" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)"
+													class="rightAlign w150px" maxlength="14"
+													name="itr1.taxPaid.taxesPaid[0].othAmount" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															onclick="addRowToTable('scheduleTaxesPaid',2,1);" alt="alt"
+															id="Image_Add_SCH_TDSIT" name="Image_Add_SCH_TDSIT"
+															src="../../Common/images/Add.png" />
+													</a> <a href="javascript:void(0)"><img
+															onclick="deleteRowTable('scheduleTaxesPaid',2,1);" alt="del"
+															src="../../Common/images/delete_icon.png" /></a> <input
+														type="hidden" value="1" name="Count_SCH_IT"
+														id="Count_SCH_IT" />
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>Part E – Other Information</h4>
+									</div>
+									<div class="hd">
+										<h4>D14. Details of all Bank Accounts held in India at
+											any time during the previous year (excluding dormant
+											accounts)</h4>
+									</div>
+									
+									<div class="hd">
+										<h3>a) Bank Account in which refund, if any, shall be
+											credited</h3>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td width="8%">S.No.</td>
+												<td>IFS Code of the bank <span class="mandatory">*</span></td>
+												<td>Name of the Bank <span class="mandatory">*</span></td>
+												<td>Account Number (the number should be 9 digits or
+													more as per CBS system of the bank)<span class="mandatory">*</span>
+												</td>
+												<td>Cash deposited during 09.11.2016 to 30.12.2016 (if
+													aggregate cash deposits during the period ≥ Rs.2 lakh)<span
+													class="mandatory">*</span>
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="text"
+													onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()"
+													onchange="getIfscBankName(this);" value="" maxlength="11"
+													name="itr1.refund.scheduleBA.priBankDetails.ifscCode" /></td>
+												<td><input type="text"
+													name="itr1.refund.scheduleBA.priBankDetails.bankName"
+													maxlength="125" class="w200" /></td>
+												<td><input type="text"
+													onkeypress="return onlyBankAccNo(event)" value=""
+													maxlength="20" size="20"
+													name="itr1.refund.scheduleBA.priBankDetails.bankAccountNo" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="" maxlength="14"
+													name="itr1.refund.scheduleBA.priBankDetails.cashDeposited" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h3>b) Other Bank account details</h3>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="scheduleBA" class="grid bor0">
+										<tbody>
+											<tr>
+												<td width="4%">S.No.</td>
+												<td width="4%"></td>
+												<td>IFS Code of the bank</td>
+												<td>Name of the Bank</td>
+												<td>Account Number (the number should be 9 digits or
+													more as per CBS system of the bank)</td>
+												<td>Cash deposited during 09.11.2016 to 30.12.2016 (if
+													aggregate cash deposits during the period ≥ Rs.2 lakh)</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td><input type="checkbox" value="true"
+													name="itr4S.us44aeHeavy[0].chosenCheckBox" /><input
+													type="hidden" value="true"
+													name="__checkbox_itr4S.us44aeHeavy[0].chosenCheckBox" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()"
+													onchange="getIfscBankDetails(this);" value=""
+													maxlength="11"
+													name="itr1.refund.scheduleBA[0].ifscCode" /></td>
+												<td><input type="text"
+													name="itr1.refund.scheduleBA[0].bankName"
+													maxlength="125" class="w200" /></td>
+												<td><input type="text"
+													onkeypress="return onlyBankAccNo(event)" value=""
+													maxlength="20" size="20"
+													name="itr1.refund.scheduleBA[0].bankAccountNo" /></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													value="" maxlength="14"
+													name="itr1.refund.scheduleBA[0].cashDeposited" />
+												</td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															onclick="addRowToTable('scheduleBA',2,1);" alt="alt"
+															id="Image_Add_SCH_TDSIT" name="Image_Add_SCH_TDSIT"
+															src="../../Common/images/Add.png" />
+													</a> <a href="javascript:void(0)"><img
+															onclick="deleteRowTable('scheduleBA',1,1);" alt="del"
+															src="../../Common/images/delete_icon.png" /></a> <input
+														type="hidden" value="1" name="Count_SCH_IT"
+														id="Count_SCH_IT" />
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>Verification</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td colspan="5">I,<span class="mandatory">*</span>
+													<div class="disp-inline">
+														<input type="text"
+															onchange="onlyVerificationFullName(this)"
+															onblur="this.value=this.value.toUpperCase()"
+															class="w370px" maxlength="125"
+															name="itr1.verification.declaration.assesseeVerName" />
+													</div>
+													 son/daughter of <span class="mandatory">*</span> 
+													<div class="disp-inline">
+														<input type="text"
+															onchange="onlyVerificationFullName(this)" value=""
+															maxlength="125" class="w370px"
+															name="itr1.verification.declaration.fatherName" />
+													</div>solemnly declare that to the best of my knowledge and belief,
+													 the information given in the return is correct and complete and 
+													 in accordance with the provisions of the Income-tax Act, 1961.
+												</td>
+											</tr>
+											<tr>
+												<td>Place<span class="mandatory">*</span> 
+													<div class="disp-inline">
+														<input type="text" onkeypress="return onlyAddress(event)"
+															maxlength="50" class="w150px"
+															name="itr1.verification.place" />
+													</div> Date (DD/MM/YYYY)<span class="mandatory">*</span> 
+													<div class="disp-inline">
+														<input type="text" class="w150px date_dummy_black"
+															maxlength="10" name="itr1.verification.date"
+															onchange="calcItr1()" />
+													</div>
+													PAN<span class="mandatory">*</span>
+													<div class="disp-inline">
+														<input type="text"
+															onkeypress="return onlyNumbersChars(event)"
+															onblur="this.value=this.value.toUpperCase()" value=""
+															maxlength="10"
+															name="itr1.verification.declaration.assesseeVerPAN"
+															class="w150px" />
+													</div>
+												
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									
+								</div>
+								
+
+								<div class="content disp-none" id="page6">
+								<div class="hd">
+										<h4>Instructions for correct calculation of 80G</h4>
+									</div>
+									<div class="hd">
+										<h4>A. Donations entitled for 100% deduction without
+											qualifying limit</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="ded100PerWithoutQual" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>S No.</td>
+												<td></td>
+												<td>Name of the Donee <span class="mandatory">*</span></td>
+												<td>Address <span class="mandatory">*</span></td>
+												<td>City or Town or District <span class="mandatory">*</span></td>
+												<td>State Code <span class="mandatory">*</span></td>
+												<td>Pincode <span class="mandatory">*</span></td>
+												<td>PAN of the Donee <span class="mandatory">*</span></td>
+												<td>Amount of donation <span class="mandatory">*</span>
+												</td>
+												<td>Eligible Amount of Donation</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="125"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].doneeWithPanName" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="200"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].addressDetail.addrDetail" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" /></td>
+												<td><select
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].addressDetail.stateCode"
+													class="w200 state">
+														<option value="" selected="selected">Select</option>
+														<option value="01">ANDAMAN AND NICOBAR ISLANDS</option>
+														<option value="02">ANDHRA PRADESH</option>
+														<option value="03">ARUNACHAL PRADESH</option>
+														<option value="04">ASSAM</option>
+														<option value="05">BIHAR</option>
+														<option value="06">CHANDIGARH</option>
+														<option value="07">DADRA &amp; NAGAR HAVELI</option>
+														<option value="08">DAMAN &amp; DIU</option>
+														<option value="09">DELHI</option>
+														<option value="10">GOA</option>
+														<option value="11">GUJARAT</option>
+														<option value="12">HARYANA</option>
+														<option value="13">HIMACHAL PRADESH</option>
+														<option value="14">JAMMU &amp; KASHMIR</option>
+														<option value="15">KARNATAKA</option>
+														<option value="16">KERALA</option>
+														<option value="17">LAKSHADWEEP</option>
+														<option value="18">MADHYA PRADESH</option>
+														<option value="19">MAHARASHTRA</option>
+														<option value="20">MANIPUR</option>
+														<option value="21">MEGHALAYA</option>
+														<option value="22">MIZORAM</option>
+														<option value="23">NAGALAND</option>
+														<option value="24">ORISSA</option>
+														<option value="25">PONDICHERRY</option>
+														<option value="26">PUNJAB</option>
+														<option value="27">RAJASTHAN</option>
+														<option value="28">SIKKIM</option>
+														<option value="29">TAMILNADU</option>
+														<option value="30">TRIPURA</option>
+														<option value="31">UTTAR PRADESH</option>
+														<option value="32">WEST BENGAL</option>
+														<option value="33">CHHATISGARH</option>
+														<option value="34">UTTARANCHAL</option>
+														<option value="35">JHARKHAND</option>
+														<option value="36">TELANGANA</option>
+														<option value="99">State outside India</option>
+												</select></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="6"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].addressDetail.pinCode" /></td>
+												<td><input
+													title="Enter the PAN of the person to whom the donation is made."
+													type="text" onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" maxlength="10"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].doneePAN" /></td>
+												<td><input type="text"
+													onchange="allRowsForPage5Donations('ded100PerWithoutQual',3,2)"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].donationAmt" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt" /></td>
+											</tr>
+											<tr>
+												<td colspan="8">Total A</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100Percent.totDon100Percent" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100Percent.totEligibleDon100Percent" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('ded100PerWithoutQual',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('ded100PerWithoutQual',1,2)"
+															alt="del" /></a>
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>B. Donations entitled for 50% deduction without
+											qualifying limit</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="ded50WithoutQual" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>S No.</td>
+												<td></td>
+												<td>Name of the Donee <span class="mandatory">*</span></td>
+												<td>Address <span class="mandatory">*</span></td>
+												<td>City or Town or District <span class="mandatory">*</span></td>
+												<td>State Code <span class="mandatory">*</span></td>
+												<td>Pincode <span class="mandatory">*</span></td>
+												<td>PAN of the Donee <span class="mandatory">*</span></td>
+												<td>Amount of donation <span class="mandatory">*</span>
+												</td>
+												<td>Eligible Amount of Donation</td>
+											</tr>
+
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="125"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneeWithPanName" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="200"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.addrDetail" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" /></td>
+												<td><select
+													id="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan.addressDetail.stateCode"
+													class="w200 state"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.stateCode">
+														<option value="" selected="selected">Select</option>
+														<option value="01">ANDAMAN AND NICOBAR ISLANDS</option>
+														<option value="02">ANDHRA PRADESH</option>
+														<option value="03">ARUNACHAL PRADESH</option>
+														<option value="04">ASSAM</option>
+														<option value="05">BIHAR</option>
+														<option value="06">CHANDIGARH</option>
+														<option value="07">DADRA &amp; NAGAR HAVELI</option>
+														<option value="08">DAMAN &amp; DIU</option>
+														<option value="09">DELHI</option>
+														<option value="10">GOA</option>
+														<option value="11">GUJARAT</option>
+														<option value="12">HARYANA</option>
+														<option value="13">HIMACHAL PRADESH</option>
+														<option value="14">JAMMU &amp; KASHMIR</option>
+														<option value="15">KARNATAKA</option>
+														<option value="16">KERALA</option>
+														<option value="17">LAKSHADWEEP</option>
+														<option value="18">MADHYA PRADESH</option>
+														<option value="19">MAHARASHTRA</option>
+														<option value="20">MANIPUR</option>
+														<option value="21">MEGHALAYA</option>
+														<option value="22">MIZORAM</option>
+														<option value="23">NAGALAND</option>
+														<option value="24">ORISSA</option>
+														<option value="25">PONDICHERRY</option>
+														<option value="26">PUNJAB</option>
+														<option value="27">RAJASTHAN</option>
+														<option value="28">SIKKIM</option>
+														<option value="29">TAMILNADU</option>
+														<option value="30">TRIPURA</option>
+														<option value="31">UTTAR PRADESH</option>
+														<option value="32">WEST BENGAL</option>
+														<option value="33">CHHATISGARH</option>
+														<option value="34">UTTARANCHAL</option>
+														<option value="35">JHARKHAND</option>
+														<option value="36">TELANGANA</option>
+														<option value="99">State outside India</option>
+												</select></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="6"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.pinCode" /></td>
+												<td><input
+													title="Enter the PAN of the person to whom the donation is made."
+													type="text" onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" maxlength="10"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneePAN" /></td>
+												<td><input type="text"
+													onchange="allRowsForPage5Donations('ded50WithoutQual',3,2)"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].donationAmt" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt" /></td>
+											</tr>
+											<tr>
+												<td colspan="8">Total B</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('ded50WithoutQual',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('ded50WithoutQual',1,2)"
+															alt="del" /></a>
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>C. Donations entitled for 100% deduction subject to
+											qualifying limit</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="ded100Qual" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>S No.</td>
+												<td></td>
+												<td>Name of the Donee <span class="mandatory">*</span></td>
+												<td>Address <span class="mandatory">*</span></td>
+												<td>City or Town or District <span class="mandatory">*</span></td>
+												<td>State Code <span class="mandatory">*</span></td>
+												<td>Pincode <span class="mandatory">*</span></td>
+												<td>PAN of the Donee <span class="mandatory">*</span></td>
+												<td>Amount of donation <span class="mandatory">*</span>
+												</td>
+												<td>Eligible Amount of Donation</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="125"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneeWithPanName" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="200"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" /></td>
+												<td><select
+													id="itr1.schedule80G.don100PercentApprReqd.doneeWithPan.addressDetail.stateCode"
+													class="w200 state"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.stateCode">
+														<option value="" selected="selected">Select</option>
+														<option value="01">ANDAMAN AND NICOBAR ISLANDS</option>
+														<option value="02">ANDHRA PRADESH</option>
+														<option value="03">ARUNACHAL PRADESH</option>
+														<option value="04">ASSAM</option>
+														<option value="05">BIHAR</option>
+														<option value="06">CHANDIGARH</option>
+														<option value="07">DADRA &amp; NAGAR HAVELI</option>
+														<option value="08">DAMAN &amp; DIU</option>
+														<option value="09">DELHI</option>
+														<option value="10">GOA</option>
+														<option value="11">GUJARAT</option>
+														<option value="12">HARYANA</option>
+														<option value="13">HIMACHAL PRADESH</option>
+														<option value="14">JAMMU &amp; KASHMIR</option>
+														<option value="15">KARNATAKA</option>
+														<option value="16">KERALA</option>
+														<option value="17">LAKSHADWEEP</option>
+														<option value="18">MADHYA PRADESH</option>
+														<option value="19">MAHARASHTRA</option>
+														<option value="20">MANIPUR</option>
+														<option value="21">MEGHALAYA</option>
+														<option value="22">MIZORAM</option>
+														<option value="23">NAGALAND</option>
+														<option value="24">ORISSA</option>
+														<option value="25">PONDICHERRY</option>
+														<option value="26">PUNJAB</option>
+														<option value="27">RAJASTHAN</option>
+														<option value="28">SIKKIM</option>
+														<option value="29">TAMILNADU</option>
+														<option value="30">TRIPURA</option>
+														<option value="31">UTTAR PRADESH</option>
+														<option value="32">WEST BENGAL</option>
+														<option value="33">CHHATISGARH</option>
+														<option value="34">UTTARANCHAL</option>
+														<option value="35">JHARKHAND</option>
+														<option value="36">TELANGANA</option>
+														<option value="99">State outside India</option>
+												</select></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="6"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.pinCode" /></td>
+												<td><input
+													title="Enter the PAN of the person to whom the donation is made."
+													type="text" onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" maxlength="10"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneePAN" /></td>
+												<td><input type="text"
+													onchange="allRowsForPage5Donations('ded100Qual',3,2)"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].donationAmt" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt" /></td>
+											</tr>
+											<tr>
+												<td colspan="8">Total C</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('ded100Qual',3,2)"
+															alt="" />
+													</a><a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('ded100Qual',1,2)"
+															alt="del" /></a>
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>D. Donations entitled for 50% deduction subject to
+											qualifying limit</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										id="ded50WithQual" class="grid bor0">
+										<tbody>
+											<tr>
+												<td>S No.</td>
+												<td></td>
+												<td>Name of the Donee <span class="mandatory">*</span></td>
+												<td>Address <span class="mandatory">*</span></td>
+												<td>City or Town or District <span class="mandatory">*</span></td>
+												<td>State Code <span class="mandatory">*</span></td>
+												<td>Pincode <span class="mandatory">*</span></td>
+												<td>PAN of the Donee <span class="mandatory">*</span></td>
+												<td>Amount of donation <span class="mandatory">*</span>
+												</td>
+												<td>Eligible Amount of Donation</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td><input type="checkbox" value="true"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox" />
+													<input type="hidden" value="true"
+													name="__checkbox_itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox" />
+												</td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="125"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneeWithPanName" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="200"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail" /></td>
+												<td><input type="text"
+													onkeypress="return onlyAddress(event)" maxlength="50"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" /></td>
+												<td><select
+													id="itr1.schedule80G.don50PercentApprReqd.doneeWithPan.addressDetail.stateCode"
+													class="w200 state"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.stateCode">
+														<option value="" selected="selected">Select</option>
+														<option value="01">ANDAMAN AND NICOBAR ISLANDS</option>
+														<option value="02">ANDHRA PRADESH</option>
+														<option value="03">ARUNACHAL PRADESH</option>
+														<option value="04">ASSAM</option>
+														<option value="05">BIHAR</option>
+														<option value="06">CHANDIGARH</option>
+														<option value="07">DADRA &amp; NAGAR HAVELI</option>
+														<option value="08">DAMAN &amp; DIU</option>
+														<option value="09">DELHI</option>
+														<option value="10">GOA</option>
+														<option value="11">GUJARAT</option>
+														<option value="12">HARYANA</option>
+														<option value="13">HIMACHAL PRADESH</option>
+														<option value="14">JAMMU &amp; KASHMIR</option>
+														<option value="15">KARNATAKA</option>
+														<option value="16">KERALA</option>
+														<option value="17">LAKSHADWEEP</option>
+														<option value="18">MADHYA PRADESH</option>
+														<option value="19">MAHARASHTRA</option>
+														<option value="20">MANIPUR</option>
+														<option value="21">MEGHALAYA</option>
+														<option value="22">MIZORAM</option>
+														<option value="23">NAGALAND</option>
+														<option value="24">ORISSA</option>
+														<option value="25">PONDICHERRY</option>
+														<option value="26">PUNJAB</option>
+														<option value="27">RAJASTHAN</option>
+														<option value="28">SIKKIM</option>
+														<option value="29">TAMILNADU</option>
+														<option value="30">TRIPURA</option>
+														<option value="31">UTTAR PRADESH</option>
+														<option value="32">WEST BENGAL</option>
+														<option value="33">CHHATISGARH</option>
+														<option value="34">UTTARANCHAL</option>
+														<option value="35">JHARKHAND</option>
+														<option value="36">TELANGANA</option>
+														<option value="99">State outside India</option>
+												</select></td>
+												<td><input type="text"
+													onkeypress="return onlyNumbers(event)" maxlength="6"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.pinCode" /></td>
+												<td><input
+													title="Enter the PAN of the person to whom the donation is made."
+													type="text" onkeypress="return onlyNumbersChars(event)"
+													onblur="this.value=this.value.toUpperCase()" maxlength="10"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneePAN" /></td>
+												<td><input type="text"
+													onchange="allRowsForPage5Donations('ded50WithQual',3,2)"
+													onkeypress="return onlyNumbers(event)" class="rightAlign"
+													maxlength="14"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].donationAmt" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt" /></td>
+											</tr>
+											<tr>
+												<td colspan="8">Total D</td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd" /></td>
+											</tr>
+											<tr>
+												<td colspan="10"><span class="addbtn"> <a
+														href="javascript:void(0)"> <img
+															src="../../Common/images/Add.png"
+															name="Image_Add_SCH_TDSIT"
+															onclick="addRowToTablePage5Donations('ded50WithQual',3,2)"
+															alt="" />
+													</a> <a href="javascript:void(0)"><img
+															src="../../Common/images/delete_icon.png"
+															onclick="deleteRowToTablePage5Donations('ded50WithQual',1,2)"
+															alt="del" /></a>
+												</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="hd">
+										<h4>E. Donations (A + B + C+ D)</h4>
+									</div>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="grid bor0">
+										<tbody>
+											<tr>
+												<td width="75%"></td>
+												<td width="11.5%"><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.totalDonationsUs80G" /></td>
+												<td><input type="text" class="rightAlign"
+													readonly="readonly" value="0"
+													name="itr1.schedule80G.totalEligibleDonationsUs80G" /></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="100%" cellspacing="1" cellpadding="0"
+										class="table">
+										<tbody>
+											<tr>
+												<td><span class="mandatory">Note :</span></td>
+												<td colspan="6"><span class="mandatory">In case
+														of Donee funds setup by Government as described in Section
+														80G (2), please use PAN as "GGGGG0000G".</span></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</form>
+						</td>
+					</tr>
+				</table>
+				<script type="text/javascript">
+
+					function loadFn(){
+						returnFile_UnderSec('onload');
+						document.getElementsByName('itr1.creationInfo.xmlCreationDate')[0].value = getCurrentDate();
+
+						 showPage('page1');
+
+						if(document.getElementsByName('itr1.personalInfo.pan')[0].value.match('^[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$'))	{
+							document.getElementsByName('itr1.verification.declaration.assesseeVerPAN')[0].value=document.getElementsByName('itr1.personalInfo.pan')[0].value;
+						}
+						//returnType_change();
+						enableTDSspouseAmtOnLoad();
+						enableTCSspouseAmtOnLoad();
+						//enableScheduleBAOther();
+						//enableScheduleBAAccountStatusOnLoad();
+						calculateTotalTax('taxDedSourceSal');
+						calculateTotalTaxTDS2('taxDedSourceSrc');
+						calculateTotalTaxIT('taxDedSelf');
+						calculateTotalTaxTCS('scheduleTCS');
+						
+					}
+						
+						
+					function prefill(){
+						if(document.getElementsByName('itr1.personalInfo.pan')[0].value.match('^[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$'))	{
+							document.getElementsByName('itr1.verification.declaration.assesseeVerPAN')[0].value=document.getElementsByName('itr1.personalInfo.pan')[0].value;
+						}
+						populateVerName();
+						calculateTotalTaxTDS2('taxDedSourceSrc');
+						calculateTotalTaxIT('taxDedSelf');
+						calculateTotalTax('taxDedSourceSal');
+						calcItr1();
+					}
+
+					calcItr1();
+					//returnFile_UnderSec();
+					
+					function getPan(){
+						return document.getElementsByName('itr1.verification.declaration.assesseeVerPAN')[0].value;
+					}
+				
+					commonFunctionOnLoad();
+				
+					//setInterval(function(){alert('It is a good practice to save your work frequently. Please Click "Save Draft" to save your work, else the data you might have filled, will be lost if session is timed out.')},300000);
+					  </script>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

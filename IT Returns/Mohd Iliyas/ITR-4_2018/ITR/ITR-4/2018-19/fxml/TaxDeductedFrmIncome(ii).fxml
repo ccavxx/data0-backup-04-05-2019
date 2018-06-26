@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="2670" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TDSDetails26QC_Controller">
+	<VBox.margin>
+		<Insets bottom="150" />
+	</VBox.margin>
+	
+	
+		
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="45.0" prefHeight="230.0" prefWidth="-1.0" target="itr.itr4.tdsDtls26QC.tdsDetails26QC" >
+		<columns>
+			<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80.0" text="Sl.No" target="slNo" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="TDS credit in the name of" target="dropDown-tdsCreditName"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="PAN of the Tenant&#10;[Col (1)]" target="paNofTenant"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Name of the Tenant&#10; [Col (2)]" target="nameOfTenant"    />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Unique TDS Certificate &#10;number&#10;[Col (3)]" target="uniqueTDSCerNo" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Year of tax deduction&#10;[Col (4)]" target="deductedYr" />		
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Details of Receipt&#10; as mentioned in &#10; Form 26AS&#10;[Col (5)]" target="rcptDtls26AS" />
+			<ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="Tax Deducted"  >
+	          <columns>
+	               <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text=" in own hands&#10;[Col (6)]" target="taxDeductCreditDtls.taxDeductedOwnHands" />
+	               <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="in the hands of spouse as per section 5A or any other person as per rule 37BA(2)&#10; [Col (7)]"  >
+	                  <columns>
+	                      <ValTableColumn resizable="false" maxWidth="320.0" minWidth="170.0" prefWidth="100.0" text="Income" target="taxDeductCreditDtls.taxDeductedIncome" />
+	                      <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="TDS" target="taxDeductCreditDtls.taxDeductedTDS" />
+	                      <ValTableColumn resizable="false" maxWidth="330.0" minWidth="180.0" prefWidth="110.0" text="PAN of Spouse/Other person" target="taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN" />
+	                  </columns>
+	               </ValTableColumn>
+	          </columns>		
+			</ValTableColumn>
+			<ValTableColumn resizable="false" maxWidth="300.0"  minWidth="150.0" prefWidth="80.0" text="TDS credit out of (6) or (7) being claimed this Year-  (as applicable)"  >
+			 <columns>
+	               <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="in own hands &#10;[Col (8)]" target="taxDeductCreditDtls.taxCreditedOwnHands" />
+	               <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="in the hands of spouse as per section 5A or any other person as per rule 37BA(2)&#10; [Col (9)]" target="totTDSOnAmtPaid" >
+	                  <columns>
+	                      <ValTableColumn resizable="false" maxWidth="320.0" minWidth="170.0" prefWidth="100.0" text="Income" target="taxDeductCreditDtls.taxCreditedIncome" />
+	                      <ValTableColumn resizable="false" maxWidth="300.0" minWidth="150.0" prefWidth="80.0" text="TDS" target="taxDeductCreditDtls.taxCreditedTDS" />
+	                      <ValTableColumn resizable="false" maxWidth="330.0" minWidth="180.0" prefWidth="110.0" text="PAN of Spouse/Other person" target="taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN" />
+	                  </columns>
+	               </ValTableColumn>
+	             </columns>
+	          </ValTableColumn>
+	    </columns>
+	</ValTableView>
+	
+	<Button layoutX="0.0" fx:id="addRowBtn"  layoutY="305" onKeyTyped="#addRow"  onAction="#addRow"	mnemonicParsing="false" text="Add Row" />
+	
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="-79.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="360" prefWidth="1060.0" text="Sch TDS 2(ii) Details of Tax Deducted at Source [As per Form 26QC furnished by Deductor(s)]" visible="false" wrapText="true"
+	target="tdsDetails26QCIncomeController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="950.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							<Label focusTraversable="true" labelFor="$DeductYear" text="TDS credit in the name of" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding:0 0 0 0;"/>
+							<ValComboBox fx:id="DeductYear" prefHeight="27" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" target="tdsDetails26QCIncomeController.type.tdsCreditName" />
+							
+							
+							<Label focusTraversable="true" labelFor="$Tan" minHeight="30.0" prefWidth="290.0" text="  PAN of the Tenant[Col (1)]" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+							<ValTextField fx:id="Tan" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0" target="tdsDetails26QCIncomeController.type.paNofTenant" autoCaps="true"/>
+							
+							
+							<Label focusTraversable="true" labelFor="$Name" prefWidth="180.0" text="Name of the Tenant [Col (2)]" GridPane.columnIndex="4" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;"/>
+						    <ValTextField fx:id="Name" maxLength="125"  prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="0" target="tdsDetails26QCIncomeController.type.nameOfTenant"/>
+						    
+						    <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+								
+						    <Label focusTraversable="true" minHeight="30.0" labelFor="$AmtForTaxDeduct" prefWidth="320.0" text=" Unique TDs certificate number &#10; [Col (3)]" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+						    <ValTextField  fx:id="AmtForTaxDeduct" maxLength="8" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" target="tdsDetails26QCIncomeController.type.uniqueTDSCerNo"  />
+							
+							<Label focusTraversable="true" labelFor="$DeductYear" text="Year of tax deduction &#10;    [Col (4)]" GridPane.columnIndex="2" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;"/>
+							<ValComboBox fx:id="DeductYear" prefHeight="27" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" target="tdsDetails26QCIncomeController.type.deductedYr" />
+							
+							<Label focusTraversable="true" labelFor="$TaxDeductedOwnHands" prefWidth="290.0" text="  Details of Receipt as mentioned in &#10;  Form 26AS [Col (5)]" GridPane.columnIndex="4" GridPane.rowIndex="2" style="-fx-padding:0 0 0 3;"/>
+							<ValBigIntegerField  fx:id="TaxDeductedOwnHands" maxLength="14" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2" target="tdsDetails26QCIncomeController.type.rcptDtls26AS"  />
+							
+						    
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	
+							
+							<Label focusTraversable="true" labelFor="$TaxClaimed" text=" Tax Deducted" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+								
+							<Label focusTraversable="true" labelFor="$TaxDeductedOwnHands" text="   in own hands [Col (6)]" GridPane.columnIndex="0" GridPane.rowIndex="8" style="-fx-padding:0 0 0 3;"/>
+							<ValBigIntegerField  fx:id="TaxDeductedOwnHands" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedOwnHands"  />
+							
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	
+							
+							
+							<Label focusTraversable="true" labelFor="$TaxClaimed" text="   in the hands of spouse as per section 5A or any  other person as per rule 37BA(2)[Col (7)]" GridPane.columnIndex="0" GridPane.rowIndex="10" GridPane.columnSpan="4" style="-fx-padding:0 0 0 3;"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+								
+							<Label focusTraversable="true" labelFor="$TaxDeductedIncome" text=" Income" GridPane.columnIndex="0" GridPane.rowIndex="12" style="-fx-padding:0 0 0 20;"/>
+							<ValBigIntegerField  fx:id="TaxDeductedIncome" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="12" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedIncome"  />
+							
+							<Label focusTraversable="true" labelFor="$TaxDeductedTDS" text="TDS" GridPane.columnIndex="2" GridPane.rowIndex="12" style="-fx-padding:0 0 0 10;"/>
+							<ValBigIntegerField  fx:id="TaxDeductedTDS" maxLength="14" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="12" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedTDS"  />
+							
+							<Label focusTraversable="true" labelFor="$TaxDeductedSpousePAN" text="PAN of spouse/Other person" prefWidth="250.0" GridPane.columnIndex="4" GridPane.rowIndex="12" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  fx:id="TaxDeductedSpousePAN" maxLength="10" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="12" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxDeductedSpouseOthPrsnPAN" autoCaps="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+			           	 	          
+							<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="12" prefHeight="25" style="-fx-color: ;"/>	
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="12" prefHeight="25" style="-fx-color: ;"/>	
+								
+							
+							
+							
+							
+							
+							<Label focusTraversable="true" labelFor="$TaxClaimed" text=" TDS credit out of or [col(7)] being claimed this Year- (as applicable) [Col(6)] " GridPane.columnIndex="0" GridPane.rowIndex="16" GridPane.columnSpan="4" style="-fx-padding:0 0 0 0;"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							
+							<Label focusTraversable="true" labelFor="$TaxCreditedOwnHands" text="in own hands [Col (8)]" GridPane.columnIndex="0" GridPane.rowIndex="18" style="-fx-padding:0 0 0 20;"/>
+							<ValBigIntegerField  fx:id="TaxCreditedOwnHands" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="18" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedOwnHands"  />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							
+							<Label focusTraversable="true" labelFor="$TaxClaimed" text="in the hands of spouse as per section 5A or any other person as per rule 37BA(2) [Col (9)] " GridPane.columnIndex="0" GridPane.rowIndex="20" GridPane.columnSpan="4"  style="-fx-padding:0 0 0 20;"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	
+							<Label focusTraversable="true" labelFor="$TaxCreditedIncome" text="Income" GridPane.columnIndex="0" GridPane.rowIndex="22" style="-fx-padding:0 0 0 20;"/>
+							<ValBigIntegerField  fx:id="TaxCreditedIncome" maxLength="14" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="22" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedIncome"  />
+							
+							<Label focusTraversable="true" labelFor="$TaxCreditedTDS" text="TDS" GridPane.columnIndex="2" GridPane.rowIndex="22" style="-fx-padding:0 0 0 10;"/>
+							<ValBigIntegerField  fx:id="TaxCreditedTDS" maxLength="14" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="22" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedTDS"  />
+					
+							<Label focusTraversable="true" labelFor="$TaxCreditedSpousePAN" text="PAN of spouse/Other person" GridPane.columnIndex="4" GridPane.rowIndex="22" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  fx:id="taxCreditedSpousePAN" maxLength="10" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="22" target="tdsDetails26QCIncomeController.type.taxDeductCreditDtls.taxCreditedSpouseOthPrsnPAN" autoCaps="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="6" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="22" prefHeight="25" style="-fx-color: ;"/>	
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="22" prefHeight="25" style="-fx-color: ;"/>	
+								
+							
+									
+												
+						
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="26">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn" onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+									
+								</children>
+							</HBox>
+						</children>						
+					</GridPane>			   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	
+	<Button layoutX="62.0"  fx:id="copyRowBtn"  layoutY="305.0" onKeyTyped="#copyRow" onAction="#copyRow"  mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="131.0" fx:id="editRowBtn" layoutY="305.0" onKeyTyped="#editRow"  onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" />
+	<Button layoutX="191.0" fx:id="deleteRowBtn" layoutY="305.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+	
+    <HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="275.0" >
+	  <children>
+	     <HBox>
+	      	<children>
+				<Label  fx:id="label8" labelFor="$TotalPayment" style="-fx-padding:5 50 0 10"  text="Total"  />		
+			</children>
+		  </HBox>
+				<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"  />	          
+			<HBox>
+	      	<children>
+			<ValBigIntegerField fx:id="TotalTdsInc" prefWidth="150" layoutX="920.0"   layoutY="275"  target="itr.itr4.tdsDtls26QC.totalTDSDetails26QC" disable="true" >
+    		<HBox.margin>
+                <Insets left="1535" right="0" />
+         	</HBox.margin>
+			</ValBigIntegerField>
+		</children>
+	 </HBox>
+     </children>
+     </HBox>
+	
+
+</AnchorPane>

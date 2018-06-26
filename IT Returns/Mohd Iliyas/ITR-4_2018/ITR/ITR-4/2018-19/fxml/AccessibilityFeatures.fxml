@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+         <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="true" prefHeight="500.0" prefWidth="500.0" 
+					AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+					<content>
+							<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1200" prefHeight="850" style="-fx-border-color: #d0d0ff;&#10;-fx-border-width: 10px;&#10;-fx-background-color: #ffffee" >
+        			          <children>
+    				           
+							   	  <Label text="&#10;"  GridPane.columnIndex="0" GridPane.rowIndex="1">\
+							   	  </Label>
+								  <Label focusTraversable="true" text="&#10;Features incorporated in the e-Filing website to make it accessible are:" wrapText="true"  GridPane.columnIndex="0" GridPane.rowIndex="2">
+									<font>
+										<Font name="Arial" size="14.0"/>
+									</font>
+								  </Label>
+								  
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="3">
+								 	<Text focusTraversable="true" text="&#10;1.Icons:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Text has been supplemented with icons, wherever appropriate to enable &#10; users with learning disabilities understand the information easily. Icons &#10; have been provided along with  text labels for key navigation options &#10; as well as important features, such as print, email, etc." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								   
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="4">
+								 	<Text focusTraversable="true" text="&#10;2.Identification of file type and file size: " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Information about alternate file types, such as PDF along with the file size &#10; has been provided within the link text to help users identify the same. In&#10; addition, icons for different file types have been provided with the links.&#10; This helps users in deciding whether they wish to access the link. &#10;For example, if a link opens a PDF file, the link text specifies its file size &#10;and file type." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="5">
+								 	<Text focusTraversable="true" text="&#10;3.Headings:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="The Web page content is organized using appropriate headings and sub&#10;-headings that provide a readable structure. H1 indicates the main heading,&#10; whereas H2 indicates a sub-​heading." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								   
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="6">
+								 	<Text focusTraversable="true" text="&#10;4.Titles:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="An appropriate name for each Web page is specified that helps one to &#10; understand the page content easily." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="7">
+								 	<Text focusTraversable="true" text="&#10;5. Alternate Text:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="Brief description of an image is provided for users with visual disability. If &#10; you are using a browser that supports only text or have turned off&#10; the image display, you can still know what the image is all about by &#10;reading the alternate text in absence of an image. " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="8">
+								 	<Text focusTraversable="true" text="&#10;6.Explicit Form Label Association: " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=": A label is linked to its respective control, such as text box, check box,&#10; radio button and drop-down list. This enables the assistive devices to &#10;identify the labels for the controls on a form. " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="9">
+								 	<Text focusTraversable="true" text="&#10;7. Form instructions and errors:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Instruction text and error messages for forms are displayed dynamically,&#10; i.e., while the user is navigating the form and filling up the form. " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="10">
+								 	<Text focusTraversable="true" text="&#10;8.Consistent Navigation Mechanism: " style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text=" Consistent means of navigation and style of presentation throughout the &#10;Website have been incorporated. • Keyboard Support: The website can be &#10; browsed using a keyboard by pressing the Tab and Shift + Tab keys. " style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								 <VBox  GridPane.columnIndex="0" GridPane.rowIndex="11">
+								 	<Text focusTraversable="true" text="&#10;9.Customized Text Size:" style="-fx-font: 14.0px Arial;-fx-font-weight: bold"/>
+								  	<Text focusTraversable="true" text="The size of the text on the Web pages can be changed either through the &#10; browser or, through the Accessibility Options page or by clicking on the &#10;text sizing icons present at the top of each page." style="-fx-font: 14.0px Arial"/>
+								 </VBox>
+								 
+								  <VBox  GridPane.columnIndex="0" GridPane.rowIndex="12">
+								 
+								  	<Text focusTraversable="true" text="Adjust contrast scheme: The website provides facility to enable users &#10;with visual impairments, such color blindness to view the web page &#10; information with ease. Facility available for changing the contrast of the &#10;web pages" style="-fx-font: 14.0px Arial"/>
+								 </VBox> 
+								   
+					</children>		
+		               </GridPane>
+		               </content>
+		               </ScrollPane>
+    </children>
+</AnchorPane>

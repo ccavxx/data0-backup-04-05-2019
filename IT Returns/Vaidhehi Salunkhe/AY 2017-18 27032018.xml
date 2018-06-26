@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR4FORM="http://incometaxindiaefiling.gov.in/ITR4" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ITR4FORM:ITR4>
+		<ITRForm:CreationInfo>
+			<ITRForm:SWVersionNo>R1</ITRForm:SWVersionNo>
+			<ITRForm:SWCreatedBy>SW91201718</ITRForm:SWCreatedBy>
+			<ITRForm:XMLCreatedBy>SW91201718</ITRForm:XMLCreatedBy>
+			<ITRForm:XMLCreationDate>2018-03-27</ITRForm:XMLCreationDate>
+			<ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+			<ITRForm:Digest>dwRYoSVtmiEuzyAmPawv6wyJx7dsHeHC7Inj+d8Px1I=</ITRForm:Digest>
+		</ITRForm:CreationInfo>
+		<ITRForm:Form_ITR4>
+			<ITRForm:FormName>ITR-4</ITRForm:FormName>
+			<ITRForm:Description>For Indl having Income From Presemptive Business</ITRForm:Description>
+			<ITRForm:AssessmentYear>2017</ITRForm:AssessmentYear>
+			<ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+			<ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+		</ITRForm:Form_ITR4>
+		<ITRForm:PersonalInfo>
+			<ITRForm:AssesseeName>
+				<ITRForm:FirstName>VAIDEHEE</ITRForm:FirstName>
+				<ITRForm:MiddleName>GIRISH</ITRForm:MiddleName>
+				<ITRForm:SurNameOrOrgName>SALUNKHE</ITRForm:SurNameOrOrgName>
+				
+			</ITRForm:AssesseeName>
+			<ITRForm:PAN>DTSPS7096L</ITRForm:PAN>
+			<ITRForm:Address>
+				<ITRForm:ResidenceNo>FLAT NO.804 B-WING 8TH FLOOR</ITRForm:ResidenceNo>
+				<ITRForm:ResidenceName>SEA QUEEN EXCELLENCY</ITRForm:ResidenceName>
+				<ITRForm:RoadOrStreet>NERUL WEST</ITRForm:RoadOrStreet>
+				<ITRForm:LocalityOrArea>SECTOR-44 A</ITRForm:LocalityOrArea>
+				<ITRForm:CityOrTownOrDistrict>NAVI MUMBAI</ITRForm:CityOrTownOrDistrict>
+				<ITRForm:StateCode>19</ITRForm:StateCode>
+				<ITRForm:CountryCode>91</ITRForm:CountryCode>
+				<ITRForm:PinCode>400706</ITRForm:PinCode>
+				
+				
+				
+				<ITRForm:MobileNo>9820603948</ITRForm:MobileNo>
+				
+				<ITRForm:EmailAddress>girishsalunkhe350@gmail.com</ITRForm:EmailAddress>
+				
+			</ITRForm:Address>
+			<ITRForm:DOB>1977-02-05</ITRForm:DOB>
+
+			<ITRForm:Gender>F</ITRForm:Gender>
+			<ITRForm:Status>I</ITRForm:Status>
+			<ITRForm:AadhaarCardNo>461059340834</ITRForm:AadhaarCardNo>
+			
+		</ITRForm:PersonalInfo>
+		<ITRForm:FilingStatus>
+			<ITRForm:DesigOfficerWardorCircle>WARD 28(1)(1), MUMBAI</ITRForm:DesigOfficerWardorCircle>
+			<ITRForm:ReturnFileSec>12</ITRForm:ReturnFileSec>
+			
+			
+			
+			<ITRForm:ReturnType>O</ITRForm:ReturnType>
+			
+			
+			<ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+			<ITRForm:TaxStatus>TR</ITRForm:TaxStatus>
+			
+			
+			<ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+			
+			
+		</ITRForm:FilingStatus>
+		<ITRForm:IncomeDeductions>
+			<ITRForm:IncomeFromBusinessProf>279760</ITRForm:IncomeFromBusinessProf>
+			<ITRForm:IncomeFromSal>0</ITRForm:IncomeFromSal>
+			
+			<ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+			<ITRForm:IncomeOthSrc>26094</ITRForm:IncomeOthSrc>
+			<ITRForm:GrossTotIncome>305854</ITRForm:GrossTotIncome>
+			<ITRForm:UsrDeductUndChapVIA>
+				<ITRForm:Section80C>0</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+				
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>0</ITRForm:TotalChapVIADeductions>
+			</ITRForm:UsrDeductUndChapVIA>
+			<ITRForm:DeductUndChapVIA>
+				<ITRForm:Section80C>0</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80CCD1B>0</ITRForm:Section80CCD1B>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>0</ITRForm:TotalChapVIADeductions>
+			</ITRForm:DeductUndChapVIA>
+			<ITRForm:TotalIncome>305850</ITRForm:TotalIncome>
+		</ITRForm:IncomeDeductions>
+		<ITRForm:TaxComputation>
+			<ITRForm:TotalTaxPayable>5585</ITRForm:TotalTaxPayable>
+			<ITRForm:Rebate87A>5000</ITRForm:Rebate87A>
+			<ITRForm:TaxPayableOnRebate>585</ITRForm:TaxPayableOnRebate>
+			<ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+			<ITRForm:EducationCess>18</ITRForm:EducationCess>
+			<ITRForm:GrossTaxLiability>603</ITRForm:GrossTaxLiability>
+			<ITRForm:Section89>0</ITRForm:Section89>
+			<ITRForm:NetTaxLiability>603</ITRForm:NetTaxLiability>
+			<ITRForm:TotalIntrstPay>0</ITRForm:TotalIntrstPay>
+			<ITRForm:IntrstPay>
+				<ITRForm:IntrstPayUs234A>0</ITRForm:IntrstPayUs234A>
+				<ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+				<ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+				
+			</ITRForm:IntrstPay>
+			<ITRForm:TotTaxPlusIntrstPay>603</ITRForm:TotTaxPlusIntrstPay>
+		</ITRForm:TaxComputation>
+		<ITRForm:TaxPaid>
+			<ITRForm:TaxesPaid>
+				<ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+				<ITRForm:TDS>2609</ITRForm:TDS>
+				<ITRForm:TCS>0</ITRForm:TCS>
+				<ITRForm:SelfAssessmentTax>0</ITRForm:SelfAssessmentTax>
+				<ITRForm:TotalTaxesPaid>2609</ITRForm:TotalTaxesPaid>
+			</ITRForm:TaxesPaid>
+			<ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+		</ITRForm:TaxPaid>
+		<ITRForm:Refund>
+			<ITRForm:RefundDue>2010</ITRForm:RefundDue>
+		      <ITRForm:BankAccountDtls>
+		      	 <ITRForm:BankDtlsFlag>Y</ITRForm:BankDtlsFlag>
+		         <ITRForm:PriBankDetails>
+		        	<ITRForm:IFSCCode>ABHY0065056</ITRForm:IFSCCode>
+					<ITRForm:BankName>Abhyudaya Cooperative Bank</ITRForm:BankName>
+					<ITRForm:BankAccountNo>089011100003878</ITRForm:BankAccountNo>
+					<ITRForm:CashDeposited>295500</ITRForm:CashDeposited>
+		         </ITRForm:PriBankDetails>
+		         
+		         
+		      </ITRForm:BankAccountDtls>
+		</ITRForm:Refund>
+		
+		
+		<ITRForm:Verification>
+			<ITRForm:Declaration>
+				<ITRForm:AssesseeVerName>VAIDEHEE GIRISH SALUNKHE</ITRForm:AssesseeVerName>
+				<ITRForm:FatherName>DHANAJIRAO DESHMUKH</ITRForm:FatherName>
+				<ITRForm:AssesseeVerPAN>DTSPS7096L</ITRForm:AssesseeVerPAN>
+			</ITRForm:Declaration>
+			<ITRForm:Place>MUMBAI</ITRForm:Place>
+			<ITRForm:Date>2018-03-27</ITRForm:Date>
+		</ITRForm:Verification>
+		
+		<ITRForm:NatOfBus>
+			<ITRForm:NatureOfBusiness>
+				<ITRForm:Code>1001</ITRForm:Code>
+				
+				
+				
+			</ITRForm:NatureOfBusiness>
+		</ITRForm:NatOfBus>
+		<ITRForm:ScheduleBP>
+			<ITRForm:PersumptiveInc44AD>
+				<ITRForm:GrsTrnOverBank>0</ITRForm:GrsTrnOverBank>
+				<ITRForm:GrsTrnOverAnyOthMode>570894</ITRForm:GrsTrnOverAnyOthMode>
+				<ITRForm:PersumptiveInc44AD6Per>0</ITRForm:PersumptiveInc44AD6Per>
+				<ITRForm:PersumptiveInc44AD8Per>279760</ITRForm:PersumptiveInc44AD8Per>
+				<ITRForm:TotPersumptiveInc44AD>279760</ITRForm:TotPersumptiveInc44AD>
+			</ITRForm:PersumptiveInc44AD>
+			<ITRForm:PersumptiveInc44ADA>
+				<ITRForm:GrsReceipt>0</ITRForm:GrsReceipt>
+				<ITRForm:TotPersumptiveInc44ADA>0</ITRForm:TotPersumptiveInc44ADA>
+			</ITRForm:PersumptiveInc44ADA>
+			<ITRForm:PersumptiveInc44AE>
+				<ITRForm:TotPersumInc44AE>0</ITRForm:TotPersumInc44AE>
+				<ITRForm:SalInterestByFirm>0</ITRForm:SalInterestByFirm>
+				<ITRForm:TotalPersumptiveInc>0</ITRForm:TotalPersumptiveInc>
+				<ITRForm:IncChargeableUnderBus>279760</ITRForm:IncChargeableUnderBus>
+				
+				
+				
+			</ITRForm:PersumptiveInc44AE>
+			
+			<ITRForm:NoBooksOfAccBS>
+				<ITRForm:TotSundryDbtAmt>0</ITRForm:TotSundryDbtAmt>
+				<ITRForm:TotSundryCrdAmt>0</ITRForm:TotSundryCrdAmt>
+				<ITRForm:TotStkInTradAmt>0</ITRForm:TotStkInTradAmt>
+				<ITRForm:CashBalAmt>0</ITRForm:CashBalAmt>
+			</ITRForm:NoBooksOfAccBS>
+		</ITRForm:ScheduleBP>
+		
+	
+	
+		<ITRForm:TDSonOthThanSals>
+			<ITRForm:TDSonOthThanSal>
+				<ITRForm:EmployerOrDeductorOrCollectDetl>
+					<ITRForm:TAN>MUMA01872D</ITRForm:TAN>
+					<ITRForm:EmployerOrDeductorOrCollecterName>ABHYUDAYA CO-OP BANK LTD</ITRForm:EmployerOrDeductorOrCollecterName>
+				</ITRForm:EmployerOrDeductorOrCollectDetl>
+				
+				<ITRForm:DeductedYr>2016</ITRForm:DeductedYr>
+				<ITRForm:RcptDtls26AS>26094</ITRForm:RcptDtls26AS>
+				
+				<ITRForm:TotTDSOnAmtPaid>2609</ITRForm:TotTDSOnAmtPaid>
+				<ITRForm:ClaimOutOfTotTDSOnAmtPaid>2609</ITRForm:ClaimOutOfTotTDSOnAmtPaid>
+				
+			</ITRForm:TDSonOthThanSal>
+			<ITRForm:TotalTDSonOthThanSals>2609</ITRForm:TotalTDSonOthThanSals>
+		</ITRForm:TDSonOthThanSals>
+		
+		<ITRForm:TotalHeavyVehcl>0</ITRForm:TotalHeavyVehcl>
+		
+	
+		
+	</ITR4FORM:ITR4>
+</ITRETURN:ITR>

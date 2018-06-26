@@ -1,0 +1,247 @@
+<html>
+<head><title>Form Home</title>
+<link type="text/css" rel="stylesheet" href="../Common/css/homepagecss.css">
+
+</head>
+<body >
+
+
+<form autocomplete="off" >
+
+<div  id="container">
+<div id="firstPage" class="logoBack">
+
+<h3>How to use this Form?</h3>
+
+These Forms are developed using the latest in JAVA technology and effort has been made to make it user friendly, simpler and faster preparation of tax information.
+<br>
+<br>
+<b>Note :</b><br>
+Please make sure you're connected to the internet before and after preparing the form for submission.
+<ol>
+<li><b>Before</b> - new updates, if any, can be downloaded and </li>
+<li><b>After</b> - to submit the form without login into e-Filing portal.</li>
+</ol>
+
+The following are features available in the Form. 
+<ol>
+<li><b>Home</b> – This page will show you the various links (Forms) available for use. This also will advise you where the XML is stored (path). The path should not be moved and should be the same where the Form was last closed.</li>
+<li><b>New</b> - On click of this button, a box with options of various Forms with the Assessment Year (AY) will be displayed. You may select the appropriate form and AY.</li>
+<li><b>Save</b> - The XML will be stored in the path you have selected.</li>
+<li><b>Import</b> - This option is for importing the XML (successfully generated earlier) from your hard disk. Select the path and import the XML. This option will work irrespective of any version change. It will caution you to check the contents before finalizing upload/submission.</li>
+<li><b>Validate</b> - This option is to validate whether you have filled all the mandatory fields. If not, an error (with the details) is shown on the right pane of the Form. These errors, if any, are links and on clicking these, you'll be navigated to the respective field of error. It is a best practice to validate before generating the XML. </li>
+<li><b>Generate XML</b> - This button will be highlighted only after all the errors are rectified. The XML is generated in the same path where you have stored the utility.</li>
+<li><b>Preview</b> - Print preview option is provided to review the data before generating the XML.</li>
+<li><b>Submit Form</b> - Click this button to upload the XML in e-Filing portal. You'll be prompted to provide your User ID, Password and DOB/DOI.
+Post submission, the success message and the transaction Id will be displayed.</li>
+<li><b>Updates</b> – This button will flash when there are new updates/versions available. On clicking this button, you may choose the desired updates of the form to download. Please make sure that you're using the latest version for filing your form.</li>
+<li><b>Help</b> - This option will let you know the shortkeys, instructions, settings and how to use this form.</li>
+<li><b>Previous/Next</b> – These button help you to navigate to the various tabs of the form.</li>
+
+</ol>
+<div style="text-align:center;">
+<input type="button" value="Ok" onclick="openPage('2');" style="width:80px;color:white"/>
+</div>
+</div>
+<div id="secondPage" style="display:none;">
+<div class="fl-l grayBack">
+<img alt="efiling Logo" src="efilinglogo.gif">
+<div class="headerText">
+
+</div>
+</div>
+
+<div class="logorow">
+<div class="borderSolid leftFloat">
+<h3 class="hd">Audit Forms</h3>
+
+<div class="mart15">
+<table  id="homeAuditForm" class="grid" align="center" width="100%">
+<tr><th>Form</th></tr>
+
+
+</table>
+
+
+</div>
+</div>
+
+<div class="borderSolid leftFloat">
+<h3 class="hd">Other than Audit Forms</h3>
+
+
+<div class="mart15">
+<table  id="homeNonAuditForm" class="grid" align="center" width="100%">
+<tr><th>Form</th><th style="display:none;">Assessment Year</th></tr>
+
+
+</table>
+
+
+</div>
+</div>
+
+<div class="borderSolid autoHeight">
+	<h3 class="hd">Saved XMLs</h3>
+	<div style="padding-bottom:10px;">
+	<span id="noXml">No Saved XMLs.</span>
+	<table class="grid" width="100%" id="savedDraft" align="center" width="100%">
+	<tr><th style="display:none;">Assessment Year</th><th>Form</th><th>Date</th><th>File</th></tr>
+	</table>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+function openPage(pageNo){
+	if(pageNo=='2'){
+		document.getElementById('secondPage').style.display="block";
+		document.getElementById('firstPage').style.display="none";
+	}
+}
+
+function loadFormHomePage(val){
+	
+}
+
+function loadITRHomePage(val){
+
+	var arr=val.split('::');
+	var totRow=arr[0];
+	var notAuditCount=1,auditCount=1;
+	for(var i=1;i<=totRow;i++){
+		var arrVal= arr[i].split(',');
+		if(arrVal.length==0){
+			continue;
+		}
+		var asstYear=arrVal[0];
+		if(asstYear == 'Current A.Y.'){
+			insertToNonAuditForm(notAuditCount,arrVal,asstYear);
+			notAuditCount++;
+		}else{
+			insertToAuditForm(auditCount,arrVal,asstYear);
+			auditCount++;
+		}
+		
+				
+	}
+}
+
+function insertToAuditForm(i,arrVal,asstYear){
+try{
+
+	var tableAuditForm=document.getElementById('homeAuditForm');
+	alert('1');
+	var row=tableAuditForm.insertRow(i);
+	alert('2');
+		var cellLength=tableAuditForm.rows[0].cells.length;
+		alert('3');
+		for(var j=0;j<cellLength;j++){
+			row.insertCell(j).innerHTML="NA";
+			
+		}
+		alert('4');
+		for(var k=1;k<arrVal.length-1;k++){
+			var itrVer=arrVal[k].split(':');
+			
+			for(var j=0;j<cellLength;j++){
+				var cell=row.cells[j];
+				{
+					cell.innerHTML='';
+					var aTag=document.createElement('a');
+					var onclick="j.openNewITR('"+asstYear+"','"+itrVer[0]+"','"+itrVer[1]+"',null);";
+					aTag.setAttribute('onclick',onclick);
+					aTag.setAttribute('href',"#");
+					aTag.innerHTML=itrVer[0];
+					cell.appendChild(aTag);
+				}
+			}
+		}
+		}catch(e){
+			alert(e);
+		}
+}
+
+function insertToNonAuditForm(i,arrVal,asstYear){
+	var tableNonAuditForm=document.getElementById('homeNonAuditForm');
+	var row=tableNonAuditForm.insertRow(i);
+		var cellLength=tableNonAuditForm.rows[0].cells.length;
+		for(var j=0;j<cellLength;j++){
+			row.insertCell(j).innerHTML="NA";
+			
+		}
+		
+		for(var k=1;k<arrVal.length-1;k++){
+			var itrVer=arrVal[k].split(':');
+			for(var j=0;j<cellLength;j++){
+				var cell=row.cells[j];
+				if(j==1){
+					cell.innerHTML=asstYear;
+					cell.setAttribute('style',"display:none;");
+				}else /*if(tableNonAuditForm.rows[0].cells[j].innerHTML==itrVer[0])*/{
+					cell.innerHTML='';
+					var aTag=document.createElement('a');
+					var onclick="j.openNewITR('"+asstYear+"','"+itrVer[0]+"','"+itrVer[1]+"',null);";
+					aTag.setAttribute('onclick',onclick);
+					aTag.setAttribute('href',"#");
+					aTag.innerHTML=itrVer[0];
+					cell.appendChild(aTag);
+				}
+			}
+		}
+}
+
+function insertCell(){
+
+}
+
+
+
+function setClose(itrName,asstYear){
+var len=document.getElementsByName(itrName+asstYear).length;
+for(var i=0;i<len;i++){
+	document.getElementsByName(itrName+asstYear)[i].innerHTML='Close';
+	document.getElementsByName(itrName+asstYear)[i].setAttribute('onclick','j.closeITR();');
+}
+}
+function setOpen(itrName,asstYear){
+var len=document.getElementsByName(itrName+asstYear).length;
+for(var i=0;i<len;i++){
+	document.getElementsByName(itrName+asstYear)[i].innerHTML='Open';
+	document.getElementsByName(itrName+asstYear)[i].setAttribute("onclick","j.openNewITR('"+asstYear+"','"+itrName+"',null);");
+}
+}
+
+function addToDraft(asstYear,itrName,savedDate,fileName){
+  
+document.getElementById('savedDraft').style.display="block";
+document.getElementById('noXml').style.display="none";
+	var row=document.getElementById('savedDraft').insertRow(1);
+	var cell1=row.insertCell(0);
+	var cell2=row.insertCell(1);
+	var cell3=row.insertCell(2);
+	var cell4=row.insertCell(3);
+	
+	cell1.innerHTML=asstYear;
+	cell1.setAttribute('style',"display:none;");
+	cell2.innerHTML=itrName;
+	cell3.innerHTML=savedDate;
+	var aTag=document.createElement('a');
+	var onclick="j.openDraft('"+fileName+"');";
+	aTag.setAttribute('onclick',onclick);
+	aTag.setAttribute('href',"#");
+	aTag.innerHTML=fileName;
+	cell4.appendChild(aTag);
+	cell4.setAttribute('style',"text-align:left;")
+	
+	
+}
+if(document.getElementById('savedDraft').rows.length==1){
+document.getElementById('savedDraft').style.display="none";
+}
+
+</script>
+</body>
+</html>

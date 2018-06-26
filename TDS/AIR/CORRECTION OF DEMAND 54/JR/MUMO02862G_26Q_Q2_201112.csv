@@ -1,0 +1,27 @@
+Default Details
+TAN,Name of the deductor,Category of Deductor (as per ITD TAN Master),Provisional receipt/ Token no.,Quarter,Form no.,Financial Year,Count of Short deduction records,Count of Short payment records,Count of late payment records,Interest set off amount*****
+MUMO02862G,Office of the Chief Engineer(WZ),2,70370600329050,Q2,26Q ,2011,0,0,17,0
+Late Payment Details
+S.No,Challan record number,Deductee serial number,PAN of the deductee,Deductee name,Date of payment,Book Cash flag*,Tax deposited,Date of Deduction,Date of Deposit,Due date,Months of Default,Late Payment Interest till Date of Deposit of Tax,Late Payment Interest from Date of Depoist of Tax till Date of Processing,
+1,2,1,AAFPV5010N,M/S. METRO ENGINEERING WORKS,25-JUL-11,C,3718,20-JUL-11,10-AUG-11,08-AUG-11,1,56,12
+2,2,2,AABPN1673R,MONALISA TRAVELS,06-JUL-11,C,650,06-JUL-11,10-AUG-11,08-AUG-11,2,20,4
+3,4,1,AABPN1673R,MONALISA TRAVELS,08-AUG-11,C,637,08-AUG-11,08-SEP-11,07-SEP-11,1,10,2
+4,4,2,AGQPG3253K,ARCHANA ENGINEERING,11-AUG-11,C,114,11-AUG-11,08-SEP-11,07-SEP-11,1,2,0
+5,4,3,AABCI1964R,INFRES METHODEX LIMITED,12-AUG-11,C,727,12-AUG-11,08-SEP-11,07-SEP-11,1,11,2
+6,4,4,AGQPG3253K,ARCHANA ENGINEERING,12-AUG-11,C,114,12-AUG-11,08-SEP-11,07-SEP-11,1,2,0
+7,4,5,AGQPG3253K,ARCHANA ENGINEERING,12-AUG-11,C,114,12-AUG-11,08-SEP-11,07-SEP-11,1,2,0
+8,4,6,AGQPG3253K,ARCHANA ENGINEERING,12-AUG-11,C,112,12-AUG-11,08-SEP-11,07-SEP-11,1,2,0
+9,4,7,AACPU0954D,UNITED CONCERNS,25-AUG-11,C,4940,25-AUG-11,08-SEP-11,07-SEP-11,1,74,14
+10,4,8,ACUPS7275D,MANINDER SINGH CONTRACTOR,25-AUG-11,C,6000,25-AUG-11,08-SEP-11,07-SEP-11,1,90,18
+11,4,9,AAACD5724B,DEURO ELECTRONIC Pvt. Ltd.,25-AUG-11,C,972,25-AUG-11,08-SEP-11,07-SEP-11,1,15,3
+12,5,1,AAAFI5955N,INTERNATIONAL TRADE AGENCIES,08-AUG-11,C,196,08-AUG-11,09-SEP-11,07-SEP-11,2,6,1
+13,5,2,ACSPH7840M,HARDEV ENGINEERING WORKS,11-AUG-11,C,2040,11-AUG-11,09-SEP-11,07-SEP-11,1,31,6
+14,5,3,APHPG6812Q,DURGA ENTERPRISES,12-AUG-11,C,122,12-AUG-11,09-SEP-11,07-SEP-11,1,2,0
+15,5,4,AILPR2920F,S. P. ASSOCIATES,12-AUG-11,C,115,12-AUG-11,09-SEP-11,07-SEP-11,1,2,0
+16,6,1,AAFPV5010N,M/S. METRO ENGINEERING WORKS,24-AUG-11,C,19900,24-AUG-11,09-SEP-11,07-SEP-11,1,299,58
+17,6,2,AAAFI5955N,INTERNATIONAL TRADE AGENCIES,24-AUG-11,C,19635,24-AUG-11,09-SEP-11,07-SEP-11,1,295,58
+Late payment interest  (till date of deposit of tax (Total of A),920
+Less: Total Interest paid through challan*****   (B),0
+Late payment interest payable (till date of deposit of tax)  (A - B),920
+Interest Amount from Date of Depoist of Tax till Date of Processing (Total of C ),180
+Total interest payable due to late deposit of tax (A-B+C),1100

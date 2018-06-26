@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.itd.efiling.offline.jfx.ui.components.*?>
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane
+    xmlns:fx="http://javafx.com/fxml/1" fx:id="Content" minHeight="0.0" minWidth="0.0" fx:controller="com.itd.efiling.offline.ITR4.ctrl.commonButtonController">
+    <children>
+        <VBox id="VBox" alignment="TOP_CENTER" layoutX="38.0" layoutY="0.0" spacing="0.0">
+            <children>
+            
+             <TextFlow >
+  		          <padding>
+                      <Insets bottom="40.0" left="924.0" right ="0.0" top="0.0"/>
+                  </padding>
+	              		<Button  prefHeight="4" style=" -fx-background-color: BLACK; -fx-text-fill: yellow;" layoutX="800.0" fx:id="colorButton"  layoutY="8.0" onKeyTyped="#changeColor"  onAction="#changeColor"	mnemonicParsing="false" text="A" >
+			            <font>
+							<Font name="Arial " style="-fx-prompt-text-fill: yellow;" size="10.0" fx:id="x9" />
+						</font>
+						<tooltip>
+                			<Tooltip text="High Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+		                <Button prefWidth="21" prefHeight="23" layoutX="78.0" layoutY="60.0" fx:id="colorRevertButton" alignment="TOP_RIGHT" onKeyTyped="#revertColor"  onAction="#revertColor" mnemonicParsing="false" text="A" >
+		                <tooltip>
+                			<Tooltip text="Low Contrast" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+		                </Button>
+			            <Button  prefHeight="23" layoutX="78.0" layoutY="80.0" fx:id="decreaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#decreaseSize" onMouseClicked="#decreaseSize" onAction="#decreaseSize" mnemonicParsing="false" text="A-" >
+			            <tooltip>
+                			<Tooltip text="Decrease Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="resetSizeButton" alignment="TOP_RIGHT" onKeyTyped="#resetSize" onMouseClicked="#resetSize"  onAction="#resetSize" mnemonicParsing="false" text="A" >
+			            <tooltip>
+                			<Tooltip text="Reset Font Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+			           <Button   prefHeight="23" layoutX="78.0" layoutY="100.0" fx:id="increaseSizeButton" alignment="TOP_RIGHT" onKeyTyped="#increaseSize" onMouseClicked="#increaseSize"  onAction="#increaseSize" mnemonicParsing="false" text="A+" >
+			            <tooltip>
+                			<Tooltip text="Increase Text Size" style = "-fx-font-size : 12"/>
+		              	</tooltip>
+			            </Button>
+	            </TextFlow>
+              <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600">
+                    <children>
+                        <VBox id="HBox" alignment="TOP_LEFT" GridPane.rowIndex="0" GridPane.columnIndex="0" prefHeight="28.0" style="-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);"   prefWidth="1000" spacing="1.0" styleClass="hbox">
+                            <children>
+                               <Label fx:id="Heading" focusTraversable="true" minHeight="35.0" style="-fx-text-fill:white;-fx-padding:0 0 0 10;-fx-font-size:16px;-fx-font-weight: bold;" wrapText="true" minWidth="800" text="Nature of business or profession,if more than one business indicate the three main activities/products" styleClass="h1"/>
+                            </children>
+                        </VBox>
+                         <VBox GridPane.rowIndex="1" GridPane.columnIndex="0" style="-fx-padding:-46 0 0  0;">
+                           <children>
+                               <fx:include id="Content"  source="NON_BP_Table.fxml" />
+                           </children>
+                        </VBox>
+                        
+                    </children>
+             </GridPane>
+             <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" >
+                    <children>
+                         <VBox GridPane.rowIndex="3" GridPane.columnIndex="0" style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);">
+                          <children>
+                               <Label fx:id="Heading" style="-fx-text-fill:white;-fx-padding:0 0 0 10;-fx-font-size:16px;-fx-font-weight: bold;" focusTraversable="true" prefHeight="30.0" prefWidth="1030.0" styleClass="h1" text="Schedule BP-Details of Income from Business or Profession" wrapText="true" />
+                           </children>
+                         </VBox>
+                      </children>
+             </GridPane>       
+              <VBox  style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" prefWidth="1030.0">
+                                       <children>
+                                         <Label fx:id="Heading" style="-fx-text-fill:white;-fx-padding:0 0 0 10;-fx-font-size:16px;-fx-font-weight: bold;" focusTraversable="true" prefHeight="30.0" prefWidth="1030.0" styleClass="h1" text="Computation of Presumptive income under 44AD" wrapText="true" />
+                                       </children>
+               </VBox> 
+             <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                    <children>  
+                    		    
+                           			<Label GridPane.rowIndex="1" GridPane.columnIndex="0" fx:id="label26" style="-fx-font-size-16px;-fx-padding:0 0 0 10;" focusTraversable="true" prefHeight="-1.0" minWidth="50.0"  text="E1" wrapText="true" />
+                           		
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="1">
+         			     	 	<children>
+                           			<Label GridPane.rowIndex="1" GridPane.columnIndex="1"  fx:id="label26" style="-fx-padding:13 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0"  text="Gross Turnover or Gross Receipts" wrapText="true" />
+                            	</children>
+                          </HBox> 
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="2"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="3">
+         			     	 	<children>
+                           			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="3" focusTraversable="true" style="-fx-padding:0 0 0 10;-fx-font-size-16px;" prefHeight="-1.0" prefWidth="800.0"  text="a  Through a/c payee cheque or a/c payee bank draft or bank electronic clearing system received before specified date" wrapText="true" />
+                          	 	</children>
+                            </HBox>
+                           <ValBigIntegerField GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="CashDep"  prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverBank" allowedChars="[0-9]" disable="true" >
+                          		 <GridPane.margin>
+                           			 <Insets right="5"/>
+                        		 </GridPane.margin>
+							</ValBigIntegerField>	
+						
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="4"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="5">
+         			     	 	<children>
+                            		<Label GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="label26"  focusTraversable="true" style="-fx-padding:0 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" prefWidth="800.0"  text="b  Any other mode" wrapText="true" />
+                           		</children>
+                            </HBox>
+                            <ValBigIntegerField GridPane.columnIndex="2" GridPane.rowIndex="5" fx:id="CashDep"  prefHeight="27" prefWidth="200" maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AD.grsTrnOverAnyOthMode" allowedChars="[0-9]" disable="true" >
+                          		<GridPane.margin>
+                           			 <Insets right="5"/>
+                        		</GridPane.margin>
+							 </ValBigIntegerField>	
+                          
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="5" prefHeight="40" style="-fx-color: ;">
+			           		</Separator>
+			           		 
+			          	   			 <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="7"  focusTraversable="true" style="-fx-padding:0 0 0 10;-fx-font-size-14px;" prefHeight="-1.0"  minWidth="30.0"  text="E2" wrapText="true" />
+                            	
+                          	 <HBox GridPane.columnIndex="1" GridPane.rowIndex="7">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="7" focusTraversable="true" style="-fx-font-size-14px;-fx-padding:13 0 0 10;" prefHeight="-1.0" prefWidth="800.0" text="Presumptive income under 44AD" wrapText="true" />
+                              </children>
+                          	 </HBox>          
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="7" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			          	    <HBox GridPane.columnIndex="1" GridPane.rowIndex="9">
+         			     	 	<children>
+			          	    		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="9"  focusTraversable="true" prefHeight="-1.0" prefWidth="800.0" style="-fx-padding:0 0 0 10;" text="a.    6% of E1a" wrapText="true" />
+                            	</children>
+                          	</HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="9"  prefHeight="27" prefWidth="200"  maxLength="14"   target="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD6Per" allowedChars="[0-9]" disable="true"  >
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+                            
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="10"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="10"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="10"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="9" prefHeight="40" style="-fx-color: ;">
+			           		 </Separator> 
+			          	  	<HBox GridPane.columnIndex="1" GridPane.rowIndex="11">
+         			     	 	<children>
+			          	   			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="11"  focusTraversable="true" prefHeight="-1.0" prefWidth="800.0" style="-fx-padding:0 0 0 10;" text="b.    8% of E1b" wrapText="true" />
+                           		</children>
+                          	</HBox>
+                           <ValBigIntegerField fx:id="CashDep"  GridPane.columnIndex="2"  GridPane.rowIndex="11"   prefHeight="27" prefWidth="200" maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AD.persumptiveInc44AD8Per" allowedChars="[0-9]" disable="true" >
+                            	<GridPane.margin>
+                           			 <Insets right="5"/>
+                        		</GridPane.margin>
+						   </ValBigIntegerField>	
+                           
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="12"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="12"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="12"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="11" prefHeight="40" style="-fx-color: ;">
+			           		 </Separator>
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="13">
+         			     	 	<children>
+			          	    		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="13" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0" style="-fx-padding:0 0 0 10;"  text="c.    Total(a+b)" wrapText="true" />
+                         		</children>
+                            </HBox>
+                            <ValBigIntegerField fx:id="CashDep"  prefHeight="27" prefWidth="200" GridPane.columnIndex="2" maxLength="14" GridPane.rowIndex="13" target="itr.itr4.scheduleBP.persumptiveInc44AD.totPersumptiveInc44AD" allowedChars="[0-9]" disable="true" >
+                          		<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+                            
+                             <Region GridPane.columnIndex="0" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="14"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	  <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="13" prefHeight="40" style="-fx-color: ;">
+			            </Separator>
+                           <HBox GridPane.columnIndex="1" GridPane.rowIndex="15">
+                             <children>
+                                <Label fx:id="Note"  focusTraversable="true" style="-fx-padding:0 0 0 10;" textFill="red" prefHeight="-1.0" prefWidth="700.0"  text="Note : If income is less than the above percentage of Gross Receipts,It is mandatory to have a tax audit under 44AB and Regular ITR 3 or ITR 5 form has to be filled and not this form" wrapText="true" />
+                             </children>
+                           </HBox>
+                         </children>
+                   </GridPane>  
+                   <VBox  style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" prefWidth="1030.0">
+                           <children>
+                                <Label fx:id="Heading" GridPane.columnIndex="0" style="-fx-font-size:16px;-fx-font-weight: bold;-fx-text-fill:white;-fx-padding:0 0 0 10;" GridPane.rowIndex="17" focusTraversable="true"  prefHeight="30.0" prefWidth="930.0" styleClass="h1" text="Computation of Presumptive Income under 44ADA (Profession)" wrapText="true" />
+                           </children>
+                   </VBox>
+                 
+                 <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                    <children>   
+                     
+                           <Label GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="label26" style="-fx-padding: 0 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" minWidth="50.0"  text="E3" wrapText="true" />
+                         
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			     	 <children>  
+                           			<Label GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="label26" style="-fx-padding: 13 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0"  text="Gross Receipts" wrapText="true" />
+                          	</children>
+                          </HBox>
+                           <ValBigIntegerField fx:id="CashDep"  prefHeight="27" prefWidth="200" GridPane.columnIndex="2" maxLength="14" GridPane.rowIndex="0" target="itr.itr4.scheduleBP.persumptiveInc44ADA.grsReceipt" allowedChars="[0-9]" disable="true" >
+                          		<GridPane.margin>
+                           			 <Insets right="5"/>
+                        		</GridPane.margin>
+						   </ValBigIntegerField>
+							   
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			            
+			            
+                            <Label  GridPane.columnIndex="0" GridPane.rowIndex="2" focusTraversable="true" style="-fx-padding: 0 0 0 10;-fx-font-size-16px;" prefHeight="-1.0" minWidth="40.0"  text="E4" wrapText="true" />
+                          
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="2" style="-fx-padding: 13 0 0 10;"  focusTraversable="true" prefHeight="-1.0" prefWidth="786.0"  text="Presumptive Income under 44ADA(>=50% of E3)" wrapText="true" />
+                          	 </children>
+                          </HBox>
+                            <ValBigIntegerField GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="CashDep"  prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44ADA.totPersumptiveInc44ADA"  allowedChars="[0-9]" disable="true" >
+                           		<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        	    </GridPane.margin>
+						    </ValBigIntegerField>
+							
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                            
+                            <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+                             <children>
+                             <Label fx:id="Note"    focusTraversable="true" textFill="red" style="-fx-padding:0 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Note : If income is less than 50% of Gross Receipts,It is mandatory to have a tax audit under 44AB and Regular ITR 3 or ITR 5 form has to be filled and not this form" wrapText="true" />
+                             </children>
+                           </HBox>
+                            
+                             
+                           
+                         </children>
+                </GridPane>  
+               <VBox  style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" prefWidth="1030.0">
+                           <children>
+                                <Label fx:id="Heading" GridPane.columnIndex="0" style="-fx-font-size:16px;-fx-font-weight: bold;-fx-text-fill:white;-fx-padding:0 0 0 10;" GridPane.rowIndex="17" focusTraversable="true"  prefHeight="30.0" prefWidth="930.0" styleClass="h1" text="Computation of Presumptive Income under 44AE" wrapText="true" />
+                           </children>
+              </VBox>
+                <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                    <children>      
+                    
+                    
+                           <Label GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="label26" style="-fx-padding: 0 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" minWidth="40.0"  text="E5" wrapText="true" />
+                          
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			     	 <children>
+                           			<Label GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="label26" style="-fx-padding: 13 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0"  text="Presumptive Income from Good carriage under section 44AE" wrapText="true" />
+                            </children>
+                          </HBox>
+                           <ValBigIntegerField GridPane.columnIndex="2" GridPane.rowIndex="0" fx:id="CashDep"  prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AE.totPersumInc44AE" allowedChars="[0-9]" disable="true" >
+                             	<GridPane.margin>
+                           		   <Insets right="5"/>
+                        		</GridPane.margin>
+						   </ValBigIntegerField>
+							 
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			          	
+			          	<HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+         			     	 <children>
+			          	 		<Label fx:id="Note" GridPane.columnIndex="1" GridPane.rowIndex="2" focusTraversable="true" style="-fx-padding: 0 0 0 10;" textFill="red" prefHeight="-1.0" prefWidth="800.0"  text="Note : If the profits are lower than prescribed under S.44AE or the number of Vehicles owned at any time exceed 10 then the regular ITR 3 or ITR 5 form has to be filled and not this form" wrapText="true" />
+			          		 </children>
+                        </HBox>
+			          	  <Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                            
+                           
+			          	    <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="4"  focusTraversable="true" style="-fx-padding: 0 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" minWidth="40.0"  text="E6" wrapText="true" />
+                           
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+         			     	 		<children> 
+                            			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="4" focusTraversable="true" style="-fx-padding: 13 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" prefWidth="800.0" text="Salary and interest paid to the partners" wrapText="true" />
+                            		</children>
+                          </HBox>
+                            <Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="5" focusTraversable="true" textFill="red" prefHeight="-1.0" prefWidth="800.0" style="-fx-padding: 0 0 0 10;" text="(This is to be filled up only by firms)" wrapText="true" />
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="4" prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AE.salInterestByFirm" allowedChars="[0-9]" >
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+							             
+                           <Region GridPane.columnIndex="0" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="6"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			          	    
+			          	    
+			          	    <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="7"  focusTraversable="true" style="-fx-padding: 0 0 0 10;" prefHeight="-1.0" minWidth="40.0"  text="E7" wrapText="true" />
+                           
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="7">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="7" style="-fx-padding: 13 0 0 10;" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0"  text="Presumptive Income u/s 44AE (E5-E6)" wrapText="true" />
+                            	</children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="7"  prefHeight="27" prefWidth="200"  target="itr.itr4.scheduleBP.persumptiveInc44AE.totalPersumptiveInc" allowedChars="[0-9]" disable="true" >
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>
+								
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="8"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="7" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			          	  
+			          	  
+			          	  
+			          	   <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="9"  focusTraversable="true" style="-fx-padding: 0 0 0 10;" prefHeight="-1.0" minWidth="50.0"  text="E8" wrapText="true" />
+                           
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="9">
+         			     		 <children>
+                           			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="9"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Income chargeable under Business and Profession (under section 44AD, 44ADA and 44AE) (E2c + E4 + E7)" wrapText="true" />
+                           		</children>
+                          </HBox>
+                           <ValBigIntegerField fx:id="CashDep"  GridPane.columnIndex="2"  GridPane.rowIndex="9"   prefHeight="27" prefWidth="200" maxLength="14"  target="itr.itr4.scheduleBP.persumptiveInc44AE.incChargeableUnderBus" allowedChars="[0-9]" disable="true" >
+                           		<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+						   </ValBigIntegerField>
+						   	
+                            <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="9" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                          
+                         </children>
+                   </GridPane>
+                    <VBox  style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" prefWidth="1030.0">
+                           <children>
+                                <Label fx:id="Heading" GridPane.columnIndex="0" style="-fx-font-size:16px;-fx-font-weight: bold;-fx-text-fill:white;-fx-padding:0 0 0 10;" GridPane.rowIndex="17" focusTraversable="true"  prefHeight="30.0" prefWidth="930.0" styleClass="h1" text="INFORMATION REGARDING TURNOVER/GROSS RECEIPT REPORTED FOR GST" wrapText="true" />
+                           </children>
+              		</VBox>
+                <GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                    <children>      
+                    
+                    
+                           <Label GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="label26" style="-fx-padding: 0 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" minWidth="50.0"  text="E9" wrapText="true" />
+                          
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			     	 <children>
+                           			<Label GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="label26" style="-fx-padding: 13 0 0 10;-fx-font-size-16px;" focusTraversable="true" prefHeight="-1.0" prefWidth="800.0"  text="GSTR No." wrapText="true" />
+                            </children>
+                          </HBox>
+                           <ValTextField GridPane.columnIndex="2" GridPane.rowIndex="0" fx:id="CashDep"  prefHeight="27" prefWidth="200"  maxLength="15"  target="itr.itr4.scheduleBP.turnoverGrsRcptForGST.gstrNo" allowedChars="[a-zA-Z0-9]" autoCaps="true" >
+                             	<GridPane.margin>
+                           		   <Insets right="5"/>
+                        		</GridPane.margin>
+						   </ValTextField>
+							 
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			             	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+			          	
+			          
+                            
+                           
+			          	    <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="4"  focusTraversable="true" style="-fx-padding: 0 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" minWidth="40.0"  text="E10" wrapText="true" />
+                           
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+         			     	 		<children> 
+                            			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="4" focusTraversable="true" style="-fx-padding: 13 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" prefWidth="800.0" text="Amount of turnover/Gross receipt as per the GST return filed" wrapText="true" />
+                            		</children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="4" prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.turnoverGrsRcptForGST.amtTurnGrossRcptGST" allowedChars="[0-9]" >
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+							             
+                           <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+						   	
+                            
+                          
+                         </children>
+                   </GridPane> 
+                    <VBox  style="-fx-border-style: solid inside;-fx-border-color: black;-fx-background-insets: 0,1,2,3;-fx-background-color:linear-gradient(#7ebcea, #2f4b8f),linear-gradient(#426ab7, #263e75),linear-gradient(#395cab, #01578A);" prefWidth="1030.0">
+                           <children>
+                                <Label fx:id="Heading" GridPane.columnIndex="0" style="-fx-font-size:16px;-fx-font-weight: bold;-fx-text-fill:white;-fx-padding:0 0 0 10;" GridPane.rowIndex="17" focusTraversable="true"  prefHeight="30.0" prefWidth="930.0" styleClass="h1" text="Financial Particulars of the Business" wrapText="true" />
+                           </children>
+              		</VBox>
+               		<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="600" style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:grey;">
+                    	<children>      
+                     		<HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+         			     	 	<children>
+                            		<Label fx:id="Note" GridPane.columnIndex="1" GridPane.rowIndex="0" style="  -fx-padding: 0 0 0 10  ;"  focusTraversable="true" textFill="red" prefHeight="-1.0" prefWidth="800.0"  text="NOTE: For E11 to E25 furnish the information as on 31st day of March,2018" wrapText="true" />
+                        		</children>
+                           </HBox> 
+                            
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                            
+                             
+			          		<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="2"  focusTraversable="true" style="-fx-padding: 0 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" minWidth="30.0"  text="E11" wrapText="true" />
+                           
+                          	<HBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="2" focusTraversable="true" style="-fx-padding: 13 0 0 10;-fx-font-size-14px;" prefHeight="-1.0" prefWidth="800.0" text="Partners/ members own capital" wrapText="true" />
+                           		</children>
+                         	 </HBox>
+                         	 
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="27" prefWidth="200"  maxLength="14"  target="itr.itr4.scheduleBP.noBooksOfAccBS.partnerMemberOwnCapital" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+						  	 </ValBigIntegerField>	
+						  			          	
+			          	  <Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			               <Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	   <Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                            
+                            
+			          	  
+			          	    
+			          	   
+			          	   <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;" focusTraversable="true" prefHeight="-1.0" minWidth="30.0"  text="E12" wrapText="true" />
+                           
+                           <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+         			     		<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="4"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Secured loans" wrapText="true" />
+                            	</children>
+                           </HBox>
+                          
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="4"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totSecuredLoans" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			          	  
+			          	 
+			          	   	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="6"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E13" wrapText="true" />
+                         	 
+                            <HBox GridPane.columnIndex="1" GridPane.rowIndex="6">
+         			     	 	<children>
+                           			<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="6"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Unsecured loans" wrapText="true" />
+                            	</children>
+                            </HBox>
+                            <ValBigIntegerField fx:id="CashDep"  GridPane.columnIndex="2"  GridPane.rowIndex="6"   prefHeight="27" prefWidth="200" maxLength="14"  target="itr.itr4.scheduleBP.noBooksOfAccBS.totUnSecuredLoans" allowedChars="[0-9]" >
+                           		<GridPane.margin>
+                           			 <Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	     <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+                          
+                          <Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="8"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E14" wrapText="true" />
+                          
+                          <HBox GridPane.columnIndex="1" GridPane.rowIndex="8">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="8"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Advances" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="8"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totAdvances" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="10"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E15" wrapText="true" />
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="10">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="10"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Sundry creditors" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="10"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totSundryCreditors" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="10" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="12"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E16" wrapText="true" />
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="12">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="12"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Other liabilities " wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="12"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totOthrCurrLiab" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="13"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="12" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="14"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E17" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="14">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="14"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Total capital and liabilities(E11+E12+E13+E14+E15+E16)" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="14"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totSrcOfFunds" disable="true" allowedChars="[0-9]" >
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="15"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="14" prefHeight="40" style="-fx-color: ;">
+			            	</Separator>
+						
+						
+							<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="16"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E18" wrapText="true" />
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="16">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="16"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Fixed assets" wrapText="true" />
+                            	</children>
+                          	</HBox>
+                          	<ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="16"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.fixedAssets" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="17"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="16" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="18"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E19" wrapText="true" />
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="18">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="18"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Inventories" wrapText="true" />
+                            	</children>
+                          	</HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="18"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.inventories" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="19"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="18" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="20"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E20" wrapText="true" />
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="20">
+         			     	 	<children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="20"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Sundry debtors" wrapText="true" />
+                            	</children>
+                         	 </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="20"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.sundryDebtors" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="21"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="20" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="22"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E21" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="22">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="22"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Balance with banks" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="22"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.balWithBanks" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="23"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="22" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="24"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E22" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="24">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="24"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Cash-in-hand" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="24"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totCashInHand" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="25"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="24" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            
+			            
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="26"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E23" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="26">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="26"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Loans and advances" wrapText="true" />
+                            </children>
+                         	 </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="26"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.loansAndAdvances" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="27"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="27"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="27"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="26" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="28"  focusTraversable="true" prefHeight="-1.0" minWidth="30.0" style="-fx-padding:0 0 0 10;" text="E24" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="28">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="28"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Other Assets" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="28"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.otherAssets" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Region GridPane.columnIndex="0" GridPane.rowIndex="29"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			                <Region GridPane.columnIndex="1" GridPane.rowIndex="29"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Region GridPane.columnIndex="2" GridPane.rowIndex="29"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          	    <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="28" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+			            	
+			            	<Label fx:id="label26" GridPane.columnIndex="0" GridPane.rowIndex="30"  focusTraversable="true" prefHeight="-1.0" minWidth="50.0" style="-fx-padding:0 0 0 10;" text="E25" wrapText="true" />
+			            	
+			            	
+			            	<HBox GridPane.columnIndex="1" GridPane.rowIndex="30">
+         			     	 <children>
+                            		<Label fx:id="label26" GridPane.columnIndex="1" GridPane.rowIndex="30"  focusTraversable="true" style="-fx-padding: 13 0 0 10;" prefHeight="-1.0" prefWidth="800.0"  text="Total assets(E18+E19+E20+E21+E22+E23+E24)" wrapText="true" />
+                            </children>
+                          </HBox>
+                            <ValBigIntegerField fx:id="CashDep" GridPane.columnIndex="2" GridPane.rowIndex="30"  prefHeight="27" prefWidth="200" maxLength="14" target="itr.itr4.scheduleBP.noBooksOfAccBS.totApplnOfFunds" disable="true" allowedChars="[0-9]">
+                            	<GridPane.margin>
+                           	 		<Insets right="5"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>	
+						
+                            <Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="30" prefHeight="40" style="-fx-color: ;">
+			            	</Separator> 
+						                          
+						     <HBox GridPane.columnIndex="1" GridPane.rowIndex="31">
+         			     	 	<children>
+                            		<Label fx:id="Note" GridPane.columnIndex="1" GridPane.rowIndex="15" focusTraversable="true" style="-fx-padding:0 0 0 10;" textFill="red" prefHeight="-1.0" prefWidth="700.0"  text="Note : Please refer to instructions for filling out this schedule (E15, E19, E20, E22 are mandatory and others if available)" wrapText="true" />
+                            	</children>
+                         	 </HBox>                   
+						
+						
+                          </children>
+                   </GridPane> 
+                   
+                   
+                   
+                    
+           </children>
+        </VBox> 
+     </children>
+</AnchorPane>
+

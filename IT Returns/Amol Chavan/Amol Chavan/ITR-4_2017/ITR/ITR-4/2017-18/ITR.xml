@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main"
+	xmlns:ITR4FORM="http://incometaxindiaefiling.gov.in/ITR4"
+	xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ITR4FORM:ITR4>
+		<ITRForm:CreationInfo>
+			<ITRForm:SWVersionNo name="itr4S.creationInfo.swVersionNo">R1</ITRForm:SWVersionNo>
+			<ITRForm:SWCreatedBy>SW91201718</ITRForm:SWCreatedBy>
+			<ITRForm:XMLCreatedBy>SW91201718</ITRForm:XMLCreatedBy>
+			<ITRForm:XMLCreationDate name="itr4S.creationInfo.xmlCreationDate">2013-08-19</ITRForm:XMLCreationDate>
+			<ITRForm:IntermediaryCity name="itr4S.creationInfo.intermediaryCity">Delhi</ITRForm:IntermediaryCity>
+			<ITRForm:Digest>-</ITRForm:Digest>
+		</ITRForm:CreationInfo>
+		<ITRForm:Form_ITR4>
+			<ITRForm:FormName name="itr4S.formITR4S.formName">ITR-4</ITRForm:FormName>
+			<ITRForm:Description name="itr4S.formITR4S.description">For Indl having Income From Presemptive Business</ITRForm:Description>
+			<ITRForm:AssessmentYear name="itr4S.formITR4S.assessmentYear">2017</ITRForm:AssessmentYear>
+			<ITRForm:SchemaVer name="itr4S.formITR4S.schemaVer">Ver1.0</ITRForm:SchemaVer>
+			<ITRForm:FormVer name="itr4S.formITR4S.formVer">Ver1.0</ITRForm:FormVer>
+		</ITRForm:Form_ITR4>
+		<ITRForm:PersonalInfo>
+			<ITRForm:AssesseeName>
+				<ITRForm:FirstName name="itr4S.personalInfo.assesseeName.firstName" />
+				<ITRForm:MiddleName name="itr4S.personalInfo.assesseeName.middleName" />
+				<ITRForm:SurNameOrOrgName
+					name="itr4S.personalInfo.assesseeName.surNameOrOrgName" />
+				<ITRForm:OrgOldName name="itr4S.personalInfo.assesseeName.orgOldName" />
+			</ITRForm:AssesseeName>
+			<ITRForm:PAN name="itr4S.personalInfo.pan" />
+			<ITRForm:Address>
+				<ITRForm:ResidenceNo name="itr4S.personalInfo.address.residenceNo" />
+				<ITRForm:ResidenceName name="itr4S.personalInfo.address.residenceName" />
+				<ITRForm:RoadOrStreet name="itr4S.personalInfo.address.roadOrStreet" />
+				<ITRForm:LocalityOrArea name="itr4S.personalInfo.address.localityOrArea" />
+				<ITRForm:CityOrTownOrDistrict
+					name="itr4S.personalInfo.address.cityOrTownOrDistrict" />
+				<ITRForm:StateCode name="itr4S.personalInfo.address.stateCode" />
+				<ITRForm:CountryCode name="itr4S.personalInfo.address.country" />
+				<ITRForm:PinCode name="itr4S.personalInfo.address.pinCode" />
+				<ITRForm:Phone>
+					<ITRForm:STDcode name="itr4S.personalInfo.address.phone.stDcode" />
+					<ITRForm:PhoneNo name="itr4S.personalInfo.address.phone.phoneNo" />
+				</ITRForm:Phone>
+				<ITRForm:MobileNo name="itr4S.personalInfo.address.mobileNo" />
+				<ITRForm:MobileNoSec name="itr4S.personalInfo.address.secMobileNo" />
+				<ITRForm:EmailAddress name="itr4S.personalInfo.address.emailAddress" />
+				<ITRForm:EmailAddressSec
+					name="itr4S.personalInfo.address.emailAddressSec" />
+			</ITRForm:Address>
+			<ITRForm:DOB name="itr4S.personalInfo.dob" />
+
+			<ITRForm:Gender name="itr4S.personalInfo.gender" />
+			<ITRForm:Status name="itr4S.personalInfo.status" />
+			<ITRForm:AadhaarCardNo name="itr4S.filingStatus.adharNumber" />
+		</ITRForm:PersonalInfo>
+		<ITRForm:FilingStatus>
+			<ITRForm:DesigOfficerWardorCircle
+				name="itr4S.filingStatus.desigOfficerWardorCircle" />
+			<ITRForm:ReturnFileSec name="itr4S.filingStatus.returnFileSec" />
+			<ITRForm:AckNoOriginalReturn name="itr4S.filingStatus.ackNoOriginalReturn" />
+			<ITRForm:NoticeNo name="itr4S.filingStatus.noticeNo" />
+			<ITRForm:DefRetOrigRetFiledDate name="itr4S.filingStatus.noticeDate" />
+			<ITRForm:ReturnType name="itr4S.filingStatus.returnType" />
+			<ITRForm:ReceiptNo name="itr4S.filingStatus.receiptNo" />
+			<ITRForm:OrigRetFiledDate name="itr4S.filingStatus.origRetFiledDate" />
+			<ITRForm:ResidentialStatus name="itr4S.filingStatus.residentialStatus" />
+			<ITRForm:TaxStatus name="itr4S.filingStatus.taxStatus" />
+			<ITRForm:AsseseeRepFlg name="itr4S.filingStatus.asseseeRepFlg" />
+			<ITRForm:AssesseeRep>
+				<ITRForm:RepName name="itr4S.filingStatus.assesseeRep.repName" />
+				<ITRForm:RepAddress name="itr4S.filingStatus.assesseeRep.repAddress" />
+				<ITRForm:RepPAN name="itr4S.filingStatus.assesseeRep.repPAN" />
+			</ITRForm:AssesseeRep>
+			<ITRForm:PortugeseCC5A name="itr4S.filingStatus.portugeseCC5A" />
+			<ITRForm:PANOfSpouse name="itr4S.filingStatus.panOfSpouse" />
+			<ITRForm:NoticeDateUnderSec name="itr4S.filingStatus.noticeDateUnderSec" />
+		</ITRForm:FilingStatus>
+		<ITRForm:IncomeDeductions>
+			<ITRForm:IncomeFromBusinessProf
+				name="itr4S.itr4SIncomeDeductions.incomeFromBusinessProf" />
+			<ITRForm:IncomeFromSal name="itr4S.itr4SIncomeDeductions.incomeFromSal" />
+			<ITRForm:TypeOfHP name="itr4S.itr4SIncomeDeductions.typeOfHP" />
+			<ITRForm:TotalIncomeOfHP
+				name="itr4S.itr4SIncomeDeductions.totalIncomeOfHP">0</ITRForm:TotalIncomeOfHP>
+			<ITRForm:IncomeOthSrc name="itr4S.itr4SIncomeDeductions.incomeOthSrc" />
+			<ITRForm:GrossTotIncome name="itr4S.itr4SIncomeDeductions.grossTotIncome" />
+			<ITRForm:UsrDeductUndChapVIA>
+				<ITRForm:Section80C
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80C_Usr" />
+				<ITRForm:Section80CCC
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCC_Usr" />
+				<ITRForm:Section80CCDEmployeeOrSE
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCD_Usr" />
+				<ITRForm:Section80CCDEmployer
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCDEmployer_Usr" />
+				<ITRForm:Section80CCD1B
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCD1B_Usr" />
+				<ITRForm:Section80D
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80D_Usr" />
+				<ITRForm:Section80DD
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80DD_Usr" />
+				<ITRForm:Section80DDB
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80DDB_Usr" />
+				<ITRForm:Section80E
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80E_Usr" />
+				<ITRForm:Section80EE
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80EE_Usr" />
+				<ITRForm:Section80G
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80G_Usr" />
+				<ITRForm:Section80GG
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80GG_Usr" />
+				<ITRForm:Section80GGC
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80GGC_Usr" />
+				<ITRForm:Section80U
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80U_Usr" />
+				<ITRForm:Section80RRB
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80RRB_Usr" />
+				<ITRForm:Section80QQB
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80QQB_Usr" />
+				<ITRForm:Section80IA
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80IA_Usr" />
+				<ITRForm:Section80IAB
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80IAB_Usr" />
+				<ITRForm:Section80IB
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80IB_Usr" />
+				<ITRForm:Section80IC
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80IC_Usr" />
+				<ITRForm:Section80ID
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80ID_Usr" />
+				<ITRForm:Section80JJA
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80JJA_Usr" />
+				<ITRForm:Section80CCG
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCG_Usr" />
+				<ITRForm:Section80TTA
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80TTA_Usr" />
+				<ITRForm:TotalChapVIADeductions
+					name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.totalChapVIADeductions_Usr" />
+			</ITRForm:UsrDeductUndChapVIA>
+			<ITRForm:DeductUndChapVIA>
+				<ITRForm:Section80C
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80C" />
+				<ITRForm:Section80CCC
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCC" />
+				<ITRForm:Section80CCDEmployeeOrSE
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCD" />
+				<ITRForm:Section80CCDEmployer
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCDEmployer" />
+				<ITRForm:Section80CCD1B
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCD1B" />
+				<ITRForm:Section80D
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80D" />
+				<ITRForm:Section80DD
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80DD" />
+				<ITRForm:Section80DDB
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80DDB" />
+				<ITRForm:Section80E
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80E" />
+				<ITRForm:Section80EE
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80EE" />
+				<ITRForm:Section80G
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80G" />
+				<ITRForm:Section80GG
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GG" />
+				<ITRForm:Section80GGC
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GGC" />
+				<ITRForm:Section80U
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80U" />
+				<ITRForm:Section80RRB
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80RRB" />
+				<ITRForm:Section80QQB
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80QQB" />
+				<ITRForm:Section80IA
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80IA" />
+				<ITRForm:Section80IAB
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80IAB" />
+				<ITRForm:Section80IB
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80IB" />
+				<ITRForm:Section80IC
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80IC" />
+				<ITRForm:Section80ID
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80ID" />
+				<ITRForm:Section80JJA
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80JJA" />
+				<ITRForm:Section80CCG
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCG" />
+				<ITRForm:Section80TTA
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80TTA" />
+				<ITRForm:TotalChapVIADeductions
+					name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.totalChapVIADeductions" />
+			</ITRForm:DeductUndChapVIA>
+			<ITRForm:TotalIncome name="itr4S.itr4SIncomeDeductions.totalIncome" />
+		</ITRForm:IncomeDeductions>
+		<ITRForm:TaxComputation>
+			<ITRForm:TotalTaxPayable
+				name="itr4S.itr4sTaxComputationOnline.totalTaxPayable">0</ITRForm:TotalTaxPayable>
+			<ITRForm:Rebate87A name="itr4S.itr1TaxComputationOnline.rebate87A" />
+			<ITRForm:TaxPayableOnRebate
+				name="itr4S.itr1TaxComputationOnline.taxPayableOnRebate" />
+			<ITRForm:SurchargeOnAboveCrore
+				name="itr4S.itr1TaxComputationOnline.surchargeOnAboveCrore" />
+			<ITRForm:EducationCess
+				name="itr4S.itr4sTaxComputationOnline.educationCess">0</ITRForm:EducationCess>
+			<ITRForm:GrossTaxLiability
+				name="itr4S.itr4sTaxComputationOnline.grossTaxLiability">0</ITRForm:GrossTaxLiability>
+			<ITRForm:Section89 name="itr4S.itr4sTaxComputationOnline.section89">0</ITRForm:Section89>
+			<ITRForm:NetTaxLiability
+				name="itr4S.itr4sTaxComputationOnline.netTaxLiability">0</ITRForm:NetTaxLiability>
+			<ITRForm:TotalIntrstPay
+				name="itr4S.itr4sTaxComputationOnline.totalIntrstPay" />
+			<ITRForm:IntrstPay>
+				<ITRForm:IntrstPayUs234A
+					name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234A" />
+				<ITRForm:IntrstPayUs234B
+					name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234B" />
+				<ITRForm:IntrstPayUs234C
+					name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234C" />
+				<ITRForm:TotalIntrstPay
+					name="itr4S.itr4STaxComputation.intrstPay.totalIntrstPay" />
+			</ITRForm:IntrstPay>
+			<ITRForm:TotTaxPlusIntrstPay
+				name="itr4S.itr4sTaxComputationOnline.totTaxPlusIntrstPay">0</ITRForm:TotTaxPlusIntrstPay>
+		</ITRForm:TaxComputation>
+		<ITRForm:TaxPaid>
+			<ITRForm:TaxesPaid>
+				<ITRForm:AdvanceTax name="itr4S.taxPaid.taxesPaid.advanceTax" />
+				<ITRForm:TDS name="itr4S.taxPaid.taxesPaid.tds" />
+				<ITRForm:TCS name="itr4S.taxPaid.taxesPaid.tcs" />
+				<ITRForm:SelfAssessmentTax
+					name="itr4S.taxPaid.taxesPaid.selfAssessmentTax" />
+				<ITRForm:TotalTaxesPaid name="itr4S.taxPaid.taxesPaid.totalTaxesPaid" />
+			</ITRForm:TaxesPaid>
+			<ITRForm:BalTaxPayable name="itr4S.taxPaid.balTaxPayable" />
+		</ITRForm:TaxPaid>
+		<ITRForm:Refund>
+			<ITRForm:RefundDue name="itr4S.refund.refundDue"/>
+		      <ITRForm:BankAccountDtls>
+		         <ITRForm:PriBankDetails>
+		        	<ITRForm:IFSCCode name="itr4S.refund.depositToBankAccount.iFSCCode" />
+					<ITRForm:BankName name="itr4S.refund.depositToBankAccount.bankName" />
+					<ITRForm:BankAccountNo name="itr4S.refund.bankAccountNumber" />
+					<ITRForm:CashDeposited name="itr4S.refund.depositToBankAccount.cashDeposited"/>
+					
+		         </ITRForm:PriBankDetails>
+		         <ITRForm:AddtnlBankDetails>
+		            <ITRForm:IFSCCode name="itr4S.scheduleBA[0].ifscCode" />
+					<ITRForm:BankName name="itr4S.scheduleBA[0].bankName" />
+					<ITRForm:BankAccountNo name="itr4S.scheduleBA[0].accNo" />
+					<ITRForm:CashDeposited name="itr4S.scheduleBA[0].cashDeposited"/>
+		         </ITRForm:AddtnlBankDetails>
+		         
+		      </ITRForm:BankAccountDtls>
+		</ITRForm:Refund>
+		<ITRForm:Schedule80G>
+			<ITRForm:Don100Percent>
+				<ITRForm:DoneeWithPan>
+					<ITRForm:DoneeWithPanName
+						name="itr4S.schedule80G.don100Percent.doneeWithPan[0].doneeWithPanName" />
+					<ITRForm:DoneePAN
+						name="itr4S.schedule80G.don100Percent.doneeWithPan[0].doneePAN" />
+					<ITRForm:AddressDetail>
+						<ITRForm:AddrDetail
+							name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.addrDetail" />
+						<ITRForm:CityOrTownOrDistrict
+							name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" />
+						<ITRForm:StateCode
+							name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.stateCode" />
+						<ITRForm:PinCode
+							name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.pinCode" />
+					</ITRForm:AddressDetail>
+					<ITRForm:DonationAmt
+						name="itr4S.schedule80G.don100Percent.doneeWithPan[0].donationAmt" />
+					<ITRForm:EligibleDonationAmt
+						name="itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt" />
+				</ITRForm:DoneeWithPan>
+				<ITRForm:TotEligibleDon100Percent
+					name="itr4S.schedule80G.don100Percent.totEligibleDon100Percent" />
+				<ITRForm:TotDon100Percent
+					name="itr4S.schedule80G.don100Percent.totDon100Percent" />
+			</ITRForm:Don100Percent>
+			<ITRForm:Don50PercentNoApprReqd>
+				<ITRForm:DoneeWithPan>
+					<ITRForm:DoneeWithPanName
+						name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneeWithPanName" />
+					<ITRForm:DoneePAN
+						name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneePAN" />
+					<ITRForm:AddressDetail>
+						<ITRForm:AddrDetail
+							name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.addrDetail" />
+						<ITRForm:CityOrTownOrDistrict
+							name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" />
+						<ITRForm:StateCode
+							name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.stateCode" />
+						<ITRForm:PinCode
+							name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.pinCode" />
+					</ITRForm:AddressDetail>
+					<ITRForm:DonationAmt
+						name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].donationAmt" />
+					<ITRForm:EligibleDonationAmt
+						name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt" />
+				</ITRForm:DoneeWithPan>
+				<ITRForm:TotEligibleDon50Percent
+					name="itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent" />
+				<ITRForm:TotDon50PercentNoApprReqd
+					name="itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd" />
+			</ITRForm:Don50PercentNoApprReqd>
+			<ITRForm:Don100PercentApprReqd>
+				<ITRForm:DoneeWithPan>
+					<ITRForm:DoneeWithPanName
+						name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneeWithPanName" />
+					<ITRForm:DoneePAN
+						name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneePAN" />
+					<ITRForm:AddressDetail>
+						<ITRForm:AddrDetail
+							name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail" />
+						<ITRForm:CityOrTownOrDistrict
+							name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" />
+						<ITRForm:StateCode
+							name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.stateCode" />
+						<ITRForm:PinCode
+							name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.pinCode" />
+					</ITRForm:AddressDetail>
+					<ITRForm:DonationAmt
+						name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].donationAmt" />
+					<ITRForm:EligibleDonationAmt
+						name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt" />
+				</ITRForm:DoneeWithPan>
+				<ITRForm:TotEligibleDon100PercentApprReqd
+					name="itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd" />
+				<ITRForm:TotDon100PercentApprReqd
+					name="itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd" />
+			</ITRForm:Don100PercentApprReqd>
+			<ITRForm:Don50PercentApprReqd>
+				<ITRForm:DoneeWithPan>
+					<ITRForm:DoneeWithPanName
+						name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneeWithPanName" />
+					<ITRForm:DoneePAN
+						name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneePAN" />
+					<ITRForm:AddressDetail>
+						<ITRForm:AddrDetail
+							name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail" />
+						<ITRForm:CityOrTownOrDistrict
+							name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict" />
+						<ITRForm:StateCode
+							name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.stateCode" />
+						<ITRForm:PinCode
+							name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.pinCode" />
+					</ITRForm:AddressDetail>
+					<ITRForm:DonationAmt
+						name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].donationAmt" />
+					<ITRForm:EligibleDonationAmt
+						name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt" />
+				</ITRForm:DoneeWithPan>
+				<ITRForm:TotEligibleDon50PercentApprReqd
+					name="itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd" />
+				<ITRForm:TotDon50PercentApprReqd
+					name="itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd" />
+			</ITRForm:Don50PercentApprReqd>
+			<ITRForm:TotalEligibleDonationsUs80G
+				name="itr4S.schedule80G.totalEligibleDonationsUs80G" />
+			<ITRForm:TotalDonationsUs80G name="itr4S.schedule80G.totalDonationsUs80G" />
+		</ITRForm:Schedule80G>
+		<ITR4FORM:TaxExmpIntInc name="itr4S.taxExmpIntInc" />
+		<ITRForm:Verification>
+			<ITRForm:Declaration>
+				<ITRForm:AssesseeVerName
+					name="itr4S.verification.declaration.assesseeVerName" />
+				<ITRForm:FatherName name="itr4S.verification.declaration.fatherName" />
+				<ITRForm:AssesseeVerPAN
+					name="itr4S.verification.declaration.assesseeVerPAN" />
+			</ITRForm:Declaration>
+			<ITRForm:Place name="itr4S.verification.place" />
+			<ITRForm:Date name="itr4S.verification.date" />
+		</ITRForm:Verification>
+		<ITRForm:TaxReturnPreparer>
+			<ITRForm:IdentificationNoOfTRP
+				name="itr4S.taxReturnPreparer[0].identificationNoOfTRP" />
+			<ITRForm:NameOfTRP name="itr4S.taxReturnPreparer[0].nameOfTRP" />
+			<ITRForm:ReImbFrmGov name="itr4S.taxReturnPreparer[0].reImbFrmGov">0</ITRForm:ReImbFrmGov>
+		</ITRForm:TaxReturnPreparer>
+		<ITRForm:NatOfBus>
+			<ITRForm:NatureOfBusiness>
+				<ITRForm:Code name="itr4S.natOfBus.business[0].code" />
+				<ITRForm:TradeName1 name="itr4S.natOfBus.business[0].tradeName1" />
+				<ITRForm:TradeName2 name="itr4S.natOfBus.business[0].tradeName2" />
+				<ITRForm:TradeName3 name="itr4S.natOfBus.business[0].tradeName3" />
+			</ITRForm:NatureOfBusiness>
+		</ITRForm:NatOfBus>
+		<ITRForm:ScheduleBP>
+			<ITRForm:PersumptiveInc44AD>
+				<ITRForm:GrsTrnOverBank
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.grsTrnOverBank" />
+				<ITRForm:GrsTrnOverAnyOthMode
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.grsTrnOverAnyOthMode" />
+				<ITRForm:PersumptiveInc44AD6Per
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.persumptiveInc44AD6Per" />
+				<ITRForm:PersumptiveInc44AD8Per
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.persumptiveInc44AD8Per" />
+				<ITRForm:TotPersumptiveInc44AD
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.totPersumptiveInc44AD" />
+			</ITRForm:PersumptiveInc44AD>
+			<ITRForm:PersumptiveInc44ADA>
+				<ITRForm:GrsReceipt name="itr4S.scheduleBPForITR4S.persumptiveInc44ADA.grsReceipt" />
+				<ITRForm:TotPersumptiveInc44ADA
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44ADA.totPersumptiveInc44ADA" />
+			</ITRForm:PersumptiveInc44ADA>
+			<ITRForm:PersumptiveInc44AE>
+				<ITRForm:TotPersumInc44AE
+					name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.totPersumInc44AE" />
+				<ITRForm:SalInterestByFirm name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.salInterestByFirm" />
+				<ITRForm:TotalPersumptiveInc name="itr4S.scheduleBPForITR4S.incChargeableUnderBus" />
+				<ITRForm:IncChargeableUnderBus name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.totalPersumptiveInc44AD" />
+				
+			</ITRForm:PersumptiveInc44AE>
+			
+			<ITRForm:NoBooksOfAccBS>
+				<ITRForm:TotSundryDbtAmt
+					name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totSundryDbtAmt">0</ITRForm:TotSundryDbtAmt>
+				<ITRForm:TotSundryCrdAmt
+					name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totSundryCrdAmt">0</ITRForm:TotSundryCrdAmt>
+				<ITRForm:TotStkInTradAmt
+					name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totStkInTradAmt">0</ITRForm:TotStkInTradAmt>
+				<ITRForm:CashBalAmt
+					name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.cashBalAmt">0</ITRForm:CashBalAmt>
+			</ITRForm:NoBooksOfAccBS>
+		</ITRForm:ScheduleBP>
+		<ITRForm:ScheduleIT>
+			<ITRForm:TaxPayment>
+				<ITRForm:BSRCode name="itr4S.scheduleIT.taxPayment[0].bsrCode" />
+				<ITRForm:DateDep name="itr4S.scheduleIT.taxPayment[0].dateDep" />
+				<ITRForm:SrlNoOfChaln name="itr4S.scheduleIT.taxPayment[0].srlNoOfChaln" />
+				<ITRForm:Amt name="itr4S.scheduleIT.taxPayment[0].amt" />
+			</ITRForm:TaxPayment>
+			<ITRForm:TotalTaxPayments name="itr4S.scheduleIT.taxPayment.amt"></ITRForm:TotalTaxPayments>
+		</ITRForm:ScheduleIT>
+	<ITRForm:ScheduleTCS>
+		<ITRForm:TCS>
+			<ITRForm:EmployerOrDeductorOrCollectDetl>
+				<ITRForm:TAN
+					name="itr4S.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.tan" />
+				<ITRForm:EmployerOrDeductorOrCollecterName
+					name="itr4S.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" />
+			</ITRForm:EmployerOrDeductorOrCollectDetl>
+			<ITRForm:Amtfrom26AS name="itr4S.scheduleTCS.tcs[0].amtfrom26as" />
+			<ITRForm:TotalTCS name="itr4S.scheduleTCS.tcs[0].totalTCS" />
+			<ITRForm:AmtTCSClaimedThisYear
+				name="itr4S.scheduleTCS.tcs[0].amtTCSClaimedThisYear" />
+			<ITRForm:AmtClaimedBySpouse
+				name="itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse" />
+		</ITRForm:TCS>
+		<ITRForm:TotalSchTCS name="itr4S.scheduleTCS.tcs.amtTCSClaimedThisYear"></ITRForm:TotalSchTCS>
+	</ITRForm:ScheduleTCS>
+	<ITRForm:TDSonSalaries>
+		<ITRForm:TDSonSalary>
+			<ITRForm:EmployerOrDeductorOrCollectDetl>
+				<ITRForm:TAN
+					name="itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.tan" />
+					<ITRForm:EmployerOrDeductorOrCollecterName
+						name="itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" />
+				</ITRForm:EmployerOrDeductorOrCollectDetl>
+				<ITRForm:IncChrgSal name="itr4S.tdSonSalaries.tdSonSalary[0].incChrgSal" />
+				<ITRForm:TotalTDSSal
+					name="itr4S.tdSonSalaries.tdSonSalary[0].totalTDSSal" />
+			</ITRForm:TDSonSalary>
+			<ITRForm:TotalTDSonSalaries name="itr4S.tdSonSalaries.tdSonSalary.totalTaxDeducted"></ITRForm:TotalTDSonSalaries>
+		</ITRForm:TDSonSalaries>
+		<ITRForm:TDSonOthThanSals>
+			<ITRForm:TDSonOthThanSal>
+				<ITRForm:EmployerOrDeductorOrCollectDetl>
+					<ITRForm:TAN
+						name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.tan" />
+					<ITRForm:EmployerOrDeductorOrCollecterName
+						name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" />
+				</ITRForm:EmployerOrDeductorOrCollectDetl>
+				<ITRForm:UniqueTDSCerNo
+					name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].uniqueTDSCerNo" />
+				<ITRForm:DeductedYr
+					name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].deductedYr" />
+				<ITRForm:RcptDtls26AS name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].rcptDtls26AS"/>
+				
+				<ITRForm:TotTDSOnAmtPaid
+					name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].totTDSOnAmtPaid" />
+				<ITRForm:ClaimOutOfTotTDSOnAmtPaid
+					name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].claimOutOfTotTDSOnAmtPaid" />
+				<ITRForm:AmtClaimedBySpouse
+					name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].amtClaimedBySpouse" />
+			</ITRForm:TDSonOthThanSal>
+			<ITRForm:TotalTDSonOthThanSals name="itr4S.tdSonOthThanSals.tdSonOthThanSal.claimOutOfTotTDSOnAmtPaid"></ITRForm:TotalTDSonOthThanSals>
+		</ITRForm:TDSonOthThanSals>
+		<ITRForm:Us44aeHeavy>
+			<ITRForm:HoldingPeriod name="itr4S.us44aeHeavy[0].holdingPeriod" />
+			<ITRForm:IncomePerVehicle name="itr4S.us44aeHeavy[0].incomePerVehicle" />
+			<ITRForm:DeemedInc name="itr4S.us44aeHeavy[0].deemedInc" />
+
+		</ITRForm:Us44aeHeavy>
+		<ITRForm:TotalHeavyVehcl name="itr4S.totalHeavyVehcl" />
+		
+	<ITRForm:ScheduleAL>
+	<ITRForm:ImmovableFlag name="itr4S.scheduleAL.immovableFlag" />
+    <ITRForm:ImmovableDetails>
+    		<ITRForm:Description name="itr4S.scheduleAL.immovableDtls[0].description"/>
+    		<ITRForm:AddressAL>
+    			<ITRForm:ResidenceNo name="itr4S.scheduleAL.immovableDtls[0].addressAL.residenceNo" />
+				<ITRForm:ResidenceName name="itr4S.scheduleAL.immovableDtls[0].addressAL.residenceName" />
+				<ITRForm:RoadOrStreet name="itr4S.scheduleAL.immovableDtls[0].addressAL.roadOrStreet" />
+				<ITRForm:LocalityOrArea name="itr4S.scheduleAL.immovableDtls[0].addressAL.localityOrArea" />
+				<ITRForm:CityOrTownOrDistrict
+					name="itr4S.scheduleAL.immovableDtls[0].addressAL.cityOrTownOrDistrict" />
+				<ITRForm:StateCode name="itr4S.scheduleAL.immovableDtls[0].addressAL.stateCode" />
+				<ITRForm:CountryCode name="itr4S.scheduleAL.immovableDtls[0].addressAL.country" />
+				<ITRForm:PinCode name="itr4S.scheduleAL.immovableDtls[0].addressAL.pinCode" />
+    		</ITRForm:AddressAL>
+    		<ITRForm:Amount name="itr4S.scheduleAL.immovableDtls[0].amount" />
+    </ITRForm:ImmovableDetails>
+    <ITRForm:MovableAsset>
+    	<ITRForm:DepositsInBank name="itr4S.scheduleAL.movableAsset.depositsinbank"/>
+      	<ITRForm:SharesAndSecurities name="itr4S.scheduleAL.movableAsset.sharesandsecurities"/>
+      	<ITRForm:InsurancePolicies name="itr4S.scheduleAL.movableAsset.insurancepolicies"/>
+      	<ITRForm:LoansAndAdvancesGiven name="itr4S.scheduleAL.movableAsset.loansandadvancesgiven"/>
+      	<ITRForm:CashInHand name="itr4S.scheduleAL.movableAsset.cashInHand"/>
+    	<ITRForm:JewelleryBullionEtc name="itr4S.scheduleAL.movableAsset.jewelleryBullionEtc"/>
+      	<ITRForm:ArchCollDrawPaintSulpArt name="itr4S.scheduleAL.movableAsset.archCollDrawPaintSulpArt"/>
+      	<ITRForm:VehiclYachtsBoatsAircrafts name="itr4S.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts"/>
+    </ITRForm:MovableAsset>
+    <ITRForm:InterstAOPFlag name="itr4S.scheduleAL.interstAOPFlag" />
+    <ITRForm:InterestHeldInaAsset>
+    	<ITRForm:NameOfFirm name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].nameOfFirm"/>
+			<ITRForm:AddressAL>
+    			<ITRForm:ResidenceNo name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.residenceNo" />
+				<ITRForm:ResidenceName name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.residenceName" />
+				<ITRForm:RoadOrStreet name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.roadOrStreet" />
+				<ITRForm:LocalityOrArea name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.localityOrArea" />
+				<ITRForm:CityOrTownOrDistrict name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.cityOrTownOrDistrict" />
+				<ITRForm:StateCode name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.stateCode" />
+				<ITRForm:CountryCode name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.country" />
+				<ITRForm:PinCode name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.pinCode" />
+    		</ITRForm:AddressAL>    	
+    		<ITRForm:PanOfFirm name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].panOfFirm"/>
+    	<ITRForm:AssesseInvestment name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].assesseInvestment"/>
+    
+    </ITRForm:InterestHeldInaAsset>
+    
+    <ITRForm:LiabilityInRelatAssets name="itr4S.scheduleAL.liabilityInRelatAssets"/>
+  </ITRForm:ScheduleAL>
+		
+	</ITR4FORM:ITR4>
+</ITRETURN:ITR>

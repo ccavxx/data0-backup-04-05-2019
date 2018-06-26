@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<validators>
+
+	<!-- Page 1 validation :: Starts -->
+	<!-- Personal INfo Starts -->
+	<field name="itr4S.personalInfo.assesseeName.firstName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">25</param>
+			<param name="minLength">0</param>
+			<message key="itr4s.personalInfo.assesseeName.firstName.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.assesseeName.middleName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">25</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.assesseeName.middleName.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.assesseeName.surNameOrOrgName">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message
+				key="itr1.personalInfo.assesseeName.surNameOrOrgName.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">75</param>
+			<param name="minLength">1</param>
+			<message
+				key="itr1.personalInfo.assesseeName.surNameOrOrgName.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.pan">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="error.itr1.page5.pan.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="error.itr1.page5.pan.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="error.itr1.page5.pan.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{3}[pPhHfF]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="error.pan.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.residenceNo">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.address.residenceNo.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1.personalInfo.address.residenceNo.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.roadOrStreet">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.roadOrStreet.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.localityOrArea">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.address.localityOrArea.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message key="itr1.personalInfo.address.localityOrArea.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message
+				key="itr1.personalInfo.address.cityOrTownOrDistrict.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">1</param>
+			<message
+				key="itr1.personalInfo.address.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.stateCode">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1.personalInfo.address.stateCode.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$</param>
+			<message key="itr1.personalInfo.address.stateCode.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.personalInfo.address.country</param>
+			<param name="conAttributeValue">91</param>
+			<param name="regex">^(?!99$).*</param>
+			<message key="itr1.personalInfo.address.OtherstateCode.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.country">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.address.country.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.personalInfo.address.country.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1,4}$</param>
+			<message key="itr1.personalInfo.address.country.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.personalInfo.address.stateCode</param>
+			<param name="conAttributeValue">^(?!(99|-1)$).*</param>
+			<param name="regex">^91$</param>
+			<message key="itr1.personalInfo.address.country.other.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.personalInfo.address.stateCode</param>
+			<param name="conAttributeValue">99</param>
+			<param name="regex">^(?!91$).*</param>
+			<message key="itr1.personalInfo.address.otherCountry.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.pinCode">
+ 		 <field-validator short-circuit="true" type="conditionalRequired">
+			<param name="conAttributeName">itr4S.personalInfo.address.country</param>
+			<param name="conAttributeValue">^91$</param>
+			<message key="itr1.personalInfo.address.pinCode.error.required" />
+		</field-validator>
+  		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.personalInfo.address.country</param>
+			<param name="conAttributeValue">^91$</param>
+			<param name="regex">^[1-9]{1}[0-9]{5}$</param>			
+			<message key="itr1.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+		
+	</field>
+	<field name="itr4S.personalInfo.address.zipCode">
+	 <field-validator short-circuit="true" type="conditionalRequired">
+			<param name="conAttributeName">itr4S.personalInfo.address.country</param>
+			<param name="conAttributeValue">^(?!91$).*</param>
+			<message key="itr1.personalInfo.address.zipCode.error.required" />
+		</field-validator>
+	 <field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">8</param>
+			<message key="itr1.personalInfo.address.zipCode.error.length" />
+		</field-validator> 
+	</field>
+
+
+	<field name="itr4S.personalInfo.address.emailAddress">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.address.emailAddress.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="email">
+			<message key="itr1.personalInfo.address.emailAddress.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.mobileNo">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1.personalInfo.address.mobileNo.error.required" />
+		</field-validator>
+		<field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr1.personalInfo.address.mobileNo.error.invalid" />
+		</field-validator>
+		
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[6-9]{1}[0-9]{1,9}$</param>
+			<message key="mobileNo1.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.secMobileNo">
+		<field-validator type="stringlength" short-circuit="true">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="itr1.personalInfo.address.secMobileNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[6-9]{1}[0-9]{1,9}$</param>
+			<message key="mobileNo2.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.address.phone.phoneNo">
+		<field-validator short-circuit="true" type="validatePhoneNumber">
+			<param name="stdCode">itr4S.personalInfo.address.phone.stDcode</param>
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1,10}$</param>
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.personalInfo.address.phone.stDcode">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.personalInfo.address.phone.phoneNo</param>
+			<param name="conAttributeValue">^.+$</param>
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{2,5}$</param>
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<message key="itr1.personalInfo.address.phone.phoneNo.error.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.personalInfo.status">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.status.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(I)|(H)|(F)$</param>
+			<message key="itr1.personalInfo.status.error.required" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.dob">
+		<field-validator short-circuit="true" type="required">
+			<message key="itr1.personalInfo.dob.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="error.itr1.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="max">31/03/2017</param>
+			<message key="itr1.personalInfo.dob.2013.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.personalInfo.gender">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.gender.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!S$).*</param>
+			<message key="itr1.personalInfo.gender.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[M|F|T|X]$</param>
+			<message key="itr1.personalInfo.gender.error.invalid" />
+		</field-validator>
+	</field>
+
+	<!-- <field name="itr4S.personalInfo.employerCategory"> <field-validator 
+		short-circuit="true" type="requiredstring"> <message key="itr1.personalInfo.employerCategory.error.required" 
+		/> </field-validator> <field-validator short-circuit="true" type="regex"> 
+		<param name="expression">^(?!-1$).*</param> <message key="itr1.personalInfo.employerCategory.error.required" 
+		/> </field-validator> <field-validator short-circuit="true" type="regex"> 
+		<param name="expression">(GOV)|(PSU)|(OTH)|(NA)$</param> <message key="itr1.personalInfo.employerCategory.error.invalid" 
+		/> </field-validator> </field> -->
+	<!-- Personal INfo Ends -->
+
+
+	<!-- Filing Status Starts -->
+	<field name="itr4S.filingStatus.desigOfficerWardorCircle">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">75</param>
+			<param name="minLength">0</param>
+			<message key="itr1.filingStatus.desigOfficerWardorCircle.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.returnFileSec">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.filingStatus.returnFileSec.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.filingStatus.returnFileSec.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateLong">
+			<param name="mandatory">false</param>
+			<param name="maxValue">18</param>
+			<param name="minValue">11</param>
+			<message key="itr1.filingStatus.returnFileSec.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.returnType">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.filingStatus.returnType.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.filingStatus.returnType.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(O)|(R)$</param>
+			<message key="itr4S.filingStatus.returnType.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.receiptNo">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<message key="itr1.filingStatus.receiptNo.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<param name="regex">^[0-9]{15}$</param>
+			<message key="itr1.filingStatus.receiptNo.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.origRetFiledDate">
+		<field-validator short-circuit="true" type="conditionalDate">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">17</param>
+			<message key="itr1.filingStatus.origRetFiledDate.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="error.itr1.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="min">01/04/2017</param>
+			<message key="itr1.filingStatus.origRetFiledDate.2013.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.ackNoOriginalReturn">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<message key="itr1.filingStatus.ackNoOriginalReturn.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<param name="regex">^[0-9]{15}$</param>
+			<message key="itr1.filingStatus.ackNoOriginalReturn.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.noticeNo">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<message key="itr1.filingStatus.noticeNo.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<param name="regex">^[a-zA-Z0-9/]{0,23}$</param>
+			<message key="itr1.filingStatus.noticeNo.error.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.filingStatus.noticeDate">
+		<field-validator short-circuit="true" type="conditionalDate">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">18</param>
+			<message key="itr1.filingStatus.noticeDate.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="error.itr1.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="min">01/04/2017</param>
+			<message key="itr1.filingStatus.noticeDate.2014.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.residentialStatus">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.filingStatus.residentialStatus.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.filingStatus.residentialStatus.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(RES)|(NRI)|(NOR)$</param>
+			<message key="itr1.filingStatus.residentialStatus.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.taxStatus">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.filingStatus.taxStatus.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(TR)|(TP)|(NT)$</param>
+			<message key="itr1.filingStatus.taxStatus.error.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.filingStatus.portugeseCC5A">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.personalInfo.status</param>
+			<param name="conAttributeValue">I</param>
+			<message key="itr1.filingStatus.portugeseCC5A.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.filingStatus.portugeseCC5A.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(Y)|(N)$</param>
+			<message key="itr1.filingStatus.portugeseCC5A.error.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.filingStatus.adharNumber">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[0-9]{12}</param>
+			<message key="itr1.filingStatus.adharNo.error.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.filingStatus.aadhaarEnrolmentId">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[0-9]{28}</param>
+			<message key="itr1.filingStatus.aadhaarEnrolmentId.error.length" />
+		</field-validator>
+		
+	</field>
+	
+	<!-- Filing Status Ends -->
+	<!-- Page 1 validation :: Ends -->
+
+	<!-- Page 2 validation :: Starts -->
+	<!-- IncomeDeduction validation starts -->
+
+	<field name="itr4S.itr4SIncomeDeductions.incomeFromBusinessProf">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.incomeFromBusProf.amt.length" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">1</param>
+			<message key="error.incomeFromBusProf.length" />
+		</field-validator> -->
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.incomeFromSal">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.incomeFromSal.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.typeOfHP">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^S$|^L$|^.{0,0}$</param>
+			<message key="itr1.itr1IncomeDeductions.typeOfHP.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRequired">
+			<param name="conAttributeName">itr4S.itr4SIncomeDeductions.totalIncomeOfHP</param>
+			<param name="conAttributeValue">^(?!0).*$</param>
+			<message key="itr1.itr1IncomeDeductions.typeOfHP.error.required" />
+		</field-validator>
+
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.totalIncomeOfHP">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncomeOfHP.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateLong">
+			<param name="conAttributeName">itr4S.itr4SIncomeDeductions.typeOfHP</param>
+			<param name="conAttributeValue">S</param>
+			<param name="minValue">-200000</param>
+			<message key="itr1.2014.loss.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.incomeOthSrc">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.incomeOthSrc.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.grossTotIncome">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.grossTotIncome.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.grossTotIncome.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.totalIncome">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalIncome.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">-99999999999999</param>
+			<message key="error.totalIncome.length" />
+		</field-validator>
+	</field>
+
+	<!-- Dedection validation starts -->
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80C">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80C.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80C.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCC">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80CCC.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCC.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCD">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80CCD.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCD.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCDEmployer">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80CCDEmployer.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCDEmployer.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80D">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80D.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80D.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80DD">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80DD.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DD.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80DDB">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80DDB.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DDB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80E">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80E.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80E.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80EE">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80EE.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80EE.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80G">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80G.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80G.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GG">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80GG.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GG.length" />
+		</field-validator>
+	</field>
+
+	<!-- <field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GGA">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80GGC.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field> -->
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80GGC">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80GGC.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80U">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80U.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80U.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCG">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80CCG.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCG.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80RRB">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80RRB.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80RRB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80QQB">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80QQB.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80QQB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80TTA">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80TTA.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80TTA.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.totalChapVIADeductions">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalChapVIADeductions.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigDecimal">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalChapVIADeductions.length" />
+		</field-validator>
+	</field>
+	<!-- Deduction validation ends -->
+
+	<!-- User deduction validation :: Starts -->
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80C_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80C.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCC_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCC.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCD_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCD.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCDEmployer_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCDEmployer.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80D_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80D.length" />
+		</field-validator>
+	</field>
+	
+<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80DUsrType">
+      <field-validator short-circuit="true" type="multipleConditionalValidator">
+            <param name="conAttributeNames">itr4S.personalInfo.status#itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80D_Usr</param>
+            <param name="conAttributeValues">I#^(?!0).*$</param>
+            <message key="usrDeductUndChapVIA.section80DUsrType.required"/>
+	</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80DD_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DD.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80DDB_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80DDB.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80E_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80E.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80EE_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80EE.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80G_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80G.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80GG_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GG.length" />
+		</field-validator>
+	</field>
+	
+	<!-- <field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80GGA_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field> -->
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80GGC_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80GGC.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80U_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80U.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCG_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80CCG.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80RRB_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80RRB.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80QQB_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80QQB.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80TTA_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80TTA.length" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.totalChapVIADeductions_Usr">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalChapVIADeductions.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigDecimal">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalChapVIADeductions.length" />
+		</field-validator>
+	</field>
+	<!-- User deduction validation ends -->
+	<!-- Incomdededuction validation ends -->
+
+
+	<!-- ITR1TaxCoputation validation :: Starts -->
+	<field name="itr4S.itr4sTaxComputationOnline.totalTaxPayable">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalTaxPayable.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalTaxPayable.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.educationCess">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.educationCess.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.educationCess.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.grossTaxLiability">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.grossTaxLiability.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.grossTaxLiability.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.section89">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section89.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section89.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.netTaxLiability">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.netTaxLiability.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.netTaxLiability.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234A">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.intrstPay.intrstPayUs234A.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234A.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234B">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.intrstPay.intrstPayUs234B.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234B.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.intrstPay.intrstPayUs234C">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.intrstPay.intrstPayUs234C.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.intrstPay.intrstPayUs234C.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.totalIntrstPay">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalIntrstPay.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalIntrstPay.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.itr4sTaxComputationOnline.totTaxPlusIntrstPay">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totTaxPlusIntrstPay.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totTaxPlusIntrstPay.length" />
+		</field-validator>
+	</field>
+	<!-- ITR1TaxComputation validation ends -->
+	<!-- Page 2 validation ends -->
+
+	<!-- Page 3 validation starts -->
+	<field name="itr4S.tdSonSalaries.tdSonSalary">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.TDSonSalary
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013</param>
+			<param name="mandatoryFieldNames">employerOrDeductorOrCollectDetl.tan,employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName,incChrgSal,totalTDSSal
+			</param>
+			<param name="tableMandatory">N</param>
+			<message>TDS on Salary: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.TDSonOthThanSal
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12016</param>
+			<param name="mandatoryFieldNames">employerOrDeductorOrCollectDetl.tan,employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName,totTDSOnAmtPaid,claimOutOfTotTDSOnAmtPaid,deductedYr,rcptDtls26AS
+			</param>
+			<param name="notMadateFields">uniqueTDSCerNo,amtClaimedBySpouse</param>
+			<param name="tableMandatory">N</param>
+			<message>TDS on Other than salary: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.scheduleTCS.tcs">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.TCS
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">itr4S</param>
+			<param name="mandatoryFieldNames">employerOrDeductorOrCollectDetl.tan,employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName,amtfrom26as,totalTCS,amtTCSClaimedThisYear
+			</param>
+			<param name="notMadateFields">amtClaimedBySpouse</param>
+			<param name="tableMandatory">N</param>
+			<message>TCS: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.scheduleIT.taxPayment">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.TaxPayment
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12016</param>
+			<param name="mandatoryFieldNames">bsrCode,dateDep,srlNoOfChaln,amt</param>
+			<param name="tableMandatory">N</param>
+			<message>Advance Tax:</message>
+		</field-validator>
+	</field>
+	<!-- Page 3 validation ends -->
+
+	<!-- Page 4 validation starts -->
+
+	<!-- Taxes Paid Validation starts -->
+	<field name="itr4S.taxPaid.taxesPaid.advanceTax">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.advanceTax.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.advanceTax.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxPaid.taxesPaid.tds">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.tds.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.tds.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxPaid.taxesPaid.selfAssessmentTax">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.selfAssessmentTax.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.selfAssessmentTax.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxPaid.taxesPaid.totalTaxesPaid">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.totalTaxesPaid.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalTaxesPaid.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxPaid.balTaxPayable">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.balTaxPayable.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.balTaxPayable.length" />
+		</field-validator>
+	</field>
+	<!-- Taxes paid validation ends -->
+
+	<!-- Refund validation starts -->
+
+	<field name="itr4S.refund.refundDue">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.amt.required" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.refundDue.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.refund.bankAccountNumber">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.refund.scheduleBA.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="scheduleBA.bankAccountNumber.required" />
+		</field-validator>
+		<field-validator type="regex" short-circuit="true">
+			<param name="expression">^.{1,20}$|^$</param>
+			<message key="error.bankAccountNumber.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z0-9]{1}[a-zA-Z0-9/-]{0,19}$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[0-9]$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[1-9].*$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> 
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![-]0{1,}[-]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]0{1,}[/]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![a-zA-Z]0{1,}[a-zA-Z]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.refund.scheduleBA.bankDtlsFlag">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.bankDtlsFlag.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(Y)|(N)$</param>
+			<message key="itr7.partAGEN1.filingStatus.claimUS9090A91Flg.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.refund.ecsRequired">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="error.ecsRequired.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="error.ecsRequired.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(Y)|(N)$</param>
+			<message key="error.ecsRequired.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.refund.depositToBankAccount.iFSCCode">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.refund.scheduleBA.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="error.refund.depositToBankAccount.iFSCCode.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Za-z]{4}0[a-zA-Z0-9]{6}$</param>
+			<message key="error.depositToBankAccount.iFSCCode.invalid" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="ifscValidator">
+			<message key="error.iFSCCode.invalid" />
+		</field-validator> -->
+	</field>
+	
+	 <field name="itr4S.refund.depositToBankAccount.bankName">
+ 		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.refund.scheduleBA.bankDtlsFlag
+			</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="itr4S.refund.depositToBankAccount.bankName.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="error.bankName.length" />
+		</field-validator>
+	</field>
+
+	<!-- <field name="itr4S.refund.depositToBankAccount.bankAccountType">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message
+				key="error.refund.depositToBankAccount.bankAccountType.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message
+				key="error.refund.depositToBankAccount.bankAccountType.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(SAV)|(CUR)|(CCT)$</param>
+			<message
+				key="error.refund.depositToBankAccount.bankAccountType.error.invalid" />
+		</field-validator>
+	</field> -->
+	<field name="itr4S.refund.depositToBankAccount.cashDeposited">
+	<!-- <field-validator short-circuit="true" type="requiredstring">
+			<message key="itr4S.refund.depositToBankAccount.cashDeposited.required" />
+		</field-validator> -->
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.cashDeposited.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.refund.scheduleBA.foreignBankDtls">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.ScheduleBA</param>
+			<param name="appendPrefix">true</param>
+			<!-- <param name="conAttributeName">itr4S.refund.scheduleBA.bankDtlsFlag</param>
+			<param name="conAttributeValue">N</param> -->
+			<param name="context">ITR12016</param>
+			<param name="mandatoryFieldNames">ibanSwiftCode,bankName,countryCode,bankAccountNo</param>
+			<param name="tableMandatory">N</param>
+			<message>Bank details Schedule BA Foreign</message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.refund.scheduleBA.foreignBankDtls[0].ibanSwiftCode">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">30</param>
+			<message key="error.ibanSwiftCode.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.refund.scheduleBA.foreignBankDtls[0].bankName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="error.bankName.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.refund.scheduleBA.foreignBankDtls[0].countryCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{0,4}$</param>
+			<message key="error.countryCode.required"/>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.refund.scheduleBA.foreignBankDtls[0].bankAccountNo">
+		<field-validator type="regex" short-circuit="true">
+			<param name="expression">^.{1,20}$|^$</param>
+			<message key="error.bankAccountNumber.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z0-9]{1}[a-zA-Z0-9/-]{0,19}$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[0-9]$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[1-9].*$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![-]0{1,}[-]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]0{1,}[/]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![a-zA-Z]0{1,}[a-zA-Z]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+	</field>
+
+	<!-- Refund validation ends -->
+
+	<field name="itr4S.taxExmpIntInc">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.taxExmpIntInc.amt.maxAmt.4S" />
+		</field-validator>
+	</field>
+
+	<!-- Verification validation starts -->
+
+	<field name="itr4S.verification.place">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="error.place.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">150</param>
+			<param name="minLength">1</param>
+			<message key="error.place.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.verification.date">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.date.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="error.itr1.date.invalid" />
+		</field-validator>
+
+		<field-validator short-circuit="true" type="date">
+			<param name="min">01/04/2017</param>
+			<message key="error.date.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.verification.declaration.assesseeVerName">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="itr1.personalInfo.assesseeName.firstName.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">127</param>
+			<param name="minLength">1</param>
+			<message key="itr1.personalInfo.assesseeName.firstName.error.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.verification.declaration.fatherName">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="error.fatherName.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">1</param>
+			<message key="error.fatherName.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.verification.declaration.assesseeVerPAN">
+		<field-validator short-circuit="true" type="requiredstring">
+			<message key="error.assesseeVerPAN.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="error.assesseeVerPAN.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="error.assesseeVerPAN.invalid" />
+		</field-validator>
+	</field>
+
+	<!-- Verification validation ends -->
+
+	<!-- TaxReturnPreparer validation starts -->
+	<field name="itr4S.taxReturnPreparer">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.DoneeWithPan
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013don100Percent</param>
+			<param name="mandatoryFieldNames">identificationNoOfTRP,nameOfTRP</param>
+			<param name="notMadateFields">reImbFrmGov</param>
+			<param name="tableMandatory">N</param>
+			<message>Page 80G:Table 80GA: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxReturnPreparer[0].identificationNoOfTRP">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[T][0-9]{9}|[0-9]{6}$</param>
+			<message key="error.identificationNoOfTRP.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxReturnPreparer[0].nameOfTRP">
+		<!--field-validator short-circuit="true" type="fieldexpression"> <param 
+			name="expression"> <![CDATA[((itr4S.taxReturnPreparer.nameOfTRP.length()==0 
+			&& itr4S.taxReturnPreparer.identificationNoOfTRP.length() == 0)||(!itr4S.taxReturnPreparer.nameOfTRP.equals("")))]]></param> 
+			<message key="error.nameOfTRP.required"/> </field-validator -->
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.nameOfTRP.length" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.taxReturnPreparer[0].reImbFrmGov">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	<!-- TaxReturnPreparer validation ends -->
+	<!-- Page 4 validation ends -->
+
+	<!-- NOB BP validation :: STARTS -->
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.grsTrnOverBank">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">20000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.invalid" />
+		</field-validator>
+	</field>
+	
+		<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.grsTrnOverAnyOthMode">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">20000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.invalid" />
+		</field-validator>
+	</field>
+
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.persumptiveInc44AD6Per">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+	</field>
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.persumptiveInc44AD8Per">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+	</field>
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AD.totPersumptiveInc44AD">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+	</field>
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44ADA.grsReceipt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">5000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsReceipt.error" />
+		</field-validator>
+	</field>
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44ADA.totPersumptiveInc44ADA">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.grsTrnOverBank.length" />
+		</field-validator>
+		
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">5000000</param>
+			<param name="minValue">0</param>
+			<message key="itr4s.persumptiveInc44ADA.totPersumptiveInc44ADA.error" />
+		</field-validator>
+		
+	</field>
+	
+	
+	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.salInterestByFirm">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	
+<!-- 	<field
+		name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.totalPersumptiveInc44AD">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">1</param>
+			<message key="error.incomeFromBusProf.length" />
+		</field-validator>
+	</field> -->
+
+	<!-- <field name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.persumptiveIncHeavyVehicle"> 
+		<field-validator short-circuit="true" type="validateBigInteger"> <param name="maxValue">99999999999999</param> 
+		<message key="itr4S.scheduleBPForITR4S.persumptiveIncHeavyVehicle.amt.invalid"/> 
+		</field-validator> <field-validator short-circuit="true" type="validateBigInteger"> 
+		<param name="maxValue">99999999999999</param> <param name="minValue">0</param> 
+		<message key="itr4S.scheduleBPForITR4S.persumptiveIncHeavyVehicle.invalid"/> 
+		</field-validator> </field> -->
+
+	<!-- <field name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.persumptiveIncOtherVehicle"> 
+		<field-validator short-circuit="true" type="validateBigInteger"> <param name="maxValue">99999999999999</param> 
+		<param name="minValue">0</param> <message key="itr4S.scheduleBPForITR4S.persumptiveIncOtherVehicle.invalid"/> 
+		</field-validator> </field> -->
+
+	<field name="itr4S.scheduleBPForITR4S.persumptiveInc44AE.totPersumInc44AE">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4S.scheduleBPForITR4S.totPersumInc44AE.invalid" />
+		</field-validator>
+	</field>
+
+	<!-- <field name="itr4S.scheduleBPForITR4S.incChargeableUnderBus"> <field-validator 
+		type="validateBigInteger" short-circuit="true"> <param name="maxValue">99999999999999</param> 
+		<param name="minValue">0</param> <message key="itr4S.scheduleBPForITR4S.incChargeableUnderBus.invalid" 
+		/> </field-validator> </field> -->
+
+	<field name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totSundryDbtAmt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totSundryCrdAmt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.totStkInTradAmt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleBPForITR4S.noBooksOfAccBS.cashBalAmt">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.reImbFrmGov.length" />
+		</field-validator>
+	</field>
+	<!-- NOB BP validation :: ENDS -->
+
+	<!-- 44AE validation :: starts -->
+	<field name="itr4S.totalHeavyVehcl">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4S.totalHeavyVehcl.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.totalVehcl">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4S.totalVehcl.invalid" />
+		</field-validator>
+	</field>
+
+	<field name="itr4S.us44aeHeavy">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.Us44aeHeavy
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">Us44aeHeavy</param>
+			<param name="mandatoryFieldNames">holdingPeriod,incomePerVehicle</param>
+			<param name="tableMandatory">N</param>
+			<message>Vehicles:</message>
+		</field-validator>
+	</field>
+	<!-- 44AE validation :: ends -->
+
+
+	<field name="itr4S.natOfBus.business">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">Business</param>
+			<param name="appendPrefix">false</param>
+			<param name="context">JavaFXitr6</param>
+			<param name="mandatoryFieldNames">code</param>
+			<param name="tableMandatory">N</param>
+			<message>detailsOfTrustOutIndiaTrustee: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.natOfBus.business[0].code">
+		<!-- <field-validator short-circuit="true" type="requiredstring">
+			<message key="itr4S.natOfBus.business.required" />
+		</field-validator> -->
+
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^|010[1-9]|011[0-9]|012[0-4]|020[1-4]|0301|040[1-5]|050[1-5]|060[1-7]|070[1-9]|071[0-4]|080[1-9]|090[1-6]|1001$</param>
+			<message key="itr4S.natOfBus.business.required" />
+		</field-validator>
+	</field>
+
+	<!-- Page 8 validation starts -->
+	<field name="itr4S.schedule80G.don100Percent.doneeWithPan">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.DoneeWithPan
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013don100Percent</param>
+			<param name="mandatoryFieldNames">doneeWithPanName,addressDetail.addrDetail,addressDetail.cityOrTownOrDistrict,addressDetail.stateCode,addressDetail.pinCode,doneePAN,donationAmt
+			</param>
+			<param name="tableMandatory">N</param>
+			<message>Page 80G:Table 80GA: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.DoneeWithPan
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013don50PercentNoApprReqd</param>
+			<param name="mandatoryFieldNames">doneeWithPanName,addressDetail.addrDetail,addressDetail.cityOrTownOrDistrict,addressDetail.stateCode,addressDetail.pinCode,doneePAN,donationAmt
+			</param>
+			<param name="tableMandatory">N</param>
+			<message>Page 80G:Table 80GA: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.DoneeWithPan
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013don100PercentApprReqd</param>
+			<param name="mandatoryFieldNames">doneeWithPanName,addressDetail.addrDetail,addressDetail.cityOrTownOrDistrict,addressDetail.stateCode,addressDetail.pinCode,doneePAN,donationAmt
+			</param>
+			<param name="tableMandatory">N</param>
+			<message>Page 80G:Table 80GA: </message>
+		</field-validator>
+	</field>
+
+	<field name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.DoneeWithPan
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12013don50PercentApprReqd</param>
+			<param name="mandatoryFieldNames">doneeWithPanName,addressDetail.addrDetail,addressDetail.cityOrTownOrDistrict,addressDetail.stateCode,addressDetail.pinCode,doneePAN,donationAmt
+			</param>
+			<param name="tableMandatory">N</param>
+			<message>Page 80G:Table 80GA: </message>
+		</field-validator>
+	</field>
+	<!-- Page 8 validation ends -->
+
+	<field
+		name="itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.tan">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="error.page3.tan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="itr1.employerOrDeductorOrCollecterName.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonSalaries.tdSonSalary[0].incChrgSal">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.incChrgSal.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonSalaries.tdSonSalary[0].totalTDSSal">
+		<!-- <field-validator type="required" short-circuit="true"> <message key="error.totalTDSSal.required" 
+			/> </field-validator> -->
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totalTDSSal.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.tan">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z]{4}[0-9]{5}[a-zA-Z]{1}$|^.{0,0}$</param>
+			<message key="error.page3.tan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="itr1.employerOrDeductorOrCollecterName.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].totTDSOnAmtPaid">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.totTDSOnAmtPaid.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].claimOutOfTotTDSOnAmtPaid">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.claimOutOfTotTDSOnAmtPaid.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].uniqueTDSCerNo">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">8</param>
+			<param name="minLength">0</param>
+			<message key="error.uniqueTDSCerNo.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9A-Za-z]{8}$|^.{0,0}$</param>
+			<message key="error.uniqueTDSCerNo.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].deductedYr">
+	    <field-validator short-circuit="true" type="regex">
+			<param name="expression">^(20((0[1-9])|(1[0-6])))$</param>
+			<message key="error.deductedYr.invalid" />
+		</field-validator>
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">2016</param>
+			<param name="minValue">2001</param>
+			<message key="error.deductedYr.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].rcptDtls26AS">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.rcptDtls26AS.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.rcptDtls26AS.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.tan">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^$|^[A-Za-z]{4}[0-9]{5}[A-Za-z]{1}$</param>
+			<message key="error.itr4S.page5.tan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.itr4S.collecterName.length" />
+		</field-validator>
+	</field>
+	
+		<field name="itr4S.scheduleTCS.tcs[0].amtfrom26as">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.amtfrom26AS.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleTCS.tcs[0].totalTCS">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.amt.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleTCS.tcs[0].amtTCSClaimedThisYear">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="error.amt.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleIT.taxPayment[0].bsrCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{7}$|^.{0,0}$</param>
+			<message key="error.bsrCode.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleIT.taxPayment[0].dateDep">
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="error.itr1.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="min">01/04/2016</param>
+			<message key="error.dateDep.minInclude.2014" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleIT.taxPayment[0].srlNoOfChaln">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999</param>
+			<message key="error.srlNoOfChaln.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleIT.taxPayment[0].amt">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.amt.length" />
+		</field-validator>
+	</field>
+	<!-- <field name="itr4S.us44aeHeavy[0].vehicleType"> <field-validator short-circuit="true" 
+		type="regex"> <param name="expression">^.{0,0}$|^H$|^L$</param> <message 
+		key="itr4S.heavyVehcl.vehicleType.invalid"/> </field-validator> </field> -->
+	<field name="itr4S.us44aeHeavy[0].holdingPeriod">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">12</param>
+			<param name="minValue">1</param>
+			<message key="itr4S.heavyVehcl.holdingPeriod.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.us44aeHeavy[0].incomePerVehicle">
+	
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4S.heavyVehcl.incomePerVehicle.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">7500</param>
+			<message key="itr4S.Vehcl.incomePerVehicle.invalid" />
+			
+			
+		</field-validator>
+	</field>
+	<field name="itr4S.us44aeHeavy[0].deemedInc">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<param name="minValue">0</param>
+			<message key="itr4S.heavyVehcl.deemedInc.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100Percent.doneeWithPan[0].doneeWithPanName">
+
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.name.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<message key="error.itr1.page5.address.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.city.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.state.required" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100Percent.doneeWithPan[0].addressDetail.pinCode">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="error.pinCode.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.schedule80G.don100Percent.doneeWithPan[0].doneePAN">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.80g.pan.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.schedule80G.don100Percent.doneeWithPan[0].donationAmt">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneeWithPanName">
+
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.name.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<message key="error.itr1.page5.address.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.city.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.state.required" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].addressDetail.pinCode">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="error.pinCode.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].doneePAN">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.80g.pan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].donationAmt">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneeWithPanName">
+
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.name.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<message key="error.itr1.page5.address.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.city.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.state.required" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].addressDetail.pinCode">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="error.pinCode.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].doneePAN">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.80g.pan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].donationAmt">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneeWithPanName">
+
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.name.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.addrDetail">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">200</param>
+			<message key="error.itr1.page5.address.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="error.itr1.page5.city.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.state.required" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].addressDetail.pinCode">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="error.pinCode.length" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].doneePAN">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$|^.{0,0}$</param>
+			<message key="error.itr1.page5.80g.pan.invalid" />
+		</field-validator>
+	</field>
+	<field
+		name="itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].donationAmt">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.filingStatus.panOfSpouse">
+		<field-validator short-circuit="true" type="conditionalReqString">
+			<param name="conAttributeName">itr4S.filingStatus.portugeseCC5A</param>
+			<param name="conAttributeValue">Y</param>
+			<message key="itr4S.filingStatus.panSpouse.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$|^$</param>
+			<message key="itr4S.filingStatus.panSpouse.error.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Za-z]{3}[pP]{1}[A-Za-z]{1}[0-9]{4}[A-Za-z]{1}$|^$
+			</param>
+			<message key="itr4S.filingStatus.panSpouse.error.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.filingStatus.noticeDateUnderSec">
+		<field-validator short-circuit="true" type="conditionalDate">
+			<param name="conAttributeName">itr4S.filingStatus.returnFileSec</param>
+			<param name="conAttributeValue">^13|14|15|16|18$</param>
+			<message key="itr4S.filingStatus.responseNoticeDate.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateDate">
+			<message key="itr4S.filingStatus.responseNoticeDate.date.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="date">
+			<param name="min">01/04/2017</param>
+			<message key="itr4S.filingStatus.responseNoticeDate.2014.error.invalid" />
+		</field-validator>
+	</field>
+	<field name="itr4S.tdSonOthThanSals.tdSonOthThanSal[0].amtClaimedBySpouse">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.claimOutOfTotTDSOnAmtPaid.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.claimOutOfTotTDSOnAmtPaid.length" />
+		</field-validator>
+	</field>
+
+
+	<field
+		name="itr4S.itr4SIncomeDeductions.usrDeductUndChapVIA.section80CCD1B_Usr">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80E.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.itr4SIncomeDeductions.deductUndChapVIA.section80CCD1B">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.section80EE.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.section80EE.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.itr1TaxComputationOnline.rebate87A">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.rebate87A.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.rebate87A.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.itr1TaxComputationOnline.taxPayableOnRebate">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.taxPayableOnRebate.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.taxPayableOnRebate.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.itr1TaxComputationOnline.surchargeOnAboveCrore">
+		<field-validator short-circuit="true" type="required">
+			<message key="error.surchargeOnAboveCrore.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.surchargeOnAboveCrore.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.schedule80G.totalDonationsUs80G">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.schedule80G.totalEligibleDonationsUs80G">
+		<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.donationAmt.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.personalInfo.address.residenceName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<message key="partAGEN1.orgFirmInfo.address.residenceName.invalid" />
+		</field-validator>
+	</field>
+	<!-- schecdule BA validation :: start -->
+	
+	<field name="itr4S.scheduleBA">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.ScheduleBA
+			</param>
+			<param name="appendPrefix">true</param>
+			<param name="context">ITR12015</param>
+			<param name="mandatoryFieldNames">ifscCode,bankName,accNo</param>
+			<param name="tableMandatory">N</param>
+			<message>Bank details Schedule BA </message>
+		</field-validator>
+	</field>
+		<field name="itr4S.scheduleBA[0].ifscCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[A-Za-z]{4}0[a-zA-Z0-9]{6}$</param>
+			<message key="error.depositToBankAccount.iFSCCode.invalid" />
+		</field-validator>
+		<!-- <field-validator short-circuit="true" type="ifscValidator">
+			<message key="error.iFSCCode.invalid" />
+		</field-validator> -->
+	</field>
+	<field name="itr4S.scheduleBA[0].bankName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">125</param>
+			<message key="error.bankName.length" />
+		</field-validator>
+	</field>
+	<field name="itr4S.scheduleBA[0].bankAccountType">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(SAV)|(CUR)|(CCT)$</param>
+			<message key="itr4S.scheduleBA.bankAccType.invalid"></message>
+		</field-validator>
+	</field>
+	
+	
+	   <field name="itr4S.scheduleBA[0].cashDeposited">
+			<field-validator type="validateBigInteger">
+			<param name="maxValue">99999999999999</param>
+			<message key="error.cashDeposited.length" />
+				</field-validator>
+    </field>
+    
+	<field name="itr4S.scheduleBA[0].accNo">
+		<field-validator type="regex" short-circuit="true">
+			<param name="expression">^.{1,20}$|^$</param>
+			<message key="error.bankAccountNumber.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[a-zA-Z0-9]{1}[a-zA-Z0-9/-]{0,19}$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[0-9]$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^.*[1-9].*$|^$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator> 
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![-]0{1,}[-]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]0{1,}[/]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![a-zA-Z]0{1,}[a-zA-Z]).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^((?![/]{2}|[-]{2}).)*$</param>
+			<message key="scheduleBA.bankAccountNumber.invalid" />
+		</field-validator>
+	</field>
+
+	<!-- schecdule BA validation :: end -->
+	
+	 <!-- Schedule AL Starts -->
+    
+    <field name="itr4S.scheduleAL.immovableFlag">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr4S.scheduleAL.immovableDtls.flag.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(Y)|(N)$</param>
+			<message key="itr4S.scheduleAL.immovableDtls.flag.error.required" />
+		</field-validator>
+		
+	</field>
+	
+    
+    <field name="itr4S.scheduleAL.immovableDtls">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.ScheduleAL</param>
+			<param name="appendPrefix">true</param>
+			<param name="conAttributeName">itr4S.scheduleAL.immovableFlag</param>
+			<param name="conAttributeValue">Y</param>
+			<param name="context">ITR12015</param>
+			<param name="mandatoryFieldNames">description,addressAL.residenceNo,addressAL.localityOrArea,addressAL.cityOrTownOrDistrict,addressAL.stateCode,addressAL.pinCode,addressAL.country,amount</param>
+			<param name="tableMandatory">N</param>
+			<message> Schedule AL </message>
+		</field-validator>
+	</field>
+    
+     <field name="itr4S.scheduleAL.immovableDtls[0].description">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">25</param>
+			<param name="minLength">0</param>
+			<message key="scheduleAL.immovableAsset.description" />
+		</field-validator>
+	</field>
+    
+   <field name="itr4S.scheduleAL.immovableDtls[0].addressAL.residenceNo">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.residenceNo.error.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.residenceName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.residenceName.error.length" />
+		</field-validator>
+	</field>
+	
+		<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.roadOrStreet">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.roadOrStreet.error.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.localityOrArea">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.localityOrArea.error.length" />
+		</field-validator>
+	</field>
+    
+    <field name="itr4S.scheduleAL.immovableDtls[0].addressAL.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message
+				key="itr1.personalInfo.address.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+	</field>
+	
+	
+	<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$</param>
+			<message key="itr4S.addressAL.stateCode.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.immovableDtls[0].addressAL.country</param>
+			<param name="conAttributeValue">91</param>
+			<param name="regex">^(?!99$).*</param>
+			<message key="itr4S.addressAL.OtherstateCode.error.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.country">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1,4}$</param>
+			<message key="itr4S.addressAL.country.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.immovableDtls[0].addressAL.stateCode</param>
+			<param name="conAttributeValue">^(?!(99|-1)$).*</param>
+			<param name="regex">^91$</param>
+			<message key="itr1.personalInfo.address.country.other.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.immovableDtls[0].addressAL.stateCode</param>
+			<param name="conAttributeValue">99</param>
+			<param name="regex">^(?!91$).*</param>
+			<message key="itr1.personalInfo.address.otherCountry.error.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.immovableDtls[0].addressAL.pinCode">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="itr1.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+	</field>
+	
+    <field name="itr4S.scheduleAL.immovableDtls[0].amount">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="scheduleAL.immovableAsset.amount.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    
+      <field name="itr4S.scheduleAL.movableAsset.depositsinbank">
+      
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.depositsinbank.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    <field name="itr4S.scheduleAL.movableAsset.sharesandsecurities">
+    
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.loansandadvancesgiven.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    <field name="itr4S.scheduleAL.movableAsset.insurancepolicies">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.loansandadvancesgiven.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    
+        <field name="itr4S.scheduleAL.movableAsset.loansandadvancesgiven">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.loansandadvancesgiven.error.invalid"/>
+	</field-validator>
+    </field>
+ 
+    <field name="itr4S.scheduleAL.movableAsset.cashInHand">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.cashInHand.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    <field name="itr4S.scheduleAL.movableAsset.jewelleryBullionEtc">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.jewelleryBullionEtc.error.invalid"/>
+	</field-validator>
+    </field>
+    
+     <field name="itr4S.scheduleAL.movableAsset.archCollDrawPaintSulpArt">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.archCollDrawPaintSulpArt.error.invalid"/>
+	</field-validator>
+    </field>
+    
+    <field name="itr4S.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts.error.invalid"/>
+	</field-validator>
+    </field>
+
+
+
+
+	<field name="itr4S.scheduleAL.interstAOPFlag">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message
+				key="itr4S.scheduleAL.interestHeldInaAssetDtls.flag.error.required" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">(Y)|(N)$</param>
+			<message
+				key="itr4S.scheduleAL.interestHeldInaAssetDtls.flag.error.required" />
+		</field-validator>
+
+	</field>
+
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls">
+		<field-validator type="validateTable">
+			<param name="visitorClassPath">com.tcs.itd.efiling.returns.jaxb.common.entities.ScheduleAL</param>
+			<param name="appendPrefix">true</param>
+			<param name="conAttributeName">itr4S.scheduleAL.interstAOPFlag</param>
+			<param name="conAttributeValue">Y</param>
+			<param name="context">ITR12015</param>
+			<param name="mandatoryFieldNames">nameOfFirm,addressAL.residenceNo,addressAL.localityOrArea,addressAL.cityOrTownOrDistrict,addressAL.stateCode,addressAL.pinCode,addressAL.country,panOfFirm,assesseInvestment</param>
+			<param name="tableMandatory">N</param>
+			<message> Schedule AL </message>
+		</field-validator>
+	</field>
+    
+     <field
+		name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].nameOfFirm">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="scheduleAL.nameoffirm.address" />
+		</field-validator>
+	</field>
+	
+	   <field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.residenceNo">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.residenceNo.error.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.residenceName">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.residenceName.error.length" />
+		</field-validator>
+	</field>
+	
+		<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.roadOrStreet">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.roadOrStreet.error.length" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.localityOrArea">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message key="itr1.personalInfo.address.localityOrArea.error.length" />
+		</field-validator>
+	</field>
+    
+    <field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.cityOrTownOrDistrict">
+		<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">50</param>
+			<param name="minLength">0</param>
+			<message
+				key="itr1.personalInfo.address.cityOrTownOrDistrict.error.length" />
+		</field-validator>
+	</field>
+	
+	
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.stateCode">
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1}[0-9]{1}$</param>
+			<message key="itr4S.addressAL.stateCode.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.country</param>
+			<param name="conAttributeValue">91</param>
+			<param name="regex">^(?!99$).*</param>
+			<message key="itr4S.addressAL.OtherstateCode.error.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.country">
+		<!-- <field-validator short-circuit="true" type="regex">
+			<param name="expression">^(?!-1$).*</param>
+			<message key="itr1.personalInfo.address.country.error.required" />
+		</field-validator> -->
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">^[0-9]{1,4}$</param>
+			<message key="itr4S.addressAL.country.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.stateCode</param>
+			<param name="conAttributeValue">^(?!(99|-1)$).*</param>
+			<param name="regex">^91$</param>
+			<message key="itr1.personalInfo.address.country.other.error.invalid" />
+		</field-validator>
+		<field-validator short-circuit="true" type="conditionalRegex">
+			<param name="conAttributeName">itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.stateCode</param>
+			<param name="conAttributeValue">99</param>
+			<param name="regex">^(?!91$).*</param>
+			<message key="itr1.personalInfo.address.otherCountry.error.invalid" />
+		</field-validator>
+	</field>
+	
+	<field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].addressAL.pinCode">
+		<field-validator short-circuit="true" type="validateBigInteger">
+			<param name="maxValue">999999</param>
+			<param name="minValue">100000</param>
+			<message key="itr1.personalInfo.address.pinCode.error.length" />
+		</field-validator>
+	</field>
+    
+    <field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].panOfFirm">
+    
+    	<field-validator short-circuit="true" type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">10</param>
+			<message key="error.itr1.page5.pan.length" />
+		</field-validator>
+		<field-validator short-circuit="true" type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$</param>
+			<message key="error.itr1.page5.pan.length" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$
+			</param>
+			<message key="error.panoffirm.invalid" />
+		</field-validator>
+	</field>
+     
+    <field name="itr4S.scheduleAL.interestHeldInaAssetDtls[0].assesseInvestment">
+		<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.movableAsset.loansandadvancesgiven.error.invalid"/>
+		</field-validator>
+    </field>
+    
+    <field name="itr4S.scheduleAL.liabilityInRelatAssets">
+	<field-validator short-circuit="true" type="validateBigInteger">
+            <param name="maxValue">99999999999999</param>
+            <param name="minValue">0</param>
+            <message key="itr4.scheduleAL.liabilityInRelatAssets.error.invalid"/>
+	</field-validator>
+    </field>
+    <!-- Schedule AL Ends -->
+</validators>
+

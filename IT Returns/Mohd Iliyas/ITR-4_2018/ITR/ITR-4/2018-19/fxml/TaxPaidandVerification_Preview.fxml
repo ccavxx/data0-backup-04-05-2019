@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxPaidandVerification_prev">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0" spacing="0.0">
+    <children>
+    <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>
+                <Label focusTraversable="true" prefHeight="20" prefWidth="1000" alignment="center" styleClass="h1" text="Taxes Paid&#10;" wrapText="true">
+                        <font>
+								<Font name="Arial Bold" size="16.0"/>
+						</font>
+                        </Label>
+                         <Label  text="&#10;"/>
+             </children>
+      </HBox>   
+      <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>         
+                        <Label focusTraversable="true" layoutX="78.0" prefHeight="40" prefWidth="1003" text="Please note that calculated fields (in grey) are picked from other schedules and are not to be entered.For Eg : The taxes paid figures below will get filled up when the Schedules linked to them are filled." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						 </children>
+      </HBox>
+        <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+        			<children>
+    					<Label focusTraversable="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="20" prefWidth="40" text=" D14.">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" prefWidth="526" text=" Total Advance Tax Paid">
+								 	<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="TotalAdvance" alignment="CENTER_RIGHT" prefHeight="20" style="-fx-padding:0 10 0 0;"  prefWidth="450" GridPane.columnIndex="2" GridPane.rowIndex="0" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+                        </Label>
+                        
+                        
+                        <Label focusTraversable="true"  prefHeight="20" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="1" text=" D15.">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true"  prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="1" text=" Total Self Assessment Tax Paid">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="SelfAssemntTax"  alignment="CENTER_RIGHT" prefHeight="20" prefWidth="450" style="-fx-padding:0 10 0 0;" GridPane.columnIndex="2" GridPane.rowIndex="1" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						
+						
+						
+						<Label  focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="2" text=" D16." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="2" text=" Total TDS Claimed" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="TDSclaimed" alignment="CENTER_RIGHT"  prefHeight="20" prefWidth="450" style="-fx-padding:0 10 0 0;" GridPane.columnIndex="2" GridPane.rowIndex="2" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						
+						
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="3" text=" D17." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" 	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="3" text=" Total TCS Claimed" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="TCSclaimed" alignment="CENTER_RIGHT" prefHeight="20" prefWidth="450" style="-fx-padding:0 10 0 0;" GridPane.columnIndex="2" GridPane.rowIndex="3" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						
+						<Label  focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="4" text=" D18." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="TotalTax" alignment="CENTER_RIGHT" prefHeight="20" prefWidth="450" style="-fx-padding:0 10 0 0;" GridPane.columnIndex="2" GridPane.rowIndex="4" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>	
+						</Label>	
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="4" text=" Total Taxes Paid(D14 + D15+ D16 + D17])" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+							
+							
+								<Label focusTraversable="true" 	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="5" text=" D19." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>			
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="5" text=" Amount payable (D13 -D18)(if D13 > D18)" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>			
+						<Label focusTraversable="true" fx:id="AmountPayable"  alignment="CENTER_RIGHT" prefHeight="20" prefWidth="450" GridPane.columnIndex="2" style="-fx-padding:0 10 0 0;" GridPane.rowIndex="5" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>	
+						</Label>
+						
+						
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="6" text=" D20." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="6" text=" Refund (D18 - D13) (if D18 > D13)" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="Refund" prefHeight="20" alignment="CENTER_RIGHT" prefWidth="450" GridPane.columnIndex="2" style="-fx-padding:0 10 0 0;" GridPane.rowIndex="6" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="7" text=" D21." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="7" text=" Exempt income only for reporting Purposes" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="Agri_Income" prefHeight="20" alignment="CENTER_RIGHT" prefWidth="450" GridPane.columnIndex="2" style="-fx-padding:0 10 0 0;" GridPane.rowIndex="7" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						<Label  prefHeight="20" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="8" text=" Agriculture Income">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="Agri_Income2" prefHeight="20" alignment="CENTER_RIGHT" prefWidth="450" GridPane.columnIndex="2" style="-fx-padding:0 10 0 0;" GridPane.rowIndex="8" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+						<Label  prefHeight="20" prefWidth="450" GridPane.columnIndex="1" GridPane.rowIndex="9" text=" Others">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+				</children>		
+		</GridPane>
+		<VBox  style="-fx-padding:0 0 0 39;">
+		           				 <children>		
+										<fx:include id="Content" source="Nature-Income-Details_prev.fxml" />
+								</children>
+		</VBox>
+		<GridPane xmlns:fx="http://javafx.com/fxml" gridLinesVisible="true">
+		    <children>
+		    		
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="40" GridPane.columnIndex="0" GridPane.rowIndex="0" text=" D22." wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true"	prefHeight="40" prefWidth="526" GridPane.columnIndex="1" GridPane.rowIndex="0" text="Do you have a account bank in India" style="-fx-padding:0 0 0 10;" wrapText="true">
+						<font>
+										<Font name="Arial" size="14.0"/>
+						</font>
+						</Label>
+						<Label focusTraversable="true" fx:id="bank" prefHeight="20" alignment="CENTER_RIGHT" prefWidth="450" GridPane.columnIndex="2" GridPane.rowIndex="0" style="-fx-padding:0 10 0 0;" wrapText="true">
+						<font>
+										<Font name="Arial Bold" size="14.0"/>
+						</font>
+						</Label>
+				</children>		
+		</GridPane>
+		<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>   
+         		<Label focusTraversable="true" styleClass="h1"  prefHeight="30" prefWidth="1003"  text="a)Bank Account in which refund,if any,shall be credited" wrapText="true">
+         			<font>
+						<Font name="Arial Bold" size="14.0"/>
+					</font>
+		 		</Label> 
+		 		</children>
+      </HBox>	
+		  <GridPane   xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1000" gridLinesVisible="true">
+                    <children>
+                      
+                       <Label focusTraversable="true" prefHeight="20" prefWidth="100" GridPane.columnIndex="0"  style="-fx-padding:0 0 0 10;" GridPane.rowIndex="0" text="S.No">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+                        <Label focusTraversable="true" prefHeight="20" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="1" text="1.">
+                  	      <font>
+							<Font name="Arial Bold" size="14.0"/>
+						  </font>
+		 				</Label>
+		 				
+		 				<Label focusTraversable="true" prefHeight="20" prefWidth="200" GridPane.columnIndex="1" style="-fx-padding:0 0 0 20;" GridPane.rowIndex="0" text="IFSC Code of bank">
+                    	    <font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>  
+                        <Label focusTraversable="true" fx:id="IFSCCode" prefHeight="20" prefWidth="150" style="-fx-padding:0 0 0 20;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				
+		 				<Label focusTraversable="true" prefHeight="20" prefWidth="300" GridPane.columnIndex="2" style="-fx-padding:0 0 0 80;" GridPane.rowIndex="0" text="Name of bank">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				 <Label focusTraversable="true" fx:id="NameBank" prefHeight="20" prefWidth="300" GridPane.columnIndex="2" style="-fx-padding:0 0 0 50;" GridPane.rowIndex="1">
+                       	 	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				
+		 				<Label focusTraversable="true" prefHeight="60" prefWidth="440" GridPane.columnIndex="3" style="-fx-padding:0 0 0 20;" GridPane.rowIndex="0" text="Account Number(the number should be 9 digits &#10;or more as per CBS system of the bank)" wrapText="true">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label> 
+                        <Label fx:id="AcntNum" prefHeight="20" prefWidth="300" GridPane.columnIndex="3" style="-fx-padding:0 0 0 50;" GridPane.rowIndex="1">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				 </children>
+                </GridPane>	
+                
+          <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>  
+                 <Label focusTraversable="true" styleClass="h1" prefHeight="30" prefWidth="560" text="b)Other Bank account details">
+                 	<font>
+						<Font name="Arial Bold" size="14.0"/>
+					</font>
+		 		</Label> 
+             </children>
+      </HBox>    
+                <GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1000" gridLinesVisible="true">
+						<children>
+							
+							<Label focusTraversable="true" prefHeight="20"  prefWidth="100.0" text="S.No" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="0" GridPane.rowIndex="0">
+								<font>
+									<Font name="Arial" size="14.0"/>
+						  		</font>
+		 					</Label>
+							<Label focusTraversable="true" prefHeight="20"  prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="1" >
+								<font>
+									<Font name="Arial " size="14.0"/>
+						  		</font>
+		 					</Label> 
+		 					
+		 					<Label focusTraversable="true" prefHeight="20"  prefWidth="200.0" style="-fx-padding:0 0 0 20;" text="IFSC Code of bank" GridPane.columnIndex="1" GridPane.rowIndex="0">
+								<font>
+									<Font name="Arial" size="14.0"/>
+						  		</font>
+		 					</Label>
+		 					
+							<Label focusTraversable="true" prefHeight="20"  prefWidth="150.0" style="-fx-padding:0 0 0 20;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+								<font>
+									<Font name="Arial " size="14.0"/>
+						  		</font>
+		 					</Label> 
+		 					
+		 					<Label focusTraversable="true" prefHeight="20"  style="-fx-padding:0 0 0 80;" prefWidth="300.0" text="Name of the bank" GridPane.columnIndex="2" GridPane.rowIndex="0">
+								<font>
+									<Font name="Arial" size="14.0"/>
+						  		</font>
+		 					</Label>
+							<Label focusTraversable="true" prefHeight="20"  prefWidth="150.0" style="-fx-padding:0 0 0 20;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+							<font>
+									<Font name="Arial" size="14.0"/>
+						  		</font>
+		 					</Label> 
+		 					
+		 					<Label focusTraversable="true" prefHeight="60"  prefWidth="440.0" style="-fx-padding:0 0 0 20;" text="Account Number(the number should be 9 digits or more&#10;as per CBS system of the bank)" GridPane.columnIndex="3" GridPane.rowIndex="0" wrapText="true">
+								<font>
+									<Font name="Arial" size="14.0"/>
+						  		</font>
+		 					</Label>
+							<Label focusTraversable="true"  prefHeight="20"  prefWidth="300.0"  style="-fx-padding:0 0 0 20;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+								<font>
+									<Font name="Arial " size="14.0"/>
+						  		</font>
+		 					</Label>
+		 				
+							</children>						
+					</GridPane>
+		<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>
+					<Label focusTraversable="true" styleClass="h1" prefHeight="40" prefWidth="1000" text="c)Non-residents, who are claiming income-tax refund and not having bank account in India may, at their option, furnish the details of one foreign bank account" wrapText="true">
+						<font>
+							<Font name="Arial Bold" size="14.0"/>
+						</font>
+		 			</Label> 	
+		 	</children>
+      </HBox>		
+		 			<GridPane xmlns:fx="http://javafx.com/fxml" styleClass="grid" prefWidth="1000" gridLinesVisible="true">
+                    <children>
+                      
+                       <Label focusTraversable="true" prefHeight="20" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" text="S.No">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+                        <Label focusTraversable="true" prefHeight="20" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="1" text=" 1 ">
+                  	      <font>
+							<Font name="Arial Bold" size="14.0"/>
+						  </font>
+		 				</Label> 
+		 				
+		 				 <Label focusTraversable="true" prefHeight="20" prefWidth="170" GridPane.columnIndex="1" style="-fx-padding:0 0 0 30;" GridPane.rowIndex="0" text="SWIFT Code">
+                    	    <font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label> 
+                        <Label focusTraversable="true" fx:id="swiftcode" prefHeight="20" prefWidth="200" style="-fx-padding:0 0 0 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label> 
+		 				
+		 				<Label focusTraversable="true" prefHeight="20" prefWidth="300" GridPane.columnIndex="2" style="-fx-padding:0 0 0 30;" GridPane.rowIndex="0" text="Name of the Bank">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+                        <Label focusTraversable="true" fx:id="Non_Bank" prefHeight="20" prefWidth="200" style="-fx-padding:0 0 0 30;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                       	 	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label> 
+		 				<Label focusTraversable="true" prefHeight="20" prefWidth="300" GridPane.columnIndex="3" style="-fx-padding:0 0 0 30;" GridPane.rowIndex="0" text="Country of Location">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+                        <Label focusTraversable="true" fx:id="country" prefHeight="20" prefWidth="200" style="-fx-padding:0 0 0 30;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                       	 	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label> 
+		 				<Label focusTraversable="true" prefHeight="40" prefWidth="250" GridPane.columnIndex="4" style="-fx-padding:0 0 0 30;" GridPane.rowIndex="0" text="IBAN">
+                        	<font>
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+                        <Label focusTraversable="true" fx:id="iban" prefHeight="20" prefWidth="250" style="-fx-padding:0 0 0 30;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label> 
+		 			</children>
+                </GridPane>	
+               
+	<HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>                
+                <Label focusTraversable="true" styleClass="h1" prefHeight="30" prefWidth="560" text="Verification">
+                	<font>
+							<Font name="Arial Bold" size="14.0"/>
+					</font>
+		 		</Label> 
+		 </children>
+      </HBox>
+		 		 <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" style="-fx-border-color: grey;-fx-border-width: 2px;">
+                    <children>
+                    	<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="1000">
+								 	<Label focusTraversable="true" text=" I,">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+								  	<Label focusTraversable="true" text="*">
+									  	<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+		 							<Label focusTraversable="true" maxWidth="1000" fx:id="Name" wrapText="true">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+                    	<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="2"  prefWidth="1000">
+								 	<Label focusTraversable="true" text=" son/daughter of">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+								  	<Label focusTraversable="true" text="*">
+									  	<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+		 							 <Label focusTraversable="true" fx:id="father">
+                        	<font>	
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				
+		 				</TextFlow>
+                    	
+		 				<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="4"  prefWidth="1000">
+		 				 <Label  focusTraversable="true" text=" solemnly declare that to the best of my knowledge and belief,the information given in the return is correct and complete and in accordance with the provisions of &#10; the Income-tax Act 1961." wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				</TextFlow>
+		 				<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="5"  prefWidth="1000">
+		 				 <Label  focusTraversable="true" text="I further declare that I am making returns in my capacity as" wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				<Label focusTraversable="true" fx:id="capacity">
+                        	<font>	
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				<Label  focusTraversable="true" text="and I am also competent to make this return and verify it." wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				</TextFlow>
+		 				<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="6"  prefWidth="1000">
+		 				 <Label  focusTraversable="true" text="I am holding permanent account number" wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				<Label focusTraversable="true" fx:id="VerPAN">
+                        	<font>	
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				<Label  focusTraversable="true" text="(if allotted) (Please see instruction)" wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				</TextFlow>
+                    	<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="7"  prefWidth="1000">
+								 	<Label focusTraversable="true" text=" Place">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+								  	<Label focusTraversable="true" text="*">
+									  	<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+		 							<Label focusTraversable="true" fx:id="Place">
+                        	<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="8"  prefWidth="1000">
+								 	<Label focusTraversable="true" text=" Date">
+								 		<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+								  	<Label text="*">
+									  	<font>
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+		 							<Label focusTraversable="true" fx:id="Verdate">
+                        				<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+		 			 </children>
+                </GridPane>
+                <GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" style="-fx-border-color: grey;-fx-border-width: 1px;">
+						   <children>
+						<Label  focusTraversable="true"  GridPane.columnIndex="0" GridPane.rowIndex="0" text=" If the return has been prepared by a Tax Return Preparer (TRP) give further details as below:" wrapText="true">
+                        				<font>	
+											<Font name="Arial" size="14.0"/>
+						  				</font>
+		 							</Label>
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="1"  prefWidth="1000">
+								 	 
+								  	
+		 							 <Label GridPane.columnIndex="0" GridPane.rowIndex="1" focusTraversable="true" text="Name of the TRP" wrapText="true">
+                        				<font>	
+										<Font name="Arial" size="14.0"/>
+						  				</font>
+		 								</Label>
+		 								<Label focusTraversable="true" fx:id="trpName" >
+                        			<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="1000">
+								 	 <Label   focusTraversable="true" text="TRP PIN(10 digit)" wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+		 				<Label focusTraversable="true" fx:id="trpPIN" >
+                        			<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+						
+						<TextFlow  GridPane.columnIndex="0" GridPane.rowIndex="3"  prefWidth="1000">
+								 	 <Label  focusTraversable="true" text="Amount to be paid to TRP" wrapText="true">
+                        	<font>	
+								<Font name="Arial" size="14.0"/>
+						  	</font>
+		 				</Label>
+								  
+		 							<Label focusTraversable="true" fx:id="trpAmount" >
+                        			<font>
+								<Font name="Arial Bold" size="14.0"/>
+						  	</font>
+		 				</Label>
+						</TextFlow>
+						</children>
+                </GridPane>	
+    </children>
+     </VBox>
+    </children>
+</AnchorPane>

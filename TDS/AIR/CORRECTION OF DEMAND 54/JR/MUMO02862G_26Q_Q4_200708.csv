@@ -1,0 +1,9 @@
+Default Details
+TAN,Name of the deductor,Category of Deductor (as per ITD TAN Master),Provisional receipt/ Token no.,Quarter,Form no.,Financial Year,Count of Short deduction records,Count of Short payment records,Count of late payment records,Interest set off amount*****
+MUMO02862G,O/o Chief Engineer (West Zone),2,70370200282476,Q4,26Q ,2007,0,1,0,0
+Short Payment Details
+Details As per return
+Sr no.,Challan record number**,Challan/ Voucher serial no. **,BSR Code **,Challan Deposit Date **,Section Code,Challan amount,TDS /TCS Mapped against this challan,TDS/ TCS/ deposited against this challan,Short Payment Amount(A),Short payment Interest Amount(B)
+1,6,6,0241424,31-MAR-08,194C ,796391,796391,796391,796391,372851
+Total Short Payment Amount  (Total of A),796390
+Total Short Payment Interest Amount  (Total of B),372850

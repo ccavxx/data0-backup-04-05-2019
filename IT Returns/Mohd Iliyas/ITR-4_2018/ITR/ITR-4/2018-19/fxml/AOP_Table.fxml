@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="2670" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.AOP_Table">
+	<VBox.margin>
+		<Insets bottom="200.0" />
+	</VBox.margin>
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="0.0" prefHeight="350.0" prefWidth="2060" style="12345678901234" target="itr.itr4.scheduleAL.interestHeldInaAsset"  >
+		<columns>
+			
+			<ValTableColumn resizable="false" maxWidth="50.0"  prefWidth="70.0" text="Sl No" target="slNo"/>	
+			<ValTableColumn resizable="false" maxWidth="200.0" prefWidth="200.0" text="Name of the firm(s)/ AOP(s)(1)" target="nameOfFirm" />
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="500.0" text="Address of the firm(s)/ AOP(s)(2)">
+			<columns>
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Flat/ Door/ Block No." target="addressAL.residenceNo" />	
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Name of Premises /&#10;Building /&#10;Village" target="addressAL.residenceName" />	
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Road/ Street/&#10;Post Office" target="addressAL.roadOrStreet" />	
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Area/&#10;Locality" target="addressAL.localityOrArea" />	
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Town/&#10;City/ District" target="addressAL.cityOrTownOrDistrict" />	
+			<ValTableColumn resizable="false" maxWidth="100.0"  prefWidth="100.0" text="State" target="dropDown-addressAL.stateCode" />	
+			<ValTableColumn resizable="false" maxWidth="100.0"  prefWidth="100.0" text="Country" target="dropDown-addressAL.countryCode" />	
+			<ValTableColumn resizable="false" maxWidth="200.0"  prefWidth="200.0" text="Pincode" target="addressAL.pinCode" />	
+			</columns>
+			
+			</ValTableColumn>
+			<ValTableColumn resizable="false" maxWidth="200.0" prefWidth="200.0" text="PAN of the firm/ AOP(3)"  target="panOfFirm"/>						
+			<ValTableColumn resizable="false" maxWidth="200.0" prefWidth="200.0" text="Assessee's investment in the &#10; firm / AOP on cost basis(4)" target="assesseInvestment" />	
+			
+		</columns>
+	</ValTableView>
+
+		<Button layoutX="0.0"  fx:id="addRowBtn" layoutY="354.0" onKeyTyped="#addRow"  onAction="#addRow" 	mnemonicParsing="false" text="Add Row" />
+	
+
+	<ValRowEditorPane layoutX="0.0" layoutY="15.0"	fx:id="rowEditorPane" alignment="CENTER" animated="false" collapsible="false" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="260" prefWidth="900.0" visible="false"
+	target="aopController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="250.0">
+				<children>
+					<GridPane styleClass="grid" id="" hgap="5.0" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+						
+							<Label focusTraversable="true" font="$x4" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0" minWidth="30"/>
+							<Label focusTraversable="true" font="$x4" text="Name of the firm(s)/ AOP(s)"  GridPane.columnIndex="1" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField maxLength="50"  prefHeight="27" prefWidth="250" GridPane.columnIndex="2" GridPane.rowIndex="0" target="aopController.type.nameOfFirm" disable="true" />
+							
+							
+							<Label focusTraversable="true" font="$x4" text="2" GridPane.columnIndex="3" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;" minWidth="30" />
+							<Label focusTraversable="true" font="$x4" text="Flat/ Door/ Block No." minWidth="200" GridPane.columnIndex="4" GridPane.rowIndex="0" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  maxLength="50" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="0" target="aopController.type.addressAL.residenceNo" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="0" prefHeight="25" style="-fx-color: ;"/>	          
+														
+							<Label focusTraversable="true" font="$x4" text="3" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+							<Label focusTraversable="true" font="$x4" text="Name of Premises / Building / Village" GridPane.columnIndex="1" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;"/>	
+							<ValTextField  maxLength="50" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" target="aopController.type.addressAL.residenceName" disable="true" />
+							
+							<Label focusTraversable="true" font="$x4" text="4" GridPane.columnIndex="3" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;"/>
+							<Label focusTraversable="true" font="$x4" text="Road/ Street/Post Office" GridPane.columnIndex="4" GridPane.rowIndex="2" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  maxLength="50" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2" target="aopController.type.addressAL.roadOrStreet" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="2" prefHeight="25" style="-fx-color: ;"/>	          
+								
+							<Label focusTraversable="true" font="$x4" text="5" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							<Label focusTraversable="true" font="$x4" text="Area/ Locality" GridPane.columnIndex="1" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;"/>	
+							<ValTextField  maxLength="50" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" target="aopController.type.addressAL.localityOrArea" disable="true" />
+							
+							<Label focusTraversable="true" font="$x4" text="6" GridPane.columnIndex="3" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;"/>
+							<Label focusTraversable="true" font="$x4" text="Town/ City/ District" GridPane.columnIndex="4" GridPane.rowIndex="4" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  maxLength="50" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="4" target="aopController.type.addressAL.cityOrTownOrDistrict" disable="true" />
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="4" prefHeight="25" style="-fx-color: ;"/>	          
+								
+							<Label focusTraversable="true" font="$x4" text="7" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+							<Label focusTraversable="true" font="$x4" text="State" GridPane.columnIndex="1" GridPane.rowIndex="6" style="-fx-padding:0 0 0 10;"/>	
+							<ValComboBox   prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" target="aopController.type.addressAL.stateCode" disable="true">
+								<tooltip>
+									<Tooltip text="If you want to update the details go to: Profile Settings -> My profile -> Address" style = "-fx-font-size : 12"/>
+								</tooltip>
+							</ValComboBox>
+							
+							<Label focusTraversable="true" font="$x4" text="8" GridPane.columnIndex="3" GridPane.rowIndex="6" style="-fx-padding:0 0 0 10;" />
+							<Label focusTraversable="true" font="$x4" text="Country" GridPane.columnIndex="4" GridPane.rowIndex="6" style="-fx-padding:0 0 0 10;" />
+							<ValComboBox   prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="6" target="aopController.type.addressAL.countryCode" disable="true">
+								<tooltip>
+									<Tooltip text="If you want to update the details go to: Profile Settings -> My profile -> Address" style = "-fx-font-size : 12"/>
+								</tooltip>
+							</ValComboBox>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							<Label focusTraversable="true" font="$x4" text="9" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+							<Label focusTraversable="true" font="$x4" text="Pincode" GridPane.columnIndex="1" GridPane.rowIndex="8" style="-fx-padding:0 0 0 10;"/>
+							<ValTextField  maxLength="6" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8" target="aopController.type.addressAL.pinCode" disable="true" >
+									<tooltip>
+                							<Tooltip text="In case of address outside India, PIN can be entered as 999999" style = "-fx-font-size : 12"/>
+		              				</tooltip>
+		              		</ValTextField>
+								
+							<Label focusTraversable="true" font="$x4" text="10" GridPane.columnIndex="3" GridPane.rowIndex="8" style="-fx-padding:0 0 0 10;"/>
+							<Label focusTraversable="true" font="$x4" text="PAN of the firm/ AOP(3)" GridPane.columnIndex="4" GridPane.rowIndex="8" style="-fx-padding:0 0 0 10;"/>				
+							<ValTextField  maxLength="10" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="8" target="aopController.type.panOfFirm" disable="true" autoCaps="true"/>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="9"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="8" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							<Label focusTraversable="true" font="$x4" text="11" GridPane.columnIndex="0" GridPane.rowIndex="10" />	
+							<Label focusTraversable="true" font="$x4" prefWidth="400.0" text="Assessee's investment in the firm/ AOP on cost basis(4)" GridPane.columnIndex="1" GridPane.rowIndex="10" style="-fx-padding:0 0 0 10;"/>
+							<ValBigIntegerField  maxLength="14" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="10" target="aopController.type.assesseInvestment" disable="true" />
+							
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="3" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="4" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           	 	<Region GridPane.columnIndex="5" GridPane.rowIndex="11"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           	 	<Separator orientation="vertical" GridPane.columnIndex="1" GridPane.rowIndex="10" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="3" GridPane.rowIndex="10" prefHeight="25" style="-fx-color: ;"/>	          
+							<Separator orientation="vertical" GridPane.columnIndex="4" GridPane.rowIndex="10" prefHeight="25" style="-fx-color: ;"/>	          
+							
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="12">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn"  onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+									<Button mnemonicParsing="false" fx:id="cancelBtn" onKeyTyped="#cancel" onAction="#cancel" text="Cancel"  />
+									
+								</children>
+							</HBox>
+						
+						</children>
+						
+					</GridPane>
+					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>
+	<Button layoutX="60.0" fx:id="copyRowBtn" layoutY="354.0" onKeyTyped="#copyRow" onAction="#copyRow"   	mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="128.0" fx:id="editRowBtn" layoutY="354.0" onKeyTyped="#editRow"  onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" />
+	<Button layoutX="188.0" fx:id="deleteRowBtn" layoutY="354.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+	
+	
+</AnchorPane>

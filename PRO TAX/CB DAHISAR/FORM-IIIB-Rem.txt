@@ -1,0 +1,66 @@
+FORM_IIIB
+Ver 1.8.3
+170401
+27045128607P
+2|FORM_IIIB|Ver 1.8.3
+3| (See Rule 11, 11E)                                                                                                                                                                                                                                                          Electronic Return under The Maharashtra State Tax on Professions, Trades, Callings and Employments Act, 1975 
+4|1|PAN||TAN|
+5|1|PROFESSION TAX R.C. NO. (TIN)|27045128607|P|Whether First Return ?  (In Case of New Registration )|No
+6|2|M.V.A.T. TIN/(IF ANY)||V|Whether Last Return ? (In Case of  Cancellation of Registration  )|No
+7|3|Name of the  Employer|
+8|4|Address|Block No/Flat No||Name of the Premises/Building/Village|
+9|||Street/ Road||Area/ Locality |
+10|||City/Taluka||District||PIN CODE|
+11|||Location of Profession Tax Officer Having  Jurisdiction over|01-Mumbai|E-mail ID of the employer|managercb0125@canarabank.com
+12|||Telephone No of employer|02228489750|Type of Return  (Select appropriate)|Original Return
+13|5|Periodicity of Return (select appropriate)|Yearly|
+14|6|Period Covered by Return|From|Date|Month|Year|To|Date|Month|Year
+15||||01|04|17||31|03|18
+16|Computation of Profession Tax
+19|7|Salary Slabs|Rate of Tax p.m.|Number of employees whose salary paid for the month of -|Total|Amount of Tax Deducted
+20||||Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec|Jan|Feb||
+21||Do not Exceed Rs 2,500|Nil|||||||||||||0|0
+22||Exceed Rs 2,500 but do not  Exceed 3500 Rs|60|||||||||||||0|0
+23||Exceed Rs 3,500 but do not  Exceed 5000 Rs|120|||||||||||||0|0
+24||Exceed Rs 5000 but do not  Exceed 7500 Rs|175/- upto 30 th June 2014 and thereafter Nil|||||||||||||0|0
+25||Exceed Rs7500 but do not  Exceed 10000 Rs|For Female        175/- upto 31st March 2015 and thereafter Nil|||||||||||||0|0
+26|||For Male  175|||||||||||||0|0
+27||Exceed Rs.10,000| Rs.200 per month except for February/Rs.300 for the month of February|17|17|17|17|17|17|17|17|17|17|17|17|204|42500
+28|8|Total Tax Payable|Rs|42500
+29|9|Differential amount Paid for Previous Period|Rs|
+30|10|Interest Amount|Rs|
+31|11|Penalty|Rs|
+32|12|Late Return Fee|Rs|
+33|13|Less:- Excess Paid, If any in the Previous Month/Year|Rs|
+34|14|Net amount payable / refundable (-)|Rs|42500
+35|15|Amount already paid with chalan For PT (Furnish details in Box 17)|Rs|42500
+36|16|Balance Amount payable / refundable (-)|Rs|0
+37|17|Details of the Amount already paid in Chalan For PT
+38|Chalan NO/CIN|Amount (Rs)|Payment Date|Name of the Bank | Branch Name
+39|29|3400|27/04/17|Canara Bank|Colaba
+40|119|3400|04/05/17|Canara Bank|Colaba
+41|170|3400|20/06/17|Canara Bank|Colaba
+42|154|3400|03/07/17|Canara Bank|Colaba
+43|113|3400|08/08/17|Canara Bank|Colaba
+44|81|3400|29/08/17|Canara Bank|Colaba
+45|136|3400|29/09/17|Canara Bank|Colaba
+46|26|3400|03/11/17|Canara Bank|Colaba
+47|187|3400|27/11/17|Canara Bank|Colaba
+48|107|3400|30/12/17|Canara Bank|Colaba
+49|132|3400|02/02/18|Canara Bank|Colaba
+50|18|5100|03/03/18|Canara Bank|Colaba
+51|||||
+52|||||
+53|||||
+54|||||
+55|||||
+56|||||
+57|||||
+58|||||
+59|TOTAL|42500|||
+61|The above statements are true and correct to the best of my knowledge and belief 
+62|Date of Filing Return|Date|Month|Year|Place
+63||27|03|18|MUMBAI
+64|Name  Of the  Authorised Person|Malleshwari Ahire|
+65|Designation|Senior Manager|
+66|E_mail_id|managercb0125@canarabank.com|

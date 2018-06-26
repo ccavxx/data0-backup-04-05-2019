@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxPayment_prev">
+    <children>
+    <VBox id="VBox" alignment="TOP_CENTER" layoutX="78.0" layoutY="38.0" spacing="0.0">
+    <children>
+    <HBox style="-fx-font-weight: bold;-fx-border-style:12px solid;-fx-border-width: 2;-fx-border-radius: 0px, 6px;-fx-border-color: grey;-fx-padding:0 0 0 10 ">
+			<children>
+        <Label   prefHeight="20" styleClass="h1" prefWidth="1000"  text="SCH IT. Details of Advance Tax and Self Assessment Tax Payments" wrapText="true">
+             <font>
+				<Font name="Arial Bold" size="16.0"/>
+			 </font>
+        </Label>
+        <Label  text="&#10;"/>
+      </children>
+      </HBox>
+        <GridPane fx:id="grid" xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true">
+    		<children>
+    		
+                 <Label focusTraversable="true" prefHeight="40" style="-fx-padding:0 0 0 10;" prefWidth="100"  GridPane.columnIndex="0" GridPane.rowIndex="0"   text=" Sl.No" wrapText="true">
+                    <font>
+						<Font name="Arial " size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true" prefHeight="20" prefWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1"   text="" wrapText="true">
+                    <font>
+						<Font name="Arial" size="14.0"/>
+					</font>
+                 </Label>
+                 
+                 
+                 <Label focusTraversable="true"  prefHeight="20" prefWidth="237.5" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="1" GridPane.rowIndex="0" text="BSR Code[Col (1)]" wrapText="true">
+                    <font>
+						<Font name="Arial " size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true"  prefHeight="20" prefWidth="237.5" GridPane.columnIndex="1" GridPane.rowIndex="1" text="" wrapText="true">
+                   
+                 </Label>
+                 
+                 
+                 <Label focusTraversable="true"  prefHeight="60" prefWidth="237.5" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="2" GridPane.rowIndex="0" text="Date of deposit&#10;(DD/MM/YYYY)[Col (2)]" wrapText="true">
+                    <font>
+						<Font name="Arial " size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true"  prefHeight="20" prefWidth="237.5" GridPane.columnIndex="2" GridPane.rowIndex="1" text="" wrapText="true">
+                    
+                 </Label>
+                 
+                 
+                 <Label focusTraversable="true"  prefHeight="20" prefWidth="237.5" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="3" GridPane.rowIndex="0" text="Serial Number of Challan[Col (3)]" wrapText="true">
+                    <font>
+						<Font name="Arial " size="14.0"/>
+					</font>
+                 </Label>
+                  <Label focusTraversable="true"  prefHeight="20" prefWidth="237.5" GridPane.columnIndex="3" GridPane.rowIndex="1" text="" wrapText="true">
+                    
+                 </Label>
+                 
+                 
+                 <Label focusTraversable="true" prefHeight="20" prefWidth="237.5" style="-fx-padding:0 0 0 10;" GridPane.columnIndex="4" GridPane.rowIndex="0" text="Tax paid[Col (4)]" wrapText="true">
+                    <font>
+						<Font name="Arial " size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true" prefHeight="20" prefWidth="237.5" GridPane.columnIndex="4" GridPane.rowIndex="1" text="" wrapText="true">
+                    
+                 </Label>
+                 
+                 
+                
+                 
+					
+			</children>		
+		</GridPane>
+		
+		
+		<GridPane xmlns:fx="http://javafx.com/fxml" prefWidth="1000" gridLinesVisible="true" >
+    		<children>
+    		  <Label focusTraversable="true" prefHeight="20" prefWidth="790" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-padding:0 0 0 40;" text="Total" wrapText="true">
+                    <font>
+						<Font name="Arial" size="14.0"/>
+					</font>
+                 </Label>
+                 <Label focusTraversable="true" fx:id = "total" minHeight="20" alignment="CENTER_RIGHT" prefWidth="237.5" GridPane.columnIndex="1" GridPane.rowIndex="0"  wrapText="true">
+                    <font>
+						<Font name="Arial Bold" size="14.0"/>
+					</font>
+                 </Label>
+			</children>		
+		</GridPane>
+		
+    </children>
+    </VBox>
+    </children>
+</AnchorPane>

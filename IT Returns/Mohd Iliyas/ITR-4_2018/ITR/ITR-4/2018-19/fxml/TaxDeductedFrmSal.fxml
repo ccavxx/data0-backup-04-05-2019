@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.itd.efiling.offline.javafx.ui.components.*?>
+<?import eu.schudt.javafx.controls.calendar.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="-1.0" snapToPixel="true" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itd.efiling.offline.ITR4.ctrl.TaxDeductedFrmSal">
+	<VBox.margin>
+		<Insets bottom="100" />
+	</VBox.margin>
+
+	<HBox style="-fx-border-style: solid inside;-fx-border-radius: 0;-fx-border-color:lightgrey;" layoutY="273.0" >
+	  <children>
+	   <HBox>
+	      <children>
+			<Label  fx:id="label8" labelFor="$TotalPayment" style="-fx-padding:5 50 0 10"  text="Total"  />		
+		</children>
+	   </HBox>
+			<Separator orientation="vertical" GridPane.columnIndex="2" GridPane.rowIndex="6" prefHeight="25" style="-fx-color: ;"  />	          
+		<HBox>
+	      <children>	
+			<ValBigIntegerField fx:id="TotalTds" prefWidth="150"   target="itr.itr4.tdSonSalaries.totalTDSonSalaries" disable="true" >
+    		<HBox.margin>
+                <Insets left="835" right="0" />
+         	</HBox.margin>
+		</ValBigIntegerField>
+    </children>
+	   </HBox>
+     </children>
+     </HBox>
+	
+	
+	<ValTableView fx:id="tableView" layoutX="0.0" layoutY="73.0" prefHeight="200.0" prefWidth="-1.0" target="itr.itr4.tdSonSalaries.tdSonSalary" >
+		<columns>
+			<ValTableColumn resizable="false" maxWidth="80.0" minWidth="50.0" prefWidth="80" text="Sl.No" target="slNo" />	
+			<ValTableColumn resizable="false" maxWidth="280.0" minWidth="220" prefWidth="250.0" text="Tax Deduction Account Number&#10; (TAN) [Col (1)]" target="employerOrDeductorOrCollectDetl.tan"    />
+			<ValTableColumn resizable="false" maxWidth="280.0" minWidth="220" prefWidth="250.0" text="Name of the Employer [Col (2)]" target="employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" />
+			<ValTableColumn resizable="false" maxWidth="280.0" minWidth="220" prefWidth="250.0" text="Income under Salary &#10;[Col  (3)]" target="incChrgSal" />
+			<ValTableColumn resizable="false" maxWidth="280.0" minWidth="220" prefWidth="248.0" text="Tax deducted [Col (4)]" target="totalTDSSal" />
+		</columns>
+	</ValTableView>
+	
+	<Button layoutX="0.0" fx:id="addRowBtn"  layoutY="302.0" onKeyTyped="#addRow" onAction="#addRow"  	mnemonicParsing="false" text="Add Row" />
+	
+	<ValRowEditorPane layoutX="0.0" layoutY="72.0"	fx:id="rowEditorPane" alignment="TOP_LEFT" animated="false" collapsible="true" contentDisplay="CENTER" 
+	disable="false" expanded="true" maxWidth="-Infinity" prefHeight="200.0" prefWidth="480.0" text="SCH TDS1. Details of Tax Deducted at Source from SALARY [As per Form16 issued by Employer(s)]" visible="false" wrapText="true"
+	target="taxDetailsTabController.type">
+		<content>
+			<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+				<children>
+					<GridPane styleClass="grid" prefHeight="1075.0" prefWidth="548.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+						<children>
+							
+							
+							<Label focusTraversable="true" labelFor="$Tan" prefWidth="300.0" text="Tax Deduction Account Number&#10; (TAN) [Col (1)]" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+							<ValTextField fx:id="Tan" maxLength="10"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="0" target="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.tan" autoCaps="true">
+							<GridPane.margin>
+                            		<Insets left="132"/>
+                        		</GridPane.margin>
+							</ValTextField>
+							 
+							 <Region GridPane.columnIndex="0" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="1"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+							<Label focusTraversable="true" labelFor="$Name" text="Name of the Employer [Col (2)]" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+							<ValTextField   maxLength="125"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" target="taxDetailsTabController.type.employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName" autoCaps="false">
+							 <GridPane.margin>
+                            		<Insets left="132"/>
+                        		</GridPane.margin>
+							</ValTextField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="3"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+							<Label focusTraversable="true" labelFor="$IncomeCharge" text="Income under Salary [Col (3)]" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+							<ValBigIntegerField fx:id="IncomeCharge" maxLength="14"  prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" target="taxDetailsTabController.type.incChrgSal">	
+							<GridPane.margin>
+                            		<Insets left="132"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="5"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+							<Label focusTraversable="true" labelFor="$TaxDeducted" text="Tax deducted [Col (4)]" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+							<ValBigIntegerField fx:id="TaxDeducted" maxLength="14" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" target="taxDetailsTabController.type.totalTDSSal" >							
+							<GridPane.margin>
+                            		<Insets left="132"/>
+                        		</GridPane.margin>
+							</ValBigIntegerField>
+							
+							<Region GridPane.columnIndex="0" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			          		<Region GridPane.columnIndex="1" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		<Region GridPane.columnIndex="2" GridPane.rowIndex="7"  style="  -fx-padding: 3 0 2 0  ;-fx-background-insets: 4 0 0 0 ; -fx-background-color: lightgray ;" />
+			           		
+			           		
+			           		
+							
+							<HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="8">
+								<children>
+									<Button mnemonicParsing="false" fx:id="saveBtn" onKeyTyped="#saveDtl" onAction="#saveDtl" text="Save" />
+										
+									<Button mnemonicParsing="false" onKeyTyped="#cancel" fx:id="cancelBtn" onAction="#cancel" text="Cancel" />
+									
+								</children>
+							</HBox>
+							
+							
+							
+						</children>						
+					</GridPane>					   
+				</children>
+			</AnchorPane>
+		</content>
+	</ValRowEditorPane>	
+	<Button layoutX="62.0"  fx:id="copyRowBtn"  layoutY="302.0" onKeyTyped="#copyRow" onAction="#copyRow"  mnemonicParsing="false" text="Copy Row" />
+	<Button layoutX="131.0" fx:id="editRowBtn" layoutY="302.0" onKeyTyped="#editRow"  onAction="#editRow"  	mnemonicParsing="false" text="Edit Row" />
+	<Button layoutX="191.0" fx:id="deleteRowBtn" layoutY="302.0" onKeyTyped="#deleteRow" onAction="#deleteRow"  mnemonicParsing="false" text="Delete Row" />
+	
+	</AnchorPane>

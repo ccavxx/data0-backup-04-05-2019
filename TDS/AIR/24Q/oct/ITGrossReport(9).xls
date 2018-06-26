@@ -1,0 +1,268 @@
+
+
+  
+ 
+
+
+
+
+
+<html>
+<head>
+<title>Income Tax Report</title>
+<script language="JavaScript" src="/AIRPayroll/jscript/Smart.js"></script>
+</head>    
+<body >
+<form onDblClick="showToolbar()">
+
+<center>ALL INDIA RADIO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROSS AND INCOME TAX FOR MONTH OF:&nbsp;October&nbsp;&nbsp;2017<br>Bill No:-688/10/2017</center>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="61%" id="AutoNumber1" height="65" >
+ <tr>
+	<td width="10%" height="22" colspan="1"  align="center"><font size="3" face="Times New Roman, Times, serif"><strong><b>Sr.No. </b></strong></font></td>
+	<td width="15%" height="22" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;EMPNO </b></strong></font></td>
+	<td width="24%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;NAME </b></strong></font></td>
+	<td width="18%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;PAN NO </b></strong></font></td>
+	<td width="17%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;Gross Amt</b></strong></font></td>
+	<td width="16%" colspan="1" align="center"><font size="3"  face="Times New Roman, Times, serif"><strong><b>&nbsp;ITax Amt </b></strong></font><strong></td>
+ </tr>
+
+<br>
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">1</td>
+	<td width="15%" colspan="1"  align="left">11</td>
+	<td width="24%" colspan="1"  align="left"> VARSHA V TAWDE</td>
+	<td width="18%" colspan="1"  align="left">ABTPT1092K</td>
+	<td width="17%" colspan="1" align="right">96789</td>
+	<td width="16%" colspan="1" align="right">9000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">2</td>
+	<td width="15%" colspan="1"  align="left">171</td>
+	<td width="24%" colspan="1"  align="left"> LALAHMED B. SHAIKH</td>
+	<td width="18%" colspan="1"  align="left">AECPS6828J</td>
+	<td width="17%" colspan="1" align="right">114345</td>
+	<td width="16%" colspan="1" align="right">12000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">3</td>
+	<td width="15%" colspan="1"  align="left">198</td>
+	<td width="24%" colspan="1"  align="left">  MOHAN M. MOSE</td>
+	<td width="18%" colspan="1"  align="left">ABUPM3119R</td>
+	<td width="17%" colspan="1" align="right">131142</td>
+	<td width="16%" colspan="1" align="right">15000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">4</td>
+	<td width="15%" colspan="1"  align="left">199</td>
+	<td width="24%" colspan="1"  align="left"> SAIMON B. PRASAD</td>
+	<td width="18%" colspan="1"  align="left">ABAPP4861B</td>
+	<td width="17%" colspan="1" align="right">117339</td>
+	<td width="16%" colspan="1" align="right">10000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">5</td>
+	<td width="15%" colspan="1"  align="left">200</td>
+	<td width="24%" colspan="1"  align="left"> D.N. DWIVEDI</td>
+	<td width="18%" colspan="1"  align="left">AFFPD0564G</td>
+	<td width="17%" colspan="1" align="right">117600</td>
+	<td width="16%" colspan="1" align="right">12000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">6</td>
+	<td width="15%" colspan="1"  align="left">202</td>
+	<td width="24%" colspan="1"  align="left"> SUNIL B. BHUJBAL</td>
+	<td width="18%" colspan="1"  align="left">AAVPB8851F</td>
+	<td width="17%" colspan="1" align="right">91500</td>
+	<td width="16%" colspan="1" align="right">9000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">7</td>
+	<td width="15%" colspan="1"  align="left">203</td>
+	<td width="24%" colspan="1"  align="left"> R.N. KULKARNI</td>
+	<td width="18%" colspan="1"  align="left">ADYPK1098D</td>
+	<td width="17%" colspan="1" align="right">138753</td>
+	<td width="16%" colspan="1" align="right">14000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">8</td>
+	<td width="15%" colspan="1"  align="left">204</td>
+	<td width="24%" colspan="1"  align="left"> MOHAN P. INGLE</td>
+	<td width="18%" colspan="1"  align="left">AACPI6575J</td>
+	<td width="17%" colspan="1" align="right">108150</td>
+	<td width="16%" colspan="1" align="right">5000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">9</td>
+	<td width="15%" colspan="1"  align="left">205</td>
+	<td width="24%" colspan="1"  align="left"> N.H. KAWCHALE</td>
+	<td width="18%" colspan="1"  align="left">ABZPK9470G</td>
+	<td width="17%" colspan="1" align="right">134883</td>
+	<td width="16%" colspan="1" align="right">14000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">10</td>
+	<td width="15%" colspan="1"  align="left">261</td>
+	<td width="24%" colspan="1"  align="left"> RAJENDRA B. GAWADE</td>
+	<td width="18%" colspan="1"  align="left">ACHPG2424M</td>
+	<td width="17%" colspan="1" align="right">91500</td>
+	<td width="16%" colspan="1" align="right">7000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">11</td>
+	<td width="15%" colspan="1"  align="left">263</td>
+	<td width="24%" colspan="1"  align="left"> N. P. WANKHEDE</td>
+	<td width="18%" colspan="1"  align="left"></td>
+	<td width="17%" colspan="1" align="right">134883</td>
+	<td width="16%" colspan="1" align="right">10000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">12</td>
+	<td width="15%" colspan="1"  align="left">264</td>
+	<td width="24%" colspan="1"  align="left"> PRAMOD S. GAWANDE</td>
+	<td width="18%" colspan="1"  align="left"></td>
+	<td width="17%" colspan="1" align="right">131142</td>
+	<td width="16%" colspan="1" align="right">10000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">13</td>
+	<td width="15%" colspan="1"  align="left">267</td>
+	<td width="24%" colspan="1"  align="left">JAGDISH PRASHAD GUPTA</td>
+	<td width="18%" colspan="1"  align="left"></td>
+	<td width="17%" colspan="1" align="right">134883</td>
+	<td width="16%" colspan="1" align="right">17500</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">14</td>
+	<td width="15%" colspan="1"  align="left">268</td>
+	<td width="24%" colspan="1"  align="left">N R SONI</td>
+	<td width="18%" colspan="1"  align="left"></td>
+	<td width="17%" colspan="1" align="right">134883</td>
+	<td width="16%" colspan="1" align="right">10000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">15</td>
+	<td width="15%" colspan="1"  align="left">5</td>
+	<td width="24%" colspan="1"  align="left"> B R RUMDE</td>
+	<td width="18%" colspan="1"  align="left">AASPR2306L</td>
+	<td width="17%" colspan="1" align="right">108528</td>
+	<td width="16%" colspan="1" align="right">10000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">16</td>
+	<td width="15%" colspan="1"  align="left">76</td>
+	<td width="24%" colspan="1"  align="left"> SUDHAKAR S. MATKAR</td>
+	<td width="18%" colspan="1"  align="left">AKCPM9552D</td>
+	<td width="17%" colspan="1" align="right">77280</td>
+	<td width="16%" colspan="1" align="right">5000</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">17</td>
+	<td width="15%" colspan="1"  align="left">9</td>
+	<td width="24%" colspan="1"  align="left"> R K LEMBHE</td>
+	<td width="18%" colspan="1"  align="left">ABCPL2959E</td>
+	<td width="17%" colspan="1" align="right">96789</td>
+	<td width="16%" colspan="1" align="right">9000</td>
+ </tr>
+ 
+ 
+  
+
+
+  <tr>
+	<td colspan="4"  align="center">GRAND TOTAL </td>
+	<td colspan="1"  align="right">=Sum(E4:E20)</td>
+	<td width="16%" colspan="1"  align="right">=Sum(F4:F20)</td>
+ </tr>
+</table> 
+<p>&nbsp;  </p>
+<p>&nbsp;  </p>
+   <div class="cp" id=buttons style="visibility: visible" Align='center'>
+	<input type="button" name="back" value=" Back " class="textboxes" onClick="javascript: history.back();">&nbsp;
+	<input type="button" name="print" value=" Print " class="textboxes" onClick="javascript: showToolbar();window.print();">
+ </div>
+</form>
+</body>
+</html>
