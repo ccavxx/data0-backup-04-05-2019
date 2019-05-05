@@ -1,0 +1,69 @@
+The part added gets called returns true for value TaxPro e-TDS Professional
+BATCH VALIDATION STARTED
+................ 0
+................ 0
+................ 2
+................ 2
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted2.0407
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted2.0000
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGSat Mar 02 10:39:30 IST 2019
+Field Validation of file is compleated sucessfully
+START # 02-03-2019 10:39:31.081
+ Original file object created and file exist
+tempFileName String cretaed ::  C://Users//VISHAL//Desktop//Data0//TDS//FY 2017-18//AIR//CORRECTION OF DEMAND 54//TESTING1//MO026Q2C_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^6^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19030210393109692108
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 02-03-2019 10:39:31.089
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 49
+the cinFileLevelHC no. is00000000000047465675
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19030210393109692108
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Mar 02 10:39:31 IST 2019
+ Exiting writeStatisticFile() Method Sat Mar 02 10:39:31 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 19030210393109692108
+Inside generateForm27A
+ Entering writePdfFile() Method Sat Mar 02 10:39:31 IST 2019
+ Exiting writePdfFile() Method Sat Mar 02 10:39:31 IST 2019
+pdf generatedtrue
+END TIME : Sat Mar 02 10:39:31 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@12f364d
+--error file path: C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING1\
+--dir to open object: C:\Users\VISHAL\Desktop\Data0\TDS\FY 2017-18\AIR\CORRECTION OF DEMAND 54\TESTING1
+the text error file path is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING1\
+the errorFileNameSAM is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING1\\MO026Q2Cerror.txt

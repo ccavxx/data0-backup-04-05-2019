@@ -1,0 +1,199 @@
+[28-Aug-2018]::[11:03:48 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate init]::[INFO]::[init starts]
+[28-Aug-2018]::[11:03:48 PM]::[com.itd.efiling.itr.common.util.j setUtilityParams]::[INFO]::[url jar:file:/D:/Data0/IT%20Returns/Patpedhi/AY%202018-19/ITR-5_2018%20latest%202408/ITR-5_AY201819_PR5.1.jar!/META-INF/MANIFEST.MF]
+[28-Aug-2018]::[11:03:48 PM]::[com.itd.efiling.itr.common.util.j setUtilityParams]::[INFO]::[2018-19 :: ITR-5 :: ]
+[28-Aug-2018]::[11:03:48 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate init]::[INFO]::[init ends in 80 ms.]
+[28-Aug-2018]::[11:03:48 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[MainLoader start method starts]
+[28-Aug-2018]::[11:03:50 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize starts]
+[28-Aug-2018]::[11:03:50 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListCommonScript ]
+[28-Aug-2018]::[11:03:50 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListItrAy ]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating fileListConfig ]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.common.util.c b]::[INFO]::[Before Validating verifySignature ]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.common.util.c a]::[INFO]::[verifies : true]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[Is utiltity valid ::true]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog starts]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[28-Aug-2018]::[11:03:52 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog ends]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog ends]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.main.ctrl.a b]::[INFO]::[hide validation]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.main.ctrl.d a]::[INFO]::[importFile : null]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize ends: time taken: 3416ms]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.main.ctrl.d initialize]::[INFO]::[initialize ends: time taken: 1ms]
+[28-Aug-2018]::[11:03:53 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[mainController.windowWidth new : 1300.0]
+[28-Aug-2018]::[11:03:54 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[1300.0 :: 1027.0 :: 221.00000000000003]
+[28-Aug-2018]::[11:03:54 PM]::[com.itd.efiling.itr.main.ctrl.ThreeRedLightsIlluminate start]::[INFO]::[MainLoader start method ends. Time taken: 5773]
+[28-Aug-2018]::[11:03:57 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[28-Aug-2018]::[11:03:57 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[jsobj [object DOMWindow]]
+[28-Aug-2018]::[11:03:59 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[time taken in changed : 1513]
+[28-Aug-2018]::[11:04:01 PM]::[com.itd.efiling.itr.toolbar.b importXml]::[INFO]::[importXmlDialog starts]
+[28-Aug-2018]::[11:04:01 PM]::[com.itd.efiling.itr.a.a.e a]::[INFO]::[extension : .open title : null type : false]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.toolbar.b a]::[INFO]::[Actual ITR ITR-5 Actual assesment year2018-19]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.toolbar.b a]::[INFO]::[Imported ITR ITR-5 Imported assesment year2018-19]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog starts]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog ends]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.a.a.d c]::[INFO]::[loadingDialog ends]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.main.ctrl.a b]::[INFO]::[hide validation]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.main.ctrl.d a]::[INFO]::[importFile : D:\Data0\IT Returns\Patpedhi\AY 2018-19\XML files\2508Final to upload.xml]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : SUCCEEDED newState : READY]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : READY newState : SCHEDULED]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : SCHEDULED newState : RUNNING]
+[28-Aug-2018]::[11:04:12 PM]::[com.itd.efiling.itr.toolbar.b importXml]::[INFO]::[importXmlDialog ends]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[jsobj [object DOMWindow]]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[Before setDocument]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[iterateNodeImportXml 0]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[cacheHtmlElements ]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l b]::[INFO]::[Before cacheHtmlElements 0]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l b]::[INFO]::[After cacheHtmlElements 2146]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[putValuesToHTML ]
+[28-Aug-2018]::[11:04:15 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[Before setValuesInForm]
+[28-Aug-2018]::[11:04:43 PM]::[com.itd.efiling.itr.common.util.l setValuesSingle]::[SEVERE]::[Error in setValuesSingle: scheduleAMTC.scheduleAMTCUtil[5].amtCreditSetOfEy val:0, index:0]
+[28-Aug-2018]::[11:04:43 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[End of putValuesToHTML]
+[28-Aug-2018]::[11:04:43 PM]::[com.itd.efiling.itr.common.util.l a]::[INFO]::[time taken in importxml function: 28627]
+[28-Aug-2018]::[11:08:55 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[time taken in changed : 280568]
+[28-Aug-2018]::[11:08:55 PM]::[com.itd.efiling.itr.common.a.a a]::[INFO]::[oldState  : RUNNING newState : SUCCEEDED]
+[28-Aug-2018]::[11:52:28 PM]::[com.itd.efiling.itr.toolbar.b calculateITR]::[INFO]::[calculateITR starts]
+[28-Aug-2018]::[11:52:28 PM]::[com.itd.efiling.itr.common.dialog.p b]::[INFO]::[Inside  reCalculate]
+[28-Aug-2018]::[11:52:30 PM]::[com.itd.efiling.itr.validation.a.a a]::[INFO]::[FIELD_VALIDATORS_MAP 1859]
+[28-Aug-2018]::[11:52:46 PM]::[com.itd.efiling.itr.toolbar.b submit]::[INFO]::[validateITR starts]
+[28-Aug-2018]::[11:52:46 PM]::[com.itd.efiling.itr.main.ctrl.a c]::[INFO]::[show validation]
+[28-Aug-2018]::[11:52:46 PM]::[com.itd.efiling.itr.validation.helpers.Validator validateAll]::[INFO]::[Time taken in validateAll(): 0]
+[28-Aug-2018]::[11:52:46 PM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() starts : ]
+[28-Aug-2018]::[11:52:46 PM]::[com.itd.efiling.itr.validation.helpers.Validator call]::[INFO]::[Call() ends time taken: 149  error count :0]
+[28-Aug-2018]::[11:52:47 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[Before setDocument]
+[28-Aug-2018]::[11:52:47 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[After setDocument[#document: null]]
+[28-Aug-2018]::[11:52:48 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partAGEN2.partnerOrMemberInfo[1].partnerOrMemberName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartA_GEN2/ITRCorForm:PartnerOrMemberInfo[2]/ITRCorForm:PartnerOrMemberName nodelist: 1]
+[28-Aug-2018]::[11:52:48 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.creditsToPL.otherOperatingRevenueDtls[1].operatingRevenueName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:CreditsToPL/ITRCorForm:OtherOperatingRevenueDtls[2]/ITRCorForm:OperatingRevenueName nodelist: 1]
+[28-Aug-2018]::[11:52:48 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.creditsToPL.otherOperatingRevenueDtls[2].operatingRevenueName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:CreditsToPL/ITRCorForm:OtherOperatingRevenueDtls[3]/ITRCorForm:OperatingRevenueName nodelist: 2]
+[28-Aug-2018]::[11:52:48 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[1].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[2]/ITRCorForm:ExpenseNature nodelist: 1]
+[28-Aug-2018]::[11:52:48 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[2].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[3]/ITRCorForm:ExpenseNature nodelist: 2]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[3].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[4]/ITRCorForm:ExpenseNature nodelist: 3]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[4].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[5]/ITRCorForm:ExpenseNature nodelist: 4]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[5].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[6]/ITRCorForm:ExpenseNature nodelist: 5]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[6].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[7]/ITRCorForm:ExpenseNature nodelist: 6]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[7].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[8]/ITRCorForm:ExpenseNature nodelist: 7]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[8].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[9]/ITRCorForm:ExpenseNature nodelist: 8]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[9].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[10]/ITRCorForm:ExpenseNature nodelist: 9]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[10].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[11]/ITRCorForm:ExpenseNature nodelist: 10]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[11].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[12]/ITRCorForm:ExpenseNature nodelist: 11]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[12].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[13]/ITRCorForm:ExpenseNature nodelist: 12]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[13].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[14]/ITRCorForm:ExpenseNature nodelist: 13]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[14].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[15]/ITRCorForm:ExpenseNature nodelist: 14]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[15].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[16]/ITRCorForm:ExpenseNature nodelist: 15]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[16].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[17]/ITRCorForm:ExpenseNature nodelist: 16]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[17].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[18]/ITRCorForm:ExpenseNature nodelist: 17]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[18].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[19]/ITRCorForm:ExpenseNature nodelist: 18]
+[28-Aug-2018]::[11:52:49 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[19].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[20]/ITRCorForm:ExpenseNature nodelist: 19]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[20].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[21]/ITRCorForm:ExpenseNature nodelist: 20]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[21].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[22]/ITRCorForm:ExpenseNature nodelist: 21]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[22].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[23]/ITRCorForm:ExpenseNature nodelist: 22]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[23].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[24]/ITRCorForm:ExpenseNature nodelist: 23]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[24].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[25]/ITRCorForm:ExpenseNature nodelist: 24]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[25].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[26]/ITRCorForm:ExpenseNature nodelist: 25]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[26].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[27]/ITRCorForm:ExpenseNature nodelist: 26]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[27].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[28]/ITRCorForm:ExpenseNature nodelist: 27]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[28].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[29]/ITRCorForm:ExpenseNature nodelist: 28]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[29].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[30]/ITRCorForm:ExpenseNature nodelist: 29]
+[28-Aug-2018]::[11:52:50 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: partapl.debitsToPL.debitPlAcnt.otherExpensesDtls[30].expenseNature xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PARTA_PL/ITRCorForm:DebitsToPL/ITRCorForm:DebitPlAcnt/ITRCorForm:OtherExpensesDtls[31]/ITRCorForm:ExpenseNature nodelist: 30]
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[1].ifscCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:PartB_TTI/ITRCorForm:AddtnlBankDetails[2]/ITRCorForm:IFSCCode nodelist: 0]
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+java.lang.NullPointerException
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl$4.run(Unknown Source)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[2].ifscCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:PartB_TTI/ITRCorForm:AddtnlBankDetails[3]/ITRCorForm:IFSCCode nodelist: 0]
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+java.lang.NullPointerException
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl$4.run(Unknown Source)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[1].bankName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartB_TTI/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:AddtnlBankDetails[2]/ITRCorForm:BankName nodelist: 1]
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[2].bankName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartB_TTI/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:AddtnlBankDetails[3]/ITRCorForm:BankName nodelist: 2]
+[28-Aug-2018]::[11:52:51 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].hpSno xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails[2]/ITRCorForm:HPSNo nodelist: 1]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[1].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[2]/ITRCorForm:SourceDescription nodelist: 1]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[2].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[3]/ITRCorForm:SourceDescription nodelist: 2]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[3].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[4]/ITRCorForm:SourceDescription nodelist: 3]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[4].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[5]/ITRCorForm:SourceDescription nodelist: 4]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[5].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[6]/ITRCorForm:SourceDescription nodelist: 5]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[6].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[7]/ITRCorForm:SourceDescription nodelist: 6]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[7].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[8]/ITRCorForm:SourceDescription nodelist: 7]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[8].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[9]/ITRCorForm:SourceDescription nodelist: 8]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[9].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[10]/ITRCorForm:SourceDescription nodelist: 9]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[10].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[11]/ITRCorForm:SourceDescription nodelist: 10]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[11].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[12]/ITRCorForm:SourceDescription nodelist: 11]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[12].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[13]/ITRCorForm:SourceDescription nodelist: 12]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[13].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[14]/ITRCorForm:SourceDescription nodelist: 13]
+[28-Aug-2018]::[11:52:52 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[14].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[15]/ITRCorForm:SourceDescription nodelist: 14]
+[28-Aug-2018]::[11:52:53 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[1].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[2]/ITRCorForm:AssYr nodelist: 1]
+[28-Aug-2018]::[11:52:53 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[2].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[3]/ITRCorForm:AssYr nodelist: 2]
+[28-Aug-2018]::[11:52:53 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[3].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[4]/ITRCorForm:AssYr nodelist: 3]
+[28-Aug-2018]::[11:52:53 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[4].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[5]/ITRCorForm:AssYr nodelist: 4]
+[28-Aug-2018]::[11:52:53 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[5].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[6]/ITRCorForm:AssYr nodelist: 5]
+[28-Aug-2018]::[11:52:54 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[8].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[9]/ITRCorForm:SecCode nodelist: 8]
+[28-Aug-2018]::[11:52:54 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[9].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[10]/ITRCorForm:SecCode nodelist: 9]
+[28-Aug-2018]::[11:52:54 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[10].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[11]/ITRCorForm:SecCode nodelist: 10]
+[28-Aug-2018]::[11:52:55 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[flagtrue]
+[28-Aug-2018]::[11:52:55 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[doc[#document: null]]
+[28-Aug-2018]::[11:52:56 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[Inside deleteNodeGenerateXml]
+[28-Aug-2018]::[11:52:56 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[FIELD_VALUE 2302]
+[28-Aug-2018]::[11:52:57 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[done with schema error; 0]
+[28-Aug-2018]::[11:52:57 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[hash {} X1nS2O6MzR4MTAh7KopsVSGVB5IE6PDZvP76j4nH8M0=]
+[28-Aug-2018]::[11:52:57 PM]::[com.itd.efiling.itr.common.util.f a]::[INFO]::[Time taken to generate: 10229 ms ]
+[28-Aug-2018]::[11:52:57 PM]::[com.itd.efiling.itr.a.a.a <init>]::[INFO]::[CommonDialog starts]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[initialize submit itr starts]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to get the document 89]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to set the parameters1]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to enableSec44AB 0]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n r]::[INFO]::[Enabling 92E for AY2017-18 and ITR 3,5,6 and 7]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to addKeyEvent 3]
+[28-Aug-2018]::[11:52:58 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to hideDscRelated 0]
+[28-Aug-2018]::[11:53:11 PM]::[com.itd.efiling.itr.common.dialog.p a]::[INFO]::[Inside  closeUtility]
+[28-Aug-2018]::[11:53:12 PM]::[com.itd.efiling.itr.main.ctrl.h a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@138117e, target = javafx.stage.Stage@138117e, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]
+[28-Aug-2018]::[11:55:19 PM]::[com.itd.efiling.itr.b.a.n getKeyStoreAliases]::[INFO]::[set : [AMOL ANANDA CHAVAN's SafeScrypt sub-CA for RCAI Class 2 2014 ID]]
+[28-Aug-2018]::[11:55:19 PM]::[com.itd.efiling.itr.a.a.n o]::[INFO]::[Time taken to initialize usb tokens140774]
+[28-Aug-2018]::[11:55:19 PM]::[com.itd.efiling.itr.a.a.n initialize]::[INFO]::[Time taken to initUsbTokens 140775]
+[28-Aug-2018]::[11:55:19 PM]::[com.itd.efiling.itr.a.a.a <init>]::[SEVERE]::[Not on FX application thread; currentThread = JavaFX Application Thread]
+java.lang.IllegalStateException: Not on FX application thread; currentThread = JavaFX Application Thread
+	at com.sun.javafx.tk.Toolkit.checkFxUserThread(Unknown Source)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(Unknown Source)
+	at javafx.scene.Scene.<init>(Unknown Source)
+	at javafx.scene.Scene.<init>(Unknown Source)
+	at com.itd.efiling.itr.a.a.a.<init>(Unknown Source)
+	at com.itd.efiling.itr.a.a.n.n(Unknown Source)
+	at com.itd.efiling.itr.validation.helpers.c.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl$4.run(Unknown Source)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

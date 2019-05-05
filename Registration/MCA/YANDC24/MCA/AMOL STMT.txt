@@ -1,0 +1,70 @@
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :16-Apr-2018                                                                                UserId : SHILPACO54
+Time : 11:18:37 AM                                                                                                Page :1 / 1
+                                                    Statement Of Account                                                     
+                                              From  15-Mar-2018  to  31-Mar-2018                                             
+
+   Accountno :00541001000030
+   Name: CHAVAN AMOL ANANDA
+   Address :HEERA APARTMENT, GALA NO. 1 TO 4,
+   JANATA SOCIETY MARG, HINGWALA ROAD,,PANTNAGAR, GHATKOPAR,
+   MUMBAI,400077
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                      8607.12 |
+ 16-Mar-2018 | TOPOSTXN/807420026410/01000030/10559121       |        |          100.00 |                 |         8507.12 |
+ 17-Mar-2018 | TOPOSTXN/807610518094/01000030/81800541       |        |          250.00 |                 |         8257.12 |
+ 17-Mar-2018 | TOPOSTXN/807616030877/01000030/40078192       |        |          100.00 |                 |         8157.12 |
+ 19-Mar-2018 | ToATM0054/807708245427/10/01/000030/MDCC0009  |        |          500.00 |                 |         7657.12 |
+ 20-Mar-2018 | TOPOSTXN/807911025351/01000030/40078192       |        |          349.90 |                 |         7307.22 |
+ 26-Mar-2018 | BY CASH                                       |        |                 |         6600.00 |        13907.22 |
+ 26-Mar-2018 | TO TRANSFER 56/18/07/301 ATMARAM MARUTI PATIL |  34738 |         7000.00 |                 |         6907.22 |
+ 26-Mar-2018 | TO TRANSFER AMOL ANANDA CHAVAN-RTGS/99/01/001 |  34737 |         5000.00 |                 |         1907.22 |
+ 26-Mar-2018 | TO NEFT CHARGES-RTGS/99/01/001703/0054        |        |            3.00 |                 |         1904.22 |
+ 26-Mar-2018 | TOPOSTXN/808520015957/01000030/40075487       |        |          100.00 |                 |         1804.22 |
+ 27-Mar-2018 | BY TRA54/11/06/15 AJINKYATARA AUD UTP SANSTA~ |        |                 |         5690.00 |         7494.22 |
+ 27-Mar-2018 | TO CASH SELF                                  |  34739 |         5690.00 |                 |         1804.22 |
+ 27-Mar-2018 | TOPOSTXN/808617613511/01000030/26455254       |        |          265.00 |                 |         1539.22 |
+ 28-Mar-2018 | By NEFT :SUDHIR DINKAR YESANE                 |        |                 |        45000.00 |        46539.22 |
+ 28-Mar-2018 | TO CASH SELF                                  |  34740 |        45000.00 |                 |         1539.22 |
+ 28-Mar-2018 | To APY 500121747443                           |        |          164.00 |                 |         1375.22 |
+ 31-Mar-2018 | BY:REFUND/807420026410/15-MAR-2018 - MAR-18   |        |                 |            0.75 |         1375.97 |
+ 31-Mar-2018 | BY:REFUND/807616030877/17-MAR-2018 - MAR-18   |        |                 |            0.75 |         1376.72 |
+ 31-Mar-2018 | BY:REFUND/807911025351/20-MAR-2018 - MAR-18   |        |                 |            2.62 |         1379.34 |
+ 31-Mar-2018 | BY INTEREST SB DAILY PRODUCT                  |        |                 |           83.00 |         1462.34 |
+ Closing Bal |                                                                                                      1462.34 |
+=============================================================================================================================
+     Total : |                                               |        |        64521.90 |        57377.12 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |        64521.90 |        57377.12 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

@@ -1,0 +1,281 @@
+---KAK--0
+---Record found13---1^FH^NS1^C^04032019^1^D^MUMO02862G^1^NSDL RPU 2.5^^^^^^^^00000000000496635754
+Field Number  2  The conolodidated hash is nullAnd the value is1
+Field Number  3  The conolodidated hash is nullAnd the value isFH
+Field Number  4  The conolodidated hash is nullAnd the value isNS1
+Field Number  5  The conolodidated hash is nullAnd the value isC
+Field Number  6  The conolodidated hash is nullAnd the value is04032019
+Field Number  7  The conolodidated hash is nullAnd the value is1
+Field Number  8  The conolodidated hash is nullAnd the value isD
+Field Number  9  The conolodidated hash is nullAnd the value isMUMO02862G
+Field Number  10  The conolodidated hash is nullAnd the value is1
+Field Number  11  The conolodidated hash is nullAnd the value isNSDL RPU 2.5
+Field Number  12  The conolodidated hash is nullAnd the value is^
+Field Number  13  The conolodidated hash is nullAnd the value is^
+Field Number  14  The conolodidated hash is nullAnd the value is^
+Field Number  15  The conolodidated hash is nullAnd the value is^
+Field Number  16  The conolodidated hash is nullAnd the value is^
+Field Number  17  The conolodidated hash is nullAnd the value is^
+Field Number  18  The conolodidated hash is nullAnd the value is^
+Field Number  19  The conolodidated hash is 00000000000496635754And the value is00000000000496635754
+The part added gets called returns true for value NSDL RPU 2.5
+BATCH VALIDATION STARTS HERE:::::Mon Mar 04 14:33:45 IST 2019
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+Validating Challan 1
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+Validating Challan 2
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+Validating Challan 3
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+Validating Challan 4
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+Validating Challan 5
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 5
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+Validating Challan 6
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C3
+-----------------------------------------------------------------------------------------------
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 6
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+value of mode is U
+value of isModeValid is true
+the value of pvalTotalIncomeTaxDeposited
+iam outside
+the value of sumOfTotalIncomeTaxDeducted is 0.0
+the value of SumTotalIncTaxDedAtSource is  0.00
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Mar 04 14:33:45 IST 2019
+Field Validation of file is compleated sucessfully
+START # 04-03-2019 14:33:45.645
+ Original file object created and file exist
+tempFileName String cretaed ::  C:/Users/VISHAL/Desktop/Data0/TDS/FY 2017-18/AIR/CORRECTION OF DEMAND 54/Corrections/New test 26Q Q4 2009-10/26QCQ4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^68^FVU 2.156^00000000000000000000^SAM 1.0^00000000000000000000^19030414334569340678
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 04-03-2019 14:33:45.661
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the cinCheckStr is 62^MUMO02862G^OFFICE OF THE CHIEF ENGINEER (WZ)^6.0^2.156^00000000000074775809
+the checktoken no. isjava.util.StringTokenizer@797f87
+the check token count token is 11
+the challan count is 62
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19030414334569340678
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java getStatisticaFileDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java getStatisticSalDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Mar 04 14:33:45 IST 2019
+ Exiting writeStatisticFile() Method Mon Mar 04 14:33:45 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ BARCODE :- 19030414334569340678
+Inside generateForm27A
+ Entering writePdfFile() Method Mon Mar 04 14:33:45 IST 2019
+ Exiting writePdfFile() Method Mon Mar 04 14:33:45 IST 2019
+pdf generatedtrue
+END TIME : Mon Mar 04 14:33:46 IST 2019
+the text error file path is C:\Users\VISHAL\Desktop\Data0\TDS\FY 2017-18\AIR\CORRECTION OF DEMAND 54\Corrections\New test 26Q Q4 2009-10
+---LOWER---
+inside File Saved

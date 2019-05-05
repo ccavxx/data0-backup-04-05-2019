@@ -1,0 +1,102 @@
+---KAK--0
+---Record found13---1^FH^NS1^C^01112018^1^D^MUMO02862G^1^NSDL RPU 2.4^^^^^^^^00000000000841049476
+Field Number  2  The conolodidated hash is nullAnd the value is1
+Field Number  3  The conolodidated hash is nullAnd the value isFH
+Field Number  4  The conolodidated hash is nullAnd the value isNS1
+Field Number  5  The conolodidated hash is nullAnd the value isC
+Field Number  6  The conolodidated hash is nullAnd the value is01112018
+Field Number  7  The conolodidated hash is nullAnd the value is1
+Field Number  8  The conolodidated hash is nullAnd the value isD
+Field Number  9  The conolodidated hash is nullAnd the value isMUMO02862G
+Field Number  10  The conolodidated hash is nullAnd the value is1
+Field Number  11  The conolodidated hash is nullAnd the value isNSDL RPU 2.4
+Field Number  12  The conolodidated hash is nullAnd the value is^
+Field Number  13  The conolodidated hash is nullAnd the value is^
+Field Number  14  The conolodidated hash is nullAnd the value is^
+Field Number  15  The conolodidated hash is nullAnd the value is^
+Field Number  16  The conolodidated hash is nullAnd the value is^
+Field Number  17  The conolodidated hash is nullAnd the value is^
+Field Number  18  The conolodidated hash is nullAnd the value is^
+Field Number  19  The conolodidated hash is 00000000000841049476And the value is00000000000841049476
+The part added gets called returns true for value NSDL RPU 2.4
+BATCH VALIDATION STARTS HERE:::::Thu Nov 01 08:13:53 IST 2018
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+Validating Challan 1
+Validating Challan For Batch Number2
+----------------------------------------------------------------------------------------------------------------------------
+ Before if loop  bypassTanTanNameValidate  ::false
+bybookcash isN
+the upload type is C
+the transaction type is C2
+No of challan from csi file :: 12
+The FVU Higher Version is 5.9
+The FVU Higher Version is 2.155
+-----------------------------------------------------------------------------------------------
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGThu Nov 01 08:13:53 IST 2018
+Field Validation of file is compleated sucessfully
+START # 01-11-2018 08:13:53.958
+ Original file object created and file exist
+tempFileName String cretaed ::  E:/Data0/TDS/AIR/CORRECTION OF DEMAND 54/Corrections/2007-08 26Q/26QCQ4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^3^FVU 2.155^00000000000000000000^SAM 1.0^00000000000000000000^18110108135312337472
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 01-11-2018 08:13:53.974
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the cinCheckStr is 12^MUMO02862G^OFFICE OF THE CHIEF ENGINEER (WZ)^5.9^2.155^00000000000003358792
+the checktoken no. isjava.util.StringTokenizer@c11e9f
+the check token count token is 11
+the challan count is 12
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :18110108135312337472
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java getStatisticaFileDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java getStatisticSalDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Thu Nov 01 08:13:54 IST 2018
+ Exiting writeStatisticFile() Method Thu Nov 01 08:13:54 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ BARCODE :- 18110108135312337472
+Inside generateForm27A
+ Entering writePdfFile() Method Thu Nov 01 08:13:54 IST 2018
+ Exiting writePdfFile() Method Thu Nov 01 08:13:54 IST 2018
+pdf generatedtrue
+END TIME : Thu Nov 01 08:13:54 IST 2018
+the text error file path is E:\Data0\TDS\AIR\CORRECTION OF DEMAND 54\Corrections\2007-08 26Q
+---LOWER---
+before state changed called
+Action disabled
+calling paste method
+exception is Invalid location
+exception is Invalid location
+exception is Invalid location
+exception is Invalid location
+exception is Invalid location
+exception is Invalid location

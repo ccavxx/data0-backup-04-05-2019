@@ -1,0 +1,87 @@
+The part added gets called returns true for value NSDL RPU 2.5
+BATCH VALIDATION STARTED
+................ 2
+................ 2
+................ 3
+................ 3
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 2
+................ 2
+................ 3
+................ 3
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Entering Salary Detail Validation
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Feb 25 13:06:41 IST 2019
+................ 2
+................ 2
+................ 3
+................ 3
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Entering Salary Detail Validation
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Feb 25 13:06:41 IST 2019
+Field Validation of file is compleated sucessfully
+START # 25-02-2019 13:06:42.261
+ Original file object created and file exist
+tempFileName String cretaed ::  C:/Users/VISHAL/Desktop/To upload TDS/24Q ETDS - 2012-13 -Q4/24QCQ4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 3^8^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19022513064224746539
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 25-02-2019 13:06:42.261
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 15
+the cinFileLevelHC no. is00000000000005003702
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19022513064224746539
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+ Exiting writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+ Exiting writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+ Exiting writeStatisticFile() Method Mon Feb 25 13:06:42 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 19022513064224746539
+Inside generateForm27A
+ Entering writePdfFile() Method Mon Feb 25 13:06:42 IST 2019
+ Exiting writePdfFile() Method Mon Feb 25 13:06:42 IST 2019
+pdf generatedtrue
+END TIME : Mon Feb 25 13:06:42 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@6561aa30
+--error file path: C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2012-13 -Q4
+--dir to open object: C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2012-13 -Q4
+the text error file path is C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2012-13 -Q4
+the errorFileNameSAM is C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2012-13 -Q4\24QCQ4.err
+---UPPER---

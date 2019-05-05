@@ -1,0 +1,73 @@
+
+
+
+
+
+
+                                  ACCOUNT STATEMENT FROM 01/04/2017 TO 31/03/2018                       Page No :1
+----------------------------------------------------------------------------------------------------------------------------------
+ HEAD OFFICE                                             |       Name :RATHOD SACHIN MAHADEV
+ HEAD OFFICE(Brn Code:0000)                                      
+ TDCC BANK BUILDING,SHIVAJI PATH,POST BOX NO.19                  
+ STATION ROAD,THANE-W,PIN-400601                                 
+ Tel:  02225391562                                                                                  
+ MICR Code:  400524001       IFS Code:  TDCB0000001                                                 
+
+ GL Name.      : LOAN TO STAFF FOR HOUSING                                                
+ Account No.   : 000003190000931                                                          
+ A/c Open Date : 13/10/2010                                                               
+ A/c Status    : Operative                                                                
+ A/c Category  : Staff                                                                    
+
+ Sanction Amt  :1145000.00                                                           First Inst Dt :10/12/2010
+ Sanction No   :931/319                                                              Due Dt        :10/11/2022
+ No of Inst    :144                                                                  Inst Amt      :9000.00
+ Rt of Int     :6.00                                                                 
+----------------------------------------------------------------------------------------------------------------------------------
+   Date         Chq.No.              Particulars                                Debit          Credit        Balance
+----------------------------------------------------------------------------------------------------------------------------------
+ 01/04/2017                 OPENING BALANCE B/F ...                                                        -590331.78
+ 29/04/2017                By Salary Ded 0319 April 2017                                       9800.00     -580531.78
+ 31/05/2017                By Salary Ded 0319 May 2017                                         9800.00     -570731.78
+ 30/06/2017                By Salary Ded 0319 June 2017                                        9800.00     -560931.78
+ 31/07/2017                By Salary Ded 0319 July 2017                                        9800.00     -551131.78
+ 21/08/2017                By Salary Ded 0319 August 2017                                      9800.00     -541331.78
+ 29/09/2017                By Salary Ded 0319 September 2017                                   9800.00     -531531.78
+ 29/09/2017                To Service Charges On Loan A/c                         59.00                    -531590.78
+ 31/10/2017                By Salary Ded 0319 October 2017                                     9800.00     -521790.78
+ 30/11/2017                By Salary Ded 0319 November 2017                                    9800.00     -511990.78
+ 30/12/2017                By Salary Ded 0319 December 2017                                    9800.00     -502190.78
+ 31/01/2018                By Salary Ded 0319 January 2018                                     9800.00     -492390.78
+ 28/02/2018                By Salary Ded 0319 February 2018                                    9800.00     -482590.78
+ 23/03/2018                By Salary Ded 0319 March 2018                                       9800.00     -472790.78
+ 31/03/2018                To Service Charges On Loan A/c                         59.00                    -472849.78
+ 31/03/2018                 CLOSING BALANCE  ...                                                       -472849.78
+----------------------------------------------------------------------------------------------------------------------------------
+                              Grand Total ...                                    118.00      117600.00
+==================================================================================================================================
+** This is a Computer generated statement **
+** Any discrepancy in this statement may please be notified within one week **
+
+                                                                        THE THANE DISTRICT CENTRAL CO. OP. BANK LTD.
+
+
+
+                                                                        Clerk/Cashier   Jr/Sr. Officer   Br. Manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

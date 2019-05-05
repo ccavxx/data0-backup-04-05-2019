@@ -1,0 +1,1355 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: AAVPJ3357N
+PersonResponsilblePAN.trim().length() ::10
+................ 4
+................ 4
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted10.0000
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+FileGenerator.java getPANStatBatchDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00003
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00017
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00018
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00017
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00017
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00010
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00005
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00003
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00005
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00010
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted10.0000
+Validating Challan 5
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 5
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00013
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00014
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 6
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 6
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00003
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00007
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00008
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00010
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00015
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00009
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00011
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00016
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted20.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 7
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 7
+RateAtWhichTaxDeducted10.0000
+Validating Challan 8
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 8
+RateAtWhichTaxDeducted10.0000
+Validating Challan 9
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 9
+RateAtWhichTaxDeducted1.0000
+Validating Challan 10
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 10
+RateAtWhichTaxDeducted1.0000
+Validating Challan 11
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 11
+RateAtWhichTaxDeducted10.0000
+Validating Challan 12
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 12
+RateAtWhichTaxDeducted10.0000
+Validating Challan 13
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 13
+RateAtWhichTaxDeducted10.0000
+Validating Challan 14
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 14
+RateAtWhichTaxDeducted1.0000
+Validating Challan 15
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 15
+RateAtWhichTaxDeducted10.0000
+Validating Challan 16
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 16
+RateAtWhichTaxDeducted10.0000
+Validating Challan 17
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 17
+RateAtWhichTaxDeducted10.0000
+Validating Challan 18
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 18
+RateAtWhichTaxDeducted10.0000
+Validating Challan 19
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 19
+RateAtWhichTaxDeducted10.0000
+Validating Challan 20
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 20
+RateAtWhichTaxDeducted10.0000
+Validating Challan 21
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 21
+RateAtWhichTaxDeducted10.0000
+Validating Challan 22
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 22
+RateAtWhichTaxDeducted10.0000
+Validating Challan 23
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 23
+RateAtWhichTaxDeducted10.0000
+Validating Challan 24
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 24
+RateAtWhichTaxDeducted10.0000
+Validating Challan 25
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 25
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+Validating Challan 26
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 86
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  CANARA BANK   TanNameFromCSIFile :: CANARA BANK
+TanFromTxtFile ::  MUMC14758C   TanFromCSIFile  :: MUMC14758C
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 26
+RateAtWhichTaxDeducted10.0000
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Oct 22 15:15:30 IST 2018
+Field Validation of file is compleated sucessfully
+START # 22-10-2018 15:15:32.618
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Timesheet//14. Ruchita//CB - Mazgaon//New folder//MC126Q2_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^1041^FVU 5.9^00000000000000000000^SAM 1.0^00000000000000000000^18102215153269520548
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 22-10-2018 15:15:32.710
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 86
+the cinFileLevelHC no. is00000000000142074413
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :18102215153269520548
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Oct 22 15:15:33 IST 2018
+ Exiting writeStatisticFile() Method Mon Oct 22 15:15:33 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 18102215153269520548
+Inside generateForm27A
+ Entering writePdfFile() Method Mon Oct 22 15:15:33 IST 2018
+ Exiting writePdfFile() Method Mon Oct 22 15:15:33 IST 2018
+pdf generatedtrue
+END TIME : Mon Oct 22 15:15:35 IST 2018
+--DESKTOP OBJECT: java.awt.Desktop@5395ea39
+--error file path: Z:\\Timesheet\\14. Ruchita\\CB - Mazgaon\\New folder\
+--dir to open object: Z:\Timesheet\14. Ruchita\CB - Mazgaon\New folder
+the text error file path is Z:\\Timesheet\\14. Ruchita\\CB - Mazgaon\\New folder\
+the errorFileNameSAM is Z:\\Timesheet\\14. Ruchita\\CB - Mazgaon\\New folder\\MC126Q2error.txt

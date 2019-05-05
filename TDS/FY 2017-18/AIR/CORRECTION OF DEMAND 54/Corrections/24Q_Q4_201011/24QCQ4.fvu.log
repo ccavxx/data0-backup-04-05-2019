@@ -1,0 +1,72 @@
+The part added gets called returns true for value NSDL RPU 2.5
+BATCH VALIDATION STARTED
+................ 5
+................ 5
+................ 3
+................ 3
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 5
+................ 5
+................ 3
+................ 3
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Entering Salary Detail Validation
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGSat Mar 02 11:34:00 IST 2019
+Field Validation of file is compleated sucessfully
+START # 02-03-2019 11:34:01.277
+ Original file object created and file exist
+tempFileName String cretaed ::  C:/Users/VISHAL/Documents/24Q_Q4_201011/24QCQ4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 2^16^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19030211340123890997
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 02-03-2019 11:34:01.286
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 49
+the cinFileLevelHC no. is00000000000047465675
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19030211340123890997
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Mar 02 11:34:01 IST 2019
+ Exiting writeStatisticFile() Method Sat Mar 02 11:34:01 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Mar 02 11:34:01 IST 2019
+ Exiting writeStatisticFile() Method Sat Mar 02 11:34:01 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 19030211340123890997
+Inside generateForm27A
+ Entering writePdfFile() Method Sat Mar 02 11:34:01 IST 2019
+ Exiting writePdfFile() Method Sat Mar 02 11:34:01 IST 2019
+pdf generatedtrue
+END TIME : Sat Mar 02 11:34:01 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@4dac4f
+--error file path: C:\Users\VISHAL\Documents\24Q_Q4_201011
+--dir to open object: C:\Users\VISHAL\Documents\24Q_Q4_201011
+the text error file path is C:\Users\VISHAL\Documents\24Q_Q4_201011
+the errorFileNameSAM is C:\Users\VISHAL\Documents\24Q_Q4_201011\24QCQ4.err
+---UPPER---
+inside File Saved

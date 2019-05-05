@@ -1,0 +1,58 @@
+                             MUMBAI DISTRICT CENTRAL CO-OP. BANK LTD.,0054-CHEMBUR COLONY BRANCH                             
+              Om Sai Co-Op Credit Society Ltd, Shop No 4 AC,1247 School, Near Golf Club,Chembur ,Mumbai-400074               
+
+Current Date  :16-Apr-2018                                                                                UserId : SHILPACO54
+Time : 11:16:32 AM                                                                                                Page :1 / 1
+                                                    Statement Of Account                                                     
+                                              From  01-Mar-2018  to  31-Mar-2018                                             
+
+   Accountno :00541001000005
+   Name: GHUMRE YOGESH VISHNU
+   Address :FLAT NO-1704 BLDG NO-50
+   HIMGIRI CO-OP HSG SOC LTD SUBHASH NAGER,NEAR ACHARYA COLLEGE  CHEMBUR
+   MUMBAI,400071
+   Limit:0                                 INR
+   Joint Holder:
+=============================================================================================================================
+ Trans. Date | Particulars                                   | InstNo |      Debit Amt. |     Credit Amt. |         Balance |
+=============================================================================================================================
+ Opening Bal |                                                                                                      1231.55 |
+ 03-Mar-2018 | BY CASH                                       |        |                 |         1500.00 |         2731.55 |
+ 03-Mar-2018 | TO TRANS NEFT YOGESH GHUMRE-RTGS/99/01/001703 |  35838 |         1500.00 |                 |         1231.55 |
+ 03-Mar-2018 | TO NEFT CHARGES-RTGS/99/01/001703/0054        |        |            3.00 |                 |         1228.55 |
+ 12-Mar-2018 | BY CASH                                       |        |                 |        12000.00 |        13228.55 |
+ 12-Mar-2018 | TO TRAN NEFT SAILEE WALAVALKAR-RTGS/99/01/001 |  35839 |        12000.00 |                 |         1228.55 |
+ 12-Mar-2018 | TO NEFT CHARGES-RTGS/99/01/001703/0054        |        |            6.00 |                 |         1222.55 |
+ 27-Mar-2018 | TO ATM CARD HANDLING CHARGES \11-DEC-2014     |        |          177.00 |                 |         1045.55 |
+ 31-Mar-2018 | BY INTEREST SB DAILY PRODUCT                  |        |                 |           12.00 |         1057.55 |
+ Closing Bal |                                                                                                      1057.55 |
+=============================================================================================================================
+     Total : |                                               |        |        13686.00 |        13512.00 |                 |
+=============================================================================================================================
+ Grand Total |                                               |        |        13686.00 |        13512.00 |                 |
+=============================================================================================================================
+
+
+
+  1) If there is any discrepancy in the above mentioned statement kindly let us know 
+     within 10 days  from the date of receipt of the statement .   
+  2) This is a computerised statement , hence no signature of the officials is necessary. 
+   
+   
+   
+   * We provide SMS Banking Facility. Register your mobile number with our Branch. 
+     For further details please contact our Branch. 
+   
+   1) Account Balance Query : 
+      Type SMS like MDCC< space >BQ< space ><14 digit account No>     & send it to 9222000404 
+   
+   2) Last Three Transactions : 
+      Type SMS like MDCC< space >MS< space ><14 digit account No>     & send it to 9222000404 
+   
+   3) Cheque Status Enquiry : 
+      Type SMS like MDCC< space >CS< space ><14 digit account No>     & send it to 9222000404
+   
+   4) To Block ATM Card : 
+      Type SMS CARDBLOCK from your registered mobile no. & send it to 9222000404
+
+

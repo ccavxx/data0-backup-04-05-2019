@@ -1,0 +1,119 @@
+The part added gets called returns true for value TaxPro e-TDS Professional
+BATCH VALIDATION STARTED
+................ 1
+................ 1
+................ 1
+................ 1
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 1
+................ 1
+................ 1
+................ 1
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Validating Challan 1
+Validating Challan For Batch Number3
+java.lang.NumberFormatException: For input string: "^"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.tin.tds.FormValidator.a(gb:16287)
+	at com.tin.tds.FormValidator.a(gb:936)
+	at com.tin.FVU.FVU.a(jb:2774)
+	at com.tin.FVU.FVU.main(jb:975)
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number3
+java.lang.NumberFormatException: For input string: "^"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.tin.tds.FormValidator.a(gb:16287)
+	at com.tin.tds.FormValidator.a(gb:936)
+	at com.tin.FVU.FVU.a(jb:2774)
+	at com.tin.FVU.FVU.main(jb:975)
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+Validating Challan 3
+Validating Challan For Batch Number3
+java.lang.NumberFormatException: For input string: "^"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.tin.tds.FormValidator.a(gb:16287)
+	at com.tin.tds.FormValidator.a(gb:936)
+	at com.tin.FVU.FVU.a(jb:2774)
+	at com.tin.FVU.FVU.main(jb:975)
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGSat Mar 02 10:28:47 IST 2019
+Field Validation of file is compleated sucessfully
+START # 02-03-2019 10:28:47.639
+ Original file object created and file exist
+tempFileName String cretaed ::  C://Users//VISHAL//Desktop//Data0//TDS//FY 2017-18//AIR//CORRECTION OF DEMAND 54//TESTING//MO026Q3C_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 2^14^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19030210284722007263
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 02-03-2019 10:28:47.655
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 12
+the cinFileLevelHC no. is00000000000003554086
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19030210284722007263
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Mar 02 10:28:47 IST 2019
+ Exiting writeStatisticFile() Method Sat Mar 02 10:28:47 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Mar 02 10:28:47 IST 2019
+ Exiting writeStatisticFile() Method Sat Mar 02 10:28:47 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 19030210284722007263
+Inside generateForm27A
+ Entering writePdfFile() Method Sat Mar 02 10:28:48 IST 2019
+ Exiting writePdfFile() Method Sat Mar 02 10:28:48 IST 2019
+pdf generatedtrue
+END TIME : Sat Mar 02 10:28:48 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@1c8caa7
+--error file path: C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING\
+--dir to open object: C:\Users\VISHAL\Desktop\Data0\TDS\FY 2017-18\AIR\CORRECTION OF DEMAND 54\TESTING
+the text error file path is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING\
+the errorFileNameSAM is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2017-18\\AIR\\CORRECTION OF DEMAND 54\\TESTING\\MO026Q3Cerror.txt

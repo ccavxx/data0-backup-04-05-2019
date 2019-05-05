@@ -1,0 +1,526 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: BLQPP2063N
+PersonResponsilblePAN.trim().length() ::10
+................ 3
+................ 3
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted2.0000
+Validating Challan 5
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 5
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 6
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 6
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 7
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 7
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 8
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 8
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+FileGenerator.java getPANStatBatchDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+RateAtWhichTaxDeducted20.0000
+The part added gets called returns true for value NOPAN00001
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 9
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 9
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+Validating Challan 10
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.0
+The FVU lower Version is 2.156
+TanNameFromTxtFile ::  CANARA BANK - GOLANJI HILL ROAD SEWREE WEST   TanNameFromCSIFile :: CANARA BANK - GOLANJI HILL ROAD SEWREE WEST
+TanFromTxtFile ::  MUMC11289F   TanFromCSIFile  :: MUMC11289F
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 10
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted10.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+RateAtWhichTaxDeducted0.0000
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGTue Jan 08 12:47:54 IST 2019
+Field Validation of file is compleated sucessfully
+START # 08-01-2019 12:47:55.550
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Shilpa Madam//Timesheet//14. Ruchita//Sewree - 08012019//Form26Q3_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^383^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19010812475594622112
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 08-01-2019 12:47:55.624
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 42
+the cinFileLevelHC no. is00000000000034554560
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19010812475594622112
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Tue Jan 08 12:47:56 IST 2019
+ Exiting writeStatisticFile() Method Tue Jan 08 12:47:56 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 19010812475594622112
+Inside generateForm27A
+ Entering writePdfFile() Method Tue Jan 08 12:47:56 IST 2019
+ Exiting writePdfFile() Method Tue Jan 08 12:47:56 IST 2019
+pdf generatedtrue
+END TIME : Tue Jan 08 12:47:56 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@1d730606
+--error file path: Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\Sewree - 08012019\
+--dir to open object: Z:\Shilpa Madam\Timesheet\14. Ruchita\Sewree - 08012019
+the text error file path is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\Sewree - 08012019\
+the errorFileNameSAM is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\Sewree - 08012019\\Form26Q3error.txt

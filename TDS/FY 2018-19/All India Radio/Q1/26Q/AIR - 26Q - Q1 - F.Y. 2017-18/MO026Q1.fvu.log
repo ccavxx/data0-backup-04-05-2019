@@ -1,0 +1,133 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 5
+................ 5
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 46
+The FVU Higher Version is 5.8
+The FVU lower Version is 2.154
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 46
+The FVU Higher Version is 5.8
+The FVU lower Version is 2.154
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 46
+The FVU Higher Version is 5.8
+The FVU lower Version is 2.154
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+RateAtWhichTaxDeducted2.0000
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 46
+The FVU Higher Version is 5.8
+The FVU lower Version is 2.154
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted10.0000
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGThu Jul 19 21:02:24 IST 2018
+Field Validation of file is compleated sucessfully
+START # 19-07-2018 21:02:26.458
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Shilpa Madam//Timesheet//14. Ruchita//OTHER//AIR//26Q//MO026Q1_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^47^FVU 5.8^00000000000000000000^SAM 1.0^00000000000000000000^18071921022646248637
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 19-07-2018 21:02:27.445
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 46
+the cinFileLevelHC no. is00000000000042458475
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :18071921022646248637
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Thu Jul 19 21:02:28 IST 2018
+ Exiting writeStatisticFile() Method Thu Jul 19 21:02:28 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 18071921022646248637
+Inside generateForm27A
+ Entering writePdfFile() Method Thu Jul 19 21:02:29 IST 2018
+ Exiting writePdfFile() Method Thu Jul 19 21:02:29 IST 2018
+pdf generatedtrue
+END TIME : Thu Jul 19 21:02:31 IST 2018
+--DESKTOP OBJECT: java.awt.Desktop@6b3e12b5
+--error file path: Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\26Q\
+--dir to open object: Z:\Shilpa Madam\Timesheet\14. Ruchita\OTHER\AIR\26Q
+the text error file path is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\26Q\
+the errorFileNameSAM is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\26Q\\MO026Q1error.txt

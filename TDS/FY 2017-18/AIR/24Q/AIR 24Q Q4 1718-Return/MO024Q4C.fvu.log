@@ -1,0 +1,260 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+................ 3
+................ 3
+................ 1
+................ 1
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 3
+................ 3
+................ 1
+................ 1
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Validating Challan 1
+Validating Challan For Batch Number3
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number3
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGSat Jul 07 17:49:29 IST 2018
+Field Validation of file is compleated sucessfully
+START # 07-07-2018 17:49:29.876
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Shilpa Madam//Timesheet//14. Ruchita//OTHER//AIR//Return//MO024Q4C_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 2^184^FVU 5.8^00000000000000000000^SAM 1.0^00000000000000000000^18070717492979029523
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 07-07-2018 17:49:29.931
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 43
+the cinFileLevelHC no. is00000000000037595156
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :18070717492979029523
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Jul 07 17:49:30 IST 2018
+ Exiting writeStatisticFile() Method Sat Jul 07 17:49:30 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Sat Jul 07 17:49:30 IST 2018
+ Exiting writeStatisticFile() Method Sat Jul 07 17:49:30 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 18070717492979029523
+Inside generateForm27A
+ Entering writePdfFile() Method Sat Jul 07 17:49:31 IST 2018
+ Exiting writePdfFile() Method Sat Jul 07 17:49:31 IST 2018
+pdf generatedtrue
+END TIME : Sat Jul 07 17:49:31 IST 2018
+--DESKTOP OBJECT: java.awt.Desktop@53d102a2
+--error file path: Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\Return\
+--dir to open object: Z:\Shilpa Madam\Timesheet\14. Ruchita\OTHER\AIR\Return
+the text error file path is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\Return\
+the errorFileNameSAM is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\AIR\\Return\\MO024Q4Cerror.txt

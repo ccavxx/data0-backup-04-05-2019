@@ -1,0 +1,277 @@
+[21-Oct-2018]::[10:47:22 AM]::[com.itd.efiling.offline.common.player.ctrl.a initialize]::[INFO]::[msgContainer : VBox[id=msgContainer] scrollPane ScrollPane[id=formContainer, styleClass=scroll-pane]]
+[21-Oct-2018]::[10:47:23 AM]::[com.itd.efiling.offline.form15g.ctrl.Form15GView <init>]::[INFO]::[Before loading fxmlLoader.....]
+[21-Oct-2018]::[10:47:25 AM]::[com.itd.efiling.offline.form15g.ctrl.Form15GView <init>]::[INFO]::[After loading fxmlLoader.....]
+[21-Oct-2018]::[10:47:56 AM]::[com.itd.efiling.offline.common.validation.a.b a]::[INFO]::[VALIDATORS_TYPE_MAP 19]
+[21-Oct-2018]::[10:47:56 AM]::[com.itd.efiling.offline.common.validation.a.a a]::[INFO]::[FIELD_VALIDATORS_MAP 39]
+[21-Oct-2018]::[10:47:57 AM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[INFO]::[Error While executeOnChangeMethod for onChangeMethodName ... onChangeMode]
+[21-Oct-2018]::[10:47:57 AM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[SEVERE]::[com.itd.efiling.offline.form15g.a.a.a.onChangeMode(com.itd.efiling.offline.javafx.ui.components.n)]
+java.lang.NoSuchMethodException: com.itd.efiling.offline.form15g.a.a.a.onChangeMode(com.itd.efiling.offline.javafx.ui.components.n)
+	at java.lang.Class.getMethod(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.setErrorMessages(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.<clinit>(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.a.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.changed(Unknown Source)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	at javafx.beans.property.ReadOnlyBooleanPropertyBase.fireValueChangedEvent(ReadOnlyBooleanPropertyBase.java:72)
+	at javafx.scene.Node$FocusedProperty.notifyListeners(Node.java:7718)
+	at javafx.scene.Scene$13.invalidated(Scene.java:2077)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:111)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	at javafx.scene.Scene$KeyHandler.setFocusOwner(Scene.java:3924)
+	at javafx.scene.Scene$KeyHandler.requestFocus(Scene.java:3971)
+	at javafx.scene.Scene$KeyHandler.access$1900(Scene.java:3910)
+	at javafx.scene.Scene.requestFocus(Scene.java:2044)
+	at javafx.scene.Node.requestFocus(Node.java:7879)
+	at com.sun.javafx.scene.traversal.TopMostTraversalEngine.focusAndNotify(TopMostTraversalEngine.java:110)
+	at com.sun.javafx.scene.traversal.TopMostTraversalEngine.trav(TopMostTraversalEngine.java:104)
+	at javafx.scene.Scene.traverse(Scene.java:2005)
+	at javafx.scene.Node.impl_traverse(Node.java:7897)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.traverse(BehaviorBase.java:284)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.traverseNext(BehaviorBase.java:324)
+	at com.sun.javafx.scene.control.behavior.TextInputControlBehavior.callAction(TextInputControlBehavior.java:195)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.callActionForEvent(BehaviorBase.java:218)
+	at com.sun.javafx.scene.control.behavior.TextInputControlBehavior.callActionForEvent(TextInputControlBehavior.java:127)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.lambda$new$74(BehaviorBase.java:135)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$KeyHandler.process(Scene.java:3964)
+	at javafx.scene.Scene$KeyHandler.access$1800(Scene.java:3910)
+	at javafx.scene.Scene.impl_processKeyEvent(Scene.java:2040)
+	at javafx.scene.Scene$ScenePeerListener.keyEvent(Scene.java:2501)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:217)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:149)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleKeyEvent$352(GlassViewEventHandler.java:248)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleKeyEvent(GlassViewEventHandler.java:247)
+	at com.sun.glass.ui.View.handleKeyEvent(View.java:546)
+	at com.sun.glass.ui.View.notifyKey(View.java:966)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[21-Oct-2018]::[10:47:57 AM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[INFO]::[Error While executeOnChangeMethod for onChangeMethodName ... test]
+[21-Oct-2018]::[10:47:57 AM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[SEVERE]::[com.itd.efiling.offline.form15g.a.a.a.test(com.itd.efiling.offline.javafx.ui.components.n)]
+java.lang.NoSuchMethodException: com.itd.efiling.offline.form15g.a.a.a.test(com.itd.efiling.offline.javafx.ui.components.n)
+	at java.lang.Class.getMethod(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.setErrorMessages(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.<clinit>(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.a.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.changed(Unknown Source)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	at javafx.beans.property.ReadOnlyBooleanPropertyBase.fireValueChangedEvent(ReadOnlyBooleanPropertyBase.java:72)
+	at javafx.scene.Node$FocusedProperty.notifyListeners(Node.java:7718)
+	at javafx.scene.Scene$13.invalidated(Scene.java:2077)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:111)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	at javafx.scene.Scene$KeyHandler.setFocusOwner(Scene.java:3924)
+	at javafx.scene.Scene$KeyHandler.requestFocus(Scene.java:3971)
+	at javafx.scene.Scene$KeyHandler.access$1900(Scene.java:3910)
+	at javafx.scene.Scene.requestFocus(Scene.java:2044)
+	at javafx.scene.Node.requestFocus(Node.java:7879)
+	at com.sun.javafx.scene.traversal.TopMostTraversalEngine.focusAndNotify(TopMostTraversalEngine.java:110)
+	at com.sun.javafx.scene.traversal.TopMostTraversalEngine.trav(TopMostTraversalEngine.java:104)
+	at javafx.scene.Scene.traverse(Scene.java:2005)
+	at javafx.scene.Node.impl_traverse(Node.java:7897)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.traverse(BehaviorBase.java:284)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.traverseNext(BehaviorBase.java:324)
+	at com.sun.javafx.scene.control.behavior.TextInputControlBehavior.callAction(TextInputControlBehavior.java:195)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.callActionForEvent(BehaviorBase.java:218)
+	at com.sun.javafx.scene.control.behavior.TextInputControlBehavior.callActionForEvent(TextInputControlBehavior.java:127)
+	at com.sun.javafx.scene.control.behavior.BehaviorBase.lambda$new$74(BehaviorBase.java:135)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$KeyHandler.process(Scene.java:3964)
+	at javafx.scene.Scene$KeyHandler.access$1800(Scene.java:3910)
+	at javafx.scene.Scene.impl_processKeyEvent(Scene.java:2040)
+	at javafx.scene.Scene$ScenePeerListener.keyEvent(Scene.java:2501)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:217)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:149)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleKeyEvent$352(GlassViewEventHandler.java:248)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleKeyEvent(GlassViewEventHandler.java:247)
+	at com.sun.glass.ui.View.handleKeyEvent(View.java:546)
+	at com.sun.glass.ui.View.notifyKey(View.java:966)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[21-Oct-2018]::[10:48:01 AM]::[com.itd.efiling.offline.common.validation.validators.ValidatorInteface addFieldError]::[INFO]::[errorMsg  : Please select the quarter.]
+[21-Oct-2018]::[10:48:23 AM]::[javafx.scene.CssStyleHelper calculateValue]::[WARNING]::[Could not resolve '-fx-focused-base' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Program%20Files/Java/jre1.8.0_181/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss]
+[21-Oct-2018]::[10:48:23 AM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .csv title : Open]
+[21-Oct-2018]::[10:48:42 AM]::[com.itd.efiling.offline.javafx.ui.components.g importCsv]::[INFO]::[records com.itd.efiling.offline.common.c.b.d@71ce45]
+[21-Oct-2018]::[10:48:42 AM]::[com.itd.efiling.offline.common.c.a.a.a a]::[INFO]::[IMPORT_CSV_DTL_MAPPINGS 2]
+[21-Oct-2018]::[10:48:42 AM]::[com.itd.efiling.offline.javafx.ui.components.g importCsv]::[INFO]::[importCsvMappings 27]
+[21-Oct-2018]::[10:48:45 AM]::[javafx.scene.CssStyleHelper calculateValue]::[WARNING]::[Could not resolve '-fx-focused-base' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Program%20Files/Java/jre1.8.0_181/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss]
+[21-Oct-2018]::[10:48:52 AM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .csv title : Open]
+[21-Oct-2018]::[10:49:07 AM]::[com.itd.efiling.offline.common.player.ctrl.a validate]::[INFO]::[Start validate]
+[21-Oct-2018]::[10:49:07 AM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[list 58]
+[21-Oct-2018]::[10:49:07 AM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[keyParentSet size is {}58]
+[21-Oct-2018]::[10:49:07 AM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[keyChildSet size is {}58]
+[21-Oct-2018]::[10:49:07 AM]::[com.itd.efiling.offline.common.validation.validators.ValidationUtil validateTableOnSave]::[INFO]::[Form.getForm() : Form15GView@fd53a7 :: class com.itd.efiling.offline.form15g.ctrl.b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.common.validation.validators.ValidationUtil validateTableOnSave]::[INFO]::[Form.getForm() : Form15GView@fd53a7 :: class com.itd.efiling.offline.form15g.ctrl.a]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@39984]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@39984]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@14be142]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@14be142]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@681ff0]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@681ff0]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@e5a41c]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@e5a41c]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da3210]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da3210]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@13a72a9]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@13a72a9]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@fa3491]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@fa3491]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@ed6c5d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@ed6c5d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@16db58b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@16db58b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e63875]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e63875]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@d9c6a4]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@d9c6a4]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f5dda6]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f5dda6]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@19af57e]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@19af57e]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@16951e8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@16951e8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1cd5007]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1cd5007]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@5ea7f5]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@5ea7f5]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@338045]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@338045]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1c26ffa]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1c26ffa]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f0502d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f0502d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1fa2b89]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1fa2b89]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@195aa5b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@195aa5b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1eebbec]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1eebbec]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1b7f9c4]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1b7f9c4]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1013218]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1013218]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f48b11]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f48b11]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e96b58]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e96b58]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@15ec4b8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@15ec4b8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1a7b179]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1a7b179]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@fc055f]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@fc055f]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@7b1873]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@7b1873]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1476480]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1476480]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@18f3a28]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@18f3a28]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@19706bb]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@19706bb]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1ed30ba]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1ed30ba]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e821e3]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1e821e3]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1761fcc]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1761fcc]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1b61c7]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1b61c7]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@aff21e]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@aff21e]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da2cd1]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da2cd1]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f1c939]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1f1c939]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@e38399]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@e38399]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1a3b859]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1a3b859]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@5ca918]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@5ca918]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@15b116b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@15b116b]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@18eb312]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@18eb312]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1bbb1ca]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1bbb1ca]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@40d5cc]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@40d5cc]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1fd4866]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1fd4866]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1017468]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1017468]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@122b423]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@122b423]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1eef9fe]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1eef9fe]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f32d1d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f32d1d]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f9bddf]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@f9bddf]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da81cf]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@da81cf]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1baea3]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@1baea3]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@12debf8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@12debf8]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@6bb747]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@6bb747]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@579e7c]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.form15g.ctrl.a getParentObject]::[INFO]::[part1 : com.itd.efiling.offline.form15g.model.i@579e7c]
+[21-Oct-2018]::[10:49:08 AM]::[com.itd.efiling.offline.common.player.ctrl.a validate]::[INFO]::[End validate]
+[21-Oct-2018]::[10:49:11 AM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .zip title : ZIP file]
+[21-Oct-2018]::[11:08:17 AM]::[com.itd.efiling.offline.common.dialog.o a]::[INFO]::[Inside  closeUtility]
+[21-Oct-2018]::[11:08:19 AM]::[com.itd.efiling.offline.common.player.ctrl.f a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@1c9da03, target = javafx.stage.Stage@1c9da03, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]

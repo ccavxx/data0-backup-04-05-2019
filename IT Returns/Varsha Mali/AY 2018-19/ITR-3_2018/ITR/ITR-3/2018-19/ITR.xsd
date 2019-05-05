@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:ITR3FORM="http://incometaxindiaefiling.gov.in/ITR3" 
+	xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" 
+	targetNamespace="http://incometaxindiaefiling.gov.in/main" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/ITR3" schemaLocation="ITR-3_2018.xsd"/>
+	<xs:element name="ITR">
+		<xs:annotation>
+			<xs:documentation>Schema for ITR-3, AY 2018-19 </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ITR3FORM:ITR3"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

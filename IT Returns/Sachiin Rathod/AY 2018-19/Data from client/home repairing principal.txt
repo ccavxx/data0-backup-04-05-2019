@@ -1,0 +1,62 @@
+   ACCOUNT STATEMENT FROM 01/04/2017 TO 28/06/2018                       Page No :1
+----------------------------------------------------------------------------------------------------------------------------------
+ HEAD OFFICE                                             |       Name :RATHOD SACHIN MAHADEV
+ HEAD OFFICE(Brn Code:0000)                                      
+ TDCC BANK BUILDING,SHIVAJI PATH,POST BOX NO.19                  
+ STATION ROAD,THANE-W,PIN-400601                                 
+ Tel:  02225391562                                                                                  
+ MICR Code:  400524001       IFS Code:  TDCB0000001                                                 
+
+ GL Name.      : LOAN TO STAFF HOUSE REPARING                                             
+ Account No.   : 000006810000265                                                          
+ A/c Open Date : 28/01/2014                                                               
+ A/c Status    : Closed                                                                   
+ A/c Category  : Staff                                                                    
+
+ Sanction Amt  :594000.00                                                            First Inst Dt :10/03/2014
+ Sanction No   :265/681                                                              Due Dt        :10/02/2029
+ No of Inst    :180                                                                  Inst Amt      :5400.00
+ Rt of Int     :6.50                                                                 
+----------------------------------------------------------------------------------------------------------------------------------
+   Date         Chq.No.              Particulars                                Debit          Credit        Balance
+----------------------------------------------------------------------------------------------------------------------------------
+ 01/04/2017                 OPENING BALANCE B/F ...                                                        -417097.79
+ 29/04/2017                By Salary Ded 0681 April 2017                                       5400.00     -411697.79
+ 31/05/2017                By Salary Ded 0681 May 2017                                         5400.00     -406297.79
+ 30/06/2017                By Salary Ded 0681 June 2017                                        5400.00     -400897.79
+ 31/07/2017                By Salary Ded 0681 July 2017                                        5400.00     -395497.79
+ 21/08/2017                By Salary Ded 0681 August 2017                                      5400.00     -390097.79
+ 29/09/2017                By Salary Ded 0681 September 2017                                   5400.00     -384697.79
+ 29/09/2017                To Service Charges On Loan A/c                         59.00                    -384756.79
+ 31/10/2017                By Salary Ded 0681 October 2017                                     5400.00     -379356.79
+ 30/11/2017                By Salary Ded 0681 November 2017                                    5400.00     -373956.79
+ 05/12/2017                IB (TRF) TB:0000:By Trf 0033/030/11432                             12698.00     -361258.79
+ 11/12/2017                IB (TRF) TB:0000:By Trf 0033/030/14479 & 030/                      60000.00     -301258.79
+ 30/12/2017                By Salary Ded 0681 December 2017                                    5400.00     -295858.79
+ 31/01/2018                By Salary Ded 0681 January 2018                                     5400.00     -290458.79
+ 05/02/2018                By Cash                                                            44591.00     -245867.79
+ 07/02/2018                IB (TRF) TB:0000:By Trf 033/030/11432                              30000.00     -215867.79
+ 28/02/2018                By Salary Ded 0681 February 2018                                    5400.00     -210467.79
+ 23/03/2018                By Salary Ded 0681 March 2018                                       5400.00     -205067.79
+ 31/03/2018                To Service Charges On Loan A/c                         59.00                    -205126.79
+ 20/04/2018                By Trf 0030-0377 SM RATHOD                                        100000.00     -105126.79
+ 27/04/2018                By Salary Ded 0681 April 2018                                       5400.00      -99726.79
+ 31/05/2018                By Salary Ded 0681 May 2018                                         5400.00      -94326.79
+ 07/06/2018                By Trf 30/377                                                      94326.79           0.00
+ 07/06/2018                 CLOSING BALANCE  ...                                                             0.00
+----------------------------------------------------------------------------------------------------------------------------------
+                              Grand Total ...                                    118.00      417215.79
+==================================================================================================================================
+** This is a Computer generated statement **
+** Any discrepancy in this statement may please be notified within one week **
+
+                                                                        THE THANE DISTRICT CENTRAL CO. OP. BANK LTD.
+
+
+
+                                                                        Clerk/Cashier   Jr/Sr. Officer   Br. Manager
+
+
+
+
+

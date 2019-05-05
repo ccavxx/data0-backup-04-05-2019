@@ -1,0 +1,229 @@
+[08-Jan-2019]::[12:32:03 PM]::[com.itd.efiling.offline.common.player.ctrl.a initialize]::[INFO]::[msgContainer : VBox[id=msgContainer] scrollPane ScrollPane[id=formContainer, styleClass=scroll-pane]]
+[08-Jan-2019]::[12:32:04 PM]::[com.itd.efiling.offline.form15h.ctrl.Form15HView <init>]::[INFO]::[Before loading fxmlLoader.....]
+[08-Jan-2019]::[12:32:07 PM]::[com.itd.efiling.offline.form15h.ctrl.Form15HView <init>]::[INFO]::[After loading fxmlLoader.....]
+[08-Jan-2019]::[12:32:10 PM]::[com.itd.efiling.offline.common.player.ctrl.a open]::[INFO]::[Start open]
+[08-Jan-2019]::[12:32:10 PM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .open title : Open]
+[08-Jan-2019]::[12:32:17 PM]::[com.itd.efiling.offline.common.k.j unmarshal]::[INFO]::[rootName : FORM15H]
+[08-Jan-2019]::[12:32:17 PM]::[com.itd.efiling.offline.common.player.ctrl.a open]::[INFO]::[End open]
+[08-Jan-2019]::[12:32:17 PM]::[com.itd.efiling.offline.form15h.ctrl.Form15HView <init>]::[INFO]::[Before loading fxmlLoader.....]
+[08-Jan-2019]::[12:32:19 PM]::[com.itd.efiling.offline.form15h.ctrl.Form15HView <init>]::[INFO]::[After loading fxmlLoader.....]
+[08-Jan-2019]::[12:32:19 PM]::[com.itd.efiling.offline.common.k.d b]::[INFO]::[Before tvc init : com.itd.efiling.offline.form15h.ctrl.b@78c0cb key class com.itd.efiling.offline.form15h.ctrl.b]
+[08-Jan-2019]::[12:32:19 PM]::[com.itd.efiling.offline.common.k.d b]::[INFO]::[Before tit init : com.itd.efiling.offline.form15h.ctrl.a@1f35906 key class com.itd.efiling.offline.form15h.ctrl.a]
+[08-Jan-2019]::[12:32:28 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:32:28 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@c38fd3]
+[08-Jan-2019]::[12:32:28 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Before clone : com.itd.efiling.offline.form15h.model.i@c38fd3]
+[08-Jan-2019]::[12:32:28 PM]::[javafx.scene.CssStyleHelper calculateValue]::[WARNING]::[Could not resolve '-fx-focused-base' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Program%20Files/Java/jre1.8.0_191/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss]
+[08-Jan-2019]::[12:32:40 PM]::[com.itd.efiling.offline.javafx.ui.components.g cancel]::[INFO]::[Inside cancel ]
+[08-Jan-2019]::[12:32:48 PM]::[com.itd.efiling.offline.javafx.ui.components.g copyRow]::[INFO]::[Inside copyRow ]
+[08-Jan-2019]::[12:32:48 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@c38fd3]
+[08-Jan-2019]::[12:32:48 PM]::[com.itd.efiling.offline.javafx.ui.components.g copyRow]::[INFO]::[Before clone : com.itd.efiling.offline.form15h.model.i@c38fd3]
+[08-Jan-2019]::[12:32:48 PM]::[com.itd.efiling.offline.common.k.d c]::[INFO]::[f.getName() : incomeDtl ::  is a list]
+[08-Jan-2019]::[12:32:48 PM]::[com.itd.efiling.offline.javafx.ui.components.g b]::[INFO]::[Inside addRow ]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.validation.a.b a]::[INFO]::[VALIDATORS_TYPE_MAP 19]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.validation.a.a a]::[INFO]::[FIELD_VALIDATORS_MAP 39]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[INFO]::[Error While executeOnChangeMethod for onChangeMethodName ... onChangeMode]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[SEVERE]::[com.itd.efiling.offline.form15h.a.a.a.onChangeMode(com.itd.efiling.offline.javafx.ui.components.n)]
+java.lang.NoSuchMethodException: com.itd.efiling.offline.form15h.a.a.a.onChangeMode(com.itd.efiling.offline.javafx.ui.components.n)
+	at java.lang.Class.getMethod(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.setErrorMessages(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.<clinit>(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.a.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.changed(Unknown Source)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	at javafx.beans.property.ReadOnlyBooleanPropertyBase.fireValueChangedEvent(ReadOnlyBooleanPropertyBase.java:72)
+	at javafx.scene.Node$FocusedProperty.notifyListeners(Node.java:7718)
+	at javafx.scene.Scene$13.invalidated(Scene.java:2077)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:111)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	at javafx.scene.Scene$KeyHandler.setFocusOwner(Scene.java:3924)
+	at javafx.scene.Scene$KeyHandler.requestFocus(Scene.java:3971)
+	at javafx.scene.Scene$KeyHandler.access$1900(Scene.java:3910)
+	at javafx.scene.Scene.requestFocus(Scene.java:2044)
+	at javafx.scene.Node.requestFocus(Node.java:7879)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mousePressed(ButtonBehavior.java:156)
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:95)
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[INFO]::[Error While executeOnChangeMethod for onChangeMethodName ... test]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.common.i.a.b setErrorMessages]::[SEVERE]::[com.itd.efiling.offline.form15h.a.a.a.test(com.itd.efiling.offline.javafx.ui.components.n)]
+java.lang.NoSuchMethodException: com.itd.efiling.offline.form15h.a.a.a.test(com.itd.efiling.offline.javafx.ui.components.n)
+	at java.lang.Class.getMethod(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.setErrorMessages(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.b.<clinit>(Unknown Source)
+	at com.itd.efiling.offline.common.i.a.a.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.a(Unknown Source)
+	at com.itd.efiling.offline.javafx.ui.components.b.changed(Unknown Source)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	at javafx.beans.property.ReadOnlyBooleanPropertyBase.fireValueChangedEvent(ReadOnlyBooleanPropertyBase.java:72)
+	at javafx.scene.Node$FocusedProperty.notifyListeners(Node.java:7718)
+	at javafx.scene.Scene$13.invalidated(Scene.java:2077)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:111)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	at javafx.scene.Scene$KeyHandler.setFocusOwner(Scene.java:3924)
+	at javafx.scene.Scene$KeyHandler.requestFocus(Scene.java:3971)
+	at javafx.scene.Scene$KeyHandler.access$1900(Scene.java:3910)
+	at javafx.scene.Scene.requestFocus(Scene.java:2044)
+	at javafx.scene.Node.requestFocus(Node.java:7879)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mousePressed(ButtonBehavior.java:156)
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:95)
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-Jan-2019]::[12:33:02 PM]::[javafx.scene.CssStyleHelper calculateValue]::[WARNING]::[Could not resolve '-fx-focused-base' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Program%20Files/Java/jre1.8.0_191/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.javafx.ui.components.g saveDtl]::[INFO]::[Inside saveRow()... : 1 ::  com.itd.efiling.offline.form15h.model.i@155c1af]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane b]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.javafx.ui.components.g a]::[INFO]::[ADD_OPERATION Item index : -1]
+[08-Jan-2019]::[12:33:02 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:33:08 PM]::[com.itd.efiling.offline.javafx.ui.components.g copyRow]::[INFO]::[Inside copyRow ]
+[08-Jan-2019]::[12:33:08 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@573074]
+[08-Jan-2019]::[12:33:08 PM]::[com.itd.efiling.offline.javafx.ui.components.g copyRow]::[INFO]::[Before clone : com.itd.efiling.offline.form15h.model.i@573074]
+[08-Jan-2019]::[12:33:08 PM]::[com.itd.efiling.offline.common.k.d c]::[INFO]::[f.getName() : incomeDtl ::  is a list]
+[08-Jan-2019]::[12:33:08 PM]::[com.itd.efiling.offline.javafx.ui.components.g b]::[INFO]::[Inside addRow ]
+[08-Jan-2019]::[12:33:14 PM]::[com.itd.efiling.offline.javafx.ui.components.g saveDtl]::[INFO]::[Inside saveRow()... : 1 ::  com.itd.efiling.offline.form15h.model.i@a2b3af]
+[08-Jan-2019]::[12:33:14 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane b]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:33:14 PM]::[com.itd.efiling.offline.javafx.ui.components.g a]::[INFO]::[ADD_OPERATION Item index : -1]
+[08-Jan-2019]::[12:33:14 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:33:23 PM]::[com.itd.efiling.offline.form15h.ctrl.a setRootObject]::[INFO]::[rootList : [com.itd.efiling.offline.form15h.model.i@c38fd3, com.itd.efiling.offline.form15h.model.i@573074, com.itd.efiling.offline.form15h.model.i@155c1af, com.itd.efiling.offline.form15h.model.i@a2b3af]]
+[08-Jan-2019]::[12:33:23 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:33:23 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.g@f38c56]
+[08-Jan-2019]::[12:33:23 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Before clone : com.itd.efiling.offline.form15h.model.g@f38c56]
+[08-Jan-2019]::[12:33:23 PM]::[javafx.scene.CssStyleHelper calculateValue]::[WARNING]::[Could not resolve '-fx-focused-base' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Program%20Files/Java/jre1.8.0_191/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss]
+[08-Jan-2019]::[12:33:31 PM]::[com.itd.efiling.offline.javafx.ui.components.g cancel]::[INFO]::[Inside cancel ]
+[08-Jan-2019]::[12:33:49 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:33:49 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@155c1af]
+[08-Jan-2019]::[12:33:49 PM]::[com.itd.efiling.offline.javafx.ui.components.g editRow]::[INFO]::[Before clone : com.itd.efiling.offline.form15h.model.i@155c1af]
+[08-Jan-2019]::[12:33:51 PM]::[com.itd.efiling.offline.javafx.ui.components.g cancel]::[INFO]::[Inside cancel ]
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before  : com.itd.efiling.offline.form15h.model.i@155c1af]
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before : com.itd.efiling.offline.form15h.model.i@155c1af]
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[getRowFor setRowFor : ValRowEditorPane[id=rowEditorPane, styleClass=titled-pane]'Income details']
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[tableView  ValTableView[id=tableView, styleClass=table-view]]
+[08-Jan-2019]::[12:33:53 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[after select]
+[08-Jan-2019]::[12:33:56 PM]::[com.itd.efiling.offline.common.validation.validators.ValidatorInteface addFieldError]::[INFO]::[errorMsg  : Please select option from drop own menu.]
+[08-Jan-2019]::[12:33:57 PM]::[com.itd.efiling.offline.common.validation.validators.ValidatorInteface addFieldError]::[INFO]::[ensureVisible ValComboBox@16dbc1a[styleClass=combo-box-base combo-box]]
+[08-Jan-2019]::[12:34:26 PM]::[com.itd.efiling.offline.javafx.ui.components.g saveDtl]::[INFO]::[Inside saveRow()... : 1 ::  com.itd.efiling.offline.form15h.model.g@1413776]
+[08-Jan-2019]::[12:34:26 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane b]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:34:26 PM]::[com.itd.efiling.offline.javafx.ui.components.g a]::[INFO]::[ADD_OPERATION Item index : -1]
+[08-Jan-2019]::[12:34:26 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:34:34 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before  : com.itd.efiling.offline.form15h.model.i@a2b3af]
+[08-Jan-2019]::[12:34:34 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before : com.itd.efiling.offline.form15h.model.i@a2b3af]
+[08-Jan-2019]::[12:34:34 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:34:34 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[tableView  ValTableView[id=tableView, styleClass=table-view]]
+[08-Jan-2019]::[12:34:34 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[after select]
+[08-Jan-2019]::[12:34:36 PM]::[com.itd.efiling.offline.javafx.ui.components.g cancel]::[INFO]::[Inside cancel ]
+[08-Jan-2019]::[12:34:43 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before  : com.itd.efiling.offline.form15h.model.i@a2b3af]
+[08-Jan-2019]::[12:34:43 PM]::[com.itd.efiling.offline.form15h.ctrl.b addIncDtls]::[INFO]::[Before : com.itd.efiling.offline.form15h.model.i@a2b3af]
+[08-Jan-2019]::[12:34:43 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[Inside editRow ]
+[08-Jan-2019]::[12:34:43 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[tableView  ValTableView[id=tableView, styleClass=table-view]]
+[08-Jan-2019]::[12:34:43 PM]::[com.itd.efiling.offline.form15h.ctrl.a a]::[INFO]::[after select]
+[08-Jan-2019]::[12:35:02 PM]::[com.itd.efiling.offline.javafx.ui.components.g saveDtl]::[INFO]::[Inside saveRow()... : 1 ::  com.itd.efiling.offline.form15h.model.g@1a90d18]
+[08-Jan-2019]::[12:35:02 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane b]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:02 PM]::[com.itd.efiling.offline.javafx.ui.components.g a]::[INFO]::[ADD_OPERATION Item index : -1]
+[08-Jan-2019]::[12:35:02 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:12 PM]::[com.itd.efiling.offline.form15h.ctrl.a setRootObject]::[INFO]::[rootList : [com.itd.efiling.offline.form15h.model.i@c38fd3, com.itd.efiling.offline.form15h.model.i@573074, com.itd.efiling.offline.form15h.model.i@155c1af, com.itd.efiling.offline.form15h.model.i@a2b3af]]
+[08-Jan-2019]::[12:35:13 PM]::[com.itd.efiling.offline.javafx.ui.components.g deleteRow]::[INFO]::[Inside deleteRow ]
+[08-Jan-2019]::[12:35:13 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.g@f38c56]
+[08-Jan-2019]::[12:35:13 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:14 PM]::[com.itd.efiling.offline.form15h.ctrl.a setRootObject]::[INFO]::[rootList : [com.itd.efiling.offline.form15h.model.i@c38fd3, com.itd.efiling.offline.form15h.model.i@573074, com.itd.efiling.offline.form15h.model.i@155c1af, com.itd.efiling.offline.form15h.model.i@a2b3af]]
+[08-Jan-2019]::[12:35:14 PM]::[com.itd.efiling.offline.javafx.ui.components.g deleteRow]::[INFO]::[Inside deleteRow ]
+[08-Jan-2019]::[12:35:14 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.g@135b80]
+[08-Jan-2019]::[12:35:14 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:18 PM]::[com.itd.efiling.offline.form15h.ctrl.a b]::[INFO]::[Inside deleteFromBasicDtls ]
+[08-Jan-2019]::[12:35:18 PM]::[com.itd.efiling.offline.javafx.ui.components.g deleteRow]::[INFO]::[Inside deleteRow ]
+[08-Jan-2019]::[12:35:18 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@c38fd3]
+[08-Jan-2019]::[12:35:18 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:20 PM]::[com.itd.efiling.offline.form15h.ctrl.a b]::[INFO]::[Inside deleteFromBasicDtls ]
+[08-Jan-2019]::[12:35:20 PM]::[com.itd.efiling.offline.javafx.ui.components.g deleteRow]::[INFO]::[Inside deleteRow ]
+[08-Jan-2019]::[12:35:20 PM]::[com.itd.efiling.offline.javafx.ui.components.g getSelectedItem]::[INFO]::[Before selectedItem : com.itd.efiling.offline.form15h.model.i@573074]
+[08-Jan-2019]::[12:35:20 PM]::[com.itd.efiling.offline.javafx.ui.components.ValRowEditorPane c]::[INFO]::[ Before validateBeforeSave ]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.player.ctrl.a validate]::[INFO]::[Start validate]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[list 2]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[keyParentSet size is {}2]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.validation.validators.ChildListValidator validate]::[INFO]::[keyChildSet size is {}2]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.validation.validators.ValidationUtil validateTableOnSave]::[INFO]::[Form.getForm() : Form15HView@1f0a8e6 :: class com.itd.efiling.offline.form15h.ctrl.b]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.validation.validators.ValidationUtil validateTableOnSave]::[INFO]::[Form.getForm() : Form15HView@1f0a8e6 :: class com.itd.efiling.offline.form15h.ctrl.a]
+[08-Jan-2019]::[12:35:22 PM]::[com.itd.efiling.offline.common.player.ctrl.a validate]::[INFO]::[End validate]
+[08-Jan-2019]::[12:35:24 PM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .zip title : ZIP file]
+[08-Jan-2019]::[12:46:34 PM]::[com.itd.efiling.offline.common.k.g a]::[INFO]::[extension : .draft title : XML file]
+[08-Jan-2019]::[12:46:42 PM]::[com.itd.efiling.offline.common.dialog.o a]::[INFO]::[Inside  closeUtility]
+[08-Jan-2019]::[12:46:44 PM]::[com.itd.efiling.offline.common.player.ctrl.f a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@14fde0c, target = javafx.stage.Stage@14fde0c, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]

@@ -1,0 +1,329 @@
+---KAK--0
+---Record found13---1^FH^SL1^C^25022019^1^D^MUMO02862G^1^NSDL RPU 2.5^^^^^^^^00000000000733192926
+Field Number  2  The conolodidated hash is nullAnd the value is1
+Field Number  3  The conolodidated hash is nullAnd the value isFH
+Field Number  4  The conolodidated hash is nullAnd the value isSL1
+Field Number  5  The conolodidated hash is nullAnd the value isC
+Field Number  6  The conolodidated hash is nullAnd the value is25022019
+Field Number  7  The conolodidated hash is nullAnd the value is1
+Field Number  8  The conolodidated hash is nullAnd the value isD
+Field Number  9  The conolodidated hash is nullAnd the value isMUMO02862G
+Field Number  10  The conolodidated hash is nullAnd the value is1
+Field Number  11  The conolodidated hash is nullAnd the value isNSDL RPU 2.5
+Field Number  12  The conolodidated hash is nullAnd the value is^
+Field Number  13  The conolodidated hash is nullAnd the value is^
+Field Number  14  The conolodidated hash is nullAnd the value is^
+Field Number  15  The conolodidated hash is nullAnd the value is^
+Field Number  16  The conolodidated hash is nullAnd the value is^
+Field Number  17  The conolodidated hash is nullAnd the value is^
+Field Number  18  The conolodidated hash is nullAnd the value is^
+Field Number  19  The conolodidated hash is 00000000000733192926And the value is00000000000733192926
+The part added gets called returns true for value NSDL RPU 2.5
+BATCH VALIDATION STARTS HERE:::::Mon Feb 25 12:35:19 IST 2019
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character in my string
+There is a non special character in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+There is a non special character or space in my string
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Feb 25 12:35:19 IST 2019
+Field Validation of file is compleated sucessfully
+START # 25-02-2019 12:35:19.450
+ Original file object created and file exist
+tempFileName String cretaed ::  C:/Users/VISHAL/Desktop/To upload TDS/24Q ETDS - 2009-10 -Q4/24QCQ4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^2^FVU 2.156^00000000000000000000^SAM 1.0^00000000000000000000^19022512351911966779
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 25-02-2019 12:35:19.482
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the cinCheckStr is 12^MUMO02862G^OFFICE OF THE CHIEF ENGINEER (WZ)^6.0^2.156^00000000000003429818
+the checktoken no. isjava.util.StringTokenizer@3d669261
+the check token count token is 11
+the challan count is 12
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19022512351911966779
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java getStatisticaFileDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java getStatisticSalDetail() method Called
+FileGenerator.java getStatisticaFileDetail() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Feb 25 12:35:19 IST 2019
+ Exiting writeStatisticFile() Method Mon Feb 25 12:35:19 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ BARCODE :- 19022512351911966779
+Inside generateForm27A
+ Entering writePdfFile() Method Mon Feb 25 12:35:19 IST 2019
+ Exiting writePdfFile() Method Mon Feb 25 12:35:19 IST 2019
+pdf generatedtrue
+END TIME : Mon Feb 25 12:35:20 IST 2019
+the text error file path is C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2009-10 -Q4
+---LOWER---
+inside File Saved
+State code change =19
+Size of appender: 275
+Size of appender: 283
+Size of appender: 277
+Size of appender: 284
+Size of appender: 262
+Size of appender: 286
+Size of appender: 289
+Size of appender: 284
+Size of appender: 281
+Size of appender: 286
+Size of appender: 276
+Size of appender: 287
+Size of appender: 280
+Size of appender: 282
+Size of appender: 281
+Size of appender: 291
+Size of appender: 282
+Size of appender: 277
+Size of appender: 288
+Size of appender: 287
+Size of appender: 284
+Size of appender: 288
+Size of appender: 276
+Size of appender: 289
+Size of appender: 289
+Size of appender: 285
+Size of appender: 281
+Size of appender: 273
+Size of appender: 273
+Size of appender: 291
+Size of appender: 283
+Size of appender: 290
+Size of appender: 290
+Size of appender: 288
+Size of appender: 290
+Size of appender: 285
+Size of appender: 287
+Size of appender: 291
+Size of appender: 287
+Size of appender: 287
+Size of appender: 282
+Size of appender: 286
+Size of appender: 288
+Size of appender: 289
+Size of appender: 280
+Size of appender: 280
+Size of appender: 280
+Size of appender: 283
+Size of appender: 268
+Size of appender: 274
+Size of appender: 275
+Size of appender: 283
+Size of appender: 290
+Size of appender: 290
+Size of appender: 281
+Size of appender: 287
+Size of appender: 285
+Size of appender: 282
+Size of appender: 288
+Size of appender: 284
+Size of appender: 290
+Size of appender: 288
+Size of appender: 296
+Size of appender: 286
+Size of appender: 279
+Size of appender: 284
+Size of appender: 288
+Size of appender: 283
+Size of appender: 288
+Size of appender: 283
+Size of appender: 293
+Size of appender: 280
+Size of appender: 280
+Size of appender: 285
+Size of appender: 272
+Size of appender: 286
+Size of appender: 289
+Size of appender: 278
+Size of appender: 285
+Size of appender: 281
+Size of appender: 281
+Size of appender: 277
+Size of appender: 274
+Size of appender: 270
+Size of appender: 284
+Size of appender: 280
+Size of appender: 277
+Size of appender: 282
+Size of appender: 277
+Size of appender: 286
+Size of appender: 280
+Size of appender: 275
+Size of appender: 281
+Size of appender: 278
+Size of appender: 273
+Size of appender: 286
+Size of appender: 297
+Size of appender: 299
+Size of appender: 290
+Size of appender: 286
+Size of appender: 296
+Size of appender: 302
+Size of appender: 285
+Size of appender: 286
+Size of appender: 284
+Size of appender: 283
+Size of appender: 281
+Size of appender: 278
+Size of appender: 270
+Size of appender: 286
+Size of appender: 284
+Size of appender: 272
+Size of appender: 293
+Size of appender: 270
+Size of appender: 284
+Size of appender: 297
+Size of appender: 284
+Size of appender: 283
+Size of appender: 278
+Size of appender: 284
+Size of appender: 292
+Size of appender: 287
+Size of appender: 290
+Size of appender: 272
+Size of appender: 293
+Size of appender: 271
+Size of appender: 286
+Size of appender: 284
+Size of appender: 272
+Size of appender: 270
+Size of appender: 284
+Size of appender: 297
+Size of appender: 284
+Size of appender: 282
+Size of appender: 278
+Size of appender: 284
+Size of appender: 292
+Size of appender: 287
+Size of appender: 290
+Size of appender: 272
+Size of appender: 293
+Size of appender: 285
+Size of appender: 279
+Size of appender: 286
+Size of appender: 263
+Size of appender: 287
+Size of appender: 290
+Size of appender: 282
+Size of appender: 286
+Size of appender: 276
+Size of appender: 288
+Size of appender: 281
+Size of appender: 283
+Size of appender: 281
+Size of appender: 283
+Size of appender: 278
+Size of appender: 289
+Size of appender: 293
+Size of appender: 285
+Size of appender: 290
+Size of appender: 277
+Size of appender: 290
+Size of appender: 290
+Size of appender: 286
+Size of appender: 282
+Size of appender: 274
+Size of appender: 274
+Size of appender: 292
+Size of appender: 284
+Size of appender: 291
+Size of appender: 291
+Size of appender: 289
+Size of appender: 296
+Size of appender: 286
+Size of appender: 289
+Size of appender: 292
+Size of appender: 288
+Size of appender: 288
+Size of appender: 283
+Size of appender: 287
+Size of appender: 289
+Size of appender: 290
+Size of appender: 281
+Size of appender: 281
+Size of appender: 281
+Size of appender: 283
+Size of appender: 269
+Size of appender: 275
+Size of appender: 276
+Size of appender: 284
+Size of appender: 291
+Size of appender: 291
+Size of appender: 282
+Size of appender: 288
+Size of appender: 286
+Size of appender: 283
+Size of appender: 289
+Size of appender: 285
+Size of appender: 291
+Size of appender: 289
+Size of appender: 297
+Size of appender: 287
+Size of appender: 280
+Size of appender: 285
+Size of appender: 289
+Size of appender: 284
+Size of appender: 289
+Size of appender: 284
+Size of appender: 294
+Size of appender: 281
+Size of appender: 281
+Size of appender: 286
+Size of appender: 273
+Size of appender: 287
+Size of appender: 290
+Size of appender: 279
+Size of appender: 286
+Size of appender: 282
+Size of appender: 282
+Size of appender: 278
+Size of appender: 276
+Size of appender: 271
+Size of appender: 285
+Size of appender: 281
+Size of appender: 278
+Size of appender: 278
+Size of appender: 287
+Size of appender: 281
+Size of appender: 282
+Size of appender: 279
+Size of appender: 273
+Size of appender: 286
+Size of appender: 297
+Size of appender: 299
+Size of appender: 290
+Size of appender: 285
+Size of appender: 295
+Size of appender: 301
+Size of appender: 284
+Size of appender: 285
+Size of appender: 284
+Size of appender: 283
+Size of appender: 281
+Size of appender: 278
+After first save file size: 0

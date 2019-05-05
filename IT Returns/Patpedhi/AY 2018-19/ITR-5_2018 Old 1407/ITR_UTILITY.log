@@ -1,0 +1,97 @@
+[24-Aug-2018]::[3:05:23 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[2].ifscCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:PartB_TTI/ITRCorForm:AddtnlBankDetails[3]/ITRCorForm:IFSCCode nodelist: 0]
+[24-Aug-2018]::[3:05:23 PM]::[com.itd.efiling.itr.common.util.f b]::[SEVERE]::[Error in modifyXmlDoc()]
+java.lang.NullPointerException
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.a(Unknown Source)
+	at com.itd.efiling.itr.common.util.f.b(Unknown Source)
+	at com.itd.efiling.itr.toolbar.b.saveAsDraft(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(Unknown Source)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(Unknown Source)
+	at com.sun.javafx.event.EventUtil.fireEvent(Unknown Source)
+	at javafx.event.Event.fireEvent(Unknown Source)
+	at javafx.scene.Node.fireEvent(Unknown Source)
+	at javafx.scene.control.Button.fire(Unknown Source)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(Unknown Source)
+	at com.sun.javafx.scene.control.skin.SkinBase$4.handle(Unknown Source)
+	at com.sun.javafx.scene.control.skin.SkinBase$4.handle(Unknown Source)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(Unknown Source)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(Unknown Source)
+	at com.sun.javafx.event.EventUtil.fireEvent(Unknown Source)
+	at javafx.event.Event.fireEvent(Unknown Source)
+	at javafx.scene.Scene$MouseHandler.process(Unknown Source)
+	at javafx.scene.Scene$MouseHandler.process(Unknown Source)
+	at javafx.scene.Scene$MouseHandler.access$1900(Unknown Source)
+	at javafx.scene.Scene.impl_processMouseEvent(Unknown Source)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Unknown Source)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(Unknown Source)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(Unknown Source)
+	at com.sun.glass.ui.View.handleMouseEvent(Unknown Source)
+	at com.sun.glass.ui.View.notifyMouse(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(Unknown Source)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[24-Aug-2018]::[3:05:23 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[1].bankName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartB_TTI/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:AddtnlBankDetails[2]/ITRCorForm:BankName nodelist: 1]
+[24-Aug-2018]::[3:05:23 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: itr.scheduleBA[2].bankName xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:PartB_TTI/ITRCorForm:Refund/ITRCorForm:BankAccountDtls/ITRCorForm:AddtnlBankDetails[3]/ITRCorForm:BankName nodelist: 2]
+[24-Aug-2018]::[3:05:23 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleHP.propertyDetails[1].hpSno xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleHP/ITRCorForm:PropertyDetails[2]/ITRCorForm:HPSNo nodelist: 1]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[1].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[2]/ITRCorForm:SourceDescription nodelist: 1]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[2].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[3]/ITRCorForm:SourceDescription nodelist: 2]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[3].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[4]/ITRCorForm:SourceDescription nodelist: 3]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[4].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[5]/ITRCorForm:SourceDescription nodelist: 4]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[5].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[6]/ITRCorForm:SourceDescription nodelist: 5]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[6].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[7]/ITRCorForm:SourceDescription nodelist: 6]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[7].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[8]/ITRCorForm:SourceDescription nodelist: 7]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[8].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[9]/ITRCorForm:SourceDescription nodelist: 8]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[9].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[10]/ITRCorForm:SourceDescription nodelist: 9]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[10].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[11]/ITRCorForm:SourceDescription nodelist: 10]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[11].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[12]/ITRCorForm:SourceDescription nodelist: 11]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[12].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[13]/ITRCorForm:SourceDescription nodelist: 12]
+[24-Aug-2018]::[3:05:24 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[13].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[14]/ITRCorForm:SourceDescription nodelist: 13]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[14].sourceDescription xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleOS/ITRCorForm:IncOthThanOwnRaceHorse/ITRCorForm:OthersGrossDtls[15]/ITRCorForm:SourceDescription nodelist: 14]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[1].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[2]/ITRCorForm:AssYr nodelist: 1]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[2].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[3]/ITRCorForm:AssYr nodelist: 2]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[3].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[4]/ITRCorForm:AssYr nodelist: 3]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[4].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[5]/ITRCorForm:AssYr nodelist: 4]
+[24-Aug-2018]::[3:05:25 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleAMTC.scheduleAMTCUtil[5].assYr xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ITRScheduleAMTC/ITRCorForm:ScheduleAMTC[6]/ITRCorForm:AssYr nodelist: 5]
+[24-Aug-2018]::[3:05:26 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[8].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[9]/ITRCorForm:SecCode nodelist: 8]
+[24-Aug-2018]::[3:05:26 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[9].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[10]/ITRCorForm:SecCode nodelist: 9]
+[24-Aug-2018]::[3:05:26 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[name: scheduleSI.splCodeRateTax[10].secCode xpath: /ITRETURN:ITR/ITR5FORM:ITR5/ITRCorForm:ScheduleSI/ITRCorForm:SplCodeRateTax[11]/ITRCorForm:SecCode nodelist: 10]
+[24-Aug-2018]::[3:05:27 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[flagfalse]
+[24-Aug-2018]::[3:05:27 PM]::[com.itd.efiling.itr.common.cachers.b a]::[INFO]::[doc[#document: null]]
+[24-Aug-2018]::[3:05:28 PM]::[com.itd.efiling.itr.common.util.f b]::[INFO]::[FIELD_VALUE 2288]
+[24-Aug-2018]::[3:05:31 PM]::[com.itd.efiling.itr.common.dialog.p a]::[INFO]::[Inside  closeUtility]
+[24-Aug-2018]::[3:05:32 PM]::[com.itd.efiling.itr.main.ctrl.h a]::[INFO]::[ Close Event WindowEvent [source = javafx.stage.Stage@c073fd, target = javafx.stage.Stage@c073fd, eventType = WINDOW_CLOSE_REQUEST, consumed = false]]

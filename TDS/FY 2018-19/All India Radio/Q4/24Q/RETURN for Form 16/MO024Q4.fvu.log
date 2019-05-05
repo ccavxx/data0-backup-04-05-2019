@@ -1,0 +1,403 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 1
+................ 1
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.1
+The FVU lower Version is 2.157
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 42
+The FVU Higher Version is 6.1
+The FVU lower Version is 2.157
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Entering Salary Detail Validation
+Method Called
+TotTDSWholeYear- 900.00TDSCurEmp- 900.00TDSPreEmp- 0.00
+TotTDSWholeYear- 178856.00TDSCurEmp- 178856.00TDSPreEmp- 0.00
+TotTDSWholeYear- 167985.00TDSCurEmp- 83985.00TDSPreEmp- 84000.00
+TotTDSWholeYear- 138160.00TDSCurEmp- 138160.00TDSPreEmp- 0.00
+TotTDSWholeYear- 6995.00TDSCurEmp- 6995.00TDSPreEmp- 0.00
+TotTDSWholeYear- 104500.00TDSCurEmp- 104500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 210130.00TDSCurEmp- 210130.00TDSPreEmp- 0.00
+TotTDSWholeYear- 39957.00TDSCurEmp- 39957.00TDSPreEmp- 0.00
+TotTDSWholeYear- 33000.00TDSCurEmp- 33000.00TDSPreEmp- 0.00
+TotTDSWholeYear- 29915.00TDSCurEmp- 29915.00TDSPreEmp- 0.00
+TotTDSWholeYear- 12384.00TDSCurEmp- 12384.00TDSPreEmp- 0.00
+TotTDSWholeYear- 128765.00TDSCurEmp- 128765.00TDSPreEmp- 0.00
+TotTDSWholeYear- 173040.00TDSCurEmp- 173040.00TDSPreEmp- 0.00
+TotTDSWholeYear- 118305.00TDSCurEmp- 118305.00TDSPreEmp- 0.00
+TotTDSWholeYear- 91500.00TDSCurEmp- 91500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 124860.00TDSCurEmp- 124860.00TDSPreEmp- 0.00
+TotTDSWholeYear- 47800.00TDSCurEmp- 47800.00TDSPreEmp- 0.00
+TotTDSWholeYear- 95454.00TDSCurEmp- 95454.00TDSPreEmp- 0.00
+TotTDSWholeYear- 190840.00TDSCurEmp- 190840.00TDSPreEmp- 0.00
+TotTDSWholeYear- 103885.00TDSCurEmp- 103885.00TDSPreEmp- 0.00
+TotTDSWholeYear- 66500.00TDSCurEmp- 66500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 146931.00TDSCurEmp- 146931.00TDSPreEmp- 0.00
+TotTDSWholeYear- 116327.00TDSCurEmp- 116327.00TDSPreEmp- 0.00
+TotTDSWholeYear- 32305.00TDSCurEmp- 32305.00TDSPreEmp- 0.00
+TotTDSWholeYear- 216361.00TDSCurEmp- 216361.00TDSPreEmp- 0.00
+TotTDSWholeYear- 72345.00TDSCurEmp- 72345.00TDSPreEmp- 0.00
+TotTDSWholeYear- 11940.00TDSCurEmp- 11940.00TDSPreEmp- 0.00
+TotTDSWholeYear- 9346.00TDSCurEmp- 9346.00TDSPreEmp- 0.00
+TotTDSWholeYear- 51619.00TDSCurEmp- 51619.00TDSPreEmp- 0.00
+TotTDSWholeYear- 185660.00TDSCurEmp- 185660.00TDSPreEmp- 0.00
+TotTDSWholeYear- 5080.00TDSCurEmp- 5080.00TDSPreEmp- 0.00
+TotTDSWholeYear- 8361.00TDSCurEmp- 8361.00TDSPreEmp- 0.00
+TotTDSWholeYear- 500.00TDSCurEmp- 500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 4020.00TDSCurEmp- 4020.00TDSPreEmp- 0.00
+TotTDSWholeYear- 1300.00TDSCurEmp- 1300.00TDSPreEmp- 0.00
+TotTDSWholeYear- 104800.00TDSCurEmp- 104800.00TDSPreEmp- 0.00
+TotTDSWholeYear- 6144.00TDSCurEmp- 6144.00TDSPreEmp- 0.00
+TotTDSWholeYear- 10525.00TDSCurEmp- 10525.00TDSPreEmp- 0.00
+TotTDSWholeYear- 12249.00TDSCurEmp- 12249.00TDSPreEmp- 0.00
+TotTDSWholeYear- 5485.00TDSCurEmp- 5485.00TDSPreEmp- 0.00
+TotTDSWholeYear- 500.00TDSCurEmp- 500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 1305.00TDSCurEmp- 1305.00TDSPreEmp- 0.00
+TotTDSWholeYear- 7100.00TDSCurEmp- 7100.00TDSPreEmp- 0.00
+TotTDSWholeYear- 1290.00TDSCurEmp- 1290.00TDSPreEmp- 0.00
+TotTDSWholeYear- 212625.00TDSCurEmp- 212625.00TDSPreEmp- 0.00
+TotTDSWholeYear- 269336.00TDSCurEmp- 269336.00TDSPreEmp- 0.00
+TotTDSWholeYear- 75000.00TDSCurEmp- 75000.00TDSPreEmp- 0.00
+TotTDSWholeYear- 182905.00TDSCurEmp- 182905.00TDSPreEmp- 0.00
+TotTDSWholeYear- 84976.00TDSCurEmp- 84976.00TDSPreEmp- 0.00
+TotTDSWholeYear- 99014.00TDSCurEmp- 99014.00TDSPreEmp- 0.00
+TotTDSWholeYear- 112696.00TDSCurEmp- 112696.00TDSPreEmp- 0.00
+TotTDSWholeYear- 68082.00TDSCurEmp- 68082.00TDSPreEmp- 0.00
+TotTDSWholeYear- 99119.00TDSCurEmp- 99119.00TDSPreEmp- 0.00
+TotTDSWholeYear- 112520.00TDSCurEmp- 112520.00TDSPreEmp- 0.00
+TotTDSWholeYear- 111597.00TDSCurEmp- 111597.00TDSPreEmp- 0.00
+TotTDSWholeYear- 86243.00TDSCurEmp- 86243.00TDSPreEmp- 0.00
+TotTDSWholeYear- 24085.00TDSCurEmp- 24085.00TDSPreEmp- 0.00
+TotTDSWholeYear- 24725.00TDSCurEmp- 24725.00TDSPreEmp- 0.00
+TotTDSWholeYear- 66335.00TDSCurEmp- 66335.00TDSPreEmp- 0.00
+TotTDSWholeYear- 29490.00TDSCurEmp- 29490.00TDSPreEmp- 0.00
+TotTDSWholeYear- 187480.00TDSCurEmp- 187480.00TDSPreEmp- 0.00
+TotTDSWholeYear- 27000.00TDSCurEmp- 27000.00TDSPreEmp- 0.00
+TotTDSWholeYear- 28044.00TDSCurEmp- 28044.00TDSPreEmp- 0.00
+TotTDSWholeYear- 74325.00TDSCurEmp- 74325.00TDSPreEmp- 0.00
+TotTDSWholeYear- 11110.00TDSCurEmp- 11110.00TDSPreEmp- 0.00
+TotTDSWholeYear- 13560.00TDSCurEmp- 13560.00TDSPreEmp- 0.00
+TotTDSWholeYear- 17200.00TDSCurEmp- 17200.00TDSPreEmp- 0.00
+TotTDSWholeYear- 24280.00TDSCurEmp- 24280.00TDSPreEmp- 0.00
+TotTDSWholeYear- 10230.00TDSCurEmp- 10230.00TDSPreEmp- 0.00
+TotTDSWholeYear- 45079.00TDSCurEmp- 45079.00TDSPreEmp- 0.00
+TotTDSWholeYear- 6895.00TDSCurEmp- 6895.00TDSPreEmp- 0.00
+TotTDSWholeYear- 54465.00TDSCurEmp- 54465.00TDSPreEmp- 0.00
+TotTDSWholeYear- 94343.00TDSCurEmp- 94343.00TDSPreEmp- 0.00
+TotTDSWholeYear- 62720.00TDSCurEmp- 62720.00TDSPreEmp- 0.00
+TotTDSWholeYear- 10545.00TDSCurEmp- 10545.00TDSPreEmp- 0.00
+TotTDSWholeYear- 166420.00TDSCurEmp- 166420.00TDSPreEmp- 0.00
+TotTDSWholeYear- 24279.00TDSCurEmp- 24279.00TDSPreEmp- 0.00
+TotTDSWholeYear- 191850.00TDSCurEmp- 191850.00TDSPreEmp- 0.00
+TotTDSWholeYear- 122701.00TDSCurEmp- 122701.00TDSPreEmp- 0.00
+TotTDSWholeYear- 67228.00TDSCurEmp- 67228.00TDSPreEmp- 0.00
+TotTDSWholeYear- 249180.00TDSCurEmp- 249180.00TDSPreEmp- 0.00
+TotTDSWholeYear- 103800.00TDSCurEmp- 103800.00TDSPreEmp- 0.00
+TotTDSWholeYear- 145654.00TDSCurEmp- 145654.00TDSPreEmp- 0.00
+TotTDSWholeYear- 63624.00TDSCurEmp- 63624.00TDSPreEmp- 0.00
+TotTDSWholeYear- 247582.00TDSCurEmp- 247582.00TDSPreEmp- 0.00
+TotTDSWholeYear- 12596.00TDSCurEmp- 12596.00TDSPreEmp- 0.00
+TotTDSWholeYear- 24145.00TDSCurEmp- 24145.00TDSPreEmp- 0.00
+TotTDSWholeYear- 114505.00TDSCurEmp- 114505.00TDSPreEmp- 0.00
+TotTDSWholeYear- 36515.00TDSCurEmp- 36515.00TDSPreEmp- 0.00
+TotTDSWholeYear- 181800.00TDSCurEmp- 181800.00TDSPreEmp- 0.00
+TotTDSWholeYear- 213905.00TDSCurEmp- 213905.00TDSPreEmp- 0.00
+TotTDSWholeYear- 115090.00TDSCurEmp- 91090.00TDSPreEmp- 24000.00
+TotTDSWholeYear- 233890.00TDSCurEmp- 233890.00TDSPreEmp- 0.00
+TotTDSWholeYear- 125758.00TDSCurEmp- 125758.00TDSPreEmp- 0.00
+TotTDSWholeYear- 283580.00TDSCurEmp- 283580.00TDSPreEmp- 0.00
+TotTDSWholeYear- 50905.00TDSCurEmp- 50905.00TDSPreEmp- 0.00
+TotTDSWholeYear- 29492.00TDSCurEmp- 29492.00TDSPreEmp- 0.00
+TotTDSWholeYear- 810.00TDSCurEmp- 810.00TDSPreEmp- 0.00
+TotTDSWholeYear- 245245.00TDSCurEmp- 245245.00TDSPreEmp- 0.00
+TotTDSWholeYear- 10746.00TDSCurEmp- 10746.00TDSPreEmp- 0.00
+TotTDSWholeYear- 219730.00TDSCurEmp- 219730.00TDSPreEmp- 0.00
+TotTDSWholeYear- 7470.00TDSCurEmp- 7470.00TDSPreEmp- 0.00
+TotTDSWholeYear- 11181.00TDSCurEmp- 11181.00TDSPreEmp- 0.00
+TotTDSWholeYear- 157105.00TDSCurEmp- 157105.00TDSPreEmp- 0.00
+TotTDSWholeYear- 120582.00TDSCurEmp- 120582.00TDSPreEmp- 0.00
+TotTDSWholeYear- 115795.00TDSCurEmp- 115795.00TDSPreEmp- 0.00
+TotTDSWholeYear- 129424.00TDSCurEmp- 129424.00TDSPreEmp- 0.00
+TotTDSWholeYear- 16043.00TDSCurEmp- 16043.00TDSPreEmp- 0.00
+TotTDSWholeYear- 196925.00TDSCurEmp- 196925.00TDSPreEmp- 0.00
+TotTDSWholeYear- 82400.00TDSCurEmp- 82400.00TDSPreEmp- 0.00
+TotTDSWholeYear- 129660.00TDSCurEmp- 129660.00TDSPreEmp- 0.00
+TotTDSWholeYear- 6795.00TDSCurEmp- 6795.00TDSPreEmp- 0.00
+TotTDSWholeYear- 8040.00TDSCurEmp- 8040.00TDSPreEmp- 0.00
+TotTDSWholeYear- 500.00TDSCurEmp- 500.00TDSPreEmp- 0.00
+TotTDSWholeYear- 68946.00TDSCurEmp- 55446.00TDSPreEmp- 13500.00
+TotTDSWholeYear- 125000.00TDSCurEmp- 80000.00TDSPreEmp- 45000.00
+TotTDSWholeYear- 297703.00TDSCurEmp- 297703.00TDSPreEmp- 0.00
+TotTDSWholeYear- 95065.00TDSCurEmp- 52975.00TDSPreEmp- 42090.00
+TotTDSWholeYear- 280650.00TDSCurEmp- 108190.00TDSPreEmp- 172460.00
+TotTDSWholeYear- 81060.00TDSCurEmp- 47560.00TDSPreEmp- 33500.00
+TotTDSWholeYear- 192645.00TDSCurEmp- 145645.00TDSPreEmp- 47000.00
+TotTDSWholeYear- 151407.00TDSCurEmp- 100407.00TDSPreEmp- 51000.00
+TotTDSWholeYear- 291600.00TDSCurEmp- 80000.00TDSPreEmp- 211600.00
+TotTDSWholeYear- 209470.00TDSCurEmp- 33470.00TDSPreEmp- 176000.00
+TotTDSWholeYear- 84706.00TDSCurEmp- 21706.00TDSPreEmp- 63000.00
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGTue Apr 23 11:37:33 IST 2019
+Field Validation of file is compleated sucessfully
+START # 23-04-2019 11:37:34.642
+ Original file object created and file exist
+tempFileName String cretaed ::  C://Users//VISHAL//Desktop//Data0//TDS//FY 2018-19//All India Radio//Q4//24Q//RETURN//MO024Q4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^804^FVU 6.1^00000000000000000000^SAM 1.0^00000000000000000000^19042311373442924757
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 23-04-2019 11:37:34.650
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 42
+the cinFileLevelHC no. is00000000000034759152
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19042311373442924757
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Tue Apr 23 11:37:34 IST 2019
+ Exiting writeStatisticFile() Method Tue Apr 23 11:37:34 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 19042311373442924757
+Inside generateForm27A
+ Entering writePdfFile() Method Tue Apr 23 11:37:35 IST 2019
+ Exiting writePdfFile() Method Tue Apr 23 11:37:35 IST 2019
+pdf generatedtrue
+END TIME : Tue Apr 23 11:37:37 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@1639ae
+--error file path: C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2018-19\\All India Radio\\Q4\\24Q\\RETURN\
+--dir to open object: C:\Users\VISHAL\Desktop\Data0\TDS\FY 2018-19\All India Radio\Q4\24Q\RETURN
+the text error file path is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2018-19\\All India Radio\\Q4\\24Q\\RETURN\
+the errorFileNameSAM is C:\\Users\\VISHAL\\Desktop\\Data0\\TDS\\FY 2018-19\\All India Radio\\Q4\\24Q\\RETURN\\MO024Q4error.txt

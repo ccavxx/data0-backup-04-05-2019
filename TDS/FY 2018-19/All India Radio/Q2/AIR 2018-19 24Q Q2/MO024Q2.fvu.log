@@ -1,0 +1,352 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+................ 3
+................ 3
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 45
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 45
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 45
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 45
+The FVU Higher Version is 5.9
+The FVU lower Version is 2.155
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER (WZ)   TanNameFromCSIFile :: OFFICE OF THE CHIEF ENGINEER (WZ)
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: MUMO02862G
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGThu Oct 25 19:20:57 IST 2018
+Field Validation of file is compleated sucessfully
+START # 25-10-2018 19:20:59.127
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Timesheet//14. Ruchita//New folder//MO024Q2_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^266^FVU 5.9^00000000000000000000^SAM 1.0^00000000000000000000^18102519205911642966
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 25-10-2018 19:20:59.174
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 45
+the cinFileLevelHC no. is00000000000040547553
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :18102519205911642966
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Thu Oct 25 19:20:59 IST 2018
+ Exiting writeStatisticFile() Method Thu Oct 25 19:20:59 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 18102519205911642966
+Inside generateForm27A
+ Entering writePdfFile() Method Thu Oct 25 19:20:59 IST 2018
+ Exiting writePdfFile() Method Thu Oct 25 19:20:59 IST 2018
+pdf generatedtrue
+END TIME : Thu Oct 25 19:21:00 IST 2018
+--DESKTOP OBJECT: java.awt.Desktop@6ad5923a
+--error file path: Z:\\Timesheet\\14. Ruchita\\New folder\
+--dir to open object: Z:\Timesheet\14. Ruchita\New folder
+the text error file path is Z:\\Timesheet\\14. Ruchita\\New folder\
+the errorFileNameSAM is Z:\\Timesheet\\14. Ruchita\\New folder\\MO024Q2error.txt

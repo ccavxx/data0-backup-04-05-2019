@@ -1,0 +1,467 @@
+"Valid PAN of Employee (Mandatory)  (Data Imported on the basis of PAN)(PANINVALID,PANNOTAVBL,PANAPPLIED and blank PAN record will not be imported)"	Name(Optional)(Not Required)	Section (Mandatory)	Description	Gross Amount	Qualifying Amount	Deductible Amount
+ABWPB1871H	Chandrawadan Krishnarao Borikar	10	Children Education Allowance	2400	2400	2400
+ABWPB1871H	Chandrawadan Krishnarao Borikar	80C	General Provident Fund	120000	120000	120000
+ABWPB1871H	Chandrawadan Krishnarao Borikar	80C	Central Government Employees Group Insurance Scheme	180	180	180
+ABWPB1871H	Chandrawadan Krishnarao Borikar	80D	Health Insurance Premium	1500	1500	1500
+ABWPB1871H	Chandrawadan Krishnarao Borikar	80E	Interest on loan taken for higher education	35758	35758	35758
+ABCPM5927H	Maruti Laxman Mane	80C	General Provident Fund	360000	360000	360000
+ABCPM5927H	Maruti Laxman Mane	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABCPM5927H	Maruti Laxman Mane	80D	Health Insurance Premium	7800	7800	7800
+ADHPP1650P	Umesh Chandrakant Pradhan	80C	General Provident Fund	240000	240000	240000
+ADHPP1650P	Umesh Chandrakant Pradhan	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ADHPP1650P	Umesh Chandrakant Pradhan	80C	Repayment of Housing Loan Principal	373202	373202	373202
+ADHPP1650P	Umesh Chandrakant Pradhan	80D	Health Insurance Premium	10948	10948	10948
+ABRPL4887E	Kumar Shripal Lakhane	80C	General Provident Fund	420000	420000	420000
+ABRPL4887E	Kumar Shripal Lakhane	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABRPL4887E	Kumar Shripal Lakhane	80C	Repayment of Housing Loan Principal	186457	186457	186457
+ABRPL4887E	Kumar Shripal Lakhane	80D	Health Insurance Premium	7800	7800	7800
+AHQPK1439A	Vijay Madhukar Kurve	80C	General Provident Fund	168000	168000	168000
+AHQPK1439A	Vijay Madhukar Kurve	80C	 Life Insurance Premium	11700	11700	11700
+AHQPK1439A	Vijay Madhukar Kurve	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AHQPK1439A	Vijay Madhukar Kurve	80D	Health Insurance Premium	3000	3000	3000
+ACSPK1046N	Pandurang Murlidhar Khapke	80C	General Provident Fund	240000	240000	240000
+ACSPK1046N	Pandurang Murlidhar Khapke	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACSPK1046N	Pandurang Murlidhar Khapke	80C	Repayment of Housing Loan Principal	27000	27000	27000
+ACSPK1046N	Pandurang Murlidhar Khapke	80D	Health Insurance Premium	7800	7800	7800
+AFWPM1854M	Ravindra Shankar Mahalpure	80C	General Provident Fund	420000	420000	420000
+AFWPM1854M	Ravindra Shankar Mahalpure	80C	 Life Insurance Premium	21204	21204	21204
+AFWPM1854M	Ravindra Shankar Mahalpure	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AFWPM1854M	Ravindra Shankar Mahalpure	80C	Public Provident Fund	12000	12000	12000
+AFWPM1854M	Ravindra Shankar Mahalpure	80C	Repayment of Housing Loan Principal	227954	227954	227954
+AFWPM1854M	Ravindra Shankar Mahalpure	80D	Health Insurance Premium	27200	27200	25000
+AFWPM1854M	Ravindra Shankar Mahalpure	80E	Interest on loan taken for higher education	21211	21211	21211
+AGXPR0340R	Parvathi Ramkrishnan	80C	General Provident Fund	120000	120000	120000
+AGXPR0340R	Parvathi Ramkrishnan	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AGXPR0340R	Parvathi Ramkrishnan	80D	Health Insurance Premium	3000	3000	3000
+ACQPK4259H	Arvind Shriram Kamble	80C	General Provident Fund	40000	40000	40000
+ACQPK4259H	Arvind Shriram Kamble	80C	Central Government Employees Group Insurance Scheme	600	600	600
+ACQPK4259H	Arvind Shriram Kamble	80D	Health Insurance Premium	3250	3250	3250
+AGDPV4512H	Vandana Kishor Vaidya	80C	General Provident Fund	360000	360000	360000
+AGDPV4512H	Vandana Kishor Vaidya	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AGDPV4512H	Vandana Kishor Vaidya	80D	Health Insurance Premium	3000	3000	3000
+ACRPS9024K	Ujwala Shrirang Sonawane	80C	General Provident Fund	114000	114000	114000
+ACRPS9024K	Ujwala Shrirang Sonawane	80C	 Life Insurance Premium	36312	36312	36312
+ACRPS9024K	Ujwala Shrirang Sonawane	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ACRPS9024K	Ujwala Shrirang Sonawane	80C	Postal Life Insurance	11880	11880	11880
+ACRPS9024K	Ujwala Shrirang Sonawane	80D	Health Insurance Premium	10136	10136	10136
+APSPS6552C	Mukund Shrivastava	80C	General Provident Fund	120000	120000	120000
+APSPS6552C	Mukund Shrivastava	80C	 Life Insurance Premium	35667	35667	35667
+APSPS6552C	Mukund Shrivastava	80C	Central Government Employees Group Insurance Scheme	720	720	720
+APSPS6552C	Mukund Shrivastava	80D	Health Insurance Premium	30181	30181	25000
+AASPR2306L	Bholenath Raghunath Rumde	80C	General Provident Fund	213000	213000	213000
+AASPR2306L	Bholenath Raghunath Rumde	80C	 Life Insurance Premium	6984	6984	6984
+AASPR2306L	Bholenath Raghunath Rumde	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABCPL2959E	Rajendra Kondiram Lembhe	80C	General Provident Fund	180000	180000	180000
+ABCPL2959E	Rajendra Kondiram Lembhe	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABCPL2959E	Rajendra Kondiram Lembhe	80C	Repayment of Housing Loan Principal	75480	75480	75480
+ABCPL2959E	Rajendra Kondiram Lembhe	80D	Health Insurance Premium	32795	32795	25000
+AAVPN2192F	Deepak Baburao Nagpure	80C	General Provident Fund	253000	253000	253000
+AAVPN2192F	Deepak Baburao Nagpure	80C	 Life Insurance Premium	14792	14792	14792
+AAVPN2192F	Deepak Baburao Nagpure	80C	Central Government Employees Group Insurance Scheme	660	660	660
+AAVPN2192F	Deepak Baburao Nagpure	80C	Repayment of Housing Loan Principal	46816	46816	46816
+ABTPT1092K	Varsha Vilas Tawde	80C	General Provident Fund	216000	216000	216000
+ABTPT1092K	Varsha Vilas Tawde	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AKCPM9552D	Sudhakar Sitaram Matkar	80C	General Provident Fund	168000	168000	168000
+AKCPM9552D	Sudhakar Sitaram Matkar	80C	Central Government Employees Group Insurance Scheme	480	480	480
+AKCPM9552D	Sudhakar Sitaram Matkar	80D	Health Insurance Premium	5200	5200	5200
+ADQPR0929N	Sanjay Vishwas Rajwadkar	80C	General Provident Fund	475000	475000	475000
+ADQPR0929N	Sanjay Vishwas Rajwadkar	80C	 Life Insurance Premium	12252	12252	12252
+ADQPR0929N	Sanjay Vishwas Rajwadkar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ADQPR0929N	Sanjay Vishwas Rajwadkar	80D	Health Insurance Premium	27800	27800	25000
+ADQPR0929N	Sanjay Vishwas Rajwadkar	80E	Interest on loan taken for higher education	40536	40536	40536
+ABSPJ9047P	Milind Prabhakar Joshi	80C	General Provident Fund	360000	360000	360000
+ABSPJ9047P	Milind Prabhakar Joshi	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABSPJ9047P	Milind Prabhakar Joshi	80D	Health Insurance Premium	7800	7800	7800
+ABEPV2768D	Daniel Punnoor Varghese	80C	General Provident Fund	144000	144000	144000
+ABEPV2768D	Daniel Punnoor Varghese	80C	Central Government Employees Group Insurance Scheme	480	480	480
+ACQPP2485A	Sujata Raghunath Patkar	80C	General Provident Fund	108000	108000	108000
+ACQPP2485A	Sujata Raghunath Patkar	80C	 Life Insurance Premium	18204	18204	18204
+ACQPP2485A	Sujata Raghunath Patkar	80C	Central Government Employees Group Insurance Scheme	480	480	480
+ACQPP2485A	Sujata Raghunath Patkar	80C	Public Provident Fund	25000	25000	25000
+ACQPP2485A	Sujata Raghunath Patkar	80D	Health Insurance Premium	25060	25060	25000
+AAOPW3992R	Vithal Nagao Rao Waghmare	80C	General Provident Fund	300000	300000	300000
+AAOPW3992R	Vithal Nagao Rao Waghmare	80C	 Life Insurance Premium	30000	30000	30000
+AAOPW3992R	Vithal Nagao Rao Waghmare	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAOPW3992R	Vithal Nagao Rao Waghmare	80D	Health Insurance Premium	7800	7800	7800
+ABRPA1062A	Sandeep Anant Acharekar	80C	General Provident Fund	310000	310000	310000
+ABRPA1062A	Sandeep Anant Acharekar	80C	Central Government Employees Group Insurance Scheme	480	480	480
+ABRPA1062A	Sandeep Anant Acharekar	80D	Health Insurance Premium	18051	18051	18051
+ADBPK7216J	Ajay Yashwant Kore	80C	General Provident Fund	174000	174000	174000
+ADBPK7216J	Ajay Yashwant Kore	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ADBPK7216J	Ajay Yashwant Kore	80C	Repayment of Housing Loan Principal	116336	116336	116336
+ADBPK7216J	Ajay Yashwant Kore	80D	Health Insurance Premium	11439	11439	11439
+AMRPK1421E	Keshavraj Padamlal Kafle	80C	General Provident Fund	120000	120000	120000
+AMRPK1421E	Keshavraj Padamlal Kafle	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AMRPK1421E	Keshavraj Padamlal Kafle	80C	Repayment of Housing Loan Principal	63321	63321	63321
+AMRPK1421E	Keshavraj Padamlal Kafle	80D	Health Insurance Premium	4600	4600	4600
+ADNPP8730C	Madhukar Krishna Panchal	80C	General Provident Fund	260000	260000	260000
+ADNPP8730C	Madhukar Krishna Panchal	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AJPPP6298R	Radhika Satish Varadkar	80C	General Provident Fund	240000	240000	240000
+AJPPP6298R	Radhika Satish Varadkar	80C	 Life Insurance Premium	18660	18660	18660
+AJPPP6298R	Radhika Satish Varadkar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AIMPG7606G	Anil Sheshrao Gowarkar	80C	General Provident Fund	168000	168000	168000
+AIMPG7606G	Anil Sheshrao Gowarkar	80C	 Life Insurance Premium	2628	2628	2628
+AIMPG7606G	Anil Sheshrao Gowarkar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AIMPG7606G	Anil Sheshrao Gowarkar	80D	Health Insurance Premium	3000	3000	3000
+AAIPW6669B	Chandrakant Dhondu Walavalkar	80C	General Provident Fund	291000	291000	291000
+AAIPW6669B	Chandrakant Dhondu Walavalkar	80C	 Life Insurance Premium	25414	25414	25414
+AAIPW6669B	Chandrakant Dhondu Walavalkar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAIPW6669B	Chandrakant Dhondu Walavalkar	80D	Health Insurance Premium	3000	3000	3000
+AJEPS5879E	Prakash Chndra Shukla	80C	General Provident Fund	480000	480000	480000
+AJEPS5879E	Prakash Chndra Shukla	80C	Central Government Employees Group Insurance Scheme	1440	1440	1440
+AJEPS5879E	Prakash Chndra Shukla	80D	Health Insurance Premium	7800	7800	7800
+AEIPJ2086B	Ajay Hiraji Juikar	80C	General Provident Fund	156000	156000	156000
+AEIPJ2086B	Ajay Hiraji Juikar	80C	 Life Insurance Premium	22680	22680	22680
+AEIPJ2086B	Ajay Hiraji Juikar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AEIPJ2086B	Ajay Hiraji Juikar	80D	Health Insurance Premium	3000	3000	3000
+AHYPM5668B	Dnyandev Ramchandra More	80C	General Provident Fund	120000	120000	120000
+AHYPM5668B	Dnyandev Ramchandra More	80C	 Life Insurance Premium	21682	21682	21682
+AHYPM5668B	Dnyandev Ramchandra More	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AHYPM5668B	Dnyandev Ramchandra More	80C	Repayment of Housing Loan Principal	90457	90457	90457
+AHYPM5668B	Dnyandev Ramchandra More	80D	Health Insurance Premium	19154	19154	19154
+AHYPM5668B	Dnyandev Ramchandra More	10	Children Education Allowance	2400	2400	2400
+AONPK2064B	Ajit Maruti Kamble	80C	General Provident Fund	84000	84000	84000
+AONPK2064B	Ajit Maruti Kamble	80C	 Life Insurance Premium	23316	23316	23316
+AONPK2064B	Ajit Maruti Kamble	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AONPK2064B	Ajit Maruti Kamble	80C	Repayment of Housing Loan Principal	32492	32492	32492
+AONPK2064B	Ajit Maruti Kamble	80D	Health Insurance Premium	3000	3000	3000
+AKCPB2619J	Vijay Balkrishna Bhute	80C	General Provident Fund	95000	95000	95000
+AKCPB2619J	Vijay Balkrishna Bhute	80C	 Life Insurance Premium	43591	43591	43591
+AKCPB2619J	Vijay Balkrishna Bhute	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AKCPB2619J	Vijay Balkrishna Bhute	80D	Health Insurance Premium	3000	3000	3000
+AHRPA9085F	Suryakant Pandurang Ahire	80C	General Provident Fund	96000	96000	96000
+AHRPA9085F	Suryakant Pandurang Ahire	80C	 Life Insurance Premium	3600	3600	3600
+AHRPA9085F	Suryakant Pandurang Ahire	80C	Repayment of Housing Loan Principal	32503	32503	32503
+AHRPA9085F	Suryakant Pandurang Ahire	80D	Health Insurance Premium	9600	9600	9600
+AFOPS1749D	Sumati Ashok Shingade	80C	General Provident Fund	310000	310000	310000
+AFOPS1749D	Sumati Ashok Shingade	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AFOPS1749D	Sumati Ashok Shingade	80D	Health Insurance Premium	7800	7800	7800
+AJBPG6549A	Paresh Vasudeo Ghate	80C	General Provident Fund	144000	144000	144000
+AJBPG6549A	Paresh Vasudeo Ghate	80C	 Life Insurance Premium	8988	8988	8988
+AJBPG6549A	Paresh Vasudeo Ghate	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AJBPG6549A	Paresh Vasudeo Ghate	80D	Health Insurance Premium	3000	3000	3000
+AFTPJ6889E	Santosh Jairam Jadhav	80C	General Provident Fund	60000	60000	60000
+AFTPJ6889E	Santosh Jairam Jadhav	80C	 Life Insurance Premium	60892	60892	60892
+AFTPJ6889E	Santosh Jairam Jadhav	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ALBPP2768E	Vivek Krishna Parab	80C	General Provident Fund	162000	162000	162000
+ALBPP2768E	Vivek Krishna Parab	80C	 Life Insurance Premium	3420	3420	3420
+ALBPP2768E	Vivek Krishna Parab	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ALBPP2768E	Vivek Krishna Parab	80C	Postal Life Insurance	19080	19080	19080
+ALBPP2768E	Vivek Krishna Parab	80D	Health Insurance Premium	3000	3000	3000
+AGMPA3878Q	Suresh Tukaram Ambokar	10	House Rent Allowance	43992	43992	43992
+AGMPA3878Q	Suresh Tukaram Ambokar	80C	General Provident Fund	258000	258000	258000
+AGMPA3878Q	Suresh Tukaram Ambokar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AGMPA3878Q	Suresh Tukaram Ambokar	80D	Health Insurance Premium	3000	3000	3000
+ANWPK1542J	Hanumant Ramchandra Kadam	80C	General Provident Fund	132000	132000	132000
+ANWPK1542J	Hanumant Ramchandra Kadam	80C	 Life Insurance Premium	6120	6120	6120
+ANWPK1542J	Hanumant Ramchandra Kadam	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ANWPK1542J	Hanumant Ramchandra Kadam	80D	Health Insurance Premium	3000	3000	3000
+AMZPK9646F	Bhalchandra Janya Karbhari	80C	General Provident Fund	60000	60000	60000
+AMZPK9646F	Bhalchandra Janya Karbhari	80C	 Life Insurance Premium	13728	13728	13728
+AMZPK9646F	Bhalchandra Janya Karbhari	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AMZPK9646F	Bhalchandra Janya Karbhari	80C	Repayment of Housing Loan Principal	30242	30242	30242
+AMZPK9646F	Bhalchandra Janya Karbhari	80D	Health Insurance Premium	3000	3000	3000
+AIHPD4783E	Rashmi Ravindra Dhoke	80C	General Provident Fund	144000	144000	144000
+AIHPD4783E	Rashmi Ravindra Dhoke	80C	 Life Insurance Premium	21456	21456	21456
+AIHPD4783E	Rashmi Ravindra Dhoke	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AFBPC2896N	Udaybir Mashicharan Chavan	80C	General Provident Fund	33000	33000	33000
+AFBPC2896N	Udaybir Mashicharan Chavan	80C	 Life Insurance Premium	57432	57432	57432
+AFBPC2896N	Udaybir Mashicharan Chavan	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AFBPC2896N	Udaybir Mashicharan Chavan	80D	Health Insurance Premium	3000	3000	3000
+AAGPT7779K	Sunil Laxman Talekar	80C	General Provident Fund	480000	480000	480000
+AAGPT7779K	Sunil Laxman Talekar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAGPT7779K	Sunil Laxman Talekar	80C	Repayment of Housing Loan Principal	174460	174460	174460
+AAGPT7779K	Sunil Laxman Talekar	80D	Health Insurance Premium	10409	10409	10409
+AAFPW9155R	Sanjay Shripati Wadikar	80C	General Provident Fund	72000	72000	72000
+AAFPW9155R	Sanjay Shripati Wadikar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAFPW9155R	Sanjay Shripati Wadikar	80D	Health Insurance Premium	7800	7800	7800
+ABLPK7158D	Vinay Narayan Kamble	80C	General Provident Fund	30000	30000	30000
+ABLPK7158D	Vinay Narayan Kamble	80C	Central Government Employees Group Insurance Scheme	300	300	300
+ADJPJ6257A	Harishchandra Shripat Jaiswar	80C	General Provident Fund	480000	480000	480000
+ADJPJ6257A	Harishchandra Shripat Jaiswar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ADJPJ6257A	Harishchandra Shripat Jaiswar	80D	Health Insurance Premium	31897	31897	25000
+AGFPP8957N	Pradeep Anant Parab	80C	General Provident Fund	240000	240000	240000
+AGFPP8957N	Pradeep Anant Parab	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AGFPP8957N	Pradeep Anant Parab	80C	Repayment of Housing Loan Principal	93341	93341	93341
+AGFPP8957N	Pradeep Anant Parab	80D	Health Insurance Premium	25643	25643	25000
+AHCPS2565H	Padam Bahadur Krisan Bahadur Singhpal	10	Children Education Allowance	2400	2400	2400
+AHCPS2565H	Padam Bahadur Krisan Bahadur Singhpal	10	House Rent Allowance	90000	90000	90000
+AHCPS2565H	Padam Bahadur Krisan Bahadur Singhpal	80C	General Provident Fund	300000	300000	300000
+AHCPS2565H	Padam Bahadur Krisan Bahadur Singhpal	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AHCPS2565H	Padam Bahadur Krisan Bahadur Singhpal	80D	Health Insurance Premium	7800	7800	7800
+ADIPA1768J	Shakil Ahmed Ansari	80C	General Provident Fund	324000	324000	324000
+ADIPA1768J	Shakil Ahmed Ansari	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ADIPA1768J	Shakil Ahmed Ansari	80D	Health Insurance Premium	7800	7800	7800
+AAJPH7415D	Maksud Husain Harichirkar	80C	General Provident Fund	120000	120000	120000
+AAJPH7415D	Maksud Husain Harichirkar	80C	 Life Insurance Premium	6144	6144	6144
+AAJPH7415D	Maksud Husain Harichirkar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAJPH7415D	Maksud Husain Harichirkar	80D	Health Insurance Premium	7800	7800	7800
+AKMPM0400A	Hemant Ramesh Mangade	80C	General Provident Fund	66000	66000	66000
+AKMPM0400A	Hemant Ramesh Mangade	80C	 Life Insurance Premium	46836	46836	46836
+AKMPM0400A	Hemant Ramesh Mangade	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AKMPM0400A	Hemant Ramesh Mangade	80C	Repayment of Housing Loan Principal	31443	31443	31443
+AKMPM0400A	Hemant Ramesh Mangade	80D	Health Insurance Premium	16600	16600	16600
+AXLPS5214N	Prashant Prabhakar Sawant	80C	General Provident Fund	120000	120000	120000
+AXLPS5214N	Prashant Prabhakar Sawant	80C	 Life Insurance Premium	32749	32749	32749
+AXLPS5214N	Prashant Prabhakar Sawant	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AXLPS5214N	Prashant Prabhakar Sawant	80D	Health Insurance Premium	12632	12632	12632
+ALCPP7972R	Nilesh Atmaram Parab	80C	General Provident Fund	120000	120000	120000
+ALCPP7972R	Nilesh Atmaram Parab	80C	 Life Insurance Premium	30732	30732	30732
+ALCPP7972R	Nilesh Atmaram Parab	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ALCPP7972R	Nilesh Atmaram Parab	80C	Repayment of Housing Loan Principal	224388	224388	224388
+ALCPP7972R	Nilesh Atmaram Parab	80D	Health Insurance Premium	4600	4600	4600
+AVUPS1951P	Balkrishna Shrirang Surve	80C	General Provident Fund	60000	60000	60000
+AVUPS1951P	Balkrishna Shrirang Surve	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AVUPS1951P	Balkrishna Shrirang Surve	80D	Health Insurance Premium	14980	14980	14980
+AAZPG2678P	Sheela George	80C	General Provident Fund	168000	168000	168000
+AAZPG2678P	Sheela George	80C	 Life Insurance Premium	21024	21024	21024
+AAZPG2678P	Sheela George	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAZPG2678P	Sheela George	80D	Health Insurance Premium	3000	3000	3000
+AAYPV2720L	Satyanarayana Neelam Vanga	10	Children Education Allowance	2400	2400	2400
+AAYPV2720L	Satyanarayana Neelam Vanga	80C	General Provident Fund	240000	240000	240000
+AAYPV2720L	Satyanarayana Neelam Vanga	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAYPV2720L	Satyanarayana Neelam Vanga	80D	Health Insurance Premium	3000	3000	3000
+ACWPP7489A	Ignatius Albert Pereira	80C	General Provident Fund	320000	320000	320000
+ACWPP7489A	Ignatius Albert Pereira	80C	 Life Insurance Premium	125400	125400	125400
+ACWPP7489A	Ignatius Albert Pereira	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACWPP7489A	Ignatius Albert Pereira	80C	Repayment of Housing Loan Principal	71317	71317	71317
+ACWPP7489A	Ignatius Albert Pereira	80D	Health Insurance Premium	10502	10502	10502
+ABWPR4988H	Mukund Bhalchandra Rajeshirke	80C	General Provident Fund	295000	295000	295000
+ABWPR4988H	Mukund Bhalchandra Rajeshirke	80C	 Life Insurance Premium	12252	12252	12252
+ABWPR4988H	Mukund Bhalchandra Rajeshirke	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ABWPR4988H	Mukund Bhalchandra Rajeshirke	80D	Health Insurance Premium	3000	3000	3000
+ABBPM5358D	Shobhana Suresh Menon	80C	General Provident Fund	300000	300000	300000
+ABBPM5358D	Shobhana Suresh Menon	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABBPM5358D	Shobhana Suresh Menon	80C	Repayment of Housing Loan Principal	224778	224778	224778
+ABBPM5358D	Shobhana Suresh Menon	80D	Health Insurance Premium	39379	39379	25000
+AHEPS8077Q	Sam Sebastian	80C	General Provident Fund	66000	66000	66000
+AHEPS8077Q	Sam Sebastian	80C	 Life Insurance Premium	22837	22837	22837
+AHEPS8077Q	Sam Sebastian	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AHEPS8077Q	Sam Sebastian	80C	Repayment of Housing Loan Principal	53421	53421	53421
+AHEPS8077Q	Sam Sebastian	80D	Health Insurance Premium	54081	54081	30000
+ACAPD3071G	Balkrishana Arjun Dhuri	80C	General Provident Fund	236000	236000	236000
+ACAPD3071G	Balkrishana Arjun Dhuri	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AEAPN1638P	Chitra Natarajan	80C	General Provident Fund	360000	360000	360000
+AEAPN1638P	Chitra Natarajan	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AEAPN1638P	Chitra Natarajan	80D	Health Insurance Premium	18603	18603	18603
+ABSPH7453F	Indira Hari	80C	General Provident Fund	120000	120000	120000
+ABSPH7453F	Indira Hari	80C	 Life Insurance Premium	59820	59820	59820
+ABSPH7453F	Indira Hari	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ABSPH7453F	Indira Hari	80D	Health Insurance Premium	5000	5000	5000
+AHEPB3182B	Laxmi Bipinchandra Bhanuse	80C	General Provident Fund	177000	177000	177000
+AHEPB3182B	Laxmi Bipinchandra Bhanuse	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AHEPB3182B	Laxmi Bipinchandra Bhanuse	80C	Repayment of Housing Loan Principal	28813	28813	28813
+AHEPB3182B	Laxmi Bipinchandra Bhanuse	80D	Health Insurance Premium	3000	3000	3000
+AEAPN1110L	Anil Dasharath Netam	80C	General Provident Fund	100000	100000	100000
+AEAPN1110L	Anil Dasharath Netam	80C	Central Government Employees Group Insurance Scheme	240	240	240
+ABAPN1177G	Nattuvetty Vinodkumar Vasu	80C	General Provident Fund	192000	192000	192000
+ABAPN1177G	Nattuvetty Vinodkumar Vasu	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ABAPN1177G	Nattuvetty Vinodkumar Vasu	80D	Health Insurance Premium	3000	3000	3000
+AHXPR9008B	Rajashri Bipin Raut	80C	General Provident Fund	120000	120000	120000
+AHXPR9008B	Rajashri Bipin Raut	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AHXPR9008B	Rajashri Bipin Raut	80C	Repayment of Housing Loan Principal	35826	35826	35826
+ABNPT2554L	Jolly Philip Thomas	80C	General Provident Fund	600000	600000	600000
+ABNPT2554L	Jolly Philip Thomas	80C	 Life Insurance Premium	25884	25884	25884
+ABNPT2554L	Jolly Philip Thomas	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABNPT2554L	Jolly Philip Thomas	80D	Health Insurance Premium	7800	7800	7800
+AZUPS4527K	Vishnu Bikhoba Shelar	80C	General Provident Fund	60000	60000	60000
+AZUPS4527K	Vishnu Bikhoba Shelar	80C	 Life Insurance Premium	22584	22584	22584
+AZUPS4527K	Vishnu Bikhoba Shelar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AZUPS4527K	Vishnu Bikhoba Shelar	80D	Health Insurance Premium	3000	3000	3000
+ABWPR5162M	Shanta Rajan	80C	General Provident Fund	180000	180000	180000
+ABWPR5162M	Shanta Rajan	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AIGPB5678P	Kailas Atmaram Baikar	80C	General Provident Fund	174000	174000	174000
+AIGPB5678P	Kailas Atmaram Baikar	80C	 Life Insurance Premium	34337	34337	34337
+AIGPB5678P	Kailas Atmaram Baikar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AIGPB5678P	Kailas Atmaram Baikar	80C	Repayment of Housing Loan Principal	84997	84997	84997
+AIGPB5678P	Kailas Atmaram Baikar	80D	Health Insurance Premium	18518	18518	18518
+ADBPK7214L	Jyoti Prashant Sawant	80C	General Provident Fund	204000	204000	204000
+ADBPK7214L	Jyoti Prashant Sawant	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AKJPM1566A	Aruna Ramakrishna Manche	80C	General Provident Fund	97000	97000	97000
+AKJPM1566A	Aruna Ramakrishna Manche	80C	 Life Insurance Premium	12130	12130	12130
+AKJPM1566A	Aruna Ramakrishna Manche	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AKJPM1566A	Aruna Ramakrishna Manche	80C	Public Provident Fund	60000	60000	60000
+AASPD1547R	Vidya Shashikant Deshmukh	80C	General Provident Fund	240000	240000	240000
+AASPD1547R	Vidya Shashikant Deshmukh	80C	 Life Insurance Premium	9072	9072	9072
+AASPD1547R	Vidya Shashikant Deshmukh	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AASPD1547R	Vidya Shashikant Deshmukh	80D	Health Insurance Premium	7800	7800	7800
+AACPU4948B	Jaya Ajith Unny	80C	General Provident Fund	204000	204000	204000
+AACPU4948B	Jaya Ajith Unny	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AACPU4948B	Jaya Ajith Unny	80D	Health Insurance Premium	3000	3000	3000
+ABBPG7812L	Jagdish Prashad Gupta	80C	General Provident Fund	240000	240000	240000
+ABBPG7812L	Jagdish Prashad Gupta	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAVPB8851F	Sunil Baban Bhujbal	80C	General Provident Fund	240000	240000	240000
+AAVPB8851F	Sunil Baban Bhujbal	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAVPB8851F	Sunil Baban Bhujbal	80D	Health Insurance Premium	7800	7800	7800
+ACXPC3427A	Noornabi Hussain Chougle	80C	General Provident Fund	180000	180000	180000
+ACXPC3427A	Noornabi Hussain Chougle	80C	 Life Insurance Premium	3900	3900	3900
+ACXPC3427A	Noornabi Hussain Chougle	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACXPC3427A	Noornabi Hussain Chougle	80C	Repayment of Housing Loan Principal	73104	73104	73104
+ACXPC3427A	Noornabi Hussain Chougle	80D	Health Insurance Premium	7800	7800	7800
+ABQPG7509R	Pramod Shriramji Gawande	80C	General Provident Fund	180000	180000	180000
+ABQPG7509R	Pramod Shriramji Gawande	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AFZPS3526H	Navneet Rameshwarprasad Soni	80C	General Provident Fund	75000	75000	75000
+AFZPS3526H	Navneet Rameshwarprasad Soni	80C	 Life Insurance Premium	20000	20000	20000
+AFZPS3526H	Navneet Rameshwarprasad Soni	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AFZPS3526H	Navneet Rameshwarprasad Soni	80D	Health Insurance Premium	3250	3250	3250
+AFZPS3526H	Navneet Rameshwarprasad Soni	10	HCA	6300	6300	6300
+AFOPS1827E	Seema Atul Shende	80C	General Provident Fund	215000	215000	215000
+AFOPS1827E	Seema Atul Shende	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AFOPS1827E	Seema Atul Shende	80D	Health Insurance Premium	7800	7800	7800
+AMVPS6644M	Devidas Raghunath Sonawane	80C	General Provident Fund	195000	195000	195000
+AMVPS6644M	Devidas Raghunath Sonawane	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AMVPS6644M	Devidas Raghunath Sonawane	80C	Repayment of Housing Loan Principal	69573	69573	69573
+AMVPS6644M	Devidas Raghunath Sonawane	80D	Health Insurance Premium	32800	32800	25000
+AAUPC2242A	Narayan Gopalrao Chikorde	80C	General Provident Fund	480000	480000	480000
+AAUPC2242A	Narayan Gopalrao Chikorde	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAUPC2242A	Narayan Gopalrao Chikorde	80D	Health Insurance Premium	28262	28262	25000
+BCMPS0953B	Jagdish Muralidhar Salvi	80C	General Provident Fund	60000	60000	60000
+BCMPS0953B	Jagdish Muralidhar Salvi	80C	 Life Insurance Premium	50000	50000	50000
+BCMPS0953B	Jagdish Muralidhar Salvi	80C	Central Government Employees Group Insurance Scheme	360	360	360
+BCMPS0953B	Jagdish Muralidhar Salvi	80D	Health Insurance Premium	30000	30000	25000
+BCMPS0953B	Jagdish Muralidhar Salvi	10	House Rent Allowance	110955	110955	110955
+AAQPL5243C	Seema Sunil Lad	80C	General Provident Fund	180000	180000	180000
+AAQPL5243C	Seema Sunil Lad	80C	 Life Insurance Premium	1533	1533	1533
+AAQPL5243C	Seema Sunil Lad	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAQPL5243C	Seema Sunil Lad	80D	Health Insurance Premium	3000	3000	3000
+ABAPP4861B	Saimon Bhushan Prasad	80C	General Provident Fund	120000	120000	120000
+ABAPP4861B	Saimon Bhushan Prasad	80C	 Life Insurance Premium	52274	52274	52274
+ABAPP4861B	Saimon Bhushan Prasad	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABAPP4861B	Saimon Bhushan Prasad	80C	Repayment of Housing Loan Principal	197853	197853	197853
+ABAPP4861B	Saimon Bhushan Prasad	80D	Health Insurance Premium	23588	23588	23588
+ACPPM8306A	Jaishri Daulat Makhijani	80C	General Provident Fund	42000	42000	42000
+ACPPM8306A	Jaishri Daulat Makhijani	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACPPM8306A	Jaishri Daulat Makhijani	80C	Public Provident Fund	150000	150000	150000
+ACPPM8306A	Jaishri Daulat Makhijani	80CCC	Policy Pension	100000	100000	100000
+ACPPM8306A	Jaishri Daulat Makhijani	80CCD(1B)	National Pension Scheme	10000	10000	10000
+ACPPM8306A	Jaishri Daulat Makhijani	80D	Health Insurance Premium	3250	3250	3250
+ADYPK1098D	Ramesh Narasinh Kulkarni	80C	General Provident Fund	54000	54000	54000
+ADYPK1098D	Ramesh Narasinh Kulkarni	80C	Central Government Employees Group Insurance Scheme	540	540	540
+ADYPK1098D	Ramesh Narasinh Kulkarni	80C	Repayment of Housing Loan Principal	225298	225298	225298
+ADYPK1098D	Ramesh Narasinh Kulkarni	80D	Health Insurance Premium	4971	4971	4971
+AFFPD0564G	Durgesh Nandan Dwivedi	80C	General Provident Fund	360000	360000	360000
+AFFPD0564G	Durgesh Nandan Dwivedi	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AFFPD0564G	Durgesh Nandan Dwivedi	80D	Health Insurance Premium	7800	7800	7800
+AGIPP5071C	Rony Elias Pereira	80C	General Provident Fund	215000	215000	215000
+AGIPP5071C	Rony Elias Pereira	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AGIPP5071C	Rony Elias Pereira	80D	Health Insurance Premium	25700	25700	25000
+ABUPM3119R	Mohan Mahadeo Mose	80C	General Provident Fund	112000	112000	112000
+ABUPM3119R	Mohan Mahadeo Mose	80C	 Life Insurance Premium	193498	193498	193498
+ABUPM3119R	Mohan Mahadeo Mose	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABUPM3119R	Mohan Mahadeo Mose	80C	Repayment of Housing Loan Principal	72879	72879	72879
+ABUPM3119R	Mohan Mahadeo Mose	80D	Health Insurance Premium	24378	24378	24378
+ACEPG7704M	Vandana Prabhakar Gawali	80C	General Provident Fund	240000	240000	240000
+ACEPG7704M	Vandana Prabhakar Gawali	80C	 Life Insurance Premium	21312	21312	21312
+ACEPG7704M	Vandana Prabhakar Gawali	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACEPG7704M	Vandana Prabhakar Gawali	80C	Postal Life Insurance	4020	4020	4020
+ABZPK9470G	Nurvandappa Halappa Kawchale	80C	General Provident Fund	120000	120000	120000
+ABZPK9470G	Nurvandappa Halappa Kawchale	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACWPK6876A	Anand Shravan Kambli	80C	General Provident Fund	120000	120000	120000
+ACWPK6876A	Anand Shravan Kambli	80C	 Life Insurance Premium	34980	34980	34980
+ACWPK6876A	Anand Shravan Kambli	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ACWPK6876A	Anand Shravan Kambli	80C	Repayment of Housing Loan Principal	71229	71229	71229
+ACIPB2842D	Ramchandra Dinkar Bobade	80C	General Provident Fund	300000	300000	300000
+ACIPB2842D	Ramchandra Dinkar Bobade	80C	 Life Insurance Premium	25584	25584	25584
+ACIPB2842D	Ramchandra Dinkar Bobade	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ACIPB2842D	Ramchandra Dinkar Bobade	80D	Health Insurance Premium	3000	3000	3000
+ABJPY0631P	Bajirao Dattu Yadav	80C	General Provident Fund	206000	206000	206000
+ABJPY0631P	Bajirao Dattu Yadav	80C	 Life Insurance Premium	24432	24432	24432
+ABJPY0631P	Bajirao Dattu Yadav	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ABJPY0631P	Bajirao Dattu Yadav	80D	Health Insurance Premium	3000	3000	3000
+AIEPS8010N	Ganesh Shankar Sangle	80C	General Provident Fund	480000	480000	480000
+AIEPS8010N	Ganesh Shankar Sangle	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AIEPS8010N	Ganesh Shankar Sangle	80D	Health Insurance Premium	720	720	720
+ABZPV9299E	Johny Gulabrao Vanjare	80C	General Provident Fund	192000	192000	192000
+ABZPV9299E	Johny Gulabrao Vanjare	80C	 Life Insurance Premium	54061	54061	54061
+ABZPV9299E	Johny Gulabrao Vanjare	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAFPW8312E	Nandkumar Prabhakarrao Wankhede	80C	General Provident Fund	69600	69600	69600
+AAFPW8312E	Nandkumar Prabhakarrao Wankhede	80C	 Life Insurance Premium	42238	42238	42238
+AAFPW8312E	Nandkumar Prabhakarrao Wankhede	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAFPW8312E	Nandkumar Prabhakarrao Wankhede	80C	Repayment of Housing Loan Principal	91265	91265	91265
+AAFPW8312E	Nandkumar Prabhakarrao Wankhede	80D	Health Insurance Premium	7800	7800	7800
+AKNPM3615N	Laxman Shivram Mahapadi	80C	General Provident Fund	120000	120000	120000
+AKNPM3615N	Laxman Shivram Mahapadi	80C	 Life Insurance Premium	6120	6120	6120
+AKNPM3615N	Laxman Shivram Mahapadi	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AKNPM3615N	Laxman Shivram Mahapadi	80C	Repayment of Housing Loan Principal	28255	28255	28255
+AHKPR4657D	Jagdish Gangadhar Rasjguru	80C	General Provident Fund	36000	36000	36000
+AHKPR4657D	Jagdish Gangadhar Rasjguru	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AHKPR4657D	Jagdish Gangadhar Rasjguru	80D	Health Insurance Premium	3000	3000	3000
+AACPI6575J	Mohan Pandurang Ingle	80C	General Provident Fund	120000	120000	120000
+AACPI6575J	Mohan Pandurang Ingle	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AACPI6575J	Mohan Pandurang Ingle	80C	Repayment of Housing Loan Principal	15000	15000	15000
+AACPI6575J	Mohan Pandurang Ingle	80D	Health Insurance Premium	7800	7800	7800
+AACPI6575J	Mohan Pandurang Ingle	80E	Interest on loan taken for higher education	118296	118296	118296
+ACHPG2424M	Rajendra Baliram Gawde	80C	General Provident Fund	180000	180000	180000
+ACHPG2424M	Rajendra Baliram Gawde	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AATPT8733A	Suresh Pandurang Thanekar	80C	General Provident Fund	240000	240000	240000
+AATPT8733A	Suresh Pandurang Thanekar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AATPT8733A	Suresh Pandurang Thanekar	80D	Health Insurance Premium	25000	25000	25000
+ACPPB1747G	Devdas Moreshwar Bhoir	80C	General Provident Fund	300000	300000	300000
+ACPPB1747G	Devdas Moreshwar Bhoir	80C	Central Government Employees Group Insurance Scheme	480	480	480
+ANWPK6783D	Ganesh Sudkoji Korgaonkar	80C	General Provident Fund	146400	146400	146400
+ANWPK6783D	Ganesh Sudkoji Korgaonkar	80C	 Life Insurance Premium	30000	30000	30000
+ANWPK6783D	Ganesh Sudkoji Korgaonkar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AARPT3239R	Arunsing Papasing Thakur	80C	General Provident Fund	595000	595000	595000
+AARPT3239R	Arunsing Papasing Thakur	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AARPT3239R	Arunsing Papasing Thakur	80C	Repayment of Housing Loan Principal	162034	162034	162034
+ABXPP7459G	Prashant Ranganath Pehekar	80C	General Provident Fund	225000	225000	225000
+ABXPP7459G	Prashant Ranganath Pehekar	80C	Central Government Employees Group Insurance Scheme	540	540	540
+ABXPP7459G	Prashant Ranganath Pehekar	80E	Interest on loan taken for higher education	40000	40000	25000
+AEIPB2347F	Ratna Subhash Bhamare	80C	General Provident Fund	180000	180000	180000
+AEIPB2347F	Ratna Subhash Bhamare	80C	 Life Insurance Premium	11511	11511	11511
+AEIPB2347F	Ratna Subhash Bhamare	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AEIPB2347F	Ratna Subhash Bhamare	80C	Public Provident Fund	5000	5000	5000
+AEIPB2347F	Ratna Subhash Bhamare	80C	Repayment of Housing Loan Principal	110683	110683	110683
+AEIPB2347F	Ratna Subhash Bhamare	80D	Health Insurance Premium	14197	14197	14197
+AEIPB2347F	Ratna Subhash Bhamare	10	House Rent Allowance	214500	214500	214500
+ABJPW3484G	Ramji Chatur Waghela	80C	General Provident Fund	72000	72000	72000
+ABJPW3484G	Ramji Chatur Waghela	80C	Central Government Employees Group Insurance Scheme	360	360	360
+ABJPW3484G	Ramji Chatur Waghela	80D	Health Insurance Premium	3000	3000	3000
+CEIPS6107Q	Daksha Vinod Solanki	80C	General Provident Fund	60000	60000	60000
+CEIPS6107Q	Daksha Vinod Solanki	80C	 Life Insurance Premium	26748	26748	26748
+CEIPS6107Q	Daksha Vinod Solanki	80C	Central Government Employees Group Insurance Scheme	360	360	360
+CEIPS6107Q	Daksha Vinod Solanki	80C	Repayment of Housing Loan Principal	32807	32807	32807
+CEIPS6107Q	Daksha Vinod Solanki	80D	Health Insurance Premium	3000	3000	3000
+AEIPT1113R	Minal Mangesh Toraskar	80C	 Life Insurance Premium	26064	26064	26064
+AEIPT1113R	Minal Mangesh Toraskar	80C	Central Government Employees Group Insurance Scheme	360	360	360
+AAGPW1208E	Kranti Sadanand Waingankar	80C	General Provident Fund	300000	300000	300000
+AAGPW1208E	Kranti Sadanand Waingankar	80C	 Life Insurance Premium	34068	34068	34068
+AAGPW1208E	Kranti Sadanand Waingankar	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAGPW1208E	Kranti Sadanand Waingankar	80D	Health Insurance Premium	7800	7800	7800
+ABFPJ8346J	Santosh Shripad Joshi	80C	General Provident Fund	120000	120000	120000
+ABFPJ8346J	Santosh Shripad Joshi	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABFPJ8346J	Santosh Shripad Joshi	80C	Repayment of Housing Loan Principal	293601	293601	293601
+ABFPJ8346J	Santosh Shripad Joshi	80D	Health Insurance Premium	7434	7434	7434
+ABFPJ8346J	Santosh Shripad Joshi	80E	Interest on loan taken for higher education	370010	370010	370010
+ADQPR7573N	Baliram Dagdu Rajput	80C	General Provident Fund	240000	240000	240000
+ADQPR7573N	Baliram Dagdu Rajput	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AEBPS3237A	Chanbasayya Siddheshwar Swami	80C	General Provident Fund	96000	96000	96000
+AEBPS3237A	Chanbasayya Siddheshwar Swami	80C	 Life Insurance Premium	24254	24254	24254
+AEBPS3237A	Chanbasayya Siddheshwar Swami	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AEBPS3237A	Chanbasayya Siddheshwar Swami	80C	Repayment of Housing Loan Principal	70961	70961	70961
+AEBPS3237A	Chanbasayya Siddheshwar Swami	80D	Health Insurance Premium	15234	15234	15234
+AAGPE6252J	Amjad Ali Mansoori	80C	General Provident Fund	120000	120000	120000
+AAGPE6252J	Amjad Ali Mansoori	80C	 Life Insurance Premium	9120	9120	9120
+AAGPE6252J	Amjad Ali Mansoori	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AAGPE6252J	Amjad Ali Mansoori	80C	Repayment of Housing Loan Principal	86576	86576	86576
+AAGPE6252J	Amjad Ali Mansoori	80D	Health Insurance Premium	40315	40315	25000
+AERPS4830F	Ajay Amarnath Shrivastava	80C	General Provident Fund	237000	237000	237000
+AERPS4830F	Ajay Amarnath Shrivastava	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AERPS4830F	Ajay Amarnath Shrivastava	80D	Health Insurance Premium	7800	7800	7800
+ANBPS1224J	Anurag Shrivastava	80C	General Provident Fund	180000	180000	180000
+ANBPS1224J	Anurag Shrivastava	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ANBPS1224J	Anurag Shrivastava	80D	Health Insurance Premium	7800	7800	7800
+ANBPS1224J	Anurag Shrivastava	80CCD(1B)	National Pension Scheme	50000	50000	50000
+ANBPS1224J	Anurag Shrivastava	10	House Rent Allowance	80000	80000	80000
+ABCPD5591J	Rajendra Chimanlal Desai	80C	General Provident Fund	300000	300000	300000
+ABCPD5591J	Rajendra Chimanlal Desai	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ABCPD5591J	Rajendra Chimanlal Desai	80D	Health Insurance Premium	3750	3750	3750
+AVKPS3752Q	Vijay Gokulprasad Sony	80C	General Provident Fund	180000	180000	180000
+AVKPS3752Q	Vijay Gokulprasad Sony	80C	Central Government Employees Group Insurance Scheme	720	720	720
+AVKPS3752Q	Vijay Gokulprasad Sony	80C	Repayment of Housing Loan Principal	77664	77664	77664
+AVKPS3752Q	Vijay Gokulprasad Sony	80D	Health Insurance Premium	1300	1300	1300
+ACRPS8954Q	Rajendra Jagannath Save	80C	General Provident Fund	130000	130000	130000
+ACRPS8954Q	Rajendra Jagannath Save	80C	Central Government Employees Group Insurance Scheme	720	720	720
+ACRPS8954Q	Rajendra Jagannath Save	80C	Repayment of Housing Loan Principal	76821	76821	76821
+ACRPS8954Q	Rajendra Jagannath Save	80D	Health Insurance Premium	4971	4971	4971
+						

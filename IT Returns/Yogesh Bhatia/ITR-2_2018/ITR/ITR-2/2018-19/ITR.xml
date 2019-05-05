@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR2FORM="http://incometaxindiaefiling.gov.in/ITR2" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ITR2FORM:ITR2>
+  <ITRForm:CreationInfo>
+    <ITRForm:SWVersionNo name="creationInfo.swVersionNo">1.0</ITRForm:SWVersionNo>
+    <ITRForm:SWCreatedBy name="creationInfo.swCreatedBy">SW91201819</ITRForm:SWCreatedBy>
+    <ITRForm:XMLCreatedBy name="creationInfo.xmlCreatedBy">SW91201819</ITRForm:XMLCreatedBy>
+    <ITRForm:XMLCreationDate name="creationInfo.xmlCreationDate">2014-05-19</ITRForm:XMLCreationDate>
+    <ITRForm:IntermediaryCity name="creationInfo.intermediaryCity">Delhi</ITRForm:IntermediaryCity>
+    <ITRForm:Digest>-</ITRForm:Digest>
+  </ITRForm:CreationInfo>
+  <ITRForm:Form_ITR2>
+    <ITRForm:FormName name="formITR3.formName">ITR-2</ITRForm:FormName>
+    <ITRForm:Description name="formITR3.description">For Individuals and HUFs not having income from profits and gains of business or profession</ITRForm:Description>
+    <ITRForm:AssessmentYear name="formITR3.assessmentYear">2018</ITRForm:AssessmentYear>
+    <ITRForm:SchemaVer name="formITR3.schemaVer">Ver1.0</ITRForm:SchemaVer>
+    <ITRForm:FormVer name="formITR3.formVer">Ver1.0</ITRForm:FormVer>
+  </ITRForm:Form_ITR2>
+  <ITRForm:PartA_GEN1>
+    <ITRForm:PersonalInfo>
+      <ITRForm:AssesseeName>
+        <ITRForm:FirstName name="partAGEN1.personalInfo.assesseeName.firstName"/>
+        <ITRForm:MiddleName name="partAGEN1.personalInfo.assesseeName.middleName"/>
+        <ITRForm:SurNameOrOrgName name="partAGEN1.personalInfo.assesseeName.surNameOrOrgName"/>
+        <ITRForm:OrgOldName name="partAGEN1.personalInfo.assesseeName.orgOldName"/>
+      </ITRForm:AssesseeName>
+      <ITRForm:PAN name="partAGEN1.personalInfo.pan"/>
+      <ITRForm:Address>
+        <ITRForm:ResidenceNo name="partAGEN1.personalInfo.address.residenceNo"/>
+        <ITRForm:ResidenceName name="partAGEN1.personalInfo.address.residenceName"/>
+        <ITRForm:RoadOrStreet name="partAGEN1.personalInfo.address.roadOrStreet"/>
+        <ITRForm:LocalityOrArea name="partAGEN1.personalInfo.address.localityOrArea"/>
+        <ITRForm:CityOrTownOrDistrict name="partAGEN1.personalInfo.address.cityOrTownOrDistrict"/>
+        <ITRForm:StateCode name="partAGEN1.personalInfo.address.stateCode"/>
+        <ITRForm:CountryCode name="partAGEN1.personalInfo.address.country"/>
+        <ITRForm:PinCode name="partAGEN1.personalInfo.address.pinCode"/>
+       <ITRForm:ZipCode name="partAGEN1.personalInfo.address.zipCode"/>
+        <ITRForm:Phone>
+          <ITRForm:STDcode name="partAGEN1.personalInfo.address.phone.stDcode"/>
+          <ITRForm:PhoneNo name="partAGEN1.personalInfo.address.phone.phoneNo"/>
+        </ITRForm:Phone>
+        <ITRForm:CountryCodeMobile name="partAGEN1.personalInfo.address.countryCodeMobile"/>
+        <ITRForm:MobileNo name="partAGEN1.personalInfo.address.mobileNo"/>
+        <ITRForm:CountryCodeMobileNoSec name="partAGEN1.personalInfo.address.countryCodeMobileNoSec"/>
+        <ITRForm:MobileNoSec name="partAGEN1.personalInfo.address.secMobileNo"/>
+        <ITRForm:EmailAddress name="partAGEN1.personalInfo.address.emailAddress"/>
+        <ITRForm:EmailAddressSec name="partAGEN1.personalInfo.address.emailAddressSec"/>
+      </ITRForm:Address>
+      <ITRForm:DOB name="partAGEN1.personalInfo.dob"/>
+      <ITRForm:EmployerCategory name="partAGEN1.personalInfo.employerCategory"/>
+      <ITRForm:Status name="partAGEN1.personalInfo.status"/>
+      <ITRForm:AadhaarCardNo name="partAGEN1.personalInfo.adharNumber" />
+       <ITRForm:AadhaarEnrolmentId name="partAGEN1.personalInfo.aadhaarEnrolmentId" />
+    </ITRForm:PersonalInfo>
+    <ITRForm:FilingStatus>
+      <ITRForm:DesigOfficerWardorCircle name="partAGEN1.filingStatus.desigOfficerWardorCircle"/>
+      <ITRForm:ReturnFileSec name="partAGEN1.filingStatus.returnFileSec"/>
+      <ITRForm:NoticeNo name="partAGEN1.filingStatus.noticeNo"/>
+      <ITRForm:ReturnType name="partAGEN1.filingStatus.returnType"/>
+      <ITRForm:ReceiptNo name="partAGEN1.filingStatus.receiptNo"/>
+       <ITRForm:OrigRetFiledDate name="partAGEN1.filingStatus.origRetFiledDate"/>
+      <ITRForm:NoticeDateUnderSec name="partAGEN1.filingStatus.noticeDateUnderSec"/>
+      <ITRForm:ResidentialStatus name="partAGEN1.filingStatus.residentialStatus"/>
+       <ITRForm:BenefitUs115HFlg name="partAGEN1.filingStatus.benefitUs115HFlg"/>
+      <ITRForm:NotifiedUs94AFlg name="partAGEN1.filingStatus.notifiedUs94AFlg"/>
+      <ITRForm:TaxStatus name="partAGEN1.filingStatus.taxStatus"/>
+      <ITRForm:AsseseeRepFlg name="partAGEN1.filingStatus.asseseeRepFlg"/>
+      <ITRForm:AssesseeRep>
+        <ITRForm:RepName name="partAGEN1.filingStatus.assesseeRep.repName"/>
+        <ITRForm:RepAddress name="partAGEN1.filingStatus.assesseeRep.repAddress"/>
+        <ITRForm:RepPAN name="partAGEN1.filingStatus.assesseeRep.repPAN"/>
+      </ITRForm:AssesseeRep>
+      <ITRForm:PortugeseCC5A name="partAGEN1.filingStatus.portugeseCC5A"/>
+    </ITRForm:FilingStatus>
+  </ITRForm:PartA_GEN1>
+  <ITRForm:PartB-TI>
+    <ITRForm:Salaries name="partBTI.salaries">0</ITRForm:Salaries>
+    <ITRForm:IncomeFromHP name="partBTI.incomeFromHP">0</ITRForm:IncomeFromHP>
+    <ITRForm:CapGain>
+     <ITRForm:ShortTerm>
+    <ITRForm:ShortTerm15Per name="partBTI.capGain.shortTerm.shortTerm15Per">0</ITRForm:ShortTerm15Per>
+    <ITRForm:ShortTerm30Per name="partBTI.capGain.shortTerm.shortTerm30Per">0</ITRForm:ShortTerm30Per>
+    <ITRForm:ShortTermAppRate name="partBTI.capGain.shortTerm.shortTermAppRate">0</ITRForm:ShortTermAppRate>
+    <ITRForm:ShortTermSplRateDTAA name="partBTI.capGain.shortTerm.shortTermSplRateDTAA">0</ITRForm:ShortTermSplRateDTAA>
+    <ITRForm:TotalShortTerm name="partBTI.capGain.shortTerm.totalShortTerm">0</ITRForm:TotalShortTerm>
+    </ITRForm:ShortTerm>
+    <ITRForm:LongTerm>
+    <ITRForm:LongTerm10Per name="partBTI.capGain.longTerm.longTerm10Per">0</ITRForm:LongTerm10Per>
+    <ITRForm:LongTerm20Per name="partBTI.capGain.longTerm.longTerm20Per">0</ITRForm:LongTerm20Per>
+    <ITRForm:LongTermSplRateDTAA name="partBTI.capGain.longTerm.longTermSplRateDTAA">0</ITRForm:LongTermSplRateDTAA>
+    <ITRForm:TotalLongTerm name="partBTI.capGain.longTerm.totalLongTerm">0</ITRForm:TotalLongTerm>
+    </ITRForm:LongTerm>
+      <ITRForm:TotalCapGains name="partBTI.capGain.totalCapGains">0</ITRForm:TotalCapGains>
+    </ITRForm:CapGain>
+ <ITRForm:IncFromOS>
+    <ITRForm:OtherSrcThanOwnRaceHorse name="partBTI.incFromOS.otherSrcThanOwnRaceHorse"/>
+    <ITRForm:IncChargblSplRate name="partBTI.incFromOS.incChargeSplRate"/>
+    <ITRForm:FromOwnRaceHorse name="partBTI.incFromOS.fromOwnRaceHorse"/>
+    <ITRForm:TotIncFromOS name="partBTI.incFromOS.totIncFromOS"/>
+</ITRForm:IncFromOS>
+    <ITRForm:TotalTI name="partBTI.totalTI">0</ITRForm:TotalTI>
+    <ITRForm:CurrentYearLoss name="partBTI.currentYearLoss">0</ITRForm:CurrentYearLoss>
+    <ITRForm:BalanceAfterSetoffLosses name="partBTI.balanceAfterSetoffLosses">0</ITRForm:BalanceAfterSetoffLosses>
+    <ITRForm:BroughtFwdLossesSetoff name="partBTI.broughtFwdLossesSetoff">0</ITRForm:BroughtFwdLossesSetoff>
+    <ITRForm:GrossTotalIncome name="partBTI.grossTotalIncome">0</ITRForm:GrossTotalIncome>
+    <ITRForm:IncChargeTaxSplRate111A112 name="partBTI.incChargeTaxSplRate111A112">0</ITRForm:IncChargeTaxSplRate111A112>
+    <ITRForm:DeductionsUnderScheduleVIA name="partBTI.deductionsUnderScheduleVIA">0</ITRForm:DeductionsUnderScheduleVIA>
+    <ITRForm:TotalIncome name="partBTI.totalIncome">0</ITRForm:TotalIncome>
+    <ITRForm:IncChargeableTaxSplRates name="partBTI.incomeChargeableTotTax">0</ITRForm:IncChargeableTaxSplRates>
+    <ITRForm:NetAgricultureIncomeOrOtherIncomeForRate name="partBTI.netAgricultureIncomeOrOtherIncomeForRate">0</ITRForm:NetAgricultureIncomeOrOtherIncomeForRate>
+    <ITRForm:AggregateIncome name="partBTI.aggregateIncome">0</ITRForm:AggregateIncome>
+    <ITRForm:LossesOfCurrentYearCarriedFwd name="partBTI.lossesOfCurrentYearCarriedFwd">0</ITRForm:LossesOfCurrentYearCarriedFwd>
+  </ITRForm:PartB-TI>
+  <ITRForm:PartB_TTI>
+    <ITRForm:ComputationOfTaxLiability>
+        <ITRForm:TaxPayableOnTI>
+        <ITRForm:TaxAtNormalRatesOnAggrInc name="partBTTI.computationOfTaxLiability.taxPayableOnTI.taxAtNormalRatesOnAggrInc"/>
+        <ITRForm:TaxAtSpecialRates name="partBTTI.computationOfTaxLiability.taxPayableOnTI.taxAtSpecialRates"/>
+        <ITRForm:RebateOnAgriInc name="partBTTI.computationOfTaxLiability.taxPayableOnTI.rebateOnAgriInc"/>
+        <ITRForm:TaxPayableOnTotInc name="partBTTI.computationOfTaxLiability.taxPayableOnTI.taxPayableOnTotInc"/>
+      </ITRForm:TaxPayableOnTI>
+        <ITRForm:Rebate87A name="partBTTI.computationOfTaxLiability.taxPayableOnTI.rebate87A"/>
+      <ITRForm:TaxPayableOnRebate name="partBTTI.computationOfTaxLiability.taxPayableOnTI.taxPayable"/>
+      <ITRForm:Surcharge25ofSI name="partBTTI.computationOfTaxLiability.taxPayableOnTI.surchargeonSI">0</ITRForm:Surcharge25ofSI>
+      <ITRForm:SurchargeOnAboveCrore name="partBTTI.computationOfTaxLiability.taxPayableOnTI.surchargeonTI">0</ITRForm:SurchargeOnAboveCrore>
+      <ITRForm:TotalSurcharge name="partBTTI.computationOfTaxLiability.taxPayableOnTI.surcharge">0</ITRForm:TotalSurcharge>
+
+      <ITRForm:EducationCess name="partBTTI.computationOfTaxLiability.educationCess"/>
+      <ITRForm:GrossTaxLiability name="partBTTI.computationOfTaxLiability.grossTaxLiability"/>
+        <ITRForm:TaxRelief>
+        <ITRForm:Section89 name="partBTTI.computationOfTaxLiability.taxRelief.section89">0</ITRForm:Section89>
+        <ITRForm:Section90 name="partBTTI.computationOfTaxLiability.taxRelief.section90">0</ITRForm:Section90>
+        <ITRForm:Section91 name="partBTTI.computationOfTaxLiability.taxRelief.section91">0</ITRForm:Section91>
+        <ITRForm:TotTaxRelief name="partBTTI.computationOfTaxLiability.taxRelief.totTaxRelief">0</ITRForm:TotTaxRelief>
+      </ITRForm:TaxRelief>
+      <ITRForm:NetTaxLiability name="partBTTI.computationOfTaxLiability.netTaxLiability"/>
+      <ITRForm:IntrstPay>
+        <ITRForm:IntrstPayUs234A name="partBTTI.computationOfTaxLiability.intrstPay.intrstPayUs234A">0</ITRForm:IntrstPayUs234A>
+        <ITRForm:IntrstPayUs234B name="partBTTI.computationOfTaxLiability.intrstPay.intrstPayUs234B">0</ITRForm:IntrstPayUs234B>
+        <ITRForm:IntrstPayUs234C name="partBTTI.computationOfTaxLiability.intrstPay.intrstPayUs234C">0</ITRForm:IntrstPayUs234C>
+        <ITRForm:LateFilingFee234F name="partBTTI.computationOfTaxLiability.intrstPay.lateFilingFee234F">0</ITRForm:LateFilingFee234F>
+        <ITRForm:TotalIntrstPay name="partBTTI.computationOfTaxLiability.intrstPay.totalIntrstPay">0</ITRForm:TotalIntrstPay>
+      </ITRForm:IntrstPay>
+      <ITRForm:AggregateTaxInterestLiability name="partBTTI.computationOfTaxLiability.aggregateTaxInterestLiability"/>
+    </ITRForm:ComputationOfTaxLiability>
+    <ITRForm:TaxPaid>
+      <ITRForm:TaxesPaid>
+        <ITRForm:AdvanceTax name="partBTTI.taxPaid.taxesPaid.advanceTax"/>
+        <ITRForm:TDS name="partBTTI.taxPaid.taxesPaid.tds"/>
+        <ITRForm:TCS name="partBTTI.taxPaid.taxesPaid.tcs"/>
+        <ITRForm:SelfAssessmentTax name="partBTTI.taxPaid.taxesPaid.selfAssessmentTax"/>
+        <ITRForm:TotalTaxesPaid name="partBTTI.taxPaid.taxesPaid.totalTaxesPaid"/>
+      </ITRForm:TaxesPaid>
+      <ITRForm:BalTaxPayable name="partBTTI.taxPaid.balTaxPayable"/>
+    </ITRForm:TaxPaid>
+   <ITRForm:Refund>
+      <ITRForm:RefundDue name="partBTTI.refundsDue">0</ITRForm:RefundDue>
+      <ITRForm:BankAccountDtls>
+      	  <ITRForm:BankDtlsFlag name="itr.refund.scheduleBA.bankDtlsFlag"/>
+         <ITRForm:PriBankDetails>
+        	<ITRForm:IFSCCode name="itr.refund.depositToBankAccount.iFSCCode" />
+			<ITRForm:BankName name="itr.refund.depositToBankAccount.bankName" />
+			<ITRForm:BankAccountNo name="itr.refund.bankAccountNumber" />
+         </ITRForm:PriBankDetails>
+         <ITRForm:AddtnlBankDetails>
+            <ITRForm:IFSCCode name="itr.scheduleBA[0].ifscCode" />
+			<ITRForm:BankName name="itr.scheduleBA[0].bankName" />
+			<ITRForm:BankAccountNo name="itr.scheduleBA[0].accNo" />
+         </ITRForm:AddtnlBankDetails>
+         <ITRForm:ForeignBankDetails>
+			<ITRForm:SWIFTCode name="itr.refund.scheduleBA.foreignBankDtls[0].ibanSwiftCode" />
+			<ITRForm:BankName name="itr.refund.scheduleBA.foreignBankDtls[0].bankName" />
+			<ITRForm:IBAN name="itr.refund.scheduleBA.foreignBankDtls[0].ibanCode" />
+			<ITRForm:CountryCode name="itr.refund.scheduleBA.foreignBankDtls[0].countryCode" />
+		</ITRForm:ForeignBankDetails>
+      </ITRForm:BankAccountDtls>
+    </ITRForm:Refund>
+    <ITRForm:AssetOutIndiaFlag name="partBTTI.assetOutIndiaFlag">NO</ITRForm:AssetOutIndiaFlag>
+  </ITRForm:PartB_TTI>
+  <ITRForm:Verification>
+    <ITRForm:Declaration>
+      <ITRForm:AssesseeVerName name="verification.declaration.assesseeVerName"/>
+      <ITRForm:FatherName name="verification.declaration.fatherName"/>
+      <ITRForm:AssesseeVerPAN name="verification.declaration.assesseeVerPAN"/>
+    </ITRForm:Declaration>
+    <ITRForm:Capacity name="verification.declaration.capacity"/>
+    <ITRForm:Place name="verification.place"/>
+    <ITRForm:Date name="verification.date"/>
+  </ITRForm:Verification>
+  <ITRForm:TaxReturnPreparer>
+    <ITRForm:IdentificationNoOfTRP name="taxReturnPreparer[0].identificationNoOfTRP"/>
+    <ITRForm:NameOfTRP name="taxReturnPreparer[0].nameOfTRP"/>
+    <ITRForm:ReImbFrmGov name="taxReturnPreparer[0].reImbFrmGov">0</ITRForm:ReImbFrmGov>
+  </ITRForm:TaxReturnPreparer>
+ <ITRForm:ScheduleS>
+    <ITRForm:Salaries>
+      <ITRForm:NameOfEmployer name="scheduleS.salaries[0].nameOfEmployer"/>
+      <ITRForm:PANofEmployer name="scheduleS.salaries[0].paNofEmployer"/>
+      <ITRForm:AddressDetail>
+        <ITRForm:AddrDetail name="scheduleS.salaries[0].addressDetail.addrDetail"/>
+        <ITRForm:CityOrTownOrDistrict name="scheduleS.salaries[0].addressDetail.cityOrTownOrDistrict"/>
+        <ITRForm:StateCode name="scheduleS.salaries[0].addressDetail.stateCode"/>
+        <ITRForm:PinCode name="scheduleS.salaries[0].addressDetail.pinCode"/>
+      </ITRForm:AddressDetail>
+      <ITRForm:Salarys>
+        <ITRForm:Salary name="scheduleS.salaries[0].salarys.salary">0</ITRForm:Salary>
+        <ITRForm:AllowancesNotExempt name="scheduleS.salaries[0].salarys.allowancesNotExempt">0</ITRForm:AllowancesNotExempt>
+        <ITRForm:ValueOfPerquisites name="scheduleS.salaries[0].salarys.valueOfPerquisites">0</ITRForm:ValueOfPerquisites>
+        <ITRForm:ProfitsinLieuOfSalary name="scheduleS.salaries[0].salarys.profitsinLieuOfSalary">0</ITRForm:ProfitsinLieuOfSalary>
+        <ITRForm:DeductionUnderSection16 name="scheduleS.salaries[0].salarys.deductionUnderSection16">0</ITRForm:DeductionUnderSection16>
+        <ITRForm:IncomeFromSalary name="scheduleS.salaries[0].salarys.incomeFromSalary">0</ITRForm:IncomeFromSalary>
+        <ITRForm:ExemptUSection10Travel name="scheduleS.salaries[0].salarys.travelConcession">0</ITRForm:ExemptUSection10Travel>
+		<ITRForm:ExemptUSection10NonMonetary name="scheduleS.salaries[0].salarys.TaxPaidNonMonetary">0</ITRForm:ExemptUSection10NonMonetary>
+		<ITRForm:ExemptUSection10HouseRent name="scheduleS.salaries[0].salarys.allowanceExpHouseRent">0</ITRForm:ExemptUSection10HouseRent>
+		<ITRForm:OtherAllowances>
+			<ITRForm:OthersIncDtls>
+			<ITRForm:NatureDesc name="scheduleS.salaries[0].salarys.otherAllowances.othersIncDtls[0].natureDesc"></ITRForm:NatureDesc>
+			<ITRForm:OthNatOfInc name="scheduleS.salaries[0].salarys.otherAllowances.othersIncDtls[0].othNatOfInc"></ITRForm:OthNatOfInc>
+			<ITRForm:OthAmount name="scheduleS.salaries[0].salarys.otherAllowances.othersIncDtls[0].othAmount"></ITRForm:OthAmount>
+		</ITRForm:OthersIncDtls>
+			<ITRForm:OthersIncTotal name="scheduleS.salaries[0].salarys.otherAllowancesTot"></ITRForm:OthersIncTotal>
+		</ITRForm:OtherAllowances>
+      </ITRForm:Salarys>
+    </ITRForm:Salaries>
+    <ITRForm:TotIncUnderHeadSalaries name="scheduleS.incomeChargeable"/>
+  </ITRForm:ScheduleS>
+
+  <ITRForm:ScheduleHP>
+  		<ITRForm:PropertyDetails>
+  		 	<ITRForm:HPSNo name="scheduleHP.propertyDetails[0].hpSno"/>
+  		 	<ITRForm:AddressDetailWithZipCode>
+  		 		<ITRForm:AddrDetail name="scheduleHP.propertyDetails[0].addressDetail.addrDetail"/>
+  		 		<ITRForm:CityOrTownOrDistrict name="scheduleHP.propertyDetails[0].addressDetail.cityOrTownOrDistrict"/>
+  		 		<ITRForm:StateCode name="scheduleHP.propertyDetails[0].addressDetail.stateCode"/>
+  		 		 <ITRForm:CountryCode name="scheduleHP.propertyDetails[0].addressDetail.country"/>
+  		 		 <ITRForm:PinCode name="scheduleHP.propertyDetails[0].addressDetail.pinCode"/>
+  		 		 <ITRForm:ZipCode name="scheduleHP.propertyDetails[0].addressDetail.zipCode"/>
+  		 	</ITRForm:AddressDetailWithZipCode>
+  		 	<ITRForm:PropCoOwnedFlg name="scheduleHP.propertyDetails[0].propCoOwnedFlg"/>
+  		 	<ITRForm:AsseseeShareProperty name="scheduleHP.propertyDetails[0].asseseeShareProperty">0</ITRForm:AsseseeShareProperty>
+  		 	<ITRForm:CoOwners>
+  		 		<ITRForm:CoOwnersSNo name="scheduleHP.propertyDetails[0].coOwners[0].coOwnersSNo"/>
+  		 		<ITRForm:NameCoOwner name="scheduleHP.propertyDetails[0].coOwners[0].nameCoOwner"/>
+  		 		<ITRForm:PAN_CoOwner name="scheduleHP.propertyDetails[0].coOwners[0].panCoOwner"/>
+  		 		<ITRForm:PercentShareProperty name="scheduleHP.propertyDetails[0].coOwners[0].percentShareProperty"/>
+  		 	</ITRForm:CoOwners>
+  		 	<ITRForm:ifLetOut name="scheduleHP.propertyDetails[0].ifLetOut"/>
+  		 	<ITRForm:TenantDetails>
+  		 	 	<ITRForm:TenantSNo name="scheduleHP.propertyDetails[0].coTenants[0].coTenantsSNo"/>
+  		 	 	<ITRForm:NameofTenant name="scheduleHP.propertyDetails[0].coTenants[0].nameOfTenant" />
+  		 	 	<ITRForm:PANofTenant name="scheduleHP.propertyDetails[0].coTenants[0].panofTenant" />
+  		 	 </ITRForm:TenantDetails>
+  		 	 <ITRForm:Rentdetails>
+  		 	 		<ITRForm:AnnualLetableValue name="scheduleHP.propertyDetails[0].rentdetails.annualLetableValue">0</ITRForm:AnnualLetableValue>
+  		 	 		<ITRForm:RentNotRealized name="scheduleHP.propertyDetails[0].rentdetails.rentNotRealized">0</ITRForm:RentNotRealized>
+  		 	 	 	<ITRForm:LocalTaxes name="scheduleHP.propertyDetails[0].rentdetails.localTaxes">0</ITRForm:LocalTaxes>
+  		 	 		<ITRForm:TotalUnrealizedAndTax name="scheduleHP.propertyDetails[0].rentdetails.totalUnrealizedAndTax">0</ITRForm:TotalUnrealizedAndTax>
+  		 	 		<ITRForm:BalanceALV name="scheduleHP.propertyDetails[0].rentdetails.balanceALV">0</ITRForm:BalanceALV>
+					<ITRForm:AnnualOfPropOwned name ="scheduleHP.propertyDetails[0].rentdetails.incomeChargbleOwnHands">0</ITRForm:AnnualOfPropOwned>
+        			<ITRForm:ThirtyPercentOfBalance name="scheduleHP.propertyDetails[0].rentdetails.thirtyPercentOfBalance">0</ITRForm:ThirtyPercentOfBalance>
+        			<ITRForm:IntOnBorwCap name="scheduleHP.propertyDetails[0].rentdetails.intOnBorwCap">0</ITRForm:IntOnBorwCap>
+        			<ITRForm:TotalDeduct name="scheduleHP.propertyDetails[0].rentdetails.totalDeduct">0</ITRForm:TotalDeduct>
+       	 			<ITRForm:IncomeOfHP name="scheduleHP.propertyDetails[0].rentdetails.incomeOfHP">0</ITRForm:IncomeOfHP>
+       	 	</ITRForm:Rentdetails>
+ 		</ITRForm:PropertyDetails>
+  		<ITRForm:RentOfEarlierYrSec25AandAA name="scheduleHP.rentOfEarlierYrSec25AandAA"/>
+
+  		<ITRForm:TotalIncomeChargeableUnHP name="scheduleHP.totalIncomeChargeableUnHP"/>
+  </ITRForm:ScheduleHP>
+
+   <ITRForm:ScheduleCGFor23>
+			<ITRForm:ShortTermCapGainFor23>
+				<ITRForm:SaleofLandBuild>
+					<ITRForm:FullConsideration name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.fullConsideration">0</ITRForm:FullConsideration>
+					<ITRForm:PropertyValuation name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.propertyValuation">0</ITRForm:PropertyValuation>
+					<ITRForm:FullConsideration50C name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.fullConsideration50C">0</ITRForm:FullConsideration50C>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.balanceCG"/>
+                                        <ITRForm:ExemptionOrDednUs54>
+                                            <ITRForm:ExemptionGrandTotal name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.exemptionOrDednUs54">0</ITRForm:ExemptionGrandTotal>
+                                        </ITRForm:ExemptionOrDednUs54>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.shortTermCapGainPost45.saleofLandBuild.capgainonAssets"/>
+				</ITRForm:SaleofLandBuild>
+				<ITRForm:EquityMFonSTT>
+					<ITRForm:MFSectionCode name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].section"/>
+					<ITRForm:EquityMFonSTTDtls>
+						<ITRForm:FullConsideration name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].fullConsideration"/>
+						<ITRForm:DeductSec48>
+							<ITRForm:AquisitCost name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].deductSec48.aquisitCost"/>
+							<ITRForm:ImproveCost name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].deductSec48.improveCost"/>
+							<ITRForm:ExpOnTrans name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].deductSec48.expOnTrans"/>
+							<ITRForm:TotalDedn name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].deductSec48.totalDedn"/>
+						</ITRForm:DeductSec48>
+						<ITRForm:BalanceCG name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].balanceCG"/>
+						<ITRForm:LossSec94of7Or94of8 name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].lossSec94of7Or94of8"/>
+						<ITRForm:CapgainonAssets name="scheduleCGPost45.shortTermCapGainPost45.equityMFonSTT[0].capgainonAssets"/>
+					</ITRForm:EquityMFonSTTDtls>
+				</ITRForm:EquityMFonSTT>
+				<ITRForm:NRITransacSec48Dtl>
+					<ITRForm:NRItaxSTTPaid name="scheduleCGPost45.shortTermCapGainPost45.nRITransacSec48Dtl.nRItaxSTTPaid"/>
+					<ITRForm:NRItaxSTTNotPaid name="scheduleCGPost45.shortTermCapGainPost45.nRITransacSec48Dtl.nRItaxSTTNotPaid"/>
+				</ITRForm:NRITransacSec48Dtl>
+				<ITRForm:NRISecur115AD>
+					<ITRForm:FullValueConsdRecvUnqshr name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.fullValueConsdRecvUnqshr">0</ITRForm:FullValueConsdRecvUnqshr>
+					<ITRForm:FairMrktValueUnqshr name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.fairMrktValueUnqshr">0</ITRForm:FairMrktValueUnqshr>
+					<ITRForm:FullValueConsdSec50CA name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.fullValueConsdSec50CA"/>
+					<ITRForm:FullValueConsdOthUnqshr name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.fullValueConsdOthUnqshr"/>
+					<ITRForm:FullConsideration name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.fullConsideration"/>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.balanceCG"/>
+					<ITRForm:LossSec94of7Or94of8 name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.lossSec94of7Or94of8"/>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.shortTermCapGainPost45.nRISecur115AD.capgainonAssets"/>
+				</ITRForm:NRISecur115AD>
+				<ITRForm:SaleOnOtherAssets>
+					<ITRForm:FullValueConsdRecvUnqshr name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.fullValueConsdRecvUnqshr">0</ITRForm:FullValueConsdRecvUnqshr>
+					<ITRForm:FairMrktValueUnqshr name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.fairMrktValueUnqshr">0</ITRForm:FairMrktValueUnqshr>
+					<ITRForm:FullValueConsdSec50CA name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.fullValueConsdSec50CA"/>
+					<ITRForm:FullValueConsdOthUnqshr name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.fullValueConsdOthUnqshr"/>
+					<ITRForm:FullConsideration name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.fullConsideration"/>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.balanceCG"/>
+					<ITRForm:LossSec94of7Or94of8 name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.lossSec94of7Or94of8"/>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.shortTermCapGainPost45.saleOnOtherAssets.capgainonAssets"/>
+				</ITRForm:SaleOnOtherAssets>
+				<ITRForm:UnutilizedStcgFlag name="scheduleCGPost45.shortTermCapGainPost45.unutilizedCapgainFlag"></ITRForm:UnutilizedStcgFlag>
+
+				<ITRForm:UnutilizedCg>
+				     <ITRForm:UnutilizedCgPrvYrDtls>
+			             <ITRForm:PrvYrInWhichAsstTrnsfrd name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54B[0].ay"/>
+			             <ITRForm:SectionClmd name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54B[0].section"/>
+			             <ITRForm:YrInWhichAssetAcq name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54B[0].yearConst"/>
+			             <ITRForm:AmtUtilized name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54B[0].amountUtilized"/>
+			             <ITRForm:AmtUnutilized name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54B[0].amountUnUtilized"/>
+				     </ITRForm:UnutilizedCgPrvYrDtls>
+				     </ITRForm:UnutilizedCg>
+				<ITRForm:AmtDeemedStcg name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54.amtDeemedStcg"/>
+                <ITRForm:TotalAmtDeemedStcg name="scheduleCGPost45.shortTermCapGainPost45.unUtilizedCapGain54.totAmtStcgUnderDtaa"/>
+				<ITRForm:NRICgDTAA>
+					<ITRForm:NRIDTAADtls>
+						<ITRForm:DTAAamt name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].amount"/>
+						<ITRForm:ItemNoincl name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].itemIncluded"/>
+						<ITRForm:CountryName name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].countryName"/>
+						<ITRForm:CountryCode name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].countryCode"/>
+						<ITRForm:DTAAarticle name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].dTAAarticle"/>
+						<ITRForm:RateAsPerTreaty name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].rateAsPerTreaty"/>
+						<ITRForm:TaxRescertifiedFlag name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].taxRescertifiedFlag"/>
+						<ITRForm:SecITAct name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].secITAct"/>
+						<ITRForm:RateAsPerITAct name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].rateAsPerITAct"/>
+						<ITRForm:ApplicableRate name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa[0].applicableRate"/>
+					</ITRForm:NRIDTAADtls>
+				</ITRForm:NRICgDTAA>
+				<ITRForm:TotalAmtNotTaxUsDTAAStcg name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa.totalAmtNotTaxUsDTAAStcg"></ITRForm:TotalAmtNotTaxUsDTAAStcg>
+				<ITRForm:TotalAmtTaxUsDTAAStcg name="scheduleCGPost45.shortTermCapGainPost45.stcgUnderDtaa.totAmtStcgUnderDtaa"/>
+				<ITRForm:TotalSTCG name="scheduleCGPost45.shortTermCapGainPost45.totalSTCG"/>
+			</ITRForm:ShortTermCapGainFor23>
+			<ITRForm:LongTermCapGain23>
+				<ITRForm:SaleofLandBuild>
+					<ITRForm:FullConsideration name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.fullConsideration">0</ITRForm:FullConsideration>
+					<ITRForm:PropertyValuation name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.propertyValuation">0</ITRForm:PropertyValuation>
+					<ITRForm:FullConsideration50C name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.fullConsideration50C">0</ITRForm:FullConsideration50C>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.balanceCG"/>
+					<ITRForm:ExemptionOrDednUs54>
+						<ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.exemptionOrDedn[0].section"/>
+							<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.exemptionOrDedn[0].amount"/>
+						</ITRForm:ExemptionOrDednUs54Dtls>
+						<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.exemptionOrDednUs54"/>
+					</ITRForm:ExemptionOrDednUs54>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.longTermCapGainPost45.saleofLandBuild.capgainonAssets"/>
+				</ITRForm:SaleofLandBuild>
+				<ITRForm:SaleofBondsDebntr>
+					<ITRForm:FullConsideration name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.fullConsideration"/>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.balanceCG"/>
+					<ITRForm:ExemptionOrDednUs54>
+						<ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.exemptionOrDedn[0].section"/>
+							<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.exemptionOrDedn[0].amount"/>
+						</ITRForm:ExemptionOrDednUs54Dtls>
+						<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.exemptionOrDednUs54"/>
+					</ITRForm:ExemptionOrDednUs54>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.longTermCapGainPost45.saleofBondsDebntr.capgainonAssets"/>
+				</ITRForm:SaleofBondsDebntr>
+				<ITRForm:Proviso112Applicable>
+					<ITRForm:Proviso112SectionCode name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].sectionCode"/>
+					<ITRForm:Proviso112Applicabledtls>
+						<ITRForm:FullConsideration name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].fullConsideration"/>
+						<ITRForm:DeductSec48>
+							<ITRForm:AquisitCost name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].deductSec48.aquisitCost"/>
+							<ITRForm:ImproveCost name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].deductSec48.improveCost"/>
+							<ITRForm:ExpOnTrans name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].deductSec48.expOnTrans"/>
+							<ITRForm:TotalDedn name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].deductSec48.totalDedn"/>
+						</ITRForm:DeductSec48>
+						<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].balanceCG"/>
+						<ITRForm:ExemptionOrDednUs54>
+							<ITRForm:ExemptionOrDednUs54Dtls>
+								<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].exemptionOrDedn[0].section"/>
+								<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].exemptionOrDedn[0].amount"/>
+							</ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].exemptionOrDednUs54S"/>
+						</ITRForm:ExemptionOrDednUs54>
+						<ITRForm:CapgainonAssets name="scheduleCGPost45.longTermCapGainPost45.proviso112Applicable[0].capgainonAssets"/>
+					</ITRForm:Proviso112Applicabledtls>
+				</ITRForm:Proviso112Applicable>
+				<ITRForm:NRIProvisoSec48>
+					<ITRForm:LTCGWithoutBenefit name="scheduleCGPost45.longTermCapGainPost45.nRIProvisoSec48.ltcgWithoutBenefit"/>
+					<ITRForm:ExemptionOrDednUs54>
+						<ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.nRIProvisoSec48.exemptionOrDedn[0].section"/>
+							<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.nRIProvisoSec48.exemptionOrDedn[0].amount"/>
+						</ITRForm:ExemptionOrDednUs54Dtls>
+						<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.nRIProvisoSec48.exemptionOrDednUs54"/>
+					</ITRForm:ExemptionOrDednUs54>
+					<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.nRIProvisoSec48.BalanceCG"/>
+				</ITRForm:NRIProvisoSec48>
+				<ITRForm:NRIOnSec112and115>
+					<ITRForm:NRIOnSec112and115Dtls>
+						<ITRForm:SectionCode name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].sectionCode"/>
+						<ITRForm:FullValueConsdRecvUnqshr name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].fullValueConsdRecvUnqshr">0</ITRForm:FullValueConsdRecvUnqshr>
+						<ITRForm:FairMrktValueUnqshr name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].fairMrktValueUnqshr">0</ITRForm:FairMrktValueUnqshr>
+						<ITRForm:FullValueConsdSec50CA name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].fullValueConsdSec50CA"/>
+						<ITRForm:FullValueConsdOthUnqshr name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].fullValueConsdOthUnqshr"/>
+						<ITRForm:FullConsideration name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].fullConsideration"/>
+						<ITRForm:DeductSec48>
+							<ITRForm:AquisitCost name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].deductSec48.aquisitCost"/>
+							<ITRForm:ImproveCost name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].deductSec48.improveCost"/>
+							<ITRForm:ExpOnTrans name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].deductSec48.expOnTrans"/>
+							<ITRForm:TotalDedn name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].deductSec48.totalDedn"/>
+						</ITRForm:DeductSec48>
+						<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].balanceCG"/>
+						<ITRForm:ExemptionOrDednUs54>
+						<ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].exemptionOrDedn[0].section"/>
+							<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].exemptionOrDedn[0].amount"/>
+						</ITRForm:ExemptionOrDednUs54Dtls>
+						<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].exemptionOrDednUs54S"/>
+					</ITRForm:ExemptionOrDednUs54>
+						<ITRForm:CapgainonAssets name="scheduleCGPost45.longTermCapGainPost45.nRIOnSec112and115[0].capgainonAssets"/>
+					</ITRForm:NRIOnSec112and115Dtls>
+				</ITRForm:NRIOnSec112and115>
+				<ITRForm:NRISaleofForeignAsset>
+					<ITRForm:SaleonSpecAsset name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.saleonSpecAsset"/>
+					<ITRForm:DednSpecAssetus115 name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.dednSpecAssetus115"/>
+					<ITRForm:BalonSpeciAsset name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.balonSpeciAsset"/>
+					<ITRForm:SaleOtherSpecAsset name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.saleOtherSpecAsset"/>
+					<ITRForm:DednOtherSpecAssetus115 name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.dednOtherSpecAssetus115"/>
+					<ITRForm:BalOtherthanSpecAsset name="scheduleCGPost45.longTermCapGainPost45.nRISaleofForeignAsset.balOtherthanSpecAsset"/>
+				</ITRForm:NRISaleofForeignAsset>
+				<ITRForm:SaleofAssetNA>
+						<ITRForm:FullValueConsdRecvUnqshr name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.fullValueConsdRecvUnqshr">0</ITRForm:FullValueConsdRecvUnqshr>
+						<ITRForm:FairMrktValueUnqshr name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.fairMrktValueUnqshr">0</ITRForm:FairMrktValueUnqshr>
+						<ITRForm:FullValueConsdSec50CA name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.fullValueConsdSec50CA"/>
+						<ITRForm:FullValueConsdOthUnqshr name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.fullValueConsdOthUnqshr"/>
+						<ITRForm:FullConsideration name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.deductSec48.fullConsideration"/>
+					<ITRForm:DeductSec48>
+						<ITRForm:AquisitCost name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.deductSec48.aquisitCost"/>
+						<ITRForm:ImproveCost name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.deductSec48.improveCost"/>
+						<ITRForm:ExpOnTrans name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.deductSec48.expOnTrans"/>
+						<ITRForm:TotalDedn name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.deductSec48.totalDedn"/>
+					</ITRForm:DeductSec48>
+					<ITRForm:BalanceCG name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.balanceCG"/>
+					<ITRForm:ExemptionOrDednUs54>
+						<ITRForm:ExemptionOrDednUs54Dtls>
+							<ITRForm:ExemptionSecCode name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.exemptionOrDedn[0].section"/>
+							<ITRForm:ExemptionAmount name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.exemptionOrDedn[0].amount"/>
+						</ITRForm:ExemptionOrDednUs54Dtls>
+						<ITRForm:ExemptionGrandTotal name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.exemptionOrDednUs54S"/>
+					</ITRForm:ExemptionOrDednUs54>
+					<ITRForm:CapgainonAssets name="scheduleCGPost45.longTermCapGainPost45.saleofAssetNA.capgainonAssets"/>
+				</ITRForm:SaleofAssetNA>
+				<ITRForm:UnutilizedLtcgFlag name="scheduleCGPost45.LongTermCapGainPost45.unutilizedCapgainFlag"></ITRForm:UnutilizedLtcgFlag>
+				<ITRForm:UnutilizedCg>
+				     <ITRForm:UnutilizedCgPrvYrDtls>
+			             <ITRForm:PrvYrInWhichAsstTrnsfrd name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54[0].ay"/>
+			             <ITRForm:SectionClmd name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54[0].section"/>
+			             <ITRForm:YrInWhichAssetAcq name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54[0].yearConst"/>
+			             <ITRForm:AmtUtilized name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54[0].amountUtilized"/>
+			             <ITRForm:AmtUnutilized name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54[0].amountUnUtilized"/>
+				     </ITRForm:UnutilizedCgPrvYrDtls>
+				     </ITRForm:UnutilizedCg>
+				<ITRForm:AmtDeemedLtcg name="scheduleCGPost45.longTermCapGainPost45.unUtilizedCapGain54.amtDeemedLtcg"/>
+				<ITRForm:TotalAmtDeemedLtcg name="scheduleCGPost45.longTermCapGainPost45.stcgUnderDtaa.totAmtStcgUnderDtaa"/>
+
+				<ITRForm:NRICgDTAA>
+					<ITRForm:NRIDTAADtls>
+						<ITRForm:DTAAamt name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].amount"/>
+						<ITRForm:ItemNoincl name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].itemIncluded"/>
+						<ITRForm:CountryName name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].countryName"/>
+						<ITRForm:CountryCode name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].countryCode"/>
+						<ITRForm:DTAAarticle name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].dTAAarticle"/>
+						<ITRForm:RateAsPerTreaty name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].rateAsPerTreaty"/>
+						<ITRForm:TaxRescertifiedFlag name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].taxRescertifiedFlag"/>
+						<ITRForm:SecITAct name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].secITAct"/>
+						<ITRForm:RateAsPerITAct name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].rateAsPerITAct"/>
+						<ITRForm:ApplicableRate name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa[0].applicableRate"/>
+					</ITRForm:NRIDTAADtls>
+				</ITRForm:NRICgDTAA>
+				<ITRForm:TotalAmtNotTaxUsDTAALtcg name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa.totalAmtNotTaxUsDTAALtcg"></ITRForm:TotalAmtNotTaxUsDTAALtcg>
+				<ITRForm:TotalAmtTaxUsDTAALtcg name="scheduleCGPost45.longTermCapGainPost45.ltcgUnderDtaa.totAmtLtcgUnderDtaa"/>
+				<ITRForm:TotalLTCG name="scheduleCGPost45.longTermCapGainPost45.totalLTCG"/>
+			</ITRForm:LongTermCapGain23>
+			<ITRForm:TotScheduleCGFor23 name="scheduleCGPost45.totScheduleCGPost45"/>
+			<ITRForm:DeducClaimInfo>
+				<ITRForm:DeducClaimDtlsUs54>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54[0].dateofTransfer"/>
+					<ITRForm:CostofNewResHouse name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54[0].costofNewResHouse"/>
+					<ITRForm:DateofPurchase name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54[0].dateofPurchase"/>
+					<ITRForm:AmtDeposited name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54[0].amtDeposited"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54>
+
+				<ITRForm:DeducClaimDtlsUs54B>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54B[0].dateofTransfer"/>
+					<ITRForm:CostofNewAgriLand name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54B[0].costofNewAgriLand"/>
+					<ITRForm:DateofPurchase name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54B[0].dateofPurchase"/>
+					<ITRForm:AmtDeposited name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54B[0].amtDeposited"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54B[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54B>
+
+				<ITRForm:DeducClaimDtlsUs54EC>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EC[0].dateofTransfer"/>
+					<ITRForm:AmtInvested name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EC[0].amtInvested"/>
+					<ITRForm:DateofInvestment name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EC[0].dateofInvestment"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EC[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54EC>
+
+				<ITRForm:DeducClaimDtlsUs54EE>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EE[0].dateofTransfer"/>
+					<ITRForm:AmtInvested name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EE[0].amtInvested"/>
+					<ITRForm:DateofInvestment name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EE[0].dateofInvestment"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54EE[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54EE>
+
+				<ITRForm:DeducClaimDtlsUs54F>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54F[0].dateofTransfer"/>
+					<ITRForm:CostofNewResHouse name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54F[0].costofNewResHouse"/>
+					<ITRForm:DateofPurchase name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54F[0].dateofPurchase"/>
+					<ITRForm:AmtDeposited name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54F[0].amtDeposited"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54F[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54F>
+
+
+				<ITRForm:DeducClaimDtlsUs54GB>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].dateofTransfer"/>
+					<ITRForm:EligibleCompPAN name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].eligibleCompPAN"/>
+					<ITRForm:AmtUtlzdEqShares name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].amtUtlzdEqShares"/>
+					<ITRForm:DateofSubscription name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].dateofSubscription"/>
+					<ITRForm:CostofNewPlantMach name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].costofNewPlantMach"/>
+					<ITRForm:DateofPurchase name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].dateofPurchase"/>
+					<ITRForm:AmtDeposited name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].amtDeposited"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs54GB[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs54GB>
+
+				<ITRForm:DeducClaimDtlsUs115F>
+					<ITRForm:DateofTransfer name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs115F[0].dateofTransfer"/>
+					<ITRForm:AmtInvested name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs115F[0].amtInvested"/>
+					<ITRForm:DateofInvestment name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs115F[0].dateofInvestment"/>
+					<ITRForm:AmtDeducted name="scheduleCGPost45.deducClaimInfo.deducClaimDtlsUs115F[0].amtDeducted"/>
+				</ITRForm:DeducClaimDtlsUs115F>
+				<ITRForm:TotDeductClaim name="scheduleCGPost45.deducClaimInfo.totDeductClaim"/>
+			</ITRForm:DeducClaimInfo>
+			<ITRForm:CurrYrLosses>
+				<ITRForm:InLossSetOff>
+				    <ITRForm:TypeOfCapGain>LOSS_TO_BE_SET_OFF</ITRForm:TypeOfCapGain>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.inLossSetOff.stclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.inLossSetOff.StclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.inLossSetOff.StclSetoffAppRate"/>
+					<ITRForm:LtclSetOff10Per name="scheduleCGPost45.currYrLosses.inLossSetOff.LtclSetOff10Per"/>
+					<ITRForm:LtclSetOff20Per name="scheduleCGPost45.currYrLosses.inLossSetOff.LtclSetOff20Per"/>
+				</ITRForm:InLossSetOff>
+				<ITRForm:InStcg15Per>
+				    <ITRForm:TypeOfCapGain>STCG_PER_15</ITRForm:TypeOfCapGain>
+					<ITRForm:CurrYearIncome name="scheduleCGPost45.currYrLosses.inStcg15Per.currYearIncome"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.inStcg15Per.stclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.inStcg15Per.StclSetoffAppRate"/>
+					<ITRForm:CurrYrCapGain name="scheduleCGPost45.currYrLosses.inStcg15Per.CurrYrLosSetOff"/>
+				</ITRForm:InStcg15Per>
+				<ITRForm:InStcg30Per>
+				    <ITRForm:TypeOfCapGain>STCG_PER_30</ITRForm:TypeOfCapGain>
+					<ITRForm:CurrYearIncome name="scheduleCGPost45.currYrLosses.inStcg30Per.currYearIncome"/>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.inStcg30Per.stclSetoff15Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.inStcg30Per.stclSetoffAppRate"/>
+					<ITRForm:CurrYrCapGain name="scheduleCGPost45.currYrLosses.inStcg30Per.currYrLosSetOff"/>
+				</ITRForm:InStcg30Per>
+				<ITRForm:InStcgAppRate>
+				    <ITRForm:TypeOfCapGain>STCG_PER_APP_RATE</ITRForm:TypeOfCapGain>
+					<ITRForm:CurrYearIncome name="scheduleCGPost45.currYrLosses.inStcgAppRate.currYearIncome"/>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.inStcgAppRate.stclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.inStcgAppRate.stclSetoff30Per"/>
+					<ITRForm:CurrYrCapGain name="scheduleCGPost45.currYrLosses.inStcgAppRate.currYrLosSetOff"/>
+				</ITRForm:InStcgAppRate>
+				<ITRForm:InLtcg10Per>
+				    <ITRForm:TypeOfCapGain>LTCG_PER_10</ITRForm:TypeOfCapGain>
+					<ITRForm:CurrYearIncome name="scheduleCGPost45.currYrLosses.inLtcg10Per.currYearIncome"/>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.inLtcg10Per.stclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.inLtcg10Per.stclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.inLtcg10Per.stclSetoffAppRate"/>
+					<ITRForm:LtclSetOff20Per name="scheduleCGPost45.currYrLosses.inLtcg10Per.ltclSetOff20Per"/>
+					<ITRForm:CurrYrCapGain name="scheduleCGPost45.currYrLosses.inLtcg10Per.currYrLosSetOff"/>
+				</ITRForm:InLtcg10Per>
+				<ITRForm:InLtcg20Per>
+				    <ITRForm:TypeOfCapGain>LTCG_PER_20</ITRForm:TypeOfCapGain>
+					<ITRForm:CurrYearIncome name="scheduleCGPost45.currYrLosses.inLtcg20Per.currYearIncome"/>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.inLtcg20Per.StclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.inLtcg20Per.StclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.inLtcg20Per.StclSetoffAppRate"/>
+					<ITRForm:LtclSetOff10Per name="scheduleCGPost45.currYrLosses.inLtcg20Per.LtclSetOff10Per"/>
+					<ITRForm:CurrYrCapGain name="scheduleCGPost45.currYrLosses.inLtcg20Per.CurrYrLosSetOff"/>
+				</ITRForm:InLtcg20Per>
+				<ITRForm:TotLossSetOff>
+				    <ITRForm:TypeOfCapGain>TOT_LOSS_SET_OFF</ITRForm:TypeOfCapGain>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.totLossSetOff.stclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.totLossSetOff.stclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.totLossSetOff.stclSetoffAppRate"/>
+					<ITRForm:LtclSetOff10Per name="scheduleCGPost45.currYrLosses.totLossSetOff.ltclSetOff10Per"/>
+					<ITRForm:LtclSetOff20Per name="scheduleCGPost45.currYrLosses.totLossSetOff.ltclSetOff20Per"/>
+				</ITRForm:TotLossSetOff>
+				<ITRForm:LossRemainSetOff>
+				    <ITRForm:TypeOfCapGain>LOSS_REMAIN_SET_OFF</ITRForm:TypeOfCapGain>
+					<ITRForm:StclSetoff15Per name="scheduleCGPost45.currYrLosses.lossRemainSetOff.stclSetoff15Per"/>
+					<ITRForm:StclSetoff30Per name="scheduleCGPost45.currYrLosses.lossRemainSetOff.stclSetoff30Per"/>
+					<ITRForm:StclSetoffAppRate name="scheduleCGPost45.currYrLosses.lossRemainSetOff.stclSetoffAppRate"/>
+					<ITRForm:LtclSetOff10Per name="scheduleCGPost45.currYrLosses.lossRemainSetOff.ltclSetOff10Per"/>
+					<ITRForm:LtclSetOff20Per name="scheduleCGPost45.currYrLosses.lossRemainSetOff.ltclSetOff20Per"/>
+				</ITRForm:LossRemainSetOff>
+			</ITRForm:CurrYrLosses>
+			<ITRForm:AccruOrRecOfCG>
+				<ITRForm:ShortTermUnder15Per>
+					<ITRForm:DateRange>
+						<ITRForm:Upto15Of6 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder15Per.upto15Of6"/>
+						<ITRForm:Upto15Of9 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder15Per.upto15Of9"/>
+						<ITRForm:Up16Of9To15Of12 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder15Per.up16Of9To15Of12"/>
+						<ITRForm:Up16Of12To15Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder15Per.up16Of12To15Of3"/>
+						<ITRForm:Up16Of3To31Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder15Per.up16Of3To31Of3"/>
+					</ITRForm:DateRange>
+				</ITRForm:ShortTermUnder15Per>
+				<ITRForm:ShortTermUnder30Per>
+					<ITRForm:DateRange>
+						<ITRForm:Upto15Of6 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder30Per.upto15Of6"/>
+						<ITRForm:Upto15Of9 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder30Per.upto15Of9"/>
+						<ITRForm:Up16Of9To15Of12 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder30Per.up16Of9To15Of12"/>
+						<ITRForm:Up16Of12To15Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder30Per.up16Of12To15Of3"/>
+						<ITRForm:Up16Of3To31Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnder30Per.up16Of3To31Of3"/>
+					</ITRForm:DateRange>
+				</ITRForm:ShortTermUnder30Per>
+				<ITRForm:ShortTermUnderAppRate>
+					<ITRForm:DateRange>
+						<ITRForm:Upto15Of6 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnderAppRate.upto15Of6"/>
+						<ITRForm:Upto15Of9 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnderAppRate.upto15Of9"/>
+						<ITRForm:Up16Of9To15Of12 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnderAppRate.up16Of9To15Of12"/>
+						<ITRForm:Up16Of12To15Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnderAppRate.up16Of12To15Of3"/>
+						<ITRForm:Up16Of3To31Of3 name="scheduleCGPost45.accruOrRecOfCG.shortTermUnderAppRate.up16Of3To31Of3"/>
+					</ITRForm:DateRange>
+				</ITRForm:ShortTermUnderAppRate>
+				<ITRForm:LongTermUnder10Per>
+					<ITRForm:DateRange>
+						<ITRForm:Upto15Of6 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder10Per.upto15Of6"/>
+						<ITRForm:Upto15Of9 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder10Per.upto15Of9"/>
+						<ITRForm:Up16Of9To15Of12 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder10Per.up16Of9To15Of12"/>
+						<ITRForm:Up16Of12To15Of3 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder10Per.up16Of12To15Of3"/>
+						<ITRForm:Up16Of3To31Of3 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder10Per.up16Of3To31Of3"/>
+					</ITRForm:DateRange>
+				</ITRForm:LongTermUnder10Per>
+				<ITRForm:LongTermUnder20Per>
+					<ITRForm:DateRange>
+						<ITRForm:Upto15Of6 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder20Per.upto15Of6"/>
+						<ITRForm:Upto15Of9 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder20Per.upto15Of9"/>
+						<ITRForm:Up16Of9To15Of12 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder20Per.up16Of9To15Of12"/>
+						<ITRForm:Up16Of12To15Of3 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder20Per.up16Of12To15Of3"/>
+						<ITRForm:Up16Of3To31Of3 name="scheduleCGPost45.accruOrRecOfCG.longTermUnder20Per.up16Of3To31Of3"/>
+					</ITRForm:DateRange>
+				</ITRForm:LongTermUnder20Per>
+			</ITRForm:AccruOrRecOfCG>
+		</ITRForm:ScheduleCGFor23>
+  <ITRForm:ScheduleOS>
+    <ITRForm:IncOthThanOwnRaceHorse>
+      <ITRForm:DividendGross name="scheduleOS.incOthThanOwnRaceHorse.dividendGross"/>
+      <ITRForm:InterestGross name="scheduleOS.incOthThanOwnRaceHorse.interestGross"/>
+      <ITRForm:RentFromMachPlantBldgs name="scheduleOS.incOthThanOwnRaceHorse.rentFromMachPlantBldgs"/>
+      <ITRForm:OthersGrossDtls>
+        <ITRForm:SourceDescription name="scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[0].sourceDescription"/>
+		<ITRForm:OtherSourceDesc name="scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[0].otherDesc"/>
+        <ITRForm:SourceAmount name="scheduleOS.incOthThanOwnRaceHorse.othersGrossDtls[0].sourceAmount"/>
+	</ITRForm:OthersGrossDtls>
+      <ITRForm:OthersGross name="scheduleOS.othersGross"/>
+      <ITRForm:TotalOSGross name="scheduleOS.totalOSGross"/>
+      <ITRForm:IncChargblSplRateOS>
+      	<ITRForm:WinningFrmLotteries name="scheduleOS.incChargblSplRateOS.winningFrmLotteries"/>
+      	<ITRForm:DividendIncome115BBDA name="scheduleOS.incChargblSplRateOS.dividendIncome115BBDA"/>
+      	<ITRForm:DividendIncome115BBE name="scheduleOS.incChargblSplRateOS.dividendIncome115BBE"/>
+      	<ITRForm:DividendIncome115BBF name="scheduleOS.incChargblSplRateOS.dividendIncome115BBF"/>
+      	<ITRForm:DividendIncome115BBG name="scheduleOS.incChargblSplRateOS.dividendIncome115BBG"/>
+      	<ITRForm:SecXIIOth name="scheduleOS.incChargblSplRateOS.secXIIOth"/>
+		<ITRForm:NRIOsDTAA>
+			<ITRForm:NRIDTAADtlsSchOS>
+				<ITRForm:DTAAamt name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].amount"/>
+				<ITRForm:NatureOfIncome name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].natureOfIncome"/>
+				<ITRForm:CountryName name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].countryName"/>
+				<ITRForm:CountryCode name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].countryCode"/>
+				<ITRForm:DTAAarticle name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].articleDtaa"/>
+				<ITRForm:RateAsPerTreaty name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].rateOfTax"/>
+				<ITRForm:TaxRescertifiedFlag name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].taxResidCertFlag"/>
+				<ITRForm:ItemNoincl name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].itemIncluded"/>
+				<ITRForm:RateAsPerITAct name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].rateAsPerITAct"/>
+				<ITRForm:ApplicableRate name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa[0].applicableRate"/>
+			</ITRForm:NRIDTAADtlsSchOS>
+		</ITRForm:NRIOsDTAA>
+		<ITRForm:TotalAmtTaxUsDTAASchOs name="scheduleOS.incChargblSplRateOS.nriIncTaxDtaa.totAmtUnderDtaa"/>
+      	<ITRForm:TotalOSGrossChargblSplRate name="scheduleOS.incChargblSplRateOS.totalOSGrossChargblSplRate"/>
+      </ITRForm:IncChargblSplRateOS>
+      <ITRForm:GrossAmtChargblNormalRate name="scheduleOS.grossAmtChargblNormalRate"/>
+      <ITRForm:Deductions>
+        <ITRForm:Expenses name="scheduleOS.incOthThanOwnRaceHorse.deductions.expenses"/>
+        <ITRForm:Depreciation name="scheduleOS.incOthThanOwnRaceHorse.deductions.depreciation"/>
+        <ITRForm:TotDeductions name="scheduleOS.incOthThanOwnRaceHorse.deductions.totDeductions"/>
+      </ITRForm:Deductions>
+      <ITRForm:AmtNotDeductibleUs58 name="scheduleOS.amtNotDeductibleUs58"/>
+      <ITRForm:ProfitChargTaxUs59 name="scheduleOS.profitChargTaxUs59"/>
+      <ITRForm:BalanceNoRaceHorse name="scheduleOS.balanceNoRaceHorse"/>
+    </ITRForm:IncOthThanOwnRaceHorse>
+    <ITRForm:TotOthSrcNoRaceHorse name="scheduleOS.totOthSrcNoRaceHorse"/>
+    <ITRForm:IncFromOwnHorse>
+      <ITRForm:Receipts name="scheduleOS.incFromOwnHorse.receipts"/>
+      <ITRForm:DeductSec57 name="scheduleOS.incFromOwnHorse.deductSec57"/>
+      <ITRForm:AmtNotDeductibleUs58 name="scheduleOS.incFromOwnHorse.amtNotDeductibleUs58"/>
+      <ITRForm:ProfitChargTaxUs59 name="scheduleOS.incFromOwnHorse.profitChargTaxUs59"/>
+      <ITRForm:BalanceOwnRaceHorse name="scheduleOS.incFromOwnHorse.balanceOwnRaceHorse"/>
+    </ITRForm:IncFromOwnHorse>
+    <ITRForm:IncChargeable name="scheduleOS.incChargeable"/>
+  </ITRForm:ScheduleOS>
+  <ITRForm:ScheduleCYLA>
+    <ITRForm:Salary>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.Salaries.incCYLA.incOfCurYrUnderThatHead">0</ITRForm:IncOfCurYrUnderThatHead>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.Salaries.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.Salaries.incCYLA.othSrcLossNoRaceHorseSetoff">0</ITRForm:OthSrcLossNoRaceHorseSetoff>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.Salaries.incCYLA.incOfCurYrAfterSetOff">0</ITRForm:IncOfCurYrAfterSetOff>
+      </ITRForm:IncCYLA>
+    </ITRForm:Salary>
+    <ITRForm:HP>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.houseProperty.incCYLA.incOfCurYrUnderThatHead">0</ITRForm:IncOfCurYrUnderThatHead>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.houseProperty.incCYLA.othSrcLossNoRaceHorseSetoff">0</ITRForm:OthSrcLossNoRaceHorseSetoff>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.houseProperty.incCYLA.incOfCurYrAfterSetOff">0</ITRForm:IncOfCurYrAfterSetOff>
+      </ITRForm:IncCYLA>
+    </ITRForm:HP>
+    <ITRForm:STCG15Per>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.stcg.stcg15Per.incCYLA.incOfCurYrUnderThatHead"/>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.stcg.stcg15Per.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.stcg.stcg15Per.incCYLA.othSrcLossNoRaceHorseSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.stcg.stcg15Per.incCYLA.incOfCurYrAfterSetOff"/>
+      </ITRForm:IncCYLA>
+    </ITRForm:STCG15Per>
+    <ITRForm:STCG30Per>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.stcg.stcg30Per.incCYLA.incOfCurYrUnderThatHead"/>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.stcg.stcg30Per.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.stcg.stcg30Per.incCYLA.othSrcLossNoRaceHorseSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.stcg.stcg30Per.incCYLA.incOfCurYrAfterSetOff"/>
+      </ITRForm:IncCYLA>
+    </ITRForm:STCG30Per>
+    <ITRForm:STCGAppRate>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.stcg.stcgAppRate.incCYLA.incOfCurYrUnderThatHead"/>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.stcg.stcgAppRate.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.stcg.stcgAppRate.incCYLA.othSrcLossNoRaceHorseSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.stcg.stcgAppRate.incCYLA.incOfCurYrAfterSetOff"/>
+      </ITRForm:IncCYLA>
+    </ITRForm:STCGAppRate>
+    <ITRForm:LTCG10Per>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.ltcg.ltcg10Per.incCYLA.incOfCurYrUnderThatHead"/>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.ltcg.ltcg10Per.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.ltcg.ltcg10Per.incCYLA.othSrcLossNoRaceHorseSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.ltcg.ltcg10Per.incCYLA.incOfCurYrAfterSetOff"/>
+      </ITRForm:IncCYLA>
+    </ITRForm:LTCG10Per>
+    <ITRForm:LTCG20Per>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.ltcg.ltcg20Per.incCYLA.incOfCurYrUnderThatHead"/>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.ltcg.ltcg20Per.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.ltcg.ltcg20Per.incCYLA.othSrcLossNoRaceHorseSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.ltcg.ltcg20Per.incCYLA.incOfCurYrAfterSetOff"/>
+      </ITRForm:IncCYLA>
+    </ITRForm:LTCG20Per>
+    <ITRForm:OthSrcExclRaceHorse>
+      <ITRForm:IncCYLA>
+        <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.othSrcInclRaceHorse.incCYLA.incOfCurYrUnderThatHead">0</ITRForm:IncOfCurYrUnderThatHead>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.othSrcInclRaceHorse.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name=""></ITRForm:OthSrcLossNoRaceHorseSetoff>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.othSrcInclRaceHorse.incCYLA.incOfCurYrAfterSetOff">0</ITRForm:IncOfCurYrAfterSetOff>
+      </ITRForm:IncCYLA>
+    </ITRForm:OthSrcExclRaceHorse>
+    <ITRForm:OthSrcRaceHorse>
+      <ITRForm:IncCYLA>
+         <ITRForm:IncOfCurYrUnderThatHead name="scheduleCYLA.profitFrmRaceHorse.incCYLA.incOfCurYrUnderThatHead">0</ITRForm:IncOfCurYrUnderThatHead>
+        <ITRForm:HPlossCurYrSetoff name="scheduleCYLA.profitFrmRaceHorse.incCYLA.hPlossCurYrSetoff"/>
+        <ITRForm:OthSrcLossNoRaceHorseSetoff name="scheduleCYLA.profitFrmRaceHorse.incCYLA.othSrcLossNoRaceHorseSetoff">0</ITRForm:OthSrcLossNoRaceHorseSetoff>
+        <ITRForm:IncOfCurYrAfterSetOff name="scheduleCYLA.profitFrmRaceHorse.incCYLA.incOfCurYrAfterSetOff">0</ITRForm:IncOfCurYrAfterSetOff>
+      </ITRForm:IncCYLA>
+    </ITRForm:OthSrcRaceHorse>
+    <ITRForm:TotalCurYr>
+      <ITRForm:TotHPlossCurYr name="scheduleCYLA.totalCurYr.totHPlossCurYr"/>
+      <ITRForm:TotOthSrcLossNoRaceHorse name="scheduleCYLA.totalCurYr.totOthSrcLossNoRaceHorse"/>
+    </ITRForm:TotalCurYr>
+    <ITRForm:TotalLossSetOff>
+      <ITRForm:TotHPlossCurYrSetoff name="scheduleCYLA.totalLossSetOff.totHPlossCurYrSetoff"/>
+      <ITRForm:TotOthSrcLossNoRaceHorseSetoff name="scheduleCYLA.totalLossSetOff.totOthSrcLossNoRaceHorseSetoff"/>
+    </ITRForm:TotalLossSetOff>
+    <ITRForm:LossRemAftSetOff>
+      <ITRForm:BalHPlossCurYrAftSetoff name="scheduleCYLA.lossRemAftSetOff.balHPlossCurYrAftSetoff"/>
+      <ITRForm:BalOthSrcLossNoRaceHorseAftSetoff name="scheduleCYLA.lossRemAftSetOff.balOthSrcLossNoRaceHorseAftSetoff"/>
+    </ITRForm:LossRemAftSetOff>
+  </ITRForm:ScheduleCYLA>
+  <ITRForm:ScheduleBFLA>
+      <ITRForm:Salary>
+	  <ITRForm:IncBFLA>
+	    <ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.salary.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+	    <ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.salary.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+	</ITRForm:Salary>
+    <ITRForm:HP>
+      <ITRForm:IncBFLA>
+        <ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.hp.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+        <ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.hp.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.hp.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+      </ITRForm:IncBFLA>
+    </ITRForm:HP>
+     <ITRForm:STCG15Per>
+	  <ITRForm:IncBFLA>
+	    <ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.stcg.stcg15Per.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+		<ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.stcg.stcg15Per.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+		<ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.stcg.stcg15Per.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+	</ITRForm:STCG15Per>
+    <ITRForm:STCG30Per>
+	  <ITRForm:IncBFLA>
+		<ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.stcg.stcg30Per.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+		<ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.stcg.stcg30Per.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+		<ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.stcg.stcg30Per.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+	</ITRForm:STCG30Per>
+	<ITRForm:STCGAppRate>
+	  <ITRForm:IncBFLA>
+		<ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.stcg.stcgAppRate.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+		<ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.stcg.stcgAppRate.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+		<ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.stcg.stcgAppRate.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+    </ITRForm:STCGAppRate>
+    <ITRForm:LTCG10Per>
+	  <ITRForm:IncBFLA>
+		<ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.ltcg.ltcg10Per.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+		<ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.ltcg.ltcg10Per.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+		<ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.ltcg.ltcg10Per.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+	</ITRForm:LTCG10Per>
+	<ITRForm:LTCG20Per>
+	  <ITRForm:IncBFLA>
+		<ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.ltcg.ltcg20Per.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+		<ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.ltcg.ltcg20Per.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+		<ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.ltcg.ltcg20Per.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+	  </ITRForm:IncBFLA>
+	</ITRForm:LTCG20Per>
+    <ITRForm:OthSrcExclRaceHorse>
+      <ITRForm:IncBFLA>
+        <ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.othSrcInclRaceHorse.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+        <ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.othSrcInclRaceHorse.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+      </ITRForm:IncBFLA>
+    </ITRForm:OthSrcExclRaceHorse>
+    <ITRForm:OthSrcRaceHorse>
+      <ITRForm:IncBFLA>
+        <ITRForm:IncOfCurYrUndHeadFromCYLA name="scheduleBFLA.profitFrmRaceHorse.incBFLA.incOfCurYrUndHeadFromCYLA"/>
+        <ITRForm:BFlossPrevYrUndSameHeadSetoff name="scheduleBFLA.profitFrmRaceHorse.incBFLA.bFlossPrevYrUndSameHeadSetoff"/>
+        <ITRForm:IncOfCurYrAfterSetOffBFLosses name="scheduleBFLA.profitFrmRaceHorse.incBFLA.incOfCurYrAfterSetOffBFLosses"/>
+      </ITRForm:IncBFLA>
+    </ITRForm:OthSrcRaceHorse>
+    <ITRForm:TotalBFLossSetOff>
+      <ITRForm:TotBFLossSetoff name="scheduleBFLA.totalBFLossSetOff.totBFLossSetoff"/>
+      </ITRForm:TotalBFLossSetOff>
+    <ITRForm:IncomeOfCurrYrAftCYLABFLA name="scheduleBFLA.incomeOfCurrYrAftCYLABFLA"/>
+  </ITRForm:ScheduleBFLA>
+  <ITRForm:ScheduleCFL>
+    <ITRForm:LossCFFromPrev8thYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev8ThYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev8ThYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev8ThYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev8ThYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev8thYearFromAY>
+    <ITRForm:LossCFFromPrev7thYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev7ThYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev7ThYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev7ThYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev7ThYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev7ThYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev7thYearFromAY>
+    <ITRForm:LossCFFromPrev6thYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev6ThYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev6ThYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev6ThYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev6ThYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev6ThYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev6thYearFromAY>
+    <ITRForm:LossCFFromPrev5thYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev5ThYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev5ThYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev5ThYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev5ThYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev5ThYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev5thYearFromAY>
+    <ITRForm:LossCFFromPrev4thYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.lossCFFromPrev4ThYearFromAY.carryFwdLossDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev4thYearFromAY>
+    <ITRForm:LossCFFromPrev3rdYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.lossCFFromPrev3RdYearFromAY.carryFwdLossDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev3rdYearFromAY>
+    <ITRForm:LossCFFromPrev2ndYearFromAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.lossCFFromPrev2NdYearFromAY.carryFwdLossDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrev2ndYearFromAY>
+    <ITRForm:LossCFFromPrevYrToAY>
+      <ITRForm:CarryFwdLossDetail>
+        <ITRForm:DateOfFiling name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.dateOfFiling"/>
+        <ITRForm:HPLossCF name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.hpLossCF"/>
+        <ITRForm:BusLossOthThanSpecLossCF name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.busLossOthThanSpecLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.lossCFFromPrevYrToAY.carryFwdLossDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:CarryFwdLossDetail>
+    </ITRForm:LossCFFromPrevYrToAY>
+    <ITRForm:TotalOfBFLossesEarlierYrs>
+      <ITRForm:LossSummaryDetail>
+        <ITRForm:HPLossCF name="scheduleCFL.totalOfBFLossesEarlierYrs.lossSummaryDetail.hpLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.totalOfBFLossesEarlierYrs.lossSummaryDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.totalOfBFLossesEarlierYrs.lossSummaryDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.totalOfBFLossesEarlierYrs.lossSummaryDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:LossSummaryDetail>
+    </ITRForm:TotalOfBFLossesEarlierYrs>
+    <ITRForm:AdjTotBFLossInBFLA>
+      <ITRForm:LossSummaryDetail>
+        <ITRForm:HPLossCF name="scheduleCFL.adjTotBFLossInBFLA.lossSummaryDetail.hpLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.adjTotBFLossInBFLA.lossSummaryDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.adjTotBFLossInBFLA.lossSummaryDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.adjTotBFLossInBFLA.lossSummaryDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:LossSummaryDetail>
+    </ITRForm:AdjTotBFLossInBFLA>
+    <ITRForm:CurrentAYloss>
+      <ITRForm:LossSummaryDetail>
+        <ITRForm:HPLossCF name="scheduleCFL.currentAYloss.lossSummaryDetail.hpLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.currentAYloss.lossSummaryDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.currentAYloss.lossSummaryDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.currentAYloss.lossSummaryDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:LossSummaryDetail>
+    </ITRForm:CurrentAYloss>
+    <ITRForm:TotalLossCFSummary>
+      <ITRForm:LossSummaryDetail>
+        <ITRForm:HPLossCF name="scheduleCFL.totalLossCFSummary.lossSummaryDetail.hpLossCF"/>
+        <ITRForm:STCGLossCF name="scheduleCFL.totalLossCFSummary.lossSummaryDetail.stcgLossCF"/>
+        <ITRForm:LTCGLossCF name="scheduleCFL.totalLossCFSummary.lossSummaryDetail.ltcgLossCF"/>
+        <ITRForm:OthSrcLossRaceHorseCF name="scheduleCFL.totalLossCFSummary.lossSummaryDetail.othSrcLossRaceHorseCF"/>
+      </ITRForm:LossSummaryDetail>
+    </ITRForm:TotalLossCFSummary>
+  </ITRForm:ScheduleCFL>
+  <ITRForm:ScheduleVIA>
+    <ITRForm:UsrDeductUndChapVIA>
+      <ITRForm:Section80C name="scheduleVIA.usrDeductUndChapVIA.section80C"/>
+      <ITRForm:Section80CCC name="scheduleVIA.usrDeductUndChapVIA.section80CCC"/>
+      <ITRForm:Section80CCDEmployeeOrSE name="scheduleVIA.usrDeductUndChapVIA.section80CCDi"/>
+      <ITRForm:Section80CCD1B name="scheduleVIA.usrDeductUndChapVIA.section80CCD1B"/>
+      <ITRForm:Section80CCDEmployer name="scheduleVIA.usrDeductUndChapVIA.section80CCDii"/>
+      <ITRForm:Section80DHealthInsPremium>
+       <ITRForm:HealthInsurancePremium name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.healthInsurancePremium"/>
+       <ITRForm:Sec80DHealthInsurancePremiumUsr name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DHealthInsurancePremiumUsr"/>
+       <ITRForm:MedicalExpenditure name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.medicalExpenditure"/>
+       <ITRForm:Sec80DMedicalExpenditureUsr name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DMedicalExpenditureUsr"/>
+       <ITRForm:PreventiveHealthCheckUp name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.preventiveHealthCheckUp"/>
+       <ITRForm:Sec80DPreventiveHealthCheckUpUsr name="scheduleVIA.usrDeductUndChapVIA.section80DHealthInsPremium.sec80DPreventiveHealthCheckUpUsr"/>
+      </ITRForm:Section80DHealthInsPremium>
+      <ITRForm:Section80DDUsrType name="scheduleVIA.usrDeductUndChapVIA.section80DDUsrType"></ITRForm:Section80DDUsrType>
+      <ITRForm:Section80DD name="scheduleVIA.usrDeductUndChapVIA.section80DD"/>
+      <ITRForm:Section80DDBUsrType name="scheduleVIA.usrDeductUndChapVIA.section80DDBUsrType"></ITRForm:Section80DDBUsrType>
+      <ITRForm:Section80DDB name="scheduleVIA.usrDeductUndChapVIA.section80DDB"/>
+      <ITRForm:Section80E name="scheduleVIA.usrDeductUndChapVIA.section80E"/>
+      <ITRForm:Section80EE name="scheduleVIA.usrDeductUndChapVIA.section80EE"/>
+      <ITRForm:Section80G name="scheduleVIA.usrDeductUndChapVIA.section80G"/>
+      <ITRForm:Section80GG name="scheduleVIA.usrDeductUndChapVIA.section80GG"/>
+      <ITRForm:Section80GGA name="scheduleVIA.usrDeductUndChapVIA.section80GGA"/>
+      <ITRForm:Section80GGC name="scheduleVIA.usrDeductUndChapVIA.section80GGC"/>
+      <ITRForm:Section80UUsrType name="scheduleVIA.usrDeductUndChapVIA.section80UUsrType"></ITRForm:Section80UUsrType>
+      <ITRForm:Section80U name="scheduleVIA.usrDeductUndChapVIA.section80U"/>
+      <ITRForm:Section80RRB name="scheduleVIA.usrDeductUndChapVIA.section80RRB"/>
+      <ITRForm:Section80QQB name="scheduleVIA.usrDeductUndChapVIA.section80QQB"/>
+       <ITRForm:Section80CCG name="scheduleVIA.usrDeductUndChapVIA.section80CCG"/>
+      <ITRForm:Section80TTA name="scheduleVIA.usrDeductUndChapVIA.section80TTA"/>
+      <ITRForm:TotalChapVIADeductions name="scheduleVIA.usrDeductUndChapVIA.totalChapVIADeductions"/>
+    </ITRForm:UsrDeductUndChapVIA>
+    <ITRForm:DeductUndChapVIA>
+      <ITRForm:Section80C name="scheduleVIA.deductUndChapVIA.section80C"/>
+      <ITRForm:Section80CCC name="scheduleVIA.deductUndChapVIA.section80CCC"/>
+      <ITRForm:Section80CCDEmployeeOrSE name="scheduleVIA.deductUndChapVIA.section80CCDi"/>
+      <ITRForm:Section80CCD1B name="scheduleVIA.deductUndChapVIA.section80CCD1B"/>
+      <ITRForm:Section80CCDEmployer name="scheduleVIA.deductUndChapVIA.section80CCDii"/>
+      <ITRForm:Section80D name="scheduleVIA.deductUndChapVIA.section80D"/>
+      <ITRForm:Section80DD name="scheduleVIA.deductUndChapVIA.section80DD"/>
+      <ITRForm:Section80DDB name="scheduleVIA.deductUndChapVIA.section80DDB"/>
+      <ITRForm:Section80E name="scheduleVIA.deductUndChapVIA.section80E"/>
+      <ITRForm:Section80EE name="scheduleVIA.deductUndChapVIA.section80EE"/>
+      <ITRForm:Section80G name="scheduleVIA.deductUndChapVIA.section80G"/>
+      <ITRForm:Section80GG name="scheduleVIA.deductUndChapVIA.section80GG"/>
+      <ITRForm:Section80GGA name="scheduleVIA.deductUndChapVIA.section80GGA"/>
+      <ITRForm:Section80GGC name="scheduleVIA.deductUndChapVIA.section80GGC"/>
+      <ITRForm:Section80U name="scheduleVIA.deductUndChapVIA.section80U"/>
+      <ITRForm:Section80RRB name="scheduleVIA.deductUndChapVIA.section80RRB"/>
+      <ITRForm:Section80QQB name="scheduleVIA.deductUndChapVIA.section80QQB"/>
+      <ITRForm:Section80CCG name="scheduleVIA.deductUndChapVIA.section80CCG"/>
+      <ITRForm:Section80TTA name="scheduleVIA.deductUndChapVIA.section80TTA"/>
+      <ITRForm:TotalChapVIADeductions name="scheduleVIA.deductUndChapVIA.totalChapVIADeductions"/>
+    </ITRForm:DeductUndChapVIA>
+  </ITRForm:ScheduleVIA>
+  <ITRForm:Schedule80G>
+    <ITRForm:Don100Percent>
+      <ITRForm:DoneeWithPan>
+        <ITRForm:DoneeWithPanName name="schedule80G.don100Percent.doneeDetail[0].doneeName"/>
+        <ITRForm:DoneePAN name="schedule80G.don100Percent.doneeDetail[0].doneePanNo"/>
+        <ITRForm:AddressDetail>
+          <ITRForm:AddrDetail name="schedule80G.don100Percent.doneeDetail[0].addressDetail.addrDetail"/>
+          <ITRForm:CityOrTownOrDistrict name="schedule80G.don100Percent.doneeDetail[0].addressDetail.cityOrTownOrDistrict"/>
+          <ITRForm:StateCode name="schedule80G.don100Percent.doneeDetail[0].addressDetail.stateCode"/>
+          <ITRForm:PinCode name="schedule80G.don100Percent.doneeDetail[0].addressDetail.pinCode"/>
+        </ITRForm:AddressDetail>
+        <ITRForm:DonationAmt name="schedule80G.don100Percent.doneeDetail[0].donationAmt"/>
+        <ITRForm:EligibleDonationAmt name="schedule80G.don100Percent.doneeDetail[0].eligibleDonationAmt"/>
+      </ITRForm:DoneeWithPan>
+      <ITRForm:TotDon100Percent name="schedule80G.don100Percent.totDon100Percent"/>
+      <ITRForm:TotEligibleDon100Percent name="schedule80G.don100Percent.totEligibleDon100Percent"/>
+    </ITRForm:Don100Percent>
+    <ITRForm:Don50PercentNoApprReqd>
+      <ITRForm:DoneeWithPan>
+        <ITRForm:DoneeWithPanName name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].doneeName"/>
+        <ITRForm:DoneePAN name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].doneePanNo"/>
+        <ITRForm:AddressDetail>
+          <ITRForm:AddrDetail name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].addressDetail.addrDetail"/>
+          <ITRForm:CityOrTownOrDistrict name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].addressDetail.cityOrTownOrDistrict"/>
+          <ITRForm:StateCode name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].addressDetail.stateCode"/>
+          <ITRForm:PinCode name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].addressDetail.pinCode"/>
+        </ITRForm:AddressDetail>
+        <ITRForm:DonationAmt name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].donationAmt"/>
+        <ITRForm:EligibleDonationAmt name="schedule80G.don50PercentNoApprReqd.doneeDetail[0].eligibleDonationAmt"/>
+      </ITRForm:DoneeWithPan>
+      <ITRForm:TotDon50PercentNoApprReqd name="schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd"/>
+      <ITRForm:TotEligibleDon50Percent name="schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent"/>
+    </ITRForm:Don50PercentNoApprReqd>
+    <ITRForm:Don100PercentApprReqd>
+      <ITRForm:DoneeWithPan>
+        <ITRForm:DoneeWithPanName name="schedule80G.don100PercentApprReqd.doneeDetail[0].doneeName"/>
+        <ITRForm:DoneePAN name="schedule80G.don100PercentApprReqd.doneeDetail[0].doneePanNo"/>
+        <ITRForm:AddressDetail>
+          <ITRForm:AddrDetail name="schedule80G.don100PercentApprReqd.doneeDetail[0].addressDetail.addrDetail"/>
+          <ITRForm:CityOrTownOrDistrict name="schedule80G.don100PercentApprReqd.doneeDetail[0].addressDetail.cityOrTownOrDistrict"/>
+          <ITRForm:StateCode name="schedule80G.don100PercentApprReqd.doneeDetail[0].addressDetail.stateCode"/>
+          <ITRForm:PinCode name="schedule80G.don100PercentApprReqd.doneeDetail[0].addressDetail.pinCode"/>
+        </ITRForm:AddressDetail>
+        <ITRForm:DonationAmt name="schedule80G.don100PercentApprReqd.doneeDetail[0].donationAmt"/>
+        <ITRForm:EligibleDonationAmt name="schedule80G.don100PercentApprReqd.doneeDetail[0].eligibleDonationAmt"/>
+      </ITRForm:DoneeWithPan>
+      <ITRForm:TotDon100PercentApprReqd name="schedule80G.don100PercentApprReqd.totDon100PercentApprReqd"/>
+      <ITRForm:TotEligibleDon100PercentApprReqd name="schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd"/>
+    </ITRForm:Don100PercentApprReqd>
+    <ITRForm:Don50PercentApprReqd>
+      <ITRForm:DoneeWithPan>
+        <ITRForm:DoneeWithPanName name="schedule80G.don50PercentApprReqd.doneeDetail[0].doneeName"/>
+        <ITRForm:DoneePAN name="schedule80G.don50PercentApprReqd.doneeDetail[0].doneePanNo"/>
+        <ITRForm:AddressDetail>
+          <ITRForm:AddrDetail name="schedule80G.don50PercentApprReqd.doneeDetail[0].addressDetail.addrDetail"/>
+          <ITRForm:CityOrTownOrDistrict name="schedule80G.don50PercentApprReqd.doneeDetail[0].addressDetail.cityOrTownOrDistrict"/>
+          <ITRForm:StateCode name="schedule80G.don50PercentApprReqd.doneeDetail[0].addressDetail.stateCode"/>
+          <ITRForm:PinCode name="schedule80G.don50PercentApprReqd.doneeDetail[0].addressDetail.pinCode"/>
+        </ITRForm:AddressDetail>
+        <ITRForm:DonationAmt name="schedule80G.don50PercentApprReqd.doneeDetail[0].donationAmt"/>
+        <ITRForm:EligibleDonationAmt name="schedule80G.don50PercentApprReqd.doneeDetail[0].eligibleDonationAmt"/>
+      </ITRForm:DoneeWithPan>
+       <ITRForm:TotDon50PercentApprReqd name="schedule80G.don50PercentApprReqd.totDon50PercentApprReqd"/>
+      <ITRForm:TotEligibleDon50PercentApprReqd name="schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd"/>
+    </ITRForm:Don50PercentApprReqd>
+     <ITRForm:TotalDonationsUs80G name="schedule80G.totalDonationsUs80G"/>
+    <ITRForm:TotalEligibleDonationsUs80G name="schedule80G.totalEligibleDonationsUs80G"/>
+  </ITRForm:Schedule80G>
+  <ITRForm:ScheduleSPI>
+    <ITRForm:SpecifiedPerson>
+      <ITRForm:SpecifiedPersonName name="scheduleSPI.specifiedPerson[0].specifiedPersonName"/>
+      <ITRForm:PANofSpecPerson name="scheduleSPI.specifiedPerson[0].paNofSpecPerson"/>
+      <ITRForm:ReltnShip name="scheduleSPI.specifiedPerson[0].reltnShip"/>
+      <ITRForm:NatureOfInc name="scheduleSPI.specifiedPerson[0].natureOfInc"/>
+      <ITRForm:AmtIncluded name="scheduleSPI.specifiedPerson[0].amtIncluded"/>
+    </ITRForm:SpecifiedPerson>
+  </ITRForm:ScheduleSPI>
+ <ITRForm:ScheduleSI>
+    <ITRForm:SplCodeRateTax>
+      <ITRForm:SecCode name="scheduleSI.splCodeRateTax[0].secCode"/>
+      <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[0].splRatePercent">1</ITRForm:SplRatePercent>
+      <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[0].splRateInc"/>
+      <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[0].splRateIncTax">0</ITRForm:SplRateIncTax>
+    </ITRForm:SplCodeRateTax>
+    <ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[1].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[1].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[1].splRateInc">0</ITRForm:SplRateInc>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[1].splRateIncTax">0</ITRForm:SplRateIncTax>
+    </ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[2].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[2].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[2].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[2].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[3].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[3].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[3].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[3].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[4].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[4].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[4].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[4].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[5].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[5].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[5].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[5].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[6].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[6].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[6].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[6].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+	<ITRForm:SplCodeRateTax>
+	  <ITRForm:SecCode name="scheduleSI.splCodeRateTax[7].secCode"/>
+	  <ITRForm:SplRatePercent name="scheduleSI.splCodeRateTax[7].splRatePercent"/>
+	  <ITRForm:SplRateInc name="scheduleSI.splCodeRateTax[7].splRateInc"/>
+	  <ITRForm:SplRateIncTax name="scheduleSI.splCodeRateTax[7].splRateIncTax">0</ITRForm:SplRateIncTax>
+	</ITRForm:SplCodeRateTax>
+    <ITRForm:TotSplRateIncTax name="scheduleSI.totSplRateIncTax"/>
+  </ITRForm:ScheduleSI>
+  <ITRForm:ScheduleEI>
+    <ITRForm:InterestInc name="scheduleEI.interestInc"/>
+    <ITRForm:DividendInc name="scheduleEI.dividendInc"/>
+    <ITRForm:LTCGWhereSTTPaid name="scheduleEI.ltcgWhereSTTPaid"/>
+    <ITRForm:GrossAgriRecpt name="scheduleEI.grossAgriReceipt7B8" />
+    <ITRForm:ExpIncAgri name="scheduleEI.expendAgriculture" />
+    <ITRForm:UnabAgriLossPrev8 name="scheduleEI.expendAgricultureUnabsorbed" />
+    <ITRForm:NetAgriIncOrOthrIncRule7 name="scheduleEI.netAgriIncOrOthrIncRule7"/>
+    <ITRForm:OthersInc name="scheduleEI.schEiOthers"/>
+    <ITRForm:OthersInc>
+  	  <ITRForm:OthersIncDtls>
+				<ITRForm:OthNatOfInc name="scheduleEI.schEiOthers[0].othNatOfInc" />
+				<ITRForm:OthAmount 	name="scheduleEI.schEiOthers[0].othAmount" />
+		</ITRForm:OthersIncDtls>
+	</ITRForm:OthersInc>
+    <ITRForm:Others name="scheduleEI.others"/>
+    <ITRForm:TotalExemptInc name="scheduleEI.totalExemptInc"/>
+  </ITRForm:ScheduleEI>
+   <ITRForm:SchedulePTI>
+		<ITRForm:SchedulePTIDtls>
+			<ITRForm:BusinessName name="itrSchedulePTI.schedulePTI[0].businessName" />
+			<ITRForm:BusinessPAN name="itrSchedulePTI.schedulePTI[0].pan" />
+			<ITRForm:IncFromHP>
+					<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromHP.amtOfIncm" />
+					<ITRForm:TDSAmount 	name="itrSchedulePTI.schedulePTI[0].incFromHP.tdsOnAmt" />
+			</ITRForm:IncFromHP>
+			<ITRForm:CapitalGainsPTI>
+				<ITRForm:ShortTermCG>
+						<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromCGShortTerm.amtOfIncm" />
+						<ITRForm:TDSAmount 	name="itrSchedulePTI.schedulePTI[0].incFromCGShortTerm.tdsOnAmt" />
+				</ITRForm:ShortTermCG>
+				<ITRForm:LongTermCG>
+						<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromCGLongTerm.amtOfIncm" />
+						<ITRForm:TDSAmount name="itrSchedulePTI.schedulePTI[0].incFromCGLongTerm.tdsOnAmt" />
+				</ITRForm:LongTermCG>
+			</ITRForm:CapitalGainsPTI>
+
+			<ITRForm:IncClmdPTI>
+			<ITRForm:Sec23FBB>
+					<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB.amtOfIncm" />
+					<ITRForm:TDSAmount 	name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB.tdsOnAmt" />
+			</ITRForm:Sec23FBB>
+			<ITRForm:SecBIncExmptDtl>
+					<ITRForm:SectionCode name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB1.section"/>
+					<ITRForm:SecBCIncExmptDtl>
+						<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB1.amtOfIncm" />
+						<ITRForm:TDSAmount  name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB1.tdsOnAmt" />
+					</ITRForm:SecBCIncExmptDtl>
+			</ITRForm:SecBIncExmptDtl>
+			<ITRForm:SecCIncExmptDtl>
+					<ITRForm:SectionCode name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB2.section"/>
+					<ITRForm:SecBCIncExmptDtl>
+						<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB2.amtOfIncm" />
+					<ITRForm:TDSAmount  name="itrSchedulePTI.schedulePTI[0].incFromExemptSec10_23FBB2.tdsOnAmt" />
+					</ITRForm:SecBCIncExmptDtl>
+			</ITRForm:SecCIncExmptDtl>
+			</ITRForm:IncClmdPTI>
+			<ITRForm:IncOthSrc>
+					<ITRForm:AmountOfInc name="itrSchedulePTI.schedulePTI[0].incFromOS.amtOfIncm" />
+					<ITRForm:TDSAmount 	name="itrSchedulePTI.schedulePTI[0].incFromOS.tdsOnAmt" />
+			</ITRForm:IncOthSrc>
+		</ITRForm:SchedulePTIDtls>
+	</ITRForm:SchedulePTI>
+
+
+  <ITRForm:ScheduleIT>
+    <ITRForm:TaxPayment>
+      <ITRForm:BSRCode name="scheduleIT.taxPayment[0].bsrCode"/>
+      <ITRForm:DateDep name="scheduleIT.taxPayment[0].dateDep"/>
+      <ITRForm:SrlNoOfChaln name="scheduleIT.taxPayment[0].srlNoOfChaln"/>
+      <ITRForm:Amt name="scheduleIT.taxPayment[0].amt"/>
+    </ITRForm:TaxPayment>
+    <ITRForm:TotalTaxPayments name="scheduleIT.taxPayment.totalTaxPayments"/>
+  </ITRForm:ScheduleIT>
+
+   <ITRForm:ScheduleTDS1>
+    <ITRForm:TDSonSalary>
+      <ITRForm:EmployerOrDeductorOrCollectDetl>
+        <ITRForm:TAN name="scheduleTDS1.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.tan"/>
+        <ITRForm:EmployerOrDeductorOrCollecterName name="scheduleTDS1.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"/>
+      </ITRForm:EmployerOrDeductorOrCollectDetl>
+      <ITRForm:IncChrgSal name="scheduleTDS1.tdSonOthThanSal[0].incChrgSal"/>
+      <ITRForm:TotalTDSSal name="scheduleTDS1.tdSonOthThanSal[0].totalTDSSal"/>
+    </ITRForm:TDSonSalary>
+    <ITRForm:TotalTDSonSalaries name="itr3.scheduleTDS1.tdSonOthThanSal.totalTDSonSalaries" />
+  </ITRForm:ScheduleTDS1>
+
+
+
+
+  <ITRForm:ScheduleTDS2>
+   	<ITRForm:TDSonOthThanSal>
+   		<ITRForm:TDSCreditName name="scheduleTDS2.tdSonOthThanSal[0].tDSCreditName"/>
+   	 	<ITRForm:EmployerOrDeductorOrCollectDetl>
+        	<ITRForm:TAN name="scheduleTDS2.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.tan"/>
+       		<ITRForm:EmployerOrDeductorOrCollecterName name="scheduleTDS2.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"/>
+    	 </ITRForm:EmployerOrDeductorOrCollectDetl>
+   		 <ITRForm:UniqueTDSCerNo name="scheduleTDS2.tdSonOthThanSal[0].uniqueTDSCerNo"/>
+   	     <ITRForm:DeductedYr name="scheduleTDS2.tdSonOthThanSal[0].deductedYr"></ITRForm:DeductedYr>
+   	     <ITRForm:BroughtFwdTDSAmt name="scheduleTDS2.tdSonOthThanSal[0].totTDSOnAmtPaid"></ITRForm:BroughtFwdTDSAmt>
+   	     <ITRForm:TaxDeductCreditDtls>
+        	<ITRForm:TaxDeductedOwnHands name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxDeductedOwnHands"/>
+        	<ITRForm:TaxDeductedIncome name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxDeductedIncome"/>
+        	<ITRForm:TaxDeductedTDS name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxDeductedTDS"/>
+        	<ITRForm:TaxDeductedSpouseOthPrsnPAN name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxDeductedSpousePAN"/>
+        	<ITRForm:TaxClaimedOwnHands name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxCreditedOwnHands"/>
+        	<ITRForm:TaxClaimedIncome name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxCreditedIncome"/>
+       	 	<ITRForm:TaxClaimedTDS name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxCreditedTDS"/>
+       	 	<ITRForm:TaxClaimedSpouseOthPrsnPAN name="scheduleTDS2.tdSonOthThanSal[0].taxDeductCreditDtls.taxCreditedSpousePAN"/>
+      	</ITRForm:TaxDeductCreditDtls>
+      	<ITRForm:AmtCarriedFwd name="scheduleTDS2.tdSonOthThanSal[0].amntCarryForward"/>
+   	</ITRForm:TDSonOthThanSal>
+    <ITRForm:TotalTDSonOthThanSals name="scheduleTDS2.tdSonOthThanSal.totalTDSonOthThanSals"/>
+  </ITRForm:ScheduleTDS2>
+
+
+   <ITRForm:ScheduleTDS3>
+   	<ITRForm:TDS3onOthThanSal>
+   	<ITRForm:TDSCreditName name="scheduleTDS3.tDS3onOthThanSal[0].tDSCreditName"/>
+   	 	<ITRForm:EmployerOrDeductorOrCollectDetlTds3>
+        	<ITRForm:PAN name="scheduleTDS3.tDS3onOthThanSal[0].employerOrDeductorOrCollectDetlTds3.pan"/>
+       		<ITRForm:EmployerOrDeductorOrCollecterName name="scheduleTDS3.tDS3onOthThanSal[0].employerOrDeductorOrCollectDetlTds3.employerOrDeductorOrCollecterName"/>
+    	 </ITRForm:EmployerOrDeductorOrCollectDetlTds3>
+   		 <ITRForm:UniqueTDSCerNo name="scheduleTDS3.tDS3onOthThanSal[0].uniqueTDSCerNo"/>
+   	     <ITRForm:DeductedYr name="scheduleTDS3.tDS3onOthThanSal[0].deductedYr"></ITRForm:DeductedYr>
+   	     <ITRForm:BroughtFwdTDSAmt name="scheduleTDS3.tDS3onOthThanSal[0].totTDSOnAmtPaid"></ITRForm:BroughtFwdTDSAmt>
+     	 <ITRForm:TaxDeductCreditDtls>
+        	<ITRForm:TaxDeductedOwnHands name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxDeductedOwnHands"/>
+        	<ITRForm:TaxDeductedIncome name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxDeductedIncome"/>
+        	<ITRForm:TaxDeductedTDS name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxDeductedTDS"/>
+        	<ITRForm:TaxDeductedSpouseOthPrsnPAN name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxDeductedSpousePAN"/>
+       	 	<ITRForm:TaxClaimedOwnHands name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxCreditedOwnHands"/>
+        	<ITRForm:TaxClaimedIncome name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxCreditedIncome"/>
+       	 	<ITRForm:TaxClaimedTDS name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxCreditedTDS"/>
+        	<ITRForm:TaxClaimedSpouseOthPrsnPAN name="scheduleTDS3.tDS3onOthThanSal[0].taxDeductCreditDtls.taxCreditedSpousePAN"/>
+      </ITRForm:TaxDeductCreditDtls>
+      <ITRForm:AmtCarriedFwd name="scheduleTDS3.tDS3onOthThanSal[0].amntCarryForward"/>
+   	</ITRForm:TDS3onOthThanSal>
+   	<ITRForm:TotalTDS3OnOthThanSal name="scheduleTDS3.tDS3onOthThanSal.totalTDS3OnOthThanSal" />
+  </ITRForm:ScheduleTDS3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ITRForm:ScheduleTCS>
+	<ITRForm:TCS>
+		<ITRForm:EmployerOrDeductorOrCollectDetl>
+			<ITRForm:TAN name="itr3.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.tan"/>
+			<ITRForm:EmployerOrDeductorOrCollecterName name="itr3.scheduleTCS.tcs[0].employerOrDeductorOrCollectDetl.employerOrDeductorOrCollecterName"/>
+		</ITRForm:EmployerOrDeductorOrCollectDetl>
+		<ITRForm:TotalTCS name="itr3.scheduleTCS.tcs[0].totalTCS"/>
+		<ITRForm:AmtTCSClaimedThisYear name="itr3.scheduleTCS.tcs[0].amtTCSClaimedThisYear"/>
+		<ITRForm:AmtClaimedBySpouse
+					name="itr3.scheduleTCS.tcs[0].amtClaimedBySpouse" />
+       </ITRForm:TCS>
+       <ITRForm:TotalSchTCS name="itr3.scheduleTCS.totalTcSSalary" />
+</ITRForm:ScheduleTCS>
+   <ITRForm:ItrScheduleFsiAy2014>
+			<ITRForm:ScheduleFsiAy2014>
+				<ITRForm:CountryName name="itrScheduleFSI.scheduleFSI[0].countryName"/>
+				<ITRForm:CountryCode name="itrScheduleFSI.scheduleFSI[0].countryCode"/>
+				<ITRForm:TaxIdentificationNo name="itrScheduleFSI.scheduleFSI[0].taxIdentificationNo"/>
+				<ITRForm:IncFromSal>
+					<ITRForm:IncFrmOutsideInd name="itrScheduleFSI.scheduleFSI[0].incFromSal.incFrmOutsideInd">0</ITRForm:IncFrmOutsideInd>
+					<ITRForm:TaxPaidOutsideInd name="itrScheduleFSI.scheduleFSI[0].incFromSal.taxPaidOutsideInd">0</ITRForm:TaxPaidOutsideInd>
+					<ITRForm:TaxPayableinInd name="itrScheduleFSI.scheduleFSI[0].incFromSal.taxPayableinInd">0</ITRForm:TaxPayableinInd>
+					<ITRForm:TaxReliefinInd name="itrScheduleFSI.scheduleFSI[0].incFromSal.taxReliefinInd">0</ITRForm:TaxReliefinInd>
+					<ITRForm:DTAAReliefUs90or90A name="itrScheduleFSI.scheduleFSI[0].incFromSal.dtaaReliefUs90or90A"/>
+				</ITRForm:IncFromSal>
+				<ITRForm:IncFromHP>
+					<ITRForm:IncFrmOutsideInd name="itrScheduleFSI.scheduleFSI[0].incFromHP.incFrmOutsideInd">0</ITRForm:IncFrmOutsideInd>
+					<ITRForm:TaxPaidOutsideInd name="itrScheduleFSI.scheduleFSI[0].incFromHP.taxPaidOutsideInd">0</ITRForm:TaxPaidOutsideInd>
+					<ITRForm:TaxPayableinInd name="itrScheduleFSI.scheduleFSI[0].incFromHP.taxPayableinInd">0</ITRForm:TaxPayableinInd>
+					<ITRForm:TaxReliefinInd name="itrScheduleFSI.scheduleFSI[0].incFromHP.taxReliefinInd">0</ITRForm:TaxReliefinInd>
+					<ITRForm:DTAAReliefUs90or90A name="itrScheduleFSI.scheduleFSI[0].incFromHP.dtaaReliefUs90or90A"/>
+				</ITRForm:IncFromHP>
+				<ITRForm:IncCapGain>
+					<ITRForm:IncFrmOutsideInd name="itrScheduleFSI.scheduleFSI[0].incCapGain.incFrmOutsideInd">0</ITRForm:IncFrmOutsideInd>
+					<ITRForm:TaxPaidOutsideInd name="itrScheduleFSI.scheduleFSI[0].incCapGain.taxPaidOutsideInd">0</ITRForm:TaxPaidOutsideInd>
+					<ITRForm:TaxPayableinInd name="itrScheduleFSI.scheduleFSI[0].incCapGain.taxPayableinInd">0</ITRForm:TaxPayableinInd>
+					<ITRForm:TaxReliefinInd name="itrScheduleFSI.scheduleFSI[0].incCapGain.taxReliefinInd">0</ITRForm:TaxReliefinInd>
+					<ITRForm:DTAAReliefUs90or90A name="itrScheduleFSI.scheduleFSI[0].incCapGain.dtaaReliefUs90or90A"/>
+				</ITRForm:IncCapGain>
+				<ITRForm:IncOthSrc>
+					<ITRForm:IncFrmOutsideInd name="itrScheduleFSI.scheduleFSI[0].incOthSrc.incFrmOutsideInd">0</ITRForm:IncFrmOutsideInd>
+					<ITRForm:TaxPaidOutsideInd name="itrScheduleFSI.scheduleFSI[0].incOthSrc.taxPaidOutsideInd">0</ITRForm:TaxPaidOutsideInd>
+					<ITRForm:TaxPayableinInd name="itrScheduleFSI.scheduleFSI[0].incOthSrc.taxPayableinInd">0</ITRForm:TaxPayableinInd>
+					<ITRForm:TaxReliefinInd name="itrScheduleFSI.scheduleFSI[0].incOthSrc.taxReliefinInd">0</ITRForm:TaxReliefinInd>
+					<ITRForm:DTAAReliefUs90or90A name="itrScheduleFSI.scheduleFSI[0].incOthSrc.dtaaReliefUs90or90A"/>
+				</ITRForm:IncOthSrc>
+				<ITRForm:TotalCountryWise>
+					<ITRForm:IncFrmOutsideInd name="itrScheduleFSI.scheduleFSI[0].totalCountryWise.incFrmOutsideInd">0</ITRForm:IncFrmOutsideInd>
+					<ITRForm:TaxPaidOutsideInd name="itrScheduleFSI.scheduleFSI[0].totalCountryWise.taxPaidOutsideInd">0</ITRForm:TaxPaidOutsideInd>
+					<ITRForm:TaxPayableinInd name="itrScheduleFSI.scheduleFSI[0].totalCountryWise.taxPayableinInd">0</ITRForm:TaxPayableinInd>
+					<ITRForm:TaxReliefinInd name="itrScheduleFSI.scheduleFSI[0].totalCountryWise.taxReliefinInd">0</ITRForm:TaxReliefinInd>
+				</ITRForm:TotalCountryWise>
+			</ITRForm:ScheduleFsiAy2014>
+		</ITRForm:ItrScheduleFsiAy2014>
+  <ITRForm:ScheduleTR1>
+    <ITRForm:ScheduleTR>
+      <ITRForm:CountryName name="scheduleTR1.scheduleTR[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleTR1.scheduleTR[0].countryCode"/>
+      <ITRForm:TaxIdentificationNo name="scheduleTR1.scheduleTR[0].taxIdentificationNo"/>
+	  <ITRForm:TaxPaidOutsideIndia name="scheduleTR1.scheduleTR[0].taxPaidOutsideIndia"/>
+	  <ITRForm:TaxReliefOutsideIndia name="scheduleTR1.scheduleTR[0].taxReliefOutsideIndia"/>
+	  <ITRForm:ReliefClaimedUsSection name="scheduleTR1.scheduleTR[0].relavantArticleDTAA"/>
+	</ITRForm:ScheduleTR>
+          <ITRForm:TotalTaxPaidOutsideIndia name="scheduleTR1.totTaxPaidDeclaredInFSI"/>
+           <ITRForm:TotalTaxReliefOutsideIndia name="scheduleTR1.totReliefClaimUs9090A"/>
+	  <ITRForm:TaxReliefOutsideIndiaDTAA name="scheduleTR1.totalIncomeOutIndia"/>
+	  <ITRForm:TaxReliefOutsideIndiaNotDTAA name="scheduleTR1.totalIncomeOutIndiaDTAA"/>
+	  <ITRForm:TaxPaidOutsideIndFlg name="scheduleTR1.taxPaidOutsideIndFlg"/>
+	  <ITRForm:AmtTaxRefunded name="scheduleTR1.amtTaxRefunded"/>
+	  <ITRForm:AssmtYrTaxRelief name="scheduleTR1.assmtYrTaxRelief"/>
+	</ITRForm:ScheduleTR1>
+
+  <ITRForm:ScheduleFA>
+    <ITRForm:DetailsForiegnBank>
+      <ITRForm:CountryName name="scheduleFA.detailsForiegnBank[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsForiegnBank[0].countryCode"/>
+       <ITRForm:ZipCode name="scheduleFA.detailsForiegnBank[0].zipCode"/>
+      <ITRForm:Bankname name="scheduleFA.detailsForiegnBank[0].bankname"/>
+      <ITRForm:AddressOfBank name="scheduleFA.detailsForiegnBank[0].addressOfBank" />
+      <ITRForm:NameAsInAccount name="scheduleFA.detailsForiegnBank[0].nameAsInAccount"/>
+      <ITRForm:OwnerStatus name="scheduleFA.detailsForiegnBank[0].statusOwner" />
+      <ITRForm:ForeignAccountNumber name="scheduleFA.detailsForiegnBank[0].foreignAccountNumber"/>
+      <ITRForm:IBANSWIFTCode name="scheduleFA.detailsForiegnBank[0].ibanSwiftCode"/>
+      <ITRForm:AccOpenDate name="scheduleFA.detailsForiegnBank[0].accOpeningDate" />
+      <ITRForm:PeakBalanceDuringYear name="scheduleFA.detailsForiegnBank[0].peakBalanceDuringYear"/>
+      <ITRForm:IntrstAccured name="scheduleFA.detailsForiegnBank[0].interestInAccount" />
+      <ITRForm:IntrstTaxAmt name="scheduleFA.detailsForiegnBank[0].amount" />
+      <ITRForm:IntrstTaxSch name="scheduleFA.detailsForiegnBank[0].scheduleOffered" />
+      <ITRForm:IntrstTaxSchNo name="scheduleFA.detailsForiegnBank[0].itemNo" />
+    </ITRForm:DetailsForiegnBank>
+    <ITRForm:DetailsFinancialInterest>
+      <ITRForm:CountryName name="scheduleFA.detailsFinancialInterest[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsFinancialInterest[0].countryCode"/>
+      <ITRForm:ZipCode name="scheduleFA.detailsFinancialInterest[0].zipCode"/>
+      <ITRForm:NatureOfEntity name="scheduleFA.detailsFinancialInterest[0].natureOfEntity"/>
+      <ITRForm:NameOfEntity name="scheduleFA.detailsFinancialInterest[0].nameOfEntity"/>
+      <ITRForm:AddressOfEntity name="scheduleFA.detailsFinancialInterest[0].addressOfEntity" />
+      <ITRForm:NatureOfInt name="scheduleFA.detailsFinancialInterest[0].natureOfInterest" />
+      <ITRForm:DateHeld name="scheduleFA.detailsFinancialInterest[0].holdingDate" />
+      <ITRForm:TotalInvestment name="scheduleFA.detailsFinancialInterest[0].totalInvestment"/>
+      <ITRForm:IncFromInt name="scheduleFA.detailsFinancialInterest[0].interestInAccount" />
+      <ITRForm:NatureOfInc name="scheduleFA.detailsFinancialInterest[0].natureOfIncome" />
+      <ITRForm:IncTaxAmt name="scheduleFA.detailsFinancialInterest[0].amount" />
+      <ITRForm:IncTaxSch name="scheduleFA.detailsFinancialInterest[0].scheduleOffered" />
+      <ITRForm:IncTaxSchNo name="scheduleFA.detailsFinancialInterest[0].itemNo" />
+    </ITRForm:DetailsFinancialInterest>
+    <ITRForm:DetailsImmovableProperty>
+      <ITRForm:CountryName name="scheduleFA.detailsImmovableProperty[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsImmovableProperty[0].countryCode"/>
+      <ITRForm:ZipCode name="scheduleFA.detailsImmovableProperty[0].zipCode"/>
+      <ITRForm:AddressOfProperty name="scheduleFA.detailsImmovableProperty[0].addressOfProperty"/>
+      <ITRForm:Ownership name="scheduleFA.detailsImmovableProperty[0].ownership" />
+      <ITRForm:DateOfAcq name="scheduleFA.detailsImmovableProperty[0].acquisitionDate" />
+      <ITRForm:TotalInvestment name="scheduleFA.detailsImmovableProperty[0].totalInvestment"/>
+      <ITRForm:IncDrvProperty name="scheduleFA.detailsImmovableProperty[0].propertyIncome" />
+      <ITRForm:NatureOfInc name="scheduleFA.detailsImmovableProperty[0].natureOfIncome" />
+      <ITRForm:IncTaxAmt name="scheduleFA.detailsImmovableProperty[0].amount" />
+      <ITRForm:IncTaxSch name="scheduleFA.detailsImmovableProperty[0].scheduleOffered" />
+      <ITRForm:IncTaxSchNo name="scheduleFA.detailsImmovableProperty[0].itemNo" />
+    </ITRForm:DetailsImmovableProperty>
+    <ITRForm:DetailsOthAssets>
+      <ITRForm:CountryName name="scheduleFA.detailsOthAssets[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsOthAssets[0].countryCode"/>
+      <ITRForm:ZipCode name="scheduleFA.detailsOthAssets[0].zipCode"/>
+      <ITRForm:NatureOfAsset name="scheduleFA.detailsOthAssets[0].natureOfAsset"/>
+      <ITRForm:Ownership name="scheduleFA.detailsOthAssets[0].ownership" />
+      <ITRForm:DateOfAcq name="scheduleFA.detailsOthAssets[0].acquisitionDate" />
+      <ITRForm:TotalInvestment name="scheduleFA.detailsOthAssets[0].totalInvestment"/>
+      <ITRForm:IncDrvAsset name="scheduleFA.detailsOthAssets[0].interestInAccount" />
+      <ITRForm:NatureOfInc name="scheduleFA.detailsOthAssets[0].natureOfIncome" />
+      <ITRForm:IncTaxAmt name="scheduleFA.detailsOthAssets[0].amount" />
+      <ITRForm:IncTaxSch name="scheduleFA.detailsOthAssets[0].scheduleOffered" />
+      <ITRForm:IncTaxSchNo name="scheduleFA.detailsOthAssets[0].itemNo" />
+    </ITRForm:DetailsOthAssets>
+    <ITRForm:DetailsOfAccntsHvngSigningAuth>
+      <ITRForm:NameOfInstitution name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].nameOfInstitution"/>
+      <ITRForm:AddressOfInstitution name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].addressOfInstitution"/>
+      <ITRForm:CountryName name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].countryCode"/>
+      <ITRForm:ZipCode name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].zipCode"/>
+      <ITRForm:NameMentionedInAccnt name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].nameMentionedInAccnt"/>
+      <ITRForm:InstitutionAccountNumber name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].institutionAccountNumber"/>
+      <ITRForm:PeakBalanceOrInvestment name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].peakBalanceOrInvestment"/>
+      <ITRForm:IncAccuredTaxFlag name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].taxableIncomeFlag" />
+      <ITRForm:IncAccuredInAcc name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].interestInAccount" />
+      <ITRForm:IncOfferedAmt name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].amount" />
+      <ITRForm:IncOfferedSch name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].scheduleOffered" />
+      <ITRForm:IncOfferedSchNo name="scheduleFA.detailsOfAccntsHvngSigningAuth[0].itemNo" />
+    </ITRForm:DetailsOfAccntsHvngSigningAuth>
+    <ITRForm:DetailsOfTrustOutIndiaTrustee>
+      <ITRForm:CountryName name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].countryName"/>
+      <ITRForm:CountryCode name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].countryCode"/>
+      <ITRForm:ZipCode name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].zipCode"/>
+      <ITRForm:NameOfTrust name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].nameOfTrust"/>
+      <ITRForm:AddressOfTrust name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].addressOfTrust"/>
+      <ITRForm:NameOfOtherTrustees name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].nameOfOtherTrustees"/>
+      <ITRForm:AddressOfOtherTrustees name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].addressOfOtherTrustees"/>
+      <ITRForm:NameOfSettlor name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].nameOfSettlor"/>
+      <ITRForm:AddressOfSettlor name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].addressOfSettlor"/>
+      <ITRForm:NameOfBeneficiaries name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].nameOfBeneficiaries"/>
+      <ITRForm:AddressOfBeneficiaries name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].addressOfBeneficiaries"/>
+      <ITRForm:DateHeld name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].holdingDate" />
+      <ITRForm:IncDrvTaxFlag name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].trustIncomeFlag" />
+      <ITRForm:IncDrvFromTrust name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].trustIncome" />
+      <ITRForm:IncOfferedAmt name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].amount" />
+      <ITRForm:IncOfferedSch name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].scheduleOffered" />
+      <ITRForm:IncOfferedSchNo name="scheduleFA.detailsOfTrustOutIndiaTrustee[0].itemNo" />
+    </ITRForm:DetailsOfTrustOutIndiaTrustee>
+
+    <ITRForm:DetailsOfOthSourcesIncOutsideIndia>
+    	<ITRForm:CountryName name="scheduleFA.detailsOfOtherIncome[0].countryName" />
+    	<ITRForm:CountryCode name="scheduleFA.detailsOfOtherIncome[0].countryCode" />
+    	<ITRForm:ZipCode name="scheduleFA.detailsOfOtherIncome[0].zipCode"/>
+    	<ITRForm:NameOfPerson name="scheduleFA.detailsOfOtherIncome[0].nameOfPerson" />
+    	<ITRForm:AddressOfPerson name="scheduleFA.detailsOfOtherIncome[0].addressOfPerson" />
+    	<ITRForm:IncDerived name="scheduleFA.detailsOfOtherIncome[0].income" />
+    	<ITRForm:NatureOfInc name="scheduleFA.detailsOfOtherIncome[0].natureOfIncome" />
+    	<ITRForm:IncDrvTaxFlag name="scheduleFA.detailsOfOtherIncome[0].trustIncomeFlag" />
+    	<ITRForm:IncOfferedAmt name="scheduleFA.detailsOfOtherIncome[0].amount" />
+    	<ITRForm:IncOfferedSch name="scheduleFA.detailsOfOtherIncome[0].scheduleOffered" />
+    	<ITRForm:IncOfferedSchNo name="scheduleFA.detailsOfOtherIncome[0].itemNo" />
+    </ITRForm:DetailsOfOthSourcesIncOutsideIndia>
+  </ITRForm:ScheduleFA>
+
+  <ITRForm:ScheduleBA>
+    	<ITRForm:BankDetail>
+    	    <ITRForm:IFSCCode name="itr3.scheduleBA[0].ifscCode" />
+			<ITRForm:BankName name="itr3.scheduleBA[0].bankName" />
+			<ITRForm:BankNameOthers name="itr3.scheduleBA[0].othBankNameDesc" />
+			<ITRForm:BankAccountType name="itr3.scheduleBA[0].bankAccountType" />
+			<ITRForm:JointHolderName name="itr3.scheduleBA[0].jointHldrName" />
+			<ITRForm:BankAccountNo name="itr3.scheduleBA[0].accNo" />
+			<ITRForm:BankAccountStatus name="itr3.scheduleBA[0].accStatusFlag" />
+			<ITRForm:BankAccountBal name="itr3.scheduleBA[0].accBalance" />
+		</ITRForm:BankDetail>
+		<ITRForm:BankAccounts name="itr3.scheduleBA.noOfBankAcc" />
+	</ITRForm:ScheduleBA>
+	<ITRForm:ScheduleFT>
+		<ITRForm:PassportNo name="itr3.scheduleFT.passportNo" />
+		<ITRForm:IssuePlace name="itr3.scheduleFT.passportPlace" />
+		<ITRForm:ForeigntravelExp>
+			<ITRForm:CountryName name="itrScheduleFT.scheduleFT[0].countryName" />
+			<ITRForm:CountryCode name="itrScheduleFT.scheduleFT[0].countryCode" />
+			<ITRForm:NumberOfVisits name="itrScheduleFT.scheduleFT[0].noOfVisits" />
+			<ITRForm:TravelExpenses name="itrScheduleFT.scheduleFT[0].travelExpense" />
+		</ITRForm:ForeigntravelExp>
+	</ITRForm:ScheduleFT>
+
+
+	<ITRForm:Schedule5A2014>
+    <ITRForm:NameOfSpouse name="schedule5a.nameOfSpouse"/>
+    <ITRForm:PANOfSpouse name="schedule5a.panOfSpouse"/>
+    <ITRForm:HPHeadIncome>
+				<ITRForm:IncRecvdUndHead name="schedule5A2014.hPHeadIncome.incRecvdUndHead" >0</ITRForm:IncRecvdUndHead>
+				<ITRForm:AmtApprndOfSpouse name="schedule5A2014.hPHeadIncome.amtApprndOfSpouse" >0</ITRForm:AmtApprndOfSpouse>
+				<ITRForm:AmtTDSDeducted name="schedule5A2014.hPHeadIncome.amtTDSDeducted" >0</ITRForm:AmtTDSDeducted>
+				<ITRForm:TDSApprndOfSpouse name="schedule5A2014.hPHeadIncome.tDSApprndOfSpouse" >0</ITRForm:TDSApprndOfSpouse>
+			</ITRForm:HPHeadIncome>
+			<ITRForm:CapGainHeadIncome>
+				<ITRForm:IncRecvdUndHead name="schedule5A2014.capGainHeadIncome.incRecvdUndHead" >0</ITRForm:IncRecvdUndHead>
+				<ITRForm:AmtApprndOfSpouse name="schedule5A2014.capGainHeadIncome.amtApprndOfSpouse" >0</ITRForm:AmtApprndOfSpouse>
+				<ITRForm:AmtTDSDeducted name="schedule5A2014.capGainHeadIncome.amtTDSDeducted" >0</ITRForm:AmtTDSDeducted>
+				<ITRForm:TDSApprndOfSpouse name="schedule5A2014.capGainHeadIncome.tDSApprndOfSpouse" >0</ITRForm:TDSApprndOfSpouse>
+			</ITRForm:CapGainHeadIncome>
+			<ITRForm:OtherSourcesHeadIncome>
+				<ITRForm:IncRecvdUndHead name="schedule5A2014.otherSourcesHeadIncome.incRecvdUndHead" >0</ITRForm:IncRecvdUndHead>
+				<ITRForm:AmtApprndOfSpouse name="schedule5A2014.otherSourcesHeadIncome.amtApprndOfSpouse" >0</ITRForm:AmtApprndOfSpouse>
+				<ITRForm:AmtTDSDeducted name="schedule5A2014.otherSourcesHeadIncome.amtTDSDeducted" >0</ITRForm:AmtTDSDeducted>
+				<ITRForm:TDSApprndOfSpouse name="schedule5A2014.otherSourcesHeadIncome.tDSApprndOfSpouse" >0</ITRForm:TDSApprndOfSpouse>
+			</ITRForm:OtherSourcesHeadIncome>
+			<ITRForm:TotalHeadIncome>
+				<ITRForm:IncRecvdUndHead name="schedule5A2014.totalHeadIncome.incRecvdUndHead" >0</ITRForm:IncRecvdUndHead>
+				<ITRForm:AmtApprndOfSpouse name="schedule5A2014.totalHeadIncome.amtApprndOfSpouse" >0</ITRForm:AmtApprndOfSpouse>
+				<ITRForm:AmtTDSDeducted name="schedule5A2014.totalHeadIncome.amtTDSDeducted" >0</ITRForm:AmtTDSDeducted>
+				<ITRForm:TDSApprndOfSpouse name="schedule5A2014.totalHeadIncome.tDSApprndOfSpouse" >0</ITRForm:TDSApprndOfSpouse>
+			</ITRForm:TotalHeadIncome>
+  </ITRForm:Schedule5A2014>
+
+ <ITRForm:ScheduleAL>
+ <ITRForm:ImmovableFlag name="itr2.scheduleAL.immovableFlag" />
+    <ITRForm:ImmovableDetails>
+    		<ITRForm:Description name="itr2.scheduleAL.immovableDtls[0].description"/>
+    			<ITRForm:AddressAL>
+					<ITRForm:ResidenceNo name="itr2.scheduleAL.immovableDtls[0].residenceNo" />
+					<ITRForm:ResidenceName	name="itr2.scheduleAL.immovableDtls[0].residenceName" />
+					<ITRForm:RoadOrStreet name="itr2.scheduleAL.immovableDtls[0].roadOrStreet" />
+					<ITRForm:LocalityOrArea	name="itr2.scheduleAL.immovableDtls[0].localityOrArea" />
+					<ITRForm:CityOrTownOrDistrict name="itr2.scheduleAL.immovableDtls[0].cityOrTownOrDistrict" />
+					<ITRForm:StateCode name="itr2.scheduleAL.immovableDtls[0].stateCode" />
+					<ITRForm:CountryCode name="itr2.scheduleAL.immovableDtls[0].country" />
+					<ITRForm:PinCode name="itr2.scheduleAL.immovableDtls[0].pinCode" />
+				</ITRForm:AddressAL>
+    		<ITRForm:Amount name="itr2.scheduleAL.immovableDtls[0].amount" />
+    </ITRForm:ImmovableDetails>
+    <ITRForm:MovableAsset>
+      	<ITRForm:DepositsInBank name="itr2.scheduleAL.movableAsset.depositsinbank"/>
+      	<ITRForm:SharesAndSecurities name="itr2.scheduleAL.movableAsset.sharesandsecurities"/>
+      	<ITRForm:InsurancePolicies name="itr2.scheduleAL.movableAsset.insurancepolicies"/>
+      	<ITRForm:LoansAndAdvancesGiven name="itr2.scheduleAL.movableAsset.loansandadvancesgiven"/>
+      	<ITRForm:CashInHand name="itr2.scheduleAL.movableAsset.cashInHand"/>
+      	<ITRForm:JewelleryBullionEtc name="itr2.scheduleAL.movableAsset.jewelleryBullionEtc"/>
+      	<ITRForm:ArchCollDrawPaintSulpArt name="itr2.scheduleAL.movableAsset.archCollDrawPaintSulpArt"/>
+      	<ITRForm:VehiclYachtsBoatsAircrafts name="itr2.scheduleAL.movableAsset.vehiclYachtsBoatsAircrafts"/>
+    </ITRForm:MovableAsset>
+    <ITRForm:LiabilityInRelatAssets name="itr2.scheduleAL.liabilityInRelatAssets"/>
+  </ITRForm:ScheduleAL>
+
+</ITR2FORM:ITR2>
+</ITRETURN:ITR>

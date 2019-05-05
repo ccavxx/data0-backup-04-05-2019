@@ -1,0 +1,394 @@
+The part added gets called returns true for value NSDL RPU 2.5
+BATCH VALIDATION STARTED
+................ 2
+................ 2
+................ 6
+................ 6
+isFinYrGrtrthn:- false
+ PersonResponsilblePAN :: ABBPM5358D
+PersonResponsilblePAN.trim().length() ::10
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER(WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER(WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER(WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: false
+TanNameFromTxtFile ::  OFFICE OF THE CHIEF ENGINEER(WZ)   TanNameFromCSIFile :: null
+TanFromTxtFile ::  MUMO02862G   TanFromCSIFile  :: null
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGMon Feb 25 13:37:57 IST 2019
+Field Validation of file is compleated sucessfully
+START # 25-02-2019 13:37:58.009
+ Original file object created and file exist
+tempFileName String cretaed ::  C:/Users/VISHAL/Desktop/To upload TDS/24Q ETDS - 2011-12 -Q2/24QCQ2_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^87^FVU 6.0^00000000000000000000^SAM 1.0^00000000000000000000^19022513375883904262
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 25-02-2019 13:37:58.009
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 22
+the cinFileLevelHC no. is00000000000010393402
+Return Hash Code = 0
+searchbarcode called
+Barcodeval :19022513375883904262
+Barcode is present
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Mon Feb 25 13:37:58 IST 2019
+ Exiting writeStatisticFile() Method Mon Feb 25 13:37:58 IST 2019
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 69
+ length : 70
+ BARCODE :- 19022513375883904262
+Inside generateForm27A
+ Entering writePdfFile() Method Mon Feb 25 13:37:58 IST 2019
+ Exiting writePdfFile() Method Mon Feb 25 13:37:58 IST 2019
+pdf generatedtrue
+END TIME : Mon Feb 25 13:37:58 IST 2019
+--DESKTOP OBJECT: java.awt.Desktop@5006afaf
+--error file path: C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2011-12 -Q2
+--dir to open object: C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2011-12 -Q2
+the text error file path is C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2011-12 -Q2
+the errorFileNameSAM is C:\Users\VISHAL\Desktop\To upload TDS\24Q ETDS - 2011-12 -Q2\24QCQ2.err
+---UPPER---
+inside File Saved
+State code change =19
+Size of appender: 272
+Size of appender: 273
+Size of appender: 269
+Size of appender: 270
+Size of appender: 269
+Size of appender: 276
+Size of appender: 269
+Size of appender: 275
+Size of appender: 268
+Size of appender: 271
+Size of appender: 269
+Size of appender: 273
+Size of appender: 276
+Size of appender: 271
+Size of appender: 283
+Size of appender: 272
+Size of appender: 269
+Size of appender: 276
+Size of appender: 274
+Size of appender: 273
+Size of appender: 269
+Size of appender: 267
+Size of appender: 276
+Size of appender: 272
+Size of appender: 268
+Size of appender: 274
+Size of appender: 269
+Size of appender: 272
+Size of appender: 271
+Size of appender: 271
+Size of appender: 269
+Size of appender: 276
+Size of appender: 269
+Size of appender: 268
+Size of appender: 276
+Size of appender: 272
+Size of appender: 265
+Size of appender: 276
+Size of appender: 270
+Size of appender: 273
+Size of appender: 268
+Size of appender: 273
+Size of appender: 271
+Size of appender: 275
+Size of appender: 272
+Size of appender: 271
+Size of appender: 270
+Size of appender: 269
+Size of appender: 280
+Size of appender: 271
+Size of appender: 276
+Size of appender: 271
+Size of appender: 264
+Size of appender: 271
+Size of appender: 281
+Size of appender: 272
+Size of appender: 271
+Size of appender: 279
+Size of appender: 267
+Size of appender: 272
+Size of appender: 276
+Size of appender: 275
+Size of appender: 274
+Size of appender: 268
+Size of appender: 271
+Size of appender: 272
+Size of appender: 269
+Size of appender: 272
+Size of appender: 273
+Size of appender: 272
+Size of appender: 272
+Size of appender: 273
+Size of appender: 269
+Size of appender: 269
+Size of appender: 270
+Size of appender: 277
+Size of appender: 265
+Size of appender: 270
+Size of appender: 263
+Size of appender: 260
+Size of appender: 265
+Size of appender: 260
+Size of appender: 270
+Size of appender: 265
+Size of appender: 272
+Size of appender: 264
+Size of appender: 266
+Size of appender: 265
+Size of appender: 269
+Size of appender: 263
+Size of appender: 268
+Size of appender: 272
+Size of appender: 273
+Size of appender: 268
+Size of appender: 267
+Size of appender: 268
+Size of appender: 265
+Size of appender: 269
+Size of appender: 264
+Size of appender: 265
+Size of appender: 272
+Size of appender: 263
+Size of appender: 265
+Size of appender: 269
+Size of appender: 270
+Size of appender: 267
+Size of appender: 270
+Size of appender: 284
+Size of appender: 272
+Size of appender: 277
+Size of appender: 272
+Size of appender: 272
+Size of appender: 281
+Size of appender: 266
+Size of appender: 275
+Size of appender: 270
+Size of appender: 265
+Size of appender: 264
+Size of appender: 272
+Size of appender: 268
+Size of appender: 261
+Size of appender: 272
+Size of appender: 269
+Size of appender: 279
+Size of appender: 265
+Size of appender: 264
+Size of appender: 266
+Size of appender: 267
+Size of appender: 267
+Size of appender: 268
+Size of appender: 267
+Size of appender: 266
+Size of appender: 265
+Size of appender: 267
+Size of appender: 260
+Size of appender: 267
+Size of appender: 277
+Size of appender: 268
+Size of appender: 267
+Size of appender: 275
+Size of appender: 263
+Size of appender: 268
+Size of appender: 272
+Size of appender: 269
+Size of appender: 270
+Size of appender: 264
+Size of appender: 267
+Size of appender: 268
+Size of appender: 265
+Size of appender: 268
+Size of appender: 269
+Size of appender: 268
+Size of appender: 268
+Size of appender: 269
+Size of appender: 265
+Size of appender: 276
+Size of appender: 283
+Size of appender: 271
+Size of appender: 276
+Size of appender: 273
+Size of appender: 269
+Size of appender: 271
+Size of appender: 269
+Size of appender: 276
+Size of appender: 271
+Size of appender: 278
+Size of appender: 270
+Size of appender: 272
+Size of appender: 271
+Size of appender: 275
+Size of appender: 272
+Size of appender: 273
+Size of appender: 277
+Size of appender: 278
+Size of appender: 273
+Size of appender: 272
+Size of appender: 273
+Size of appender: 270
+Size of appender: 274
+Size of appender: 269
+Size of appender: 270
+Size of appender: 277
+Size of appender: 268
+Size of appender: 270
+Size of appender: 274
+Size of appender: 275
+Size of appender: 272
+Size of appender: 275
+Size of appender: 271
+Size of appender: 280
+Size of appender: 275
+Size of appender: 270
+Size of appender: 269
+Size of appender: 277
+Size of appender: 273
+Size of appender: 266
+Size of appender: 277
+Size of appender: 274
+Size of appender: 284
+Size of appender: 270
+Size of appender: 269
+Size of appender: 271
+Size of appender: 272
+Size of appender: 277
+Size of appender: 273
+Size of appender: 272
+Size of appender: 271
+Size of appender: 270
+Size of appender: 272
+Size of appender: 265
+Size of appender: 272
+Size of appender: 282
+Size of appender: 273
+Size of appender: 272
+Size of appender: 280
+Size of appender: 268
+Size of appender: 273
+Size of appender: 277
+Size of appender: 274
+Size of appender: 275
+Size of appender: 269
+Size of appender: 272
+Size of appender: 273
+Size of appender: 270
+Size of appender: 273
+Size of appender: 274
+Size of appender: 273
+Size of appender: 273
+Size of appender: 274
+Size of appender: 270
+After first save file size: 0

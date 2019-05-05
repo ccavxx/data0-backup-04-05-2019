@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:ITR5FORM="http://incometaxindiaefiling.gov.in/ITR5" 
+	xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" 
+	targetNamespace="http://incometaxindiaefiling.gov.in/main"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://incometaxindiaefiling.gov.in/ITR5" schemaLocation="ITR-5_2018.xsd"/>	
+	<xs:element name="ITR">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ITR5FORM:ITR5" minOccurs="1" maxOccurs="unbounded"/>				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

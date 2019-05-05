@@ -1,0 +1,239 @@
+The part added gets called returns true for value TaxPro e-TDS 2018
+BATCH VALIDATION STARTED
+isFinYrGrtrthn:- true
+ PersonResponsilblePAN :: ABJPG0168K
+PersonResponsilblePAN.trim().length() ::10
+................ 6
+................ 6
+Validating Challan 1
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 37
+The FVU Higher Version is 5.7
+The FVU lower Version is 2.153
+TanNameFromTxtFile ::  MAJOR SUBSTATION DIVISION   TanNameFromCSIFile :: MAJOR SUBSTATION DIVISION
+TanFromTxtFile ::  PNEM07924A   TanFromCSIFile  :: PNEM07924A
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 1
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 2
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 37
+The FVU Higher Version is 5.7
+The FVU lower Version is 2.153
+TanNameFromTxtFile ::  MAJOR SUBSTATION DIVISION   TanNameFromCSIFile :: MAJOR SUBSTATION DIVISION
+TanFromTxtFile ::  PNEM07924A   TanFromCSIFile  :: PNEM07924A
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 2
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 3
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 37
+The FVU Higher Version is 5.7
+The FVU lower Version is 2.153
+TanNameFromTxtFile ::  MAJOR SUBSTATION DIVISION   TanNameFromCSIFile :: MAJOR SUBSTATION DIVISION
+TanFromTxtFile ::  PNEM07924A   TanFromCSIFile  :: PNEM07924A
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 3
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Validating Challan 4
+Validating Challan For Batch Number2
+Value of forCSIfile  :: true
+ cinmandatory
+No of challan from csi file :: 37
+The FVU Higher Version is 5.7
+The FVU lower Version is 2.153
+TanNameFromTxtFile ::  MAJOR SUBSTATION DIVISION   TanNameFromCSIFile :: MAJOR SUBSTATION DIVISION
+TanFromTxtFile ::  PNEM07924A   TanFromCSIFile  :: PNEM07924A
+ STARTING DEDUTEE VALIDATION FOR CHALLAN 4
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+RateAtWhichTaxDeducted^
+Entering Salary Detail Validation
+TotTDSWholeYear- 25276.00TDSCurEmp- 25276.00TDSPreEmp- 0.00
+TotTDSWholeYear- 32532.00TDSCurEmp- 32532.00TDSPreEmp- 0.00
+TotTDSWholeYear- 29203.00TDSCurEmp- 29203.00TDSPreEmp- 0.00
+TotTDSWholeYear- 34722.00TDSCurEmp- 34722.00TDSPreEmp- 0.00
+TotTDSWholeYear- 17278.00TDSCurEmp- 17278.00TDSPreEmp- 0.00
+TotTDSWholeYear- 536.00TDSCurEmp- 536.00TDSPreEmp- 0.00
+TotTDSWholeYear- 21748.00TDSCurEmp- 21748.00TDSPreEmp- 0.00
+TotTDSWholeYear- 43675.00TDSCurEmp- 28315.00TDSPreEmp- 15360.00
+TotTDSWholeYear- 2339.00TDSCurEmp- 2339.00TDSPreEmp- 0.00
+TotTDSWholeYear- 52542.00TDSCurEmp- 52542.00TDSPreEmp- 0.00
+TotTDSWholeYear- 9663.00TDSCurEmp- 9663.00TDSPreEmp- 0.00
+TotTDSWholeYear- 50648.00TDSCurEmp- 50648.00TDSPreEmp- 0.00
+TotTDSWholeYear- 10281.00TDSCurEmp- 10281.00TDSPreEmp- 0.00
+TotTDSWholeYear- 12623.00TDSCurEmp- 12623.00TDSPreEmp- 0.00
+TotTDSWholeYear- 36888.00TDSCurEmp- 36888.00TDSPreEmp- 0.00
+TotTDSWholeYear- 9493.00TDSCurEmp- 9493.00TDSPreEmp- 0.00
+TotTDSWholeYear- 53283.00TDSCurEmp- 53283.00TDSPreEmp- 0.00
+TotTDSWholeYear- 19051.00TDSCurEmp- 19051.00TDSPreEmp- 0.00
+TotTDSWholeYear- 1872.00TDSCurEmp- 1872.00TDSPreEmp- 0.00
+TotTDSWholeYear- 6478.00TDSCurEmp- 6478.00TDSPreEmp- 0.00
+TotTDSWholeYear- 96363.00TDSCurEmp- 96363.00TDSPreEmp- 0.00
+TotTDSWholeYear- 77576.00TDSCurEmp- 50948.00TDSPreEmp- 26628.00
+TotTDSWholeYear- 108036.00TDSCurEmp- 73737.00TDSPreEmp- 34299.00
+TotTDSWholeYear- 77145.00TDSCurEmp- 56641.00TDSPreEmp- 20504.00
+TotTDSWholeYear- 24805.00TDSCurEmp- 24805.00TDSPreEmp- 0.00
+TotTDSWholeYear- 135248.00TDSCurEmp- 106589.00TDSPreEmp- 28659.00
+TotTDSWholeYear- 54844.00TDSCurEmp- 54844.00TDSPreEmp- 0.00
+TotTDSWholeYear- 32819.00TDSCurEmp- 32819.00TDSPreEmp- 0.00
+TotTDSWholeYear- 136724.00TDSCurEmp- 96413.00TDSPreEmp- 40311.00
+TotTDSWholeYear- 103060.00TDSCurEmp- 103060.00TDSPreEmp- 0.00
+TotTDSWholeYear- 71743.00TDSCurEmp- 71743.00TDSPreEmp- 0.00
+TotTDSWholeYear- 42325.00TDSCurEmp- 42325.00TDSPreEmp- 0.00
+TotTDSWholeYear- 74105.00TDSCurEmp- 74105.00TDSPreEmp- 0.00
+TotTDSWholeYear- 38435.00TDSCurEmp- 38435.00TDSPreEmp- 0.00
+TotTDSWholeYear- 8249.00TDSCurEmp- 7684.00TDSPreEmp- 565.00
+TotTDSWholeYear- 7042.00TDSCurEmp- 7042.00TDSPreEmp- 0.00
+TotTDSWholeYear- 2672.00TDSCurEmp- 2672.00TDSPreEmp- 0.00
+TotTDSWholeYear- 1456.00TDSCurEmp- 1456.00TDSPreEmp- 0.00
+TotTDSWholeYear- 62204.00TDSCurEmp- 62204.00TDSPreEmp- 0.00
+TotTDSWholeYear- 48190.00TDSCurEmp- 48190.00TDSPreEmp- 0.00
+TotTDSWholeYear- 324.00TDSCurEmp- 324.00TDSPreEmp- 0.00
+TotTDSWholeYear- 51682.00TDSCurEmp- 51682.00TDSPreEmp- 0.00
+TotTDSWholeYear- 11824.00TDSCurEmp- 11824.00TDSPreEmp- 0.00
+TotTDSWholeYear- 33326.00TDSCurEmp- 33326.00TDSPreEmp- 0.00
+TotTDSWholeYear- 29650.00TDSCurEmp- 29650.00TDSPreEmp- 0.00
+TotTDSWholeYear- 159.00TDSCurEmp- 159.00TDSPreEmp- 0.00
+TotTDSWholeYear- 25083.00TDSCurEmp- 25083.00TDSPreEmp- 0.00
+TotTDSWholeYear- 26898.00TDSCurEmp- 26898.00TDSPreEmp- 0.00
+TotTDSWholeYear- 25009.00TDSCurEmp- 25009.00TDSPreEmp- 0.00
+TotTDSWholeYear- 9007.00TDSCurEmp- 9007.00TDSPreEmp- 0.00
+ END OF :::BIFERCATING CHALAN AND TV AND CIN CHECKINGTue May 29 20:49:45 IST 2018
+Field Validation of file is compleated sucessfully
+START # 29-05-2018 20:49:46.217
+ Original file object created and file exist
+tempFileName String cretaed ::  Z://Shilpa Madam//Timesheet//14. Ruchita//OTHER//New folder//New folder//EM024Q4_temp.fvu
+ brtTemp object created for temp file
+String line created 
+isAppendForNextLine (Inside if condition ) :: 1
+ After appending line 1^299^FVU 5.7^00000000000000000000^SAM 1.0^00000000000000000000^18052920494691635099
+f.close()
+f = null
+brTemp.flush()
+brTemp.close()
+brTemp = null;
+END # 29-05-2018 20:49:46.278
+Original file is deleted
+Temp file renamed
+In processCINFile method
+the challan count is 37
+the cinFileLevelHC no. is00000000000027393339
+Return Hash Code = 0
+Hash Validation of file is done sucessfully
+Inside generateStatisticFile Method 
+FileGenerator.java ParseString() method is called 
+FileGenerator.java ParseString() method is returning 
+FileGenerator.java createStatisticFileString() method is called
+ Entering writeStatisticFile() Method Tue May 29 20:49:46 IST 2018
+ Exiting writeStatisticFile() Method Tue May 29 20:49:46 IST 2018
+FileGenerator.java createStatisticFileString() method is returning
+ length : 70
+ length : 70
+ BARCODE :- 18052920494691635099
+Inside generateForm27A
+ Entering writePdfFile() Method Tue May 29 20:49:46 IST 2018
+ Exiting writePdfFile() Method Tue May 29 20:49:46 IST 2018
+pdf generatedtrue
+END TIME : Tue May 29 20:49:47 IST 2018
+--DESKTOP OBJECT: java.awt.Desktop@c4ed84
+--error file path: Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\New folder\\New folder\
+--dir to open object: Z:\Shilpa Madam\Timesheet\14. Ruchita\OTHER\New folder\New folder
+the text error file path is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\New folder\\New folder\
+the errorFileNameSAM is Z:\\Shilpa Madam\\Timesheet\\14. Ruchita\\OTHER\\New folder\\New folder\\EM024Q4error.txt

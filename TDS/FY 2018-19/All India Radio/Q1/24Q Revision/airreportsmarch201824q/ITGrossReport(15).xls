@@ -1,0 +1,138 @@
+
+
+  
+ 
+
+
+
+
+
+<html>
+<head>
+<title>Income Tax Report</title>
+<script language="JavaScript" src="/AIRPayroll/jscript/Smart.js"></script>
+</head>    
+<body >
+<form onDblClick="showToolbar()">
+
+<center>ALL INDIA RADIO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROSS AND INCOME TAX FOR MONTH OF:&nbsp;March&nbsp;&nbsp;2018<br>Bill No:-17/04/2018</center>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="61%" id="AutoNumber1" height="65" >
+ <tr>
+	<td width="10%" height="22" colspan="1"  align="center"><font size="3" face="Times New Roman, Times, serif"><strong><b>Sr.No. </b></strong></font></td>
+	<td width="15%" height="22" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;EMPNO </b></strong></font></td>
+	<td width="24%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;NAME </b></strong></font></td>
+	<td width="18%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;PAN NO </b></strong></font></td>
+	<td width="17%" colspan="1"  align="left"><font size="3" face="Times New Roman, Times, serif"><strong><b>&nbsp;Gross Amt</b></strong></font></td>
+	<td width="16%" colspan="1" align="center"><font size="3"  face="Times New Roman, Times, serif"><strong><b>&nbsp;ITax Amt </b></strong></font><strong></td>
+ </tr>
+
+<br>
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">1</td>
+	<td width="15%" colspan="1"  align="left">46</td>
+	<td width="24%" colspan="1"  align="left"> ANIL NETAM</td>
+	<td width="18%" colspan="1"  align="left">AEAPN1110L</td>
+	<td width="17%" colspan="1" align="right">62346</td>
+	<td width="16%" colspan="1" align="right">2200</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">2</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.1270164</td>
+	<td width="24%" colspan="1"  align="left"> KAILAS A BAIKAR</td>
+	<td width="18%" colspan="1"  align="left">AIGPB5678P</td>
+	<td width="17%" colspan="1" align="right">68925</td>
+	<td width="16%" colspan="1" align="right">2400</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">3</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.4790336</td>
+	<td width="24%" colspan="1"  align="left"> B A DHURI</td>
+	<td width="18%" colspan="1"  align="left">ACAPD3071G</td>
+	<td width="17%" colspan="1" align="right">58992</td>
+	<td width="16%" colspan="1" align="right">1694</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">4</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.4820336</td>
+	<td width="24%" colspan="1"  align="left"> INDIRA HARI</td>
+	<td width="18%" colspan="1"  align="left">ABSPH7453F</td>
+	<td width="17%" colspan="1" align="right">58992</td>
+	<td width="16%" colspan="1" align="right">600</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">5</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.4840336</td>
+	<td width="24%" colspan="1"  align="left"> N VINODKUMAR VASU</td>
+	<td width="18%" colspan="1"  align="left">ABAPN1177G</td>
+	<td width="17%" colspan="1" align="right">57444</td>
+	<td width="16%" colspan="1" align="right">1200</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">6</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.4850336</td>
+	<td width="24%" colspan="1"  align="left"> RAJASHRI B RAUT</td>
+	<td width="18%" colspan="1"  align="left">AHXPR9008B</td>
+	<td width="17%" colspan="1" align="right">57444</td>
+	<td width="16%" colspan="1" align="right">890</td>
+ </tr>
+ 
+ 
+
+
+ 
+  <tr>
+	<td width="10%" colspan="1"  align="left">7</td>
+	<td width="15%" colspan="1"  align="left">HRIS NO.4930336</td>
+	<td width="24%" colspan="1"  align="left"> LAXMI B BHANUSE</td>
+	<td width="18%" colspan="1"  align="left">AHEPB3182B</td>
+	<td width="17%" colspan="1" align="right">57444</td>
+	<td width="16%" colspan="1" align="right">970</td>
+ </tr>
+ 
+ 
+  
+
+
+  <tr>
+	<td colspan="4"  align="center">GRAND TOTAL </td>
+	<td colspan="1"  align="right">=Sum(E4:E10)</td>
+	<td width="16%" colspan="1"  align="right">=Sum(F4:F10)</td>
+ </tr>
+</table> 
+<p>&nbsp;  </p>
+<p>&nbsp;  </p>
+   <div class="cp" id=buttons style="visibility: visible" Align='center'>
+	<input type="button" name="back" value=" Back " class="textboxes" onClick="javascript: history.back();">&nbsp;
+	<input type="button" name="print" value=" Print " class="textboxes" onClick="javascript: showToolbar();window.print();">
+ </div>
+</form>
+</body>
+</html>
